@@ -168,6 +168,8 @@ def mark_layer(ch, a):
 
 def main():
     cfg=json.load(open(sys.argv[1])); out=sys.argv[2]
+    chk=subprocess.run([sys.executable,os.path.join(ROOT,'tools','reel_check.py'),sys.argv[1]])
+    if chk.returncode: sys.exit('곡 이름 점검 실패: 영상을 만들지 않았어요')
     wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
     scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
     bg=gradient().convert('RGBA'); art=(star_layer() if cfg.get('theme')=='stars' else branch_layer()); petals=(Twinkle() if cfg.get('theme')=='stars' else Petals()); LW,LH=art.size
