@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-17T17:13:26.380311+00:00",
+ "via": "api",
+ "ok": true,
+ "out": "ERR {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":2207051,\"is_transient\":false,\"error_user_msg\":\"Instagram은 커뮤니티를 보호하기 위해 특정 활동을 제한합니다. 이 조치가 실수라고 생각하는 경우 저희에게 알려주세요.\",\"error_user_title\":\"행동이 차단되었습니다\",\"fbtrace_id\":\"AY1ahDCPH8zO9NYAJhECGPM\"}}",
+ "note": "API는 제한 오류를 돌려줬지만 실제로는 게시됨(17:13:23Z). 다시 올리지 말 것",
+ "permalink": "https://www.instagram.com/p/Df2cMEPF9O_/"
+}
