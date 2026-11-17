@@ -1,0 +1,162 @@
+#!/usr/bin/env python3
+"""그림이 있는 사주 릴스(1080x1920). 배경 그림은 코드로 직접 그린 원본(복숭아꽃 가지 등),
+꽃잎이 천천히 떨어지고 글줄은 한 줄씩 떠오른다. 음악은 기존 쇼츠 음원을 그대로 깐다.
+python3 tools/saju_reel.py <config.json> <out.mp4>
+config: {"audio","theme":"blossom","scenes":[{"sec","small","big":[...],"big_size","after":[...],"en"}]}"""
+import json, math, os, random, subprocess, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tarot_reel import F, W, H, FPS, GOLD, SOFT, DIM, ROOT
+from PIL import Image, ImageDraw, ImageFilter, ImageChops
+
+R = random.Random(7)
+PINK, PINK2, CORE = (240, 168, 186), (252, 214, 222), (255, 236, 196)
+
+def gradient():
+    bg = Image.new('RGB', (W, H), (12, 14, 22))
+    glow = Image.new('L', (W, H), 0)
+    ImageDraw.Draw(glow).ellipse([-300, 300, W + 300, 1700], fill=80)
+    glow = glow.filter(ImageFilter.GaussianBlur(260))
+    bg.paste(Image.new('RGB', (W, H), (58, 44, 60)), mask=glow)
+    return bg
+
+def blossom(d, x, y, r, rot, col):
+    for k in range(5):
+        a = rot + k * 2 * math.pi / 5
+        cx, cy = x + math.cos(a) * r * 0.62, y + math.sin(a) * r * 0.62
+        d.ellipse([cx - r * 0.55, cy - r * 0.55, cx + r * 0.55, cy + r * 0.55], fill=col)
+    d.ellipse([x - r * 0.22, y - r * 0.22, x + r * 0.22, y + r * 0.22], fill=CORE)
+
+def branch_layer():
+    """오른쪽 위에서 들어오는 복숭아 가지 (RGBA, 화면보다 약간 크게: 줌용)."""
+    LW, LH = int(W * 1.12), int(H * 1.12)
+    ink = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(ink)
+    flowers = []
+    def grow(x, y, ang, length, width, depth):
+        if depth == 0 or length < 18:
+            flowers.append((x, y)); return
+        pts = [(x, y)]
+        for s in range(6):
+            ang += R.uniform(-0.18, 0.18)
+            x += math.cos(ang) * length / 6; y += math.sin(ang) * length / 6
+            pts.append((x, y))
+        for a, b in zip(pts, pts[1:]):
+            d.line([a, b], fill=(46, 32, 30, 255), width=max(2, int(width)))
+        if depth <= 3 and R.random() < 0.7: flowers.append((x, y))
+        n = 2 if depth > 2 else R.choice([1, 2, 2, 3])
+        for _ in range(n):
+            grow(x, y, ang + R.uniform(-0.75, 0.75), length * R.uniform(0.6, 0.78), width * 0.66, depth - 1)
+    grow(LW + 20, 160, math.pi * 0.86, 420, 26, 6)
+    grow(LW + 20, 520, math.pi * 1.02, 300, 16, 5)
+    grow(-20, LH - 260, -math.pi * 0.18, 300, 18, 5)
+    glow = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
+    fl = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); f = ImageDraw.Draw(fl)
+    for (x, y) in flowers:
+        for _ in range(R.choice([1, 1, 2])):
+            ox, oy = R.uniform(-22, 22), R.uniform(-22, 22); r = R.uniform(13, 24)
+            g.ellipse([x + ox - r * 2, y + oy - r * 2, x + ox + r * 2, y + oy + r * 2], fill=(240, 160, 180, 60))
+            blossom(f, x + ox, y + oy, r, R.uniform(0, 6.3), PINK if R.random() < 0.6 else PINK2)
+    glow = glow.filter(ImageFilter.GaussianBlur(28))
+    out = Image.alpha_composite(glow, ink); out = Image.alpha_composite(out, fl)
+    # 글자 자리(가운데 띠, 머리글)는 그림을 옅게 비워 둔다
+    hole = Image.new('L', (LW, LH), 0); hd = ImageDraw.Draw(hole)
+    ox, oy = (LW - W) // 2, (LH - H) // 2
+    hd.rectangle([ox - 100, oy + 640, ox + W + 100, oy + 1360], fill=235)
+    hd.rectangle([ox + 220, oy + 150, ox + W - 220, oy + 330], fill=200)
+    hole = hole.filter(ImageFilter.GaussianBlur(90))
+    a = ImageChops.multiply(out.getchannel('A'), ImageChops.invert(hole)); out.putalpha(a)
+    return out
+
+class Petals:
+    def __init__(s, n=26):
+        s.p = [dict(x=R.uniform(0, W), y=R.uniform(-H, H), v=R.uniform(40, 90), sw=R.uniform(20, 60),
+                    ph=R.uniform(0, 6.3), r=R.uniform(7, 13), rot=R.uniform(0, 6.3), c=PINK if R.random() < .6 else PINK2)
+               for _ in range(n)]
+    def draw(s, im, t):
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        for q in s.p:
+            y = (q['y'] + q['v'] * t) % (H + 100) - 50
+            x = q['x'] + math.sin(t * 0.9 + q['ph']) * q['sw']
+            a = q['rot'] + t * 0.8; r = q['r']
+            dx, dy = math.cos(a) * r, math.sin(a) * r * 0.5
+            d.ellipse([x - abs(dx) - 3, y - abs(dy) - 3, x + abs(dx) + 3, y + abs(dy) + 3], fill=q['c'] + (190,))
+        im.alpha_composite(lay)
+
+def text_layer(cfg, sc, t):
+    lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    def ct(y, s, f, col, a):
+        if a <= 0: return
+        w = d.textlength(s, font=f)
+        d.text(((W - w) / 2 + 3, y + 3), s, font=f, fill=(0, 0, 0, int(160 * a)))
+        d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),))
+    ct(200, cfg.get('header', '사주 · 오행음악 · 고요'), F(40, True), SOFT, 1)
+    ct(258, "FIVE ELEMENTS MUSIC", F(28), DIM, 1)
+    lines = []
+    if sc.get('small'): lines.append((sc['small'], F(48, True), SOFT, 112))
+    bs = sc.get('big_size', 96)
+    for s in sc.get('big', []): lines.append((s, F(bs, True), GOLD, bs + 42))
+    for i, s in enumerate(sc.get('after', [])): lines.append((s, F(46), SOFT, 76 + (30 if i == 0 else 0)))
+    if sc.get('en'): lines.append((sc['en'], F(34), DIM, 60))
+    total = sum(l[3] for l in lines); y = (H - total) // 2 + 60
+    step = sc.get('step', 0.45)
+    for i, (s, f, col, h) in enumerate(lines):
+        if col is DIM or (h == 76 + 30 and False): pass
+        a = max(0, min(1, (t - 0.25 - i * step) / 0.5))
+        ct(y + (1 - a) * 18, s, f, col, a); y += h
+    return lay
+
+def build_audio(parts, out, xf=0.8):
+    """parts: [{"file","start","dur"}] -> 이어 붙인 음원(크로스페이드)."""
+    args=['ffmpeg','-v','error','-y']
+    for p in parts: args+=['-ss',str(p['start']),'-t',str(p['dur']+xf),'-i',os.path.join(ROOT,p['file'])]
+    n=len(parts); fl=''; last='[0:a]'
+    for i in range(1,n):
+        o=f'[a{i}]'; fl+=f'{last}[{i}:a]acrossfade=d={xf}:c1=tri:c2=tri{o};'; last=o
+    total=sum(p['dur'] for p in parts)
+    fl+=f'{last}afade=t=in:d=0.4,afade=t=out:st={total-1.4}:d=1.4,atrim=0:{total}[out]'
+    subprocess.check_call(args+['-filter_complex',fl,'-map','[out]','-c:a','pcm_s16le',out])
+    return total
+
+def tint_layer(col, strength):
+    g=Image.new('L',(W,H),0); ImageDraw.Draw(g).ellipse([-200,250,W+200,1750],fill=int(110*strength))
+    g=g.filter(ImageFilter.GaussianBlur(240)); lay=Image.new('RGBA',(W,H),col+(255,)); lay.putalpha(g); return lay
+
+def mark_layer(ch, a):
+    lay=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(lay); f=F(620,True)
+    w=d.textlength(ch,font=f); d.text(((W-w)/2,560),ch,font=f,fill=(255,255,255,int(26*a))); return lay
+
+def main():
+    cfg=json.load(open(sys.argv[1])); out=sys.argv[2]
+    wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
+    scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
+    bg=gradient().convert('RGBA'); art=branch_layer(); petals=Petals(); LW,LH=art.size
+    veil=Image.new('L',(W,H),0); ImageDraw.Draw(veil).ellipse([40,600,W-40,1340],fill=160)
+    veil=veil.filter(ImageFilter.GaussianBlur(120)); dark=Image.new('RGBA',(W,H),(8,8,14,255)); dark.putalpha(veil)
+    tints={k:tint_layer(tuple(v),1) for k,v in cfg.get('tints',{}).items()}
+    marks={sc['mark']:None for sc in scs if sc.get('mark')}
+    ff=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r',str(FPS),'-i','-',
+        '-i',wav,'-map','0:v','-map','1:a','-c:v','libx264','-pix_fmt','yuv420p','-crf','19','-c:a','aac','-b:a','192k',
+        '-shortest','-movflags','+faststart',out],stdin=subprocess.PIPE)
+    T=0.0
+    for idx,sc in enumerate(scs):
+        dur=sc['sec']; n=int(round(dur*FPS)); tl_cache={}
+        for k in range(n):
+            t=k/FPS; g=(T+t)/total; z=1.0+0.10*g
+            bw,bh=int(W/z*1.0),int(H/z); cx,cy=LW/2-40*g,LH/2+30*g
+            crop=art.crop((int(cx-bw/2),int(cy-bh/2),int(cx+bw/2),int(cy+bh/2))).resize((W,H),Image.BILINEAR)
+            fr=bg.copy()
+            if sc.get('tint') in tints:
+                a=min(1,t/0.8,(dur-t)/0.5+0.0) if idx<len(scs)-1 else min(1,t/0.8)
+                lay=tints[sc['tint']].copy(); lay.putalpha(lay.getchannel('A').point(lambda v:int(v*max(0,a)))); fr.alpha_composite(lay)
+            fr.alpha_composite(crop); petals.draw(fr,T+t)
+            if sc.get('mark'): fr.alpha_composite(mark_layer(sc['mark'],max(0,min(1,t/0.8))))
+            fr.alpha_composite(dark)
+            fade_out=1 if idx==len(scs)-1 else max(0,min(1,(dur-t)/0.35))
+            tl=text_layer(cfg,sc,t)
+            if fade_out<1: tl.putalpha(tl.getchannel('A').point(lambda v:int(v*fade_out)))
+            fr.alpha_composite(tl)
+            ff.stdin.write(fr.convert('RGB').tobytes())
+        T+=dur
+    ff.stdin.close(); ff.wait(); os.remove(wav); print('ok',out,round(total,1),'s')
+
+if __name__ == '__main__':
+    main()
