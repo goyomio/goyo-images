@@ -3,7 +3,7 @@
 tarot.json: {"label":"11월 18일 · 고요의 세 장","positions":["오늘의 결","머물 것","내려놓을 것"],
  "cards":[{"id","ko","rev","file","title","text"}x3],"story":[문단...],"story_q":"질문 한 줄",
  "music":{"intro":"...","element":"화","title_html":"...","line":"..."}}
-→ 같은 폴더에 01~06.jpg 생성 (1909 원판 스캔, 역방향은 180도 회전)"""
+→ 같은 폴더에 01~06.jpg + story.jpg(1080x1920) 생성 (1909 원판 스캔, 역방향은 180도 회전)"""
 import asyncio, base64, json, os, sys, io
 from PIL import Image
 here=os.path.dirname(os.path.abspath(__file__)); root=os.path.abspath(os.path.join(here,'..','..'))
@@ -35,5 +35,10 @@ async def main():
             await pg.set_content(html); await pg.wait_for_timeout(300)
             p=f"{d}/{i:02d}.png"; await pg.screenshot(path=p)
             Image.open(p).convert('RGB').save(f"{d}/{i:02d}.jpg",quality=92); os.remove(p)
+        # 스토리용(1080x1920): 첫 장과 같은 내용, 넘기기 안내·쪽수 없이
+        sbody=slides[0][0]
+        html=BASE.replace("{body}",sbody).replace("{extra}",'<div class="swipe">세 장의 이야기는 오늘 피드에 있어요</div>').replace("{page}","")
+        await pg.set_content(html); await pg.wait_for_timeout(300)
+        await pg.screenshot(path=f"{d}/story.png"); im=Image.open(f"{d}/story.png").convert('RGB'); bg=Image.new('RGB',(1080,1920),(0,0,0)); bg.paste(im,(0,285)); bg.save(f"{d}/story.jpg",quality=92); os.remove(f"{d}/story.png")
         await b.close()
 asyncio.run(main()); print('ok',len(slides))

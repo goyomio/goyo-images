@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """goyo_mio 인스타 업로드 (Instagram Graph API). 사용: python3 ig_post.py <post.json> [--dry]
-post.json: {"type":"carousel"|"reel"|"image","urls":[...]|"video":url,"caption":str}
+post.json: {"type":"carousel"|"reel"|"image"|"story","urls":[...]|"video":url,"caption":str}
 토큰: goyo-keys/ig_token.txt (비공개 저장소). --dry 는 컨테이너만 만들고 게시하지 않음."""
 import json, sys, time, urllib.request, urllib.parse, os
 IG='17841458898232975'; V='v23.0'
@@ -27,6 +27,8 @@ def build(cfg):
         kids=[call(f'{IG}/media',{'image_url':u,'is_carousel_item':'true'})['id'] for u in cfg['urls']]
         for k in kids: wait(k)
         c=call(f'{IG}/media',{'media_type':'CAROUSEL','children':','.join(kids),'caption':cfg['caption']})
+    elif t=='story':
+        c=call(f'{IG}/media',{'media_type':'STORIES','image_url':cfg['urls'][0]})
     elif t=='reel':
         c=call(f'{IG}/media',{'media_type':'REELS','video_url':cfg['video'],'caption':cfg['caption'],'share_to_feed':'true'})
     else:
