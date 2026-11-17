@@ -74,7 +74,6 @@ footer{margin-top:40px;font-size:12px;letter-spacing:.2em;color:#6d6a63}
       개수는 시작일 뿐이에요. 언제 태어났는지(계절), 글자 속에 숨은 기운(지장간)까지 봐야 진짜 강약이 보여요. 적다고 무조건 약한 건 아니고, 많다고 늘 좋은 것도 아니에요.<br><br>
       계산 기준: 연주·월주는 절기가 드는 시각, 일주·시주는 서울 경도로 보정한 시각(약 32분)으로 봐요. 밤 11시대 출생은 다음 날로 봐요(조자시). 서머타임이 있던 해도 반영했어요. 여기서는 천간은 그대로, 지지는 대표 기운 하나로 셌어요.
     </div>
-    <a class="go" href="https://youtube.com/@happymioply">GOYO 유튜브에서 들어 보기</a>
   </section>
   <footer>GOYO 고요 · 오행 음악 · 타로 · 사주</footer>
 </main>
@@ -8693,7 +8692,7 @@ document.getElementById('go').addEventListener('click',()=>{
   document.getElementById('bars').innerHTML=EL.map(e=>`<div class="row"><span class="k" style="color:${e==='수'?'#fff':COL[e]}">${e}</span><span class="bar"><i style="width:${cnt[e]/max*100}%;background:${COL[e]};${e==='수'?'box-shadow:inset 0 0 0 1.5px #fff;':''}"></i></span><span class="n">${cnt[e]}</span></div>`).join('')+`<p style="margin-top:8px">모두 ${total}글자를 셌어요.</p>`;
   const gi=G.indexOf(r.일[0]), de=GE[gi], dn=`${GK[gi]}${de}(${G[gi]}${HAN[de]})`;
   const empty=EL.filter(e=>cnt[e]===0), mx=Math.max(...EL.map(e=>cnt[e])), most=EL.filter(e=>cnt[e]===mx);
-  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}의 결이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`;
+  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}의 결이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="https://youtube.com/@happymioply">GOYO 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
   c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 결로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>비어 있는 기운의 편을 곁에 틀어 두셔도 좋아요.</p></div>`
    :`<div class="card"><div class="kicker">비어 있는 기운</div><h2>다섯 오행이 모두 있어요</h2><p>가장 많은 기운은 ${ieyo(most.join(' · '))}. 그날 시간대에 맞는 편을 골라 들어 보세요.<br>아침 목 · 한낮 화 · 저녁 금 · 밤 수, 그 사이마다 토.</p></div>`;
   document.getElementById('cards').innerHTML=c;
