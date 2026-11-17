@@ -10,5 +10,6 @@
   "posts/2026-11-18/05.jpg",
   "posts/2026-11-18/06.jpg"
  ],
- "approved": true
+ "approved": false,
+ "note": "11/18 새 디자인 규칙으로 승인 해제(첫 장 다시 만들 것)"
 }

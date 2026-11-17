@@ -2,7 +2,7 @@
  "type": "carousel",
  "caption": "고요 열다섯 편, 한 장의 지도.\n\n오행 다섯 편: 목 실내악 32곡, 화 재즈 34곡, 토 로파이 41곡, 금 피아노 독주 35곡, 수 앰비언트 피아노 63곡.\n천간 열 편: 갑목 40곡(Morning Oak), 을목 40곡(Morning Tendril), 병화 28곡(Noon Avenue), 정화 22곡(Lamplit Keys), 무토 44곡(Mountain Desk), 기토 31곡(Tilled Morning), 경금 21곡(Granite Light), 신금 21곡(Prism), 임수 59곡(Wide Water), 계수 57곡(Drizzle).\n\n괄호 안은 각 편의 첫 곡이에요. 다섯 가지 결, 열다섯 편, 568곡. 내년에도 곁에 깔아 두는 소리로 있을게요.\n\n프로필 링크 → GOYO 유튜브\n\n#고요 #고요의이야기 #오행음악 #플레이리스트 #다섯가지고요",
  "via": "api",
- "approved": true,
+ "approved": false,
  "files": [
   "posts/2026-12-30/01.jpg",
   "posts/2026-12-30/02.jpg",
@@ -10,5 +10,6 @@
   "posts/2026-12-30/04.jpg",
   "posts/2026-12-30/05.jpg",
   "posts/2026-12-30/06.jpg"
- ]
+ ],
+ "note": "11/18 새 디자인 규칙으로 승인 해제(첫 장 다시 만들 것)"
 }
