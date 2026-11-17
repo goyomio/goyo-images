@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """주간 성과 요약. 사용: python3 tools/ig_insights.py [일수=7]
 최근 N일 피드 게시물의 조회·도달·저장·공유·좋아요·댓글을 모아 순위를 낸다.
-기준(중앙값) 대비 3배 이상이면 '튄 게시물'로 표시. 결과는 log/insights/YYYY-MM-DD.md 에도 저장."""
+순위는 도달 기준, 같은 도달이면 공유/도달 비율. 기준(중앙값) 대비 3배 이상이면 '튄 게시물'로 표시. 결과는 log/insights/YYYY-MM-DD.md 에도 저장."""
 import json, sys, os, statistics, datetime as dt, urllib.request, urllib.parse, urllib.error
 IG='17841458898232975'; V='v23.0'
 KEY=next(p for p in ['/home/claude/goyo-keys/ig_token.txt','../goyo-keys/ig_token.txt'] if os.path.exists(p))
@@ -26,15 +26,20 @@ for m in data:
     title=(m.get('caption') or '').split('\n')[0][:28]
     kind='릴스' if m.get('media_product_type')=='REELS' else ('타로' if '고요의 세 장' in (m.get('caption') or '') else '피드')
     rows.append(dict(t=kst.strftime('%m/%d %H:%M'),kind=kind,title=title,link=m['permalink'],likes=m.get('like_count',0),comments=m.get('comments_count',0),**met))
-def score(r): return (r['reach'] or 0)+3*(r['saved'] or 0)+3*(r['shares'] or 0)
+def score(r):
+    reach=r['reach'] or 0
+    return (reach, (r['shares'] or 0)/reach if reach else 0, r['likes'] or 0)
 rows.sort(key=score, reverse=True)
 perm_ok=any(r['reach'] is not None for r in rows)
 med=statistics.median([r['reach'] or 0 for r in rows]) if rows else 0
 L=[f"# 고요 주간 성과 ({dt.date.today()} 기준 최근 {days}일)",f"팔로워 {acct.get('followers_count','?')} · 전체 게시물 {acct.get('media_count','?')} · 이번 기간 {len(rows)}개 · 도달 중앙값 {med:g}","",
    ("" if perm_ok or not rows else "※ 토큰에 instagram_manage_insights 권한이 없어 도달·조회·저장·공유는 비어 있음(좋아요·댓글만 집계)"),"",
-   "| 순위 | 게시 | 종류 | 첫 줄 | 도달 | 조회 | 저장 | 공유 | 좋아요 | 댓글 | 비고 |","|---|---|---|---|---|---|---|---|---|---|---|"]
+   "| 순위 | 게시 | 종류 | 첫 줄 | 도달 | 중앙값 대비 | 공유/도달 | 저장/도달 | 조회 | 좋아요 | 댓글 | 비고 |","|---|---|---|---|---|---|---|---|---|---|---|---|"]
 for i,r in enumerate(rows,1):
     note='튄 게시물(중앙값 3배↑)' if med and (r['reach'] or 0)>=3*med else ''
-    L.append(f"| {i} | {r['t']} | {r['kind']} | {r['title']} | {r['reach']} | {r['views']} | {r['saved']} | {r['shares']} | {r['likes']} | {r['comments']} | {note} |")
+    rc=r['reach'] or 0
+    mult=f"{rc/med:.1f}배" if med and r['reach'] is not None else '-'
+    sp=f"{(r['shares'] or 0)/rc*100:.1f}%" if rc else '-'; sv=f"{(r['saved'] or 0)/rc*100:.1f}%" if rc else '-'
+    L.append(f"| {i} | {r['t']} | {r['kind']} | {r['title']} | {r['reach']} | {mult} | {sp} | {sv} | {r['views']} | {r['likes']} | {r['comments']} | {note} |")
 out='\n'.join(L); print(out)
 os.makedirs('log/insights',exist_ok=True); open(f'log/insights/{dt.date.today()}.md','w').write(out+'\n')
