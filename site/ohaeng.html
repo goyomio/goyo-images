@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>고요 · 내 사주 오행 보기</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#0b0b0c;--fg:#f2efe8;--dim:#a39e93;--line:#2a2a2d;--gold:#c9a96a;--목:#2fd96b;--화:#ff3b2f;--토:#ffc21a;--금:#ffffff;--수:#000000}
 *{box-sizing:border-box}
@@ -41,12 +41,13 @@ button{width:100%;margin-top:22px;padding:15px;border-radius:12px;border:1px sol
 .card p{margin:0}
 a.go{display:block;text-align:center;margin-top:22px;padding:15px;border-radius:12px;background:var(--fg);color:var(--bg);text-decoration:none;font-weight:700}
 .note{font-size:13px;color:var(--dim);margin-top:22px;border-top:1px solid var(--line);padding-top:16px}
+.en{font-family:'Cormorant Garamond',serif;font-weight:500;letter-spacing:.18em;font-size:1.12em}
 footer{margin-top:40px;font-size:12px;letter-spacing:.2em;color:#6d6a63}
 </style>
 </head>
 <body>
 <main>
-  <div class="kicker">GOYO 고요</div>
+  <div class="kicker"><span class="en">GOYO</span> 고요</div>
   <h1>내 사주 오행 보기</h1>
   <p>태어난 날과 시각을 숫자로만 넣으면<br>사주 여덟 글자와 오행,<br>나를 뜻하는 일간까지 한 번에 보여 드려요.</p>
   <div class="rule"></div>
@@ -78,9 +79,9 @@ footer{margin-top:40px;font-size:12px;letter-spacing:.2em;color:#6d6a63}
   </section>
   <div style="margin-top:34px;padding-top:22px;border-top:1px solid var(--line);text-align:center">
     <p style="margin:0;font-size:14px">음악만 들으러 오셨나요?</p>
-    <a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="https://www.youtube.com/@goyo_mio" rel="noopener">GOYO 유튜브에서 전곡 듣기</a>
+    <a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="https://www.youtube.com/@goyo_mio" rel="noopener"><span class="en">GOYO</span> 유튜브에서 전곡 듣기</a>
   </div>
-  <footer>GOYO 고요 · 오행 음악 · 타로 · 사주</footer>
+  <footer><span class="en">GOYO</span> 고요 · 오행 음악 · 타로 · 사주</footer>
 </main>
 <script>/*! lunar-javascript (MIT License, Copyright (c) 2018 6tail) */
 /*! lunar-javascript v1.7.8 */
@@ -8705,7 +8706,7 @@ document.getElementById('go').addEventListener('click',()=>{
   document.getElementById('bars').innerHTML=EL.map(e=>`<div class="row"><span class="k" style="color:${e==='수'?'#fff':COL[e]}">${e}</span><span class="bar"><i style="width:${cnt[e]/max*100}%;background:${COL[e]};${e==='수'?'box-shadow:inset 0 0 0 1.5px #fff;':''}"></i></span><span class="n">${cnt[e]}</span></div>`).join('')+`<p style="margin-top:8px">모두 ${total}글자를 셌어요.</p>`;
   const gi=G.indexOf(r.일[0]), de=GE[gi], dn=`${GK[gi]}${de}(${G[gi]}${HAN[de]})`;
   const empty=EL.filter(e=>cnt[e]===0), mx=Math.max(...EL.map(e=>cnt[e])), most=EL.filter(e=>cnt[e]===mx);
-  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}, 그런 기운이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="${url(GK[gi])}">GOYO 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
+  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}, 그런 기운이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="${url(GK[gi])}"><span class="en">GOYO</span> 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
   c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 기운으로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>다만 비어 있다고 꼭 필요한 기운은 아니에요.</p>${empty.map(e=>`<a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="${url(e)}">${e}(${HAN[e]}) 편 듣기 · ${GENRE[e]}</a>`).join('')}</div>`
    :`<div class="card"><div class="kicker">비어 있는 기운</div><h2>다섯 오행이 모두 있어요</h2><p>가장 많은 기운은 ${ieyo(most.join(' · '))}. 그날 시간대에 맞는 편을 골라 들어 보세요.<br>아침 목 · 한낮 화 · 저녁 금 · 밤 수, 그 사이마다 토.</p></div>`;
   document.getElementById('cards').innerHTML=c;
