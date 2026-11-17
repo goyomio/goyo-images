@@ -2,7 +2,7 @@
 """그림이 있는 사주 릴스(1080x1920). 배경 그림은 코드로 직접 그린 원본(복숭아꽃 가지 등),
 꽃잎이 천천히 떨어지고 글줄은 한 줄씩 떠오른다. 음악은 기존 쇼츠 음원을 그대로 깐다.
 python3 tools/saju_reel.py <config.json> <out.mp4>
-config: {"audio","theme":"blossom|stars|road|lamp","scenes":[{"sec","small","big":[...],"big_size","after":[...],"en"}]}"""
+config: {"audio","theme":"blossom|stars|road|lamp|moon","scenes":[{"sec","small","big":[...],"big_size","after":[...],"en"}]}"""
 import json, math, os, random, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tarot_reel import F, W, H, FPS, GOLD, SOFT, DIM, ROOT
@@ -237,6 +237,48 @@ class Motes:
             d.ellipse([x - q['r'], y - q['r'], x + q['r'], y + q['r']], fill=(255, 226, 170, max(0, a)))
         im.alpha_composite(lay)
 
+def moon_layer():
+    """달밤 언덕 위 홀로 선 나무: 큰 달 + 낮은 능선 + 나무 한 그루 실루엣 (원본 그림)."""
+    LW, LH = int(W * 1.12), int(H * 1.12)
+    lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    for _ in range(160):
+        x, y = R.uniform(0, LW), R.uniform(0, LH * 0.5); r = R.choice([1, 1, 1.5])
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(235, 230, 255, int(R.uniform(40, 130))))
+    glow = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
+    mx, my, mr = LW * 0.86, LH * 0.15, 110
+    g.ellipse([mx - mr * 3, my - mr * 3, mx + mr * 3, my + mr * 3], fill=(240, 228, 200, 70))
+    glow = glow.filter(ImageFilter.GaussianBlur(80))
+    d.ellipse([mx - mr, my - mr, mx + mr, my + mr], fill=(246, 238, 214, 235))
+    pts = [(0, LH)]
+    for x in range(0, LW + 40, 40):
+        pts.append((x, LH * 0.80 - 120 * math.exp(-((x - LW * 0.3) / 380) ** 2) - 18 * math.sin(x / 90)))
+    pts.append((LW, LH)); d.polygon(pts, fill=(16, 18, 28, 255))
+    bx, by = LW * 0.3, LH * 0.80 - 120
+    def grow(x, y, ang, length, width, depth):
+        if depth == 0 or length < 14: return
+        nx, ny = x + math.cos(ang) * length, y + math.sin(ang) * length
+        d.line([(x, y), (nx, ny)], fill=(16, 18, 28, 255), width=max(2, int(width)))
+        for da in (-0.45, 0.4) if depth > 1 else (-0.3,):
+            grow(nx, ny, ang + da + R.uniform(-0.15, 0.15), length * R.uniform(0.66, 0.78), width * 0.68, depth - 1)
+    grow(bx, by + 6, -math.pi / 2, 210, 26, 7)
+    out = Image.alpha_composite(glow, lay)
+    hole = Image.new('L', (LW, LH), 0); hd = ImageDraw.Draw(hole); ox, oy = (LW - W) // 2, (LH - H) // 2
+    hd.rectangle([ox - 100, oy + 640, ox + W + 100, oy + 1360], fill=170)
+    hole = hole.filter(ImageFilter.GaussianBlur(90))
+    out.putalpha(ImageChops.multiply(out.getchannel('A'), ImageChops.invert(hole)))
+    return out
+
+class Snow:
+    """천천히 내리는 첫눈."""
+    def __init__(s, n=70):
+        s.p = [dict(x=R.uniform(0, W), y=R.uniform(-H, H), v=R.uniform(35, 75), sw=R.uniform(10, 40), ph=R.uniform(0, 6.3), r=R.uniform(2, 4.5)) for _ in range(n)]
+    def draw(s, im, t):
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        for q in s.p:
+            y = (q['y'] + q['v'] * t) % (H + 40) - 20; x = q['x'] + math.sin(t * 0.7 + q['ph']) * q['sw']
+            d.ellipse([x - q['r'], y - q['r'], x + q['r'], y + q['r']], fill=(240, 244, 255, 190))
+        im.alpha_composite(lay)
+
 def build_audio(parts, out, xf=0.8):
     """parts: [{"file","start","dur"}] -> 이어 붙인 음원(크로스페이드)."""
     args=['ffmpeg','-v','error','-y']
@@ -263,7 +305,7 @@ def main():
     if chk.returncode: sys.exit('곡 이름 점검 실패: 영상을 만들지 않았어요')
     wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
     scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
-    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer,'lamp':lamp_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers,'lamp':Motes}.get(th,Petals)(); LW,LH=art.size
+    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer,'lamp':lamp_layer,'moon':moon_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers,'lamp':Motes,'moon':Snow}.get(th,Petals)(); LW,LH=art.size
     veil=Image.new('L',(W,H),0); ImageDraw.Draw(veil).ellipse([40,600,W-40,1340],fill=160)
     veil=veil.filter(ImageFilter.GaussianBlur(120)); dark=Image.new('RGBA',(W,H),(8,8,14,255)); dark.putalpha(veil)
     tints={k:tint_layer(tuple(v),1) for k,v in cfg.get('tints',{}).items()}
