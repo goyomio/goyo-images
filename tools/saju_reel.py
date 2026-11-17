@@ -2,7 +2,7 @@
 """그림이 있는 사주 릴스(1080x1920). 배경 그림은 코드로 직접 그린 원본(복숭아꽃 가지 등),
 꽃잎이 천천히 떨어지고 글줄은 한 줄씩 떠오른다. 음악은 기존 쇼츠 음원을 그대로 깐다.
 python3 tools/saju_reel.py <config.json> <out.mp4>
-config: {"audio","theme":"blossom","scenes":[{"sec","small","big":[...],"big_size","after":[...],"en"}]}"""
+config: {"audio","theme":"blossom|stars|road|lamp","scenes":[{"sec","small","big":[...],"big_size","after":[...],"en"}]}"""
 import json, math, os, random, subprocess, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tarot_reel import F, W, H, FPS, GOLD, SOFT, DIM, ROOT
@@ -197,6 +197,46 @@ class Travelers:
             d.ellipse([x - q['r'], q['y'] - q['r'], x + q['r'], q['y'] + q['r']], fill=(240, 225, 200, 110))
         im.alpha_composite(lay)
 
+
+def lamp_layer():
+    """등불 아래 원고지: 왼쪽 위 등불빛 + 옅은 원고지 칸 + 칸 속 文昌學堂 (원본 그림)."""
+    LW, LH = int(W * 1.12), int(H * 1.12)
+    lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    cell = 72; x0 = (LW % cell) // 2
+    for top, rows in [(120, 6), (LH - 6 * cell - 90, 6)]:
+        for r in range(rows):
+            y = top + r * cell
+            for c in range(x0, LW - cell, cell):
+                d.rectangle([c, y + 6, c + cell, y + cell - 6], outline=(190, 120, 90, 70), width=2)
+            d.line([x0, y + 3, LW - cell, y + 3], fill=(190, 120, 90, 40), width=1)
+    f = F(52, True); top = LH - 6 * cell - 90
+    for i, ch in enumerate('文昌學堂'):
+        c = x0 + (3 + i * 2) * cell; y = top + 2 * cell + 6
+        d.text((c + 10, y + 4), ch, font=f, fill=(225, 205, 170, 120))
+    glow = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
+    g.ellipse([-260, -260, 700, 620], fill=(255, 196, 120, 120))
+    g.ellipse([LW - 520, LH - 640, LW + 200, LH + 80], fill=(255, 190, 120, 55))
+    glow = glow.filter(ImageFilter.GaussianBlur(120))
+    out = Image.alpha_composite(glow, lay)
+    hole = Image.new('L', (LW, LH), 0); hd = ImageDraw.Draw(hole); ox, oy = (LW - W) // 2, (LH - H) // 2
+    hd.rectangle([ox - 100, oy + 640, ox + W + 100, oy + 1360], fill=210)
+    hole = hole.filter(ImageFilter.GaussianBlur(90))
+    out.putalpha(ImageChops.multiply(out.getchannel('A'), ImageChops.invert(hole)))
+    return out
+
+class Motes:
+    """등불빛 속에 천천히 떠오르는 먼지 + 가끔 넘어가는 종이 한 장의 그림자."""
+    def __init__(s, n=46):
+        s.p = [dict(x=R.uniform(0, W * 0.7), y=R.uniform(0, H), v=R.uniform(10, 28), sw=R.uniform(8, 26), ph=R.uniform(0, 6.3), r=R.uniform(1.5, 3.2)) for _ in range(n)]
+    def draw(s, im, t):
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        for q in s.p:
+            y = (q['y'] - q['v'] * t) % H; x = q['x'] + math.sin(t * 0.6 + q['ph']) * q['sw']
+            near = max(0.25, 1 - (x / W) * 0.9 - (y / H) * 0.5)
+            a = int(200 * near * (0.6 + 0.4 * math.sin(t * 1.7 + q['ph'])))
+            d.ellipse([x - q['r'], y - q['r'], x + q['r'], y + q['r']], fill=(255, 226, 170, max(0, a)))
+        im.alpha_composite(lay)
+
 def build_audio(parts, out, xf=0.8):
     """parts: [{"file","start","dur"}] -> 이어 붙인 음원(크로스페이드)."""
     args=['ffmpeg','-v','error','-y']
@@ -223,7 +263,7 @@ def main():
     if chk.returncode: sys.exit('곡 이름 점검 실패: 영상을 만들지 않았어요')
     wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
     scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
-    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers}.get(th,Petals)(); LW,LH=art.size
+    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer,'lamp':lamp_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers,'lamp':Motes}.get(th,Petals)(); LW,LH=art.size
     veil=Image.new('L',(W,H),0); ImageDraw.Draw(veil).ellipse([40,600,W-40,1340],fill=160)
     veil=veil.filter(ImageFilter.GaussianBlur(120)); dark=Image.new('RGBA',(W,H),(8,8,14,255)); dark.putalpha(veil)
     tints={k:tint_layer(tuple(v),1) for k,v in cfg.get('tints',{}).items()}
