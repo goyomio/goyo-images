@@ -30,7 +30,10 @@ def build(cfg):
     elif t=='story':
         c=call(f'{IG}/media',{'media_type':'STORIES','image_url':cfg['urls'][0]})
     elif t=='reel':
-        c=call(f'{IG}/media',{'media_type':'REELS','video_url':cfg['video'],'caption':cfg['caption'],'share_to_feed':'true'})
+        prm={'media_type':'REELS','video_url':cfg['video'],'caption':cfg['caption'],'share_to_feed':'true'}
+        if cfg.get('thumb_offset') is not None: prm['thumb_offset']=str(int(cfg['thumb_offset']))
+        if cfg.get('cover'): prm['cover_url']=cfg['cover']
+        c=call(f'{IG}/media',prm)
     else:
         c=call(f'{IG}/media',{'image_url':cfg['urls'][0],'caption':cfg['caption']})
     wait(c['id']); return c['id']

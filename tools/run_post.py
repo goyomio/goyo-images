@@ -11,7 +11,10 @@ H=subprocess.check_output(['git','rev-parse','HEAD']).decode().strip()
 raw=lambda p:f'https://raw.githubusercontent.com/goyomio/goyo-images/{H}/'+urllib.parse.quote(p)
 out={'type':cfg['type'],'caption':cfg['caption']}
 if cfg['type']=='carousel': out['urls']=[raw(p) for p in cfg['files']]
-else: out['video']=raw(cfg['video_file'])
+else:
+    out['video']=raw(cfg['video_file'])
+    if 'thumb_offset' in cfg: out['thumb_offset']=cfg['thumb_offset']
+    if cfg.get('cover_file'): out['cover']=raw(cfg['cover_file'])
 json.dump(out,open('/tmp/_post.json','w'),ensure_ascii=False)
 print(json.dumps(out,ensure_ascii=False)[:300])
 args=['python3','tools/ig_post.py','/tmp/_post.json']+(['--dry'] if '--dry' in sys.argv else [])

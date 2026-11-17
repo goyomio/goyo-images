@@ -102,7 +102,7 @@ def text_layer(cfg, sc, t):
     step = sc.get('step', 0.45)
     for i, (s, f, col, h) in enumerate(lines):
         if col is DIM or (h == 76 + 30 and False): pass
-        a = max(0, min(1, (t - 0.25 - i * step) / 0.5))
+        a = 1 if sc.get('instant') else max(0, min(1, (t - 0.25 - i * step) / 0.5))
         ct(y + (1 - a) * 18, s, f, col, a); y += h
     return lay
 
