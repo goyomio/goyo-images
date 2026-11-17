@@ -94,7 +94,9 @@ def text_layer(cfg, sc, t):
     if sc.get('small'): lines.append((sc['small'], F(48, True), SOFT, 112))
     bs = sc.get('big_size', 96)
     for s in sc.get('big', []): lines.append((s, F(bs, True), GOLD, bs + 42))
-    for i, s in enumerate(sc.get('after', [])): lines.append((s, F(46), SOFT, 76 + (30 if i == 0 else 0)))
+    if sc.get('after') and lines:
+        a0 = lines[-1]; lines[-1] = (a0[0], a0[1], a0[2], a0[3] + 30)
+    for s in sc.get('after', []): lines.append((s, F(46), SOFT, 76))
     if sc.get('en'): lines.append((sc['en'], F(34), DIM, 60))
     total = sum(l[3] for l in lines); y = (H - total) // 2 + 60
     step = sc.get('step', 0.45)
@@ -146,6 +148,55 @@ class Twinkle:
                 d.line([x0 - j * 9, y0 - j * 3.4, x0 - (j + 1) * 9, y0 - (j + 1) * 3.4], fill=(255, 240, 220, int(200 * (1 - j / 14) * (1 - k))), width=3)
         im.alpha_composite(lay)
 
+def road_layer():
+    """밤길: 겹겹의 산 능선과 멀리 이어지는 길 (원본 그림)."""
+    LW, LH = int(W * 1.12), int(H * 1.12)
+    lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    for _ in range(220):
+        x, y = R.uniform(0, LW), R.uniform(0, LH * 0.45); r = R.choice([1, 1, 1.5])
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(235, 230, 255, int(R.uniform(50, 160))))
+    for k, (base, amp, col) in enumerate([(LH * .66, 70, (34, 38, 56)), (LH * .74, 90, (26, 29, 44)), (LH * .84, 60, (18, 20, 31))]):
+        pts = [(0, LH)]; ph = R.uniform(0, 6)
+        for x in range(0, LW + 40, 40):
+            pts.append((x, base - amp * (0.5 + 0.5 * math.sin(x / 210 + ph)) - 30 * math.sin(x / 77 + ph * 2)))
+        pts.append((LW, LH)); d.polygon(pts, fill=col + (255,))
+    road = []
+    for i in range(60):
+        t = i / 59; y = LH - t * (LH * .38); x = LW * .5 + math.sin(t * 5.5) * (260 * (1 - t) + 30)
+        road.append((x, y, 120 * (1 - t) + 6))
+    for (x1, y1, w1), (x2, y2, w2) in zip(road, road[1:]):
+        d.polygon([(x1 - w1 / 2, y1), (x1 + w1 / 2, y1), (x2 + w2 / 2, y2), (x2 - w2 / 2, y2)], fill=(70, 62, 60, 255))
+    glow = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
+    g.ellipse([LW * .5 - 260, LH * .52, LW * .5 + 260, LH * .68], fill=(255, 210, 140, 70))
+    glow = glow.filter(ImageFilter.GaussianBlur(70))
+    out = Image.alpha_composite(lay, glow); out.info['road'] = road
+    hole = Image.new('L', (LW, LH), 0); hd = ImageDraw.Draw(hole); ox, oy = (LW - W) // 2, (LH - H) // 2
+    hd.rectangle([ox - 100, oy + 640, ox + W + 100, oy + 1360], fill=120)
+    hole = hole.filter(ImageFilter.GaussianBlur(90))
+    out.putalpha(ImageChops.multiply(out.getchannel('A'), ImageChops.invert(hole)))
+    ROAD.extend(road)
+    return out
+ROAD = []
+
+class Travelers:
+    """길을 따라 멀어지는 작은 불빛들 + 옆으로 흐르는 바람 먼지."""
+    def __init__(s):
+        s.l = [R.uniform(0, 1) for _ in range(7)]
+        s.dust = [dict(x=R.uniform(0, W), y=R.uniform(300, H), v=R.uniform(30, 80), r=R.uniform(1.5, 3)) for _ in range(40)]
+    def draw(s, im, t):
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        LW, LH = int(W * 1.12), int(H * 1.12); ox, oy = (LW - W) / 2, (LH - H) / 2
+        for q in s.l:
+            u = (q + t * 0.035) % 1; i = min(len(ROAD) - 2, int(u * (len(ROAD) - 1)))
+            x, y, w = ROAD[i]; x -= ox; y -= oy; r = max(2, w / 14)
+            a = int(230 * (1 - u * 0.7))
+            d.ellipse([x - r * 3, y - r * 3, x + r * 3, y + r * 3], fill=(255, 210, 140, a // 5))
+            d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 236, 200, a))
+        for q in s.dust:
+            x = (q['x'] + q['v'] * t) % W
+            d.ellipse([x - q['r'], q['y'] - q['r'], x + q['r'], q['y'] + q['r']], fill=(240, 225, 200, 110))
+        im.alpha_composite(lay)
+
 def build_audio(parts, out, xf=0.8):
     """parts: [{"file","start","dur"}] -> 이어 붙인 음원(크로스페이드)."""
     args=['ffmpeg','-v','error','-y']
@@ -172,7 +223,7 @@ def main():
     if chk.returncode: sys.exit('곡 이름 점검 실패: 영상을 만들지 않았어요')
     wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
     scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
-    bg=gradient().convert('RGBA'); art=(star_layer() if cfg.get('theme')=='stars' else branch_layer()); petals=(Twinkle() if cfg.get('theme')=='stars' else Petals()); LW,LH=art.size
+    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers}.get(th,Petals)(); LW,LH=art.size
     veil=Image.new('L',(W,H),0); ImageDraw.Draw(veil).ellipse([40,600,W-40,1340],fill=160)
     veil=veil.filter(ImageFilter.GaussianBlur(120)); dark=Image.new('RGBA',(W,H),(8,8,14,255)); dark.putalpha(veil)
     tints={k:tint_layer(tuple(v),1) for k,v in cfg.get('tints',{}).items()}
