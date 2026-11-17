@@ -33,13 +33,17 @@
   {
    "sec": 4.5,
    "step": 0.25,
-   "small": "금여 · 암록 · 건록",
    "big": [
-    "록 한 글자로",
-    "셋을 찾아요"
+    "금여",
+    "암록",
+    "건록"
    ],
-   "big_size": 88,
-   "en": "Three lucky stars, one key character."
+   "big_size": 200,
+   "en": "Three lucky stars, one key character.",
+   "after": [
+    "록 한 글자로 셋을 찾아요"
+   ],
+   "instant": true
   },
   {
    "sec": 5.0,

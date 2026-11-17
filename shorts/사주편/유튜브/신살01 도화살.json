@@ -51,12 +51,15 @@
  "scenes": [
   {
    "sec": 4.5,
-   "small": "도화살이 있으면",
    "big": [
-    "바람둥이?"
+    "도화살"
    ],
-   "big_size": 124,
-   "en": "Peach Blossom Star = a flirt?"
+   "big_size": 250,
+   "en": "Peach Blossom Star = a flirt?",
+   "after": [
+    "있으면 바람둥이일까?"
+   ],
+   "instant": true
   },
   {
    "sec": 5.0,

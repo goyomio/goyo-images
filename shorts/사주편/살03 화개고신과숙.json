@@ -32,13 +32,15 @@
  "scenes": [
   {
    "sec": 4.5,
-   "small": "혼자 있는 시간이 편한 사람",
    "big": [
-    "사주에",
-    "이 글자가 있을까?"
+    "화개살"
    ],
-   "big_size": 88,
-   "en": "Do you recharge alone?"
+   "big_size": 250,
+   "en": "Do you recharge alone?",
+   "after": [
+    "혼자 있는 시간이 편한 사람"
+   ],
+   "instant": true
   },
   {
    "sec": 5.0,

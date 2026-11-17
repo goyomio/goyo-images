@@ -62,12 +62,16 @@
  "scenes": [
   {
    "sec": 4.5,
-   "small": "귀인이 있으면",
    "big": [
-    "누가 다 도와준다?"
+    "천을",
+    "귀인"
    ],
-   "big_size": 100,
-   "en": "Does a noble star do it all for you?"
+   "big_size": 230,
+   "en": "Does a noble star do it all for you?",
+   "after": [
+    "있으면 누가 다 도와줄까?"
+   ],
+   "instant": true
   },
   {
    "sec": 5.0,

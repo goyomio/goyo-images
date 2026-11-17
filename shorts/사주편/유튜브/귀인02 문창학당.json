@@ -62,13 +62,16 @@
  "scenes": [
   {
    "sec": 4.5,
-   "small": "수능은 끝났는데",
    "big": [
-    "공부 귀인,",
-    "내 사주에도 있을까?"
+    "문창",
+    "학당"
    ],
-   "big_size": 84,
-   "en": "Is there a scholar star in my chart?"
+   "big_size": 230,
+   "en": "Is there a scholar star in my chart?",
+   "after": [
+    "수능은 끝났는데, 공부 귀인 있을까?"
+   ],
+   "instant": true
   },
   {
    "sec": 5.0,

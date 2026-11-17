@@ -52,13 +52,16 @@
  "scenes": [
   {
    "sec": 4.5,
-   "small": "요즘은 역마살 있으면",
    "big": [
-    "부럽다고 하죠"
+    "역마살"
    ],
-   "big_size": 104,
+   "big_size": 250,
    "en": "These days, people envy it.",
-   "step": 0.25
+   "step": 0.25,
+   "after": [
+    "요즘은 있으면 부럽다고들 하죠"
+   ],
+   "instant": true
   },
   {
    "sec": 5.0,
