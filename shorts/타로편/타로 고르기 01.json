@@ -1,0 +1,8 @@
+{"audio": "shorts/무음편/계수 무음편.mp4",
+ "hook": ["지금 눈이 가는 카드는?", "하나만 골라 보세요"],
+ "hook_en": "Pick one card.",
+ "cards": [
+  {"file": "m17_star.jpg", "ko": "별", "lines": ["지친 마음이 조금씩 풀리는 때예요.", "작은 희망 하나 챙겨 두세요."], "en": "A quiet time of healing."},
+  {"file": "wands08.jpg", "ko": "완드 8", "lines": ["멈춰 있던 일이 움직이기 시작해요.", "기다리던 소식에 마음을 열어 두세요."], "en": "Things start moving again."},
+  {"file": "m09_hermit.jpg", "ko": "은둔자", "lines": ["오늘은 혼자 있는 시간이 필요해요.", "조용히 내 마음을 들여다보세요."], "en": "Time to listen inward."}],
+ "end": ["고요 GOYO", "오늘 들을 음악은 프로필 링크 → GOYO"]}
