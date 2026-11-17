@@ -8697,8 +8697,9 @@ document.getElementById('go').addEventListener('click',()=>{
   const gi=G.indexOf(r.일[0]), de=GE[gi], dn=`${GK[gi]}${de}(${G[gi]}${HAN[de]})`;
   const empty=EL.filter(e=>cnt[e]===0), mx=Math.max(...EL.map(e=>cnt[e])), most=EL.filter(e=>cnt[e]===mx);
   let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}의 결이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="${url(GK[gi])}">GOYO 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
-  c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 결로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>비어 있는 기운의 편을 곁에 틀어 두셔도 좋아요.</p>${empty.map(e=>`<a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="${url(e)}">${e}(${HAN[e]}) 편 듣기 · ${GENRE[e]}</a>`).join('')}</div>`
+  c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 결로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>다만 비어 있다고 꼭 필요한 기운은 아니에요.</p>${empty.map(e=>`<a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="${url(e)}">${e}(${HAN[e]}) 편 듣기 · ${GENRE[e]}</a>`).join('')}</div>`
    :`<div class="card"><div class="kicker">비어 있는 기운</div><h2>다섯 오행이 모두 있어요</h2><p>가장 많은 기운은 ${ieyo(most.join(' · '))}. 그날 시간대에 맞는 편을 골라 들어 보세요.<br>아침 목 · 한낮 화 · 저녁 금 · 밤 수, 그 사이마다 토.</p></div>`;
+  c+=`<div class="card" style="border-color:var(--gold)"><div class="kicker">내게 필요한 기운, 용신</div><h2>사주 전체를 봐야 정해져요</h2><p>일간의 힘(억부)과 태어난 계절(조후)을 함께 봐야 해요. 같은 "목이 없는 사주"라도 목이 필요한 사람이 있고, 오히려 덜어야 하는 사람이 있거든요.<br>내 사주의 유불리와 그에 맞는 개운법은 고요 상담에서 풀어 드려요.</p><a class="go" style="margin-top:14px" href="https://instagram.com/goyo_mio">고요 상담 문의 · 인스타 DM</a></div>`;
   document.getElementById('cards').innerHTML=c;
   const o=document.getElementById('out');o.style.display='block';o.scrollIntoView({behavior:'smooth'});
 });
