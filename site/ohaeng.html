@@ -8626,6 +8626,10 @@ const GE=['목','목','화','화','토','토','금','금','수','수'], ZE=['수
 const EL=['목','화','토','금','수'], HAN={목:'木',화:'火',토:'土',금:'金',수:'水'};
 const GENRE={목:'실내악',화:'재즈',토:'로파이',금:'피아노 독주',수:'앰비언트 피아노'};
 const COL={목:'#2fd96b',화:'#ff3b2f',토:'#ffc21a',금:'#ffffff',수:'#000000'};
+// 편별 유튜브 주소: 비어 있으면 채널로 연결
+const LINK={갑:'',을:'',병:'',정:'',무:'',기:'',경:'',신:'',임:'',계:'',목:'',화:'',토:'',금:'',수:''};
+const CH='https://youtube.com/@happymioply';
+const url=k=>LINK[k]||CH;
 const DESC={갑:'곧게 뻗어 오르는 큰 나무',을:'바람에 휘어도 꺾이지 않는 풀과 덩굴',병:'하늘 한가운데 뜬 해',정:'어둠을 밝히는 등불',무:'묵직하게 버티는 큰 산',기:'씨앗을 품는 밭흙',경:'단단한 바위와 무쇠',신:'잘 다듬어진 보석',임:'넓게 흐르는 큰 물',계:'조용히 스미는 비와 이슬'};
 const ieyo=w=>{const c=w.charCodeAt(w.length-1)-0xAC00;return w+((c>=0&&c<11172&&c%28)?'이에요':'예요');};
 const fmt=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Seoul',hourCycle:'h23',year:'numeric',month:'numeric',day:'numeric',hour:'numeric',minute:'numeric',second:'numeric'});
@@ -8692,8 +8696,8 @@ document.getElementById('go').addEventListener('click',()=>{
   document.getElementById('bars').innerHTML=EL.map(e=>`<div class="row"><span class="k" style="color:${e==='수'?'#fff':COL[e]}">${e}</span><span class="bar"><i style="width:${cnt[e]/max*100}%;background:${COL[e]};${e==='수'?'box-shadow:inset 0 0 0 1.5px #fff;':''}"></i></span><span class="n">${cnt[e]}</span></div>`).join('')+`<p style="margin-top:8px">모두 ${total}글자를 셌어요.</p>`;
   const gi=G.indexOf(r.일[0]), de=GE[gi], dn=`${GK[gi]}${de}(${G[gi]}${HAN[de]})`;
   const empty=EL.filter(e=>cnt[e]===0), mx=Math.max(...EL.map(e=>cnt[e])), most=EL.filter(e=>cnt[e]===mx);
-  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}의 결이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="https://youtube.com/@happymioply">GOYO 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
-  c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 결로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>비어 있는 기운의 편을 곁에 틀어 두셔도 좋아요.</p></div>`
+  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}의 결이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="${url(GK[gi])}">GOYO 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
+  c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 결로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>비어 있는 기운의 편을 곁에 틀어 두셔도 좋아요.</p>${empty.map(e=>`<a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="${url(e)}">${e}(${HAN[e]}) 편 듣기 · ${GENRE[e]}</a>`).join('')}</div>`
    :`<div class="card"><div class="kicker">비어 있는 기운</div><h2>다섯 오행이 모두 있어요</h2><p>가장 많은 기운은 ${ieyo(most.join(' · '))}. 그날 시간대에 맞는 편을 골라 들어 보세요.<br>아침 목 · 한낮 화 · 저녁 금 · 밤 수, 그 사이마다 토.</p></div>`;
   document.getElementById('cards').innerHTML=c;
   const o=document.getElementById('out');o.style.display='block';o.scrollIntoView({behavior:'smooth'});
