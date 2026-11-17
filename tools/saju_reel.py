@@ -104,6 +104,48 @@ def text_layer(cfg, sc, t):
         ct(y + (1 - a) * 18, s, f, col, a); y += h
     return lay
 
+def star_layer():
+    """밤하늘: 잔별 + 빛나는 큰 별 몇 개 + 옅은 별자리 선 (원본 그림)."""
+    LW, LH = int(W * 1.12), int(H * 1.12)
+    lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    for _ in range(420):
+        x, y = R.uniform(0, LW), R.uniform(0, LH); r = R.choice([1, 1, 1, 1.5, 2])
+        a = int(R.uniform(60, 200)); d.ellipse([x - r, y - r, x + r, y + r], fill=(235, 230, 255, a))
+    glow = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
+    cons = [(860, 260), (980, 330), (1060, 470), (950, 560), (1120, 640)]
+    for a, b in zip(cons, cons[1:]): d.line([a, b], fill=(231, 205, 150, 70), width=2)
+    bright = cons + [(170, 1720), (330, 1880), (120, 1960), (900, 1820)]
+    for i, (x, y) in enumerate(bright):
+        r = 26 if i == 0 else R.uniform(10, 16)
+        g.ellipse([x - r * 3, y - r * 3, x + r * 3, y + r * 3], fill=(255, 220, 150, 90))
+        d.ellipse([x - r * .35, y - r * .35, x + r * .35, y + r * .35], fill=(255, 245, 220, 255))
+        d.line([x - r * 1.6, y, x + r * 1.6, y], fill=(255, 240, 210, 200), width=2)
+        d.line([x, y - r * 1.6, x, y + r * 1.6], fill=(255, 240, 210, 200), width=2)
+    glow = glow.filter(ImageFilter.GaussianBlur(26))
+    out = Image.alpha_composite(glow, lay)
+    hole = Image.new('L', (LW, LH), 0); hd = ImageDraw.Draw(hole); ox, oy = (LW - W) // 2, (LH - H) // 2
+    hd.rectangle([ox - 100, oy + 640, ox + W + 100, oy + 1360], fill=200)
+    hole = hole.filter(ImageFilter.GaussianBlur(90))
+    out.putalpha(ImageChops.multiply(out.getchannel('A'), ImageChops.invert(hole)))
+    return out
+
+class Twinkle:
+    def __init__(s, n=60):
+        s.p = [dict(x=R.uniform(0, W), y=R.uniform(0, H), ph=R.uniform(0, 6.3), sp=R.uniform(1.2, 3), r=R.uniform(1.5, 3)) for _ in range(n)]
+    def draw(s, im, t):
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        for q in s.p:
+            a = (math.sin(t * q['sp'] + q['ph']) + 1) / 2
+            r = q['r'] * (0.6 + 0.6 * a)
+            d.ellipse([q['x'] - r, q['y'] - r, q['x'] + r, q['y'] + r], fill=(255, 240, 210, int(220 * a)))
+        # 가끔 지나가는 별똥별
+        c = (t % 9.0)
+        if c < 0.9:
+            k = c / 0.9; x0, y0 = 200 + 700 * k, 300 + 260 * k
+            for j in range(14):
+                d.line([x0 - j * 9, y0 - j * 3.4, x0 - (j + 1) * 9, y0 - (j + 1) * 3.4], fill=(255, 240, 220, int(200 * (1 - j / 14) * (1 - k))), width=3)
+        im.alpha_composite(lay)
+
 def build_audio(parts, out, xf=0.8):
     """parts: [{"file","start","dur"}] -> 이어 붙인 음원(크로스페이드)."""
     args=['ffmpeg','-v','error','-y']
@@ -128,7 +170,7 @@ def main():
     cfg=json.load(open(sys.argv[1])); out=sys.argv[2]
     wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
     scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
-    bg=gradient().convert('RGBA'); art=branch_layer(); petals=Petals(); LW,LH=art.size
+    bg=gradient().convert('RGBA'); art=(star_layer() if cfg.get('theme')=='stars' else branch_layer()); petals=(Twinkle() if cfg.get('theme')=='stars' else Petals()); LW,LH=art.size
     veil=Image.new('L',(W,H),0); ImageDraw.Draw(veil).ellipse([40,600,W-40,1340],fill=160)
     veil=veil.filter(ImageFilter.GaussianBlur(120)); dark=Image.new('RGBA',(W,H),(8,8,14,255)); dark.putalpha(veil)
     tints={k:tint_layer(tuple(v),1) for k,v in cfg.get('tints',{}).items()}
