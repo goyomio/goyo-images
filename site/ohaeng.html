@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>고요 · 내 사주에 비어 있는 기운 찾기</title>
+<title>고요 · 내 일간 찾기 · 비어 있는 기운 찾기</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -41,6 +41,17 @@ footer{margin-top:40px;font-size:12px;letter-spacing:.2em;color:#6d6a63}
 <body>
 <main>
   <div class="kicker">GOYO 고요</div>
+  <h1>내 일간 찾기</h1>
+  <p>일간은 사주에서 "나"를 뜻하는 글자예요.<br>태어난 날짜만 있으면 찾을 수 있어요.</p>
+  <div class="rule"></div>
+  <input type="date" id="bd" min="1900-01-01" max="2100-12-31" style="width:100%;background:#151517;color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:13px;font:inherit;font-size:16px">
+  <label style="display:flex;gap:10px;align-items:center;margin-top:12px;font-size:14px;color:var(--dim)"><input type="checkbox" id="late" style="width:18px;height:18px"> 밤 11시부터 자정 사이에 태어났어요</label>
+  <div class="err" id="err1">태어난 날짜를 골라 주세요.</div>
+  <button id="go1" type="button">일간 찾기</button>
+  <div id="out1" style="display:none"></div>
+
+  <div style="height:1px;background:var(--line);margin:48px 0 36px"></div>
+  <div class="kicker">한 걸음 더</div>
   <h1>내 사주에 비어 있는<br>기운 찾기</h1>
   <p>만세력 앱에서 내 사주 여덟 글자를 보고, 그대로 골라 주세요.<br>태어난 시를 모르면 시주는 비워 두셔도 돼요.</p>
   <div class="rule"></div>
@@ -61,7 +72,7 @@ footer{margin-top:40px;font-size:12px;letter-spacing:.2em;color:#6d6a63}
     <a class="go" href="https://youtube.com/@happymioply">GOYO 유튜브에서 들어 보기</a>
   </section>
 
-  <footer>GOYO 고요 · 오행 음악 · 타로 · 사주</footer>
+  <footer style="margin-top:48px">GOYO 고요 · 오행 음악 · 타로 · 사주</footer>
 </main>
 <script>
 const GAN=[['갑','甲','목'],['을','乙','목'],['병','丙','화'],['정','丁','화'],['무','戊','토'],['기','己','토'],['경','庚','금'],['신','辛','금'],['임','壬','수'],['계','癸','수']];
@@ -97,6 +108,25 @@ document.getElementById('go').addEventListener('click',()=>{
     <p>가장 많은 기운은 ${ieyo(most.join(' · '))}. 그날 시간대에 맞는 편을 골라 들어 보세요.<br>아침 목 · 한낮 화 · 저녁 금 · 밤 수, 그 사이마다 토.</p></div>`;}
   document.getElementById('cards').innerHTML=h;
   const out=document.getElementById('out');out.style.display='block';out.scrollIntoView({behavior:'smooth'});
+});
+
+const DESC={갑:'곧게 뻗어 오르는 큰 나무',을:'바람에 휘어도 꺾이지 않는 풀과 덩굴',병:'하늘 한가운데 뜬 해',정:'어둠을 밝히는 등불',무:'묵직하게 버티는 큰 산',기:'씨앗을 품는 밭흙',경:'단단한 바위와 무쇠',신:'잘 다듬어진 보석',임:'넓게 흐르는 큰 물',계:'조용히 스미는 비와 이슬'};
+const GZ=i=>[GAN[i%10],ZHI[i%12]];
+function dayIdx(y,m,d){const ref=Date.UTC(2026,11,31);const t=Date.UTC(y,m-1,d);return ((15+Math.round((t-ref)/86400000))%60+60)%60;}
+function ilganCard(i,label){const [g,z]=GZ(i);const e=g[2];
+  return `<div class="card"><div class="kicker">${label}</div><h2>${g[0]}${e}(${g[1]}${HAN[e]}) · ${g[0]}${z[0]}일</h2>
+  <p>${DESC[g[0]]}의 결이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${g[0]}${e}(${g[1]}${HAN[e]})』</p></div>`;}
+document.getElementById('go1').addEventListener('click',()=>{
+  const v=document.getElementById('bd').value, e1=document.getElementById('err1'), o=document.getElementById('out1');
+  if(!v){e1.style.display='block';return;} e1.style.display='none';
+  const [y,m,d]=v.split('-').map(Number); const i=dayIdx(y,m,d);
+  let h;
+  if(document.getElementById('late').checked){
+    h=ilganCard((i+1)%60,'나의 일간 (밤 11시 반 이후 출생이면)')+ilganCard(i,'나의 일간 (밤 11시 반 전 출생이면)')
+     +'<p class="note" style="border:0;padding:0;margin-top:12px">사주에서는 밤 11시 무렵부터 다음 날로 봐요. 서울 기준으로는 보통 밤 11시 반쯤이 경계이고, 서머타임이 있던 해에는 한 시간 달라져요. 정확한 건 출생 시각으로 확인해 보세요.</p>';
+  } else h=ilganCard(i,'나의 일간');
+  o.innerHTML=h+'<a class="go" href="https://youtube.com/@happymioply">GOYO 유튜브에서 내 일간 편 듣기</a>';
+  o.style.display='block'; o.scrollIntoView({behavior:'smooth'});
 });
 </script>
 </body>
