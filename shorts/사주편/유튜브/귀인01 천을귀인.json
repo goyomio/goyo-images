@@ -1,0 +1,159 @@
+{
+ "theme": "stars",
+ "audio_parts": [
+  {
+   "file": "shorts/무음편/정화 무음편.mp4",
+   "start": 0.3,
+   "dur": 9.5
+  },
+  {
+   "file": "shorts/무음편/갑목 무음편.mp4",
+   "start": 1.0,
+   "dur": 4.5
+  },
+  {
+   "file": "shorts/무음편/기토 무음편.mp4",
+   "start": 1.0,
+   "dur": 4.5
+  },
+  {
+   "file": "shorts/무음편/병화 무음편.mp4",
+   "start": 1.0,
+   "dur": 4.5
+  },
+  {
+   "file": "shorts/무음편/신금 무음편.mp4",
+   "start": 1.0,
+   "dur": 4.5
+  },
+  {
+   "file": "shorts/무음편/임수 무음편.mp4",
+   "start": 1.0,
+   "dur": 9.5
+  }
+ ],
+ "tints": {
+  "목": [
+   90,
+   200,
+   130
+  ],
+  "토": [
+   220,
+   170,
+   70
+  ],
+  "화": [
+   255,
+   120,
+   80
+  ],
+  "금": [
+   225,
+   225,
+   245
+  ],
+  "수": [
+   80,
+   120,
+   230
+  ]
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "small": "귀인이 있으면",
+   "big": [
+    "누가 다 도와준다?"
+   ],
+   "big_size": 100,
+   "en": "Does a noble star do it all for you?"
+  },
+  {
+   "sec": 5.0,
+   "small": "천을귀인(天乙貴人)",
+   "big": [
+    "다 해 주는 게 아니라"
+   ],
+   "big_size": 74,
+   "after": [
+    "서로 돕는 인연이 잘 닿는 사주예요"
+   ],
+   "en": "It means help tends to flow both ways."
+  },
+  {
+   "sec": 4.5,
+   "tint": "목",
+   "small": "갑·무·경 일간이라면",
+   "big": [
+    "축(丑)·미(未)"
+   ],
+   "big_size": 100,
+   "after": [
+    "사주 지지에 이 글자가 있는지 보세요",
+    "『Morning Oak』(갑목 편)"
+   ],
+   "en": "경은 인·오로 보기도 해요"
+  },
+  {
+   "sec": 4.5,
+   "tint": "토",
+   "small": "을·기 일간이라면",
+   "big": [
+    "자(子)·신(申)"
+   ],
+   "big_size": 100,
+   "after": [
+    "『Tilled Morning』(기토 편)"
+   ]
+  },
+  {
+   "sec": 4.5,
+   "tint": "화",
+   "small": "병·정 일간이라면",
+   "big": [
+    "해(亥)·유(酉)"
+   ],
+   "big_size": 100,
+   "after": [
+    "『Noon Avenue』(병화 편)"
+   ]
+  },
+  {
+   "sec": 4.5,
+   "tint": "금",
+   "small": "신 일간이라면",
+   "big": [
+    "인(寅)·오(午)"
+   ],
+   "big_size": 100,
+   "after": [
+    "『Clear Facet』(신금 편)"
+   ]
+  },
+  {
+   "sec": 4.5,
+   "tint": "수",
+   "small": "임·계 일간이라면",
+   "big": [
+    "묘(卯)·사(巳)"
+   ],
+   "big_size": 100,
+   "after": [
+    "『Wide Water』(임수 편)"
+   ]
+  },
+  {
+   "sec": 5.0,
+   "tint": "수",
+   "small": "귀인 하나 없는 사주도 흔해요",
+   "big": [
+    "내 일간의 소리"
+   ],
+   "big_size": 84,
+   "after": [
+    "학파마다 기준이 조금씩 달라요"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "audio_parts": [
+  {
+   "file": "shorts/무음편/토 무음편.mp4",
+   "start": 0.3,
+   "dur": 14.0
+  },
+  {
+   "file": "shorts/무음편/을목 무음편.mp4",
+   "start": 1.0,
+   "dur": 5.0
+  },
+  {
+   "file": "shorts/무음편/정화 무음편.mp4",
+   "start": 1.0,
+   "dur": 5.0
+  },
+  {
+   "file": "shorts/무음편/신금 무음편.mp4",
+   "start": 1.0,
+   "dur": 5.0
+  },
+  {
+   "file": "shorts/무음편/계수 무음편.mp4",
+   "start": 1.0,
+   "dur": 8.5
+  }
+ ],
+ "tints": {
+  "목": [
+   90,
+   200,
+   130
+  ],
+  "화": [
+   255,
+   120,
+   80
+  ],
+  "금": [
+   225,
+   225,
+   245
+  ],
+  "수": [
+   80,
+   120,
+   230
+  ]
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "small": "도화살이 있으면",
+   "big": [
+    "바람둥이?"
+   ],
+   "big_size": 124,
+   "en": "Peach Blossom Star = a flirt?"
+  },
+  {
+   "sec": 5.0,
+   "small": "도화(桃花)는 복숭아꽃이에요",
+   "big": [
+    "사람의 눈길이",
+    "모이는 기운"
+   ],
+   "en": "It's the energy that draws people's eyes."
+  },
+  {
+   "sec": 4.5,
+   "small": "어느 글자의 도화냐에 따라",
+   "big": [
+    "매력의 결이",
+    "달라요"
+   ],
+   "en": "Each kind has its own charm."
+  },
+  {
+   "sec": 5.0,
+   "tint": "목",
+   "mark": "卯",
+   "small": "묘(卯) 도화 · 을목의 기운",
+   "big": [
+    "싱그럽고 다정한 매력"
+   ],
+   "big_size": 76,
+   "after": [
+    "『Morning Tendril』(을목 편)"
+   ]
+  },
+  {
+   "sec": 5.0,
+   "tint": "화",
+   "mark": "午",
+   "small": "오(午) 도화 · 정화의 기운",
+   "big": [
+    "따뜻하게 빛나는 매력"
+   ],
+   "big_size": 76,
+   "after": [
+    "『Lamplit Keys』(정화 편)"
+   ]
+  },
+  {
+   "sec": 5.0,
+   "tint": "금",
+   "mark": "酉",
+   "small": "유(酉) 도화 · 신금의 기운",
+   "big": [
+    "세련되고 반짝이는 매력"
+   ],
+   "big_size": 76,
+   "after": [
+    "『Clear Facet』(신금 편)"
+   ]
+  },
+  {
+   "sec": 4.6,
+   "tint": "수",
+   "mark": "子",
+   "small": "자(子) 도화 · 계수의 기운",
+   "big": [
+    "촉촉하고 신비로운 매력"
+   ],
+   "big_size": 76,
+   "after": [
+    "『Drizzle』(계수 편)"
+   ]
+  },
+  {
+   "sec": 4.0,
+   "tint": "수",
+   "small": "내 도화는 어떤 소리일까요",
+   "big": [
+    "다섯 가지 고요"
+   ],
+   "big_size": 84,
+   "after": []
+  }
+ ]
+}
