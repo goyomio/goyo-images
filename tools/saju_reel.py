@@ -88,16 +88,25 @@ def text_layer(cfg, sc, t):
         w = d.textlength(s, font=f)
         d.text(((W - w) / 2 + 3, y + 3), s, font=f, fill=(0, 0, 0, int(160 * a)))
         d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),))
-    ct(200, cfg.get('header', '사주 · 오행음악 · 고요'), F(40, True), SOFT, 1)
-    ct(258, "FIVE ELEMENTS MUSIC", F(28), DIM, 1)
+    ct(200, cfg.get('header', '사주 · 오행음악 · 고요'), F(cfg.get('header_size', 40), True), SOFT, 1)
+    ct(200 + cfg.get('header_size', 40) + 18, "FIVE ELEMENTS MUSIC", F(28), DIM, 1)
     lines = []
-    if sc.get('small'): lines.append((sc['small'], F(48, True), SOFT, 112))
+    def fit(s, size, bold=False):
+        f = F(size, bold)
+        while d.textlength(s, font=f) > W - 90 and size > 24:
+            size -= 2; f = F(size, bold)
+        return f, size
+    if sc.get('small'):
+        f, z = fit(sc['small'], sc.get('small_size', 48), True); lines.append((sc['small'], f, SOFT, int(z * 2.3)))
     bs = sc.get('big_size', 96)
-    for s in sc.get('big', []): lines.append((s, F(bs, True), GOLD, bs + 42))
+    for s in sc.get('big', []):
+        f, z = fit(s, bs, True); lines.append((s, f, GOLD, z + 42))
     if sc.get('after') and lines:
         a0 = lines[-1]; lines[-1] = (a0[0], a0[1], a0[2], a0[3] + 30)
-    for s in sc.get('after', []): lines.append((s, F(46), SOFT, 76))
-    if sc.get('en'): lines.append((sc['en'], F(34), DIM, 60))
+    for s in sc.get('after', []):
+        f, z = fit(s, sc.get('after_size', 46)); lines.append((s, f, SOFT, int(z * 1.65)))
+    if sc.get('en'):
+        f, z = fit(sc['en'], sc.get('en_size', 34)); lines.append((sc['en'], f, DIM, int(z * 1.76)))
     total = sum(l[3] for l in lines); y = (H - total) // 2 + 60
     step = sc.get('step', 0.45)
     for i, (s, f, col, h) in enumerate(lines):
@@ -198,7 +207,7 @@ class Travelers:
         im.alpha_composite(lay)
 
 
-def lamp_layer():
+def lamp_layer(chars='文昌學堂'):
     """등불 아래 원고지: 왼쪽 위 등불빛 + 옅은 원고지 칸 + 칸 속 文昌學堂 (원본 그림)."""
     LW, LH = int(W * 1.12), int(H * 1.12)
     lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
@@ -210,7 +219,7 @@ def lamp_layer():
                 d.rectangle([c, y + 6, c + cell, y + cell - 6], outline=(190, 120, 90, 70), width=2)
             d.line([x0, y + 3, LW - cell, y + 3], fill=(190, 120, 90, 40), width=1)
     f = F(52, True); top = LH - 6 * cell - 90
-    for i, ch in enumerate('文昌學堂'):
+    for i, ch in enumerate(chars):
         c = x0 + (3 + i * 2) * cell; y = top + 2 * cell + 6
         d.text((c + 10, y + 4), ch, font=f, fill=(225, 205, 170, 120))
     glow = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
@@ -305,7 +314,7 @@ def main():
     if chk.returncode: sys.exit('곡 이름 점검 실패: 영상을 만들지 않았어요')
     wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
     scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
-    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer,'lamp':lamp_layer,'moon':moon_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers,'lamp':Motes,'moon':Snow}.get(th,Petals)(); LW,LH=art.size
+    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer,'lamp':(lambda: lamp_layer(cfg.get('lamp_chars','文昌學堂'))),'moon':moon_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers,'lamp':Motes,'moon':Snow}.get(th,Petals)(); LW,LH=art.size
     veil=Image.new('L',(W,H),0); ImageDraw.Draw(veil).ellipse([40,600,W-40,1340],fill=160)
     veil=veil.filter(ImageFilter.GaussianBlur(120)); dark=Image.new('RGBA',(W,H),(8,8,14,255)); dark.putalpha(veil)
     tints={k:tint_layer(tuple(v),1) for k,v in cfg.get('tints',{}).items()}
