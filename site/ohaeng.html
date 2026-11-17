@@ -55,7 +55,7 @@ footer{margin-top:40px;font-size:12px;letter-spacing:.2em;color:#6d6a63}
     <button type="button" class="seg" data-v="lunar">음력</button>
   </div>
   <input type="text" id="bd" inputmode="numeric" autocomplete="off" placeholder="예: 19900515">
-  <label class="chk" id="leapw" style="display:none"><input type="checkbox" id="leap"> 윤달이에요</label>
+  <div id="leapw" style="display:none;font-size:14px;margin-top:6px"><p id="leapq" style="margin:0 0 6px"></p><label class="chk" style="margin:0"><input type="checkbox" id="leap"> 윤달에 태어났어요</label></div>
   <label class="f" for="bt">태어난 시각 (24시간)</label>
   <input type="text" id="bt" inputmode="numeric" autocomplete="off" placeholder="예: 오후 2시 30분 → 1430">
   <label class="chk"><input type="checkbox" id="nt"> 태어난 시각을 몰라요</label>
@@ -8647,7 +8647,7 @@ function saju(y,m,d,h,mi,unknown){
 }
 window.saju=saju;
 let CAL='solar';
-document.querySelectorAll('.seg').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.seg').forEach(x=>x.classList.remove('on'));b.classList.add('on');CAL=b.dataset.v;document.getElementById('leapw').style.display=CAL==='lunar'?'flex':'none';echo();}));
+document.querySelectorAll('.seg').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.seg').forEach(x=>x.classList.remove('on'));b.classList.add('on');CAL=b.dataset.v;echo();}));
 document.getElementById('nt').addEventListener('change',e=>{document.getElementById('bt').disabled=e.target.checked;echo();});
 function pDate(v){const d=(v||'').replace(/[^0-9]/g,'');let y,m,dd;
   if(d.length===8){y=+d.slice(0,4);m=+d.slice(4,6);dd=+d.slice(6);}
@@ -8663,7 +8663,11 @@ function toSolar(y,m,d){
   if(CAL==='solar'){const t=new Date(Date.UTC(y,m-1,d));if(t.getUTCMonth()!==m-1)return null;return [y,m,d];}
   try{const lm=document.getElementById('leap').checked?-m:m;const l=Lunar.fromYmd(y,lm,d);
     if(l.getYear()!==y||l.getMonth()!==lm||l.getDay()!==d)return null;const s=l.getSolar();return [s.getYear(),s.getMonth(),s.getDay()];}catch(e){return null;}}
-function echo(){const e=document.getElementById('echo');const d=pDate(document.getElementById('bd').value);const unk=document.getElementById('nt').checked;const t=pTime(document.getElementById('bt').value);
+function leapUI(d){const w=document.getElementById('leapw'),cb=document.getElementById('leap');let lm=0;
+  if(CAL==='lunar'&&d){try{lm=LunarYear.fromYear(d[0]).getLeapMonth();}catch(x){lm=0;}}
+  if(lm&&d&&lm===d[1]){document.getElementById('leapq').textContent=`${d[0]}년에는 음력 ${lm}월이 두 번(평달·윤달) 있었어요. 윤달생이 아니면 그대로 두세요. 잘 모르시면 양력 생일로 넣는 게 가장 정확해요.`;w.style.display='block';}
+  else{w.style.display='none';cb.checked=false;}}
+function echo(){const e=document.getElementById('echo');const d=pDate(document.getElementById('bd').value);leapUI(d);const unk=document.getElementById('nt').checked;const t=pTime(document.getElementById('bt').value);
   if(!d){e.textContent='';return;} const sd=toSolar(...d);
   let txt=sd?`${CAL==='lunar'?'음력 '+d[0]+'년 '+d[1]+'월 '+d[2]+'일 → 양력 ':''}${sd[0]}년 ${sd[1]}월 ${sd[2]}일`:'없는 날짜예요. 다시 확인해 주세요.';
   if(sd&&!unk&&t)txt+=`\n${t[0]<12?'오전':'오후'} ${t[0]%12===0?12:t[0]%12}시 ${t[1]}분`;
@@ -8675,7 +8679,7 @@ document.getElementById('go').addEventListener('click',()=>{
   const d=pDate(document.getElementById('bd').value), t=unk?[12,0]:pTime(document.getElementById('bt').value);
   const sd=d&&toSolar(...d);
   const badT=!unk&&!t&&document.getElementById('bt').value.trim();
-  const msg=!d?'태어난 날을 8자리 숫자로 넣어 주세요. 예: 19900515':!sd?'없는 날짜예요. 음력·윤달 여부도 확인해 주세요.':badT?'시각을 다시 확인해 주세요. 24시간으로 넣어요. 예: 오후 2시 30분 → 1430':!t?'태어난 시각을 넣거나, "시각을 몰라요"에 체크해 주세요. 예: 1430':'';
+  const msg=!d?'태어난 날을 8자리 숫자로 넣어 주세요. 예: 19900515':!sd?'없는 날짜예요. 음력이면 윤달 여부도 확인해 주세요.':badT?'시각을 다시 확인해 주세요. 24시간으로 넣어요. 예: 오후 2시 30분 → 1430':!t?'태어난 시각을 넣거나, "시각을 몰라요"에 체크해 주세요. 예: 1430':'';
   if(msg){err.textContent=msg;err.style.display='block';return;}
   err.style.display='none';
   const [y,m,dd]=sd, [h,mi]=t;
@@ -8696,10 +8700,9 @@ document.getElementById('go').addEventListener('click',()=>{
   document.getElementById('bars').innerHTML=EL.map(e=>`<div class="row"><span class="k" style="color:${e==='수'?'#fff':COL[e]}">${e}</span><span class="bar"><i style="width:${cnt[e]/max*100}%;background:${COL[e]};${e==='수'?'box-shadow:inset 0 0 0 1.5px #fff;':''}"></i></span><span class="n">${cnt[e]}</span></div>`).join('')+`<p style="margin-top:8px">모두 ${total}글자를 셌어요.</p>`;
   const gi=G.indexOf(r.일[0]), de=GE[gi], dn=`${GK[gi]}${de}(${G[gi]}${HAN[de]})`;
   const empty=EL.filter(e=>cnt[e]===0), mx=Math.max(...EL.map(e=>cnt[e])), most=EL.filter(e=>cnt[e]===mx);
-  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}의 결이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="${url(GK[gi])}">GOYO 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
-  c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 결로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>다만 비어 있다고 꼭 필요한 기운은 아니에요.</p>${empty.map(e=>`<a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="${url(e)}">${e}(${HAN[e]}) 편 듣기 · ${GENRE[e]}</a>`).join('')}</div>`
+  let c=`<div class="card"><div class="kicker">나를 뜻하는 글자, 일간</div><h2>${dn}</h2><p>${DESC[GK[gi]]}, 그런 기운이에요.<br>고요에는 내 일간으로 만든 편이 따로 있어요.<br>『다섯 가지 고요｜${dn}』</p></div>`+`<a class="go" style="margin-top:12px" href="${url(GK[gi])}">GOYO 유튜브에서 ${GK[gi]}${de} 편 듣기</a>`;
+  c+=empty.length?`<div class="card"><div class="kicker">비어 있는 기운</div><h2>${empty.map(e=>e+'('+HAN[e]+')').join(' · ')}</h2><p>${empty.map(e=>`${e}의 기운으로 만든 오행 편은 ${ieyo(GENRE[e])}.`).join('<br>')}<br>다만 비어 있다고 꼭 필요한 기운은 아니에요.</p>${empty.map(e=>`<a class="go" style="margin-top:12px;background:transparent;color:var(--fg);border:1px solid var(--line)" href="${url(e)}">${e}(${HAN[e]}) 편 듣기 · ${GENRE[e]}</a>`).join('')}</div>`
    :`<div class="card"><div class="kicker">비어 있는 기운</div><h2>다섯 오행이 모두 있어요</h2><p>가장 많은 기운은 ${ieyo(most.join(' · '))}. 그날 시간대에 맞는 편을 골라 들어 보세요.<br>아침 목 · 한낮 화 · 저녁 금 · 밤 수, 그 사이마다 토.</p></div>`;
-  c+=`<div class="card" style="border-color:var(--gold)"><div class="kicker">내게 필요한 기운, 용신</div><h2>사주 전체를 봐야 정해져요</h2><p>일간의 힘(억부)과 태어난 계절(조후)을 함께 봐야 해요. 같은 "목이 없는 사주"라도 목이 필요한 사람이 있고, 오히려 덜어야 하는 사람이 있거든요.<br>내 사주의 유불리와 그에 맞는 개운법은 고요 상담에서 풀어 드릴 예정이에요.</p><p style="margin-top:12px;color:var(--gold);font-size:14px">고요 상담 신청은 곧 열려요.</p></div>`;
   document.getElementById('cards').innerHTML=c;
   const o=document.getElementById('out');o.style.display='block';o.scrollIntoView({behavior:'smooth'});
 });
