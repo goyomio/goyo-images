@@ -88,8 +88,8 @@ def text_layer(cfg, sc, t):
         w = d.textlength(s, font=f)
         d.text(((W - w) / 2 + 3, y + 3), s, font=f, fill=(0, 0, 0, int(160 * a)))
         d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),))
-    ct(200, cfg.get('header', '사주 · 오행음악 · 고요'), F(cfg.get('header_size', 40), True), SOFT, 1)
-    ct(200 + cfg.get('header_size', 40) + 18, "FIVE ELEMENTS MUSIC", F(28), DIM, 1)
+    ct(200, cfg.get('header', '사주 · 오행음악 · 고요'), F(cfg.get('header_size', 46), True), SOFT, 1)
+    ct(200 + cfg.get('header_size', 46) + 18, "FIVE ELEMENTS MUSIC", F(28), DIM, 1)
     lines = []
     def fit(s, size, bold=False):
         f = F(size, bold)
@@ -97,16 +97,16 @@ def text_layer(cfg, sc, t):
             size -= 2; f = F(size, bold)
         return f, size
     if sc.get('small'):
-        f, z = fit(sc['small'], sc.get('small_size', 48), True); lines.append((sc['small'], f, SOFT, int(z * 2.3)))
+        f, z = fit(sc['small'], sc.get('small_size', 58), True); lines.append((sc['small'], f, SOFT, int(z * 2.3)))
     bs = sc.get('big_size', 96)
     for s in sc.get('big', []):
-        f, z = fit(s, bs, True); lines.append((s, f, GOLD, z + 42))
+        f, z = fit(s, bs, True); lines.append((s, f, (246, 243, 236) if sc.get('instant') else GOLD, int(z * 1.12) if sc.get('instant') else z + 42))
     if sc.get('after') and lines:
         a0 = lines[-1]; lines[-1] = (a0[0], a0[1], a0[2], a0[3] + 30)
     for s in sc.get('after', []):
-        f, z = fit(s, sc.get('after_size', 46)); lines.append((s, f, SOFT, int(z * 1.65)))
+        f, z = fit(s, sc.get('after_size', 56)); lines.append((s, f, SOFT, int(z * 1.65)))
     if sc.get('en'):
-        f, z = fit(sc['en'], sc.get('en_size', 34)); lines.append((sc['en'], f, DIM, int(z * 1.76)))
+        f, z = fit(sc['en'], sc.get('en_size', 40)); lines.append((sc['en'], f, DIM, int(z * 1.76)))
     total = sum(l[3] for l in lines); y = (H - total) // 2 + 60
     step = sc.get('step', 0.45)
     for i, (s, f, col, h) in enumerate(lines):

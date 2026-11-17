@@ -14,10 +14,10 @@ def A(name, dur, start=1.0):
 R = {}
 
 # ---------------- 7 양인 (연결형) ----------------
-R[7] = dict(date='2026-12-01', name='살04 양인', theme='stars', kind='연결형',
+R[7] = dict(date='2026-12-03', name='살04 양인', theme='stars', kind='연결형',
  audio=[A('화', 9.5, 0.3), A('갑목', 4.5), A('병화', 4.5), A('무토', 4.5), A('경금', 4.5), A('임수', 9.5)],
  scenes=[
-  dict(sec=4.5, instant=True, big=['양인'], big_size=150, after=['있으면 기가 세다는 말, 들어 보셨어요?'], en='Yangin: strength at its peak.'),
+  dict(sec=4.5, instant=True, big=['양인'], big_size=280, after=['있으면 기가 세다는 말, 들어 보셨어요?'], en='Yangin: strength at its peak.'),
   dict(sec=5.0, small='양간에서는 록(祿)의 바로 다음 글자', big=['일간의 힘이', '가장 세게 차오른 자리'], big_size=80, after=['요즘은 주체성과 추진력으로 읽기도 해요']),
   dict(sec=4.5, tint='목', small='갑(甲) 일간이라면', big=['묘(卯) 양인'], big_size=100, after=['내 힘으로 밀고 나가는 아침에', '『Morning Oak』(갑목 편)']),
   dict(sec=4.5, tint='화', small='병(丙) 일간이라면', big=['오(午) 양인'], big_size=100, after=['사람들 앞에 서는 한낮에', '『Noon Avenue』(병화 편)']),
@@ -48,10 +48,10 @@ R[7] = dict(date='2026-12-01', name='살04 양인', theme='stars', kind='연결�
 #고요 #사주 #양인 #양인살 #신살 #오행음악""")
 
 # ---------------- 8 천덕·월덕 (정보형) ----------------
-R[8] = dict(date='2026-12-03', name='귀인04 천덕월덕', theme='blossom', kind='정보형',
+R[8] = dict(date='2026-12-05', name='귀인04 천덕월덕', theme='blossom', kind='정보형',
  audio=[A('을목', 18.0), A('정화', 18.0)],
  scenes=[
-  dict(sec=4.5, instant=True, big=['천덕 · 월덕'], big_size=130, after=['덕을 쌓으면 생기는 귀인일까?'], en='Virtue stars set by your birth month.'),
+  dict(sec=4.5, instant=True, big=['천덕', '월덕'], big_size=230, after=['덕을 쌓으면 생기는 귀인일까?'], en='Virtue stars set by your birth month.'),
   dict(sec=5.5, small='태어난 달로 정해지는 귀인', big=['하늘의 덕, 달의 덕'], big_size=88, after=['옛 책은 험한 일을', '누그러뜨리는 글자로 풀이했어요']),
   dict(sec=4.5, tint='화', small='인(寅)·오(午)·술(戌)월생이라면', big=['월덕은 병(丙)'], big_size=96),
   dict(sec=4.5, tint='수', small='신(申)·자(子)·진(辰)월생이라면', big=['월덕은 임(壬)'], big_size=96),
@@ -86,10 +86,10 @@ R[8] = dict(date='2026-12-03', name='귀인04 천덕월덕', theme='blossom', ki
 #고요 #사주 #천덕귀인 #월덕귀인 #귀인 #오행음악""")
 
 # ---------------- 9 괴강 (연결형) ----------------
-R[9] = dict(date='2026-12-05', name='살05 괴강', theme='stars', kind='연결형',
+R[9] = dict(date='2026-12-08', name='살05 괴강', theme='stars', kind='연결형',
  audio=[A('토', 14.5, 0.3), A('경금', 10.0), A('임수', 10.0)],
  scenes=[
-  dict(sec=4.5, instant=True, big=['괴강'], big_size=150, after=['있으면 성격이 강하다고요?'], en='Kuigang: a name from the Big Dipper.'),
+  dict(sec=4.5, instant=True, big=['괴강'], big_size=280, after=['있으면 성격이 강하다고요?'], en='Kuigang: a name from the Big Dipper.'),
   dict(sec=5.0, small='괴강(魁罡)은 북두칠성에서 온 이름', big=['진(辰)과 술(戌)'], big_size=92, after=['옛 책은 진을 천강, 술을 하괴라 불렀어요']),
   dict(sec=5.0, small='흔히 꼽는 괴강 일주', big=['경진 · 경술 · 임진'], big_size=84, after=['임술 · 무술 · 무진을 넣는 기준은', '학파마다 달라요']),
   dict(sec=5.0, small='예전엔 여자에게 드세다고 했지만', big=['결단하고', '밀고 나가는 기운'], big_size=84, after=['요즘은 성별과 상관없이 이렇게 읽어요']),
@@ -117,10 +117,10 @@ R[9] = dict(date='2026-12-05', name='살05 괴강', theme='stars', kind='연결�
 
 
 # ---------------- 10 태극귀인 (정보형) ----------------
-R[10] = dict(date='2026-12-08', name='귀인05 태극귀인', theme='moon', kind='정보형',
+R[10] = dict(date='2026-12-10', name='귀인05 태극귀인', theme='moon', kind='정보형',
  audio=[A('계수', 18.0), A('신금', 18.0)],
  scenes=[
-  dict(sec=4.5, instant=True, big=['태극귀인'], big_size=150, after=['근원을 파고드는 사람에게 붙는 귀인?'], en='Taiji star: the root of things.'),
+  dict(sec=4.5, instant=True, big=['태극', '귀인'], big_size=230, after=['근원을 파고드는 사람에게 붙는 귀인?'], en='Taiji star: the root of things.'),
   dict(sec=5.5, small='태극(太極)은 만물의 근원', big=['일간으로 찾는 귀인'], big_size=88, after=['옛 책은 깊이 파고드는 힘으로 풀이했어요']),
   dict(sec=4.0, tint='목', small='갑(甲)·을(乙) 일간이라면', big=['자(子) · 오(午)'], big_size=96),
   dict(sec=4.0, tint='화', small='병(丙)·정(丁) 일간이라면', big=['묘(卯) · 유(酉)'], big_size=96),
@@ -149,10 +149,10 @@ R[10] = dict(date='2026-12-08', name='귀인05 태극귀인', theme='moon', kind
 #고요 #사주 #태극귀인 #귀인 #오행음악""")
 
 # ---------------- 11 백호 (정보형) ----------------
-R[11] = dict(date='2026-12-10', name='살06 백호', theme='road', kind='정보형',
+R[11] = dict(date='2026-12-12', name='살06 백호', theme='road', kind='정보형',
  audio=[A('갑목', 15.0), A('계수', 15.0)],
  scenes=[
-  dict(sec=4.5, instant=True, big=['백호'], big_size=150, after=['무섭게만 들리는 이름, 정말 그럴까?'], en='Baekho: the White Tiger.'),
+  dict(sec=4.5, instant=True, big=['백호'], big_size=280, after=['무섭게만 들리는 이름, 정말 그럴까?'], en='Baekho: the White Tiger.'),
   dict(sec=6.0, small='백호(白虎)는 서쪽을 지키는 흰 호랑이', big=['태어난 날의 기둥이', '이 일곱 가운데 하나'], big_size=78, after=['갑진 · 을미 · 병술 · 정축', '무진 · 임술 · 계축']),
   dict(sec=5.0, small='예전엔 겁을 주던 이름이지만', big=['밀어붙이는 힘,', '한 분야를 파는 힘'], big_size=84, after=['요즘은 이렇게 읽기도 해요']),
   dict(sec=5.0, small='일주 말고 다른 기둥까지 보는 학파도 있어요', big=['백호 하나로', '정해지는 건 없어요'], big_size=84),
@@ -172,10 +172,10 @@ R[11] = dict(date='2026-12-10', name='살06 백호', theme='road', kind='정보�
 #고요 #사주 #백호 #백호살 #신살 #오행음악""")
 
 # ---------------- 12 국인·관귀학관·삼기 (정보형) ----------------
-R[12] = dict(date='2026-12-12', name='귀인06 국인관귀삼기', theme='lamp', kind='정보형',
+R[12] = dict(date='2026-12-15', name='귀인06 국인관귀삼기', theme='lamp', lamp_chars='國印三奇', kind='정보형',
  audio=[A('정화', 15.0), A('을목', 15.0)],
  scenes=[
-  dict(sec=4.5, instant=True, big=['국인 · 관귀 · 삼기'], big_size=100, after=['이름도 낯선 귀인 셋'], en='Three lesser-known noble stars.'),
+  dict(sec=4.5, instant=True, big=['국인', '관귀', '삼기'], big_size=200, after=['이름도 낯선 귀인 셋'], en='Three lesser-known noble stars.'),
   dict(sec=5.5, small='국인(國印)', big=['나라의 도장'], big_size=96, after=['맡은 일을 책임 있게 지키는 자리로 읽어요', '일간으로 찾아요']),
   dict(sec=5.5, small='관귀학관(官貴學館)', big=['배움이 자리로', '이어지는 귀인'], big_size=84, after=['갑·을은 사(巳), 병·정은 신(申)', '일간으로 찾아요']),
   dict(sec=5.5, small='삼기(三奇)', big=['세 천간이', '한 사주에 모이면'], big_size=84, after=['갑무경 · 을병정 · 임계신']),
@@ -200,10 +200,177 @@ R[12] = dict(date='2026-12-12', name='귀인06 국인관귀삼기', theme='lamp'
 
 #고요 #사주 #국인귀인 #관귀학관 #삼기귀인 #귀인 #오행음악""")
 
+# ---------------- 13 삼재 (정보형) ----------------
+R[13] = dict(date='2026-12-17', name='살07 삼재', theme='moon', kind='정보형',
+ audio=[A('임수', 16.0), A('기토', 16.0)],
+ scenes=[
+  dict(sec=4.5, instant=True, big=['삼재'], big_size=280, after=['2027년, 내 띠도 삼재일까?'], en='Samjae: the three-year cycle.'),
+  dict(sec=5.5, small='삼재(三災)는 띠로 보는 3년', big=['12년에 한 번', '찾아오는 3년'], big_size=84, after=['들어오는 해 · 머무는 해 · 나가는 해']),
+  dict(sec=6.0, tint='토', small='2027년은 정미(丁未)년', big=['돼지띠 · 토끼띠', '양띠'], big_size=96, after=['삼재가 나가는 해(날삼재)예요']),
+  dict(sec=5.5, small='사주에서는 입춘을 기준으로 띠를 나눠요', big=['1월생 · 2월 초생', '띠를 다시 보세요'], big_size=80, after=['2027년 입춘은 2월 4일이에요']),
+  dict(sec=5.5, small='삼재는 띠 하나로 보는 오랜 풍속', big=['삼재라서', '안 되는 일은 없어요'], big_size=88, after=['사주는 원국과 대운까지 함께 봐요']),
+  dict(sec=5.0, tint='수', small='돼지 · 토끼 · 양띠라면', big=['나가는 해,', '하던 일을 매듭짓는 때'], big_size=84, after=['올해 삼재가 아닌 띠가 더 많아요'], en=FIX),
+ ],
+ caption="""2027년, 내 띠도 삼재일까요?
+
+삼재(三災)는 띠로 보는 3년이에요. 12년에 한 번, 들어오는 해·머무는 해·나가는 해가 세 해 동안 이어져요. 띠의 삼합(三合)으로 정해요.
+돼지띠·토끼띠·양띠: 사(巳)·오(午)·미(未)년
+원숭이띠·쥐띠·용띠: 인(寅)·묘(卯)·진(辰)년
+호랑이띠·말띠·개띠: 신(申)·유(酉)·술(戌)년
+뱀띠·닭띠·소띠: 해(亥)·자(子)·축(丑)년
+
+2027년은 정미(丁未)년이라 돼지띠·토끼띠·양띠가 삼재가 나가는 해(날삼재)를 맞아요. 사주에서는 입춘부터 새해로 보고, 2027년 입춘은 2월 4일이에요. 1월이나 2월 초에 태어났다면 띠를 한 번 더 확인해 보세요. 입춘 당일에 태어났다면 태어난 시각까지 봐야 해요.
+
+삼재는 띠 하나로 보는 오랜 풍속이에요. 삼재라서 안 되는 일은 없고, 사주는 원국과 대운까지 함께 봐요. 나가는 해라면 하던 일을 매듭짓는 때로 읽어도 좋아요.
+학파마다 기준은 다를 수 있어요.
+
+배경 음악: 『Wide Water』(임수 편) · 『Tilled Morning』(기토 편)
+
+#고요 #사주 #삼재 #2027삼재 #정미년 #오행음악""")
+
+# ---------------- 14 원진 (정보형) ----------------
+R[14] = dict(date='2026-12-19', name='살08 원진', theme='stars', kind='정보형',
+ audio=[A('경금', 15.0), A('정화', 15.0)],
+ scenes=[
+  dict(sec=4.5, instant=True, big=['원진'], big_size=280, after=['띠 궁합이 나쁘다는 그 말?'], en='Wonjin: the uneasy pairs.'),
+  dict(sec=5.5, small='원진(怨嗔)은 원망하고 성낸다는 뜻', big=['서로 꺼린다고 본', '지지 여섯 쌍'], big_size=84),
+  dict(sec=5.0, tint='수', big=['자(子) · 미(未)', '축(丑) · 오(午)', '인(寅) · 유(酉)'], big_size=84),
+  dict(sec=5.0, tint='화', big=['묘(卯) · 신(申)', '진(辰) · 해(亥)', '사(巳) · 술(戌)'], big_size=84),
+  dict(sec=5.5, small='띠는 사주 여덟 글자 가운데 하나예요', big=['원진 하나로', '궁합을 판단하지 않아요'], big_size=80, after=['두 사람의 원국 전체로 봐요']),
+  dict(sec=4.5, small='내 사주 안 지지끼리도 원진을 봐요', big=['내 사주에도', '원진이 있을까요?'], big_size=88, en=FIX),
+ ],
+ caption="""띠 궁합이 나쁘다는 말, 흔히 원진을 두고 해요.
+
+원진(怨嗔)은 원망하고 성낸다는 뜻이에요. 서로 꺼리는 사이로 본 지지 여섯 쌍이 있어요.
+자(子)·미(未) · 축(丑)·오(午) · 인(寅)·유(酉)
+묘(卯)·신(申) · 진(辰)·해(亥) · 사(巳)·술(戌)
+
+흔히 두 사람의 띠로 보지만, 띠는 사주 여덟 글자 가운데 하나예요. 원진 하나로 궁합을 판단하지는 않아요. 궁합은 두 사람의 원국 전체로 봐요.
+
+한 사람의 사주 안에서도 지지끼리 원진이 있는지 봐요. 이때도 다른 글자와 어떻게 어울리는지가 더 중요해요.
+학파마다 기준은 다를 수 있어요.
+
+배경 음악: 『Stone Bridge』(경금 편) · 『Lamplit Keys』(정화 편)
+
+#고요 #사주 #원진 #원진살 #띠궁합 #오행음악""")
+
+# ---------------- 15 귀인이 없어도 (소개형) ----------------
+R[15] = dict(date='2026-12-22', name='소개02 귀인이 없어도', theme='lamp', lamp_chars='貴人', kind='소개형',
+ audio=[A('병화', 16.0), A('을목', 15.0)],
+ scenes=[
+  dict(sec=4.5, instant=True, big=['귀인이', '없다면?'], big_size=230, after=['내 사주엔 귀인이 하나도 없대요'], en='No noble star in my chart?'),
+  dict(sec=5.5, small='천을 · 문창 · 태극 · 천덕 …', big=['귀인 글자가', '없는 사주도 있어요'], big_size=84),
+  dict(sec=5.5, small='귀인은 사주를 읽는 여러 표 가운데 하나', big=['없다고', '도움이 없는 건 아니에요'], big_size=84),
+  dict(sec=5.5, tint='목', small='사주는 일간과 오행의 흐름으로 읽어요', big=['먼저', '내 오행부터'], big_size=96, after=['많은 기운, 필요한 기운']),
+  dict(sec=5.0, tint='화', small='많은 기운과 필요한 기운을 알아 두면 좋아요', big=['곁에 둘', '소리부터'], big_size=96, after=['고요는 일간마다 어울리는 소리를 골라 두었어요']),
+  dict(sec=5.0, small='생년월일시를 넣으면 바로 보여요', big=['내 사주의', '오행 보기'], big_size=100, after=['프로필 첫 링크에서']),
+ ],
+ caption="""귀인이 하나도 없는 사주라는 말, 들어 보셨어요?
+
+천을귀인, 문창·학당, 태극귀인, 천덕·월덕까지 지난 연재에서 귀인을 여럿 살펴봤어요. 이런 귀인 글자가 하나도 없는 사주도 있어요.
+
+귀인은 사주를 읽는 여러 표 가운데 하나예요. 없다고 도움이 없는 사람이 되는 건 아니에요. 사주는 흔히 태어난 날의 천간(일간)과 다섯 오행의 흐름으로 읽어요.
+
+내 사주에 많은 기운과 필요한 기운을 알면, 생활에서 해 볼 만한 일을 찾을 수 있어요. 고요는 그 곁에 둘 소리를 일간마다 골라 두었어요.
+
+내 사주의 오행은 프로필 첫 링크에서 볼 수 있어요.
+
+배경 음악: 『Noon Avenue』(병화 편) · 『Morning Tendril』(을목 편)
+
+#고요 #사주 #귀인 #오행 #일간 #오행음악""")
+
+# ---------------- 16 귀문관 (정보형) ----------------
+R[16] = dict(date='2026-12-24', name='살09 귀문관', theme='moon', kind='정보형',
+ audio=[A('계수', 16.0), A('갑목', 15.0)],
+ scenes=[
+  dict(sec=4.5, instant=True, big=['귀문관'], big_size=250, after=['예민한 사람에게 있다는 그 글자?'], en='Gwimungwan: the sensitive gate.'),
+  dict(sec=5.5, small='귀문관(鬼門關)은 귀신이 드나드는 문', big=['감각이 예민하고', '직관이 밝은 자리'], big_size=84, after=['요즘은 이렇게 읽기도 해요']),
+  dict(sec=5.0, tint='수', big=['자(子) · 유(酉)', '축(丑) · 오(午)', '인(寅) · 미(未)'], big_size=84),
+  dict(sec=5.0, tint='목', big=['묘(卯) · 신(申)', '진(辰) · 해(亥)', '사(巳) · 술(戌)'], big_size=84, after=['이 짝이 함께 있으면 귀문관']),
+  dict(sec=5.5, small='붙어 있는 기둥에서만 보는 학파도 있어요', big=['사주로 마음 건강을', '판단할 수는 없어요'], big_size=78, after=['힘들 땐 전문가와 이야기해 보세요']),
+  dict(sec=5.5, small='귀문관 하나로 정해지는 건 없어요', big=['내 사주에도', '귀문관이 있을까요?'], big_size=88, en=FIX),
+ ],
+ caption="""예민한 사람 사주에 있다는 귀문관, 들어 보셨어요?
+
+귀문관(鬼門關)은 귀신이 드나드는 문이라는 이름이에요. 이름은 무섭지만, 요즘은 감각이 예민하고 직관이 밝은 자리로 읽기도 해요.
+
+사주 지지에 아래 두 글자가 함께 있으면 귀문관으로 봐요.
+자(子)·유(酉) · 축(丑)·오(午) · 인(寅)·미(未)
+묘(卯)·신(申) · 진(辰)·해(亥) · 사(巳)·술(戌)
+일지와 월지, 일지와 시지처럼 붙어 있는 기둥에서만 보는 학파도 있어요.
+
+사주로 마음 건강을 판단할 수는 없어요. 힘들 땐 전문가와 이야기해 보세요.
+
+귀문관 하나로 정해지는 건 없고, 사주는 원국 전체로 봐요.
+학파마다 기준은 다를 수 있어요.
+
+배경 음악: 『Drizzle』(계수 편) · 『Morning Oak』(갑목 편)
+
+#고요 #사주 #귀문관 #귀문관살 #신살 #오행음악""")
+
+# ---------------- 17 공망 (정보형) ----------------
+R[17] = dict(date='2026-12-26', name='살10 공망', theme='stars', kind='정보형',
+ audio=[A('신금', 16.0), A('임수', 16.0)],
+ scenes=[
+  dict(sec=4.5, instant=True, big=['공망'], big_size=280, after=['비어 있다는 그 글자?'], en='Gongmang: the empty branches.'),
+  dict(sec=5.5, small='천간 열 개씩 지지와 차례로 짝지으면', big=['짝을 못 찾은', '지지 두 글자'], big_size=84, after=['이 두 글자를 공망(空亡)이라 해요']),
+  dict(sec=5.5, tint='금', small='태어난 날의 기둥으로 찾아요', big=['갑자순 → 술 · 해', '갑술순 → 신 · 유', '갑신순 → 오 · 미'], big_size=72),
+  dict(sec=5.5, tint='수', big=['갑오순 → 진 · 사', '갑진순 → 인 · 묘', '갑인순 → 자 · 축'], big_size=72, after=['내 일주가 어느 순인지는 아래 글에 있어요']),
+  dict(sec=5.5, small='공망 글자는 누구에게나 둘', big=['그 글자가', '내 사주에 있을 때'], big_size=88, after=['그 자리의 기운이 비어 있는 듯 읽어요']),
+  dict(sec=5.0, small='공망 하나로 정해지는 건 없어요', big=['내 공망은', '어디일까요?'], big_size=92, en=FIX),
+ ],
+ caption="""비어 있다는 글자, 공망(空亡)이에요.
+
+천간 열 글자와 지지 열두 글자를 차례로 짝지으면 열 번마다 지지 두 글자가 남아요. 이 두 글자를 공망이라 해요. 보통 태어난 날의 기둥(일주)으로 찾고, 태어난 해의 기둥으로 함께 보기도 해요.
+
+갑자·을축·병인·정묘·무진·기사·경오·신미·임신·계유 → 술(戌)·해(亥)
+갑술·을해·병자·정축·무인·기묘·경진·신사·임오·계미 → 신(申)·유(酉)
+갑신·을유·병술·정해·무자·기축·경인·신묘·임진·계사 → 오(午)·미(未)
+갑오·을미·병신·정유·무술·기해·경자·신축·임인·계묘 → 진(辰)·사(巳)
+갑진·을사·병오·정미·무신·기유·경술·신해·임자·계축 → 인(寅)·묘(卯)
+갑인·을묘·병진·정사·무오·기미·경신·신유·임술·계해 → 자(子)·축(丑)
+
+공망 글자는 누구에게나 두 개 있어요. 그 글자가 내 사주의 다른 기둥에 있을 때, 그 자리의 기운이 비어 있는 듯 약하게 읽어요. 합이나 충을 만나면 공망이 풀린다고 보는 학파도 있어요.
+
+공망 하나로 정해지는 건 없고, 사주는 원국 전체로 봐요.
+학파마다 기준은 다를 수 있어요.
+
+배경 음악: 『Clear Facet』(신금 편) · 『Wide Water』(임수 편)
+
+#고요 #사주 #공망 #공망살 #신살 #오행음악""")
+
+# ---------------- 18 총정리 (소개형) ----------------
+R[18] = dict(date='2026-12-29', name='소개03 신살 총정리', theme='blossom', kind='소개형',
+ audio=[A('정화', 4.5, 0.3), A('갑목', 5.5), A('병화', 5.5), A('기토', 5.5), A('경금', 5.5), A('임수', 5.0)],
+ scenes=[
+  dict(sec=4.5, instant=True, big=['신살', '총정리'], big_size=230, after=['도화부터 공망까지'], en='Every star, in one reel.'),
+  dict(sec=5.5, tint='목', small='살이라 불린 글자들', big=['도화 · 역마 · 화개', '양인 · 괴강 · 백호'], big_size=76, after=['요즘은 성향과 힘으로 읽어요']),
+  dict(sec=5.5, tint='화', small='귀인 · 록이라 불린 글자들', big=['천을 · 문창 · 금여', '천덕 · 태극 · 국인'], big_size=76, after=['없는 사주도 있어요']),
+  dict(sec=5.5, tint='토', small='띠 · 짝 · 일주로 보는 것들', big=['삼재 · 원진', '귀문관 · 공망'], big_size=84, after=['하나로 정해지는 건 없어요']),
+  dict(sec=5.5, tint='금', small='신살은 원국 위에 얹어 보는 표', big=['먼저', '내 일간과 오행'], big_size=96, after=['그 위에 신살을 얹어 읽어요']),
+  dict(sec=5.0, tint='수', small='생년월일시를 넣으면 바로 보여요', big=['내 사주의', '오행 보기'], big_size=100, after=['프로필 첫 링크에서'], en=FIX),
+ ],
+ caption="""도화부터 공망까지, 신살 연재를 한 번에 모았어요.
+
+살이라 불린 글자: 도화, 역마, 화개, 양인, 괴강, 백호
+귀인·록이라 불린 글자: 천을, 문창·학당, 금여·암록·건록, 천덕·월덕, 태극, 국인·관귀학관·삼기
+띠·짝·일주로 보는 것: 삼재, 원진, 귀문관, 공망
+
+예전에 겁을 주던 이름도 요즘은 성향과 힘으로 읽어요. 귀인 글자가 없는 사주도 있고, 어느 것 하나로 정해지는 건 없어요.
+
+신살은 원국 위에 얹어 보는 표예요. 먼저 태어난 날의 천간(일간)과 다섯 오행을 알고, 그 위에 신살을 얹어 읽어요. 내 사주의 오행은 프로필 첫 링크에서 볼 수 있어요.
+학파마다 기준은 다를 수 있어요.
+
+장면마다 그 오행의 곡을 골랐어요.
+『Lamplit Keys』(정화 편) · 『Morning Oak』(갑목 편) · 『Noon Avenue』(병화 편) · 『Tilled Morning』(기토 편) · 『Stone Bridge』(경금 편) · 『Wide Water』(임수 편)
+
+#고요 #사주 #신살 #귀인 #오행 #오행음악""")
+
 
 def yt_after(lines):
     out = []
     for l in lines:
+        l = l.replace('프로필 첫 링크에서', '설명란 링크에서')
         l = l.replace('내 일간의 곡은 프로필 링크에서', '내 일간 편은 고정 댓글에서')
         l = l.replace('내 일주의 곡은 프로필 링크에서', '내 일주 편은 고정 댓글에서')
         l = l.replace('그 글자의 곡은 프로필 링크에서', '그 글자의 편은 고정 댓글에서')
@@ -215,13 +382,14 @@ def yt_after(lines):
 def build(n, render=True):
     r = R[n]
     cfg = {'theme': r['theme'], 'audio_parts': r['audio'], 'tints': T, 'scenes': r['scenes']}
+    if r.get('lamp_chars'): cfg['lamp_chars'] = r['lamp_chars']
     jp = os.path.join(SD, r['name'] + '.json'); mp = jp[:-5] + '.mp4'
     json.dump(cfg, open(jp, 'w'), ensure_ascii=False, indent=1)
     cap = '/tmp/cap_%d.txt' % n; open(cap, 'w').write(r['caption'])
     k = subprocess.run([sys.executable, os.path.join(ROOT, 'tools', 'ko_check.py'), cap], capture_output=True, text=True)
     print(n, 'ko_check', k.returncode, k.stdout.strip()[-400:])
     pdir = os.path.join(ROOT, 'posts', r['date'] + '-2100'); os.makedirs(pdir, exist_ok=True)
-    json.dump({'type': 'reel', 'video_file': os.path.relpath(mp, ROOT), 'via': 'api', 'approved': False, 'thumb_offset': 3000,
+    json.dump({'type': 'reel', 'video_file': os.path.relpath(mp, ROOT), 'via': 'api', 'approved': False, 'thumb_offset': 1000,
                'note': f'신살·귀인 연재 {n}회. {r["kind"]}. 2026-11-18 밤 제작, 명리 검토 반영. 미오 님 승인 대기',
                'caption': r['caption']}, open(os.path.join(pdir, 'post.json'), 'w'), ensure_ascii=False, indent=1)
     yt = json.loads(json.dumps(cfg)); yt['scenes'][-1]['after'] = yt_after(yt['scenes'][-1].get('after', []))
