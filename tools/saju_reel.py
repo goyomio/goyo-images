@@ -129,7 +129,7 @@ def text_layer(cfg, sc, t):
         ez = max(58, int(sc.get('en_size', 40) * 1.45))
         for k, ln in enumerate(wrap2(sc['en'], ez)):
             f, z = fit(ln, ez); lines.append((ln, f, (236, 233, 226), int(z * (1.55 if k == 0 else 1.3))))
-    total = sum(l[3] for l in lines); y = (H - total) // 2 + 60
+    total = sum(l[3] for l in lines); y = (H - total) // 2 + 60 - sc.get('lift', 0)  # lift: 쇼츠 아래 가림 피하기
     step = sc.get('step', 0.45)
     for i, (s, f, col, h) in enumerate(lines):
         if col is DIM or (h == 76 + 30 and False): pass
