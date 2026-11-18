@@ -87,7 +87,11 @@ def text_layer(cfg, sc, t):
         if a <= 0: return
         w = d.textlength(s, font=f)
         d.text(((W - w) / 2 + 3, y + 3), s, font=f, fill=(0, 0, 0, int(160 * a)))
-        d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),), stroke_width=stroke, stroke_fill=(255, 255, 255, int(255 * a)))
+        if stroke:  # 수(水) 큰 글자: 흑색 + 흰 테두리
+            d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),), stroke_width=stroke, stroke_fill=(255, 255, 255, int(255 * a)))
+        else:  # 흰 글씨가 묻히지 않게 어두운 테두리 (미오 님 규칙 11/18)
+            sw = max(1, round(f.size / 24))
+            d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),), stroke_width=sw, stroke_fill=(10, 10, 14, int(200 * a)))
     ct(200, cfg.get('header', '사주 · 오행음악 · 고요'), F(cfg.get('header_size', 46), True), SOFT, 1)
     ct(200 + cfg.get('header_size', 46) + 18, "FIVE ELEMENTS MUSIC", F(28), DIM, 1)
     lines = []
@@ -107,7 +111,7 @@ def text_layer(cfg, sc, t):
     for s in sc.get('after', []):
         f, z = fit(s, sc.get('after_size', 56)); lines.append((s, f, SOFT, int(z * 1.65)))
     if sc.get('en'):
-        f, z = fit(sc['en'], sc.get('en_size', 40)); lines.append((sc['en'], f, DIM, int(z * 1.76)))
+        f, z = fit(sc['en'], sc.get('en_size', 40)); lines.append((sc['en'], f, (236, 233, 226), int(z * 1.76)))
     total = sum(l[3] for l in lines); y = (H - total) // 2 + 60
     step = sc.get('step', 0.45)
     for i, (s, f, col, h) in enumerate(lines):

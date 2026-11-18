@@ -34,7 +34,7 @@ def ctext(d, y, s, f, fill, a=1.0):
         if c == (0, 0, 0):
             d.text((x, y), t, font=f, fill=(0, 0, 0, al), stroke_width=max(2, f.size // 36), stroke_fill=(255, 255, 255, al))
         else:
-            d.text((x, y), t, font=f, fill=tuple(c) + (al,))
+            d.text((x, y), t, font=f, fill=tuple(c) + (al,), stroke_width=max(1, round(f.size / 24)), stroke_fill=(10, 10, 14, int(al * 0.8)))  # 어두운 테두리 (미오 님 규칙 11/18)
         x += d.textlength(t, font=f)
 
 
@@ -88,6 +88,10 @@ def frame(img, sc, t, first):
         y += 16
         for ln in sc['small'].split('\n'):
             ctext(d, y, ln, F(sc.get('small_size', 46)), SUB, a); y += int(sc.get('small_size', 46) * 1.45)
+    if sc.get('en'):
+        y += 6
+        for ln in sc['en'].split('\n'):
+            ctext(d, y, ln, F(sc.get('en_size', 38)), (236, 233, 226), a); y += int(sc.get('en_size', 38) * 1.45)
     if sc.get('credit'):
         ctext(d, sc.get('credit_y', 1700), sc['credit'], F(28), DIM, a)
     if sc.get('logo'):

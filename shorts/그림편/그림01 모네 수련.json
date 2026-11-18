@@ -18,11 +18,11 @@
    ],
    "box": [
     100,
-    700,
+    735,
     980,
-    1547
+    1582
    ],
-   "y": 200,
+   "y": 170,
    "label": "고요의 그림 읽기",
    "title": [
     "수련"
@@ -30,8 +30,9 @@
    "title_size": 230,
    "sub": "클로드 모네, 1906",
    "credit": "시카고 미술관 · 퍼블릭 도메인(CC0)",
-   "credit_y": 1580,
-   "logo": true
+   "credit_y": 1612,
+   "logo": true,
+   "en": "Water Lilies · Claude Monet, 1906"
   },
   {
    "sec": 6.5,
@@ -52,7 +53,8 @@
     "하늘을 그리지 않았는데",
     "하늘이 보여요"
    ],
-   "small": "모두 물에 비친 하늘이에요"
+   "small": "모두 물에 비친 하늘이에요",
+   "en": "All of it is sky reflected in the water"
   },
   {
    "sec": 7.0,
@@ -73,7 +75,8 @@
     "모네는 수련이",
     "\"반주일 뿐\"이라고 했어요"
    ],
-   "small": "주인공은 물의 거울이라고요"
+   "small": "주인공은 물의 거울이라고요",
+   "en": "The real subject, he said, is the water's mirror"
   },
   {
    "sec": 8.0,
@@ -94,7 +97,8 @@
     "1893년, 그림보다",
     "연못을 먼저 팠어요"
    ],
-   "small": "물이 더러워질까 봐 마을은 반대했어요"
+   "small": "물이 더러워질까 봐 마을은 반대했어요",
+   "en": "The village objected, fearing the water would get dirty"
   },
   {
    "sec": 7.5,
@@ -115,7 +119,8 @@
     "분홍 수련은",
     "1889년 박람회에서"
    ],
-   "small": "그때 유럽의 수련은 흰색뿐이었어요"
+   "small": "그때 유럽의 수련은 흰색뿐이었어요",
+   "en": "Back then, Europe's water lilies were only white"
   },
   {
    "sec": 8.0,
@@ -136,7 +141,8 @@
     "매일 아침 정원사가",
     "배를 타고 잎을 닦았어요"
    ],
-   "small": "흙먼지가 싫어 길 포장 비용까지 냈어요"
+   "small": "흙먼지가 싫어 길 포장 비용까지 냈어요",
+   "en": "Hating the dust, he even paid to pave the road"
   },
   {
    "sec": 8.5,
@@ -158,7 +164,8 @@
     "1908년, 전시를 앞두고",
     "15점 넘게 칼로 찢었어요"
    ],
-   "small": "이 그림은 살아남아 이듬해 전시에 걸렸어요"
+   "small": "이 그림은 살아남아 이듬해 전시에 걸렸어요",
+   "en": "This one survived and hung in the next year's show"
   },
   {
    "sec": 7.5,
@@ -217,7 +224,8 @@
      ]
     ]
    ],
-   "small": "물, 잎과 꽃, 빛이 서로 살리는 차례예요"
+   "small": "물, 잎과 꽃, 빛이 서로 살리는 차례예요",
+   "en": "Water, leaves and flowers, light: each feeds the next"
   },
   {
    "sec": 7.5,
@@ -247,7 +255,8 @@
      ]
     ]
    ],
-   "small": "큰 강은 임수, 연못과 이슬은 계수예요"
+   "small": "큰 강은 임수, 연못과 이슬은 계수예요",
+   "en": "A big river is Yang Water; a pond or dew, Yin Water"
   },
   {
    "sec": 7.5,
@@ -281,7 +290,8 @@
      ]
     ]
    ],
-   "small": "『Drizzle』(계수 편), 빛이 내려앉는 피아노"
+   "small": "『Drizzle』(계수 편), 빛이 내려앉는 피아노",
+   "en": "\"Drizzle\" (Yin Water · Gyesu)\nPiano as light settles"
   },
   {
    "sec": 7.0,
@@ -307,7 +317,8 @@
    "title_size": 150,
    "sub": "프로필 링크에서",
    "small": "비하인드 열 장은\n12월 9일 게시물에",
-   "logo": true
+   "logo": true,
+   "en": "Beside it: Goyo Yin Water · Gyesu, link in bio\nTen behind-the-scenes slides: our Dec 9 post"
   }
  ]
 }
