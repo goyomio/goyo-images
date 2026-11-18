@@ -83,11 +83,11 @@ def frame(img, sc, t, first):
     if sc.get('sub'):
         ctext(d, y, sc['sub'], F(54), SUB, a); y += 90
     for ln in sc.get('lines', []):
-        ctext(d, y, ln, F(sc.get('line_size', 66), True), FG, a); y += int(sc.get('line_size', 66) * 1.5)
+        ctext(d, y, ln, F(sc.get('line_size', 72), True), FG, a); y += int(sc.get('line_size', 72) * 1.5)
     if sc.get('small'):
         y += 16
         for ln in sc['small'].split('\n'):
-            ctext(d, y, ln, F(40), SUB, a); y += 60
+            ctext(d, y, ln, F(sc.get('small_size', 46)), SUB, a); y += int(sc.get('small_size', 46) * 1.45)
     if sc.get('credit'):
         ctext(d, sc.get('credit_y', 1700), sc['credit'], F(28), DIM, a)
     if sc.get('logo'):
