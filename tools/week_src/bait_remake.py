@@ -107,7 +107,7 @@ def gaeun(p):
     last_link = '프로필 링크에서 들어 보세요' if p == 'ig' else '채널 고요에서 들어 보세요'
     last_en = 'Hear the element your chart needs: link in bio' if p == 'ig' else 'Hear the element your chart needs: @goyo_mio'
     return [
-        {'sec': 2.6, 'items': [('k', '운은 기다리는 게 아니라,', 68), ('k', '여는 거예요', 68), ('e', "Gaeun: you don't wait for it. You open it.", 40), ('gap', 40), ('k', [('開運', GOLD)], 230)]},
+        {'sec': 2.6, 'items': [('k', '운은 기다리는 게 아니라,', 68), ('k', '여는 거예요', 68), ('e', "Gaeun: you don't wait for it. You open it.", 40), ('gap', 40), ('k', [('개운', GOLD)], 200), ('k', [('開運', SOFT)], 56, False)]},
         {'sec': 3.2, 'items': [('k', '개운은', 80), ('k', '행동이에요', 104), ('e', 'Gaeun is something you do', 46)]},
         {'sec': 4.0, 'items': [('k', '①', 52), ('k', '먹는 것', 76), ('e', 'What you eat', 42), ('gap', 50), ('k', '②', 52), ('k', '가까이 두는 것', 76), ('e', 'What you keep close', 42)]},
         {'sec': 3.2, 'items': [('k', '고요는 세 번째,', 76), ('k', '감상하는 개운이에요', 76), ('e', 'Goyo is a third way: Gaeun you listen to', 42)]},
