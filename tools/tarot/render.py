@@ -14,16 +14,29 @@ def b64(c):
     if c.get('rev'): im=im.rotate(180)
     buf=io.BytesIO(); im.save(buf,'JPEG',quality=90); return 'data:image/jpeg;base64,'+base64.b64encode(buf.getvalue()).decode()
 imgs=[b64(c) for c in cfg['cards']]
+# 영어 (2026-11-18 미오 님: 모든 게시물에 영어). 카드 영어 이름은 코드에서 정함(1909 원판 표준 이름)
+MAJ_EN=['The Fool','The Magician','The High Priestess','The Empress','The Emperor','The Hierophant','The Lovers','The Chariot','Strength','The Hermit','Wheel of Fortune','Justice','The Hanged Man','Death','Temperance','The Devil','The Tower','The Star','The Moon','The Sun','Judgement','The World']
+SU_EN={'wands':'Wands','cups':'Cups','swords':'Swords','pents':'Pentacles'}
+RK_EN=['Ace','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Page','Knight','Queen','King']
+def card_en(c):
+    i=c['id']; n=MAJ_EN[int(i[1:])] if i.startswith('m') else f"{RK_EN[int(i[-2:])-1]} of {SU_EN[i[:-2]]}"
+    return n+(', reversed' if c.get('rev') else '')
+POS_EN=["Today's flow","What to keep","What to let go"]
+MON_EN=['January','February','March','April','May','June','July','August','September','October','November','December']
+import re as _re
+_m=_re.search(r'(\d{4})-(\d{2})-(\d{2})',os.path.abspath(d))
+date_en=f"{MON_EN[int(_m.group(2))-1]} {int(_m.group(3))}" if _m else ''
+EN_S='style="font-family:Logo,serif;font-size:34px;color:#9a958b;letter-spacing:.04em"'
 card=lambda s,h=500: f'<img src="{s}" style="height:{h}px;width:auto;align-self:flex-start;border-radius:10px;display:block;margin-bottom:34px">'
 P='style="font-size:42px;line-height:1.6"'
 # 1장: 표지(PIL, 새 디자인 2026-11-18 미오 님 승인) — 아래 main()에서 따로 그림
 date_txt=cfg['label'].split('·')[0].strip()
 slides=[None]
 # 2장: 세 장을 한 화면에
-cells=''.join(f'<div style="display:flex;flex-direction:column;align-items:center;gap:18px"><img src="{s}" style="height:560px;width:auto;border-radius:12px"><div style="font-size:38px;color:#c9a96a">{p}</div></div>' for s,p in zip(imgs,cfg['positions']))
-slides.append((f'<div class="step">오늘의 세 장</div><div style="display:flex;gap:28px;justify-content:center;margin-top:40px">{cells}</div>', ""))
+cells=''.join(f'<div style="display:flex;flex-direction:column;align-items:center;gap:18px"><img src="{s}" style="height:560px;width:auto;border-radius:12px"><div style="font-size:38px;color:#c9a96a">{p}</div><div {EN_S}>{pe}</div></div>' for s,p,pe in zip(imgs,cfg['positions'],POS_EN))
+slides.append((f'<div class="step">오늘의 세 장 <span style="font-family:Logo,serif;letter-spacing:.06em">· Today\'s three cards</span></div><div style="display:flex;gap:28px;justify-content:center;margin-top:40px">{cells}</div>', ""))
 for i,c in enumerate(cfg['cards']):
-    slides.append((card(imgs[i])+f'<div class="step">{cfg["positions"][i]}</div><h2>{c["title"]}</h2><div class="rule" style="margin:22px 0"></div><p {P}>{c["text"]}</p>',""))
+    slides.append((card(imgs[i])+f'<div class="step">{cfg["positions"][i]} <span style="font-family:Logo,serif;letter-spacing:.06em">· {POS_EN[i]}</span></div><h2>{c["title"]}</h2><div {EN_S}>{card_en(c)}</div><div class="rule" style="margin:22px 0"></div><p {P}>{c["text"]}</p>',""))
 slides.append(('<div class="step">세 장의 이야기</div><div class="rule"></div>'+''.join(f'<p>{x}</p><br>' for x in cfg['story'])+f'<h2>{cfg["story_q"]}</h2>',""))
 m=cfg['music']
 slides.append(('<div class="step">오늘 어울리는 고요의 소리</div><div class="rule"></div>'
@@ -38,6 +51,8 @@ def cover(path, H=1350, foot=None):
     ct(330,'오늘의',F(170,True),(250,248,242)); ct(530,'타로',F(170,True),(250,248,242))
     ct(790,date_txt,F(62),(201,169,106))
     ct(900,'오늘 고요를 찾으시는 분께',F(58),(225,220,210)); ct(975,'건네는 말',F(58),(225,220,210))
+    ce=ImageFont.truetype(os.path.join(root,'tools','fonts','CormorantGaramond-500.ttf'),50)
+    ct(1072,f"Today's Tarot · {date_en}" if date_en else "Today's Tarot",ce,(170,165,155))
     cg=ImageFont.truetype(os.path.join(root,'tools','fonts','CormorantGaramond-500.ttf'),60); sp=26
     ws=[dr.textlength(c,font=cg) for c in 'GOYO']; x=(W-sum(ws)-sp*3)/2
     for c,w in zip('GOYO',ws): dr.text((x,1150+oy),c,font=cg,fill=(200,190,170)); x+=w+sp

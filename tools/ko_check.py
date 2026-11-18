@@ -7,6 +7,7 @@ RULES=[
  ('금지어', r'부적'),
  ('효능', r'운이\s?(바뀌|좋아지)|조후를\s?맞춰\s?(줘|드려|줍)|기운을\s?(채워|채운|보충)|효과가\s?있'),
  ('AI말투', r'—|여정|진정한|특별한 경험|마법 같은|선물 같은|깊이 있는|다채로운|한 걸음 더|놓치지 마세요|지금 바로'),
+ ('영어효능·유도', r'(?i)\b(lucky|good luck|boost\w*|attracts?|attracting|heal\w*|cure\w*|manifest\w*|bless\w*|comment below|in the comments|drop a comment|tag a friend|dm me)\b'),
  ('대조반복', None),
 ]
 INVIS=re.compile('[​-‏⁠-⁤﻿­]')
