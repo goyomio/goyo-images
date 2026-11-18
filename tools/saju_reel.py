@@ -100,8 +100,23 @@ def text_layer(cfg, sc, t):
         while d.textlength(s, font=f) > W - 90 and size > 24:
             size -= 2; f = F(size, bold)
         return f, size
+    def wrap2(s, size, bold=False):
+        # 휴대폰에서 크게 보이도록 줄이지 않고 줄을 나눔 (2026-11-18 미오 님)
+        f = F(size, bold)
+        if d.textlength(s, font=f) <= W - 100: return [s]
+        ws = s.split(' '); n = 2
+        while True:
+            target = d.textlength(s, font=f) / n * 1.06; out, line = [], ''
+            for w_ in ws:
+                t = (line + ' ' + w_).strip()
+                if line and d.textlength(t, font=f) > target and len(out) < n - 1: out.append(line); line = w_
+                else: line = t
+            out.append(line)
+            if all(d.textlength(o, font=f) <= W - 100 for o in out) or n >= 3: return out
+            n += 1
+    BIG = 1.2  # 작은 줄 키우기 배율
     if sc.get('small'):
-        f, z = fit(sc['small'], sc.get('small_size', 58), True); lines.append((sc['small'], f, SOFT, int(z * 2.3)))
+        f, z = fit(sc['small'], int(sc.get('small_size', 58) * BIG), True); lines.append((sc['small'], f, SOFT, int(z * 2.0)))
     bs = sc.get('big_size', 96)
     for s in sc.get('big', []):
         bc = tuple(sc['big_color']) if sc.get('big_color') else ((246, 243, 236) if sc.get('instant') else GOLD)
@@ -109,9 +124,11 @@ def text_layer(cfg, sc, t):
     if sc.get('after') and lines:
         a0 = lines[-1]; lines[-1] = (a0[0], a0[1], a0[2], a0[3] + 30)
     for s in sc.get('after', []):
-        f, z = fit(s, sc.get('after_size', 56)); lines.append((s, f, SOFT, int(z * 1.65)))
+        f, z = fit(s, int(sc.get('after_size', 56) * BIG)); lines.append((s, f, SOFT, int(z * 1.55)))
     if sc.get('en'):
-        f, z = fit(sc['en'], sc.get('en_size', 40)); lines.append((sc['en'], f, (236, 233, 226), int(z * 1.76)))
+        ez = max(58, int(sc.get('en_size', 40) * 1.45))
+        for k, ln in enumerate(wrap2(sc['en'], ez)):
+            f, z = fit(ln, ez); lines.append((ln, f, (236, 233, 226), int(z * (1.55 if k == 0 else 1.3))))
     total = sum(l[3] for l in lines); y = (H - total) // 2 + 60
     step = sc.get('step', 0.45)
     for i, (s, f, col, h) in enumerate(lines):
