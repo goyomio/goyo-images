@@ -14,6 +14,8 @@ TITLE = re.compile(r'『([^』]+)』\s*\(([^)]+?)\s*편\)')
 
 def build():
     out = {}
+    if os.path.exists(MAP):  # 원곡 구간처럼 손으로 넣은 항목(근거가 '원곡:'으로 시작)은 남긴다
+        out.update({k: v for k, v in json.load(open(MAP, encoding='utf-8')).items() if str(v.get('근거', '')).startswith('원곡:')})
     for txt in sorted(glob.glob(os.path.join(ROOT, 'shorts', '**', '*.txt'), recursive=True)):
         rel_dir = os.path.relpath(os.path.dirname(txt), ROOT)
         lines = open(txt, encoding='utf-8').read().splitlines()
