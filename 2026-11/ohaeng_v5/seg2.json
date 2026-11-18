@@ -1,0 +1,65 @@
+{
+ "theme": "earth",
+ "header": "오행을 소리로 들으면",
+ "header_size": 54,
+ "tints": {
+  "목": [
+   47,
+   217,
+   107
+  ],
+  "화": [
+   255,
+   40,
+   30
+  ],
+  "토": [
+   255,
+   194,
+   26
+  ],
+  "금": [
+   235,
+   235,
+   245
+  ],
+  "수": [
+   0,
+   0,
+   0
+  ]
+ },
+ "tint_strength": 2.3,
+ "audio_parts": [
+  {
+   "file": "shorts/무음편/토 무음편.mp4",
+   "start": 1.0,
+   "dur": 6.4
+  }
+ ],
+ "scenes": [
+  {
+   "sec": 6.4,
+   "instant": true,
+   "tint": "토",
+   "big": [
+    "土"
+   ],
+   "big_size": 330,
+   "big_color": [
+    250,
+    248,
+    242
+   ],
+   "big_stroke": false,
+   "after": [
+    "토 · 머묾",
+    "로파이"
+   ],
+   "after_size": 84,
+   "en": "Earth · lo-fi",
+   "en_size": 46
+  }
+ ],
+ "water_ring": false
+}

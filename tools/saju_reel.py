@@ -83,11 +83,11 @@ class Petals:
 
 def text_layer(cfg, sc, t):
     lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
-    def ct(y, s, f, col, a):
+    def ct(y, s, f, col, a, stroke=0):
         if a <= 0: return
         w = d.textlength(s, font=f)
         d.text(((W - w) / 2 + 3, y + 3), s, font=f, fill=(0, 0, 0, int(160 * a)))
-        d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),))
+        d.text(((W - w) / 2, y), s, font=f, fill=col + (int(255 * a),), stroke_width=stroke, stroke_fill=(255, 255, 255, int(255 * a)))
     ct(200, cfg.get('header', '사주 · 오행음악 · 고요'), F(cfg.get('header_size', 46), True), SOFT, 1)
     ct(200 + cfg.get('header_size', 46) + 18, "FIVE ELEMENTS MUSIC", F(28), DIM, 1)
     lines = []
@@ -100,7 +100,8 @@ def text_layer(cfg, sc, t):
         f, z = fit(sc['small'], sc.get('small_size', 58), True); lines.append((sc['small'], f, SOFT, int(z * 2.3)))
     bs = sc.get('big_size', 96)
     for s in sc.get('big', []):
-        f, z = fit(s, bs, True); lines.append((s, f, (246, 243, 236) if sc.get('instant') else GOLD, int(z * 1.12) if sc.get('instant') else z + 42))
+        bc = tuple(sc['big_color']) if sc.get('big_color') else ((246, 243, 236) if sc.get('instant') else GOLD)
+        f, z = fit(s, bs, True); lines.append((s, f, bc, int(z * 1.12) if sc.get('instant') else z + 42))
     if sc.get('after') and lines:
         a0 = lines[-1]; lines[-1] = (a0[0], a0[1], a0[2], a0[3] + 30)
     for s in sc.get('after', []):
@@ -112,7 +113,7 @@ def text_layer(cfg, sc, t):
     for i, (s, f, col, h) in enumerate(lines):
         if col is DIM or (h == 76 + 30 and False): pass
         a = 1 if sc.get('instant') else max(0, min(1, (t - 0.25 - i * step) / 0.5))
-        ct(y + (1 - a) * 18, s, f, col, a); y += h
+        ct(y + (1 - a) * 18, s, f, col, a, 5 if (sc.get('big_stroke') and s in sc.get('big', [])) else 0); y += h
     return lay
 
 def star_layer():
@@ -212,7 +213,7 @@ def lamp_layer(chars='文昌學堂'):
     LW, LH = int(W * 1.12), int(H * 1.12)
     lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
     cell = 72; x0 = (LW % cell) // 2
-    for top, rows in [(120, 6), (LH - 6 * cell - 90, 6)]:
+    for top, rows in ([(120, 6), (LH - 6 * cell - 90, 6)] if chars else []):
         for r in range(rows):
             y = top + r * cell
             for c in range(x0, LW - cell, cell):
@@ -288,6 +289,67 @@ class Snow:
             d.ellipse([x - q['r'], y - q['r'], x + q['r'], y + q['r']], fill=(240, 244, 255, 190))
         im.alpha_composite(lay)
 
+def earth_layer():
+    """산과 밭: 겹겹의 산 능선 + 앞쪽 밭이랑 (토, 2026-11-18). 나무 없음."""
+    LW, LH = int(W * 1.12), int(H * 1.12)
+    lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    for _ in range(120):
+        x, y = R.uniform(0, LW), R.uniform(0, LH * 0.35); r = R.choice([1, 1, 1.5])
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 240, 200, int(R.uniform(40, 110))))
+    for base, amp, col in [(LH * .52, 260, (92, 72, 30)), (LH * .62, 180, (70, 54, 22)), (LH * .72, 110, (52, 40, 16))]:
+        pts = [(0, LH)]; ph = R.uniform(0, 6)
+        for x in range(0, LW + 30, 30):
+            pts.append((x, base - amp * math.exp(-((x - LW * R.uniform(.3, .7)) / 420) ** 2) * 0 - amp * (0.5 + 0.5 * math.sin(x / 260 + ph)) * 0.8 - 25 * math.sin(x / 70 + ph * 2)))
+        pts.append((LW, LH)); d.polygon(pts, fill=col + (255,))
+    top = LH * .80; vx = LW * .5
+    d.rectangle([0, top, LW, LH], fill=(40, 30, 12, 255))
+    for k in range(1, 12):
+        y = top + (LH - top) * (k / 12) ** 1.5; ph = R.uniform(0, 6)
+        pts = [(x, y + 6 * math.sin(x / 180 + ph)) for x in range(0, LW + 20, 20)]
+        d.line(pts, fill=(120, 94, 40, 90), width=2)
+    glow = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); g = ImageDraw.Draw(glow)
+    g.ellipse([LW * .5 - 420, LH * .30, LW * .5 + 420, LH * .62], fill=(255, 200, 80, 70))
+    glow = glow.filter(ImageFilter.GaussianBlur(90))
+    out = Image.alpha_composite(glow, lay)
+    hole = Image.new('L', (LW, LH), 0); hd = ImageDraw.Draw(hole); ox, oy = (LW - W) // 2, (LH - H) // 2
+    hd.rectangle([ox - 100, oy + 640, ox + W + 100, oy + 1360], fill=150)
+    hole = hole.filter(ImageFilter.GaussianBlur(90))
+    out.putalpha(ImageChops.multiply(out.getchannel('A'), ImageChops.invert(hole)))
+    return out
+
+def water_layer():
+    """비 오는 밤 물가: 아래쪽 넓은 수면 + 옅은 물결 줄 (수, 2026-11-18). 산·길 없음."""
+    LW, LH = int(W * 1.12), int(H * 1.12)
+    lay = Image.new('RGBA', (LW, LH), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    top = LH * .74
+    d.rectangle([0, top, LW, LH], fill=(6, 6, 8, 255))
+    for k in range(1, 22):
+        y = top + (LH - top) * (k / 22) ** 1.4
+        for _ in range(6):
+            x = R.uniform(0, LW); w = R.uniform(60, 260)
+            d.line([(x, y), (x + w, y)], fill=(230, 235, 245, int(R.uniform(30, 90))), width=2)
+    out = lay
+    hole = Image.new('L', (LW, LH), 0); hd = ImageDraw.Draw(hole); ox, oy = (LW - W) // 2, (LH - H) // 2
+    hd.rectangle([ox - 100, oy + 640, ox + W + 100, oy + 1360], fill=150)
+    hole = hole.filter(ImageFilter.GaussianBlur(90))
+    out.putalpha(ImageChops.multiply(out.getchannel('A'), ImageChops.invert(hole)))
+    return out
+
+class Rain:
+    """가늘게 내리는 비 + 수면에 퍼지는 동그라미 물결."""
+    def __init__(s, n=90):
+        s.p = [dict(x=R.uniform(0, W), y=R.uniform(0, H), v=R.uniform(700, 1100), l=R.uniform(26, 60)) for _ in range(n)]
+        s.rip = [dict(x=R.uniform(60, W - 60), y=R.uniform(H * .78, H - 40), ph=R.uniform(0, 2.4)) for _ in range(14)]
+    def draw(s, im, t):
+        lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+        for q in s.p:
+            y = (q['y'] + q['v'] * t) % (H + 80) - 40; x = q['x'] - (y * 0.06)
+            d.line([(x, y), (x - q['l'] * 0.06, y + q['l'])], fill=(225, 232, 245, 110), width=2)
+        for q in s.rip:
+            u = ((t + q['ph']) % 2.4) / 2.4; rx, ry = 10 + 120 * u, 3 + 30 * u
+            d.ellipse([q['x'] - rx, q['y'] - ry, q['x'] + rx, q['y'] + ry], outline=(235, 240, 250, int(170 * (1 - u))), width=2)
+        im.alpha_composite(lay)
+
 def build_audio(parts, out, xf=0.8):
     """parts: [{"file","start","dur"}] -> 이어 붙인 음원(크로스페이드)."""
     args=['ffmpeg','-v','error','-y']
@@ -300,10 +362,12 @@ def build_audio(parts, out, xf=0.8):
     subprocess.check_call(args+['-filter_complex',fl,'-map','[out]','-c:a','pcm_s16le',out])
     return total
 
-def tint_layer(col, strength):
+def tint_layer(col, strength, ring=True):
     g=Image.new('L',(W,H),0); ImageDraw.Draw(g).ellipse([-200,250,W+200,1750],fill=int(110*strength))
     g=g.filter(ImageFilter.GaussianBlur(240)); lay=Image.new('RGBA',(W,H),col+(255,)); lay.putalpha(g)
-    if col==(0,0,0):  # 수는 흑색 + 얇은 흰 테두리 (미오 님 11/18)
+    if col==(0,0,0) and not ring:
+        g2=Image.new('L',(W,H),0); ImageDraw.Draw(g2).ellipse([-200,250,W+200,1750],fill=int(170*strength)); g2=g2.filter(ImageFilter.GaussianBlur(240)); lay.putalpha(g2)
+    elif col==(0,0,0):  # 수는 흑색 + 얇은 흰 테두리 (미오 님 11/18)
         r=Image.new('L',(W,H),0); ImageDraw.Draw(r).ellipse([70,330,W-70,1670],outline=int(115*strength),width=3)
         r=r.filter(ImageFilter.GaussianBlur(1.2)); ring=Image.new('RGBA',(W,H),(255,255,255,255)); ring.putalpha(r)
         g2=Image.new('L',(W,H),0); ImageDraw.Draw(g2).ellipse([-200,250,W+200,1750],fill=int(170*strength)); g2=g2.filter(ImageFilter.GaussianBlur(240)); lay.putalpha(g2)
@@ -320,10 +384,10 @@ def main():
     if chk.returncode: sys.exit('곡 이름 점검 실패: 영상을 만들지 않았어요')
     wav=out+'.wav'; total=build_audio(cfg['audio_parts'],wav)
     scs=cfg['scenes']; scs[-1]['sec']=round(total-sum(s['sec'] for s in scs[:-1]),3)
-    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer,'lamp':(lambda: lamp_layer(cfg.get('lamp_chars','文昌學堂'))),'moon':moon_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers,'lamp':Motes,'moon':Snow}.get(th,Petals)(); LW,LH=art.size
+    bg=gradient().convert('RGBA'); th=cfg.get('theme'); art={'stars':star_layer,'road':road_layer,'lamp':(lambda: lamp_layer(cfg.get('lamp_chars','文昌學堂'))),'moon':moon_layer,'earth':earth_layer,'water':water_layer}.get(th,branch_layer)(); petals={'stars':Twinkle,'road':Travelers,'lamp':Motes,'moon':Snow,'earth':Motes,'water':Rain}.get(th,Petals)(); LW,LH=art.size
     veil=Image.new('L',(W,H),0); ImageDraw.Draw(veil).ellipse([40,600,W-40,1340],fill=160)
     veil=veil.filter(ImageFilter.GaussianBlur(120)); dark=Image.new('RGBA',(W,H),(8,8,14,255)); dark.putalpha(veil)
-    tints={k:tint_layer(tuple(v),1) for k,v in cfg.get('tints',{}).items()}
+    tints={k:tint_layer(tuple(v),cfg.get('tint_strength',1),cfg.get('water_ring',True)) for k,v in cfg.get('tints',{}).items()}
     marks={sc['mark']:None for sc in scs if sc.get('mark')}
     ff=subprocess.Popen(['ffmpeg','-v','error','-y','-f','rawvideo','-pix_fmt','rgb24','-s',f'{W}x{H}','-r',str(FPS),'-i','-',
         '-i',wav,'-map','0:v','-map','1:a','-c:v','libx264','-pix_fmt','yuv420p','-crf','19','-c:a','aac','-b:a','192k',
