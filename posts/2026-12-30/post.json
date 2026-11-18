@@ -1,8 +1,8 @@
 {
  "type": "carousel",
- "caption": "고요 열다섯 편, 한 장의 지도.\n\n오행 다섯 편: 목 실내악 32곡, 화 재즈 34곡, 토 로파이 41곡, 금 피아노 독주 35곡, 수 앰비언트 피아노 63곡.\n천간 열 편: 갑목 40곡(Morning Oak), 을목 40곡(Morning Tendril), 병화 28곡(Noon Avenue), 정화 22곡(Lamplit Keys), 무토 44곡(Mountain Desk), 기토 31곡(Tilled Morning), 경금 21곡(Granite Light), 신금 21곡(Prism), 임수 59곡(Wide Water), 계수 57곡(Drizzle).\n\n괄호 안은 각 편의 첫 곡이에요. 다섯 가지 결, 열다섯 편, 568곡. 내년에도 곁에 깔아 두는 소리로 있을게요.\n\n프로필 링크 → GOYO 유튜브\n\n#고요 #고요의이야기 #오행음악 #플레이리스트 #다섯가지고요",
+ "caption": "고요, 한 장의 지도.\n\n오행 편: 목은 실내악, 화는 재즈, 토는 로파이, 금은 피아노 독주, 수는 앰비언트 피아노예요. 처음이라면 여기서부터 들어 보세요.\n\n천간 편은 일간마다 하나씩이에요. 갑목 큰 나무(Morning Oak), 을목 덩굴과 꽃(Morning Tendril), 병화 태양(Noon Avenue), 정화 등불(Lamplit Keys), 무토 산(Mountain Desk), 기토 밭(Tilled Morning), 경금 바위와 쇠(Granite Light), 신금 보석(Prism), 임수 바다와 큰 강(Wide Water), 계수 비와 이슬(Drizzle).\n\n괄호 안은 각 편의 첫 곡이에요. 내년에도 곁에 깔아 두는 소리로 있을게요.\n\n프로필 링크 → GOYO 유튜브\n\n#고요 #고요의이야기 #오행음악 #플레이리스트 #다섯가지고요",
  "via": "api",
- "approved": false,
+ "approved": true,
  "files": [
   "posts/2026-12-30/01.jpg",
   "posts/2026-12-30/02.jpg",
@@ -11,5 +11,5 @@
   "posts/2026-12-30/05.jpg",
   "posts/2026-12-30/06.jpg"
  ],
- "note": "11/18 새 디자인 규칙으로 승인 해제(첫 장 다시 만들 것) | 11/18 첫 장(표지) 새 규칙으로 교체. 보류: 곡 수·편 수 목록이 중심이라 숫자 금지 규칙과 충돌. 내용 교체 필요"
+ "note": "11/18 새 디자인 규칙으로 승인 해제(첫 장 다시 만들 것) | 11/18 첫 장 새 규칙, 편 수·곡 수 숫자 빼고 다시 만듦. 미오 님 승인(11/18 낮)"
 }
