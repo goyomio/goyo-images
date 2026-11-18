@@ -6,7 +6,7 @@ import json, os, re, subprocess, sys
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 SD = os.path.join(ROOT, 'shorts', '사주편')
 FIX = '학파마다 기준은 다를 수 있어요'
-T = {'목': [90, 200, 130], '화': [255, 120, 80], '토': [220, 180, 110], '금': [225, 225, 245], '수': [80, 120, 230]}
+T = {'목': [90, 200, 130], '화': [255, 120, 80], '토': [220, 180, 110], '금': [225, 225, 245], '수': [0, 0, 0]}
 
 def A(name, dur, start=1.0):
     return {'file': f'shorts/무음편/{name} 무음편.mp4', 'start': start, 'dur': dur}

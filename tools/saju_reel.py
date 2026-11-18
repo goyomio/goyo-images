@@ -302,7 +302,13 @@ def build_audio(parts, out, xf=0.8):
 
 def tint_layer(col, strength):
     g=Image.new('L',(W,H),0); ImageDraw.Draw(g).ellipse([-200,250,W+200,1750],fill=int(110*strength))
-    g=g.filter(ImageFilter.GaussianBlur(240)); lay=Image.new('RGBA',(W,H),col+(255,)); lay.putalpha(g); return lay
+    g=g.filter(ImageFilter.GaussianBlur(240)); lay=Image.new('RGBA',(W,H),col+(255,)); lay.putalpha(g)
+    if col==(0,0,0):  # 수는 흑색 + 얇은 흰 테두리 (미오 님 11/18)
+        r=Image.new('L',(W,H),0); ImageDraw.Draw(r).ellipse([70,330,W-70,1670],outline=int(115*strength),width=3)
+        r=r.filter(ImageFilter.GaussianBlur(1.2)); ring=Image.new('RGBA',(W,H),(255,255,255,255)); ring.putalpha(r)
+        g2=Image.new('L',(W,H),0); ImageDraw.Draw(g2).ellipse([-200,250,W+200,1750],fill=int(170*strength)); g2=g2.filter(ImageFilter.GaussianBlur(240)); lay.putalpha(g2)
+        lay=Image.alpha_composite(lay,ring)
+    return lay
 
 def mark_layer(ch, a):
     lay=Image.new('RGBA',(W,H),(0,0,0,0)); d=ImageDraw.Draw(lay); f=F(620,True)

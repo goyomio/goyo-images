@@ -12,7 +12,7 @@ import numpy as np
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 W, H = 1080, 1350
 BG = (10, 10, 12); FG = (250, 248, 242); SUB = (205, 200, 190); DIMC = (150, 145, 135)
-GOLD = (201, 169, 106); MOK = (47, 217, 107); HWA = (255, 70, 55); TO = (255, 194, 26); GEUM = (235, 235, 240); SU = (90, 140, 255)
+GOLD = (201, 169, 106); MOK = (47, 217, 107); HWA = (255, 70, 55); TO = (255, 194, 26); GEUM = (235, 235, 240); SU = (0, 0, 0)  # 수는 흑색, 얇은 흰 테두리 (미오 님 11/18)
 CG = os.path.join(ROOT, 'tools', 'fonts', 'CormorantGaramond-500.ttf')
 FIVE = [('화', HWA), ('·', FG), ('수', SU), ('·', FG), ('목', MOK), ('·', FG), ('금', GEUM), ('·', FG), ('토', TO)]
 
@@ -32,6 +32,7 @@ S = {
  '2026-12-04': dict(label='사주 · 오행 정보', title=['자정과 정오', '"정"은', '무슨 뜻일까요?'], sub='하루를 열둘로 나누던 시간', acc=GOLD),
  '2026-12-06': dict(label='고요 이야기', title=['고요,', '어느 편부터', '들으면 될까요?'], sub='처음 오셨다면', acc=GOLD),
  '2026-12-07': dict(label='12월 7일 · 대설', title=['오늘부터', '사주는', '자월(子月)'], sub='이번 주 기운', acc=SU),
+ '2026-12-09': dict(label='고요의 그림 읽기 · 특별판', title=['수련'], sub='클로드 모네', acc=GOLD, paint=True),
  '2026-12-10': dict(label='고요의 그림 읽기 #4', title=['막달라 마리아'], sub='조르주 드 라 투르', acc=GOLD, paint=True),
  '2026-12-11': dict(label='사주 · 오행 정보', title=['사주 앱마다', '결과가', '다른 이유'], sub='세 가지만 확인하세요', acc=GOLD),
  '2026-12-13': dict(label='고요 이야기', title=['무지개가', '일곱 색인 건', '음계 때문'], sub='프리즘 이야기', acc=GOLD),
@@ -50,11 +51,13 @@ S = {
  '2026-12-31': dict(label='고요의 그림 읽기 #7', title=['까치'], sub='클로드 모네', acc=GOLD, paint=True),
 }
 
-PAINT = {'2026-11-19': (None, ['빌헬름 함메르쇠이, 〈스트란가데의 실내, 바닥의 햇빛〉', '1901 · 덴마크 국립미술관(SMK)']), '2026-11-26': ('se_paint.jpg', ['김정희, 〈세한도(歲寒圖)〉 1844 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-03': ('inwang_full.jpg', ['정선, 〈인왕제색도(仁王霽色圖)〉 1751 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-10': ('latour_full.jpg', ['조르주 드 라 투르, 〈연기 나는 불꽃 앞의 막달라 마리아〉', '1635~1637년 무렵 · LACMA · 위키미디어 공용(퍼블릭 도메인)']), '2026-12-17': ('millet_full.jpg', ["장프랑수아 밀레, 〈만종(L'Angélus)〉 1857~1859", '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-24': ('hiro_full.jpg', ['우타가와 히로시게, 〈간바라 밤눈〉 「도카이도 53역참」 중, 1833~1834', '메트로폴리탄 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-31': ('monet_full.jpg', ['클로드 모네, 〈까치(La Pie)〉 1868~1869', '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)'])}
+PAINT = {'2026-12-09': ('wl_full.jpg', ['클로드 모네, 〈수련(Water Lilies)〉 1906', '시카고 미술관 · 퍼블릭 도메인(CC0)']), '2026-11-19': (None, ['빌헬름 함메르쇠이, 〈스트란가데의 실내, 바닥의 햇빛〉', '1901 · 덴마크 국립미술관(SMK)']), '2026-11-26': ('se_paint.jpg', ['김정희, 〈세한도(歲寒圖)〉 1844 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-03': ('inwang_full.jpg', ['정선, 〈인왕제색도(仁王霽色圖)〉 1751 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-10': ('latour_full.jpg', ['조르주 드 라 투르, 〈연기 나는 불꽃 앞의 막달라 마리아〉', '1635~1637년 무렵 · LACMA · 위키미디어 공용(퍼블릭 도메인)']), '2026-12-17': ('millet_full.jpg', ["장프랑수아 밀레, 〈만종(L'Angélus)〉 1857~1859", '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-24': ('hiro_full.jpg', ['우타가와 히로시게, 〈간바라 밤눈〉 「도카이도 53역참」 중, 1833~1834', '메트로폴리탄 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-31': ('monet_full.jpg', ['클로드 모네, 〈까치(La Pie)〉 1868~1869', '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)'])}
 
 
 def ct(d, y, t, f, fill):
-    w = d.textlength(t, font=f); d.text(((W - w) / 2, y), t, font=f, fill=fill)
+    w = d.textlength(t, font=f)
+    if fill == SU: d.text(((W - w) / 2, y), t, font=f, fill=SU, stroke_width=max(1, f.size // 40), stroke_fill=(255, 255, 255))
+    else: d.text(((W - w) / 2, y), t, font=f, fill=fill)
 
 
 def logo(d, y=1230, size=56, fill=DIMC):
@@ -111,14 +114,15 @@ def make(date):
     for t in sp['title']:
         if isinstance(t, list):
             w = sum(d.textlength(s_, font=f) for s_, _ in t); x = (W - w) / 2
-            for s_, c in t: d.text((x, y), s_, font=f, fill=c); x += d.textlength(s_, font=f)
+            for s_, c in t:
+                d.text((x, y), s_, font=f, fill=c, **({'stroke_width': max(2, f.size // 40), 'stroke_fill': (255, 255, 255)} if c == SU else {})); x += d.textlength(s_, font=f)
         else:
             ct(d, y, t, f, FG)
         y += int(z * 1.18)
     if sp.get('five_bar'):
         y += 24; bw = 120; x0 = (W - bw * 5 - 20 * 4) / 2
         for i, c in enumerate([MOK, HWA, TO, GEUM, SU]):
-            d.rounded_rectangle([x0 + i * (bw + 20), y + 20, x0 + i * (bw + 20) + bw, y + 34], 7, fill=c)
+            d.rounded_rectangle([x0 + i * (bw + 20), y + 20, x0 + i * (bw + 20) + bw, y + 34], 7, fill=c, outline=(255, 255, 255) if c == SU else None, width=2)
         y += 60
     y += 34
     ct(d, y, sp['sub'], F(54), SUB); y += 90
@@ -168,7 +172,7 @@ def reel_cover(date):
     if sp.get('five_bar'):
         y += 24; bw = 120; x0 = (W - bw * 5 - 20 * 4) / 2
         for i, c in enumerate([MOK, HWA, TO, GEUM, SU]):
-            d.rounded_rectangle([x0 + i * (bw + 20), y + 20, x0 + i * (bw + 20) + bw, y + 34], 7, fill=c)
+            d.rounded_rectangle([x0 + i * (bw + 20), y + 20, x0 + i * (bw + 20) + bw, y + 34], 7, fill=c, outline=(255, 255, 255) if c == SU else None, width=2)
         y += 60
     y += 34; ct(d, y, sp['sub'], F(54), SUB)
     logo(d, 285 + 1230)
