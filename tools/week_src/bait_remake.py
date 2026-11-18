@@ -14,7 +14,7 @@ W, H, FPS = 1080, 1920, 30
 CG = os.path.join(ROOT, 'tools', 'fonts', 'CormorantGaramond-500.ttf')
 FG, SOFT, EN, GOLD, DIMC = (250, 248, 242), (226, 220, 205), (236, 233, 226), (231, 205, 150), (165, 160, 152)
 C = {'목': (47, 217, 107), '화': (255, 59, 47), '토': (255, 194, 26), '금': (255, 255, 255), '수': (0, 0, 0)}
-SC = {'k': 1.24, 'e': 1.15}
+SC = {'k': 1.62, 'e': 1.6}
 STEM = [('甲', '목'), ('乙', '목'), ('丙', '화'), ('丁', '화'), ('戊', '토'), ('己', '토'), ('庚', '금'), ('辛', '금'), ('壬', '수'), ('癸', '수')]
 
 
@@ -52,8 +52,46 @@ def header(d):
     draw_line(d, 258, [('FIVE ELEMENTS MUSIC', DIMC)], ImageFont.truetype(CG, 30))
 
 
+def _font(it):
+    z = int(it[2] * SC[it[0]])
+    if it[0] == 'e': return ImageFont.truetype(CG, int(z * 1.25)) if it[1] == [('GOYO', FG)] else F(z, False)
+    return F(z, it[3] if len(it) > 3 and isinstance(it[3], bool) else True)
+
+
+def wrap(d, items):
+    """영어 줄·작은 안내 줄이 화면보다 길면 글씨를 줄이지 않고 줄을 나눔(휴대폰에서 크게 보이게)."""
+    out = []
+    for it in items:
+        if it[0] == 'gap': out.append(it); continue
+        parts = it[1] if isinstance(it[1], list) else [(it[1], None)]
+        small = it[0] == 'e' or (len(it) > 3 and it[3] is False)
+        if not small or len(parts) != 1:
+            out.append(it); continue
+        txt, col = parts[0]; f = _font(it)
+        if d.textlength(txt, font=f) <= W - 110:
+            out.append(it); continue
+        words, line, lines = txt.split(' '), '', []
+        for w_ in words:
+            t = (line + ' ' + w_).strip()
+            if d.textlength(t, font=f) > W - 110 and line: lines.append(line); line = w_
+            else: line = t
+        lines.append(line)
+        # 줄 길이를 고르게 (한 단어만 다음 줄로 넘어가지 않게)
+        n = len(lines); target = d.textlength(txt, font=f) / n * 1.06
+        lines, line = [], ''
+        for w_ in words:
+            t = (line + ' ' + w_).strip()
+            if line and d.textlength(t, font=f) > target and len(lines) < n - 1: lines.append(line); line = w_
+            else: line = t
+        lines.append(line)
+        for ln in lines:
+            out.append((it[0], [(ln, col)] if col is not None else ln) + tuple(it[2:]))
+    return out
+
+
 def layout(d, items, a):
     """items: (종류, 내용, 크기[, 색]) — 종류 k(한글/한자), e(영어), gap"""
+    items = wrap(d, items)
     hs = []
     for it in items:
         if it[0] == 'gap': hs.append(it[1]); continue
@@ -61,8 +99,7 @@ def layout(d, items, a):
     y = (H - sum(hs)) // 2 + 40
     for it, h in zip(items, hs):
         if it[0] != 'gap':
-            z = int(it[2] * SC[it[0]])
-            font = ImageFont.truetype(CG, z) if it[0] == 'e' else F(z, it[3] if len(it) > 3 and isinstance(it[3], bool) else True)
+            font = _font(it)
             parts = it[1] if isinstance(it[1], list) else [(it[1], EN if it[0] == 'e' else (it[4] if len(it) > 4 else FG))]
             draw_line(d, y, parts, font, a)
         y += h
@@ -86,7 +123,7 @@ def month(p):
         return {'sec': 3.0, 'tint': k, 'items': [('k', lab, 76), ('e', en_m, 40), ('gap', 30), ('k', [(h, C[k])], 300), ('gap', 10),
                 ('k', f'{k}({h}) · {ko}', 58), ('e', en, 42)]}
     last_link = '오행별 곡은 프로필 링크에서' if p == 'ig' else '오행별 곡은 @goyo_mio 채널에서'
-    last_en = 'Hear your element: link in bio' if p == 'ig' else 'Hear your element: @goyo_mio'
+    last_en = 'Your element: link in bio' if p == 'ig' else 'Your element: @goyo_mio'
     return [
         {'sec': 1.6, 'items': [('k', '몇 월에', 96), ('k', '태어나셨어요?', 96), ('e', 'What month were you born?', 46), ('gap', 20), ('k', dots(), 50)]},
         {'sec': 2.4, 'items': [('k', '태어난 달마다', 72), ('k', '소리가 달라요', 72), ('e', 'Each birth month has its own sound', 42), ('gap', 30)] + LIST},
@@ -95,9 +132,8 @@ def month(p):
         el('11·12월생', 'Born in November or December', '수', '水', '물결처럼 흐르는 피아노', 'Water · ambient piano that flows'),
         el('2·3월생', 'Born in February or March', '목', '木', '새순처럼 자라는 실내악', 'Wood · chamber music that grows'),
         el('1·4·7·10월생', 'Born in January, April, July, or October', '토', '土', '포근하게 감싸는 로파이', 'Earth · soft lo-fi'),
-        {'sec': 3.0, 'items': [('k', '한 장 정리', 72), ('e', 'Save this to find your element', 40), ('gap', 24)] + LIST +
-            [('gap', 24), ('k', last_link, 46), ('e', last_en, 40), ('gap', 14), ('k', [('※ 절기 기준이라 달 초(4~8일 무렵)생은 앞 달로 보세요', DIMC)], 32, False),
-             ('e', [('Months follow solar terms, not the calendar', DIMC)], 30), ('e', [('Born the 4th to 8th? Check the month before', DIMC)], 30)]},
+        {'sec': 3.0, 'items': [('k', '한 장 정리', 66), ('e', 'Save this to find your element', 38), ('gap', 16)] + [(i[0], i[1], 48) for i in LIST] +
+            [('gap', 24), ('k', last_link, 46), ('e', last_en, 40), ('gap', 14), ('k', [('※ 절기 기준이라 달 초(4~8일 무렵)생은 앞 달로 보세요', DIMC)], 36, False)]},
     ]
 
 
@@ -107,14 +143,14 @@ def gaeun(p):
     last_link = '프로필 링크에서 들어 보세요' if p == 'ig' else '채널 고요에서 들어 보세요'
     last_en = 'Hear the element your chart needs: link in bio' if p == 'ig' else 'Hear the element your chart needs: @goyo_mio'
     return [
-        {'sec': 2.6, 'items': [('k', '운은 기다리는 게 아니라,', 68), ('k', '여는 거예요', 68), ('e', "Gaeun: you don't wait for it. You open it.", 40), ('gap', 40), ('k', [('개운', GOLD)], 200), ('k', [('開運', SOFT)], 56, False)]},
-        {'sec': 3.2, 'items': [('k', '개운은', 80), ('k', '행동이에요', 104), ('e', 'Gaeun is something you do', 46)]},
+        {'sec': 2.6, 'items': [('k', '운은 기다리는 게 아니라,', 68), ('k', '여는 거예요', 68), ('e', "Don't wait for your path to open. Open it.", 40), ('gap', 40), ('k', [('개운', GOLD)], 200), ('k', [('開運', SOFT)], 56, False)]},
+        {'sec': 3.2, 'items': [('k', '개운은', 80), ('k', '행동이에요', 104), ('e', 'Opening Your Path (Gaeun) is something you do', 46)]},
         {'sec': 4.0, 'items': [('k', '①', 52), ('k', '먹는 것', 76), ('e', 'What you eat', 42), ('gap', 50), ('k', '②', 52), ('k', '가까이 두는 것', 76), ('e', 'What you keep close', 42)]},
-        {'sec': 3.2, 'items': [('k', '고요는 세 번째,', 76), ('k', '감상하는 개운이에요', 76), ('e', 'Goyo is a third way: Gaeun you listen to', 42)]},
+        {'sec': 3.2, 'items': [('k', '고요는 세 번째,', 76), ('k', '감상하는 개운이에요', 76), ('e', 'Goyo is the third way: open it by listening', 42)]},
         {'sec': 3.5, 'items': [('k', '오행마다, 일간마다', 70), ('k', '따로 만든 소리', 70), ('e', 'Music for each element and each day master', 40), ('gap', 40),
             ('k', row, 96), ('gap', 20), ('k', st1, 72), ('k', st2, 72)]},
         {'sec': 3.5, 'items': [('k', '내 사주에 필요한 기운,', 70), ('k', last_link, 70), ('e', last_en, 40), ('gap', 30),
-            ('e', [('GOYO', FG)], 96), ('gap', 20), ('k', [('※ 오행을 소리로 옮긴 해석이에요', DIMC)], 34, False)]},
+            ('e', [('GOYO', FG)], 96), ('gap', 20), ('k', [('※ 오행을 소리로 옮긴 해석이에요', DIMC)], 38, False)]},
     ]
 
 
