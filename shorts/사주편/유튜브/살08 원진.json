@@ -50,7 +50,7 @@
    "after": [
     "띠 궁합이 나쁘다는 그 말?"
    ],
-   "en": "Wonjin: the uneasy pairs."
+   "en": "Wonjin: the 'bad match' between zodiac signs?"
   },
   {
    "sec": 5.5,
@@ -59,7 +59,8 @@
     "서로 꺼린다고 본",
     "지지 여섯 쌍"
    ],
-   "big_size": 84
+   "big_size": 84,
+   "en": "Six branch pairs once said to resent each other"
   },
   {
    "sec": 5.0,
@@ -69,7 +70,8 @@
     "축(丑) · 오(午)",
     "인(寅) · 유(酉)"
    ],
-   "big_size": 84
+   "big_size": 84,
+   "en": "子 and 未 · 丑 and 午 · 寅 and 酉"
   },
   {
    "sec": 5.0,
@@ -79,7 +81,8 @@
     "진(辰) · 해(亥)",
     "사(巳) · 술(戌)"
    ],
-   "big_size": 84
+   "big_size": 84,
+   "en": "卯 and 申 · 辰 and 亥 · 巳 and 戌"
   },
   {
    "sec": 5.5,
@@ -91,18 +94,21 @@
    "big_size": 80,
    "after": [
     "두 사람의 원국 전체로 봐요"
-   ]
+   ],
+   "en": "No match is judged by Wonjin alone"
   },
   {
    "sec": 4.5,
-   "small": "내 사주 안 지지끼리도 원진을 봐요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에도",
     "원진이 있을까요?"
    ],
    "big_size": 88,
-   "en": "학파마다 기준은 다를 수 있어요",
-   "after": []
+   "en": "Wonjin is read within your own chart too",
+   "after": [
+    "내 사주 안 지지끼리도 원진을 봐요"
+   ]
   }
  ]
 }

@@ -50,7 +50,7 @@
    "after": [
     "예민한 사람에게 있다는 그 글자?"
    ],
-   "en": "Gwimungwan: the sensitive gate."
+   "en": "Gwimungwan: a mark of sensitive people?"
   },
   {
    "sec": 5.5,
@@ -62,7 +62,8 @@
    "big_size": 84,
    "after": [
     "요즘은 이렇게 읽기도 해요"
-   ]
+   ],
+   "en": "Read today as keen senses and sharp intuition"
   },
   {
    "sec": 5.0,
@@ -72,7 +73,8 @@
     "축(丑) · 오(午)",
     "인(寅) · 미(未)"
    ],
-   "big_size": 84
+   "big_size": 84,
+   "en": "子 and 酉 · 丑 and 午 · 寅 and 未"
   },
   {
    "sec": 5.0,
@@ -85,7 +87,8 @@
    "big_size": 84,
    "after": [
     "이 짝이 함께 있으면 귀문관"
-   ]
+   ],
+   "en": "卯 and 申 · 辰 and 亥 · 巳 and 戌"
   },
   {
    "sec": 5.5,
@@ -97,18 +100,21 @@
    "big_size": 78,
    "after": [
     "힘들 땐 전문가와 이야기해 보세요"
-   ]
+   ],
+   "en": "Saju can't judge mental health"
   },
   {
    "sec": 5.5,
-   "small": "귀문관 하나로 정해지는 건 없어요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에도",
     "귀문관이 있을까요?"
    ],
    "big_size": 88,
-   "en": "학파마다 기준은 다를 수 있어요",
-   "after": []
+   "en": "One sign alone decides nothing",
+   "after": [
+    "귀문관 하나로 정해지는 건 없어요"
+   ]
   }
  ]
 }

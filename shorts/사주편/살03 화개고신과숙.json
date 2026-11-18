@@ -36,7 +36,7 @@
     "화개살"
    ],
    "big_size": 250,
-   "en": "Do you recharge alone?",
+   "en": "Royal Canopy (Hwagae): do you recharge alone?",
    "after": [
     "혼자 있는 시간이 편한 사람"
    ],
@@ -52,7 +52,8 @@
    "after": [
     "예술·학문·종교와 자주 엮여 읽혀요",
     "띠나 태어난 날의 지지로 찾아요"
-   ]
+   ],
+   "en": "A star for going deep alone: art, study, faith"
   },
   {
    "sec": 5.0,
@@ -67,7 +68,8 @@
    "big_size": 60,
    "after": [
     "이 글자가 내 사주에 있으면 화개"
-   ]
+   ],
+   "en": "Found from your birth-year or birth-day branch"
   },
   {
    "sec": 5.0,
@@ -79,7 +81,8 @@
    "big_size": 96,
    "after": [
     "진·술·축·미"
-   ]
+   ],
+   "en": "So every Royal Canopy is an Earth character"
   },
   {
    "sec": 5.0,
@@ -93,7 +96,8 @@
    "after": [
     "띠가 속한 방향(방합)으로 따로 찾아요",
     "혼자 지낼 운명이라는 뜻은 아니에요"
-   ]
+   ],
+   "en": "Gosin and Gwasuk: strength to stand on your own"
   },
   {
    "sec": 5.0,
@@ -106,18 +110,23 @@
    "after": [
     "사주에 이 글자가 있을 때 불러요",
     "나머지 띠는 아래 글에 적어 둘게요"
-   ]
+   ],
+   "en": "Born a Pig, Rat or Ox? Gosin 寅, Gwasuk 戌"
   },
   {
    "sec": 5.0,
    "tint": "토",
-   "small": "띠나 태어난 날의 지지로 찾아보세요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에도",
     "화개가 있을까요?"
    ],
    "big_size": 88,
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Find your Royal Canopy: link in bio",
+   "after": [
+    "띠나 태어난 날의 지지로 찾아보세요",
+    "내 신살과 소리는 프로필 링크 사주앱에서"
+   ]
   }
  ]
 }

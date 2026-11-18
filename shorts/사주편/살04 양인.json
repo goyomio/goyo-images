@@ -70,7 +70,7 @@
    "after": [
     "있으면 기가 세다는 말, 들어 보셨어요?"
    ],
-   "en": "Yangin: strength at its peak."
+   "en": "Full Strength (Yang-in): a strong personality?"
   },
   {
    "sec": 5.0,
@@ -82,7 +82,8 @@
    "big_size": 80,
    "after": [
     "요즘은 주체성과 추진력으로 읽기도 해요"
-   ]
+   ],
+   "en": "Where your day master's power peaks: drive and will"
   },
   {
    "sec": 4.5,
@@ -95,7 +96,8 @@
    "after": [
     "내 힘으로 밀고 나가는 아침에",
     "『Morning Oak』(갑목 편)"
-   ]
+   ],
+   "en": "Yang Wood (甲) day: Mid-spring Wood (卯)"
   },
   {
    "sec": 4.5,
@@ -108,7 +110,8 @@
    "after": [
     "사람들 앞에 서는 한낮에",
     "『Noon Avenue』(병화 편)"
-   ]
+   ],
+   "en": "Yang Fire (丙) day: Midsummer Fire (午)"
   },
   {
    "sec": 4.5,
@@ -121,7 +124,8 @@
    "after": [
     "묵직하게 버텨야 하는 날에",
     "무토 편"
-   ]
+   ],
+   "en": "Yang Earth (戊) day: Midsummer Fire (午)"
   },
   {
    "sec": 4.5,
@@ -134,7 +138,8 @@
    "after": [
     "매듭을 지어야 하는 저녁에",
     "『Stone Bridge』(경금 편)"
-   ]
+   ],
+   "en": "Yang Metal (庚) day: Mid-autumn Metal (酉)"
   },
   {
    "sec": 4.5,
@@ -147,21 +152,23 @@
    "after": [
     "생각이 넘치는 밤에",
     "『Wide Water』(임수 편)"
-   ]
+   ],
+   "en": "Yang Water (壬) day: Midwinter Water (子)"
   },
   {
    "sec": 5.0,
    "tint": "수",
-   "small": "이 글자가 내 사주 지지에 있으면 양인",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에는",
     "양인이 있을까요?"
    ],
    "big_size": 88,
    "after": [
-    "내 일간의 곡은 프로필 링크에서"
+    "이 글자가 내 사주 지지에 있으면 양인",
+    "내 신살과 소리는 프로필 링크 사주앱에서"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Find your Full Strength: link in bio"
   }
  ]
 }

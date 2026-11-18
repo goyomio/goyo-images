@@ -71,7 +71,7 @@
    "after": [
     "도화부터 공망까지"
    ],
-   "en": "Every star, in one reel."
+   "en": "Every star, in one reel"
   },
   {
    "sec": 5.5,
@@ -84,7 +84,8 @@
    "big_size": 76,
    "after": [
     "요즘은 성향과 힘으로 읽어요"
-   ]
+   ],
+   "en": "Once called harsh, now read as traits and strengths"
   },
   {
    "sec": 5.5,
@@ -97,7 +98,8 @@
    "big_size": 76,
    "after": [
     "없는 사주도 있어요"
-   ]
+   ],
+   "en": "Helper stars: some charts have none"
   },
   {
    "sec": 5.5,
@@ -110,7 +112,8 @@
    "big_size": 84,
    "after": [
     "하나로 정해지는 건 없어요"
-   ]
+   ],
+   "en": "By sign, pair or day pillar: none decides alone"
   },
   {
    "sec": 5.5,
@@ -123,22 +126,24 @@
    "big_size": 96,
    "after": [
     "그 위에 신살을 얹어 읽어요"
-   ]
+   ],
+   "en": "Day master and five elements first, stars on top"
   },
   {
    "sec": 5.0,
    "tint": "수",
-   "small": "생년월일시를 넣으면 바로 보여요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주의",
     "오행 보기"
    ],
    "big_size": 100,
    "after": [
+    "생년월일시를 넣으면 바로 보여요",
     "내 오행·신살은 사주앱에서",
     "@goyo_mio 채널 상단 링크"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "See your five elements: tap @goyo_mio → top link"
   }
  ]
 }

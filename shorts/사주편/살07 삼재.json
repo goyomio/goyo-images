@@ -50,7 +50,7 @@
    "after": [
     "2027년, 내 띠도 삼재일까?"
    ],
-   "en": "Samjae: the three-year cycle."
+   "en": "Samjae: is 2027 one of your sign's three years?"
   },
   {
    "sec": 5.5,
@@ -62,7 +62,8 @@
    "big_size": 84,
    "after": [
     "들어오는 해 · 머무는 해 · 나가는 해"
-   ]
+   ],
+   "en": "A three-year stretch that comes every 12 years"
   },
   {
    "sec": 6.0,
@@ -75,7 +76,8 @@
    "big_size": 96,
    "after": [
     "삼재가 나가는 해(날삼재)예요"
-   ]
+   ],
+   "en": "2027: Pig, Rabbit and Goat signs leave Samjae"
   },
   {
    "sec": 5.5,
@@ -87,7 +89,8 @@
    "big_size": 80,
    "after": [
     "2027년 입춘은 2월 4일이에요"
-   ]
+   ],
+   "en": "Born in January or early February? Check your sign"
   },
   {
    "sec": 5.5,
@@ -99,21 +102,23 @@
    "big_size": 88,
    "after": [
     "사주는 원국과 대운까지 함께 봐요"
-   ]
+   ],
+   "en": "Samjae alone never blocks anything"
   },
   {
    "sec": 5.0,
    "tint": "수",
-   "small": "돼지 · 토끼 · 양띠라면",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "나가는 해,",
     "하던 일을 매듭짓는 때"
    ],
    "big_size": 84,
    "after": [
+    "돼지 · 토끼 · 양띠라면",
     "올해 삼재가 아닌 띠가 더 많아요"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "A leaving year: time to wrap up what you started"
   }
  ]
 }

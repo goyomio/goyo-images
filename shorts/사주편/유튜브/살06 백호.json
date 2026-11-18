@@ -50,7 +50,7 @@
    "after": [
     "무섭게만 들리는 이름, 정말 그럴까?"
    ],
-   "en": "Baekho: the White Tiger."
+   "en": "Baekho, the White Tiger: as scary as it sounds?"
   },
   {
    "sec": 6.0,
@@ -63,7 +63,8 @@
    "after": [
     "갑진 · 을미 · 병술 · 정축",
     "무진 · 임술 · 계축"
-   ]
+   ],
+   "en": "Day pillars: 甲辰 乙未 丙戌 丁丑 戊辰 壬戌 癸丑"
   },
   {
    "sec": 5.0,
@@ -75,7 +76,8 @@
    "big_size": 84,
    "after": [
     "요즘은 이렇게 읽기도 해요"
-   ]
+   ],
+   "en": "Now read as drive and deep focus on one field"
   },
   {
    "sec": 5.0,
@@ -84,20 +86,22 @@
     "백호 하나로",
     "정해지는 건 없어요"
    ],
-   "big_size": 84
+   "big_size": 84,
+   "en": "One sign alone decides nothing"
   },
   {
    "sec": 5.0,
-   "small": "태어난 날의 기둥을 확인해 보세요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 일주는",
     "백호일까요?"
    ],
    "big_size": 92,
    "after": [
+    "태어난 날의 기둥을 확인해 보세요",
     "일주로 보면 백호가 없는 사주가 훨씬 많아요"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Check your day pillar: tap @goyo_mio → top link"
   }
  ]
 }

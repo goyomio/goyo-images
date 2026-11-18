@@ -50,7 +50,7 @@
    "after": [
     "비어 있다는 그 글자?"
    ],
-   "en": "Gongmang: the empty branches."
+   "en": "Gongmang: the empty branches?"
   },
   {
    "sec": 5.5,
@@ -62,7 +62,8 @@
    "big_size": 84,
    "after": [
     "이 두 글자를 공망(空亡)이라 해요"
-   ]
+   ],
+   "en": "Two branches left without a stem partner"
   },
   {
    "sec": 5.5,
@@ -73,7 +74,8 @@
     "갑술순 → 신 · 유",
     "갑신순 → 오 · 미"
    ],
-   "big_size": 72
+   "big_size": 72,
+   "en": "Found from your day pillar"
   },
   {
    "sec": 5.5,
@@ -86,7 +88,8 @@
    "big_size": 72,
    "after": [
     "내 일주가 어느 순인지는 아래 글에 있어요"
-   ]
+   ],
+   "en": "Which group your day pillar is in: see the description"
   },
   {
    "sec": 5.5,
@@ -98,18 +101,21 @@
    "big_size": 88,
    "after": [
     "그 자리의 기운이 비어 있는 듯 읽어요"
-   ]
+   ],
+   "en": "Everyone has two. They count only if in your chart"
   },
   {
    "sec": 5.0,
-   "small": "공망 하나로 정해지는 건 없어요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 공망은",
     "어디일까요?"
    ],
    "big_size": 92,
-   "en": "학파마다 기준은 다를 수 있어요",
-   "after": []
+   "en": "Where are your empty branches?",
+   "after": [
+    "공망 하나로 정해지는 건 없어요"
+   ]
   }
  ]
 }

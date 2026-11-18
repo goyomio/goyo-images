@@ -55,7 +55,7 @@
    "after": [
     "있으면 성격이 강하다고요?"
    ],
-   "en": "Kuigang: a name from the Big Dipper."
+   "en": "Big Dipper (Goegang): a strong personality?"
   },
   {
    "sec": 5.0,
@@ -66,7 +66,8 @@
    "big_size": 92,
    "after": [
     "옛 책은 진을 천강, 술을 하괴라 불렀어요"
-   ]
+   ],
+   "en": "Named for the Big Dipper: 辰 and 戌"
   },
   {
    "sec": 5.0,
@@ -78,7 +79,8 @@
    "after": [
     "임술 · 무술 · 무진을 넣는 기준은",
     "학파마다 달라요"
-   ]
+   ],
+   "en": "Common Big Dipper day pillars: 庚辰, 庚戌, 壬辰"
   },
   {
    "sec": 5.0,
@@ -90,7 +92,8 @@
    "big_size": 84,
    "after": [
     "요즘은 성별과 상관없이 이렇게 읽어요"
-   ]
+   ],
+   "en": "Once \"too fierce\" for women. Now: drive, for anyone"
   },
   {
    "sec": 5.0,
@@ -103,7 +106,8 @@
    "after": [
     "매듭을 짓는 저녁에",
     "『Stone Bridge』(경금 편)"
-   ]
+   ],
+   "en": "Starts with 庚? The Yang Metal (庚) track"
   },
   {
    "sec": 5.0,
@@ -116,22 +120,24 @@
    "after": [
     "멀리 내다보는 밤에",
     "『Wide Water』(임수 편)"
-   ]
+   ],
+   "en": "Starts with 壬? The Yang Water (壬) track"
   },
   {
    "sec": 5.0,
    "tint": "수",
-   "small": "주로 태어난 날의 기둥으로 봐요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에도",
     "괴강이 있을까요?"
    ],
    "big_size": 92,
    "after": [
+    "주로 태어난 날의 기둥으로 봐요",
     "내 신살과 소리는 사주앱에서",
     "@goyo_mio 채널 상단 링크"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Find your Big Dipper: tap @goyo_mio → top link"
   }
  ]
 }

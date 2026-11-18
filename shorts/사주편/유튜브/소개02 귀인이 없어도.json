@@ -51,7 +51,7 @@
    "after": [
     "내 사주엔 귀인이 하나도 없대요"
    ],
-   "en": "No noble star in my chart?"
+   "en": "No helper star in my chart?"
   },
   {
    "sec": 5.5,
@@ -60,7 +60,8 @@
     "귀인 글자가",
     "없는 사주도 있어요"
    ],
-   "big_size": 84
+   "big_size": 84,
+   "en": "Some charts have no helper characters"
   },
   {
    "sec": 5.5,
@@ -69,7 +70,8 @@
     "없다고",
     "도움이 없는 건 아니에요"
    ],
-   "big_size": 84
+   "big_size": 84,
+   "en": "No helper star doesn't mean no help"
   },
   {
    "sec": 5.5,
@@ -82,7 +84,8 @@
    "big_size": 96,
    "after": [
     "많은 기운, 필요한 기운"
-   ]
+   ],
+   "en": "Start with your five elements"
   },
   {
    "sec": 5.0,
@@ -95,7 +98,8 @@
    "big_size": 96,
    "after": [
     "고요는 일간마다 어울리는 소리를 골라 두었어요"
-   ]
+   ],
+   "en": "Then the music to keep close by"
   },
   {
    "sec": 5.0,
@@ -108,7 +112,8 @@
    "after": [
     "내 오행·신살은 사주앱에서",
     "@goyo_mio 채널 상단 링크"
-   ]
+   ],
+   "en": "See your five elements: tap @goyo_mio → top link"
   }
  ],
  "lamp_chars": "貴人"

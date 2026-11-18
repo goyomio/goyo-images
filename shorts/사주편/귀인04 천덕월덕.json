@@ -51,7 +51,7 @@
    "after": [
     "덕을 쌓으면 생기는 귀인일까?"
    ],
-   "en": "Virtue stars set by your birth month."
+   "en": "Heavenly and Monthly Virtue: set by your birth month"
   },
   {
    "sec": 5.5,
@@ -63,7 +63,8 @@
    "after": [
     "옛 책은 험한 일을",
     "누그러뜨리는 글자로 풀이했어요"
-   ]
+   ],
+   "en": "Old texts read them as softening hard times"
   },
   {
    "sec": 4.5,
@@ -72,7 +73,8 @@
    "big": [
     "월덕은 병(丙)"
    ],
-   "big_size": 96
+   "big_size": 96,
+   "en": "寅, 午 or 戌 month: Monthly Virtue is Yang Fire (丙)"
   },
   {
    "sec": 4.5,
@@ -81,7 +83,8 @@
    "big": [
     "월덕은 임(壬)"
    ],
-   "big_size": 96
+   "big_size": 96,
+   "en": "申, 子 or 辰 month: Monthly Virtue is Yang Water (壬)"
   },
   {
    "sec": 4.5,
@@ -90,7 +93,8 @@
    "big": [
     "월덕은 갑(甲)"
    ],
-   "big_size": 96
+   "big_size": 96,
+   "en": "亥, 卯 or 未 month: Monthly Virtue is Yang Wood (甲)"
   },
   {
    "sec": 5.5,
@@ -102,21 +106,24 @@
    "big_size": 96,
    "after": [
     "이 글자가 사주 천간에 있으면 월덕"
-   ]
+   ],
+   "en": "巳, 酉 or 丑 month: Monthly Virtue is Yang Metal (庚)"
   },
   {
    "sec": 5.0,
    "tint": "화",
-   "small": "천덕 열두 달 표는 아래 글에 적어 둘게요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에는",
     "덕이 있을까요?"
    ],
    "big_size": 88,
    "after": [
-    "천덕·월덕이 없는 사주도 흔해요"
+    "천덕 열두 달 표는 아래 글에 적어 둘게요",
+    "천덕·월덕이 없는 사주도 흔해요",
+    "내 신살과 소리는 프로필 링크 사주앱에서"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Find your Virtue stars: link in bio"
   }
  ]
 }

@@ -67,7 +67,7 @@
     "학당"
    ],
    "big_size": 230,
-   "en": "Is there a scholar star in my chart?",
+   "en": "Exams are over. Do you have a study star?",
    "after": [
     "수능은 끝났는데, 공부 귀인 있을까?"
    ],
@@ -83,7 +83,8 @@
    "after": [
     "점수를 정해 주는 글자는 아니에요",
     "배우고 표현하는 힘으로 읽어요"
-   ]
+   ],
+   "en": "A gift for learning and expression, not scores"
   },
   {
    "sec": 4.5,
@@ -96,7 +97,8 @@
    "after": [
     "문창은 사, 학당은 해",
     "『Morning Oak』(갑목 편)"
-   ]
+   ],
+   "en": "Yang Wood (甲) day: 巳 and 亥"
   },
   {
    "sec": 4.5,
@@ -108,9 +110,10 @@
    "big_size": 100,
    "after": [
     "문창은 신, 학당은 인",
-    "『Noon Avenue』(병화 편)"
+    "『Noon Avenue』(병화 편)",
+    "무의 학당은 신(申)으로 보기도 해요"
    ],
-   "en": "무의 학당은 신(申)으로 보기도 해요"
+   "en": "Yang Fire (丙) or Yang Earth (戊) day: 申 and 寅"
   },
   {
    "sec": 4.5,
@@ -123,7 +126,8 @@
    "after": [
     "문창은 해, 학당은 사",
     "『Stone Bridge』(경금 편)"
-   ]
+   ],
+   "en": "Yang Metal (庚) day: 亥 and 巳"
   },
   {
    "sec": 4.5,
@@ -136,7 +140,8 @@
    "after": [
     "문창은 인, 학당은 신",
     "『Wide Water』(임수 편)"
-   ]
+   ],
+   "en": "Yang Water (壬) day: 寅 and 申"
   },
   {
    "sec": 5.5,
@@ -150,21 +155,23 @@
     "을 오(午) · 정·기 유(酉)",
     "신(辛) 자(子) · 계 묘(卯)",
     "『Clear Facet』(신금 편)"
-   ]
+   ],
+   "en": "Yin days: both stars land on the same character"
   },
   {
    "sec": 5.0,
    "tint": "수",
-   "small": "귀인 하나 없는 사주도 흔해요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에도",
     "문창·학당이 있을까요?"
    ],
    "big_size": 76,
    "after": [
-    "내 일간의 곡은 프로필 링크에서"
+    "귀인 하나 없는 사주도 흔해요",
+    "내 신살과 소리는 프로필 링크 사주앱에서"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Find your Literary Gift: link in bio"
   }
  ]
 }

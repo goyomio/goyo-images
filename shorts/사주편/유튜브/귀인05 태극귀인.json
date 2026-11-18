@@ -51,7 +51,7 @@
    "after": [
     "근원을 파고드는 사람에게 붙는 귀인?"
    ],
-   "en": "Taiji star: the root of things."
+   "en": "Taegeuk Noble Helper: for those who dig deep?"
   },
   {
    "sec": 5.5,
@@ -62,7 +62,8 @@
    "big_size": 88,
    "after": [
     "옛 책은 깊이 파고드는 힘으로 풀이했어요"
-   ]
+   ],
+   "en": "Taegeuk, the Great Ultimate: the root of all things"
   },
   {
    "sec": 4.0,
@@ -71,7 +72,8 @@
    "big": [
     "자(子) · 오(午)"
    ],
-   "big_size": 96
+   "big_size": 96,
+   "en": "Wood day (甲, 乙): 子 and 午"
   },
   {
    "sec": 4.0,
@@ -80,7 +82,8 @@
    "big": [
     "묘(卯) · 유(酉)"
    ],
-   "big_size": 96
+   "big_size": 96,
+   "en": "Fire day (丙, 丁): 卯 and 酉"
   },
   {
    "sec": 4.5,
@@ -92,7 +95,8 @@
    "big_size": 96,
    "after": [
     "진(辰) · 술(戌) · 축(丑) · 미(未)"
-   ]
+   ],
+   "en": "Earth day (戊, 己): 辰, 戌, 丑 and 未"
   },
   {
    "sec": 4.0,
@@ -101,7 +105,8 @@
    "big": [
     "인(寅) · 해(亥)"
    ],
-   "big_size": 96
+   "big_size": 96,
+   "en": "Metal day (庚, 辛): 寅 and 亥"
   },
   {
    "sec": 5.0,
@@ -113,21 +118,23 @@
    "big_size": 96,
    "after": [
     "이 글자가 사주 지지에 있으면 태극귀인"
-   ]
+   ],
+   "en": "Water day (壬, 癸): 巳 and 申"
   },
   {
    "sec": 5.0,
    "tint": "수",
-   "small": "표는 학파마다 조금씩 달라요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에는",
     "태극귀인이 있을까요?"
    ],
    "big_size": 84,
    "after": [
+    "표는 학파마다 조금씩 달라요",
     "태극귀인이 없는 사주도 흔해요"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Find your Taegeuk Noble Helper: tap @goyo_mio → top link"
   }
  ]
 }

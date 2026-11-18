@@ -56,7 +56,7 @@
     "역마살"
    ],
    "big_size": 250,
-   "en": "These days, people envy it.",
+   "en": "Traveling Horse (Yeongma): envied these days?",
    "step": 0.25,
    "after": [
     "요즘은 있으면 부럽다고들 하죠"
@@ -74,7 +74,7 @@
    "after": [
     "사주로 많이 이야기해요"
    ],
-   "en": "Often linked to travel and new places."
+   "en": "An old relay horse: travel, work trips, new jobs"
   },
   {
    "sec": 5.0,
@@ -85,9 +85,10 @@
    ],
    "big_size": 80,
    "after": [
-    "그 글자가 사주에 있으면 역마예요"
+    "그 글자가 사주에 있으면 역마예요",
+    "길 위에서 틀어 두는 내 역마 글자의 곡"
    ],
-   "en": "길 위에서 틀어 두는 내 역마 글자의 곡"
+   "en": "Find it from your birth-year or birth-day branch"
   },
   {
    "sec": 4.5,
@@ -101,7 +102,8 @@
     "새 출발하는 아침 길에",
     "『Morning Oak』(갑목 편)"
    ],
-   "step": 0.25
+   "step": 0.25,
+   "en": "If 申·子·辰: Early-spring Wood (寅)"
   },
   {
    "sec": 4.5,
@@ -115,7 +117,8 @@
     "사람들 앞에 나서러 가는 길에",
     "『Noon Avenue』(병화 편)"
    ],
-   "step": 0.25
+   "step": 0.25,
+   "en": "If 亥·卯·未: Early-summer Fire (巳)"
   },
   {
    "sec": 4.5,
@@ -129,7 +132,8 @@
     "일을 매듭지으러 가는 출장길에",
     "『Stone Bridge』(경금 편)"
    ],
-   "step": 0.25
+   "step": 0.25,
+   "en": "If 寅·午·戌: Early-autumn Metal (申)"
   },
   {
    "sec": 4.5,
@@ -143,22 +147,24 @@
     "멀리 떠나는 밤 비행기에서",
     "『Wide Water』(임수 편)"
    ],
-   "step": 0.25
+   "step": 0.25,
+   "en": "If 巳·酉·丑: Early-winter Water (亥)"
   },
   {
    "sec": 5.0,
    "step": 0.25,
    "tint": "수",
-   "small": "띠나 태어난 날의 지지로 찾아보세요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 역마 글자는",
     "무엇일까요?"
    ],
    "big_size": 88,
    "after": [
-    "그 글자의 곡은 프로필 링크에서"
+    "띠나 태어난 날의 지지로 찾아보세요",
+    "내 신살과 소리는 프로필 링크 사주앱에서"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Find your Traveling Horse: link in bio"
   }
  ]
 }

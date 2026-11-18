@@ -29,7 +29,7 @@
   {
    "file": "shorts/무음편/임수 무음편.mp4",
    "start": 1.0,
-   "dur": 9.5
+   "dur": 10.5
   }
  ],
  "tints": {
@@ -67,7 +67,7 @@
     "귀인"
    ],
    "big_size": 230,
-   "en": "Does a noble star do it all for you?",
+   "en": "Noble Helper (Cheoneul Gwiin): a free pass?",
    "after": [
     "있으면 누가 다 도와줄까?"
    ],
@@ -83,7 +83,7 @@
    "after": [
     "서로 돕는 인연이 잘 닿는 사주예요"
    ],
-   "en": "It means help tends to flow both ways."
+   "en": "No. It's a sign of help that flows both ways."
   },
   {
    "sec": 4.5,
@@ -95,9 +95,10 @@
    "big_size": 100,
    "after": [
     "사주 지지에 이 글자가 있는지 보세요",
-    "『Morning Oak』(갑목 편)"
+    "『Morning Oak』(갑목 편)",
+    "경 일간은 인(寅)·오(午)로 보기도 해요"
    ],
-   "en": "경은 인·오로 보기도 해요"
+   "en": "Born on a Yang Wood/Earth/Metal day? Ox, Goat"
   },
   {
    "sec": 4.5,
@@ -109,7 +110,8 @@
    "big_size": 100,
    "after": [
     "『Tilled Morning』(기토 편)"
-   ]
+   ],
+   "en": "Born on a Yin Wood/Earth day? Rat, Monkey"
   },
   {
    "sec": 4.5,
@@ -121,7 +123,8 @@
    "big_size": 100,
    "after": [
     "『Noon Avenue』(병화 편)"
-   ]
+   ],
+   "en": "Born on a Fire day? Pig, Rooster"
   },
   {
    "sec": 4.5,
@@ -133,7 +136,8 @@
    "big_size": 100,
    "after": [
     "『Clear Facet』(신금 편)"
-   ]
+   ],
+   "en": "Born on a Yin Metal day? Tiger, Horse"
   },
   {
    "sec": 4.5,
@@ -145,21 +149,23 @@
    "big_size": 100,
    "after": [
     "『Wide Water』(임수 편)"
-   ]
+   ],
+   "en": "Born on a Water day? Rabbit, Snake"
   },
   {
-   "sec": 5.0,
+   "sec": 6.0,
    "tint": "수",
-   "small": "귀인 하나 없는 사주도 흔해요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에는",
     "천을귀인이 있을까요?"
    ],
    "big_size": 80,
    "after": [
-    "내 일간의 곡은 프로필 링크에서"
+    "귀인 하나 없는 사주도 흔해요",
+    "내 천을귀인은 프로필 링크 사주앱에서"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Check your chart: link in bio"
   }
  ]
 }

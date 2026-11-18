@@ -39,7 +39,7 @@
     "건록"
    ],
    "big_size": 200,
-   "en": "Three lucky stars, one key character.",
+   "en": "Three stars found from one character: Rok (祿)",
    "after": [
     "록 한 글자로 셋을 찾아요"
    ],
@@ -56,7 +56,8 @@
    "big_size": 80,
    "after": [
     "갑(甲)이면 인(寅), 경(庚)이면 신(申)"
-   ]
+   ],
+   "en": "Rok: the branch where your day master is strongest"
   },
   {
    "sec": 5.0,
@@ -70,7 +71,8 @@
    "after": [
     "내 일간의 록이",
     "사주 지지에 있으면 건록"
-   ]
+   ],
+   "en": "Geonrok: your Rok branch appears in your chart"
   },
   {
    "sec": 5.5,
@@ -85,7 +87,8 @@
    "after": [
     "갑(甲)의 록 인(寅)과 육합하는 해(亥)",
     "드러나지 않게 돕는 손으로 읽기도 해요"
-   ]
+   ],
+   "en": "Amrok: the hidden partner of your Rok"
   },
   {
    "sec": 5.5,
@@ -99,22 +102,24 @@
    "after": [
     "록의 다음다음 글자",
     "갑(甲)이면 인(寅) → 묘(卯) → 진(辰)"
-   ]
+   ],
+   "en": "Golden Carriage (Geumyeo): two steps past Rok"
   },
   {
    "sec": 5.0,
    "step": 0.25,
    "tint": "수",
-   "small": "열 일간의 글자는 아래 글에 적어 둘게요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에는",
     "어떤 록이 있을까요?"
    ],
    "big_size": 84,
    "after": [
+    "열 일간의 글자는 아래 글에 적어 둘게요",
     "셋 다 없는 사주도 흔해요"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "The full table for every day master: see the description"
   }
  ]
 }

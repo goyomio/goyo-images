@@ -52,7 +52,7 @@
    "after": [
     "이름도 낯선 귀인 셋"
    ],
-   "en": "Three lesser-known noble stars."
+   "en": "Three lesser-known helper stars"
   },
   {
    "sec": 5.5,
@@ -64,7 +64,8 @@
    "after": [
     "맡은 일을 책임 있게 지키는 자리로 읽어요",
     "일간으로 찾아요"
-   ]
+   ],
+   "en": "Gugin (國印), the state seal: duty kept with care"
   },
   {
    "sec": 5.5,
@@ -77,7 +78,8 @@
    "after": [
     "갑·을은 사(巳), 병·정은 신(申)",
     "일간으로 찾아요"
-   ]
+   ],
+   "en": "Gwangwi Hakgwan: learning that leads to a role"
   },
   {
    "sec": 5.5,
@@ -89,20 +91,22 @@
    "big_size": 84,
    "after": [
     "갑무경 · 을병정 · 임계신"
-   ]
+   ],
+   "en": "Samgi: three specific stems in one chart"
   },
   {
    "sec": 5.0,
-   "small": "세 가지 표는 아래 글에 적어 둘게요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 사주에는",
     "어떤 귀인이 있을까요?"
    ],
    "big_size": 84,
    "after": [
+    "세 가지 표는 아래 글에 적어 둘게요",
     "셋 다 없는 사주가 더 흔해요"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Tables for all three: see the caption"
   }
  ],
  "lamp_chars": "國印三奇"
