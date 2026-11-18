@@ -12,7 +12,7 @@
 쇼츠 링크 규칙 (11/18 고요채널 창 확인)
 - 유튜브는 2023-08-31부터 쇼츠 설명란·댓글의 링크를 누를 수 없게 막았어요. 주소는 글자로만 보여요.
 - 눌리는 통로는 둘뿐: ① 관련 동영상(내 채널 영상 1개) ② @goyo_mio(채널로 이동) → 채널 상단 링크(사주앱·재생목록)
-- 그래서 영상 끝 문구는 "@goyo_mio 채널에서"로 바꿨고, 고정 댓글 끝에 채널 안내 한 줄을 붙였어요.
+- 그래서 영상 끝 문구는 두 줄 「내 신살과 소리는 사주앱에서 / @goyo_mio 채널 상단 링크」(소개 두 편은 「내 오행·신살은 사주앱에서」)로 바꿨어요. 사주앱에 11/18부터 신살·귀인 칸이 있고, 줄을 누르면 그 글자의 편으로 가요. 고정 댓글 끝에 채널 안내 한 줄을 붙였어요.
 - 관련 영상: 한 편만 가리키는 쇼츠는 그 본편, 여러 편(일간·글자별)을 가리키는 쇼츠는 사주앱이 이어 주니 "없음".
 
 ==================================================
@@ -42,7 +42,7 @@
 오(午) 정화 편 https://www.youtube.com/watch?v=xDGOypKeG_s
 유(酉) 신금 편 https://www.youtube.com/watch?v=6p_X4z3terE
 자(子) 계수 편 https://www.youtube.com/watch?v=wzt4ETUmOto
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
 
@@ -76,7 +76,7 @@
 신금 https://www.youtube.com/watch?v=6p_X4z3terE
 임수 https://www.youtube.com/watch?v=m_t33eB1bkc
 계수 https://www.youtube.com/watch?v=wzt4ETUmOto
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
 
@@ -107,7 +107,7 @@
 사(巳) 병화 편 https://www.youtube.com/watch?v=oIt-DzA96Bw
 신(申) 경금 편 https://www.youtube.com/watch?v=VzDuEs2i5es
 해(亥) 임수 편 https://www.youtube.com/watch?v=m_t33eB1bkc
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
 
@@ -146,7 +146,7 @@
 신금 https://www.youtube.com/watch?v=6p_X4z3terE
 임수 https://www.youtube.com/watch?v=m_t33eB1bkc
 계수 https://www.youtube.com/watch?v=wzt4ETUmOto
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
 
@@ -182,7 +182,7 @@
 
 [고정 댓글]
 화면 끝에 나온 기토 편 https://www.youtube.com/watch?v=8hLmKk8ag08
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 다섯 가지 고요｜기토 편 (https://www.youtube.com/watch?v=8hLmKk8ag08)
 
@@ -253,7 +253,7 @@
 무토 https://www.youtube.com/watch?v=q8w4WV76ah4
 경금 https://www.youtube.com/watch?v=VzDuEs2i5es
 임수 https://www.youtube.com/watch?v=m_t33eB1bkc
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
 
@@ -303,7 +303,7 @@
 [설명]
 괴강은 북두칠성에서 온 이름이에요. 옛 책은 진(辰)을 천강(天罡), 술(戌)을 하괴(河魁)라고 불렀고, 그래서 괴강 일주는 모두 진이나 술로 끝나요.
 
-보는 법은 태어난 날의 기둥(일주)을 확인하는 거예요. 흔히 경진(庚辰), 경술(庚戌), 임진(壬辰)을 꼽고, 임술(壬戌)과 무술(戊戌), 무진(戊辰)을 넣는 기준은 학파마다 달라요.
+주로 태어난 날의 기둥(일주)으로 보고, 다른 기둥까지 보는 학파도 있어요. 흔히 경진(庚辰), 경술(庚戌), 임진(壬辰)을 꼽고, 임술(壬戌)과 무술(戊戌), 무진(戊辰)을 넣는 기준은 학파마다 달라요.
 
 예전에는 여자 사주에 괴강이 있으면 드세다고들 했어요. 요즘은 성별과 상관없이 결단하고 밀고 나가는 힘으로 읽어요.
 
@@ -320,7 +320,7 @@
 내 일주 편 바로 가기
 경금 https://www.youtube.com/watch?v=VzDuEs2i5es
 임수 https://www.youtube.com/watch?v=m_t33eB1bkc
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
 
@@ -471,7 +471,7 @@
 
 내 사주에 많은 기운과 필요한 기운을 알면, 생활에서 해 볼 만한 일을 찾을 수 있어요. 고요는 그 곁에 둘 소리를 일간마다 골라 두었어요.
 
-내 사주의 오행 보기는 @goyo_mio 채널 상단 링크에서
+내 사주의 오행과 신살 보기는 @goyo_mio 채널 상단 사주앱 링크에서
 
 배경 음악: 『Noon Avenue』(병화 편) · 『Morning Tendril』(을목 편)
 @goyo_mio
@@ -481,7 +481,7 @@
 [고정 댓글]
 내 사주의 오행 보기 https://claude.ai/artifact/PBy4sebRcKj7bnxAigsTvH
 고요 채널의 일간 편은 재생목록에서 찾을 수 있어요.
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
 
@@ -557,7 +557,7 @@
 
 예전에 겁을 주던 이름도 요즘은 성향과 힘으로 읽어요. 귀인 글자가 없는 사주도 있고, 어느 것 하나로 정해지는 건 없어요.
 
-신살은 원국 위에 얹어 보는 표예요. 먼저 태어난 날의 천간(일간)과 다섯 오행을 알고, 그 위에 신살을 얹어 읽어요. 내 사주의 오행 보기는 @goyo_mio 채널 상단 링크에서
+신살은 원국 위에 얹어 보는 표예요. 먼저 태어난 날의 천간(일간)과 다섯 오행을 알고, 그 위에 신살을 얹어 읽어요. 내 사주의 오행과 신살 보기는 @goyo_mio 채널 상단 사주앱 링크에서
 학파마다 기준은 다를 수 있어요.
 
 장면마다 그 오행의 곡을 골랐어요.
@@ -569,6 +569,6 @@
 [고정 댓글]
 내 사주의 오행 보기 https://claude.ai/artifact/PBy4sebRcKj7bnxAigsTvH
 고요 채널의 일간 편은 재생목록에서 찾을 수 있어요.
-▶ 링크는 @goyo_mio 채널 상단에서
+▶ 사주앱·재생목록은 @goyo_mio 채널 상단 링크에서
 
 [관련 영상] 없음
