@@ -23,7 +23,7 @@
   {
    "file": "shorts/무음편/계수 무음편.mp4",
    "start": 1.0,
-   "dur": 8.5
+   "dur": 9.6
   }
  ],
  "tints": {
@@ -55,7 +55,7 @@
     "도화살"
    ],
    "big_size": 250,
-   "en": "Peach Blossom Star = a flirt?",
+   "en": "Peach Blossom (Dohwa): the flirt sign?",
    "after": [
     "있으면 바람둥이일까?"
    ],
@@ -68,7 +68,7 @@
     "사람의 눈길이",
     "모이는 기운"
    ],
-   "en": "It's the energy that draws people's eyes."
+   "en": "Not quite. It's energy that turns heads."
   },
   {
    "sec": 4.5,
@@ -77,7 +77,7 @@
     "매력도",
     "달라져요"
    ],
-   "en": "Each kind has its own charm."
+   "en": "There are four kinds, each with its own charm."
   },
   {
    "sec": 5.0,
@@ -90,7 +90,8 @@
    "big_size": 76,
    "after": [
     "『Morning Tendril』(을목 편)"
-   ]
+   ],
+   "en": "Mid-spring Wood (卯): a fresh, gentle charm"
   },
   {
    "sec": 5.0,
@@ -103,7 +104,8 @@
    "big_size": 76,
    "after": [
     "『Lamplit Keys』(정화 편)"
-   ]
+   ],
+   "en": "Midsummer Fire (午): a warm, glowing charm"
   },
   {
    "sec": 5.0,
@@ -116,7 +118,8 @@
    "big_size": 76,
    "after": [
     "『Clear Facet』(신금 편)"
-   ]
+   ],
+   "en": "Mid-autumn Metal (酉): a crisp, polished charm"
   },
   {
    "sec": 4.6,
@@ -129,12 +132,13 @@
    "big_size": 76,
    "after": [
     "『Drizzle』(계수 편)"
-   ]
+   ],
+   "en": "Midwinter Water (子): a soft, mysterious charm"
   },
   {
-   "sec": 4.0,
+   "sec": 5.0,
    "tint": "수",
-   "small": "띠나 태어난 날의 지지로 찾아보세요",
+   "small": "학파마다 기준은 다를 수 있어요",
    "big": [
     "내 도화는",
     "어떤 소리일까요?"
@@ -144,7 +148,7 @@
     "내 신살과 소리는 사주앱에서",
     "@goyo_mio 채널 상단 링크"
    ],
-   "en": "학파마다 기준은 다를 수 있어요"
+   "en": "Hear your Dohwa: tap @goyo_mio → top link"
   }
  ]
 }
