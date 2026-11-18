@@ -370,10 +370,10 @@ R[18] = dict(date='2026-12-29', name='소개03 신살 총정리', theme='blossom
 def yt_after(lines):
     out = []
     for l in lines:
-        l = l.replace('프로필 첫 링크에서', '설명란 링크에서')
-        l = l.replace('내 일간의 곡은 프로필 링크에서', '내 일간 편은 고정 댓글에서')
-        l = l.replace('내 일주의 곡은 프로필 링크에서', '내 일주 편은 고정 댓글에서')
-        l = l.replace('그 글자의 곡은 프로필 링크에서', '그 글자의 편은 고정 댓글에서')
+        l = l.replace('프로필 첫 링크에서', '@goyo_mio 채널 링크에서')
+        l = l.replace('내 일간의 곡은 프로필 링크에서', '내 일간 편은 @goyo_mio 채널에서')
+        l = l.replace('내 일주의 곡은 프로필 링크에서', '내 일주 편은 @goyo_mio 채널에서')
+        l = l.replace('그 글자의 곡은 프로필 링크에서', '그 글자의 편은 @goyo_mio 채널에서')
         l = l.replace('프로필 링크에서', '고요 채널에서')
         out.append(l)
     return out
