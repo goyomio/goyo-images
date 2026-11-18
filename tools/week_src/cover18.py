@@ -17,7 +17,7 @@ CG = os.path.join(ROOT, 'tools', 'fonts', 'CormorantGaramond-500.ttf')
 FIVE = [('화', HWA), ('·', FG), ('수', SU), ('·', FG), ('목', MOK), ('·', FG), ('금', GEUM), ('·', FG), ('토', TO)]
 
 S = {
- '2026-11-18': dict(label='고요 이야기', title=['고요는', '이렇게', '만들어요'], sub='같은 곡이 되풀이되지 않게', acc=GOLD),
+ '2026-11-18': dict(label='고요 이야기', title=['고요는', '이렇게', '만들어요'], sub='같은 곡이 되풀이되지 않게', acc=GOLD, en='How Goyo makes its music'),
  '2026-11-19': dict(label='고요의 그림 읽기 #1', title=['빈 방의 햇빛'], sub='빌헬름 함메르쇠이', acc=GOLD, paint=True),
  '2026-11-20': dict(label='몰랐던 오행 이야기', title=[FIVE, '요일 이름이', '오행이에요'], sub='화요일부터 토요일까지', acc=None),
  '2026-11-22': dict(label='11월 22일 · 이번 주 기운', title=['소설', '小雪'], sub='첫눈이 온다는 날', acc=SU),
@@ -126,6 +126,8 @@ def make(date):
         y += 60
     y += 34
     ct(d, y, sp['sub'], F(54), SUB); y += 90
+    if sp.get('en'):
+        ct(d, y - 14, sp['en'], ImageFont.truetype(CG, 46), DIMC); y += 52
     if paint:
         src, cred = PAINT[date]
         pic = Image.open(os.path.join(ROOT, 'tools', 'week_src', src)).convert('RGB') if src else crop_painting(old)[0]
