@@ -99,9 +99,13 @@
    "big_size": 92,
    "after": [
     "태어난 날의 기둥을 확인해 보세요",
-    "일주로 보면 백호가 없는 사주가 훨씬 많아요"
+    "일주로 보면 백호가 없는 사주가 훨씬 많아요",
+    "내게 필요한 소리는",
+    "프로필 사주앱에서"
    ],
-   "en": "Check your day pillar: link in bio"
+   "en": "The sound you need: Goyo Saju app, link in bio",
+   "lift": 140,
+   "step": 0.15
   }
  ]
 }

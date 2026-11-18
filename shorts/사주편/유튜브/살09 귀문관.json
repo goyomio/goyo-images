@@ -111,10 +111,14 @@
     "귀문관이 있을까요?"
    ],
    "big_size": 88,
-   "en": "One sign alone decides nothing",
+   "en": "The sound you need: Goyo Saju app, tap @goyo_mio → top link",
    "after": [
-    "귀문관 하나로 정해지는 건 없어요"
-   ]
+    "귀문관 하나로 정해지는 건 없어요",
+    "내게 필요한 소리는 프로필 사주앱에서",
+    "@goyo_mio 채널 상단 링크"
+   ],
+   "lift": 90,
+   "step": 0.15
   }
  ]
 }

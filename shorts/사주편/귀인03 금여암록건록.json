@@ -50,14 +50,14 @@
    "step": 0.25,
    "small": "록(祿)은 옛 관리의 녹봉",
    "big": [
-    "일간이 가장 왕성하게",
-    "서는 지지"
+    "일간이 뿌리를 단단히 내리고",
+    "스스로 서는 지지"
    ],
    "big_size": 80,
    "after": [
     "갑(甲)이면 인(寅), 경(庚)이면 신(申)"
    ],
-   "en": "Rok: the branch where your day master is strongest"
+   "en": "Rok: where your day master takes root and stands on its own"
   },
   {
    "sec": 5.0,
@@ -107,7 +107,7 @@
   },
   {
    "sec": 5.0,
-   "step": 0.25,
+   "step": 0.15,
    "tint": "수",
    "small": "학파마다 기준은 다를 수 있어요",
    "big": [
@@ -117,9 +117,12 @@
    "big_size": 84,
    "after": [
     "열 일간의 글자는 아래 글에 적어 둘게요",
-    "셋 다 없는 사주도 흔해요"
+    "셋 다 없는 사주도 흔해요",
+    "내게 필요한 소리는",
+    "프로필 사주앱에서"
    ],
-   "en": "The full table for every day master: see the caption"
+   "en": "The sound you need: Goyo Saju app, link in bio",
+   "lift": 136
   }
  ]
 }

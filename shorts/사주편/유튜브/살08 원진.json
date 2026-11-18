@@ -105,10 +105,14 @@
     "원진이 있을까요?"
    ],
    "big_size": 88,
-   "en": "Wonjin is read within your own chart too",
+   "en": "The sound you need: Goyo Saju app, tap @goyo_mio → top link",
    "after": [
-    "내 사주 안 지지끼리도 원진을 봐요"
-   ]
+    "내 사주 안 지지끼리도 원진을 봐요",
+    "내게 필요한 소리는 프로필 사주앱에서",
+    "@goyo_mio 채널 상단 링크"
+   ],
+   "lift": 89,
+   "step": 0.15
   }
  ]
 }

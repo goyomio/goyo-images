@@ -116,9 +116,13 @@
    "big_size": 84,
    "after": [
     "돼지 · 토끼 · 양띠라면",
-    "올해 삼재가 아닌 띠가 더 많아요"
+    "올해 삼재가 아닌 띠가 더 많아요",
+    "내게 필요한 소리는",
+    "프로필 사주앱에서"
    ],
-   "en": "A leaving year: time to wrap up what you started"
+   "en": "The sound you need: Goyo Saju app, link in bio",
+   "lift": 144,
+   "step": 0.15
   }
  ]
 }
