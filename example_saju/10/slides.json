@@ -1,0 +1,515 @@
+{
+ "no": 10,
+ "music": "병화",
+ "slides": [
+  {
+   "items": [
+    [
+     "예시 사주 풀이 #10",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "연애,\n다시 시작해도 될까요?",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Example Saju Reading #10",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Is it okay to start dating again?",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "예시 사주",
+   "pillars": "壬申 辛亥 辛亥 戊戌",
+   "items": [
+    [
+     "1992년 12월 1일 저녁 8시 · 여자",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "나무 0 · 불 0 · 흙 2 · 쇠 3 · 물 3",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Born Dec 1, 1992, 8 p.m. · Female",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Wood 0 · Fire 0 · Earth 2 · Metal 3 · Water 3",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "핵심",
+   "items": [
+    [
+     "초겨울 밤,\n찬 물속에 잠긴\n작은 보석 같은 사주예요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "물은 셋인데,\n데워 줄 불이 겉으로는 없어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Like a small gem resting in cold water on an early winter night. Three Water, but no Fire on the surface to warm it.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "답",
+   "items": [
+    [
+     "다시 시작해도\n괜찮은 흐름이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "다만 마음을 한꺼번에\n말로 쏟기보다\n천천히 데우듯 다가가는 쪽이\n잘 맞아요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "감각이 예리해서\n말끝이 먼저 날카로워지기 쉬운 사주예요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Starting again is fine. Rather than pouring your heart out all at once, let things warm up slowly. Your senses are keen, so your words can turn sharp before you mean them to.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "언제",
+   "items": [
+    [
+     "2027년 2월 초까지",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "지난 마음을\n정리하는 쪽이 나아요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년은",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "마음이 움직이는 사람을\n만나기 쉬운 해예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 6월 초~8월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "만남이 이어지기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Until early Feb 2027: better to let past feelings settle first. All of 2027: a year when you may meet someone who moves your heart. Early Jun to early Aug 2027: a good time for a connection to grow.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "타로 한 장",
+   "card": {
+    "file": "deck_1909/cups05.jpg",
+    "reversed": true,
+    "h": 520
+   },
+   "items": [
+    [
+     "컵 5 (거꾸로)",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     12
+    ],
+    [
+     "쏟아진 잔에서 눈을 돌려\n남은 잔을 보기 시작하는 카드예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     18
+    ],
+    [
+     "이 사주에 무작위로 뽑은 한 장이에요.",
+     32,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Five of Cups, reversed: turning from the spilled cups to notice the ones still standing. Drawn at random for this reading.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "쉬어 갈 때",
+   "items": [
+    [
+     "2027년 11월 초~2028년 1월 초는\n말이 마음보다 차갑게 앞서기 쉬워요.\n큰 고백은 잠시 미뤄도 돼요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "미리 챙길 것은\n먼저 말을 걸어 주는 따뜻한 자리,\n그리고 내 마음을 적어 두는 메모예요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Early Nov 2027 to early Jan 2028: words may run colder than your heart, so big confessions can wait. Have these ready: a warm setting where others speak to you first, and a note of how you feel.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "이 사주에 깔린 소리",
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "병화 편",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "찬 물 위로\n떠오르는 겨울 해 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The sound beneath this chart: Five Kinds of Quiet · Yang Fire (Byeonghwa). It sounds like a winter sun rising over cold water.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "음악 안내",
+   "items": [
+    [
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 게시물에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The free app picks “my element music” from your day master and element counts. The music in this post was chosen for what this chart needs right now, so the two may differ.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "예시 사주로 풀어 본 이야기예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 사주 오행과 신살은\n프로필 링크의 무료 앱에서\n먼저 확인해 보세요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This story uses an example chart. To see your own elements and stars, try the free app: link in bio.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ],
+ "yt_last": {
+  "items": [
+   [
+    "예시 사주로 풀어 본 이야기예요.",
+    50,
+    [
+     236,
+     233,
+     226
+    ],
+    true,
+    40
+   ],
+   [
+    "내 사주 오행과 신살은\n채널 상단 링크의 무료 앱에서\n먼저 확인해 보세요.",
+    52,
+    [
+     236,
+     233,
+     226
+    ],
+    false,
+    40
+   ],
+   [
+    "This story uses an example chart. To see your own elements and stars, try the free app: link on our channel page.",
+    34,
+    [
+     214,
+     210,
+     202
+    ],
+    false,
+    0
+   ]
+  ]
+ }
+}

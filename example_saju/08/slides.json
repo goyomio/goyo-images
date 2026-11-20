@@ -1,0 +1,515 @@
+{
+ "no": 8,
+ "music": "을목",
+ "slides": [
+  {
+   "items": [
+    [
+     "예시 사주 풀이 #8",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "이사,\n지금 옮겨도 될까요?",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Example Saju Reading #8",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Is it okay to move now?",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "예시 사주",
+   "pillars": "壬申 戊申 丁巳 辛亥",
+   "items": [
+    [
+     "1992년 8월 9일 밤 10시 · 남자",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "나무 0 · 불 2 · 흙 1 · 쇠 3 · 물 2",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Born Aug 9, 1992, 10 p.m. · Male",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Wood 0 · Fire 2 · Earth 1 · Metal 3 · Water 2",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "핵심",
+   "items": [
+    [
+     "초가을 밤,\n쇠붙이 사이에 켜 둔\n작은 등불 같은 사주예요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "쇠는 셋인데,\n불을 이어 줄 나무가 없어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Like a small lamp burning among pieces of metal on an early autumn night. Three Metal, and no Wood to keep the flame going.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "답",
+   "items": [
+    [
+     "옮겨도 괜찮은 흐름이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "다만 멀리 한 번에 가기보다\n기댈 거점을 먼저 정해 두는 쪽이\n잘 맞아요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "움직임이 많은 사주라\n머물 곳이 정해져야 힘이 나요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Moving now is fine. Before going far, set up a base you can lean on. Your chart has a lot of movement, so you do better once you know where you'll settle.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "언제",
+   "items": [
+    [
+     "2027년 3월 초까지",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "옮길 곳을 둘러보고\n준비하는 쪽이 나아요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 3월 초~5월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "집을 정하고 옮기기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 5월 초~8월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "옮겨도 괜찮고,\n도와줄 사람도 생기기 쉬운 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Until early Mar 2027: look around and prepare. Early Mar to early May 2027: a good time to choose a home and move. Early May to early Aug 2027: moving is still fine, and help from people around you comes more easily.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "타로 한 장",
+   "card": {
+    "file": "deck_1909/swords02.jpg",
+    "reversed": false,
+    "h": 470
+   },
+   "items": [
+    [
+     "소드 2",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     12
+    ],
+    [
+     "눈을 가리고 두 칼을 엇갈려 든 채\n앉아 있는 카드예요.\n고르기 전, 숨을 고르는 때로 읽어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     18
+    ],
+    [
+     "이 사주에 무작위로 뽑은 한 장이에요.",
+     32,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Two of Swords: blindfolded and seated, swords crossed. A pause to breathe before you choose. Drawn at random for this reading.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "쉬어 갈 때",
+   "items": [
+    [
+     "2027년 8월 초~12월 초는\n돈과 일이 함께 흔들리기 쉬워요.\n계약은 한 번 더 살펴봐요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "미리 챙길 것은\n오래 머물 수 있는 한 곳,\n그리고 서류와 짐 목록이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Early Aug to early Dec 2027: money and work can both feel unsteady, so take a second look at contracts. Have these ready: one place you can stay for a while, and your paperwork and packing list.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "이 사주에 깔린 소리",
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "을목 편",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "등불 곁으로\n감겨 오르는 덩굴 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The sound beneath this chart: Five Kinds of Quiet · Yin Wood (Eulmok). It sounds like a vine climbing up beside a lamp.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "음악 안내",
+   "items": [
+    [
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 게시물에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The free app picks “my element music” from your day master and element counts. The music in this post was chosen for what this chart needs right now, so the two may differ.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "예시 사주로 풀어 본 이야기예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 사주 오행과 신살은\n프로필 링크의 무료 앱에서\n먼저 확인해 보세요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This story uses an example chart. To see your own elements and stars, try the free app: link in bio.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ],
+ "yt_last": {
+  "items": [
+   [
+    "예시 사주로 풀어 본 이야기예요.",
+    50,
+    [
+     236,
+     233,
+     226
+    ],
+    true,
+    40
+   ],
+   [
+    "내 사주 오행과 신살은\n채널 상단 링크의 무료 앱에서\n먼저 확인해 보세요.",
+    52,
+    [
+     236,
+     233,
+     226
+    ],
+    false,
+    40
+   ],
+   [
+    "This story uses an example chart. To see your own elements and stars, try the free app: link on our channel page.",
+    34,
+    [
+     214,
+     210,
+     202
+    ],
+    false,
+    0
+   ]
+  ]
+ }
+}
