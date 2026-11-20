@@ -121,6 +121,40 @@
    ]
   },
   {
+   "sec": 4.5,
+   "tag": "타로 한 장",
+   "step": 0.8,
+   "card": {
+    "file": "deck_1909/m06_lovers.jpg",
+    "reversed": false,
+    "h": 640
+   },
+   "items": [
+    [
+     "오늘은 이 사주를 위해 뽑아 본\n타로 카드도 한 장 있어요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "We also drew one tarot card for this chart.",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
    "sec": 5.0,
    "step": 0.9,
    "items_ig": [

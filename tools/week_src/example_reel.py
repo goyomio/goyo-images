@@ -24,6 +24,19 @@ def layers(scene):
         hs.append(n * int(sz * 1.42) + gap)
     top0 = TOP + 90 if scene.get('tag') else TOP
     outs = []
+    if scene.get('card'):
+        # 타로 장면: 카드 그림을 배경에 고정(1909 원판), 글은 그림 아래
+        c = scene['card']; g = Image.open(os.path.join(X.ROOT, c['file'])).convert('RGB'); ch = c.get('h', 640)
+        g = g.resize((int(g.width * ch / g.height), ch), Image.LANCZOS)
+        if c.get('reversed'): g = g.rotate(180)
+        cy = top0 + (BOT - top0 - ch - 40 - sum(hs)) // 2; cx = (W - g.width) // 2
+        base.paste(g, (cx, cy)); ImageDraw.Draw(base).rectangle([cx - 1, cy - 1, cx + g.width, cy + ch], outline=X.SOFT, width=2)
+        y = cy + ch + 40
+        for (t, sz, col, bold, gap), h in zip(scene['items'], hs):
+            L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ld = ImageDraw.Draw(L)
+            X.block(ld, [('k', t, sz, col, bold, 0)], top=y); outs.append(L); y += h
+        assert y <= BOT + 5, ('글이 아래로 넘침', y)
+        return base, outs
     if scene.get('pillars'):
         P = Image.new('RGBA', (W, H), (0, 0, 0, 0)); pd = ImageDraw.Draw(P)
         ph = 56 + 2 * 132 + 20 + 40
