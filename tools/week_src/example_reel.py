@@ -63,7 +63,7 @@ def render(cfg, which, out):
             t = k / FPS
             fr = base.copy()
             for i, L in enumerate(ls):
-                a = ease((t - 0.3 - i * s.get('step', 0.7)) / 0.6)
+                a = 1.0 if s.get('instant') else ease((t - 0.3 - i * s.get('step', 0.7)) / 0.6)  # instant: 0초부터 다 보이게(인스타 첫 화면)
                 if a > 0:
                     if a < 1:
                         L2 = L.copy(); L2.putalpha(L.getchannel('A').point(lambda v, a=a: int(v * a)))
