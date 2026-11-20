@@ -142,19 +142,30 @@
    "tag": "답",
    "items": [
     [
-     "회사라는 틀보다\n내 솜씨가 드러나는 쪽으로\n힘이 쓰이는 흐름이에요.",
-     62,
+     "옮겨도 괜찮은 흐름이에요.",
+     70,
      [
       236,
       233,
       226
      ],
      true,
+     26
+    ],
+    [
+     "다만 다음 자리를 정해 두고\n움직이는 쪽이 나아요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
      30
     ],
     [
-     "지금 자리가 답답하게 느껴진다면,\n그 이유일 수 있어요.",
-     50,
+     "틀에 맞추는 일보다\n솜씨가 보이는 자리에서\n힘이 잘 나는 사주예요.",
+     46,
      [
       236,
       233,
@@ -164,8 +175,8 @@
      40
     ],
     [
-     "Your energy tends to go into your own skills, more than into a company's structure. If your current job feels confining, that may be why.",
-     34,
+     "This chart can handle a move. Just line up your next place before you leave. You tend to do better where your skills show than where you have to fit a mold.",
+     32,
      [
       214,
       210,
@@ -177,10 +188,10 @@
    ]
   },
   {
-   "tag": "어떻게",
+   "tag": "언제",
    "items": [
     [
-     "2020년부터 2029년 무렵까지는\n꽃이 뿌리 하나를 얻는 시기로 읽어요.",
+     "2026년 지금은",
      50,
      [
       236,
@@ -188,21 +199,81 @@
       226
      ],
      true,
-     24
+     8
     ],
     [
-     "급히 옮기기보다\n내 손으로 만든 결과물을\n먼저 모아 두세요.",
-     46,
+     "부딪힘이 커지기 쉬운 때라\n그만두기보다 준비하는 쪽이 나아요.",
+     42,
      [
       236,
       233,
       226
      ],
      false,
-     24
+     30
     ],
     [
-     "2027년은 솜씨가 겉으로\n드러나기 쉬운 해로 읽어요.\n다만 힘이 많이 쓰이는 해이기도 해요.",
+     "2027년 2월 초~4월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "지원하고 만나 보기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 8월 초~10월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "자리를 정하고 옮기기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Now through 2026: friction runs high, so prepare rather than quit. Feb to early Apr 2027: a good time to apply and meet people. Aug to early Oct 2027: a good time to settle on a place and move.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "쉬어 갈 때",
+   "items": [
+    [
+     "2027년 5월 초~8월 초는\n마음이 급해지고 지치기 쉬워요.\n큰 결정은 잠시 미뤄도 돼요.",
      44,
      [
       236,
@@ -210,11 +281,33 @@
       226
      ],
      false,
-     34
+     30
     ],
     [
-     "From about 2020 to 2029, this flower can be read as finding one root. Before rushing into a move, build up work you made yourself. In 2027, your skills may be easier for others to see, though it can also be a draining year.",
-     32,
+     "미리 챙길 것은\n보여 줄 수 있는 내 작업물,\n그리고 쉬는 시간이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2028년은 새 자리에\n뿌리내리기 쉬운 해예요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "Early May to early Aug 2027: you may feel rushed and worn out, so big decisions can wait. Prepare work you can show, and make time to rest. 2028 may be a year to put down roots in a new place.",
+     30,
      [
       214,
       210,
@@ -278,7 +371,7 @@
    "tag": "음악 안내",
    "items": [
     [
-     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 영상에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 게시물에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
      42,
      [
       236,
@@ -289,7 +382,7 @@
      40
     ],
     [
-     "The free app picks “my element music” from your birth-day character and element counts. The music in this video was chosen for what this chart needs now. So your element music and the music you need can be different.",
+     "The free app picks “my element music” from your day master and element counts. The music in this post was chosen for what this chart needs right now, so the two may differ.",
      32,
      [
       214,
@@ -304,19 +397,30 @@
   {
    "items": [
     [
-     "예시 사주로 풀어 본 이야기예요.\n\n고요 리포트에서는\n내 질문에 맞춰 사주를 풀어 드리고,\n질문마다 타로 한 장을 더해 보는\n리포트도 있어요.\n\n내 기운에 맞춘 고요 음악 리스트도\n곧 열려요.\n\n내 사주 오행은 프로필 링크의\n무료 앱에서 먼저 확인해 보세요.",
-     40,
+     "예시 사주로 풀어 본 이야기예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 사주 오행과 신살은\n프로필 링크의 무료 앱에서\n먼저 확인해 보세요.",
+     52,
      [
       236,
       233,
       226
      ],
      false,
-     36
+     40
     ],
     [
-     "This story uses an example chart. A Goyo Report reads your chart around your own question, and one version adds a tarot card to each question. A Goyo music list tuned to your energy opens soon. First, check your chart's elements in the free app: link in bio.",
-     32,
+     "This story uses an example chart. To see your own elements and stars, try the free app: link in bio.",
+     34,
      [
       214,
       210,
@@ -327,5 +431,42 @@
     ]
    ]
   }
- ]
+ ],
+ "yt_last": {
+  "items": [
+   [
+    "예시 사주로 풀어 본 이야기예요.",
+    50,
+    [
+     236,
+     233,
+     226
+    ],
+    true,
+    40
+   ],
+   [
+    "내 사주 오행과 신살은\n채널 상단 링크의 무료 앱에서\n먼저 확인해 보세요.",
+    52,
+    [
+     236,
+     233,
+     226
+    ],
+    false,
+    40
+   ],
+   [
+    "This story uses an example chart. To see your own elements and stars, try the free app: link on our channel page.",
+    34,
+    [
+     214,
+     210,
+     202
+    ],
+    false,
+    0
+   ]
+  ]
+ }
 }
