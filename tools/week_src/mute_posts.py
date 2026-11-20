@@ -40,7 +40,7 @@ def caption(kind, k, hook, hz, img, gen, eh, eimg, egen, en):
               f"목(木)·화(火)·토(土)·금(金)·수(水), 다섯 가지 고요는 프로필 링크에서 골라 들을 수 있어요.\n"
               f"내 사주 오행은 프로필 링크의 무료 사주앱에서 확인해 보세요.")
         e = (f"{eh}\n\nOne of these five sounds is Metal (金). Listen to each and pick one. The answer is at the end.\n\n"
-             f"Wood, Fire, Earth, Metal, Water: pick your element from Five Kinds of Quiet, link in bio.\n"
+             f"Wood, Fire, Earth, Metal, Water: find the full set for your element on Five Kinds of Quiet, link in bio.\n"
              f"See the elements in your own chart in the free Saju app: link in bio.")
         tags = "#고요 #오행음악 #오행퀴즈 #다섯가지고요 #fiveelements"
     return ko + "\n\n· English ·\n" + e + "\n\n" + tags
