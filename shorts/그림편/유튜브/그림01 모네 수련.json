@@ -1,0 +1,324 @@
+{
+ "image": "art/monet_waterlilies/wl_full.jpg",
+ "audio_parts": [
+  {
+   "file": "shorts/그림편/audio/계수_Drizzle_95s.m4a",
+   "start": 0.0,
+   "dur": 78.5
+  }
+ ],
+ "scenes": [
+  {
+   "sec": 3.5,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "box": [
+    100,
+    735,
+    980,
+    1582
+   ],
+   "y": 170,
+   "label": "고요의 그림 읽기",
+   "title": [
+    "수련"
+   ],
+   "title_size": 230,
+   "sub": "클로드 모네, 1906",
+   "credit": "시카고 미술관 · 퍼블릭 도메인(CC0)",
+   "credit_y": 1612,
+   "logo": true,
+   "en": "Water Lilies · Claude Monet, 1906"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.0,
+    0.0,
+    0.54,
+    1.0
+   ],
+   "view_to": [
+    0.2,
+    0.0,
+    0.74,
+    1.0
+   ],
+   "y": 1240,
+   "lines": [
+    "하늘을 그리지 않았는데",
+    "하늘이 보여요"
+   ],
+   "small": "모두 물에 비친 하늘이에요",
+   "en": "All of it is sky reflected in the water"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.15,
+    0.25,
+    0.55,
+    0.75
+   ],
+   "view_to": [
+    0.22,
+    0.3,
+    0.52,
+    0.7
+   ],
+   "y": 1240,
+   "lines": [
+    "모네는 수련이",
+    "\"반주일 뿐\"이라고 했어요"
+   ],
+   "small": "주인공은 물의 거울이라고요",
+   "en": "The real subject, he said, is the water's mirror"
+  },
+  {
+   "sec": 8.0,
+   "view": [
+    0.0,
+    0.52,
+    0.42,
+    1.0
+   ],
+   "view_to": [
+    0.04,
+    0.58,
+    0.36,
+    0.98
+   ],
+   "y": 1240,
+   "lines": [
+    "1893년, 그림보다",
+    "연못을 먼저 팠어요"
+   ],
+   "small": "물이 더러워질까 봐 마을은 반대했어요",
+   "en": "The village objected, fearing the water would get dirty"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.42,
+    0.62,
+    0.66,
+    1.0
+   ],
+   "view_to": [
+    0.46,
+    0.66,
+    0.66,
+    0.98
+   ],
+   "y": 1240,
+   "lines": [
+    "분홍 수련은",
+    "1889년 박람회에서"
+   ],
+   "small": "그때 유럽의 수련은 흰색뿐이었어요",
+   "en": "Back then, Europe's water lilies were only white"
+  },
+  {
+   "sec": 8.0,
+   "view": [
+    0.45,
+    0.18,
+    0.95,
+    0.62
+   ],
+   "view_to": [
+    0.5,
+    0.22,
+    0.95,
+    0.58
+   ],
+   "y": 1240,
+   "lines": [
+    "매일 아침 정원사가",
+    "배를 타고 잎을 닦았어요"
+   ],
+   "small": "흙먼지가 싫어 길 포장 비용까지 냈어요",
+   "en": "Hating the dust, he even paid to pave the road"
+  },
+  {
+   "sec": 8.5,
+   "view": [
+    0.0,
+    0.45,
+    0.6,
+    1.0
+   ],
+   "view_to": [
+    0.05,
+    0.5,
+    0.55,
+    0.95
+   ],
+   "dim": 0.3,
+   "y": 1240,
+   "lines": [
+    "1908년, 전시를 앞두고",
+    "15점 넘게 칼로 찢었어요"
+   ],
+   "small": "이 그림은 살아남아 이듬해 전시에 걸렸어요",
+   "en": "This one survived and hung in the next year's show"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.2,
+    0.0,
+    0.74,
+    1.0
+   ],
+   "view_to": [
+    0.1,
+    0.0,
+    0.9,
+    1.0
+   ],
+   "y": 1240,
+   "lines": [
+    [
+     [
+      "물",
+      "수"
+     ],
+     [
+      "이 나무를 기르고,",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ],
+    [
+     [
+      "나무",
+      "목"
+     ],
+     [
+      "가 ",
+      [
+       246,
+       243,
+       236
+      ]
+     ],
+     [
+      "불",
+      "화"
+     ],
+     [
+      "을 키워요",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "small": "물, 잎과 꽃, 빛이 서로 살리는 차례예요",
+   "en": "Water, leaves and flowers, light: each feeds the next"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.25,
+    0.1,
+    0.75,
+    0.9
+   ],
+   "view_to": [
+    0.3,
+    0.15,
+    0.7,
+    0.85
+   ],
+   "y": 1240,
+   "lines": [
+    "이 그림의 바탕은",
+    [
+     [
+      "잔잔한 물",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "small": "큰 강은 임수, 연못과 이슬은 계수예요",
+   "en": "A big river is Yang Water; a pond or dew, Yin Water"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.1,
+    0.0,
+    0.9,
+    1.0
+   ],
+   "view_to": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "y": 1240,
+   "lines": [
+    "지금 흐르는 곡이",
+    [
+     [
+      "계수(癸水)",
+      "수"
+     ],
+     [
+      " 편 첫 곡",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "small": "『Drizzle』(계수 편), 빛이 내려앉는 피아노",
+   "en": "\"Drizzle\" (Yin Water · Gyesu)\nPiano as light settles"
+  },
+  {
+   "sec": 7.0,
+   "y": 600,
+   "label": "이 그림 옆에 둘 소리",
+   "title": [
+    "고요",
+    [
+     [
+      "계수(癸水)",
+      "수"
+     ],
+     [
+      " 편",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "title_size": 150,
+   "sub": "아래 관련 영상에서",
+   "small": "비하인드 열 장은\n12월 9일 채널 게시물에",
+   "logo": true,
+   "en": "Beside it: Goyo Yin Water · Gyesu, related video below\nTen behind-the-scenes slides: our Dec 9 post"
+  }
+ ]
+}
