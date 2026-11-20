@@ -1,0 +1,472 @@
+{
+ "no": 2,
+ "music": "임수",
+ "slides": [
+  {
+   "items": [
+    [
+     "예시 사주 풀이 #2",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "돈,\n모을 수 있을까요?",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Example Saju Reading #2",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Can this chart hold on to money?",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "예시 사주",
+   "pillars": "辛未 甲午 甲戌 戊辰",
+   "items": [
+    [
+     "1991년 7월 3일 아침 8시 · 남자",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "나무 2 · 불 1 · 흙 4 · 쇠 1 · 물 0",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Born July 3, 1991, 8 a.m. · male",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Wood 2 · Fire 1 · Earth 4 · Metal 1 · Water 0",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "핵심",
+   "items": [
+    [
+     "한여름 마른 들판에 선\n큰 나무 같은 사주예요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "흙은 넉넉한데,\n뿌리를 적실 물이 없어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "A tall tree standing in a dry midsummer field. Plenty of Earth, but no Water to reach its roots.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "답",
+   "items": [
+    [
+     "지금은 모을 수 있는 흐름이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "다만 크게 벌이기보다\n작게 꾸준히 담는 쪽이 맞아요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "돈이 될 일은 많은데\n한꺼번에 다 쥐려 하면\n쉽게 지치는 사주예요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Saving is within reach. Small and steady works better than going big. Chances to earn come often, but grabbing them all at once is draining.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "언제",
+   "items": [
+    [
+     "2027년 1월 초까지",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "들어오고 나가는 돈의 길을\n정리해 두기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 2월 초~4월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "모으는 습관을 시작하기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 11월 초~2028년 1월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "모아 둔 돈을 지키며\n다음을 계획하기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Through early Jan 2027: a good time to track what comes in and what goes out. Early Feb to early Apr 2027: a good time to start a saving habit. Early Nov 2027 to early Jan 2028: a good time to protect your savings and plan what’s next.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "쉬어 갈 때",
+   "items": [
+    [
+     "2027년 6월 초~10월 초는\n쓸 곳과 할 일이 함께 늘기 쉬워요.\n큰돈 드는 결정은 천천히 해도 돼요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "돈을 빌려주거나\n함께 하자는 제안은\n한 번 더 살펴보는 쪽이 나아요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "미리 챙길 것은 따로 떼어 두는 통장,\n그리고 돈 이야기를\n편히 물어볼 수 있는 사람이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Early Jun to early Oct 2027: spending and workload tend to grow, so big money decisions can wait. Think twice before lending money or joining a partnership. Worth having: a separate savings account, and someone you can ask about money.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "이 사주에 깔린 소리",
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "임수 편",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "마른 들판 곁을\n길게 흐르는 큰 강 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The sound beneath this chart: Five Kinds of Quiet · Imsu. Like a long, wide river flowing past a dry field.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "음악 안내",
+   "items": [
+    [
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 게시물에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The free app picks “my element music” from your day master and element counts. The music in this post was chosen for what this chart needs right now, so the two may differ.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "예시 사주로 풀어 본 이야기예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 사주 오행과 신살은\n프로필 링크의 무료 앱에서\n먼저 확인해 보세요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This story uses an example chart. To see your own elements and stars, try the free app: link in bio.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ],
+ "yt_last": {
+  "items": [
+   [
+    "예시 사주로 풀어 본 이야기예요.",
+    50,
+    [
+     236,
+     233,
+     226
+    ],
+    true,
+    40
+   ],
+   [
+    "내 사주 오행과 신살은\n채널 상단 링크의 무료 앱에서\n먼저 확인해 보세요.",
+    52,
+    [
+     236,
+     233,
+     226
+    ],
+    false,
+    40
+   ],
+   [
+    "This story uses an example chart. To see your own elements and stars, try the free app: link on our channel page.",
+    34,
+    [
+     214,
+     210,
+     202
+    ],
+    false,
+    0
+   ]
+  ]
+ }
+}
