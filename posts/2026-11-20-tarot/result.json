@@ -1,0 +1,8 @@
+{
+ "when": "2026-11-20T06:38:46.000002+00:00",
+ "via": "api",
+ "ok": true,
+ "out": "ERR {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":2207051,\"is_transient\":false,\"error_user_msg\":\"Instagram은 커뮤니티를 보호하기 위해 특정 활동을 제한합니다. 이 조치가 실수라고 생각하는 경우 저희에게 알려주세요.\",\"error_user_title\":\"행동이 차단되었습니다\",\"fbtrace_id\":\"Aff1cKOO0q2lF1-HQS3O-H9\"}}",
+ "note": "run_post가 2207051 오류를 돌려줬지만 미오 님 인스타 화면(15:41)에서 게시 확인. 예약이 사라져 15:38 수동 게시. 재시도 안 함.",
+ "first_out": "ERR {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":2207051,\"is_transient\":false,\"error_user_msg\":\"Instagram은 커뮤니티를 보호하기 위해 특정 활동을 제한합니다. 이 조치가 실수라고 생각하는 경우 저희에게 알려주세요.\",\"error_user_title\":\"행동이 차단되었습니다\",\"fbtrace_id\":\"Aff1cKOO0q2lF1-HQS3O-H9\"}}"
+}
