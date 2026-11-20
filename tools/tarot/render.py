@@ -29,7 +29,7 @@ date_en=f"{MON_EN[int(_m.group(2))-1]} {int(_m.group(3))}" if _m else ''
 EN_S='style="font-family:Logo,serif;font-size:34px;color:#9a958b;letter-spacing:.04em"'
 card=lambda s,h=500: f'<img src="{s}" style="height:{h}px;width:auto;align-self:flex-start;border-radius:10px;display:block;margin-bottom:34px">'
 P='style="font-size:42px;line-height:1.6"'
-# 1장: 표지(PIL, 새 디자인 2026-11-18 미오 님 승인) — 아래 main()에서 따로 그림
+# 1장: 표지(PIL, 2026-11-21 미오 님: 「오늘의 타로」+세 장 카드) — 아래 main()에서 따로 그림
 date_txt=cfg['label'].split('·')[0].strip()
 slides=[None]
 # 2장: 세 장을 한 화면에
@@ -44,19 +44,32 @@ slides.append(('<div class="step">오늘 어울리는 고요의 소리</div><div
 
 from PIL import ImageDraw, ImageFont
 def cover(path, H=1350, foot=None):
+    """표지 (2026-11-21 미오 님: 「오늘의 타로」 + 그날 뽑은 세 장을 첫 화면에)"""
     W=1080; sys.path.insert(0,os.path.join(root,'tools')); from tarot_reel import F
     im=Image.new('RGB',(W,H),(10,10,12)); dr=ImageDraw.Draw(im); oy=(H-1350)//2
     def ct(y,t,f,fill):
         w=dr.textlength(t,font=f); dr.text(((W-w)/2,y+oy),t,font=f,fill=fill)
-    ct(330,'오늘의',F(170,True),(250,248,242)); ct(530,'타로',F(170,True),(250,248,242))
-    ct(790,date_txt,F(62),(201,169,106))
-    ct(900,'오늘 고요를 찾으시는 분께',F(58),(225,220,210)); ct(975,'건네는 말',F(58),(225,220,210))
-    ce=ImageFont.truetype(os.path.join(root,'tools','fonts','CormorantGaramond-500.ttf'),50)
-    ct(1072,f"Today's Tarot · {date_en}" if date_en else "Today's Tarot",ce,(170,165,155))
-    cg=ImageFont.truetype(os.path.join(root,'tools','fonts','CormorantGaramond-500.ttf'),60); sp=26
-    ws=[dr.textlength(c,font=cg) for c in 'GOYO']; x=(W-sum(ws)-sp*3)/2
-    for c,w in zip('GOYO',ws): dr.text((x,1150+oy),c,font=cg,fill=(200,190,170)); x+=w+sp
-    if foot: ct(1290,foot,F(44),(170,165,155))
+    ct(70,'오늘의 타로',F(132,True),(250,248,242))
+    ct(250,date_txt,F(54),(201,169,106))
+    # 세 장
+    ch=520; gap=30; cims=[]
+    for c in cfg['cards']:
+        ci=Image.open(os.path.join(root,'deck_1909',c['file'])).convert('RGB')
+        if c.get('rev'): ci=ci.rotate(180)
+        cims.append(ci.resize((int(ci.width*ch/ci.height),ch),Image.LANCZOS))
+    tw=sum(c.width for c in cims)+gap*2; x=(W-tw)//2; y=350+oy
+    for ci in cims:
+        im.paste(ci,(x,y)); x+=ci.width+gap
+    ct(940,'오늘 고요를 찾으시는 분께 건네는 말',F(46),(225,220,210))
+    ce=ImageFont.truetype(os.path.join(root,'tools','fonts','CormorantGaramond-500.ttf'),46)
+    ct(1015,f"Today's Tarot · {date_en}" if date_en else "Today's Tarot",ce,(170,165,155))
+    # GOYO: 채널 배너 워드마크에서 잘라 둔 글자 그림(글꼴로 치지 않음)
+    gl=[Image.open(os.path.join(root,'tools','assets','goyo_letters',f'{i}_{ch_}.png')).convert('RGBA') for i,ch_ in enumerate('GOYO')]
+    gh=50; gl=[g.resize((max(1,int(g.width*gh/g.height)),gh),Image.LANCZOS) for g in gl]; sp=22
+    x=(W-sum(g.width for g in gl)-sp*3)//2; base=im.convert('RGBA')
+    for g in gl: base.alpha_composite(g,(x,1110+oy)); x+=g.width+sp
+    im=base.convert('RGB'); dr=ImageDraw.Draw(im)
+    if foot: ct(1250,foot,F(44),(170,165,155))
     im.save(path,quality=92)
 async def main():
     from playwright.async_api import async_playwright
