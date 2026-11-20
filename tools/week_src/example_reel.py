@@ -44,7 +44,9 @@ def ease(t): return max(0.0, min(1.0, t))
 
 
 def render(cfg, which, out):
-    scenes = cfg['scenes'] + [cfg['end'][which]]
+    # 장면마다 플랫폼별 글 묶음(items_ig / items_yt)이 있으면 그것을 씀. end가 없으면 끝 장면 없음(11/21 새 순서).
+    scenes = [dict(s, items=s.get('items_' + which, s.get('items'))) for s in cfg['scenes']]
+    if cfg.get('end'): scenes.append(cfg['end'][which])
     total = sum(s['sec'] for s in scenes)
     ff = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24',
                            '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
