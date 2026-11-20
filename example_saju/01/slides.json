@@ -1,0 +1,331 @@
+{
+ "no": 1,
+ "music": "계수",
+ "slides": [
+  {
+   "items": [
+    [
+     "예시 사주 풀이 #1",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "이직,\n지금일까요?",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Example Saju Reading #1",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Is now the time to change jobs?",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "예시 사주",
+   "pillars": "庚午 壬午 乙巳 丁丑",
+   "items": [
+    [
+     "1990년 6월 9일 새벽 2시 · 여자",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "나무 1 · 불 4 · 흙 1 · 쇠 1 · 물 1",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Born June 9, 1990, 2 a.m. · female",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Wood 1 · Fire 4 · Earth 1 · Metal 1 · Water 1",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "핵심",
+   "items": [
+    [
+     "한여름에 핀\n작은 꽃 같은 사주예요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "볕은 넷인데,\n뿌리를 적실 물은 하나뿐이에요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Like a small flower in midsummer. Plenty of Fire, and just one Water for its roots.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "답",
+   "items": [
+    [
+     "회사라는 틀보다\n내 솜씨가 드러나는 쪽으로\n힘이 쓰이는 흐름이에요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "지금 자리가 답답하게 느껴진다면,\n그 이유일 수 있어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Your energy tends to go into your own skills, more than into a company's structure. If your current job feels confining, that may be why.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "어떻게",
+   "items": [
+    [
+     "2020년부터 2029년 무렵까지는\n꽃이 뿌리 하나를 얻는 시기로 읽어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "급히 옮기기보다\n내 손으로 만든 결과물을\n먼저 모아 두세요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "2027년은 솜씨가 겉으로\n드러나기 쉬운 해로 읽어요.\n다만 힘이 많이 쓰이는 해이기도 해요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "From about 2020 to 2029, this flower can be read as finding one root. Before rushing into a move, build up work you made yourself. In 2027, your skills may be easier for others to see, though it can also be a draining year.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "이 사주에 깔린 소리",
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "계수 편",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "한여름 오후의\n소나기 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The sound beneath this chart: Five Kinds of Quiet · Yin Water (Gyesu). Like a rain shower on a summer afternoon.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "음악 안내",
+   "items": [
+    [
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 영상에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The free app picks “my element music” from your birth-day character and element counts. The music in this video was chosen for what this chart needs now. So your element music and the music you need can be different.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "예시 사주로 풀어 본 이야기예요.\n\n고요 리포트에서는\n내 질문에 맞춰 사주를 풀어 드리고,\n질문마다 타로 한 장을 더해 보는\n리포트도 있어요.\n\n내 기운에 맞춘 고요 음악 리스트도\n곧 열려요.\n\n내 사주 오행은 프로필 링크의\n무료 앱에서 먼저 확인해 보세요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "This story uses an example chart. A Goyo Report reads your chart around your own question, and one version adds a tarot card to each question. A Goyo music list tuned to your energy opens soon. First, check your chart's elements in the free app: link in bio.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

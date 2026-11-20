@@ -1,0 +1,28 @@
+{
+ "audio": "shorts/그림편/audio/계수_Drizzle_95s.m4a",
+ "scenes": [
+  {"sec": 4.5, "items": [
+   ["예시 사주 풀이 #1", 50, [200, 180, 140], false, 34],
+   ["이직,\n지금일까요?", 124, [236, 233, 226], true, 50],
+   ["Example Saju Reading #1", 40, [214, 210, 202], false, 6],
+   ["Is it time to change jobs?", 42, [214, 210, 202], false, 0]]},
+  {"sec": 8.0, "tag": "답", "step": 1.2, "items": [
+   ["회사라는 틀보다\n내 솜씨가 드러나는 쪽으로\n힘이 쓰이는 흐름이에요.", 70, [236, 233, 226], true, 50],
+   ["You tend to invest in your own skills, not a company's structure.", 40, [214, 210, 202], false, 0]]},
+  {"sec": 6.5, "tag": "이 사주에 깔린 소리", "items": [
+   ["다섯 가지 고요", 60, [236, 233, 226], true, 10],
+   ["계수 편", 100, [236, 233, 226], true, 36],
+   ["한여름 오후의\n소나기 같은 소리예요.", 56, [236, 233, 226], false, 44],
+   ["Five Kinds of Quiet · Yin Water (Gyesu): a summer afternoon shower.", 38, [214, 210, 202], false, 0]]}
+ ],
+ "end": {
+  "ig": {"sec": 6.5, "step": 0.6, "items": [
+   ["풀이는 @goyo_mio\n피드 게시물에서", 66, [236, 233, 226], true, 30],
+   ["음악은 프로필 링크에서", 60, [236, 233, 226], true, 44],
+   ["Full reading on our profile\nMusic: link in bio", 40, [214, 210, 202], false, 0]]},
+  "yt": {"sec": 6.5, "step": 0.6, "items": [
+   ["풀이는 @goyo_mio\n채널 게시물에서", 66, [236, 233, 226], true, 30],
+   ["음악은 아래 링크에서", 60, [236, 233, 226], true, 44],
+   ["Full reading in our Posts tab\nMusic: related video below", 40, [214, 210, 202], false, 0]]}
+ }
+}
