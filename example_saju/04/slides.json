@@ -1,0 +1,450 @@
+{
+ "no": 4,
+ "music": "계수",
+ "slides": [
+  {
+   "items": [
+    [
+     "예시 사주 풀이 #4",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "지금,\n쉬어도 될까요?",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Example Saju Reading #4",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Is it okay to rest now?",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "예시 사주",
+   "pillars": "己巳 丙寅 戊午 丁巳",
+   "items": [
+    [
+     "1989년 2월 27일 오전 11시 · 여자",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "나무 1 · 불 5 · 흙 2 · 쇠 0 · 물 0",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Born Feb 27, 1989, 11 a.m. · Female",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Wood 1 · Fire 5 · Earth 2 · Metal 0 · Water 0",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "핵심",
+   "items": [
+    [
+     "이른 봄인데도\n한여름 볕을 받아 달궈진\n큰 산 같은 사주예요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "불은 다섯인데,\n식혀 줄 물이 없어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "A great mountain in early spring, yet baked as if by midsummer sun. Five Fire, and no Water to cool it.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "답",
+   "items": [
+    [
+     "쉬어도 괜찮은 흐름이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "다만 아무것도 안 하는 쉼보다\n열을 식히는 쉼이 맞아요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "생각이 쉬지 않고 돌아\n몸보다 마음이 먼저 달아오르는 사주예요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Rest is fine. The right kind of rest cools you down, more than just doing nothing. With thoughts that never stop, your mind runs hot before your body does.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "언제",
+   "items": [
+    [
+     "2027년 1월 초~2월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "일을 덜어 내고\n쉬는 계획을 세우기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 9월 초~10월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "몸을 움직이며\n머리를 비우기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Early Jan to early Feb 2027: a good time to clear your plate and plan a break. Early Sep to early Oct 2027: a good time to move your body and let your mind go quiet.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "쉬어 갈 때",
+   "items": [
+    [
+     "2027년 5월 초~9월 초는\n마음이 급해지고 쉬는 시간이 줄기 쉬워요.\n쉬는 날을 미리 정해 두는 쪽이 나아요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "미리 챙길 것은\n손으로 하는 일 하나,\n그리고 물가를 걷는 시간이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2029년까지는\n손으로 만드는 일이\n숨 쉴 틈이 되기 쉬운 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Early May to early Sep 2027: you may feel rushed and short on rest, so set your rest days ahead of time. Have one hands-on hobby ready, plus time for walks by the water. Through 2029, making things by hand can be your room to breathe.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "이 사주에 깔린 소리",
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "계수 편",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "달궈진 산에\n가늘게 내리는 비 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The sound beneath this chart: Five Kinds of Quiet · Yin Water (Gyesu). It sounds like fine rain on a heated mountain.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "음악 안내",
+   "items": [
+    [
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 게시물에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The free app picks “my element music” from your day master and element counts. The music in this post was chosen for what this chart needs right now, so the two may differ.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "예시 사주로 풀어 본 이야기예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 사주 오행과 신살은\n프로필 링크의 무료 앱에서\n먼저 확인해 보세요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This story uses an example chart. To see your own elements and stars, try the free app: link in bio.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ],
+ "yt_last": {
+  "items": [
+   [
+    "예시 사주로 풀어 본 이야기예요.",
+    50,
+    [
+     236,
+     233,
+     226
+    ],
+    true,
+    40
+   ],
+   [
+    "내 사주 오행과 신살은\n채널 상단 링크의 무료 앱에서\n먼저 확인해 보세요.",
+    52,
+    [
+     236,
+     233,
+     226
+    ],
+    false,
+    40
+   ],
+   [
+    "This story uses an example chart. To see your own elements and stars, try the free app: link on our channel page.",
+    34,
+    [
+     214,
+     210,
+     202
+    ],
+    false,
+    0
+   ]
+  ]
+ }
+}

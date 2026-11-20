@@ -1,0 +1,461 @@
+{
+ "no": 5,
+ "music": "갑목",
+ "slides": [
+  {
+   "items": [
+    [
+     "예시 사주 풀이 #5",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "부업,\n시작해도 될까요?",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Example Saju Reading #5",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "A side business: is it okay to start?",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "예시 사주",
+   "pillars": "癸酉 壬戌 丙戌 戊戌",
+   "items": [
+    [
+     "1993년 11월 1일 저녁 8시 · 남자",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "나무 0 · 불 1 · 흙 4 · 쇠 1 · 물 2",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Born Nov 1, 1993, 8 p.m. · Male",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Wood 0 · Fire 1 · Earth 4 · Metal 1 · Water 2",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "핵심",
+   "items": [
+    [
+     "가을 저녁,\n해가 막 진 넓은 흙 마당에\n남은 온기 같은 사주예요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "흙은 넷인데,\n불씨를 이어 줄 나무가 없어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This chart is like the warmth left on a wide earthen yard just after an autumn sunset. Four Earth, but no Wood to keep the fire going.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "답",
+   "items": [
+    [
+     "시작해도 괜찮은 흐름이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "다만 본업은 두고\n크게 차리기보다\n작게 열어 두는 쪽이 맞아요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "재주와 생각은 넘치는데\n혼자 다 쏟으면\n빨리 지치기 쉬운 사주예요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Starting is fine. Keep your main job and start small rather than going all in. You have ideas and skills to spare, but doing it all alone can wear you out fast.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "언제",
+   "items": [
+    [
+     "2027년 2월 초까지",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "배우고 준비하는 쪽이 나아요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 2월 초~4월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "작게 열어 보기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 5월 초~7월 초",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "조금씩 늘려 가기 좋은 때예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Through early Feb 2027: learn and prepare. Early Feb to early Apr 2027: a good window to open small. Early May to early Jul 2027: a good window to grow step by step.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "쉬어 갈 때",
+   "items": [
+    [
+     "2027년 8월 초~11월 초는\n일이 늘어 힘이 빠지기 쉬워요.\n규모를 키우는 일은 미뤄도 돼요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "미리 챙길 것은\n기댈 수 있는 배움 하나,\n그리고 먼저 해 본 사람의 조언이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Early Aug to early Nov 2027: a heavier workload can wear you down, so scaling up can wait. Have these ready: one skill you can lean on, and advice from someone who's been there.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "이 사주에 깔린 소리",
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "갑목 편",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "가을 흙 위에\n곧게 서는 나무 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The sound beneath this chart: Five Kinds of Quiet · Yang Wood (Gapmok). Like a tree standing upright in autumn soil.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "음악 안내",
+   "items": [
+    [
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 게시물에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The free app picks “my element music” from your day master and element counts. The music in this post was chosen for what this chart needs right now, so the two may differ.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "예시 사주로 풀어 본 이야기예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 사주 오행과 신살은\n프로필 링크의 무료 앱에서\n먼저 확인해 보세요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This story uses an example chart. To see your own elements and stars, try the free app: link in bio.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ],
+ "yt_last": {
+  "items": [
+   [
+    "예시 사주로 풀어 본 이야기예요.",
+    50,
+    [
+     236,
+     233,
+     226
+    ],
+    true,
+    40
+   ],
+   [
+    "내 사주 오행과 신살은\n채널 상단 링크의 무료 앱에서\n먼저 확인해 보세요.",
+    52,
+    [
+     236,
+     233,
+     226
+    ],
+    false,
+    40
+   ],
+   [
+    "This story uses an example chart. To see your own elements and stars, try the free app: link on our channel page.",
+    34,
+    [
+     214,
+     210,
+     202
+    ],
+    false,
+    0
+   ]
+  ]
+ }
+}

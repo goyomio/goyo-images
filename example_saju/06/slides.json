@@ -1,0 +1,515 @@
+{
+ "no": 6,
+ "music": "정화",
+ "slides": [
+  {
+   "items": [
+    [
+     "예시 사주 풀이 #6",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "하고 싶은 일,\n이제 가도 될까요?",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Example Saju Reading #6",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Is it time to go for the work I want to do?",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "예시 사주",
+   "pillars": "壬申 戊申 癸亥 壬戌",
+   "items": [
+    [
+     "1992년 8월 15일 저녁 8시 · 여자",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "나무 0 · 불 0 · 흙 2 · 쇠 2 · 물 4",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Born Aug 15, 1992, 8 p.m. · Female",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     4
+    ],
+    [
+     "Wood 0 · Fire 0 · Earth 2 · Metal 2 · Water 4",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "핵심",
+   "items": [
+    [
+     "초가을 밤,\n깊은 물 위로\n맑은 비가 내리는 사주예요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "물은 넷인데,\n데워 줄 불이 겉으로는 없어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Like clear rain falling on deep water on an early autumn night. Four Water, and no Fire showing to warm it.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "답",
+   "items": [
+    [
+     "가도 괜찮은 흐름이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "다만 지금 자리를\n한 번에 버리기보다\n옆으로 길을 내며\n옮기는 쪽이 맞아요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "생각과 감각은 깊은데\n밖으로 꺼낼 무대가 필요한 사주예요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "Yes, you can go for it. Just build a side path first rather than leaving everything at once. You have depth and sharp instincts; what you need is a stage to show them.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "언제",
+   "items": [
+    [
+     "2027년 1월 초까지",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "크게 움직이기보다\n작은 결과물을 만들어 두는 때예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년 5월 초~8월 초",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "그 일이 현실로\n이어지기 쉬운 때예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "2027년은",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "원하는 일과 돈이 함께 움직이고\n책임도 그만큼 커지기 쉬운 해예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Now to early Jan 2027: rather than a big move, quietly build a small piece of work you can show. Early May to early Aug 2027: when it can start to become real. All of 2027: the work you want and income tend to move together, and so does responsibility.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "타로 한 장",
+   "card": {
+    "file": "deck_1909/cups02.jpg",
+    "reversed": false,
+    "h": 520
+   },
+   "items": [
+    [
+     "컵 2",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     12
+    ],
+    [
+     "마음과 마음이 오가는 카드예요.\n함께 갈 사람을\n만나기 쉬운 때로 읽어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     18
+    ],
+    [
+     "이 사주에 무작위로 뽑은 한 장이에요.",
+     32,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Two of Cups: hearts meeting halfway. Here, a time to meet someone to go forward with. Drawn at random for this reading.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "쉬어 갈 때",
+   "items": [
+    [
+     "2027년 11월 초~2028년 1월 초는\n생각이 많아져 발이 묶이기 쉬워요.\n큰 결정은 잠시 미뤄도 돼요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "미리 챙길 것은\n보여 줄 수 있는 작은 결과물,\n그리고 나를 밖으로 이끌어 줄\n따뜻한 사람이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     36
+    ],
+    [
+     "Early Nov 2027 to early Jan 2028: overthinking may leave you stuck, so it's fine to hold off on big decisions. Have these ready: a small piece of work you can show, and someone warm who can draw you out.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "이 사주에 깔린 소리",
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     8
+    ],
+    [
+     "정화 편",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "차가운 물가에\n켜 둔 촛불 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The sound beneath this chart: Five Kinds of Quiet · Yin Fire (Jeonghwa). Think of a candle lit beside cold water.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "tag": "음악 안내",
+   "items": [
+    [
+     "무료 앱에서 찾는 「내 오행 음악」은\n태어난 날의 글자와\n오행 개수로 골라요.\n\n이 게시물에 깔린 음악은\n그 사주에 지금 필요한 기운으로 골랐어요.\n\n그래서 내 오행 음악과\n나에게 필요한 음악은 다를 수 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "The free app picks “my element music” from your day master and element counts. The music in this post was chosen for what this chart needs right now, so the two may differ.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "예시 사주로 풀어 본 이야기예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 사주 오행과 신살은\n프로필 링크의 무료 앱에서\n먼저 확인해 보세요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This story uses an example chart. To see your own elements and stars, try the free app: link in bio.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ],
+ "yt_last": {
+  "items": [
+   [
+    "예시 사주로 풀어 본 이야기예요.",
+    50,
+    [
+     236,
+     233,
+     226
+    ],
+    true,
+    40
+   ],
+   [
+    "내 사주 오행과 신살은\n채널 상단 링크의 무료 앱에서\n먼저 확인해 보세요.",
+    52,
+    [
+     236,
+     233,
+     226
+    ],
+    false,
+    40
+   ],
+   [
+    "This story uses an example chart. To see your own elements and stars, try the free app: link on our channel page.",
+    34,
+    [
+     214,
+     210,
+     202
+    ],
+    false,
+    0
+   ]
+  ]
+ }
+}

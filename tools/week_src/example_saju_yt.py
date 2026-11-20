@@ -9,19 +9,7 @@ from PIL import Image, ImageDraw
 SQ = 1350
 
 
-def slide(s, k, n):
-    W, H, M = X.W, X.H, X.M
-    im = Image.new('RGBA', (W, H), X.BG + (255,)); d = ImageDraw.Draw(im); X.frame(im, d)
-    if s.get('tag'):
-        f = X.F(34); w = d.textlength(s['tag'], font=f); d.text(((W - w) / 2, M + 90), s['tag'], font=f, fill=X.GOLD)
-    if s.get('pillars'):
-        y = X.pillars(d, 330, s['pillars'])
-        X.block(d, [('k', *it) for it in s['items']], top=y + 30)
-    else:
-        X.block(d, [('k', *it) for it in s['items']])
-    pg = '%02d / %02d' % (k, n); f = X.F(24); w = d.textlength(pg, font=f)
-    d.text((W - M - 90 - w, H - M - 58), pg, font=f, fill=(110, 106, 100))
-    return im.convert('RGB')
+def slide(s, k, n): return X.draw_slide(s, k, n)
 
 
 def square(im):

@@ -58,21 +58,34 @@ def pillars(d, y, pil):
             d.text((cx-w/2, y+56+j*132), ch, font=f, fill=col, stroke_width=3, stroke_fill=stroke)
     return y + 56 + 2*132 + 20
 
+def card(im, d, s, top):
+    """타로 장: s['card'] = {'file': 'deck_1909/m06_lovers.jpg', 'reversed': false, 'h': 600}. 그림 아래 y를 돌려줌."""
+    c = s['card']; g = Image.open(os.path.join(ROOT, c['file'])).convert('RGB'); h = c.get('h', 600)
+    g = g.resize((int(g.width * h / g.height), h), Image.LANCZOS)
+    if c.get('reversed'): g = g.rotate(180)
+    x = (W - g.width) // 2; im.paste(g, (x, top)); d.rectangle([x-1, top-1, x+g.width, top+h], outline=SOFT, width=2)
+    return top + h
+
+def draw_slide(s, k, n):
+    im = Image.new('RGBA', (W, H), BG + (255,)); d = ImageDraw.Draw(im); frame(im, d)
+    tag = s.get('tag')
+    if tag:
+        f = F(34); w = d.textlength(tag, font=f); d.text(((W-w)/2, M+90), tag, font=f, fill=GOLD)
+    items = [('k', x, sz, c, b, g) for x, sz, c, b, g in s['items']]
+    if s.get('pillars'):
+        y = pillars(d, 330, s['pillars']); block(d, items, top=y+30)
+    elif s.get('card'):
+        y = card(im, d, s, M + 160); block(d, items, top=y+36)
+    else:
+        block(d, items)
+    pg = '%02d / %02d' % (k, n); f = F(24); w = d.textlength(pg, font=f)
+    d.text((W-M-90-w, H-M-58), pg, font=f, fill=(110, 106, 100))
+    return im.convert('RGB')
+
 def render(js):
     cfg = json.load(open(js, encoding='utf-8')); out = os.path.dirname(js)
     for k, s in enumerate(cfg['slides'], 1):
-        im = Image.new('RGBA', (W, H), BG + (255,)); d = ImageDraw.Draw(im); frame(im, d)
-        tag = s.get('tag')
-        if tag:
-            f = F(34); w = d.textlength(tag, font=f); d.text(((W-w)/2, M+90), tag, font=f, fill=GOLD)
-        if s.get('pillars'):
-            y = pillars(d, 330, s['pillars'])
-            block(d, [('k', x, sz, c, b, g) for x, sz, c, b, g in s['items']], top=y+30)
-        else:
-            block(d, [('k', x, sz, c, b, g) for x, sz, c, b, g in s['items']])
-        pg = '%02d / %02d' % (k, len(cfg['slides'])); f = F(24); w = d.textlength(pg, font=f)
-        d.text((W-M-90-w, H-M-58), pg, font=f, fill=(110, 106, 100))
-        im.convert('RGB').save(os.path.join(out, '%02d.jpg' % k), quality=92)
+        draw_slide(s, k, len(cfg['slides'])).save(os.path.join(out, '%02d.jpg' % k), quality=92)
     print('ok', len(cfg['slides']))
 
 if __name__ == '__main__': render(sys.argv[1])
