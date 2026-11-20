@@ -23,8 +23,15 @@ def layers(scene):
         n = len(X.wrap(tmp, t, X.F(sz, bold), W - 2 * X.M - 120))
         hs.append(n * int(sz * 1.42) + gap)
     top0 = TOP + 90 if scene.get('tag') else TOP
-    y = top0 + (BOT - top0 - sum(hs)) // 2
     outs = []
+    if scene.get('pillars'):
+        P = Image.new('RGBA', (W, H), (0, 0, 0, 0)); pd = ImageDraw.Draw(P)
+        ph = 56 + 2 * 132 + 20 + 40
+        y0 = top0 + (BOT - top0 - ph - sum(hs)) // 2
+        top0 = X.pillars(pd, y0, scene['pillars']) + 40
+        outs.append(P); y = top0
+    else:
+        y = top0 + (BOT - top0 - sum(hs)) // 2
     for (t, sz, col, bold, gap), h in zip(scene['items'], hs):
         L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ld = ImageDraw.Draw(L)
         X.block(ld, [('k', t, sz, col, bold, 0)], top=y)
