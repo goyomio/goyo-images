@@ -1,5 +1,5 @@
 """정미년 캐러셀 유튜브판: jeongmi/<MMDD>/slides.json → 「프로필 링크」 문구만 유튜브용으로 바꿔 렌더 → 1350 정사각형.
-python3 jm_yt.py <repo> <MMDD> <outdir>"""
+python3 jeongmi_yt.py <repo> <폴더> <outdir> [posts/날짜 — 폴더 이름과 게시 날짜가 다를 때]"""
 import json, os, sys
 repo, d, out = sys.argv[1:4]
 sys.path.insert(0, os.path.join(repo, 'tools/week_src'))
@@ -13,7 +13,7 @@ cfg = json.load(open(f'jeongmi/{d}/slides.json', encoding='utf-8'))
 os.makedirs(out, exist_ok=True)
 X.W, X.H = 1080, 1350
 n = len(cfg['slides'])
-post = 'posts/2027-%s-%s' % (d[:2], d[2:4])
+post = sys.argv[4] if len(sys.argv) > 4 else 'posts/2027-%s-%s' % (d[:2], d[2:4])
 for k, s in enumerate(cfg['slides'], 1):
     raw = json.dumps(s, ensure_ascii=False); changed = any(a in raw for a, _ in REP)
     orig = X.draw_slide(s, k, n).convert('RGB')
