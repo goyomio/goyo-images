@@ -118,5 +118,10 @@
   "편": "병화",
   "곡": "Noon Avenue",
   "근거": "원곡: goyo-keys/audio/catalog.json 병화 01 0:00 Noon Avenue (곡 시작부터 60초)"
+ },
+ "shorts/그림편/audio/임수_Wide Water_60s.m4a": {
+  "편": "임수",
+  "곡": "Wide Water",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 01 0:00 Wide Water (곡 시작부터 60초)"
  }
 }

@@ -1,15 +1,14 @@
 {
  "type": "carousel",
  "via": "api",
- "approved": true,
+ "approved": false,
  "files": [
   "posts/2027-01-03/01.jpg",
   "posts/2027-01-03/02.jpg",
   "posts/2027-01-03/03.jpg",
   "posts/2027-01-03/04.jpg",
-  "posts/2027-01-03/05.jpg",
-  "posts/2027-01-03/06.jpg"
+  "posts/2027-01-03/05.jpg"
  ],
- "caption": "여름이 세 해 동안 이어졌어요.\n\n2025 을사는 초여름, 2026 병오는 한여름, 2027 정미는 늦여름이에요. 사(巳)·오(午)·미(未)가 여름의 세 글자라서, 세 해를 이어 보면 여름 한 철이 돼요. 2026년 병오는 해(丙)와 한여름(午)이 겹친 가장 뜨거운 자리고, 2027년 정미는 여름의 마무리예요. 불이 꺼지는 해라기보다 불이 다 익는 해로 읽어요.\n\n1월인 지금은 아직 병오년, 한여름의 끝자락이에요. 사주의 해는 입춘(2월 4일)에 바뀌거든요.\n\n한여름의 끝자락에는 한낮의 해 같은 『다섯 가지 고요｜병화(丙火)』. 첫 곡은 『Noon Avenue』예요. 프로필 링크에서 들을 수 있어요.\n\n· English ·\nSummer has lasted three years.\n\n2025 was early summer, 2026 is high summer, and 2027 is late summer. The three summer characters are 巳 Midmorning Fire (Sahwa), 午 Noon Fire (Ohwa) and 未 Afternoon Earth (Mito), so the three years together make one summer season. 2026 is the hottest point, where 丙火 Yang Fire (Byeonghwa), the sun, met Noon Fire. 2027 closes the summer. We read it as a year when the fire ripens, not one when it goes out.\n\nRight now, in January, it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4.\n\nFor the tail end of high summer, music like the midday sun: Five Kinds of Quiet · Yang Fire. The first track is Noon Avenue. Listen through the link in bio.\n\n#고요 #고요이야기 #정미년 #병오년 #사주 #오행 #오행음악 #saju #fiveelements",
- "note": "정미년 시리즈 0103 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+ "caption": "강물 위의 등불, 진주 남강유등축제예요.\n\n가을이면 경남 진주 남강 위에 수많은 등이 떠요. 해마다 10월 초~중순에 열리고, 2026년은 10월 3일부터 18일까지였어요. 2027년 날짜는 아직 발표 전이라 가기 전에 진주시 공지를 확인해 주세요.\n\n임진왜란 진주성 전투 때 남강에 등을 띄워 강을 건너려는 적을 막고, 성 밖 가족에게 안부를 전했다고 해요. 축제는 그 이야기에서 시작됐어요.\n\n2027년의 글자는 가까운 곳을 오래 비추는 등불이에요. 그 등불이 넓은 강물 위에 떠 있는 곳이라, 정미년에 한 번 가 볼 만한 곳으로 골랐어요.\n\n등불을 싣고 흐르는 강물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 첫 곡은 『Wide Water』예요. 프로필 링크에서 들을 수 있어요.\n\n· English ·\nLamps on the river: the Jinju Namgang Yudeung Festival.\n\nEvery fall, countless lamps float on the Namgang River in Jinju, Korea. The festival runs in early to mid October; in 2026 it ran October 3 to 18. The 2027 dates are not out yet, so check the city's notice before you go.\n\nThe custom goes back to the 1590s and a battle at Jinju Fortress: lamps floated on the river held back the enemy and carried word to families outside the walls.\n\n2027 is the year of the lamp, a light that stays close. Here, those lamps float on a wide river, so we picked it as a place to visit this year.\n\nMusic like a wide river carrying lamps: Five Kinds of Quiet · 壬水 Yang Water (Imsu). The first track is Wide Water. Listen through the link in bio.\n\n#고요 #정미년 #진주남강유등축제 #진주 #유등 #국내여행 #오행음악 #fiveelements",
+ "note": "정미년 시리즈 0103j (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
 }

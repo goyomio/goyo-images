@@ -142,11 +142,11 @@ A lamp close by, beside frozen earth: Five Kinds of Quiet · 丁火 Yin Fire (Je
 #고요 #이번주기운 #소한 #절기 #일진 #사주 #오행 #saju #fiveelements""",
 )
 
-# ───────── 1/3 일 · 세 해의 여름 (병화) — 원문 Ⅰ 넷째 줄, Ⅲ-2
+# ───────── 1/20 수 · 세 해의 여름 (병화) — 재배치(11/21 21:34)로 1/3에서 옮김 — 원문 Ⅰ 넷째 줄, Ⅲ-2
 P['0103'] = dict(
  music='병화', audio='shorts/그림편/audio/병화_Noon Avenue_60s.m4a',
  slides=[
-  S([T('1월 3일 · 고요 이야기', 44, GOLD, gap=30), T('여름이\n세 해 동안\n이어졌어요', 104, bold=True, gap=36),
+  S([T('1월 20일 · 고요 이야기', 44, GOLD, gap=30), T('여름이\n세 해 동안\n이어졌어요', 104, bold=True, gap=36),
      T('2025 · 2026 · 2027', 48, gap=30), T('Summer has lasted three years', 38, EN, gap=0)]),
   S([T('2025 을사 · 초여름\n2026 병오 · 한여름\n2027 정미 · 늦여름', 60, bold=True, gap=36),
      T('사(巳)는 초여름, 오(午)는 한여름,\n미(未)는 늦여름의 글자예요.', 46, gap=36),
@@ -163,7 +163,7 @@ P['0103'] = dict(
      T('Five Kinds of Quiet · Yang Fire. The first track is Noon Avenue. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
-  dict(sec=4.5, instant=True, items=[T('1월 3일', 50, GOLD, gap=34), T('여름이\n세 해 동안\n이어졌어요', 120, bold=True, gap=50), T('Summer has lasted three years', 42, EN, gap=0)]),
+  dict(sec=4.5, instant=True, items=[T('1월 20일', 50, GOLD, gap=34), T('여름이\n세 해 동안\n이어졌어요', 120, bold=True, gap=50), T('Summer has lasted three years', 42, EN, gap=0)]),
   dict(sec=6.5, tag='세 해의 여름', step=0.9, items=[T('2025 을사 · 초여름', 70, gap=20), T('2026 병오 · 한여름', 70, gap=20), T('2027 정미 · 늦여름', 70, bold=True, gap=44),
        T('Early, high, and late summer', 40, EN, gap=0)]),
   dict(sec=6.0, step=1.0, items=[T('2027년은\n여름의 마무리', 96, bold=True, gap=40), T('불이 다 익는 해', 72, gap=50), T('2027: the fire ripens', 40, EN, gap=0)]),
@@ -210,11 +210,11 @@ The music is Noon Avenue from Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa
 #고요 #정미년 #병오년 #사주 #오행음악 #saju""",
 )
 
-# ───────── 1/6 수 · 넓게 비추는 빛, 가까이 오래 비추는 빛 (정화) — 원문 Ⅲ-1(적천수 병·정 구분), Ⅶ 라 투르
+# ───────── 1/17 일 (재배치로 1/6에서 옮김) · 넓게 비추는 빛, 가까이 오래 비추는 빛 (정화) — 원문 Ⅲ-1(적천수 병·정 구분), Ⅶ 라 투르
 P['0106'] = dict(
  music='정화', audio='shorts/그림편/audio/정화_Lantern Room_60s.m4a',
  slides=[
-  S([T('1월 6일 · 고요 이야기', 44, GOLD, gap=30), T('빛에도\n두 가지가\n있어요', 110, bold=True, gap=36),
+  S([T('1월 17일 · 고요 이야기', 44, GOLD, gap=30), T('빛에도\n두 가지가\n있어요', 110, bold=True, gap=36),
      T('넓게 비추는 빛, 가까이 오래 비추는 빛', 42, gap=30), T('Two kinds of light', 38, EN, gap=0)]),
   S([T('병화는 하늘의 해.', 70, bold=True, gap=30), T('사방을 고루,\n멀리까지 비추는 빛이에요.', 54, gap=36),
      T('丙火 Yang Fire (Byeonghwa) is the sun in the sky,\nlighting everything, far and wide.', 34, EN, gap=0)], tag='넓게 비추는 빛'),
@@ -224,15 +224,15 @@ P['0106'] = dict(
      T('옛 명리 책 『적천수』도\n병화는 세차고, 정화는 부드럽다고\n두 불을 나눠 봐요.', 44, gap=36),
      T('The sun lights everyone from afar. A lamp lights one person\'s face and hands, up close.', 34, EN, gap=0)], tag='같은 불, 다른 빛'),
   S([T('2026년의 빛은 해,\n2027년의 빛은 등불이에요.', 58, bold=True, gap=30), T('넓게 퍼지는 빛이 입춘부터\n가까운 자리를 오래 밝히는\n빛으로 옮겨 가요.', 46, gap=30),
-     T('사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.', 38, gap=30), T('내일 그림 읽기는 라 투르,\n등불 하나를 그린 그림이에요.', 42, GOLD, gap=30),
-     T('In 2026 the light is the sun. In 2027 it is a lamp. Tomorrow: a painting of one lamp.', 32, EN, gap=0)], tag='해에서 등불로'),
+     T('사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.', 38, gap=30), T('1월 7일 그림 읽기의 라 투르도\n등불 하나를 그렸어요.', 42, GOLD, gap=30),
+     T('In 2026 the light is the sun; in 2027, a lamp.\nLa Tour painted one in our Jan 7 post.', 32, EN, gap=0)], tag='해에서 등불로'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
      T('가까운 자리를 오래 밝히는\n등불 같은 소리예요.', 52, gap=24), T('지금 고른 곡은 『Lantern Room』이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
      T('Five Kinds of Quiet · Yin Fire. Track: Lantern Room. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
-  dict(sec=4.5, instant=True, items=[T('1월 6일', 50, GOLD, gap=34), T('빛에도\n두 가지가\n있어요', 124, bold=True, gap=50), T('Two kinds of light', 42, EN, gap=0)]),
+  dict(sec=4.5, instant=True, items=[T('1월 17일', 50, GOLD, gap=34), T('빛에도\n두 가지가\n있어요', 124, bold=True, gap=50), T('Two kinds of light', 42, EN, gap=0)]),
   dict(sec=6.5, step=1.0, items=[T('해는\n넓게 멀리', 96, bold=True, gap=40), T('등불은\n가까이 오래', 96, bold=True, gap=50),
        T('The sun: far and wide. A lamp: close and lasting.', 40, EN, gap=0)]),
   dict(sec=5.5, step=1.0, items=[T('2027년의 빛은', 76, gap=20), T('등불', 150, bold=True, gap=50), T('In 2027, the light is a lamp.', 40, EN, gap=0)]),
@@ -253,7 +253,7 @@ P['0106'] = dict(
 
 2026년의 빛이 해라면, 2027년의 빛은 등불이에요. 넓게 퍼지는 빛이 입춘부터 가까운 자리를 오래 밝히는 빛으로 옮겨 가요. 사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.
 
-내일 고요의 그림 읽기는 조르주 드 라 투르, 등불 하나를 그린 그림이에요.
+1월 7일 고요의 그림 읽기에서 본 조르주 드 라 투르의 그림도 등불 하나를 그렸어요.
 
 가까운 자리를 오래 밝히는 『다섯 가지 고요｜정화(丁火)』, 지금 고른 곡은 『Lantern Room』이에요. 프로필 링크에서 들을 수 있어요.
 
@@ -264,7 +264,7 @@ There are two kinds of light.
 
 If 2026's light is the sun, 2027's is a lamp. From the start of spring, the wide light turns to a close, steady one. In Saju, the year turns at the start of spring (立春), February 4.
 
-Tomorrow's painting: a single lamp by Georges de La Tour.
+Georges de La Tour, in our January 7 painting post, painted a single lamp.
 
 Five Kinds of Quiet · Yin Fire, with the track Lantern Room. Listen through the link in bio.
 
@@ -337,6 +337,77 @@ Image: LACMA (Los Angeles County Museum of Art), c. 1635 to 1637, public domain
 #고요 #고요의그림읽기 #라투르 #GeorgesdeLaTour #막달라마리아 #정미년 #오행 #명화 #fiveelements""",
 )
 
+# ───────── 1/3 일 · 여행: 진주 남강유등 (임수) — 원문 Ⅷ. 재배치(11/21 21:34)로 1/20에서 옮김
+# 근거: 문화체육관광부 축제 정보(2026. 10. 3.~10. 18.), 한국관광공사 소개(임진왜란 진주성 전투 유래)
+P['0103j'] = dict(
+ music='임수', audio='shorts/그림편/audio/임수_Wide Water_60s.m4a',
+ slides=[
+  S([T('1월 3일 · 정미년에 갈 만한 곳', 44, GOLD, gap=30), T('강물 위의\n등불', 116, bold=True, gap=36),
+     T('경남 진주 남강유등축제', 48, gap=30), T('Lamps on the river · Jinju, Korea', 38, EN, gap=0)]),
+  S([T('가을이면\n진주 남강 위에\n등이 떠요.', 66, bold=True, gap=34), T('해마다 10월 초~중순에 열려요.\n2026년은 10월 3일부터 18일까지였어요.', 42, gap=26),
+     T('2027년 날짜는 아직 발표 전이에요.', 36, [150, 145, 135], gap=30),
+     T('Every fall, lamps float on the Namgang River. Held in early to mid October.', 32, EN, gap=0)], tag='강물 위에 등을 띄우는 축제'),
+  S([T('임진왜란 진주성 전투 때', 50, gap=20), T('남강에 등을 띄워\n강을 건너려는 적을 막고,\n성 밖 가족에게\n안부를 전했다고 해요.', 58, bold=True, gap=36),
+     T('It began with a 1590s battle at Jinju Fortress: river lamps held back the enemy and carried word home.', 32, EN, gap=0)], tag='왜 강에 등을 띄웠을까요'),
+  S([T('2027년의 글자는\n가까운 곳을 오래 비추는 등불.', 54, gap=30), T('그 등불이\n넓은 강물 위에\n떠 있는 곳이에요.', 60, bold=True, gap=36),
+     T('2027 is the year of the lamp. Here, the lamps float on a wide river.', 34, EN, gap=0)], tag='등불과 강물이 한 장면에'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
+     T('등불을 싣고 흐르는\n넓은 강물 같은 소리예요.', 52, gap=24), T('첫 곡은 『Wide Water』예요.', 44, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 壬水 Yang Water (Imsu).\nThe first track is Wide Water. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 3일 · 갈 만한 곳', 50, GOLD, gap=34), T('강물 위의\n등불', 130, bold=True, gap=50), T('Lamps on the river', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('가을, 진주 남강에\n등이 떠요', 92, bold=True, gap=40), T('해마다 10월 초~중순', 60, gap=50), T('Jinju, every October', 40, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('임진왜란 때\n강을 건너려는 적을 막고', 78, bold=True, gap=30), T('성 밖 가족에게\n안부를 전한 등불', 78, bold=True, gap=50),
+       T('Lamps that held back the enemy\nand carried word home', 40, EN, gap=0)]),
+  dict(sec=5.0, step=0.9,
+       items_ig=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('풀이는 @goyo_mio\n피드 게시물에서', 60, bold=True, gap=30),
+                 T('Why does it suit 2027?\nFull reading on our profile', 40, EN, gap=0)],
+       items_yt=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('풀이는\n채널 게시물에서', 60, bold=True, gap=30),
+                 T('Why does it suit 2027?\nFull reading in our Posts tab', 40, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('첫 곡 『Wide Water』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu): Wide Water.\nMusic: link in bio', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('첫 곡 『Wide Water』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu): Wide Water.\nMusic: related video below', 36, EN, gap=0)]),
+ ],
+ caption="""강물 위의 등불, 진주 남강유등축제예요.
+
+가을이면 경남 진주 남강 위에 수많은 등이 떠요. 해마다 10월 초~중순에 열리고, 2026년은 10월 3일부터 18일까지였어요. 2027년 날짜는 아직 발표 전이라 가기 전에 진주시 공지를 확인해 주세요.
+
+임진왜란 진주성 전투 때 남강에 등을 띄워 강을 건너려는 적을 막고, 성 밖 가족에게 안부를 전했다고 해요. 축제는 그 이야기에서 시작됐어요.
+
+2027년의 글자는 가까운 곳을 오래 비추는 등불이에요. 그 등불이 넓은 강물 위에 떠 있는 곳이라, 정미년에 한 번 가 볼 만한 곳으로 골랐어요.
+
+등불을 싣고 흐르는 강물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 첫 곡은 『Wide Water』예요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Lamps on the river: the Jinju Namgang Yudeung Festival.
+
+Every fall, countless lamps float on the Namgang River in Jinju, Korea. The festival runs in early to mid October; in 2026 it ran October 3 to 18. The 2027 dates are not out yet, so check the city's notice before you go.
+
+The custom goes back to the 1590s and a battle at Jinju Fortress: lamps floated on the river held back the enemy and carried word to families outside the walls.
+
+2027 is the year of the lamp, a light that stays close. Here, those lamps float on a wide river, so we picked it as a place to visit this year.
+
+Music like a wide river carrying lamps: Five Kinds of Quiet · 壬水 Yang Water (Imsu). The first track is Wide Water. Listen through the link in bio.
+
+#고요 #정미년 #진주남강유등축제 #진주 #유등 #국내여행 #오행음악 #fiveelements""",
+ reel_caption="""강물 위의 등불, 진주 남강유등축제예요.
+
+가을이면 진주 남강에 등이 떠요. 임진왜란 진주성 전투 때 강을 건너려는 적을 막고 성 밖 가족에게 안부를 전한 등불에서 시작된 축제예요. 2027년에 어울리는 이유는 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜임수(壬水)』의 첫 곡 『Wide Water』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with a battle in the 1590s, when river lamps held back the enemy and carried word to families. Why it suits 2027 is in our feed post.
+
+The music is Wide Water from Five Kinds of Quiet · 壬水 Yang Water (Imsu). Listen through the link in bio.
+
+#고요 #정미년 #진주남강유등축제 #유등 #오행음악""",
+)
+
 def build(key):
     p = P[key]; out = os.path.join(os.path.dirname(os.path.abspath(__file__)), key); os.makedirs(out, exist_ok=True)
     json.dump({'music': p['music'], 'slides': p['slides']}, open(f'{out}/slides.json', 'w'), ensure_ascii=False, indent=1)
@@ -347,7 +418,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-03', '0104': '2027-01-04', '0106': '2027-01-06', '0107': '2027-01-07'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil

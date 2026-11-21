@@ -1,0 +1,15 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": true,
+ "files": [
+  "posts/2027-01-20/01.jpg",
+  "posts/2027-01-20/02.jpg",
+  "posts/2027-01-20/03.jpg",
+  "posts/2027-01-20/04.jpg",
+  "posts/2027-01-20/05.jpg",
+  "posts/2027-01-20/06.jpg"
+ ],
+ "caption": "여름이 세 해 동안 이어졌어요.\n\n2025 을사는 초여름, 2026 병오는 한여름, 2027 정미는 늦여름이에요. 사(巳)·오(午)·미(未)가 여름의 세 글자라서, 세 해를 이어 보면 여름 한 철이 돼요. 2026년 병오는 해(丙)와 한여름(午)이 겹친 가장 뜨거운 자리고, 2027년 정미는 여름의 마무리예요. 불이 꺼지는 해라기보다 불이 다 익는 해로 읽어요.\n\n1월인 지금은 아직 병오년, 한여름의 끝자락이에요. 사주의 해는 입춘(2월 4일)에 바뀌거든요.\n\n한여름의 끝자락에는 한낮의 해 같은 『다섯 가지 고요｜병화(丙火)』. 첫 곡은 『Noon Avenue』예요. 프로필 링크에서 들을 수 있어요.\n\n· English ·\nSummer has lasted three years.\n\n2025 was early summer, 2026 is high summer, and 2027 is late summer. The three summer characters are 巳 Midmorning Fire (Sahwa), 午 Noon Fire (Ohwa) and 未 Afternoon Earth (Mito), so the three years together make one summer season. 2026 is the hottest point, where 丙火 Yang Fire (Byeonghwa), the sun, met Noon Fire. 2027 closes the summer. We read it as a year when the fire ripens, not one when it goes out.\n\nRight now, in January, it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4.\n\nFor the tail end of high summer, music like the midday sun: Five Kinds of Quiet · Yang Fire. The first track is Noon Avenue. Listen through the link in bio.\n\n#고요 #고요이야기 #정미년 #병오년 #사주 #오행 #오행음악 #saju #fiveelements",
+ "note": "정미년 시리즈 0103 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}
