@@ -26,7 +26,7 @@
      36
     ],
     [
-     "열기 곁에 둘 두 갈래",
+     "뜨거운 해 곁의 서늘한 두 갈래",
      44,
      [
       236,
@@ -52,7 +52,7 @@
   {
    "items": [
     [
-     "입춘(2월 4일)부터 시작되는\n정미년은",
+     "지금은 아직 병오년,\n큰 불의 해예요.",
      46,
      [
       236,
@@ -63,8 +63,8 @@
      28
     ],
     [
-     "등불이 늦여름의\n마른 흙을 데우는\n해예요.",
-     64,
+     "2월 4일 입춘부터 오는\n정미년에도 그 열기는\n늦여름 흙에 남아 있어요.",
+     58,
      [
       236,
       233,
@@ -85,8 +85,8 @@
      34
     ],
     [
-     "The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nbegins Feb 4. It's a lamp warming dry late-summer\nearth, and here is cool music to set beside its heat.",
-     30,
+     "For now it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire.\nFrom Feb 4, the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth keeps that heat in late-summer soil.\nHere is cooler music to set beside it.",
+     26,
      [
       214,
       210,
@@ -96,7 +96,7 @@
      0
     ]
    ],
-   "tag": "다가오는 해의 열기"
+   "tag": "아직 남은 열기"
   },
   {
    "items": [
@@ -120,17 +120,6 @@
       226
      ],
      false,
-     34
-    ],
-    [
-     "흙의 열을 받아\n흘려보내는 바위 같은 소리예요.",
-     50,
-     [
-      236,
-      233,
-      226
-     ],
-     false,
      30
     ],
     [
@@ -142,11 +131,22 @@
       140
      ],
      false,
+     24
+    ],
+    [
+     "경금 편은 그 흙의 열을 받아\n흘려보내는 바위 같은 소리예요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
      34
     ],
     [
-     "Five Kinds of Quiet · 庚金 Yang Metal (Gyeonggeum),\nsecond track Stone Bridge: the sound of rock that takes\nin the earth's warmth and lets it go.",
-     30,
+     "Five Kinds of Quiet · 庚金 Yang Metal (Gyeonggeum),\nsecond track Stone Bridge. Old Saju texts say earth\ngives rise to metal; this is the sound of rock that\ntakes in the earth's heat and lets it go.",
+     28,
      [
       214,
       210,
@@ -156,12 +156,12 @@
      0
     ]
    ],
-   "tag": "식혀 주는 소리 하나 · 바위"
+   "tag": "바위 쪽"
   },
   {
    "items": [
     [
-     "경금 편의 곡 이름에는\n바위와 물이 함께 있어요.",
+     "경금 편 곡 이름 속\n돌 곁에는 물이 있어요.",
      56,
      [
       236,
@@ -170,17 +170,6 @@
      ],
      true,
      34
-    ],
-    [
-     "『Granite Light』 화강암 빛",
-     46,
-     [
-      236,
-      233,
-      226
-     ],
-     false,
-     18
     ],
     [
      "『Stone Bridge』 돌다리",
@@ -202,11 +191,22 @@
       226
      ],
      false,
+     18
+    ],
+    [
+     "『Slate Rain』 비 맞은 점판암",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
      34
     ],
     [
-     "1월 21일 그림 읽기의 인왕산도\n화강암 바위 산이에요.",
-     42,
+     "첫 곡 『Granite Light』의 화강암은\n인왕산 바위이기도 해요.",
+     40,
      [
       200,
       180,
@@ -216,7 +216,7 @@
      34
     ],
     [
-     "Track names on the Yang Metal album hold stone and water\ntogether: Granite Light, Stone Bridge, River Stone.\nInwangsan, in our Jan 21 painting post, is a granite peak.",
+     "On the Yang Metal album, water runs beside the stone:\nStone Bridge, River Stone, Slate Rain. The granite\nin its first track, Granite Light, is Inwangsan's rock too.",
      28,
      [
       214,
@@ -243,19 +243,19 @@
      20
     ],
     [
-     "첫 곡 『Drizzle』",
+     "가는 안개에서 젖은 잎으로,\n다시 아침 이슬로",
      50,
      [
       236,
       233,
       226
      ],
-     false,
-     34
+     true,
+     26
     ],
     [
-     "마른 흙에 조용히 스미는\n이슬비 같은 소리예요.",
-     50,
+     "『Fine Mist』 『Wet Leaves』\n『Morning Dew』",
+     42,
      [
       236,
       233,
@@ -265,8 +265,8 @@
      26
     ],
     [
-     "『Fine Mist』 가는 안개\n『Wet Leaves』 젖은 잎\n『Morning Dew』 아침 이슬로 이어져요.",
-     38,
+     "잎 끝에 맺혔다가\n천천히 떨어지는 물방울 같은 소리예요.",
+     42,
      [
       200,
       180,
@@ -276,7 +276,7 @@
      34
     ],
     [
-     "Five Kinds of Quiet · 癸水 Yin Water (Gyesu), first track\nDrizzle: rain soaking quietly into dry earth. It goes on\nto Fine Mist, Wet Leaves and Morning Dew.",
+     "Five Kinds of Quiet · 癸水 Yin Water (Gyesu): from Fine Mist\nto Wet Leaves to Morning Dew, like drops that gather\non a leaf tip and slowly fall.",
      28,
      [
       214,
@@ -287,12 +287,12 @@
      0
     ]
    ],
-   "tag": "식혀 주는 소리 둘 · 비"
+   "tag": "비 쪽"
   },
   {
    "items": [
     [
-     "조금 더 서늘한 쪽으로",
+     "더 서늘한 쪽으로",
      50,
      [
       236,
@@ -314,7 +314,7 @@
      8
     ],
     [
-     "피아노 한 대의 독주예요.",
+     "차갑고 또렷하게 떨어지는\n피아노 독주예요.",
      46,
      [
       236,
@@ -336,7 +336,7 @@
      8
     ],
     [
-     "마른 흙 위로 물이 천천히 번지는\n앰비언트 피아노예요.",
+     "물이 천천히 번지는\n앰비언트 피아노예요.",
      46,
      [
       236,
@@ -347,7 +347,7 @@
      34
     ],
     [
-     "Further on the cool side: the Metal album is solo piano,\nand the Water album is ambient piano, like water\nspreading slowly over dry earth.",
+     "Cooler still: the Metal album is solo piano, clear and cold,\nand the Water album is ambient piano\nthat spreads slowly, like water.",
      28,
      [
       214,
@@ -385,8 +385,8 @@
      30
     ],
     [
-     "1월 21일에는 비 갠 인왕산 바위를\n그린 그림으로 이어 갈게요.",
-     40,
+     "1월 21일에는 비에 젖어 검게 빛나는\n인왕산 바위 그림으로 이어 갈게요.",
+     38,
      [
       200,
       180,
@@ -396,7 +396,7 @@
      34
     ],
     [
-     "Your chart's Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.\nOn Jan 21: a painting of Inwangsan's rain-washed rocks.",
+     "Your chart's Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.\nOn Jan 21: Inwangsan's rocks, dark and wet after rain.",
      28,
      [
       214,
@@ -407,7 +407,7 @@
      0
     ]
    ],
-   "tag": "내게는 어느 쪽일까요"
+   "tag": "내 사주에서는"
   },
   {
    "items": [
@@ -434,7 +434,7 @@
      34
     ],
     [
-     "열을 받아 흘려보내는\n바위 같은 소리예요.",
+     "비에 젖어 서늘한\n바위 같은 소리예요.",
      52,
      [
       236,
@@ -445,7 +445,7 @@
      24
     ],
     [
-     "지금 고른 곡은 『Stone Bridge』예요.",
+     "오늘 고른 곡은 『Stone Bridge』예요.",
      42,
      [
       236,
@@ -467,8 +467,8 @@
      30
     ],
     [
-     "Five Kinds of Quiet · Yang Metal.\nToday's track is Stone Bridge.\nListen through the link in bio.",
-     32,
+     "Five Kinds of Quiet · Yang Metal: like rain-cooled stone.\nToday's track is Stone Bridge.\nListen through the link in bio.",
+     30,
      [
       214,
       210,

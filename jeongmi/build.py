@@ -797,43 +797,46 @@ P['0113'] = dict(
  music='경금', audio='shorts/그림편/audio/경금_Stone Bridge_60s.m4a',
  slides=[
   S([T('1월 13일 · 고요 이야기', 44, GOLD, gap=30), T('바위의 소리,\n비의 소리', 104, bold=True, gap=36),
-     T('열기 곁에 둘 두 갈래', 44, gap=30), T('The sound of stone, the sound of rain', 36, EN, gap=0)]),
-  S([T('입춘(2월 4일)부터 시작되는\n정미년은', 46, gap=28), T('등불이 늦여름의\n마른 흙을 데우는\n해예요.', 64, bold=True, gap=32),
+     T('뜨거운 해 곁의 서늘한 두 갈래', 44, gap=30), T('The sound of stone, the sound of rain', 36, EN, gap=0)]),
+  S([T('지금은 아직 병오년,\n큰 불의 해예요.', 46, gap=28),
+     T('2월 4일 입춘부터 오는\n정미년에도 그 열기는\n늦여름 흙에 남아 있어요.', 58, bold=True, gap=32),
      T('그 열기 곁에 둘\n서늘한 소리를 골랐어요.', 46, gap=34),
-     T('The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nbegins Feb 4. It\'s a lamp warming dry late-summer\nearth, and here is cool music to set beside its heat.', 30, EN, gap=0)], tag='다가오는 해의 열기'),
-  S([T('경금 편', 96, bold=True, gap=20), T('둘째 곡 『Stone Bridge』', 50, gap=34),
-     T('흙의 열을 받아\n흘려보내는 바위 같은 소리예요.', 50, gap=30), T('옛 책은 흙이 쇠를 낳는다고 봐요.', 42, GOLD, gap=34),
-     T('Five Kinds of Quiet · 庚金 Yang Metal (Gyeonggeum),\nsecond track Stone Bridge: the sound of rock that takes\nin the earth\'s warmth and lets it go.', 30, EN, gap=0)], tag='식혀 주는 소리 하나 · 바위'),
-  S([T('경금 편의 곡 이름에는\n바위와 물이 함께 있어요.', 56, bold=True, gap=34),
-     T('『Granite Light』 화강암 빛', 46, gap=18), T('『Stone Bridge』 돌다리', 46, gap=18), T('『River Stone』 강돌', 46, gap=34),
-     T('1월 21일 그림 읽기의 인왕산도\n화강암 바위 산이에요.', 42, GOLD, gap=34),
-     T('Track names on the Yang Metal album hold stone and water\ntogether: Granite Light, Stone Bridge, River Stone.\nInwangsan, in our Jan 21 painting post, is a granite peak.', 28, EN, gap=0)], tag='곡 이름에 담긴 것'),
-  S([T('계수 편', 96, bold=True, gap=20), T('첫 곡 『Drizzle』', 50, gap=34),
-     T('마른 흙에 조용히 스미는\n이슬비 같은 소리예요.', 50, gap=26),
-     T('『Fine Mist』 가는 안개\n『Wet Leaves』 젖은 잎\n『Morning Dew』 아침 이슬로 이어져요.', 38, GOLD, gap=34),
-     T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu), first track\nDrizzle: rain soaking quietly into dry earth. It goes on\nto Fine Mist, Wet Leaves and Morning Dew.', 28, EN, gap=0)], tag='식혀 주는 소리 둘 · 비'),
-  S([T('조금 더 서늘한 쪽으로', 50, gap=30),
-     T('금 편', 70, bold=True, gap=8), T('피아노 한 대의 독주예요.', 46, gap=30),
-     T('수 편', 70, bold=True, gap=8), T('마른 흙 위로 물이 천천히 번지는\n앰비언트 피아노예요.', 46, gap=34),
-     T('Further on the cool side: the Metal album is solo piano,\nand the Water album is ambient piano, like water\nspreading slowly over dry earth.', 28, EN, gap=0)], tag='오행 편도 있어요'),
+     T('For now it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire.\nFrom Feb 4, the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth keeps that heat in late-summer soil.\nHere is cooler music to set beside it.', 26, EN, gap=0)], tag='아직 남은 열기'),
+  S([T('경금 편', 96, bold=True, gap=20), T('둘째 곡 『Stone Bridge』', 50, gap=30),
+     T('옛 책은 흙이 쇠를 낳는다고 봐요.', 42, GOLD, gap=24),
+     T('경금 편은 그 흙의 열을 받아\n흘려보내는 바위 같은 소리예요.', 48, gap=34),
+     T('Five Kinds of Quiet · 庚金 Yang Metal (Gyeonggeum),\nsecond track Stone Bridge. Old Saju texts say earth\ngives rise to metal; this is the sound of rock that\ntakes in the earth\'s heat and lets it go.', 28, EN, gap=0)], tag='바위 쪽'),
+  S([T('경금 편 곡 이름 속\n돌 곁에는 물이 있어요.', 56, bold=True, gap=34),
+     T('『Stone Bridge』 돌다리', 46, gap=18), T('『River Stone』 강돌', 46, gap=18), T('『Slate Rain』 비 맞은 점판암', 46, gap=34),
+     T('첫 곡 『Granite Light』의 화강암은\n인왕산 바위이기도 해요.', 40, GOLD, gap=34),
+     T('On the Yang Metal album, water runs beside the stone:\nStone Bridge, River Stone, Slate Rain. The granite\nin its first track, Granite Light, is Inwangsan\'s rock too.', 28, EN, gap=0)], tag='곡 이름에 담긴 것'),
+  S([T('계수 편', 96, bold=True, gap=20),
+     T('가는 안개에서 젖은 잎으로,\n다시 아침 이슬로', 50, bold=True, gap=26),
+     T('『Fine Mist』 『Wet Leaves』\n『Morning Dew』', 42, gap=26),
+     T('잎 끝에 맺혔다가\n천천히 떨어지는 물방울 같은 소리예요.', 42, GOLD, gap=34),
+     T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu): from Fine Mist\nto Wet Leaves to Morning Dew, like drops that gather\non a leaf tip and slowly fall.', 28, EN, gap=0)], tag='비 쪽'),
+  S([T('더 서늘한 쪽으로', 50, gap=30),
+     T('금 편', 70, bold=True, gap=8), T('차갑고 또렷하게 떨어지는\n피아노 독주예요.', 46, gap=30),
+     T('수 편', 70, bold=True, gap=8), T('물이 천천히 번지는\n앰비언트 피아노예요.', 46, gap=34),
+     T('Cooler still: the Metal album is solo piano, clear and cold,\nand the Water album is ambient piano\nthat spreads slowly, like water.', 28, EN, gap=0)], tag='오행 편도 있어요'),
   S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 52, gap=30), T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 50, bold=True, gap=30),
-     T('1월 21일에는 비 갠 인왕산 바위를\n그린 그림으로 이어 갈게요.', 40, GOLD, gap=34),
-     T('Your chart\'s Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.\nOn Jan 21: a painting of Inwangsan\'s rain-washed rocks.', 28, EN, gap=0)], tag='내게는 어느 쪽일까요'),
+     T('1월 21일에는 비에 젖어 검게 빛나는\n인왕산 바위 그림으로 이어 갈게요.', 38, GOLD, gap=34),
+     T('Your chart\'s Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.\nOn Jan 21: Inwangsan\'s rocks, dark and wet after rain.', 28, EN, gap=0)], tag='내 사주에서는'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('경금 편', 96, bold=True, gap=34),
-     T('열을 받아 흘려보내는\n바위 같은 소리예요.', 52, gap=24), T('지금 고른 곡은 『Stone Bridge』예요.', 42, gap=30),
+     T('비에 젖어 서늘한\n바위 같은 소리예요.', 52, gap=24), T('오늘 고른 곡은 『Stone Bridge』예요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yang Metal.\nToday\'s track is Stone Bridge.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yang Metal: like rain-cooled stone.\nToday\'s track is Stone Bridge.\nListen through the link in bio.', 30, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 13일', 50, GOLD, gap=34), T('바위의 소리,\n비의 소리', 112, bold=True, gap=50), T('The sound of stone,\nthe sound of rain', 40, EN, gap=0)]),
-  dict(sec=6.0, step=1.0, items=[T('등불이 데운\n마른 흙 곁에', 92, bold=True, gap=40), T('입춘(2월 4일)부터', 56, gap=50), T('Beside the heat of warm, dry earth, from Feb 4', 36, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('아직 뜨겁고\n마른 해 곁에', 92, bold=True, gap=40), T('입춘(2월 4일)부터 정미년', 52, gap=50), T('Beside a year still hot and dry', 38, EN, gap=0)]),
   dict(sec=7.0, step=1.0, items=[T('바위의 소리', 76, bold=True, gap=10), T('경금 편', 60, gap=40), T('비의 소리', 76, bold=True, gap=10), T('계수 편', 60, gap=50),
        T('Stone: 庚金 Yang Metal (Gyeonggeum)\nRain: 癸水 Yin Water (Gyesu)', 36, EN, gap=0)]),
   dict(sec=5.5, step=0.9,
-       items_ig=[T('곡 이름에 숨은\n바위와 물은?', 92, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
-                 T('Stone and water hidden in the track names?\nMore in our feed post', 38, EN, gap=0)],
-       items_yt=[T('곡 이름에 숨은\n바위와 물은?', 92, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
-                 T('Stone and water hidden in the track names?\nMore in our Posts tab', 38, EN, gap=0)]),
+       items_ig=[T('돌다리, 강돌…\n물은 어디에?', 96, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
+                 T('Stone Bridge, River Stone… where is the water?\nMore in our feed post', 36, EN, gap=0)],
+       items_yt=[T('돌다리, 강돌…\n물은 어디에?', 96, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
+                 T('Stone Bridge, River Stone… where is the water?\nMore in our Posts tab', 36, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('경금 편', 100, bold=True, gap=36), T('『Stone Bridge』', 56, gap=26),
                  T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Metal\nStone Bridge · Listen through the link in bio.', 36, EN, gap=0)],
@@ -842,42 +845,42 @@ P['0113'] = dict(
  ],
  caption="""바위의 소리, 비의 소리.
 
-입춘(2월 4일)부터 시작되는 정미년은 등불이 늦여름의 마른 흙을 데우는 해예요. 그 열기 곁에 둘 서늘한 소리를 두 갈래로 골랐어요.
+지금은 아직 병오년, 큰 불의 해예요. 2월 4일 입춘부터 오는 정미년에도 그 열기는 늦여름 흙에 남아 있어요. 그 열기 곁에 둘 서늘한 소리를 바위 쪽과 비 쪽으로 골랐어요.
 
-하나는 바위의 소리, 『다섯 가지 고요｜경금(庚金)』의 둘째 곡 『Stone Bridge』예요. 흙의 열을 받아 흘려보내는 바위 같은 소리예요. 옛 책은 흙이 쇠를 낳는다고 봐요. 경금 편의 곡 이름에는 바위와 물이 함께 있어요. 『Granite Light』(화강암 빛), 『Stone Bridge』(돌다리), 『River Stone』(강돌). 1월 21일 그림 읽기에서 볼 인왕산도 화강암 바위 산이에요.
+바위 쪽은 『다섯 가지 고요｜경금(庚金)』의 둘째 곡 『Stone Bridge』예요. 옛 책은 흙이 쇠를 낳는다고 봐요. 경금 편은 그 흙의 열을 받아 흘려보내는 바위 같은 소리예요. 곡 이름 속 돌 곁에는 물이 있어요. 『Stone Bridge』(돌다리), 『River Stone』(강돌), 『Slate Rain』(비 맞은 점판암). 첫 곡 『Granite Light』의 화강암은 인왕산 바위이기도 해요.
 
-다른 하나는 비의 소리, 『다섯 가지 고요｜계수(癸水)』의 첫 곡 『Drizzle』이에요. 마른 흙에 조용히 스미는 이슬비 같은 소리로, 『Fine Mist』(가는 안개), 『Wet Leaves』(젖은 잎), 『Morning Dew』(아침 이슬)로 이어져요.
+비 쪽은 『다섯 가지 고요｜계수(癸水)』예요. 『Fine Mist』(가는 안개)에서 『Wet Leaves』(젖은 잎)로, 다시 『Morning Dew』(아침 이슬)로 이어지는, 잎 끝에 맺혔다가 천천히 떨어지는 물방울 같은 소리예요.
 
-조금 더 서늘한 쪽으로는 오행 편도 있어요. 금(金) 편은 피아노 한 대의 독주, 수(水) 편은 마른 흙 위로 물이 천천히 번지는 앰비언트 피아노예요.
+더 서늘한 쪽으로는 오행 편도 있어요. 금(金) 편은 차갑고 또렷하게 떨어지는 피아노 독주, 수(水) 편은 물이 천천히 번지는 앰비언트 피아노예요.
 
-불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요. 1월 21일에는 비 갠 인왕산 바위를 그린 그림으로 이어 갈게요.
+불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요. 1월 21일에는 비에 젖어 검게 빛나는 인왕산 바위 그림으로 이어 갈게요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜경금(庚金)』의 『Stone Bridge』예요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 The sound of stone, the sound of rain.
 
-The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at Ipchun (立春), the start of spring, on February 4. It is a lamp warming the dry earth of late summer, so we picked two kinds of cool music to set beside its heat.
+For now it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, a year of big fire. From Ipchun (立春), the start of spring, on February 4, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth keeps that heat in late-summer soil. So we picked cooler music to set beside it, from the stone side and the rain side.
 
-The sound of stone: Stone Bridge, the second track of Five Kinds of Quiet · 庚金 Yang Metal (Gyeonggeum). It sounds like rock that takes in the earth's warmth and lets it go; old Saju texts say earth gives rise to metal. The album's track names hold stone and water together: Granite Light, Stone Bridge, River Stone. Inwangsan, in our January 21 painting post, is a granite peak too.
+On the stone side: Stone Bridge, the second track of Five Kinds of Quiet · 庚金 Yang Metal (Gyeonggeum). Old Saju texts say earth gives rise to metal, and this album sounds like rock that takes in the earth's heat and lets it go. On it, water runs beside the stone: Stone Bridge, River Stone, Slate Rain. The granite in its first track, Granite Light, is Inwangsan's rock too.
 
-The sound of rain: Drizzle, the first track of Five Kinds of Quiet · 癸水 Yin Water (Gyesu), rain soaking quietly into dry earth. It goes on to Fine Mist, Wet Leaves and Morning Dew.
+On the rain side: Five Kinds of Quiet · 癸水 Yin Water (Gyesu), from Fine Mist to Wet Leaves to Morning Dew, like drops that gather on a leaf tip and slowly fall.
 
-Further on the cool side, the Metal album is solo piano, and the Water album is ambient piano, like water spreading slowly over dry earth.
+Cooler still: the Metal album is solo piano, clear and cold, and the Water album is ambient piano that spreads slowly, like water.
 
-You can see how much Fire and Water your chart holds in our free app. Which side suits you depends on your whole chart. The app is linked in our bio. On January 21, we'll turn to a painting of Inwangsan's rain-washed rocks.
+You can see how much Fire and Water your chart holds in our free app. Which side suits you depends on your whole chart. The app is linked in our bio. On January 21, we'll turn to a painting of Inwangsan's rocks, dark and wet after rain.
 
 The music playing is Stone Bridge from Five Kinds of Quiet · Yang Metal. Listen through the link in bio.
 
 #고요 #정미년 #오행음악 #경금 #계수 #피아노 #사주 #saju #fiveelements""",
  reel_caption="""바위의 소리, 비의 소리.
 
-등불이 마른 흙을 데우는 정미년(입춘 2월 4일부터). 그 열기 곁에 둘 소리는 바위의 소리인 경금(庚金) 편과 비의 소리인 계수(癸水) 편이에요. 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 곡 이름에 숨은 바위와 물, 더 서늘한 오행 편은 피드 게시물에 있어요.
+병오년의 열기가 늦여름 흙에 남는 정미년(입춘 2월 4일부터). 그 곁에 둘 소리는 바위 쪽의 경금(庚金) 편과 비 쪽의 계수(癸水) 편이에요. 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 곡 이름 속 돌과 물, 더 서늘한 오행 편은 피드 게시물에 있어요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜경금(庚金)』의 『Stone Bridge』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-The coming year, from February 4, is a lamp warming dry earth. Two kinds of cool music to set beside it: 庚金 Yang Metal (Gyeonggeum) for stone, and 癸水 Yin Water (Gyesu) for rain. You can see how much Fire and Water your chart holds in our free app; which side suits you depends on your whole chart. More on the track names in our feed post.
+The coming year, from February 4, keeps last year's heat in late-summer earth. Beside it: 庚金 Yang Metal (Gyeonggeum) for stone, and 癸水 Yin Water (Gyesu) for rain. You can see how much Fire and Water your chart holds in our free app; which side suits you depends on your whole chart. More on the track names and the cooler Metal and Water albums in our feed post.
 
 The music is Stone Bridge from Five Kinds of Quiet · Yang Metal. Listen through the link in bio.
 
