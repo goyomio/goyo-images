@@ -57,7 +57,7 @@ FLIPS = [T0 + i * STEP for i in range(3)]
 END = FLIPS[-1] + FLIP + 1.8             # 끝 장면 시작
 BRIDGE = 6.0                             # 연결 장면: 채널 소개 두 장면(각 3초)
 CTA = END + BRIDGE
-TOT = CTA + 4.2
+TOT = CTA + 6.5                          # 끝 장면 약 6초 머묾(11/21 미오 님: 너무 짧음)
 
 def ctext(dr, y, t, f, fill, cx=W // 2, stroke=0):
     w = dr.textlength(t, font=f); dr.text((cx - w / 2, y), t, font=f, fill=fill, stroke_width=stroke, stroke_fill=(0, 0, 0))
