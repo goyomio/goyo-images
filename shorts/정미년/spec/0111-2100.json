@@ -1,0 +1,243 @@
+{
+ "key": "0111-2100",
+ "date": "2027-01-11",
+ "slot": "2100",
+ "name": "내 일간 찾는 법",
+ "audio": {
+  "pyeon": "금1",
+  "title": "First Frost",
+  "file": "/home/claude/goyo-keys/audio/금1/03 First Frost.m4a",
+  "start_hms": "6:08",
+  "근거": "원곡: goyo-keys/audio/catalog.json 금1 03 6:08 First Frost (곡 시작부터 60초)"
+ },
+ "music_ko": "금(金)",
+ "music_en": "Metal",
+ "end_tag": "오늘 밤의 소리",
+ "scenes": [
+  {
+   "sec": 4.0,
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/0111_네기둥.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "내 일간,\n3초 만에 찾는 법",
+     86,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Find your Day Master in three seconds",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "만세력이나 사주앱에\n태어난 날짜와 시를 넣으면\n네 기둥이 나와요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Enter your birth date and hour into a Saju calendar or app,\nand you get four pillars.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0111_폰.png",
+    "h": 300
+   }
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/0111_네기둥.png",
+    "h": 280
+   },
+   "items": [
+    [
+     "전통 만세력은 오른쪽부터\n연 · 월 · 일 · 시로 적어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     22
+    ],
+    [
+     "앱마다 순서가 다를 수 있으니\n「일(日)」이라고 적힌 기둥을 찾으세요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Traditional charts run right to left: year, month, day, hour.\nApps may differ, so look for the pillar marked “day” (日).",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "날 기둥의 윗글자,\n그게 일간이에요.",
+     70,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     26
+    ],
+    [
+     "사주 여덟 글자 가운데 「나」를 가리키는 글자예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "The top character of the day pillar is your Day Master,\nthe one of the eight that stands for you.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0111_네기둥.png",
+    "h": 260
+   }
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/0111_열편.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "일간은 열 가지.\n고요에는 일간마다 플레이리스트가 있어요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "There are ten Day Masters,\nand GOYO has a playlist for each.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "태어난 시를 몰라도 일간은 나와요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "다만 밤 11시~새벽 0시 반에 태어났다면\n만세력마다 일간이 다를 수 있어요(1월 8일 편).",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "You don't need your birth hour to find it. But if you were born\nbetween 11 p.m. and 12:30 a.m., charts may disagree (see our Jan 8 short).",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8,
+   "art": {
+    "file": "shorts/정미년/art/달_시계.png",
+    "h": 260
+   }
+  }
+ ],
+ "caption": "내 일간, 3초 만에 찾는 법.\n\n만세력이나 사주앱에 태어난 날짜와 시를 넣으면 네 기둥이 나와요. 전통 만세력은 오른쪽부터 연·월·일·시로 적어요. 앱마다 순서가 다를 수 있으니 「일(日)」이라고 적힌 기둥을 찾으세요. 그 날 기둥의 윗글자가 일간, 사주 여덟 글자 가운데 「나」를 가리키는 글자예요.\n\n일간은 갑목부터 계수까지 열 가지예요. 고요에는 일간마다 플레이리스트가 있어서, 내 일간 편부터 들어 볼 수 있어요. 태어난 시를 몰라도 일간은 나와요. 다만 밤 11시~새벽 0시 반에 태어났다면 만세력마다 일간이 다를 수 있어요(1월 8일 편).\n\n오늘 밤의 소리는 다섯 가지 고요의 『First Frost』(금1 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nFind your Day Master in three seconds. Enter your birth date and hour into a Saju calendar or app, and you get four pillars. Traditional charts run right to left: year, month, day, hour. Apps may differ, so look for the pillar marked “day” (日). Its top character is your Day Master, the one of the eight that stands for you. There are ten, and GOYO has a playlist for each. You don't need your birth hour to find it, but if you were born between 11 p.m. and 12:30 a.m., charts may disagree (see our January 8 short).\nMusic tonight: Five Kinds of Quiet · Metal · “First Frost”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #일간 #만세력 #사주 #오행음악",
+ "note": "정미년 v4 · 1/11 21:00 내 일간 찾는 법(2/1에서 당김 — 1/10 숭례문과 「오행이 숨은 ○○」 형식 이틀 연속 피함, 다음 날 1/12 일간 병화)"
+}

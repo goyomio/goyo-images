@@ -1,0 +1,284 @@
+{
+ "audio": "shorts/정미년/audio/금1_FirstFrost_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/0111_네기둥.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "내 일간,\n3초 만에 찾는 법",
+     86,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Find your Day Master in three seconds",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "만세력이나 사주앱에\n태어난 날짜와 시를 넣으면\n네 기둥이 나와요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Enter your birth date and hour into a Saju calendar or app,\nand you get four pillars.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0111_폰.png",
+    "h": 300
+   }
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/0111_네기둥.png",
+    "h": 280
+   },
+   "items": [
+    [
+     "전통 만세력은 오른쪽부터\n연 · 월 · 일 · 시로 적어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     22
+    ],
+    [
+     "앱마다 순서가 다를 수 있으니\n「일(日)」이라고 적힌 기둥을 찾으세요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Traditional charts run right to left: year, month, day, hour.\nApps may differ, so look for the pillar marked “day” (日).",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "날 기둥의 윗글자,\n그게 일간이에요.",
+     70,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     26
+    ],
+    [
+     "사주 여덟 글자 가운데 「나」를 가리키는 글자예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "The top character of the day pillar is your Day Master,\nthe one of the eight that stands for you.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0111_네기둥.png",
+    "h": 260
+   }
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/0111_열편.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "일간은 열 가지.\n고요에는 일간마다 플레이리스트가 있어요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "There are ten Day Masters,\nand GOYO has a playlist for each.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "태어난 시를 몰라도 일간은 나와요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "다만 밤 11시~새벽 0시 반에 태어났다면\n만세력마다 일간이 다를 수 있어요(1월 8일 편).",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "You don't need your birth hour to find it. But if you were born\nbetween 11 p.m. and 12:30 a.m., charts may disagree (see our Jan 8 short).",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8,
+   "art": {
+    "file": "shorts/정미년/art/달_시계.png",
+    "h": 260
+   }
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 금(金)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『First Frost』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Metal\n“First Frost”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

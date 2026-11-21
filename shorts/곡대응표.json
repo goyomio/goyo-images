@@ -458,5 +458,10 @@
   "편": "화1",
   "곡": "Afternoon Heat",
   "근거": "원곡: goyo-keys/audio/catalog.json 화1 06 14:43 Afternoon Heat (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/금1_FirstFrost_60s.m4a": {
+  "편": "금1",
+  "곡": "First Frost",
+  "근거": "원곡: goyo-keys/audio/catalog.json 금1 03 6:08 First Frost (곡 시작부터 60초)"
  }
 }
