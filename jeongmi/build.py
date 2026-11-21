@@ -346,11 +346,11 @@ P['0103j'] = dict(
      T('경남 진주 남강유등축제', 48, gap=30), T('Lamps on the river · Jinju, Korea', 38, EN, gap=0)]),
   S([T('가을이면\n진주 남강 위에\n등이 떠요.', 66, bold=True, gap=34), T('해마다 10월 초~중순에 열려요.\n2026년은 10월 3일부터 18일까지였어요.', 42, gap=26),
      T('2027년 날짜는 아직 발표 전이에요.', 36, [150, 145, 135], gap=30),
-     T('Every fall, lamps float on the Namgang River. Held in early to mid October.', 32, EN, gap=0)], tag='강물 위에 등을 띄우는 축제'),
+     T('Every fall, lamps float on the Namgang River. It\'s held in early to mid-October.', 32, EN, gap=0)], tag='강물 위에 등을 띄우는 축제'),
   S([T('임진왜란 진주성 전투 때', 50, gap=20), T('남강에 등을 띄워\n강을 건너려는 적을 막고,\n성 밖 가족에게\n안부를 전했다고 해요.', 58, bold=True, gap=36),
      T('It began with a 1590s battle at Jinju Fortress: river lamps held back the enemy and carried word home.', 32, EN, gap=0)], tag='왜 강에 등을 띄웠을까요'),
   S([T('2027년의 글자는\n가까운 곳을 오래 비추는 등불.', 54, gap=30), T('그 등불이\n넓은 강물 위에\n떠 있는 곳이에요.', 60, bold=True, gap=36),
-     T('2027 is the year of the lamp. Here, the lamps float on a wide river.', 34, EN, gap=0)], tag='등불과 강물이 한 장면에'),
+     T('In 2027, the year\'s character is a lamp. Here, the lamps float on a wide river.', 34, EN, gap=0)], tag='등불과 강물이 한 장면에'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
      T('등불을 싣고 흐르는\n넓은 강물 같은 소리예요.', 52, gap=24), T('첫 곡은 『Wide Water』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -385,11 +385,11 @@ P['0103j'] = dict(
 · English ·
 Lamps on the river: the Jinju Namgang Yudeung Festival.
 
-Every fall, countless lamps float on the Namgang River in Jinju, Korea. The festival runs in early to mid October; in 2026 it ran October 3 to 18. The 2027 dates are not out yet, so check the city's notice before you go.
+Every fall, countless lamps float on the Namgang River in Jinju, Korea. The festival runs in early to mid-October; in 2026 it ran October 3 to 18. The 2027 dates are not out yet, so check the city's notice before you go.
 
 The custom goes back to the 1590s and a battle at Jinju Fortress: lamps floated on the river held back the enemy and carried word to families outside the walls.
 
-2027 is the year of the lamp, a light that stays close. Here, those lamps float on a wide river, so we picked it as a place to visit this year.
+In 2027, the year's character is a lamp: a light that stays close. Here, those lamps float on a wide river, so we picked it as a place to visit this year.
 
 Music like a wide river carrying lamps: Five Kinds of Quiet · 壬水 Yang Water (Imsu). The first track is Wide Water. Listen through the link in bio.
 
@@ -401,7 +401,7 @@ Music like a wide river carrying lamps: Five Kinds of Quiet · 壬水 Yang Water
 지금 흐르는 음악은 『다섯 가지 고요｜임수(壬水)』의 첫 곡 『Wide Water』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with a battle in the 1590s, when river lamps held back the enemy and carried word to families. Why it suits 2027 is in our feed post.
+Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with a battle in the 1590s, when river lamps held back the enemy and carried word to families. Our feed post explains why it suits 2027.
 
 The music is Wide Water from Five Kinds of Quiet · 壬水 Yang Water (Imsu). Listen through the link in bio.
 
