@@ -90,6 +90,55 @@
   {
    "items": [
     [
+     "사주의 달은 1일이 아니라\n절기가 드는 순간 바뀌어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     32
+    ],
+    [
+     "소한은 사주의 달을 여는\n열두 절기 가운데 마지막이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "입춘에 인월(寅月)로 한 해의 달을 열고,\n소한에 축월(丑月)로 마지막 달을 열어요.\n스물네 절기 전체의 마지막은\n보름 뒤 대한이에요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "In Saju, a month begins not on the 1st but at one of twelve solar terms. The Saju year opens at the start of spring (立春) with 寅 Predawn Wood (Inmok). Minor Cold (小寒) is the last of the twelve, opening the final month: Deep Night Earth.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "사주의 달력은 절기로 넘어가요"
+  },
+  {
+   "items": [
+    [
      "소한부터는\n한겨울의 언 흙이 시작돼요.",
      62,
      [
@@ -124,6 +173,55 @@
     ]
    ],
    "tag": "한겨울의 언 흙"
+  },
+  {
+   "items": [
+    [
+     "소한(小寒)은 작은 추위,\n대한(大寒)은 큰 추위.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "그런데 옛말에\n「대한이 소한의 집에 가서\n얼어 죽었다」고 해요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "소한 무렵이 대한 무렵보다\n더 춥게 느껴질 때가 많아 생겼다고 해요.\n올해 대한은 1월 20일 오후 4시 30분이에요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Minor Cold is the \"small cold\"; Major Cold (大寒), the \"great cold.\" Yet an old Korean saying goes: \"Major Cold went to Minor Cold's house and froze to death.\" The days around Minor Cold are said to feel even colder. This year, Major Cold arrives on January 20 at 4:30 p.m. KST.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이름은 작은 추위인데"
   },
   {
    "items": [

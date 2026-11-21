@@ -107,8 +107,14 @@ P['0104'] = dict(
      T('小寒 · 1월 5일 오후 11시 10분', 44, gap=30), T('Minor Cold (小寒) arrives tomorrow night', 38, EN, gap=0)]),
   S([T('1월 5일 오후 11시 10분,\n소한이 드는 순간부터\n사주의 달이 바뀌어요.', 54, gap=34), T('자월(子月)에서\n축월(丑月)로.', 70, bold=True, gap=36),
      T('At 11:10 p.m. on January 5, the Saju month turns from 子 Midnight Water (Jasu) to 丑 Deep Night Earth (Chukto).', 32, EN, gap=0)], tag='사주의 달이 바뀌는 밤'),
+  S([T('사주의 달은 1일이 아니라\n절기가 드는 순간 바뀌어요.', 50, gap=32), T('소한은 사주의 달을 여는\n열두 절기 가운데 마지막이에요.', 58, bold=True, gap=34),
+     T('입춘에 인월(寅月)로 한 해의 달을 열고,\n소한에 축월(丑月)로 마지막 달을 열어요.\n스물네 절기 전체의 마지막은\n보름 뒤 대한이에요.', 38, GOLD, gap=30),
+     T('In Saju, a month begins not on the 1st but at one of twelve solar terms. The Saju year opens at the start of spring (立春) with 寅 Predawn Wood (Inmok). Minor Cold (小寒) is the last of the twelve, opening the final month: Deep Night Earth.', 32, EN, gap=0)], tag='사주의 달력은 절기로 넘어가요'),
   S([T('소한부터는\n한겨울의 언 흙이 시작돼요.', 62, bold=True, gap=36), T('언 흙에는\n등불 같은 따뜻한 불이\n어울린다고 봐요.', 52, gap=36),
      T('Minor Cold brings the frozen earth of deep winter. A warm, lamp-like fire suits it.', 34, EN, gap=0)], tag='한겨울의 언 흙'),
+  S([T('소한(小寒)은 작은 추위,\n대한(大寒)은 큰 추위.', 48, gap=28), T('그런데 옛말에\n「대한이 소한의 집에 가서\n얼어 죽었다」고 해요.', 52, bold=True, gap=30),
+     T('소한 무렵이 대한 무렵보다\n더 춥게 느껴질 때가 많아 생겼다고 해요.\n올해 대한은 1월 20일 오후 4시 30분이에요.', 38, GOLD, gap=26),
+     T('Minor Cold is the "small cold"; Major Cold (大寒), the "great cold." Yet an old Korean saying goes: "Major Cold went to Minor Cold\'s house and froze to death." The days around Minor Cold are said to feel even colder. This year, Major Cold arrives on January 20 at 4:30 p.m. KST.', 30, EN, gap=0)], tag='이름은 작은 추위인데'),
   S([T('해는 아직 병오년이에요.\n사주의 해는 입춘(2월 4일)에 바뀌어요.', 46, gap=34), T('소한 뒤, 입춘 전에 태어나면\n병오년 축월생이에요.', 60, bold=True, gap=36),
      T('The year is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire. Born after Minor Cold, before the start of spring (立春)? Your month is Deep Night Earth.', 32, EN, gap=0)], tag='해는 아직 그대로'),
   S([T('월 계미 · 화 갑신 · 수 을유\n목 병술 · 금 정해 · 토 무자\n일 기축', 54, gap=34), T('날마다 앞 글자가\n물 → 나무 → 불 → 흙 순서로 흘러요.', 46, gap=30),
@@ -122,6 +128,8 @@ P['0104'] = dict(
 
 1월 5일 오후 11시 10분, 소한(小寒)이 드는 순간부터 사주의 달이 자월에서 축월로 바뀌어요. 소한부터는 한겨울의 언 흙이 시작돼요. 언 흙에는 등불 같은 따뜻한 불이 어울린다고 봐요.
 
+사주의 달은 1일이 아니라 절기가 드는 순간 바뀌어요. 소한은 사주의 달을 여는 열두 절기 가운데 마지막이에요. 입춘에 인월로 열린 한 해가 소한에 축월로 마지막 달을 맞아요. 스물네 절기 전체의 마지막은 보름 뒤 대한(1월 20일 오후 4시 30분)이에요. 이름은 작은 추위지만, 옛말에 「대한이 소한의 집에 가서 얼어 죽었다」고 할 만큼 소한 무렵이 대한 무렵보다 더 춥게 느껴질 때가 많다고 해요.
+
 해는 아직 병오년이에요. 사주의 해는 입춘(2월 4일)에 바뀌어서, 소한 뒤 입춘 전에 태어나면 병오년 축월생이에요.
 
 이번 주 일진은 계미 → 갑신 → 을유 → 병술 → 정해 → 무자 → 기축. 날마다 앞 글자가 물 → 나무 → 불 → 흙 순서로 흘러요.
@@ -132,6 +140,8 @@ P['0104'] = dict(
 Minor Cold arrives tomorrow night.
 
 At 11:10 p.m. on January 5 (Korea Standard Time), Minor Cold (小寒) begins and the Saju month turns from 子 Midnight Water (Jasu) to 丑 Deep Night Earth (Chukto). From here comes the frozen earth of deep winter, and a warm, lamp-like fire suits it.
+
+In Saju, a month begins not on the 1st but at one of twelve solar terms. The Saju year opens at the start of spring (立春) with 寅 Predawn Wood (Inmok), and Minor Cold is the last of the twelve, opening the final month. The last of all twenty-four solar terms is Major Cold (大寒), fifteen days later, on January 20 at 4:30 p.m. Its name means the "great cold," yet an old Korean saying goes: "Major Cold went to Minor Cold's house and froze to death." The days around Minor Cold are said to feel even colder.
 
 The year is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire. In Saju, the year turns at the start of spring (立春) on February 4, so anyone born after Minor Cold and before then has a Deep Night Earth month in that year.
 

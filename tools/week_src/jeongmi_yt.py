@@ -13,7 +13,7 @@ cfg = json.load(open(f'jeongmi/{d}/slides.json', encoding='utf-8'))
 os.makedirs(out, exist_ok=True)
 X.W, X.H = 1080, 1350
 n = len(cfg['slides'])
-post = 'posts/2027-%s-%s' % (d[:2], d[2:])
+post = 'posts/2027-%s-%s' % (d[:2], d[2:4])
 for k, s in enumerate(cfg['slides'], 1):
     raw = json.dumps(s, ensure_ascii=False); changed = any(a in raw for a, _ in REP)
     orig = X.draw_slide(s, k, n).convert('RGB')
