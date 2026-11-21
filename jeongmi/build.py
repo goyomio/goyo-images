@@ -232,16 +232,16 @@ P['0106'] = dict(
      T('丁火 Yin Fire (Jeonghwa) is a lamp\nthat lights what is near, for a long time.', 34, EN, gap=0)], tag='가까이 오래 비추는 빛'),
   S([T('해는 멀리서 모두를 비추고,\n등불은 가까이에서\n한 사람의 얼굴과 손을 비춰요.', 54, gap=36),
      T('The sun lights everyone from afar.\nA lamp lights one person\'s\nface and hands, up close.', 34, EN, gap=0)], tag='같은 불, 다른 빛'),
-  S([T('옛 명리 책 『적천수』는 해를 두고', 42, gap=26), T('세차고 사나워서\n서리와 눈도\n업신여긴다고 했어요.', 62, bold=True, gap=30),
-     T('丙火猛烈 欺霜侮雪', 40, GOLD, gap=26), T('겨울 추위에도 꺾이지 않고\n멀리까지 뻗는 빛이라는 뜻이에요.', 44, gap=34),
-     T('Di Tian Sui (滴天髓), a Saju classic, on Yang Fire:\n"Fierce and blazing, it scorns frost and snow."', 32, EN, gap=0)], tag='옛 책이 본 해'),
-  S([T('같은 책은 등불을 두고', 42, gap=26), T('겉은 부드럽고\n속은 환하게 밝다고 했어요.', 58, bold=True, gap=24),
+  S([T('옛 명리 책 『적천수』는 병화를 두고', 42, gap=26), T('세차고 사나워서\n서리와 눈도\n업신여긴다고 했어요.', 62, bold=True, gap=30),
+     T('丙火猛烈 欺霜侮雪', 40, GOLD, gap=26), T('겨울 추위에도\n기세가 꺾이지 않는 불이라는 뜻이에요.', 44, gap=34),
+     T('Di Tian Sui (滴天髓), a classic Saju text, on Yang Fire:\n"Fierce and blazing, it scorns frost and snow."', 32, EN, gap=0)], tag='옛 책이 본 해'),
+  S([T('같은 책은 정화를 두고', 42, gap=26), T('부드럽고 치우치지 않으며\n속은 환하게 밝다고 했어요.', 56, bold=True, gap=24),
      T('세져도 사납게 타지 않고,\n약해져도 다하지 않는다고요.', 52, bold=True, gap=26),
-     T('丁火柔中 內性昭融 · 旺而不烈 衰而不窮', 34, GOLD, gap=26), T('가까이 오래 비추는 빛이 여기서 나와요.', 42, gap=34),
-     T('On Yin Fire: "Gentle outside, bright within.\nStrong, it does not rage; weak, it does not run out."', 32, EN, gap=0)], tag='옛 책이 본 등불'),
+     T('丁火柔中 內性昭融 … 旺而不烈 衰而不窮', 34, GOLD, gap=26), T('등불이 오래 비추는 빛인 까닭이 여기 있어요.', 40, gap=34),
+     T('On Yin Fire: "Gentle and centered, bright within.\nStrong, it does not rage; weak, it does not run out."', 32, EN, gap=0)], tag='옛 책이 본 등불'),
   S([T('2026년의 빛은 해,\n2027년의 빛은 등불이에요.', 58, bold=True, gap=30), T('넓게 퍼지는 빛이 입춘부터\n가까운 자리를 오래 밝히는\n빛으로 옮겨 가요.', 46, gap=30),
      T('사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.', 38, gap=30), T('1월 7일 그림 읽기의 라 투르도\n등불 하나를 그렸어요.', 42, GOLD, gap=30),
-     T('In 2026 the light is the sun; in 2027, a lamp.\nLa Tour painted one in our Jan 7 post.', 32, EN, gap=0)], tag='해에서 등불로'),
+     T('In 2026 the light is the sun; in 2027, a lamp.\nLa Tour, from our Jan 7 post, painted one.', 32, EN, gap=0)], tag='해에서 등불로'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
      T('가까운 자리를 오래 밝히는\n등불 같은 소리예요.', 52, gap=24), T('지금 고른 곡은 『Lantern Room』이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -265,7 +265,7 @@ P['0106'] = dict(
  ],
  caption="""빛에도 두 가지가 있어요.
 
-병화는 하늘의 해예요. 사방을 고루, 멀리까지 비추는 빛이에요. 정화는 등불이에요. 가까운 자리를 오래 밝히는 빛이에요. 해는 멀리서 모두를 비추고, 등불은 가까이에서 한 사람의 얼굴과 손을 비춰요. 옛 명리 책 『적천수』는 해를 두고 「세차고 사나워서 서리와 눈도 업신여긴다(丙火猛烈 欺霜侮雪)」고 했어요. 겨울 추위에도 꺾이지 않고 멀리까지 뻗는 빛이에요. 같은 책은 등불을 두고 「겉은 부드럽고 속은 환하게 밝다(丁火柔中 內性昭融)」, 「세져도 사납게 타지 않고 약해져도 다하지 않는다(旺而不烈 衰而不窮)」고 했어요. 가까이 오래 비추는 빛이 여기서 나와요. 1월 3일 진주 편에서 말한 등불(정화)과 강물(임수)의 짝도 이 책의 같은 대목에 나와요(合壬).
+병화는 하늘의 해예요. 사방을 고루, 멀리까지 비추는 빛이에요. 정화는 등불이에요. 가까운 자리를 오래 밝히는 빛이에요. 해는 멀리서 모두를 비추고, 등불은 가까이에서 한 사람의 얼굴과 손을 비춰요. 옛 명리 책 『적천수』는 병화를 두고 「세차고 사나워서 서리와 눈도 업신여긴다(丙火猛烈 欺霜侮雪)」고 했어요. 겨울 추위에도 기세가 꺾이지 않는 불이라는 뜻이에요. 같은 책은 정화를 두고 「부드럽고 치우치지 않으며 속은 환하게 밝다(丁火柔中 內性昭融)」, 「세져도 사납게 타지 않고 약해져도 다하지 않는다(旺而不烈 衰而不窮)」고 했어요. 등불이 오래 비추는 빛인 까닭이 여기 있어요. 1월 3일 진주 편에서 말한 등불(정화)과 강물(임수)의 짝도 이 책의 같은 대목(合壬而忠)에 나와요.
 
 2026년의 빛이 해라면, 2027년의 빛은 등불이에요. 넓게 퍼지는 빛이 입춘부터 가까운 자리를 오래 밝히는 빛으로 옮겨 가요. 사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.
 
@@ -276,13 +276,13 @@ P['0106'] = dict(
 · English ·
 There are two kinds of light.
 
-丙火 Yang Fire (Byeonghwa) is the sun in the sky, lighting everything, far and wide. 丁火 Yin Fire (Jeonghwa) is a lamp that lights what is near, for a long time. The sun lights everyone from afar; a lamp lights one person's face and hands, up close. The old Saju classic Di Tian Sui (滴天髓) tells the two fires apart. Of Yang Fire: "fierce and blazing, it scorns frost and snow," a light that reaches far even in winter. Of Yin Fire: "gentle outside, bright within; strong, it does not rage; weak, it does not run out." That is where the close, lasting light comes from. The pairing of the lamp with a wide river, 壬水 Yang Water (Imsu), from our January 3 Jinju post, appears in the same passage.
+丙火 Yang Fire (Byeonghwa) is the sun in the sky, lighting everything, far and wide. 丁火 Yin Fire (Jeonghwa) is a lamp that lights what is near, for a long time. The sun lights everyone from afar; a lamp lights one person's face and hands, up close. The old Saju classic Di Tian Sui (滴天髓) tells the two fires apart. Of Yang Fire: "fierce and blazing, it scorns frost and snow," a fire whose force holds even in winter. Of Yin Fire: "gentle and centered, bright within; strong, it does not rage; weak, it does not run out." That is why we call the lamp a lasting light. The lamp-and-river pair from our January 3 Jinju post, Yin Fire with 壬水 Yang Water (Imsu), comes from the same passage.
 
 If 2026's light is the sun, 2027's is a lamp. From the start of spring, the wide light turns to a close, steady one. In Saju, the year turns at the start of spring (立春), February 4.
 
-Georges de La Tour, in our January 7 painting post, painted a single lamp.
+The Georges de La Tour painting in our January 7 post shows a single lamp.
 
-Five Kinds of Quiet · Yin Fire, with the track Lantern Room. Listen through the link in bio.
+From Five Kinds of Quiet · Yin Fire, today's track is Lantern Room. Listen through the link in bio.
 
 #고요 #고요이야기 #정미년 #병화 #정화 #적천수 #사주 #오행음악 #saju #fiveelements""",
  reel_caption="""빛에도 두 가지가 있어요.
@@ -462,21 +462,21 @@ P['0106v'] = dict(
      T('Fire feeds Earth, and Earth feeds Metal. In hot, dry times, old texts look to Metal and Water too.', 32, EN, gap=0)], tag='명리로 보면'),
   S([T('1~2월 고요에서 이어서 볼', 42, gap=10), T('닮은 것', 72, bold=True, gap=30),
      T('그림 · 등불 하나를 그린 라 투르,\n늦여름 건초더미를 그린 모네,\n이삭 줍는 들판을 그린 밀레', 40, gap=20),
-     T('곳 · 지평선이 보이는 김제 들녘', 40, gap=20), T('곁에 둘 것 · 책상 위 작은 등, 흙 화분 하나', 40, gap=20),
+     T('곳 · 지평선이 보이는 김제 들녘', 40, gap=20), T('곁에 둘 것 · 책상 위 등 하나, 흙 화분 하나', 40, gap=20),
      T('소리 · 정화 편, 토 편', 40, gap=34),
-     T('Coming up, echoing the year: La Tour, Monet, Millet,\nthe fields of Gimje, a desk lamp, a clay pot,\nand Yin Fire and Earth music.', 30, EN, gap=0)], tag='시리즈 안내'),
+     T('Coming up, echoing the year: La Tour, Monet, Millet,\nthe fields of Gimje, a desk lamp, a clay pot,\nand 丁火 Yin Fire (Jeonghwa) and Earth music.', 30, EN, gap=0)], tag='시리즈 안내'),
   S([T('1~2월 고요에서 이어서 볼', 40, gap=8), T('식혀 주는 것', 68, bold=True, gap=26),
      T('그림 · 비 갠 인왕산 바위를 그린 정선,\n다리 위 소나기를 그린 히로시게', 38, gap=16),
-     T('곳 · 서울 인왕산과 수성동 계곡', 38, gap=16), T('곁에 둘 것 · 유리 물병, 놋그릇, 작은 풍경', 38, gap=16),
+     T('곳 · 서울 인왕산과 수성동 계곡', 38, gap=16), T('곁에 둘 것 · 유리 물병, 놋그릇, 처마 풍경(風磬)', 38, gap=16),
      T('소리 · 계수 편, 경금 편, 금 편, 수 편', 38, gap=20),
      T('둘이 한 장면에 있는 곳은\n1월 3일의 진주 남강유등이에요.', 38, GOLD, gap=24),
-     T('Coming up, beside its heat: Jeong Seon, Hiroshige,\nInwangsan and its valley, a glass carafe,\nbrassware, a wind chime, and Water and Metal music.\nBoth meet in Jinju.', 30, EN, gap=0)], tag='시리즈 안내'),
+     T('Coming up, beside its heat: Jeong Seon, Hiroshige,\nInwangsan and its valley, a glass carafe, brassware,\na wind chime, and 癸水 Yin Water (Gyesu),\n庚金 Yang Metal (Gyeonggeum), Metal and Water music.\nThe two share one scene in Jinju (our Jan 3 post).', 30, EN, gap=0)], tag='시리즈 안내'),
   S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 54, gap=34), T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 52, bold=True, gap=36),
      T('Your chart\'s Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.', 30, EN, gap=0)], tag='내게는 어느 쪽일까요'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
      T('마른 흙에 조용히 스미는\n비 같은 소리예요.', 52, gap=24), T('첫 곡은 『Drizzle』이에요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu).\nThe first track is Drizzle.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yin Water.\nThe first track is Drizzle.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 6일', 50, GOLD, gap=34), T('닮은 것,\n식혀 주는 것', 118, bold=True, gap=50), T('Two ways to keep company with 2027', 40, EN, gap=0)]),
@@ -500,7 +500,7 @@ P['0106v'] = dict(
 
 닮은 것은 2027년의 모양을 그대로 담은 것이에요. 등불, 늦여름 들판, 거둔 것을 품는 흙. 식혀 주는 것은 그 열기 곁에 둘 서늘한 것이에요. 물, 그리고 흙의 열을 받아 흘려보내는 쇠와 바위. 불은 흙을 낳고 흙은 쇠를 낳아서, 옛 책은 불과 흙이 많아 덥고 마른 때에 쇠와 물을 함께 봐요.
 
-1~2월 고요에서는 두 갈래를 하나씩 이어서 볼 거예요. 닮은 것으로는 등불 하나를 그린 라 투르, 늦여름 건초더미를 그린 모네, 이삭 줍는 들판을 그린 밀레의 그림, 지평선이 보이는 김제 들녘, 책상 위 작은 등과 흙 화분 하나, 정화 편과 토 편의 소리가 있어요. 식혀 주는 것으로는 비 갠 인왕산 바위를 그린 정선과 다리 위 소나기를 그린 히로시게의 그림, 서울 인왕산과 수성동 계곡, 유리 물병과 놋그릇과 작은 풍경, 계수·경금·금·수 편의 소리가 있어요. 둘이 한 장면에 있는 곳은 1월 3일에 소개한 진주 남강유등이에요.
+1~2월 고요에서는 두 갈래를 하나씩 이어서 볼 거예요. 닮은 것으로는 등불 하나를 그린 라 투르, 늦여름 건초더미를 그린 모네, 이삭 줍는 들판을 그린 밀레의 그림, 지평선이 보이는 김제 들녘, 책상 위 등 하나와 흙 화분 하나, 정화 편과 토 편의 소리가 있어요. 식혀 주는 것으로는 비 갠 인왕산 바위를 그린 정선과 다리 위 소나기를 그린 히로시게의 그림, 서울 인왕산과 수성동 계곡, 유리 물병과 놋그릇과 처마 풍경(風磬), 계수·경금·금·수 편의 소리가 있어요. 둘이 한 장면에 있는 곳은 1월 3일에 소개한 진주 남강유등이에요.
 
 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요.
 
@@ -513,7 +513,7 @@ What echoes 2027, and what sits beside its heat.
 
 What echoes the year: a lamp, late-summer fields, earth that holds the harvest. What sits beside its heat: water, and metal and stone that take in the earth's warmth and let it go. Fire feeds Earth and Earth feeds Metal, so in hot, dry times the old texts look to Metal and Water too.
 
-Over January and February we'll look at each side in turn. Echoing the year: La Tour's lamp, Monet's haystacks, Millet's gleaners, the open fields of Gimje, a small desk lamp and a clay pot, and Yin Fire and Earth music. Beside its heat: Jeong Seon's rain-washed rocks on Inwangsan, Hiroshige's sudden shower, Inwangsan and its valley, a glass carafe, brassware and a wind chime, and Water and Metal music. Both meet at the Jinju lantern festival from our January 3 post.
+Over January and February we'll look at each side in turn. Echoing the year: La Tour's lamp, Monet's haystacks, Millet's gleaners, the open fields of Gimje, a desk lamp and a clay pot, and 丁火 Yin Fire (Jeonghwa) and Earth music. Beside its heat: Jeong Seon's Inwangsan after the rain, Hiroshige's sudden shower over a bridge, Inwangsan and its valley, a glass carafe, brassware and a wind chime, and Water and Metal music. The two share one scene at the Jinju lantern festival, from our January 3 post.
 
 You can see how much Fire and Water your chart holds in our free app. Which side suits you better depends on your whole chart. The app is linked in our bio.
 
