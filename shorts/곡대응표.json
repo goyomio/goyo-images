@@ -178,5 +178,10 @@
   "편": "신금",
   "곡": "Crystal Window",
   "근거": "원곡: goyo-keys/audio/catalog.json 신금 07 26:55 Crystal Window (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/수1_MoonOnTheLake_60s.m4a": {
+  "편": "수1",
+  "곡": "Moon on the Lake",
+  "근거": "원곡: goyo-keys/audio/catalog.json 수1 03 6:10 Moon on the Lake (곡 시작부터 60초)"
  }
 }

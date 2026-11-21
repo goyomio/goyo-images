@@ -1,0 +1,305 @@
+{
+ "audio": "shorts/정미년/audio/수1_MoonOnTheLake_60s.m4a",
+ "scenes": [
+  {
+   "sec": 3.5,
+   "items": [
+    [
+     "밤 11시에서\n새벽 0시 반 사이에\n태어났나요?",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Born between\n11 p.m. and 12:30 a.m.?",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "instant": true
+  },
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "12월 11일 게시물의\n「앱마다 결과가 다른 이유」",
+     56,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     26
+    ],
+    [
+     "셋째 이유를\n시간표로 볼게요",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Reason three from our Dec 11 post,\nas a timeline",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "밤 11:00   시계로 본 자시 시작",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     22
+    ],
+    [
+     "밤 11:30   해로 본 자시 시작",
+     54,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     22
+    ],
+    [
+     "새벽 0:30   해로 본 자정",
+     54,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     22
+    ],
+    [
+     "새벽 1:30   자시 끝",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "11:00 p.m. — 子 Midnight Water (Jasu)\nhour begins, by the clock\n11:30 p.m. — it begins, by the sun\n12:30 a.m. — midnight, by the sun\n1:30 a.m. — the hour ends",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "자시(子時) 시간표",
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "밤 11시~새벽 0시 반에 태어났다면\n만세력마다 날짜가\n하루 갈릴 수 있어요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "날짜가 갈리면\n일간 글자도 바뀌어요.",
+     60,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Born in that window? The date can differ\nby a day between Saju calendars,\nand so can your Day Master.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "고요 앱은 경도를 보정하고\n밤 11시 반부터 다음 날로 계산해요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     32
+    ],
+    [
+     "다른 만세력과 일간이 다르면\n이 시간 때문일 수 있어요.\n두 날의 일간을\n다 읽어 봐도 좋아요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "The GOYO app adjusts for longitude\nand turns the day at 11:30 p.m.\nA different Day Master elsewhere?\nThis may be why. Read both.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.0,
+   "items_ig": [
+    [
+     "오늘 밤의 소리",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     14
+    ],
+    [
+     "다섯 가지 고요 · 수(水)\n『Moon on the Lake』",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Water\n“Moon on the Lake”\nFind your Day Master:\nfree app & music, link in bio",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "오늘 밤의 소리",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     14
+    ],
+    [
+     "다섯 가지 고요 · 수(水)\n『Moon on the Lake』",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "내 일간은 채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Water\n“Moon on the Lake”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.6
+  }
+ ]
+}
