@@ -54,6 +54,6 @@ JSON object `{ "<id>": {"title": "...", "description": "..."} }` covering every 
 - The line 「매일 아침 오늘의 타로 보기 (인스타그램) ▶ https://www.instagram.com/goyo_mio」 = "Daily tarot every morning on Instagram". Keep the URL. Arabic: drop this line (tarot = fortune-telling).
 - Korean descriptions contain a «· English ·» block. Write ONE version in the target language only (merge, no English duplicate). For `en`, produce one clean English version.
 - Series name inside the text: 「다섯 가지 고요」 in quotes + short gloss (e.g. EN "Five Kinds of Quiet"); Arabic «خمسة وجوهٍ للسكون».
-- Stem names: western langs romanised Korean + Hanja, e.g. Imsu (壬水) — do NOT write "Yang Water"-style labels (channel rule).
+- (11/21 17:45 미오 님 새 규칙) Western languages name the ten stems ONLY by yin-yang + element: EN "Yang Water (Imsu)", ES "Agua Yang (Imsu)", FR "Eau Yang (Imsu)", PT "Água Yang (Imsu)", DE "Yang-Wasser (Imsu)", IT "Acqua Yang (Imsu)". Asian languages keep Hanja-style names.
 - Arabic for example-saju shorts: the whole hook is saju. Rewrite title/description around the question as a life moment + the music (e.g. "Money: can it be saved? A quiet piece of music for a careful season"), no chart, no birth data, no fortune words, no Posts-tab reading line, no saju app line, no tarot line. Keep the music link and the playlist link.
 - Tarot short (eowoy8xi04Q) is English only.
