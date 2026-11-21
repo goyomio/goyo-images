@@ -46,14 +46,14 @@ S = {
  '2026-12-24': dict(label='고요의 그림 읽기 #6', title=['간바라 밤눈'], sub='우타가와 히로시게', acc=GOLD, paint=True),
  '2026-12-25': dict(label='사주 · 오행 정보', title=['태어난 시간을', '모르면', '사주를 못 볼까요?'], sub='여섯 글자로도 볼 수 있어요', acc=GOLD),
  '2026-12-27': dict(label='사주 · 오행 정보', title=['제야의 종은', '왜 33번', '칠까요?'], sub='한 해의 마지막 밤', acc=GOLD),
- '2026-12-28': dict(label='12월 28일 · 이번 주 기운', title=['2027년은', '정미년'], sub='정(丁)은 등불, 미(未)는 흙', acc=HWA),
  '2026-12-30': dict(label='고요 이야기', title=['고요,', '한 장의', '지도'], sub='올해의 마지막 이야기', acc=None, five_bar=True),
- '2026-12-31': dict(label='고요의 그림 읽기 #7', title=['까치'], sub='클로드 모네', acc=GOLD, paint=True),
+ '2026-12-31': dict(label='12월 31일 · 한 해의 끝에서', title=['2027년은', '정미년'], sub='정(丁)은 등불, 미(未)는 흙', acc=HWA),  # 11/21 12/28에서 옮김
+ '보류-까치': dict(label='고요의 그림 읽기', title=['까치'], sub='클로드 모네', acc=GOLD, paint=True),  # 11/21 보류, 다시 풀 때 번호·날짜 새로
 }
 
-PAINT = {'2026-12-09': ('wl_full.jpg', ['클로드 모네, 〈수련(Water Lilies)〉 1906', '시카고 미술관 · 퍼블릭 도메인(CC0)']), '2026-11-19': (None, ['빌헬름 함메르쇠이, 〈스트란가데의 실내, 바닥의 햇빛〉', '1901 · 덴마크 국립미술관(SMK)']), '2026-11-26': ('se_paint.jpg', ['김정희, 〈세한도(歲寒圖)〉 1844 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-03': ('inwang_full.jpg', ['정선, 〈인왕제색도(仁王霽色圖)〉 1751 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-10': ('latour_full.jpg', ['조르주 드 라 투르, 〈연기 나는 불꽃 앞의 막달라 마리아〉', '1635~1637년 무렵 · LACMA · 위키미디어 공용(퍼블릭 도메인)']), '2026-12-17': ('millet_full.jpg', ["장프랑수아 밀레, 〈만종(L'Angélus)〉 1857~1859", '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-24': ('hiro_full.jpg', ['우타가와 히로시게, 〈간바라 밤눈〉 「도카이도 53역참」 중, 1833~1834', '메트로폴리탄 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-31': ('monet_full.jpg', ['클로드 모네, 〈까치(La Pie)〉 1868~1869', '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)'])}
+PAINT = {'2026-12-09': ('wl_full.jpg', ['클로드 모네, 〈수련(Water Lilies)〉 1906', '시카고 미술관 · 퍼블릭 도메인(CC0)']), '2026-11-19': (None, ['빌헬름 함메르쇠이, 〈스트란가데의 실내, 바닥의 햇빛〉', '1901 · 덴마크 국립미술관(SMK)']), '2026-11-26': ('se_paint.jpg', ['김정희, 〈세한도(歲寒圖)〉 1844 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-03': ('inwang_full.jpg', ['정선, 〈인왕제색도(仁王霽色圖)〉 1751 · 국보', '국립중앙박물관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-10': ('latour_full.jpg', ['조르주 드 라 투르, 〈연기 나는 불꽃 앞의 막달라 마리아〉', '1635~1637년 무렵 · LACMA · 위키미디어 공용(퍼블릭 도메인)']), '2026-12-17': ('millet_full.jpg', ["장프랑수아 밀레, 〈만종(L'Angélus)〉 1857~1859", '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '2026-12-24': ('hiro_full.jpg', ['우타가와 히로시게, 〈간바라 밤눈〉 「도카이도 53역참」 중, 1833~1834', '메트로폴리탄 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)']), '보류-까치': ('monet_full.jpg', ['클로드 모네, 〈까치(La Pie)〉 1868~1869', '오르세 미술관 · 이미지 위키미디어 공용(퍼블릭 도메인)'])}
 
-EN = {'2026-11-18': 'How Goyo makes its music', '2026-11-19': 'Interior in Strandgade, Sunlight on the Floor', '2026-11-20': 'In Korean, five weekdays are named for the elements', '2026-11-22': 'Light Snow (小雪): when first snow is said to fall', '2026-11-23': 'The full moon of the tenth lunar month', '2026-11-25': 'Four words hidden in the name Goyo', '2026-11-26': 'Sehando (Winter Scene) · Kim Jeong-hui', '2026-11-27': 'Why is there Earth in a winter sky?', '2026-11-29': "The earliest sunset isn't on the winter solstice", '2026-11-30': "December, yet in Saju it's still the tenth month", '2026-12-02': 'Each Goyo track title names its heavenly stem', '2026-12-03': 'Clearing After Rain on Mount Inwang · Jeong Seon', '2026-12-04': "What 'jeong' means in Korean midnight and noon", '2026-12-06': 'New to Goyo? Where to start listening', '2026-12-07': 'Today Saju enters the Midwinter Water month (子)', '2026-12-09': 'Water Lilies · Claude Monet', '2026-12-10': 'Magdalene with the Smoking Flame · Georges de La Tour', '2026-12-11': 'Why Saju apps give different results', '2026-12-13': 'Why the rainbow has seven colors: the musical scale', '2026-12-14': 'The long nights of the eleventh lunar month', '2026-12-16': 'Five Goyo playlists, five times of day', '2026-12-17': 'The Angelus · Jean-François Millet', '2026-12-18': "Why Korea's 60th birthday falls at 61", '2026-12-20': 'Lo-fi first meant low fidelity', '2026-12-21': 'Tomorrow is the winter solstice', '2026-12-23': 'Gaeun (開運) means opening, not changing', '2026-12-24': 'Kambara: Night Snow · Utagawa Hiroshige', '2026-12-25': 'No birth time? You can still read your Saju', '2026-12-27': "Why does Korea's New Year bell ring 33 times?", '2026-12-28': '2027 is the Jeongmi (丁未) year: lamp and earth', '2026-12-30': 'Goyo on one map: our last story of the year', '2026-12-31': 'The Magpie · Claude Monet', '2026-11-21': "Saju's new year starts in early February", '2026-11-24': 'Of your eight characters, one is you', '2026-11-28': 'Lots of Fire in your chart?', '2026-12-01': 'Lots of Metal in your chart?', '2026-12-05': 'Morning person or night owl?', '2026-12-08': "What's your favorite color?", '2026-12-12': 'Lots of Wood in your chart?', '2026-12-15': 'Lots of Earth in your chart?', '2026-12-19': 'Gaeun (開運) means opening, not waiting', '2026-12-22': 'Yang Wood and Yin Wood: the same tree?', '2026-12-26': 'Do you play just any music when you study?', '2026-12-29': "What's your favorite day of the week?"}
+EN = {'2026-11-18': 'How Goyo makes its music', '2026-11-19': 'Interior in Strandgade, Sunlight on the Floor', '2026-11-20': 'In Korean, five weekdays are named for the elements', '2026-11-22': 'Light Snow (小雪): when first snow is said to fall', '2026-11-23': 'The full moon of the tenth lunar month', '2026-11-25': 'Four words hidden in the name Goyo', '2026-11-26': 'Sehando (Winter Scene) · Kim Jeong-hui', '2026-11-27': 'Why is there Earth in a winter sky?', '2026-11-29': "The earliest sunset isn't on the winter solstice", '2026-11-30': "December, yet in Saju it's still the tenth month", '2026-12-02': 'Each Goyo track title names its heavenly stem', '2026-12-03': 'Clearing After Rain on Mount Inwang · Jeong Seon', '2026-12-04': "What 'jeong' means in Korean midnight and noon", '2026-12-06': 'New to Goyo? Where to start listening', '2026-12-07': 'Today Saju enters the Midwinter Water month (子)', '2026-12-09': 'Water Lilies · Claude Monet', '2026-12-10': 'Magdalene with the Smoking Flame · Georges de La Tour', '2026-12-11': 'Why Saju apps give different results', '2026-12-13': 'Why the rainbow has seven colors: the musical scale', '2026-12-14': 'The long nights of the eleventh lunar month', '2026-12-16': 'Five Goyo playlists, five times of day', '2026-12-17': 'The Angelus · Jean-François Millet', '2026-12-18': "Why Korea's 60th birthday falls at 61", '2026-12-20': 'Lo-fi first meant low fidelity', '2026-12-21': 'Tomorrow is the winter solstice', '2026-12-23': 'Gaeun (開運) means opening, not changing', '2026-12-24': 'Kambara: Night Snow · Utagawa Hiroshige', '2026-12-25': 'No birth time? You can still read your Saju', '2026-12-27': "Why does Korea's New Year bell ring 33 times?", '2026-12-30': 'Goyo on one map: our last story of the year', '2026-12-31': '2027 is the Jeongmi (丁未) year: lamp and earth', '보류-까치': 'The Magpie · Claude Monet', '2026-11-21': "Saju's new year starts in early February", '2026-11-24': 'Of your eight characters, one is you', '2026-11-28': 'Lots of Fire in your chart?', '2026-12-01': 'Lots of Metal in your chart?', '2026-12-05': 'Morning person or night owl?', '2026-12-08': "What's your favorite color?", '2026-12-12': 'Lots of Wood in your chart?', '2026-12-15': 'Lots of Earth in your chart?', '2026-12-19': 'Gaeun (開運) means opening, not waiting', '2026-12-22': 'Yang Wood and Yin Wood: the same tree?', '2026-12-26': 'Do you play just any music when you study?', '2026-12-29': "What's your favorite day of the week?"}
 
 
 def ct(d, y, t, f, fill):
@@ -75,10 +75,16 @@ def ct_en(d, y, t, size, fill):
         d.text((x, y + (int(size * 0.12) if k else 0)), s_, font=fk if k else fe, fill=fill); x += d.textlength(s_, font=fk if k else fe)
 
 
-def logo(d, y=1230, size=56, fill=DIMC):
-    f = ImageFont.truetype(CG, size); sp = int(size * 0.42)
-    ws = [d.textlength(c, font=f) for c in 'GOYO']; x = (W - sum(ws) - sp * 3) / 2
-    for c, w in zip('GOYO', ws): d.text((x, y), c, font=f, fill=fill); x += w + sp
+def logo(d, y=1230, size=56, fill=DIMC, im=None):
+    """GOYO 워드마크: tools/assets/goyo_letters 글자 그림만 씀(글꼴로 치지 않음, 미오 님 11/21 규칙)."""
+    if im is None: raise ValueError('logo needs im')
+    gh = int(size * 0.82)
+    gl = [Image.open(os.path.join(ROOT, 'tools', 'assets', 'goyo_letters', f'{i}_{c}.png')).convert('RGBA') for i, c in enumerate('GOYO')]
+    gl = [g.resize((max(1, int(g.width * gh / g.height)), gh), Image.LANCZOS) for g in gl]
+    a = int(255 * 0.62)  # 예전 회색(DIMC) 느낌으로 살짝 낮춤
+    gl = [Image.merge('RGBA', (*g.split()[:3], g.split()[3].point(lambda v: v * a // 255))) for g in gl]
+    sp = int(size * 0.42); x = (W - sum(g.width for g in gl) - sp * 3) // 2
+    for g in gl: im.paste(g, (x, y + 8), g); x += g.width + sp
 
 
 def fit(d, t, size, maxw):
@@ -155,7 +161,7 @@ def make(date):
             fc = F(26)
             while d.textlength(ln, font=fc) > W - 120: fc = F(fc.size - 1)
             ct(d, cy, ln, fc, DIMC); cy += 36
-    logo(d)
+    logo(d, im=im)
     im.save(first, quality=93)
     return first
 
@@ -193,7 +199,7 @@ def reel_cover(date):
         y += 60
     y += 34; ct(d, y, sp['sub'], F(54), SUB)
     if EN.get(date): ct_en(d, y + 80, EN[date], 46, DIMC)
-    logo(d, 285 + 1230)
+    logo(d, 285 + 1230, im=im)
     out = os.path.join(pdir, 'cover.jpg'); im.save(out, quality=93)
     pj = os.path.join(pdir, 'post.json'); post = json.load(open(pj))
     post['cover_file'] = os.path.relpath(out, ROOT)
