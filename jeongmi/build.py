@@ -226,15 +226,18 @@ def pack(key):
     import shutil
     p = P[key]; d = DATES[key]; root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     src = os.path.join(root, 'jeongmi', key); dst = os.path.join(root, 'posts', d); os.makedirs(dst, exist_ok=True)
+    def keep(path):  # 이미 승인된 폴더는 다시 넣어도 승인 유지(바뀐 내용은 미오 님께 다시 알릴 것)
+        try: return json.load(open(path)).get('approved', False)
+        except Exception: return False
     n = len(p['slides']); files = []
     for i in range(1, n + 1):
         shutil.copy(f'{src}/{i:02d}.jpg', f'{dst}/{i:02d}.jpg'); files.append(f'posts/{d}/{i:02d}.jpg')
-    json.dump({'type': 'carousel', 'via': 'api', 'approved': False, 'files': files, 'caption': p['caption'],
+    json.dump({'type': 'carousel', 'via': 'api', 'approved': keep(f'{dst}/post.json'), 'files': files, 'caption': p['caption'],
                'note': f'정미년 시리즈 {key} (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true'},
               open(f'{dst}/post.json', 'w'), ensure_ascii=False, indent=1)
     if p.get('reel'):
         rd = dst + '-1820'; os.makedirs(rd, exist_ok=True)
-        json.dump({'type': 'reel', 'via': 'api', 'approved': False, 'video_file': f'jeongmi/{key}/reel_ig.mp4', 'caption': p['reel_caption'],
+        json.dump({'type': 'reel', 'via': 'api', 'approved': keep(f'{rd}/post.json'), 'video_file': f'jeongmi/{key}/reel_ig.mp4', 'caption': p['reel_caption'],
                    'thumb_offset': 1000, 'note': f'정미년 시리즈 {key} 릴스 18:20. 유튜브 쇼츠판 jeongmi/{key}/short_yt.mp4 (끝 「음악은 아래 관련 영상」)'},
                   open(f'{rd}/post.json', 'w'), ensure_ascii=False, indent=1)
     print('packed', key, d)
