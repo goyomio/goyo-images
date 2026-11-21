@@ -1,0 +1,314 @@
+{
+ "audio": "shorts/음원/계수_Rain on Moss_60s.m4a",
+ "scenes": [
+  {
+   "sec": 4.5,
+   "instant": true,
+   "items": [
+    [
+     "1월 22일",
+     50,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "그림 속\n그 산으로",
+     116,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     50
+    ],
+    [
+     "Into the painting",
+     42,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "step": 1.0,
+   "items": [
+    [
+     "서울 인왕산",
+     62,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "어제 본 그림 속\n화강암 바위산",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     44
+    ],
+    [
+     "Mt. Inwang, Seoul:\nthe granite peak from yesterday's painting",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.5,
+   "step": 1.0,
+   "items": [
+    [
+     "어제는 바위,\n오늘은 계곡물",
+     90,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "쇠가 물을 낳는다고 봐요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     44
+    ],
+    [
+     "Yesterday, rock. Today, valley water.\nIn Saju, Metal gives rise to Water.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items_ig": [
+    [
+     "수성동(水聲洞),\n이름의 뜻은?",
+     92,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 그림 속 돌다리 이야기는\n@goyo_mio 피드 게시물에서",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "What does Suseong-dong mean?\nThe answer is in our feed post.",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "수성동(水聲洞),\n이름의 뜻은?",
+     92,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 그림 속 돌다리 이야기는\n채널 게시물에서",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "What does Suseong-dong mean?\nThe answer is in our Posts tab.",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.5,
+   "tag": "지금 흐르는 소리",
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "계수 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Rain on Moss』",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 프로필 링크에서",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\n· Rain on Moss · Listen at the link in bio.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "계수 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Rain on Moss』",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 아래 관련 영상",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\n· Rain on Moss · Music: related video below",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

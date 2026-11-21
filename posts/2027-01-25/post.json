@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-01-25/01.jpg",
+  "posts/2027-01-25/02.jpg",
+  "posts/2027-01-25/03.jpg",
+  "posts/2027-01-25/04.jpg",
+  "posts/2027-01-25/05.jpg",
+  "posts/2027-01-25/06.jpg",
+  "posts/2027-01-25/07.jpg",
+  "posts/2027-01-25/08.jpg"
+ ],
+ "caption": "1월생인데 사주는 지난해?\n\n2027년에는 새해가 세 번 와요. 양력 새해는 1월 1일, 사주의 새해인 입춘은 2월 4일 오전 10시 46분, 음력 설날은 2월 7일이에요. 사주는 이 가운데 입춘을 새해로 써요.\n\n그래서 2027년 1월 1일부터 2월 4일 오전 10시 46분 전에 태어나면 사주의 해는 병오(丙午)년이에요. 양력 새해도, 음력 설날도 아닌 입춘이 기준이에요. 오늘 1월 25일에 태어난 아기라면 해 병오, 달 신축, 날 갑진으로, 해 글자가 2026년 입춘 뒤와 같아요. 2000년 1월생도 사주의 해는 1999년의 기묘(己卯)년이에요.\n\n달도 1일이 아니라 절기로 바뀌어요. 1월 5일 밤 11시 10분 소한 전은 경자(庚子)월, 소한부터 입춘 전까지는 신축(辛丑)월이에요. 입춘부터는 해와 달이 함께 정미년 임인(壬寅)월로 바뀌어요.\n\n2월 4일에 태어났다면 시각을 보세요. 오전 10시 46분 전이면 병오년, 그 뒤면 정미년이에요. 입춘 시각은 해마다 2월 3~5일 사이에서 달라지니, 태어난 해의 입춘 시각을 확인해야 해요.\n\n무료 사주 앱은 해와 달을 절기가 드는 시각으로 계산해요. 생년월일과 태어난 시각을 넣으면 입춘 앞뒤도 알아서 나눠요. 앱은 프로필 링크에 있어요.\n\n아직 병오년인 지금, 하늘의 해 같은 『다섯 가지 고요｜병화(丙火)』. 오늘 고른 곡은 달력 위에 비치는 햇살, 『Sun on the Pages』예요. 프로필 링크에서 들을 수 있어요.\n\n절기 시각: 한국천문연구원 / 설날: 우주항공청 「2027년 월력요항」\n\n· English ·\nBorn in January, but last year in Saju?\n\n2027 has three new years: January 1; the start of spring (立春), the Saju new year, on February 4 at 10:46 a.m.; and Lunar New Year on February 7. Saju (Korean Four Pillars astrology) counts the year from the start of spring.\n\nSo if you were born between January 1 and 10:46 a.m. on February 4, 2027, your Saju year is the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, the same year as 2026. Neither January 1 nor Lunar New Year sets the line; the start of spring does. A baby born today, January 25, has year pillar 丙午, month pillar 辛丑 and day pillar 甲辰; the year pillar matches 2026's. Born in January 2000? Your Saju year is still 1999's: the 己卯 year (Gimyo) · Yin Earth · Daybreak Wood.\n\nMonths turn on solar terms too. Before Minor Cold (January 5, 11:10 p.m.) it is a 庚子 month; from then until the start of spring, a 辛丑 month. At the start of spring, the year and month turn together: the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, in a 壬寅 month.\n\nBorn on February 4? Check the time. Before 10:46 a.m., it's the 丙午 year; after, the 丁未 year. The start of spring falls on February 3, 4 or 5, so check the exact time for your birth year.\n\nOur free Saju app counts the year and month from the exact time of each solar term. Enter your birth date and time, and it handles the start-of-spring cutoff for you. Find the app at the link in bio.\n\nWhile it's still the 丙午 year, here's Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa), music like the sun. Today's track is Sun on the Pages, sunlight on a calendar page. Listen at the link in bio.\n\nSolar term times: Korea Astronomy and Space Science Institute. Lunar New Year: Korea AeroSpace Administration, 2027 calendar notice.\n\n#고요 #고요이야기 #입춘 #사주 #1월생 #정미년 #병오년 #오행 #saju #fiveelements",
+ "note": "정미년 시리즈 0125 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}

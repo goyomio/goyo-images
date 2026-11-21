@@ -1062,6 +1062,427 @@ Solar term times: Korea Astronomy and Space Science Institute. Coldest days and 
 #고요 #이번주기운 #대한 #절기 #일진 #사주 #오행 #saju #fiveelements""",
 )
 
+# ───────── 1/22 금 · 여행: 인왕산·수성동 계곡 (계수) — 원문 Ⅷ 산과 계곡, 결정 5
+P['0122'] = dict(
+ music='계수', audio='shorts/음원/계수_Rain on Moss_60s.m4a',
+ slides=[
+  S([T('1월 22일 · 고요 여행', 44, GOLD, gap=30), T('그림 속\n그 산으로', 108, bold=True, gap=36),
+     T('서울 인왕산 · 수성동 계곡', 44, gap=30), T('Into the painting: Mt. Inwang', 36, EN, gap=0)]),
+  S([T('인왕산은 어제 본\n〈인왕제색도〉의\n바로 그 산이에요.', 62, bold=True, gap=30),
+     T('경복궁 서쪽, 서촌 뒤로 솟은\n화강암 바위산이에요.', 46, gap=28),
+     T('눈이나 비가 그친 다음 날 가면\n그림 속 젖은 바위를 직접 볼 수 있어요.', 42, GOLD, gap=34),
+     T('Mt. Inwang is the mountain in yesterday\'s painting:\na granite peak west of Gyeongbokgung Palace.\nGo the day after rain or snow to see its rocks dark and wet.', 28, EN, gap=0)], tag='어제의 그 산'),
+  S([T('수성동(水聲洞),\n물소리 골짜기.', 66, bold=True, gap=30),
+     T('조선 때부터\n물소리로 이름난 계곡이에요.', 48, gap=26),
+     T('인왕산 아래 첫 계곡, 길이는 190m 남짓.\n청계천으로 이어지는 물줄기가\n시작되는 곳이기도 해요.', 40, GOLD, gap=34),
+     T('Suseong-dong (水聲洞) means "valley of the sound\nof water."\nIt is the first valley below Mt. Inwang, about 190 m long,\nand feeds the stream that becomes Cheonggyecheon.', 26, EN, gap=0)], tag='이름'),
+  S([T('정선은 이곳을\n『장동팔경첩』의\n「수성동」으로 그렸어요.', 58, bold=True, gap=30),
+     T('그림 속 돌다리 기린교가\n지금도 제자리에 있어요.', 48, gap=26),
+     T('한양 도성 안에서 유일하게 제자리에\n원래 모습으로 남은 통돌 다리예요.', 40, GOLD, gap=34),
+     T('Jeong Seon painted this valley as "Suseong-dong" in an\nalbum of eight views. Its stone bridge, Girin-gyo, still\nstands where he painted it, cut from a single slab.', 26, EN, gap=0)], tag='정선의 「수성동」'),
+  S([T('1971년, 계곡 양옆에\n아파트 아홉 동이 들어섰어요.', 54, gap=30),
+     T('2010년 서울시 기념물로\n지정된 뒤, 아파트를 헐고\n2012년 7월 계곡을 다시 열었어요.', 54, bold=True, gap=34),
+     T('In 1971, nine apartment blocks rose on both sides.\nNamed a Seoul monument in 2010, the valley reopened\nin July 2012 after the city tore them down.', 28, EN, gap=0)], tag='다시 찾은 계곡'),
+  S([T('물소리는\n비가 넉넉히 온 뒤에야\n제대로 들린다고 해요.', 58, bold=True, gap=30),
+     T('겨울에는 언 바위와 계곡을,\n여름비 뒤에는 물소리를.', 48, gap=28),
+     T('서울 종로구 옥인동 185-3\n마을버스 종로09 종점이 계곡 앞이에요.', 38, GOLD, gap=34),
+     T('The water is said to be loudest after heavy rain.\nIn winter, see the frozen rocks; after summer rain,\ncome back to listen. 185-3 Okin-dong, Jongno-gu.\nLocal bus Jongno 09 ends at the valley.', 26, EN, gap=0)], tag='가기 전에'),
+  S([T('어제의 바위는 경금,\n오늘의 계곡물은 계수.', 62, bold=True, gap=30),
+     T('옛 책은 쇠가 물을 낳는다고 봐요.', 46, gap=26),
+     T('바위 틈을 흐르는 물,\n정미년의 열기를\n식혀 주는 서늘한 물이에요.', 50, bold=True, gap=22),
+     T('제 해석이에요.', 34, [150, 145, 135], gap=30),
+     T('Yesterday\'s rock was 庚金 Yang Metal (Gyeonggeum);\ntoday\'s valley water is 癸水 Yin Water (Gyesu).\nOld Saju texts say Metal gives rise to Water.\nTo us, water running through rock is cool water\nfor the coming hot Fire year.', 26, EN, gap=0)], tag='사주로 보면'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
+     T('가는 비와 이슬 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Rain on Moss』,\n이끼 위에 내리는 비예요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yin Water:\nsounds like fine rain and dew.\nToday\'s track is Rain on Moss.\nListen at the link in bio.', 30, EN, gap=0)], tag='계곡 곁에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 22일', 50, GOLD, gap=34), T('그림 속\n그 산으로', 116, bold=True, gap=50), T('Into the painting', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('서울 인왕산', 62, GOLD, gap=30), T('어제 본 그림 속\n화강암 바위산', 84, bold=True, gap=44),
+       T('Mt. Inwang, Seoul:\nthe granite peak from yesterday\'s painting', 36, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('어제는 바위,\n오늘은 계곡물', 90, bold=True, gap=40), T('쇠가 물을 낳는다고 봐요', 56, gap=44),
+       T('Yesterday, rock. Today, valley water.\nIn Saju, Metal gives rise to Water.', 36, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('수성동(水聲洞),\n이름의 뜻은?', 92, bold=True, gap=34), T('답과 그림 속 돌다리 이야기는\n@goyo_mio 피드 게시물에서', 52, bold=True, gap=30),
+                 T('What does Suseong-dong mean?\nThe answer is in our feed post.', 38, EN, gap=0)],
+       items_yt=[T('수성동(水聲洞),\n이름의 뜻은?', 92, bold=True, gap=34), T('답과 그림 속 돌다리 이야기는\n채널 게시물에서', 52, bold=True, gap=30),
+                 T('What does Suseong-dong mean?\nThe answer is in our Posts tab.', 38, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('『Rain on Moss』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\n· Rain on Moss · Listen at the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('『Rain on Moss』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\n· Rain on Moss · Music: related video below', 34, EN, gap=0)]),
+ ],
+ caption="""그림 속 그 산으로, 서울 인왕산과 수성동 계곡.
+
+인왕산은 어제 본 〈인왕제색도〉의 바로 그 산이에요. 경복궁 서쪽, 서촌 뒤로 솟은 화강암 바위산이라, 눈이나 비가 그친 다음 날 가면 그림 속 젖은 바위를 직접 볼 수 있어요.
+
+산자락의 수성동(水聲洞)은 이름 그대로 물소리 골짜기예요. 조선 때부터 물소리로 이름난 계곡이고, 인왕산 아래 첫 계곡이에요. 길이는 190m 남짓, 청계천으로 이어지는 물줄기가 시작되는 곳이기도 해요. 정선은 이곳을 『장동팔경첩』의 「수성동」으로 그렸는데, 그림 속 돌다리 기린교가 지금도 제자리에 있어요. 한양 도성 안에서 유일하게 제자리에 원래 모습으로 남은 통돌 다리예요.
+
+1971년 계곡 양옆에 아파트 아홉 동이 들어섰어요. 2010년 서울시 기념물로 지정된 뒤 아파트를 헐고, 2012년 7월 계곡을 다시 열었어요. 물소리는 비가 넉넉히 온 뒤에야 제대로 들린다고 해요. 겨울에는 언 바위와 계곡을, 여름비 뒤에는 물소리를 보러 가 보세요. 서울 종로구 옥인동 185-3, 마을버스 종로09 종점이 계곡 앞이에요.
+
+어제의 바위는 경금, 오늘의 계곡물은 계수예요. 옛 책은 쇠가 물을 낳는다고 봐요. 바위 틈을 흐르는 물, 정미년의 열기를 식혀 주는 서늘한 물이에요. 제 해석이에요.
+
+계곡 곁에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 이끼 위에 내리는 비, 『Rain on Moss』예요. 프로필 링크에서 들을 수 있어요.
+
+참고: 서울시 미디어허브, 국가유산 디지털 백과(인왕산 수성동 계곡)
+
+· English ·
+Into the painting: Mt. Inwang and Suseong-dong Valley, Seoul.
+
+Mt. Inwang is the mountain in yesterday's painting, After Rain at Mt. Inwang. It is a granite peak west of Gyeongbokgung Palace, rising behind the Seochon neighborhood. Go the day after rain or snow and you can see its rocks dark and wet, just as in the painting.
+
+On its slope lies Suseong-dong (水聲洞), whose name means "valley of the sound of water." It has been known for that sound since the Joseon era. It is the first valley below Mt. Inwang, about 190 m long, and it feeds the stream that becomes Cheonggyecheon. Jeong Seon painted it as "Suseong-dong" in an album of eight views, and its stone bridge, Girin-gyo, is still where he painted it: the only single-slab bridge inside the old city walls that survives in place, in its original form.
+
+In 1971, nine apartment blocks rose on both sides of the valley. Named a Seoul monument in 2010, the valley reopened in July 2012 after the city tore them down. The water is said to be loudest after heavy rain. In winter, go for the frozen rocks; after summer rain, go back to listen. Address: 185-3 Okin-dong, Jongno-gu. Local bus Jongno 09 ends right at the valley.
+
+Yesterday's rock was 庚金 Yang Metal (Gyeonggeum); today's valley water is 癸水 Yin Water (Gyesu). Old Saju texts say Metal gives rise to Water. To us, water running through rock is cool water for the coming hot Fire year. This is our own reading.
+
+For the valley: Five Kinds of Quiet · Yin Water, music like fine rain and dew. Today's track is Rain on Moss. Listen at the link in bio.
+
+Sources: Seoul Media Hub, Korea Heritage digital encyclopedia
+
+#고요 #고요여행 #인왕산 #수성동계곡 #서촌 #정선 #정미년 #오행음악 #seoul""",
+ reel_caption="""그림 속 그 산으로, 서울 인왕산.
+
+어제 본 〈인왕제색도〉 속 화강암 바위산이에요. 그 산자락에는 정선이 그린 계곡, 수성동이 있어요. 어제는 바위(경금), 오늘은 계곡물(계수). 옛 책은 쇠가 물을 낳는다고 봐요. 수성동이라는 이름의 뜻, 그림 속 돌다리, 가기 전에 알아 둘 것은 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜계수(癸水)』의 『Rain on Moss』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Into the painting: Mt. Inwang, Seoul, the granite peak from yesterday's painting. On its slope is Suseong-dong, a valley Jeong Seon also painted. Yesterday, rock: 庚金 Yang Metal (Gyeonggeum). Today, valley water: 癸水 Yin Water (Gyesu). Old Saju texts say Metal gives rise to Water. What Suseong-dong means, the stone bridge from the painting, and tips for your visit are in our feed post.
+
+The music is Rain on Moss from Five Kinds of Quiet · Yin Water. Listen at the link in bio.
+
+#고요 #인왕산 #수성동계곡 #서촌 #오행음악""",
+)
+
+# ───────── 1/24 일 · 여행: 김제 지평선 들판과 벽골제 (토) — 원문 Ⅷ 들판 + 문장③(v4: 「늦여름 들판에서 거두는 흙」)
+P['0124'] = dict(
+ music='토', audio='shorts/음원/토1_Field After Rain_60s.m4a',
+ slides=[
+  S([T('1월 24일 · 고요 여행', 44, GOLD, gap=30), T('하늘과 땅이\n만나는 선', 104, bold=True, gap=36),
+     T('전북 김제 · 지평선 들판과 벽골제', 44, gap=30), T('Where the land meets the sky', 36, EN, gap=0)]),
+  S([T('산이 많은 우리 땅에서\n드물게 지평선이 보이는\n김제·만경의 너른 들.', 60, bold=True, gap=30),
+     T('이 들을 사투리로\n「징게맹갱 외에밋들」이라고도 해요.', 44, gap=24),
+     T('김제 만경의 너른 들이라는 뜻이에요.', 38, GOLD, gap=34),
+     T('In a land of mountains, the Gimje and Mangyeong plains\nshow a rare straight horizon. Locals call them\n"Jingge Maenggaeng Oeemitdeul," the wide fields\nof Gimje and Mangyeong.', 26, EN, gap=0)], tag='너른 들'),
+  S([T('들판 한쪽에\n1700년 가까이 된 둑이 있어요.', 58, bold=True, gap=30),
+     T('벽골제(碧骨堤).\n『삼국사기』에 330년에\n처음 쌓았다는 기록이 있어요.', 46, gap=28),
+     T('우리나라에서 가장 오래된\n저수지로 알려져 있고,\n지금은 3km쯤 되는 둑이 남아 있어요.', 40, GOLD, gap=34),
+     T('Byeokgolje, an ancient reservoir dike. The Samguk Sagi\n(History of the Three Kingdoms) records it as first built\nin 330. It is known as Korea\'s oldest reservoir.\nAbout 3 km of the dike remains.', 26, EN, gap=0)], tag='1700년 가까이 된 둑'),
+  S([T('둑을 쌓던 사람들이\n짚신에 묻은 흙을 털어\n작은 산이 생겼다는', 52, gap=20),
+     T('「신털미산」 이야기가\n전해요.', 62, bold=True, gap=30),
+     T('옛 이름 벽골(碧骨)을\n볏골, 벼의 고을로 풀기도 해요.', 42, GOLD, gap=34),
+     T('A local tale says the workers shook so much dirt from\ntheir straw sandals that it piled into a small hill.\nSome read the old name Byeokgol as "rice village."', 26, EN, gap=0)], tag='전해 오는 이야기'),
+  S([T('여름의 마지막 흙이\n그동안 키운 것을\n조용히 품어 두는 해.', 62, bold=True, gap=30),
+     T('2027 정미년을 이렇게 읽어요.\n늦여름 들판에서 거두는 흙이에요.', 44, gap=28),
+     T('1월 10일에 흙의 속을 봤다면,\n오늘은 그 흙이 펼쳐진 모습이에요.', 38, GOLD, gap=34),
+     T('We read 2027 as the last Earth of summer, quietly\nholding all it has grown: the Earth of late-summer\nfields at harvest. On Jan 10 we looked inside that\nEarth; today we see it spread wide.', 26, EN, gap=0)], tag='늦여름 들판에서 거두는 흙'),
+  S([T('흙으로 쌓은 둑이\n물을 모아\n들판을 키웠어요.', 62, bold=True, gap=30),
+     T('흙이 물을 붙들어 두고,\n물이 마른 흙을 적셔 온\n1700년 가까운 시간이에요.', 48, gap=26),
+     T('제 해석이에요.', 34, [150, 145, 135], gap=30),
+     T('A dike of earth held water, and the water fed the\nfields. To us, it is nearly 1,700 years of Earth holding\nWater, and Water soaking dry Earth.', 28, EN, gap=0)], tag='사주로 보면'),
+  S([T('지평선축제는 해마다 가을 초입\n벽골제 일대에서 열려요.', 50, bold=True, gap=26),
+     T('2026년은 10월 1~5일이었고,\n2027년 일정은 아직 발표 전이에요.', 42, gap=28),
+     T('1월의 들판은 비어 있어요.\n누렇게 익는 들판은 가을에 보세요.\n1월 15일의 망해사 해넘이와\n하루 코스로 묶어도 좋아요.', 38, GOLD, gap=34),
+     T('The Gimje Horizon Festival is held near Byeokgolje every\nearly autumn (Oct 1 to 5 in 2026; 2027 dates not yet out).\nThe fields are bare in January. Visiting in winter?\nPair it with the Manghaesa sunset.', 26, EN, gap=0)], tag='가기 전에'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('토 편', 96, bold=True, gap=34),
+     T('느리고 담백하게 쌓이는\n로파이예요.', 52, gap=24), T('오늘 고른 곡은 『Field After Rain』,\n비 갠 뒤의 들판이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Earth: slow, unfussy lo-fi.\nToday\'s track is Field After Rain.\nListen at the link in bio.', 30, EN, gap=0)], tag='들판 곁에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 24일', 50, GOLD, gap=34), T('하늘과 땅이\n만나는 선', 112, bold=True, gap=50), T('Where the land meets the sky', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('전북 김제', 62, GOLD, gap=30), T('지평선이 보이는\n너른 들', 88, bold=True, gap=44),
+       T('Gimje: wide fields\nwhere land meets sky', 38, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('여름의 마지막 흙이\n그동안 키운 것을\n품어 두는 해', 78, bold=True, gap=40), T('늦여름 들판에서 거두는 흙', 54, gap=44),
+       T('2027: the last Earth of summer,\nholding all it has grown', 36, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('이 들판 곁,\n1700년 가까이 된\n둑의 이름은?', 84, bold=True, gap=34), T('답과 가기 전 알아 둘 것은\n@goyo_mio 피드 게시물에서', 52, bold=True, gap=30),
+                 T('A nearly 1,700-year-old dike by these fields:\nits name and story are in our feed post.', 38, EN, gap=0)],
+       items_yt=[T('이 들판 곁,\n1700년 가까이 된\n둑의 이름은?', 84, bold=True, gap=34), T('답과 가기 전 알아 둘 것은\n채널 게시물에서', 52, bold=True, gap=30),
+                 T('A nearly 1,700-year-old dike by these fields:\nits name and story are in our Posts tab.', 38, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('토 편', 100, bold=True, gap=36), T('『Field After Rain』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Earth\n· Field After Rain · Listen at the link in bio.', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('토 편', 100, bold=True, gap=36), T('『Field After Rain』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · Earth\n· Field After Rain · Music: related video below', 36, EN, gap=0)]),
+ ],
+ caption="""하늘과 땅이 만나는 선, 전북 김제의 지평선 들판과 벽골제.
+
+산이 많은 우리 땅에서 김제·만경의 너른 들은 드물게 지평선이 보이는 곳이에요. 이 들을 사투리로 「징게맹갱 외에밋들」, 김제 만경의 너른 들이라고도 해요.
+
+들판 한쪽에는 1700년 가까이 된 둑, 벽골제(碧骨堤)가 있어요. 『삼국사기』에 330년에 처음 쌓았다는 기록이 있고, 우리나라에서 가장 오래된 저수지로 알려져 있어요. 지금은 3km쯤 되는 둑이 남아 있어요(한국민족문화대백과사전). 둑을 쌓던 사람들이 짚신에 묻은 흙을 털어 작은 산이 생겼다는 「신털미산」 이야기도 전하고, 옛 이름 벽골을 볏골, 벼의 고을로 풀기도 해요.
+
+여름의 마지막 흙이 그동안 키운 것을 조용히 품어 두는 해. 2027 정미년을 이렇게 읽어요. 늦여름 들판에서 거두는 흙이에요. 1월 10일에 흙의 속을 봤다면, 오늘은 그 흙이 펼쳐진 모습이에요. 흙으로 쌓은 둑이 물을 모아 들판을 키웠으니, 흙이 물을 붙들어 두고 물이 마른 흙을 적셔 온 1700년 가까운 시간이에요. 제 해석이에요.
+
+지평선축제는 해마다 가을 초입 벽골제 일대에서 열려요. 2026년은 10월 1~5일이었고, 2027년 일정은 아직 발표 전이에요. 1월의 들판은 비어 있으니, 누렇게 익는 들판은 가을에 보세요. 1월 15일의 망해사 해넘이와 하루 코스로 묶어도 좋아요.
+
+들판 곁에는 느리고 담백하게 쌓이는 로파이, 『다섯 가지 고요｜토(土)』. 오늘 고른 곡은 비 갠 뒤의 들판, 『Field After Rain』이에요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Where the land meets the sky: the Gimje plains and Byeokgolje, North Jeolla.
+
+In a land of mountains, the Gimje and Mangyeong plains are one of the rare places where land meets sky in a straight line. Locals call them "Jingge Maenggaeng Oeemitdeul," the wide fields of Gimje and Mangyeong.
+
+On one side of the fields stands a nearly 1,700-year-old dike, Byeokgolje (碧骨堤). The Samguk Sagi (History of the Three Kingdoms) records it as first built in 330, and it is known as Korea's oldest reservoir. About 3 km of the dike remains (Encyclopedia of Korean Culture). A local tale says the workers shook so much dirt from their straw sandals that it piled into a small hill, and some read the old name Byeokgol as "rice village."
+
+We read 2027 as the last Earth of summer, quietly holding all it has grown: the Earth of late-summer fields at harvest. On January 10 we looked inside that Earth; today we see it spread wide. A dike of earth held water, and the water fed the fields. That's our reading: nearly 1,700 years of Earth holding Water, and Water soaking dry Earth.
+
+The Gimje Horizon Festival is held near Byeokgolje every early autumn: October 1 to 5 in 2026, with 2027 dates not yet announced. The fields are bare in January, so come back in autumn to see them golden. For a winter day trip, pair it with the Manghaesa Temple sunset from our January 15 post.
+
+Music for the fields: Five Kinds of Quiet · Earth, slow, unfussy lo-fi. Today's track is Field After Rain. Listen at the link in bio.
+
+#고요 #고요여행 #김제 #지평선 #벽골제 #김제평야 #정미년 #오행음악 #korea""",
+ reel_caption="""하늘과 땅이 만나는 선, 전북 김제.
+
+산이 많은 우리 땅에서 드물게 지평선이 보이는 너른 들이에요. 여름의 마지막 흙이 그동안 키운 것을 품어 두는 해, 2027 정미년을 늦여름 들판에서 거두는 흙으로 읽어요. 들판 곁 1700년 가까이 된 둑 이야기와 가기 전에 알아 둘 것은 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜토(土)』의 『Field After Rain』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Where the land meets the sky: Gimje, North Jeolla, one of the rare places in Korea where you can see the horizon over flat land. We read 2027 as the last Earth of summer, holding all it has grown: the Earth of late-summer fields at harvest. The story of a nearly 1,700-year-old dike beside these fields, and tips for your visit, are in our feed post.
+
+The music is Field After Rain from Five Kinds of Quiet · Earth. Listen at the link in bio.
+
+#고요 #김제 #지평선 #벽골제 #오행음악""",
+)
+
+# ───────── 1/25 월 · 1월생인데 사주는 지난해? (병화) — 원문 Ⅰ 입춘 기준
+P['0125'] = dict(
+ music='병화',
+ slides=[
+  S([T('1월 25일 · 고요 이야기', 44, GOLD, gap=30), T('1월생인데\n사주는 지난해?', 100, bold=True, gap=36),
+     T('새해는 세 번 와요', 44, gap=30), T('Born in January, but last year in Saju?', 36, EN, gap=0)]),
+  S([T('양력 새해', 40, GOLD, True, 6), T('1월 1일', 56, bold=True, gap=26),
+     T('사주의 새해 · 입춘', 40, GOLD, True, 6), T('2월 4일 오전 10시 46분', 56, bold=True, gap=26),
+     T('음력 새해 · 설날', 40, GOLD, True, 6), T('2월 7일', 56, bold=True, gap=34),
+     T('사주는 이 가운데\n입춘을 새해로 써요.', 48, gap=34),
+     T('Three new years in 2027: Jan 1; the start of spring\n(立春), Feb 4 at 10:46 a.m.; and Lunar New Year, Feb 7.\nSaju counts the year from the start of spring.', 26, EN, gap=0)], tag='세 번의 새해'),
+  S([T('2027년 1월 1일부터\n2월 4일 오전 10시 46분 전에\n태어나면', 52, gap=26),
+     T('사주의 해는\n병오(丙午)년이에요.', 72, bold=True, gap=30),
+     T('양력 새해도, 음력 설날도\n아닌 입춘이 기준이에요.', 44, GOLD, gap=34),
+     T('Born between Jan 1 and 10:46 a.m. on Feb 4, 2027?\nIn Saju, your year is the 丙午 year (Byeong-o) ·\nYang Fire · Noon Fire, the same year as 2026.', 28, EN, gap=0)], tag='그래서'),
+  S([T('오늘 1월 25일에 태어난 아기라면', 46, gap=26),
+     T('해 병오 · 달 신축 · 날 갑진', 56, bold=True, gap=30),
+     T('해 글자가 2026년 입춘 뒤와 같아요.', 44, gap=30),
+     T('2000년 1월생도 사주의 해는\n1999년의 기묘(己卯)년이에요.', 42, GOLD, gap=34),
+     T('A baby born today, Jan 25: year pillar 丙午, month\npillar 辛丑, day pillar 甲辰. The year pillar matches\n2026\'s. Born in January 2000? Your year is still 1999\'s:\nthe 己卯 year (Gimyo) · Yin Earth · Daybreak Wood.', 26, EN, gap=0)], tag='예를 들면'),
+  S([T('달도 1일이 아니라\n절기로 바뀌어요.', 60, bold=True, gap=30),
+     T('1월 5일 밤 11시 10분 소한 전은\n경자(庚子)월,', 46, gap=20),
+     T('소한부터 입춘 전까지는\n신축(辛丑)월이에요.', 46, gap=30),
+     T('입춘부터는 해와 달이 함께\n정미년 임인(壬寅)월로 바뀌어요.', 42, GOLD, gap=34),
+     T('Months turn on solar terms too: before Minor Cold\n(Jan 5, 11:10 p.m.) it is a 庚子 month, then 辛丑\nuntil the start of spring, when both year and month turn:\nthe 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth,\nin a 壬寅 month.', 24, EN, gap=0)], tag='달도 절기로'),
+  S([T('2월 4일에 태어났다면\n시각을 보세요.', 62, bold=True, gap=30),
+     T('오전 10시 46분 전이면 병오년,\n그 뒤면 정미년이에요.', 48, gap=28),
+     T('입춘 시각은 해마다 달라요.\n2월 3~5일 사이, 태어난 해의\n입춘 시각을 확인해야 해요.', 40, GOLD, gap=34),
+     T('Born on Feb 4? Check the time. Before 10:46 a.m.,\nit\'s the 丙午 year; after, the 丁未 year. The start of\nspring falls on Feb 3, 4 or 5, so check the exact time\nfor your birth year.', 26, EN, gap=0)], tag='입춘 당일이라면'),
+  S([T('무료 사주 앱은\n해와 달을 절기가 드는 시각으로\n계산해요.', 54, bold=True, gap=30),
+     T('생년월일과 태어난 시각을 넣으면\n입춘 앞뒤도 알아서 나눠요.', 44, gap=30),
+     T('앱은 프로필 링크에 있어요.', 40, GOLD, gap=34),
+     T('Our free Saju app counts the year and month from the\nexact time of each solar term. Enter your birth date and\ntime, and it handles the start-of-spring cutoff for you.\nFind the app at the link in bio.', 26, EN, gap=0)], tag='내 사주는'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('병화 편', 96, bold=True, gap=34),
+     T('하늘의 해 같은 소리예요.', 52, gap=24), T('오늘 고른 곡은 『Sun on the Pages』,\n달력 위에 비치는 햇살이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa),\nmusic like the sun. Today\'s track is Sun on the Pages.\nListen at the link in bio.', 30, EN, gap=0)], tag='아직 병오년의 소리'),
+ ],
+ caption="""1월생인데 사주는 지난해?
+
+2027년에는 새해가 세 번 와요. 양력 새해는 1월 1일, 사주의 새해인 입춘은 2월 4일 오전 10시 46분, 음력 설날은 2월 7일이에요. 사주는 이 가운데 입춘을 새해로 써요.
+
+그래서 2027년 1월 1일부터 2월 4일 오전 10시 46분 전에 태어나면 사주의 해는 병오(丙午)년이에요. 양력 새해도, 음력 설날도 아닌 입춘이 기준이에요. 오늘 1월 25일에 태어난 아기라면 해 병오, 달 신축, 날 갑진으로, 해 글자가 2026년 입춘 뒤와 같아요. 2000년 1월생도 사주의 해는 1999년의 기묘(己卯)년이에요.
+
+달도 1일이 아니라 절기로 바뀌어요. 1월 5일 밤 11시 10분 소한 전은 경자(庚子)월, 소한부터 입춘 전까지는 신축(辛丑)월이에요. 입춘부터는 해와 달이 함께 정미년 임인(壬寅)월로 바뀌어요.
+
+2월 4일에 태어났다면 시각을 보세요. 오전 10시 46분 전이면 병오년, 그 뒤면 정미년이에요. 입춘 시각은 해마다 2월 3~5일 사이에서 달라지니, 태어난 해의 입춘 시각을 확인해야 해요.
+
+무료 사주 앱은 해와 달을 절기가 드는 시각으로 계산해요. 생년월일과 태어난 시각을 넣으면 입춘 앞뒤도 알아서 나눠요. 앱은 프로필 링크에 있어요.
+
+아직 병오년인 지금, 하늘의 해 같은 『다섯 가지 고요｜병화(丙火)』. 오늘 고른 곡은 달력 위에 비치는 햇살, 『Sun on the Pages』예요. 프로필 링크에서 들을 수 있어요.
+
+절기 시각: 한국천문연구원 / 설날: 우주항공청 「2027년 월력요항」
+
+· English ·
+Born in January, but last year in Saju?
+
+2027 has three new years: January 1; the start of spring (立春), the Saju new year, on February 4 at 10:46 a.m.; and Lunar New Year on February 7. Saju (Korean Four Pillars astrology) counts the year from the start of spring.
+
+So if you were born between January 1 and 10:46 a.m. on February 4, 2027, your Saju year is the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, the same year as 2026. Neither January 1 nor Lunar New Year sets the line; the start of spring does. A baby born today, January 25, has year pillar 丙午, month pillar 辛丑 and day pillar 甲辰; the year pillar matches 2026's. Born in January 2000? Your Saju year is still 1999's: the 己卯 year (Gimyo) · Yin Earth · Daybreak Wood.
+
+Months turn on solar terms too. Before Minor Cold (January 5, 11:10 p.m.) it is a 庚子 month; from then until the start of spring, a 辛丑 month. At the start of spring, the year and month turn together: the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, in a 壬寅 month.
+
+Born on February 4? Check the time. Before 10:46 a.m., it's the 丙午 year; after, the 丁未 year. The start of spring falls on February 3, 4 or 5, so check the exact time for your birth year.
+
+Our free Saju app counts the year and month from the exact time of each solar term. Enter your birth date and time, and it handles the start-of-spring cutoff for you. Find the app at the link in bio.
+
+While it's still the 丙午 year, here's Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa), music like the sun. Today's track is Sun on the Pages, sunlight on a calendar page. Listen at the link in bio.
+
+Solar term times: Korea Astronomy and Space Science Institute. Lunar New Year: Korea AeroSpace Administration, 2027 calendar notice.
+
+#고요 #고요이야기 #입춘 #사주 #1월생 #정미년 #병오년 #오행 #saju #fiveelements""",
+)
+
+# ───────── 1/27 수 · 여행: 치앙마이 로이끄라통·이펭 (계수) — 원문 Ⅷ 해외 물과 등불
+P['0127'] = dict(
+ music='계수', audio='shorts/음원/계수_Ripple_60s.m4a',
+ slides=[
+  S([T('1월 27일 · 고요 여행', 44, GOLD, gap=30), T('보름밤,\n물과 하늘에\n띄우는 불', 96, bold=True, gap=36),
+     T('태국 치앙마이 · 로이끄라통과 이펭', 42, gap=30), T('Lights on the water and in the sky', 36, EN, gap=0)]),
+  S([T('「로이」는\n띄운다는 뜻이에요.', 64, bold=True, gap=30),
+     T('바나나 잎으로 엮은 작은 배,\n끄라통에 초와 향을 꽂아\n보름밤 강물에 띄워요.', 46, gap=28),
+     T('치앙마이에서는 핑강 위로 흘러가요.', 42, GOLD, gap=34),
+     T('"Loy" means "to float." On the full-moon night, people\nfloat a krathong, a small banana-leaf boat with a candle\nand incense. In Chiang Mai, they drift down the Ping River.', 26, EN, gap=0)], tag='로이끄라통'),
+  S([T('같은 무렵 치앙마이에서는\n하늘로 등을 올려요.', 56, bold=True, gap=30),
+     T('란나 말로 「이」는 둘,\n「펭」은 보름이에요.', 50, gap=26),
+     T('북부 란나 달력의\n둘째 달 보름밤이라는 뜻이에요.', 42, GOLD, gap=34),
+     T('Around the same night, Chiang Mai sends paper lanterns\ninto the sky. In the Lanna language, "yi" means two and\n"peng" means full moon: the full moon of the second\nmonth in the old northern Lanna calendar.', 26, EN, gap=0)], tag='이펭'),
+  S([T('태국 달력으로는 열두째 달 보름,\n란나 달력으로는 둘째 달 보름.', 46, gap=30),
+     T('같은 밤을\n두 달력이\n다르게 불러요.', 66, bold=True, gap=30),
+     T('1월 25일의 「새해는 세 번」처럼,\n달력마다 같은 날의 이름이 달라요.', 40, GOLD, gap=34),
+     T('The twelfth full moon in the Thai calendar is the second\nin the Lanna calendar: one night, two names. Like our\nJan 25 post on three new years, each calendar names\nthe same day its own way.', 26, EN, gap=0)], tag='두 달력, 한 보름밤'),
+  S([T('2027년에는\n11월 14일 무렵이\n그 보름이에요.', 62, bold=True, gap=28),
+     T('여행사 공개 일정 기준이고,\n태국 공식 날짜는 그 전해에 발표돼요.', 42, gap=28),
+     T('하늘로 한꺼번에 등을 올리는 큰 행사는\n허가된 곳에서 표를 사야 하고,\n구시가 행사는 무료로 볼 수 있어요.', 38, GOLD, gap=34),
+     T('In 2027, the full moon falls around November 14\n(per travel operators; Thailand announces the official\ndate the year before). Mass lantern releases are ticketed\nat licensed venues; Old City events are free.', 26, EN, gap=0)], tag='2027년에는'),
+  S([T('정미년의 첫 글자는\n등불, 정화예요.', 60, bold=True, gap=28),
+     T('그 열기 곁에 두는 서늘한 것은 물.', 46, gap=28),
+     T('작은 불빛을 물에 띄워 보내는 밤,\n물결 위에서 불빛이 흔들려요.', 46, bold=True, gap=26),
+     T('제 해석이에요.', 34, [150, 145, 135], gap=30),
+     T('The first character of 2027 is a lamp: 丁火 Yin Fire\n(Jeonghwa). Beside its heat, something cool: water.\nTo us, this is a night of small lights sent off on the\nwater, trembling on the ripples.', 26, EN, gap=0)], tag='사주로 보면'),
+  S([T('1월 3일 진주 남강의 등은\n강을 따라 흘렀어요.', 50, gap=28),
+     T('치앙마이의 보름밤에는\n물 위로도, 하늘로도\n불이 떠요.', 60, bold=True, gap=30),
+     T('정미년에 갈 만한 곳,\n해외 한 곳을 고른다면 여기예요.', 42, GOLD, gap=34),
+     T('On Jan 3, Jinju\'s lamps drifted down the river.\nOn Chiang Mai\'s full-moon night, lights float on the\nwater and rise into the sky. If you pick one place\nabroad for 2027, this is ours.', 26, EN, gap=0)], tag='정미년과 이어서'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
+     T('가는 비와 이슬 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Ripple』,\n끄라통이 지나간 잔물결이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu):\nsounds like fine rain and dew.\nToday\'s track is Ripple. Listen at the link in bio.', 30, EN, gap=0)], tag='물결 곁에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 27일', 50, GOLD, gap=34), T('보름밤,\n물과 하늘에\n띄우는 불', 104, bold=True, gap=50), T('Lights on the water and in the sky', 40, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('태국 치앙마이', 62, GOLD, gap=30), T('강물에는 끄라통,\n하늘에는 등', 86, bold=True, gap=44),
+       T('Chiang Mai: krathongs on the river,\nlanterns in the sky', 36, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('등불 곁에\n두는 서늘한 물', 88, bold=True, gap=40), T('물결 위에서 흔들리는 작은 불빛', 52, gap=44),
+       T('Cool water beside a lamp:\nsmall lights trembling on the ripples', 36, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('「이펭」은\n무슨 뜻일까요?', 96, bold=True, gap=34), T('답과 2027년 날짜는\n@goyo_mio 피드 게시물에서', 54, bold=True, gap=30),
+                 T('What does "Yi Peng" mean?\nThe answer and 2027 dates are in our feed post.', 36, EN, gap=0)],
+       items_yt=[T('「이펭」은\n무슨 뜻일까요?', 96, bold=True, gap=34), T('답과 2027년 날짜는\n채널 게시물에서', 54, bold=True, gap=30),
+                 T('What does "Yi Peng" mean?\nThe answer and 2027 dates are in our Posts tab.', 36, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('『Ripple』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\n· Ripple · Listen at the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('『Ripple』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\n· Ripple · Music: related video below', 34, EN, gap=0)]),
+ ],
+ caption="""보름밤, 물과 하늘에 띄우는 불. 태국 치앙마이의 로이끄라통과 이펭.
+
+「로이」는 띄운다는 뜻이에요. 바나나 잎으로 엮은 작은 배, 끄라통에 초와 향을 꽂아 보름밤 강물에 띄워요. 치앙마이에서는 끄라통이 핑강 위로 흘러가요. 같은 무렵 치앙마이에서는 하늘로 등을 올리는 이펭도 열려요. 란나 말로 「이」는 둘, 「펭」은 보름이라, 북부 란나 달력의 둘째 달 보름밤이라는 뜻이에요.
+
+태국 달력으로는 열두째 달 보름이 란나 달력으로는 둘째 달 보름이에요. 같은 밤을 두 달력이 다르게 불러요. 1월 25일의 「새해는 세 번」처럼, 달력마다 같은 날의 이름이 달라요.
+
+2027년에는 11월 14일 무렵이 그 보름이에요. 여행사 공개 일정 기준이고, 태국 공식 날짜는 그 전해에 발표돼요. 하늘로 한꺼번에 등을 올리는 큰 행사는 허가된 곳에서 표를 사야 하고, 구시가 행사는 무료로 볼 수 있어요.
+
+정미년의 첫 글자는 등불, 정화예요. 그 열기 곁에 두는 서늘한 것은 물이에요. 작은 불빛을 물에 띄워 보내는 밤, 물결 위에서 불빛이 흔들려요. 제 해석이에요. 1월 3일 진주 남강의 등은 강을 따라 흘렀고, 치앙마이의 보름밤에는 물 위로도 하늘로도 불이 떠요. 정미년에 갈 만한 곳, 해외 한 곳을 고른다면 여기예요.
+
+물결 곁에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 끄라통이 지나간 잔물결, 『Ripple』이에요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Lights on the water and in the sky: Loy Krathong and Yi Peng in Chiang Mai, Thailand.
+
+"Loy" means "to float." On the full-moon night, people float a krathong, a small banana-leaf boat with a candle and incense, and in Chiang Mai they drift down the Ping River. Around the same night, Chiang Mai sends paper lanterns into the sky for Yi Peng. In the Lanna language, "yi" means two and "peng" means full moon: the full moon of the second month in the old northern Lanna calendar.
+
+The twelfth full moon in the Thai calendar is the second in the Lanna calendar: one night, two names. Like our January 25 post on three new years, each calendar names the same day its own way.
+
+In 2027, that full moon falls around November 14, according to travel operators; Thailand announces the official date the year before. Mass lantern releases are ticketed at licensed venues, and Old City events are free.
+
+The first character of 2027 is a lamp: 丁火 Yin Fire (Jeonghwa). Beside its heat, something cool: water. To us, this is a night of small lights sent off on the water, trembling on the ripples. This is our own reading. On January 3, Jinju's lamps drifted down the river; on Chiang Mai's full-moon night, lights float on the water and rise into the sky. If you pick one place abroad for 2027, this is ours.
+
+For the ripples: Five Kinds of Quiet · 癸水 Yin Water (Gyesu), music like fine rain and dew. Today's track is Ripple. Listen at the link in bio.
+
+#고요 #고요여행 #치앙마이 #로이끄라통 #이펭 #태국여행 #정미년 #오행음악 #chiangmai #yipeng""",
+ reel_caption="""보름밤, 물과 하늘에 띄우는 불. 태국 치앙마이.
+
+강물에는 끄라통, 하늘에는 등을 띄우는 보름밤이에요. 정미년의 첫 글자는 등불(정화), 그 곁에 두는 서늘한 것은 물이에요. 물결 위에서 흔들리는 작은 불빛으로 봐요(제 해석). 「이펭」이라는 이름의 뜻과 2027년 날짜, 가기 전에 알아 둘 것은 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜계수(癸水)』의 『Ripple』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+A full-moon night in Chiang Mai, Thailand: krathongs on the river, lanterns in the sky. The first character of 2027 is a lamp, 丁火 Yin Fire (Jeonghwa), and beside its heat we set something cool: water. To us, these are small lights trembling on the ripples. What "Yi Peng" means, the 2027 dates, and tips for your visit are in our feed post.
+
+The music is Ripple from Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Listen at the link in bio.
+
+#고요 #치앙마이 #로이끄라통 #이펭 #오행음악""",
+)
+
+JS = 'art/정선_인왕제색도.jpg'
+# ───────── 1/21 목 · 고요의 그림 읽기 #4 정선 〈인왕제색도〉 (경금) — 원문 Ⅶ 식혀 주는 그림, 결정 1·12
+P['0121'] = dict(
+ music='경금',
+ slides=[
+  S([T('고요의 그림 읽기 #4', 40, GOLD, gap=10), T('비 갠 뒤의 바위', 84, bold=True, gap=14),
+     T('정선, 〈인왕제색도〉\n1751 · 국립중앙박물관 · 퍼블릭 도메인(위키미디어 공용)', 26, [150, 145, 135], gap=10),
+     T('After Rain at Mt. Inwang · Jeong Seon', 28, EN, gap=0)], card={'file': JS, 'h': 500}),
+  S([T('여름비가 그친 뒤의\n인왕산이에요.', 64, bold=True, gap=30),
+     T('1751년 윤5월 하순,\n일흔여섯의 정선이\n지금의 효자동 쪽에서 보고 그렸어요.', 46, gap=30),
+     T('양력으로는 7월 중순 무렵이에요.', 38, GOLD, gap=34),
+     T('Mt. Inwang after summer rain. Jeong Seon, aged 75,\npainted it in 1751 from today\'s Hyoja-dong, Seoul\n(mid-July by our calendar).', 28, EN, gap=0)], tag='그림'),
+  S([T('바위는 먹을 겹겹이 쌓아\n검고 무겁게,', 58, bold=True, gap=20), T('안개는 엷게 남겨 두었어요.', 58, bold=True, gap=30),
+     T('산은 올려다보고,\n아래 숲과 집은 내려다본 시선이\n한 화면에 함께 있어요.', 44, gap=34),
+     T('He layered ink to make the rocks dark and heavy,\nand left the mist pale. We look up at the mountain\nand down on the trees and house, all in one picture.', 28, EN, gap=0)], tag='먹의 검정, 안개의 흰빛'),
+  S([T('오른쪽 위에\n「인왕의 비 갠 빛,\n신미년 윤달 하순」이라고\n적혀 있어요.', 54, bold=True, gap=30),
+     T('1751년은 신미(辛未)년,\n미(未)의 해예요.', 50, gap=24),
+     T('곧 오는 2027 정미년도\n미(未)의 해, 늦여름 흙의 해예요.', 46, GOLD, gap=34),
+     T('Top right: "Inwang, clearing after rain, late in the\nleap month of the Sinmi (辛未) year." 1751 was a\n未 (Afternoon Earth) year, and so is the coming 2027.', 28, EN, gap=0)], tag='그림에 적힌 해'),
+  S([T('1984년 국보가 되었고,\n지금은 국립중앙박물관에 있어요.', 54, bold=True, gap=30),
+     T('세로 79.2cm, 가로 138.2cm,\n종이에 먹으로만 그렸어요.', 44, gap=28),
+     T('한국민족문화대백과사전', 32, [150, 145, 135], gap=30),
+     T('Named a National Treasure in 1984, it is now in the\nNational Museum of Korea. Ink on paper, 79.2 × 138.2 cm\n(Encyclopedia of Korean Culture).', 28, EN, gap=0)], tag='국보'),
+  S([T('보이는 것', 40, GOLD, True, 6), T('비에 젖어 검게 빛나는 화강암 바위\n→ 쇠, 그중 바위', 40, gap=24),
+     T('그리는 방식', 40, GOLD, True, 6), T('먹을 쌓은 무거운 검정, 엷은 안개 → 쇠와 물', 40, gap=24),
+     T('화가의 사주', 40, GOLD, True, 6), T('정선의 일간은 병화예요.', 40, gap=24),
+     T('산 전체는 큰 흙으로 볼 수도 있지만,\n고요는 비에 젖은 바위에 눈을 둬요.', 38, gap=26),
+     T('Seen: granite, dark and wet after rain. Painted: heavy\nlayered ink and pale mist. We read it as 庚金 Yang Metal\n(Gyeonggeum), the rock. Jeong Seon\'s day stem is\n丙火 Yang Fire (Byeonghwa).', 26, EN, gap=0)], tag='고요의 읽기 · 금(金)'),
+  S([T('뜨거운 해 곁에 두는\n서늘한 것.', 58, bold=True, gap=26),
+     T('흙의 열을 받아 흘려보내는\n바위와 비가 그림 속에 함께 있어요.', 46, gap=28),
+     T('오늘 1월 21일은 경자(庚子)일,\n앞 글자가 경금이에요.', 40, GOLD, gap=22),
+     T('내일은 그림 속 그 산,\n인왕산과 수성동 계곡으로 가 볼게요.', 40, gap=30),
+     T('Something cool beside a hot sun: rock and rain that take\nin Earth\'s heat and let it go. Today is a 庚子 day, led by\nYang Metal. Tomorrow: Mt. Inwang and Suseong-dong Valley.', 26, EN, gap=0)], tag='정미년과 이어서'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('경금 편', 96, bold=True, gap=34),
+     T('비에 젖은 바위 같은\n피아노 독주예요.', 52, gap=24), T('오늘 밤 9시 릴스에 흐르는 곡은\n『Boulder Field』, 바위 들판이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yang Metal: solo piano,\nlike rock after rain. Tonight\'s reel: Boulder Field.\nListen at the link in bio.', 30, EN, gap=0)], tag='이 그림 옆에 둘 소리'),
+ ],
+ caption="""고요의 그림 읽기 #4 · 정선 〈인왕제색도〉
+
+여름비가 그친 뒤의 인왕산이에요. 1751년 윤5월 하순, 양력으로는 7월 중순 무렵에 일흔여섯의 정선이 지금의 효자동 쪽에서 보고 그렸어요. 바위는 먹을 겹겹이 쌓아 검고 무겁게, 안개는 엷게 남겨 두었어요. 산은 올려다보고, 아래 숲과 집은 내려다본 시선이 한 화면에 함께 있어요.
+
+오른쪽 위에는 「인왕의 비 갠 빛, 신미년 윤달 하순」이라고 적혀 있어요. 1751년은 신미(辛未)년, 미(未)의 해예요. 곧 오는 2027 정미년도 미(未)의 해, 늦여름 흙의 해예요. 그림은 1984년 국보가 되었고, 지금은 국립중앙박물관에 있어요. 세로 79.2cm, 가로 138.2cm, 종이에 먹으로만 그렸어요(한국민족문화대백과사전).
+
+고요의 읽기로는 금(金), 그중 비에 젖어 검게 빛나는 화강암 바위, 경금이에요. 산 전체는 큰 흙으로 볼 수도 있지만, 고요는 비에 젖은 바위에 눈을 둬요. 정선의 일간은 병화예요. 뜨거운 해 곁에 두는 서늘한 것, 흙의 열을 받아 흘려보내는 바위와 비가 그림 속에 함께 있어요. 오늘 1월 21일은 경자(庚子)일이라 앞 글자가 경금이에요. 내일은 그림 속 그 산, 인왕산과 수성동 계곡으로 가 볼게요.
+
+이 그림 옆에는 비에 젖은 바위 같은 피아노 독주, 『다섯 가지 고요｜경금(庚金)』. 오늘 밤 9시 릴스에는 바위 들판, 『Boulder Field』가 흘러요. 프로필 링크에서 들을 수 있어요.
+
+그림: 국립중앙박물관, 1751, 퍼블릭 도메인(위키미디어 공용 이미지)
+
+· English ·
+Goyo Reads a Painting #4 · Jeong Seon, After Rain at Mt. Inwang
+
+This is Mt. Inwang after the summer rain. Jeong Seon painted it in 1751, late in the leap fifth month (mid-July by today's calendar), aged 75, looking from what is now Hyoja-dong in Seoul. He layered ink to make the rocks dark and heavy and left the mist pale. We look up at the mountain and down on the trees and house, all in one picture.
+
+At the top right he wrote, "Inwang, clearing after rain, late in the leap month of the Sinmi (辛未) year." 1751 was a 未 (Afternoon Earth) year, and so is the coming 2027. The painting was named a National Treasure in 1984 and is now in the National Museum of Korea. Ink on paper, 79.2 × 138.2 cm (Encyclopedia of Korean Culture).
+
+We read it as Metal, and within Metal, rock: 庚金 Yang Metal (Gyeonggeum), the granite dark and wet after rain. You could read the whole mountain as Earth, but we keep our eyes on the wet rock. Jeong Seon's day stem is 丙火 Yang Fire (Byeonghwa). Beside a hot sun, the painting holds something cool: rock and rain that take in Earth's heat and let it go. Today, January 21, is a 庚子 day, led by Yang Metal. Tomorrow we'll visit the mountain itself, Mt. Inwang and Suseong-dong Valley.
+
+Beside it: Five Kinds of Quiet · Yang Metal, solo piano, like rock after rain. Tonight's 9 p.m. reel plays Boulder Field. Listen at the link in bio.
+
+Image: National Museum of Korea, 1751, public domain (Wikimedia Commons)
+
+#고요 #고요의그림읽기 #정선 #인왕제색도 #겸재정선 #국보 #정미년 #오행 #명화 #fiveelements""",
+)
+
 ML = 'art/밀레_이삭줍는여인들.jpg'
 P['0114'] = dict(
  music='기토',
@@ -1136,7 +1557,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil
