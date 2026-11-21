@@ -1,9 +1,9 @@
 {
  "type": "reel",
  "via": "api",
- "approved": true,
+ "approved": false,
  "video_file": "shorts/정미년/인스타/0110 같은 사주 54명.mp4",
  "caption": "한 해 한국에서 나와 사주가 똑같은 아기, 몇 명쯤 태어날까요?\n\n사주는 태어난 해·달·날·시, 네 기둥에 글자가 둘씩, 여덟 글자예요. 날 기둥 윗글자가 「나」, 일간이에요. 같은 해·달·날·시진에 태어나면 여덟 글자가 같아요. 2024년 한국 출생아는 23만 8,300명(통계청). 365일과 열두 시진으로 나누면 약 54명이에요.\n\n그런데 같은 사주라도 남녀에 따라 대운이 반대로 흘러요. 대운이 시작되는 나이도 다음(또는 앞) 절기까지 남은 날로 정해져서 사람마다 달라요. 그 위에 부모, 태어난 곳, 시대가 더해져요. 같은 여덟 글자, 다른 삶이에요.\n\n오늘 밤의 소리는 다섯 가지 고요의 『First Spark』(화1 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nIn one year in Korea, how many babies are born with exactly your Saju chart? Saju is eight characters: two each for the year, month, day and hour of birth. The top one of the day pillar is you, your Day Master. Same year, month, day and two-hour block, same eight characters. Korea had 238,300 births in 2024 (Statistics Korea); divided by 365 days and 12 two-hour blocks, that is about 54. Yet with the same chart, the ten-year cycles run in opposite directions for men and women, and start at a different age for each person. Then add parents, birthplace and the times you live in. Same eight characters, different lives.\nMusic tonight: Five Kinds of Quiet · Fire · “First Spark”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #사주 #일간 #대운 #오행음악",
  "thumb_offset": 1000,
- "note": "정미년 v4 · 1/10 21:00 같은 사주 54명(1/29 일진과 맞바꿈 — 1/11 천하수와 60갑자 겹침 피함) · 그림·효과판 · 유튜브 2027-01 창 · 11/22 01:16 미오 님 「내용 승인」"
+ "note": "정미년 v4 · 1/10 21:00 같은 사주 54명(1/29 일진과 맞바꿈 — 1/11 천하수와 60갑자 겹침 피함) · 그림·효과판 · 유튜브 2027-01 창 · 11/22 01:16 미오 님 「내용 승인」 | 01:22 사실 오류(같은 날 태어나면 대운수도 같음) 발견 → 고칠 때까지 false"
 }
