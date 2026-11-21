@@ -408,6 +408,79 @@ The music is Wide Water from Five Kinds of Quiet · 壬水 Yang Water (Imsu). Li
 #고요 #정미년 #진주남강유등축제 #유등 #오행음악""",
 )
 
+# ───────── 1/6 수 · 닮은 것 vs 식혀 주는 것 (계수) — 원문 Ⅳ, 결정 9·13 (분류 이름으로만, 판정 안 함)
+P['0106v'] = dict(
+ music='계수', audio='shorts/그림편/audio/계수_Drizzle_95s.m4a',
+ slides=[
+  S([T('1월 6일 · 고요 이야기', 44, GOLD, gap=30), T('닮은 것,\n식혀 주는 것', 104, bold=True, gap=36),
+     T('2027년과 함께할 것을 고르는 두 갈래', 42, gap=30), T('Two ways to keep company with 2027', 38, EN, gap=0)]),
+  S([T('2027년은\n등불이 늦여름의 마른 흙을\n데우는 해예요.', 60, bold=True, gap=34), T('2026년의 큰 불이 이어지는\n뜨겁고 마른 때예요.', 46, gap=36),
+     T('2027: a lamp warming the dry earth of late summer. A hot, dry year that carries on from 2026.', 32, EN, gap=0)], tag='2027년은 어떤 해'),
+  S([T('2027년의 모양을\n그대로 느끼는 것', 62, bold=True, gap=34), T('등불, 늦여름 들판,\n거둔 것을 품는 흙.', 52, gap=36),
+     T('What echoes the year: a lamp, late-summer fields, earth that holds the harvest.', 32, EN, gap=0)], tag='닮은 것'),
+  S([T('2027년의 열기 곁에 둘\n서늘한 것', 62, bold=True, gap=34), T('물,\n그리고 흙의 열을 받아\n흘려보내는 쇠와 바위.', 52, gap=36),
+     T('What sits beside its heat: water, and metal and stone that take in the earth\'s warmth and let it go.', 32, EN, gap=0)], tag='식혀 주는 것'),
+  S([T('불은 흙을 낳고,\n흙은 쇠를 낳아요.', 62, bold=True, gap=34), T('그래서 옛 책은\n불과 흙이 많아 덥고 마른 때에\n쇠와 물을 함께 봐요.', 46, gap=36),
+     T('Fire feeds Earth, and Earth feeds Metal. In hot, dry times, old texts look to Metal and Water too.', 32, EN, gap=0)], tag='명리로 보면'),
+  S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 54, gap=34), T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 52, bold=True, gap=36),
+     T('How much Fire and Water your chart holds: see our free app.\nWhich side suits you depends on your whole chart.', 30, EN, gap=0)], tag='내게는 어느 쪽일까요'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
+     T('마른 흙에 조용히 스미는\n비 같은 소리예요.', 52, gap=24), T('첫 곡은 『Drizzle』이에요.', 44, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu).\nThe first track is Drizzle. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 6일', 50, GOLD, gap=34), T('닮은 것,\n식혀 주는 것', 118, bold=True, gap=50), T('Two ways to keep company with 2027', 40, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('2027년은', 70, gap=16), T('등불이\n마른 흙을 데우는 해', 92, bold=True, gap=50), T('A lamp warming dry earth', 40, EN, gap=0)]),
+  dict(sec=7.0, step=1.0, items=[T('닮은 것', 80, bold=True, gap=10), T('등불 · 들판 · 흙', 64, gap=40), T('식혀 주는 것', 80, bold=True, gap=10), T('물 · 쇠 · 바위', 64, gap=50),
+       T('What echoes it: lamp, fields, earth\nWhat sits beside it: water, metal, stone', 38, EN, gap=0)]),
+  dict(sec=5.0, step=0.9,
+       items_ig=[T('내게는\n어느 쪽일까요?', 96, bold=True, gap=34), T('풀이는 @goyo_mio\n피드 게시물에서', 60, bold=True, gap=30),
+                 T('Which side suits you?\nFull reading on our profile', 40, EN, gap=0)],
+       items_yt=[T('내게는\n어느 쪽일까요?', 96, bold=True, gap=34), T('풀이는\n채널 게시물에서', 60, bold=True, gap=30),
+                 T('Which side suits you?\nFull reading in our Posts tab', 40, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('첫 곡 『Drizzle』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu): Drizzle.\nMusic: link in bio', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('첫 곡 『Drizzle』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu): Drizzle.\nMusic: related video below', 36, EN, gap=0)]),
+ ],
+ caption="""닮은 것, 식혀 주는 것.
+
+2027년은 등불이 늦여름의 마른 흙을 데우는 해예요. 2026년의 큰 불이 이어지는 뜨겁고 마른 해라서, 2027년과 함께할 것을 두 갈래로 나눠 봤어요.
+
+닮은 것은 2027년의 모양을 그대로 느끼는 것이에요. 등불, 늦여름 들판, 거둔 것을 품는 흙. 식혀 주는 것은 그 열기 곁에 둘 서늘한 것이에요. 물, 그리고 흙의 열을 받아 흘려보내는 쇠와 바위. 불은 흙을 낳고 흙은 쇠를 낳아서, 옛 책은 불과 흙이 많아 덥고 마른 때에 쇠와 물을 함께 봐요.
+
+불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요.
+
+마른 흙에 조용히 스미는 비 같은 소리, 『다섯 가지 고요｜계수(癸水)』. 첫 곡은 『Drizzle』이에요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+What echoes 2027, and what sits beside its heat.
+
+2027 is a lamp warming the dry earth of late summer, a hot, dry year that carries on from 2026's big fire. So we sorted what to keep close this year into two groups.
+
+What echoes the year: a lamp, late-summer fields, earth that holds the harvest. What sits beside its heat: water, and metal and stone that take in the earth's warmth and let it go. Fire feeds Earth and Earth feeds Metal, so in hot, dry times the old texts look to Metal and Water too.
+
+You can see how much Fire and Water your chart holds in our free app. Which side suits you better depends on your whole chart. The app is in our link in bio.
+
+Music like rain soaking quietly into dry earth: Five Kinds of Quiet · 癸水 Yin Water (Gyesu). The first track is Drizzle. Listen through the link in bio.
+
+#고요 #정미년 #2027년 #사주 #오행 #오행음악 #saju #fiveelements""",
+ reel_caption="""닮은 것, 식혀 주는 것.
+
+2027년은 등불이 마른 흙을 데우는 해예요. 그래서 함께할 것을 두 갈래로 나눴어요. 닮은 것은 등불·들판·흙, 식혀 주는 것은 물·쇠·바위. 내게 어느 쪽이 어울리는지 보는 법은 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜계수(癸水)』의 첫 곡 『Drizzle』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+2027 is a lamp warming dry earth, so we split what to keep close into two groups. What echoes it: lamp, fields, earth. What sits beside its heat: water, metal, stone. How to see which suits you is in our feed post.
+
+The music is Drizzle from Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Listen through the link in bio.
+
+#고요 #정미년 #사주 #오행 #오행음악""",
+)
+
 def build(key):
     p = P[key]; out = os.path.join(os.path.dirname(os.path.abspath(__file__)), key); os.makedirs(out, exist_ok=True)
     json.dump({'music': p['music'], 'slides': p['slides']}, open(f'{out}/slides.json', 'w'), ensure_ascii=False, indent=1)
@@ -418,7 +491,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil
