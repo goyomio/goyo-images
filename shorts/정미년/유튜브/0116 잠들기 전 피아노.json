@@ -1,0 +1,272 @@
+{
+ "audio": "shorts/정미년/audio/수1_NightTide_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "잠들기 전에 틀어 두는 피아노,\n고요는 이렇게 만들어요",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Bedtime piano:\nhow GOYO makes it",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0116_달과물.png",
+    "h": 260
+   },
+   "instant": true
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "고요의 물(水) 편은\n밤을 위해 만든\n피아노 연주예요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "GOYO’s Water series is piano music\nmade for the night.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0116_건반.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "빠르기는 1분에 52~60박.\n서두르지 않는 속도예요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The tempo is 52 to 60 beats per minute:\nno hurry.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0116_메트로놈.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "북이나 드럼 같은 타악기는\n하나도 넣지 않았어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "No drums, no percussion at all.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0116_건반.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "화음에서 3도를 비워 두었어요.\n밝지도 슬프지도 않은,\n맑고 찬 소리예요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "3도가 장조와 단조를 가르거든요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "We leave the third out of the chords:\nneither bright nor sad, just clear and cool.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0116_3도비움.png",
+    "h": 280
+   },
+   "tag": "3도"
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "사주에서 물은 겨울과 밤,\n모으고 쉬는 기운이에요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "잠이 온다고 말하진 않을게요.\n귀를 붙잡지 않는 소리를 골랐어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "In Saju, Water is winter and night:\nthe energy of gathering and resting.\nWe won’t promise it puts you to sleep.\nWe just chose sounds that don’t grab your ear.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 수(水)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Night Tide』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간은 채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Water\n“Night Tide”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0116_달과물.png",
+    "h": 200
+   }
+  }
+ ]
+}

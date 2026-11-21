@@ -1,0 +1,205 @@
+{
+ "date": "2027-02-04",
+ "slot": "1300",
+ "name": "입춘",
+ "audio": {
+  "pyeon": "정화",
+  "title": "Little Lamp",
+  "file": "/mnt/user-data/uploads/Desktop/고요음악/쇼츠/_릴스음원/정화/16 Little Lamp.m4a",
+  "start_hms": "",
+  "근거": "원곡: 맥 고요음악/쇼츠/_릴스음원/정화/16 Little Lamp.m4a (60초 클립)"
+ },
+ "music_ko": "정화(丁火)",
+ "music_en": "Yin Fire",
+ "end_tag": "입춘의 소리",
+ "end_art": {
+  "file": "shorts/정미년/art/0204_황경315.png",
+  "h": 200
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "오늘 오전 10시 46분,\n봄이 섰어요",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "At 10:46 this morning,\nspring began.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_황경315.png",
+    "h": 260
+   },
+   "instant": true
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "해의 황경이 315도에 닿는 순간,\n그게 입춘(立春)이에요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The moment the sun reaches 315 degrees\non the ecliptic: that is the start of spring (立春).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_황경315.png",
+    "h": 280
+   },
+   "tag": "315°"
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "사주의 해도\n이 순간 바뀌었어요.\n오늘부터 정미년(丁未年).",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The Saju year turned at that moment too.\nFrom today: the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_병오정미.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "오늘 10시 46분 전에 태어나면 병오년생,\n그 뒤에 태어나면\n정미년생으로 봐요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Born before 10:46 today: a 丙午 (Byeong-o) year birth.\nBorn after: a 丁未 year birth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_병오정미.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "입춘 날 일진은 갑인(甲寅).\n봄의 나무가 겹친 날이에요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Today’s day name is 甲寅 (Gabin):\nspring wood on spring wood.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "정미년의 첫 글자는\n가까이 오래 비추는 등불, 정화.\n가까운 곳부터 밝히는 해로\n읽을 수 있어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The year opens with 丁火 Yin Fire (Jeonghwa):\na lamp that lights what is near, and keeps burning.\nOne way to read it: a year that lights up\nwhat’s near you first.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  }
+ ],
+ "caption": "오늘 오전 10시 46분, 봄이 섰어요.\n\n해의 황경이 315도에 닿는 순간, 그게 입춘(立春)이에요. 사주의 해도 이 순간 바뀌었어요. 오늘부터 정미년(丁未年)이에요. 오늘 10시 46분 전에 태어나면 병오년생, 그 뒤에 태어나면 정미년생으로 봐요.\n\n입춘 날 일진은 갑인(甲寅), 봄의 나무가 겹친 날이에요. 그리고 정미년의 첫 글자는 가까이 오래 비추는 등불, 정화(丁火)예요. 가까운 곳부터 밝히는 해로 읽을 수 있어요.\n\n이 영상의 소리는 다섯 가지 고요의 『Little Lamp』(정화 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nAt 10:46 this morning (KST), spring began. The moment the sun reaches 315 degrees on the ecliptic: that is the start of spring (立春). The Saju year turned at that moment too. From today: the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth. Born before 10:46 today, it’s a 丙午 (Byeong-o) year birth; born after, a 丁未 year birth. Today’s day name is 甲寅 (Gabin): spring wood on spring wood. And the year opens with 丁火 Yin Fire (Jeonghwa), a lamp that lights what is near, and keeps burning. One way to read it: a year that lights up what’s near you first.\nMusic in this video: Five Kinds of Quiet · Yin Fire · “Little Lamp”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #입춘 #정미년 #정화 #오행음악",
+ "key": "0204-1300",
+ "note": "정미년 시리즈 · 입춘"
+}

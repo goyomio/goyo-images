@@ -1,0 +1,271 @@
+{
+ "audio": "shorts/정미년/audio/목1_TreeRings_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 3.5,
+   "items": [
+    [
+     "2027년은\n좋은 해일까요?",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Will 2027 be a good year?",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_나이테.png",
+    "h": 260
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "나무의 나이테를 보면\n해마다 폭이 달라요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "자라기 좋은 해엔 넓게,\n힘든 해엔 좁게 자라요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Look at a tree’s rings: their width changes from year to year.\nWide in good growing years, narrow in hard ones.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_나이테.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "같은 해라도\n물가의 나무와 마른 언덕의 나무는\n나이테가 다르게 남아요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Even in the same year, a tree by the water\nand a tree on a dry hill leave different rings.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_나이테.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "사주도 그래요.\n정미년은 불(丁)과 흙(未)의 해.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Saju works the same way.\nThe 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth:\na year of fire and earth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "한겨울생처럼 차가운 사주엔\n반가운 온기로 읽고,\n불이 이미 많은 사주엔\n조금 덥게 읽기도 해요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "For a cold chart, say someone born in deep winter,\nit reads as welcome warmth.\nFor a chart already full of fire,\nit may read as a little too warm.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_겨울과여름.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "그래서 한 해가 모두에게\n똑같이 좋을 수는 없어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "고요에 다섯 오행 편이\n다 있는 이유예요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "So no year is good for everyone in the same way.\nThat’s why GOYO has all five elements.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_다섯오행.png",
+    "h": 280
+   },
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 목(木)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Tree Rings』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간은 채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Wood\n“Tree Rings”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_나이테.png",
+    "h": 200
+   }
+  }
+ ]
+}

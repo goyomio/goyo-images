@@ -568,5 +568,60 @@
   "편": "계수",
   "곡": "Rain Garden",
   "근거": "원곡: goyo-keys/audio/catalog.json 계수 19:58 Rain Garden (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/갑목_QuietTrunk_60s.m4a": {
+  "편": "갑목",
+  "곡": "Quiet Trunk",
+  "근거": "원곡: 맥 _릴스음원/catalog.json 갑목 09 21:37 Quiet Trunk (60초)"
+ },
+ "shorts/정미년/audio/수1_NightTide_60s.m4a": {
+  "편": "수1",
+  "곡": "Night Tide",
+  "근거": "원곡: 수1  Night Tide (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/목1_TreeRings_60s.m4a": {
+  "편": "목1",
+  "곡": "Tree Rings",
+  "근거": "원곡: 맥 고요음악/목/목1/목1 영상 최종 v2.mp4 38:44부터 60초 (설명란 38:42 Tree Rings, 2초 겹침 뒤부터), 맥 _릴스음원/목1_TreeRings_60s.m4a"
+ },
+ "shorts/정미년/audio/화1_EmberWalk_60s.m4a": {
+  "편": "화1",
+  "곡": "Ember Walk",
+  "근거": "원곡: 화1  Ember Walk (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/금1_PaleRing_60s.m4a": {
+  "편": "금1",
+  "곡": "Pale Ring",
+  "근거": "원곡: 금1  Pale Ring (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/갑목_PineatDawn_60s.m4a": {
+  "편": "갑목",
+  "곡": "Pine at Dawn",
+  "근거": "원곡: 맥 _릴스음원/catalog.json 갑목 10 24:39 Pine at Dawn (60초)"
+ },
+ "shorts/정미년/audio/신금_SilverThread_60s.m4a": {
+  "편": "신금",
+  "곡": "Silver Thread",
+  "근거": "원곡: 신금 31:24 Silver Thread (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/무토_EarthenPath_60s.m4a": {
+  "편": "무토",
+  "곡": "Earthen Path",
+  "근거": "원곡: 무토 11:29 Earthen Path (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/정화_LittleLamp_60s.m4a": {
+  "편": "정화",
+  "곡": "Little Lamp",
+  "근거": "원곡: 맥 고요음악/쇼츠/_릴스음원/정화/16 Little Lamp.m4a (60초 클립)"
+ },
+ "shorts/정미년/audio/정화_GoldenHush_60s.m4a": {
+  "편": "정화",
+  "곡": "Golden Hush",
+  "근거": "원곡: 맥 고요음악/쇼츠/_릴스음원/정화/17 Golden Hush.m4a (60초 클립)"
+ },
+ "shorts/정미년/audio/수1_QuietHarbor_60s.m4a": {
+  "편": "수1",
+  "곡": "Quiet Harbor",
+  "근거": "원곡: 수1  Quiet Harbor (곡 시작부터 60초)"
  }
 }

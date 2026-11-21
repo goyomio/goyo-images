@@ -1,0 +1,188 @@
+{
+ "date": "2027-01-31",
+ "slot": "2100",
+ "name": "입춘대길 건양다경",
+ "audio": {
+  "pyeon": "갑목",
+  "title": "Pine at Dawn",
+  "file": "/mnt/user-data/uploads/Desktop/고요음악/쇼츠/_릴스음원/갑목/10 Pine at Dawn.m4a",
+  "start_hms": "24:39",
+  "근거": "원곡: 맥 _릴스음원/catalog.json 갑목 10 24:39 Pine at Dawn (60초)"
+ },
+ "music_ko": "갑목(甲木)",
+ "music_en": "Yang Wood",
+ "end_tag": "오늘 밤의 소리",
+ "end_art": {
+  "file": "shorts/정미년/art/0131_동쪽.png",
+  "h": 200
+ },
+ "scenes": [
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "立春大吉\n建陽多慶",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "나흘 뒤 대문에 붙이는\n여덟 글자",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Eight characters for the front gate,\nfour days from now",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_입춘첩.png",
+    "h": 240
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "입춘대길: 봄이 서니 크게 길하기를.\n건양다경: 볕이 일어 경사가 많기를.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "“As spring begins, may great fortune come.\nAs the warm light rises, may there be much to celebrate.”",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_입춘첩.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "입춘 무렵 대문이나 기둥에\n써 붙이는 입춘첩이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "These are ipchuncheop, spring couplets\nposted on gates and pillars at the start of spring.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_입춘첩.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "오행에서 봄은 나무(木),\n방향은 해가 뜨는 동쪽이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "In the five elements, spring is Wood,\nand its direction is east, where the sun rises.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_동쪽.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "갑목(甲木)은 그 동쪽의 큰 나무.\n2월 4일 오전 10시 46분,\n사주의 해도 바뀌어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "甲木 Yang Wood (Gapmok) is the tall tree of the east.\nOn Feb 4, 2027, at 10:46 a.m. KST, the Saju year turns too.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  }
+ ],
+ "caption": "나흘 뒤 대문에 붙이는 여덟 글자, 立春大吉 建陽多慶.\n\n입춘대길(立春大吉)은 봄이 서니 크게 길하기를, 건양다경(建陽多慶)은 볕이 일어 경사가 많기를 바라는 말이에요. 입춘 무렵 대문이나 기둥에 써 붙이는 입춘첩이에요.\n\n오행에서 봄은 나무(木), 방향은 해가 뜨는 동쪽이에요. 갑목(甲木)은 그 동쪽의 큰 나무예요. 2월 4일 오전 10시 46분, 사주의 해도 정미년으로 바뀌어요.\n\n이 영상의 소리는 다섯 가지 고요의 『Pine at Dawn』(갑목 편)이에요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nEight characters for the front gate, four days from now: 立春大吉 建陽多慶. “As spring begins, may great fortune come. As the warm light rises, may there be much to celebrate.” These are ipchuncheop, spring couplets posted on gates and pillars at the start of spring (立春). In the five elements, spring is Wood, and its direction is east, where the sun rises. 甲木 Yang Wood (Gapmok) is the tall tree of the east. On Feb 4, 2027, at 10:46 a.m. KST, the Saju year turns too, to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.\nMusic in this video: Five Kinds of Quiet · Yang Wood · “Pine at Dawn”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #입춘 #입춘대길 #갑목 #오행음악",
+ "key": "0131-2100",
+ "note": "정미년 시리즈 · 입춘대길 건양다경"
+}

@@ -1,0 +1,241 @@
+{
+ "audio": "shorts/정미년/audio/금1_PaleRing_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "어제 1월 28일은\n정미(丁未)일이었어요",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Yesterday, January 28,\nwas a 丁未 (Jeongmi) day.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0129_달력.png",
+    "h": 260
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "날마다 60갑자 이름이\n하나씩 붙어요.\n60일이 지나면 같은 이름이 돌아와요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Every day carries one of sixty names.\nAfter sixty days, the same name comes back.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0129_60갑자.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "이 날짜 셈은 『춘추』의 기록부터\n2,700년 넘게\n끊기지 않고 이어져 왔다고 봐요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "그 책의 일식 기록과 날짜가 들어맞거든요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "This day count is thought to have run unbroken\nfor more than 2,700 years,\nsince the days of the Spring and Autumn Annals.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0129_60갑자.png",
+    "h": 280
+   },
+   "tag": "2,700년"
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "그리고 내 일간은,\n내가 태어난 날 이름의\n윗글자예요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "And your Day Master is the top character\nof the name of the day you were born.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0129_네기둥.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "다음 정미일은 3월 29일.\n정미년은 입춘, 2월 4일에 시작돼요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "그날 입춘의 일진은 갑인(甲寅)이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "The next 丁未 day is March 29.\nThe 丁未 year begins at the start of spring (立春), February 4.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 금(金)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Pale Ring』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Metal\n“Pale Ring”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0129_60갑자.png",
+    "h": 200
+   }
+  }
+ ]
+}

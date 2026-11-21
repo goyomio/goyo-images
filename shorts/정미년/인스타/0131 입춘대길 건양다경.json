@@ -1,0 +1,229 @@
+{
+ "audio": "shorts/정미년/audio/갑목_PineatDawn_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "立春大吉\n建陽多慶",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "나흘 뒤 대문에 붙이는\n여덟 글자",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Eight characters for the front gate,\nfour days from now",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_입춘첩.png",
+    "h": 240
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "입춘대길: 봄이 서니 크게 길하기를.\n건양다경: 볕이 일어 경사가 많기를.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "“As spring begins, may great fortune come.\nAs the warm light rises, may there be much to celebrate.”",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_입춘첩.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "입춘 무렵 대문이나 기둥에\n써 붙이는 입춘첩이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "These are ipchuncheop, spring couplets\nposted on gates and pillars at the start of spring.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_입춘첩.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "오행에서 봄은 나무(木),\n방향은 해가 뜨는 동쪽이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "In the five elements, spring is Wood,\nand its direction is east, where the sun rises.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_동쪽.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "갑목(甲木)은 그 동쪽의 큰 나무.\n2월 4일 오전 10시 46분,\n사주의 해도 바뀌어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "甲木 Yang Wood (Gapmok) is the tall tree of the east.\nOn Feb 4, 2027, at 10:46 a.m. KST, the Saju year turns too.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 갑목(甲木)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Pine at Dawn』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yang Wood\n“Pine at Dawn”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0131_동쪽.png",
+    "h": 200
+   }
+  }
+ ]
+}

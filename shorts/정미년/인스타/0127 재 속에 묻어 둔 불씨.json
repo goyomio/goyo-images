@@ -1,0 +1,252 @@
+{
+ "audio": "shorts/정미년/audio/화1_EmberWalk_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "옛날 집에선\n불씨를 꺼뜨리지 않았대요",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "In old Korean homes,\nthe fire was never allowed to go out.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0127_화로.png",
+    "h": 260
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "화로에 담은 숯불을\n재로 덮고 돌을 얹어\n오래 살려 두었어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Embers in the brazier were covered with ash\nand weighted with a stone to keep them alive.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0127_재속불씨.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "불씨를 지키는 건\n집안의 큰일이었고,\n이사할 때도 꼭 살려서 옮겼어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "불씨는 살림을 지키는 불로 여겼거든요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Keeping the ember was a household duty,\nand when a family moved, they carried it, still alive.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0127_화로.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "그런데 정미년의 미(未) 속에도\n정화(丁火), 작은 불이 들어 있어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "未 속 글자(지장간): 丁 · 乙 · 己\n丁은 여름 불이 남은 기운이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Inside 未 Afternoon Earth (Mito),\nthe second character of the 丁未 year (Jeongmi),\nthere is a small fire too: 丁火 Yin Fire (Jeonghwa).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0127_미속정.png",
+    "h": 280
+   },
+   "tag": "未 속의 丁"
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "흙 속에 묻어 둔 불씨처럼,\n피운 불을 꺼뜨리지 않고\n이어 가는 해로 읽을 수 있어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "입춘까지 여드레 남았어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Like an ember kept under ash,\none way to read the year:\nkeeping the fire you’ve lit burning.\nThe start of spring (立春) is eight days away.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 화(火)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Ember Walk』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Fire\n“Ember Walk”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0127_화로.png",
+    "h": 200
+   }
+  }
+ ]
+}

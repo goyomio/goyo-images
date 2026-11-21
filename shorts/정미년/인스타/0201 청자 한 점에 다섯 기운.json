@@ -1,0 +1,234 @@
+{
+ "audio": "shorts/정미년/audio/신금_SilverThread_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "청자 한 점에\n다섯 기운이 다 들어 있어요",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "One piece of celadon\nholds all five elements.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_청자.png",
+    "h": 270
+   },
+   "instant": true
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "흙(土)을 곱게 걸러\n물(水)로 반죽해 빚어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Fine clay (Earth) is mixed\nwith water (Water) and shaped.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_흙물.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "나무(木)를 때서\n가마 불(火)을 1,200℃ 넘게 올려요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Burning wood (Wood)\ntakes the kiln fire (Fire) past 1,200°C.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_나무불.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "푸른빛은 쇠(金)에서 나와요.\n유약 속 1~3%의 철분이\n불 속에서 푸르게 바뀌어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The blue-green comes from Metal:\n1–3% iron in the glaze\nturns that color in the kiln.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_철분.png",
+    "h": 280
+   },
+   "tag": "金"
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "다섯이 다 모여야\n비색(翡色)이 나와요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "고요에도 다섯 오행 편이 다 있어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Only with all five\ndoes the jade-green color appear.\nGOYO has all five elements, too.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_청자.png",
+    "h": 280
+   },
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 신금(辛金)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Silver Thread』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Metal\n“Silver Thread”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_청자.png",
+    "h": 200
+   }
+  }
+ ]
+}

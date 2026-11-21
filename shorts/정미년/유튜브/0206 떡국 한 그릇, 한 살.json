@@ -1,0 +1,241 @@
+{
+ "audio": "shorts/정미년/audio/수1_QuietHarbor_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "떡국 먹으면 한 살 더 먹는다던데,\n지금도 그럴까요?",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Eat a bowl of tteokguk, gain a year:\nis that still true?",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_떡국.png",
+    "h": 240
+   },
+   "instant": true
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "예전 세는 나이로는\n새해가 오면 다 같이\n한 살씩 늘었어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "In the old Korean way of counting,\neveryone gained a year together\nwhen the new year came.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_나이.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "2023년 6월 28일부터\n법과 공문서의 나이는\n만 나이로 통일됐어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "내 생일이 지나야 한 살이 늘어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Since June 28, 2023, Korean law and official documents\nuse international age.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_나이.png",
+    "h": 280
+   },
+   "tag": "만 나이"
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "병역이나 청소년 보호처럼\n연 나이를 쓰는 법도 아직 있어요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "A few laws, such as military service and youth protection,\nstill count by calendar year.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "떡국은 그대로,\n나이 세는 법만 바뀌었어요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "내일 아침 떡국은 맛있게 드세요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "The tteokguk stays.\nOnly the way we count has changed.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_떡국.png",
+    "h": 280
+   },
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 수(水)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Quiet Harbor』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간은 채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Water\n“Quiet Harbor”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_떡국.png",
+    "h": 200
+   }
+  }
+ ]
+}

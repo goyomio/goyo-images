@@ -1,0 +1,257 @@
+{
+ "audio": "shorts/정미년/audio/정화_GoldenHush_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "내일은 설날.\n그런데 사주의 새해는\n벌써 왔어요",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Tomorrow is Seollal, the Lunar New Year.\nBut the Saju new year has already arrived.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_해와달.png",
+    "h": 240
+   },
+   "instant": true
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "설날은 달(음력)의 새해,\n입춘은 해(절기)의 새해.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Seollal is the new year of the moon.\nThe start of spring (立春) is the new year of the sun.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_해와달.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "올해는 입춘(2월 4일)이\n설(2월 7일)보다 사흘 먼저예요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "This year, the start of spring (Feb 4)\ncame three days before Seollal (Feb 7).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_나흘.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "그래서 2월 4일 10시 46분부터\n오늘까지 태어난 아기는\n음력으론 아직 섣달생이어도\n사주로는 정미년생이에요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "So a baby born between 10:46 a.m. on Feb 4 and today\nis born in the last lunar month,\nbut in Saju belongs to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_나흘.png",
+    "h": 280
+   },
+   "tag": "사흘 차이"
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "내일 설날의 일진은 정사(丁巳).\n정미년 첫 설날이\n정화(丁火)의 날이에요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Tomorrow’s day name is 丁巳 (Jeongsa):\nthe first Seollal of the 丁未 year falls on a\n丁火 Yin Fire (Jeonghwa) day.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "따뜻한 설 보내세요.",
+     70,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "다섯 가지 고요",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Have a warm Seollal.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "설 전날의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 정화(丁火)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Golden Hush』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Fire\n“Golden Hush”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_해와달.png",
+    "h": 200
+   }
+  }
+ ]
+}

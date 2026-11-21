@@ -1,0 +1,230 @@
+{
+ "date": "2027-01-22",
+ "slot": "2100",
+ "name": "모두에게 좋은 해는 없어요",
+ "audio": {
+  "pyeon": "목1",
+  "title": "Tree Rings",
+  "file": "/mnt/user-data/uploads/Desktop/고요음악/쇼츠/_릴스음원/목1_TreeRings_60s.m4a",
+  "start_hms": "38:44",
+  "근거": "원곡: 맥 고요음악/목/목1/목1 영상 최종 v2.mp4 38:44부터 60초 (설명란 38:42 Tree Rings, 2초 겹침 뒤부터), 맥 _릴스음원/목1_TreeRings_60s.m4a"
+ },
+ "music_ko": "목(木)",
+ "music_en": "Wood",
+ "end_tag": "오늘 밤의 소리",
+ "end_art": {
+  "file": "shorts/정미년/art/0122_나이테.png",
+  "h": 200
+ },
+ "scenes": [
+  {
+   "sec": 3.5,
+   "items": [
+    [
+     "2027년은\n좋은 해일까요?",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Will 2027 be a good year?",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_나이테.png",
+    "h": 260
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "나무의 나이테를 보면\n해마다 폭이 달라요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "자라기 좋은 해엔 넓게,\n힘든 해엔 좁게 자라요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Look at a tree’s rings: their width changes from year to year.\nWide in good growing years, narrow in hard ones.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_나이테.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "같은 해라도\n물가의 나무와 마른 언덕의 나무는\n나이테가 다르게 남아요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Even in the same year, a tree by the water\nand a tree on a dry hill leave different rings.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_나이테.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "사주도 그래요.\n정미년은 불(丁)과 흙(未)의 해.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Saju works the same way.\nThe 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth:\na year of fire and earth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "한겨울생처럼 차가운 사주엔\n반가운 온기로 읽고,\n불이 이미 많은 사주엔\n조금 덥게 읽기도 해요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "For a cold chart, say someone born in deep winter,\nit reads as welcome warmth.\nFor a chart already full of fire,\nit may read as a little too warm.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_겨울과여름.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "그래서 한 해가 모두에게\n똑같이 좋을 수는 없어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "고요에 다섯 오행 편이\n다 있는 이유예요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "So no year is good for everyone in the same way.\nThat’s why GOYO has all five elements.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0122_다섯오행.png",
+    "h": 280
+   },
+   "step": 0.9
+  }
+ ],
+ "caption": "2027년은 좋은 해일까요?\n\n나무의 나이테를 보면 해마다 폭이 달라요. 자라기 좋은 해엔 넓게, 힘든 해엔 좁게 자라요. 같은 해라도 물가의 나무와 마른 언덕의 나무는 나이테가 다르게 남아요.\n\n사주도 그래요. 다가오는 정미년은 불(丁)과 흙(未)의 해예요. 한겨울생처럼 차가운 사주엔 반가운 온기로 읽고, 불이 이미 많은 사주엔 조금 덥게 읽기도 해요. 그래서 한 해가 모두에게 똑같이 좋을 수는 없어요. 고요에 다섯 오행 편이 다 있는 이유예요.\n\n사주의 해는 입춘(2027년 2월 4일 오전 10시 46분)에 바뀌어요.\n\n이 영상의 소리는 다섯 가지 고요의 『Tree Rings』(목1 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nWill 2027 be a good year? Look at a tree’s rings: their width changes from year to year, wide in good growing years and narrow in hard ones. Even in the same year, a tree by the water and a tree on a dry hill leave different rings. Saju works the same way. The coming 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth is a year of fire and earth. For a cold chart, say someone born in deep winter, it reads as welcome warmth. For a chart already full of fire, it may read as a little too warm. So no year is good for everyone in the same way. That’s why GOYO has all five elements. In Saju, the year turns at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST.\nMusic in this video: Five Kinds of Quiet · Wood · “Tree Rings”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #정미년 #나이테 #오행 #오행음악",
+ "key": "0122-2100",
+ "note": "정미년 시리즈 · 모두에게 좋은 해는 없어요"
+}

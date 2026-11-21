@@ -1,0 +1,279 @@
+{
+ "audio": "shorts/정미년/audio/무토_EarthenPath_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "내일이 입춘,\n오늘은 흙의 18일이\n끝나는 날이에요",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Tomorrow is the start of spring.\nToday, earth’s eighteen days come to an end.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0203_18일.png",
+    "h": 240
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "옛 달력은 네 계절에\n다섯 기운을 나눴어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "봄 나무, 여름 불, 가을 쇠, 겨울 물.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "The old calendar split five elements\nacross four seasons:\nspring Wood, summer Fire, autumn Metal, winter Water.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0203_사계토.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "남은 흙(土)은\n계절이 바뀌기 전 18일씩\n나눠 받았어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "이걸 토왕용사(土旺用事)라고 해요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Earth took the eighteen days\nbefore each season turns.\nThis is called 土旺用事 (Towang-yongsa), earth in charge.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0203_18일.png",
+    "h": 280
+   },
+   "tag": "土旺用事"
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "입춘·입하·입추·입동 앞\n18일씩, 한 해 72일이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Eighteen days before each season’s start,\n72 days a year.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0203_사계토.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "흙은 한 계절을 거두어\n다음 계절로 넘겨주는\n자리로 봐요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "이 무렵엔 흙을 크게 파헤치는 일을\n삼가는 풍습도 동아시아에 전해져요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Earth is seen as the place\nthat gathers one season\nand hands it to the next.\nAn old custom avoids major digging at this time.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "내일 오전 10시 46분, 입춘.\n사주의 해가\n정미년으로 바뀌어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Tomorrow at 10:46 a.m. KST, the start of spring (立春).\nThe Saju year turns to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 무토(戊土)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Earthen Path』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yang Earth\n“Earthen Path”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0203_사계토.png",
+    "h": 200
+   }
+  }
+ ]
+}

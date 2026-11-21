@@ -1,0 +1,192 @@
+{
+ "date": "2027-02-01",
+ "slot": "2100",
+ "name": "청자 한 점에 다섯 기운",
+ "audio": {
+  "pyeon": "신금",
+  "title": "Silver Thread",
+  "file": "/home/claude/goyo-keys/audio/신금/08 Silver Thread.m4a",
+  "start_hms": "31:24"
+ },
+ "music_ko": "신금(辛金)",
+ "music_en": "Yin Metal",
+ "end_tag": "오늘 밤의 소리",
+ "end_art": {
+  "file": "shorts/정미년/art/0201_청자.png",
+  "h": 200
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "청자 한 점에\n다섯 기운이 다 들어 있어요",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "One piece of celadon\nholds all five elements.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_청자.png",
+    "h": 270
+   },
+   "instant": true
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "흙(土)을 곱게 걸러\n물(水)로 반죽해 빚어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Fine clay (Earth) is mixed\nwith water (Water) and shaped.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_흙물.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "나무(木)를 때서\n가마 불(火)을 1,200℃ 넘게 올려요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Burning wood (Wood)\ntakes the kiln fire (Fire) past 1,200°C.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_나무불.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "푸른빛은 쇠(金)에서 나와요.\n유약 속 1~3%의 철분이\n불 속에서 푸르게 바뀌어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The blue-green comes from Metal:\n1–3% iron in the glaze\nturns that color in the kiln.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_철분.png",
+    "h": 280
+   },
+   "tag": "金"
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "다섯이 다 모여야\n비색(翡色)이 나와요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "고요에도 다섯 오행 편이 다 있어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Only with all five\ndoes the jade-green color appear.\nGOYO has all five elements, too.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0201_청자.png",
+    "h": 280
+   },
+   "step": 0.9
+  }
+ ],
+ "caption": "청자 한 점에 다섯 기운이 다 들어 있어요.\n\n흙(土)을 곱게 걸러 물(水)로 반죽해 빚어요. 나무(木)를 때서 가마 불(火)을 1,200℃ 넘게 올려요. 그리고 그 푸른빛은 쇠(金)에서 나와요. 유약 속 1~3%의 철분이 불 속에서 푸르게 바뀌거든요.\n\n다섯이 다 모여야 고려청자의 비색(翡色)이 나와요. 고요에도 다섯 오행 편이 다 있어요.\n\n이 영상의 소리는 다섯 가지 고요의 『Silver Thread』(신금 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nOne piece of celadon holds all five elements. Fine clay (Earth) is mixed with water (Water) and shaped. Burning wood (Wood) takes the kiln fire (Fire) past 1,200°C. And the blue-green comes from Metal: 1–3% iron in the glaze turns that color in the kiln. Only with all five does the jade-green of Goryeo celadon appear. GOYO has all five elements, too.\nMusic in this video: Five Kinds of Quiet · Yin Metal · “Silver Thread”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #청자 #오행 #다섯가지고요 #오행음악",
+ "key": "0201-2100",
+ "note": "정미년 시리즈 · 청자 한 점에 다섯 기운"
+}
