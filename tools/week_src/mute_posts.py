@@ -25,8 +25,9 @@ def caption(kind, k, hook, hz, img, gen, eh, eimg, egen, en):
         ko = (f"{hook}\n\n{k}({hz}) 일간이 자주 듣는 말이에요. {img}\n\n"
               f"{k}의 소리는 {gen}. 영상 속 곡의 전곡은 다섯 가지 고요 {k}({hz}) 편, 프로필 링크에서 들을 수 있어요.\n"
               f"내 일간은 프로필 링크의 무료 사주앱에서 확인해 보세요.")
-        e = (f"{eh}\n\nPeople with a {en.split(' · ')[0]} ({hz}) day master often hear this. {eimg}\n\n"
-             f"The sound of {en.split(' · ')[1]}: {egen}. The full set from this video is on Five Kinds of Quiet · {en}, link in bio.\n"
+        e0, rom = en.split(' · ')  # 천간 영어: 처음 한 번 「甲木 Yang Wood (Gapmok)」, 그 뒤 「Yang Wood」 (미오 님 11/21 19:41)
+        e = (f"{eh}\n\nPeople with a {hz} {e0} ({rom}) day master often hear this. {eimg}\n\n"
+             f"The sound of {e0}: {egen}. The full set from this video is on Five Kinds of Quiet · {e0}, link in bio.\n"
              f"Find your day master in the free Saju app: link in bio.")
         tags = f"#고요 #{k} #{k}일간 #오행음악 #다섯가지고요 #saju"
     elif kind == 'el':
