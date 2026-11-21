@@ -154,7 +154,7 @@ A lamp close by, beside frozen earth: Five Kinds of Quiet · 丁火 Yin Fire (Je
 
 # ───────── 1/20 수 · 세 해의 여름 (병화) — 재배치(11/21 21:34)로 1/3에서 옮김 — 원문 Ⅰ 넷째 줄, Ⅲ-2
 P['0103'] = dict(
- music='병화', audio='shorts/그림편/audio/병화_Noon Avenue_60s.m4a',
+ music='병화', audio='shorts/그림편/audio/병화_Sunlit Crosswalk_60s.m4a',
  slides=[
   S([T('1월 20일 · 고요 이야기', 44, GOLD, gap=30), T('여름이\n세 해 동안\n이어졌어요', 104, bold=True, gap=36),
      T('2025 · 2026 · 2027', 48, gap=30), T('Summer has lasted three years', 38, EN, gap=0)]),
@@ -178,9 +178,9 @@ P['0103'] = dict(
      T('지난번은 1966·1967년이었어요.', 42, gap=34),
      T('These summer years return every 12 years\n(last: 2013 to 2015). With fire on top too,\nthe 丙午 and 丁未 pair returns every 60 years:\nlast in 1966 and 1967.', 28, EN, gap=0)], tag='12년마다, 60년마다'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('병화 편', 96, bold=True, gap=34),
-     T('한여름의 끝자락에 듣는,\n한낮의 해 같은 소리예요.', 52, gap=24), T('첫 곡은 『Noon Avenue』예요.', 44, gap=30),
+     T('한여름의 끝자락에 듣는,\n한낮의 해 같은 소리예요.', 52, gap=24), T('오늘 고른 곡은 『Sunlit Crosswalk』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yang Fire.\nThe first track is Noon Avenue.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yang Fire.\nToday\'s track is Sunlit Crosswalk.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 20일', 50, GOLD, gap=34), T('여름이\n세 해 동안\n이어졌어요', 120, bold=True, gap=50), T('Summer has lasted three years', 42, EN, gap=0)]),
@@ -193,10 +193,10 @@ P['0103'] = dict(
        items_yt=[T('1월인 지금은\n어느 여름일까요?', 92, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
                  T('Which summer are we in now?\nMore in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
-       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('첫 곡 『Noon Avenue』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa)\nNoon Avenue · Listen through the link in bio.', 34, EN, gap=0)],
-       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('첫 곡 『Noon Avenue』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa)\nNoon Avenue · Music: related video below', 34, EN, gap=0)]),
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('『Sunlit Crosswalk』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa)\nSunlit Crosswalk · Listen through the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('『Sunlit Crosswalk』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa)\nSunlit Crosswalk · Music: related video below', 34, EN, gap=0)]),
  ],
  caption="""여름이 세 해 동안 이어졌어요.
 
@@ -208,7 +208,7 @@ P['0103'] = dict(
 
 1월인 지금은 아직 병오년, 한여름의 끝자락이에요. 사주의 해는 입춘(2월 4일)에 바뀌거든요. 오늘 오후 4시 반쯤은 겨울의 마지막 절기, 대한(大寒)이에요.
 
-한여름의 끝자락에는 한낮의 해 같은 『다섯 가지 고요｜병화(丙火)』. 첫 곡은 『Noon Avenue』예요. 프로필 링크에서 들을 수 있어요.
+한여름의 끝자락에는 한낮의 해 같은 『다섯 가지 고요｜병화(丙火)』. 오늘 고른 곡은 『Sunlit Crosswalk』예요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 Summer has lasted three years.
@@ -221,19 +221,19 @@ These three summer years come round every 12 years; last time was 2013 to 2015. 
 
 Right now, in January, it is still the Yang Fire · Noon Fire year, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4. Today brings Daehan (大寒), the last solar term of winter.
 
-For the tail end of high summer, music like the midday sun: Five Kinds of Quiet · Yang Fire. The first track is Noon Avenue. Listen through the link in bio.
+For the tail end of high summer, music like the midday sun: Five Kinds of Quiet · Yang Fire. Today\'s track is Sunlit Crosswalk. Listen through the link in bio.
 
 #고요 #고요이야기 #정미년 #병오년 #사주 #오행 #오행음악 #saju #fiveelements""",
  reel_caption="""여름이 세 해 동안 이어졌어요.
 
 2025 을사는 초여름, 2026 병오는 한여름, 2027 정미는 늦여름. 2027년은 여름의 마무리, 불이 다 익는 해로 읽어요. 1월인 지금이 어느 여름인지, 이 세 해가 몇 년마다 돌아오는지는 피드 게시물에 있어요.
 
-지금 흐르는 음악은 『다섯 가지 고요｜병화(丙火)』의 첫 곡 『Noon Avenue』, 프로필 링크에서 들을 수 있어요.
+지금 흐르는 음악은 『다섯 가지 고요｜병화(丙火)』의 『Sunlit Crosswalk』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
 Summer has lasted three years: early summer in 2025, high summer in 2026, and late summer in 2027. 2027 closes the summer, a year when the fire ripens. Which summer are we in now, and how often do these years return? See our feed post.
 
-The music is Noon Avenue from Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa). Listen through the link in bio.
+The music is Sunlit Crosswalk from Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa). Listen through the link in bio.
 
 #고요 #정미년 #병오년 #사주 #오행음악 #saju""",
 )
@@ -382,7 +382,7 @@ Image: LACMA (Los Angeles County Museum of Art), c. 1635 to 1637, public domain
 # ───────── 1/3 일 · 여행: 진주 남강유등 (임수) — 원문 Ⅷ. 재배치(11/21 21:34)로 1/20에서 옮김
 # 근거: 문화체육관광부 축제 정보(2026. 10. 3.~10. 18.), 한국관광공사 소개(임진왜란 진주성 전투 유래)
 P['0103j'] = dict(
- music='임수', audio='shorts/그림편/audio/임수_Wide Water_60s.m4a',
+ music='임수', audio='shorts/그림편/audio/임수_Slow Current_60s.m4a',
  slides=[
   S([T('1월 3일 · 정미년에 갈 만한 곳', 44, GOLD, gap=30), T('강물 위의\n등불', 116, bold=True, gap=36),
      T('경남 진주 남강유등축제', 48, gap=30), T('Lamps on the river · Jinju, Korea', 38, EN, gap=0)]),
@@ -408,9 +408,9 @@ P['0103j'] = dict(
      T('그 짝이 한 장면에 담긴 곳이에요.', 44, gap=34),
      T('The first character of the coming Saju year\n(from Feb 4, 2027) is a lamp: 丁火 Yin Fire (Jeonghwa).\nOld Saju texts pair it with 壬水 Yang Water (Imsu),\na wide river. Here, the two share one scene.', 28, EN, gap=0)], tag='등불과 강물이 한 장면에'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
-     T('등불을 싣고 흐르는\n넓은 강물 같은 소리예요.', 52, gap=24), T('첫 곡은 『Wide Water』예요.', 44, gap=30),
+     T('등불을 싣고 흐르는\n넓은 강물 같은 소리예요.', 52, gap=24), T('오늘 고른 곡은 『Slow Current』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yang Water.\nThe first track is Wide Water.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yang Water.\nToday\'s track is Slow Current.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 3일 · 갈 만한 곳', 50, GOLD, gap=34), T('강물 위의\n등불', 130, bold=True, gap=50), T('Lamps on the river', 42, EN, gap=0)]),
@@ -423,10 +423,10 @@ P['0103j'] = dict(
        items_yt=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
                  T('Why does it suit 2027?\nMore in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
-       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('첫 곡 『Wide Water』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu)\nWide Water · Listen through the link in bio.', 36, EN, gap=0)],
-       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('첫 곡 『Wide Water』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu)\nWide Water · Music: related video below', 36, EN, gap=0)]),
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('『Slow Current』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu)\nSlow Current · Listen through the link in bio.', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('『Slow Current』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu)\nSlow Current · Music: related video below', 36, EN, gap=0)]),
  ],
  caption="""강물 위의 등불, 진주 남강유등축제예요.
 
@@ -440,7 +440,7 @@ P['0103j'] = dict(
 
 다가오는 정미년(2027년 2월 4일 입춘부터)의 첫 글자는 가까운 곳을 오래 비추는 등불, 정화(丁火)예요. 옛 책은 등불(정화)과 넓은 강물(임수)을 서로 끌어당기는 짝으로 묶어요. 그 짝이 한 장면에 담긴 곳이라, 정미년에 한 번 가 볼 만한 곳으로 골랐어요.
 
-등불을 싣고 흐르는 강물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 첫 곡은 『Wide Water』예요. 프로필 링크에서 들을 수 있어요.
+등불을 싣고 흐르는 강물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 오늘 고른 곡은 『Slow Current』예요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 Lamps on the river: the Jinju Namgang Yudeung Festival.
@@ -455,26 +455,26 @@ During the festival, the fortress is free to enter. Chokseongnu, the pavilion on
 
 The first character of the coming Saju year (from February 4, 2027) is a lamp: 丁火 Yin Fire (Jeonghwa). Old Saju texts pair it with 壬水 Yang Water (Imsu), a wide river. Here the two share one scene, so we picked it as a place to visit in 2027.
 
-Music like a wide river carrying lamps: Five Kinds of Quiet · Yang Water. The first track is Wide Water. Listen through the link in bio.
+Music like a wide river carrying lamps: Five Kinds of Quiet · Yang Water. Today\'s track is Slow Current. Listen through the link in bio.
 
 #고요 #정미년 #진주남강유등축제 #진주 #유등 #진주성 #촉석루 #국내여행 #오행음악 #fiveelements""",
  reel_caption="""강물 위의 등불, 진주 남강유등축제예요.
 
 가을이면 진주 남강에 등이 떠요. 임진왜란 진주성 전투 때 강을 건너려는 적을 막고 성 밖 가족에게 안부를 전한 등불에서 시작된 축제예요. 2027년에 어울리는 이유와 갈 때 알아 둘 것은 피드 게시물에 있어요.
 
-지금 흐르는 음악은 『다섯 가지 고요｜임수(壬水)』의 첫 곡 『Wide Water』, 프로필 링크에서 들을 수 있어요.
+지금 흐르는 음악은 『다섯 가지 고요｜임수(壬水)』의 『Slow Current』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
 Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with the 1592 Battle of Jinju, during the Imjin War, when river lamps held back the enemy and carried word to families. Why it suits 2027, and tips for visiting, are in our feed post.
 
-The music is Wide Water from Five Kinds of Quiet · 壬水 Yang Water (Imsu). Listen through the link in bio.
+The music is Slow Current from Five Kinds of Quiet · 壬水 Yang Water (Imsu). Listen through the link in bio.
 
 #고요 #정미년 #진주남강유등축제 #유등 #오행음악""",
 )
 
 # ───────── 1/6 수 · 닮은 것 vs 식혀 주는 것 (계수) — 원문 Ⅳ, 결정 9·13 (분류 이름으로만, 판정 안 함)
 P['0106v'] = dict(
- music='계수', audio='shorts/그림편/audio/계수_Drizzle_95s.m4a',
+ music='계수', audio='shorts/그림편/audio/계수_Soft Shower_60s.m4a',
  slides=[
   S([T('1월 6일 · 고요 이야기', 44, GOLD, gap=30), T('닮은 것,\n식혀 주는 것', 104, bold=True, gap=36),
      T('2027년과 함께할 것을 고르는 두 갈래', 42, gap=30), T('Two ways to keep company with 2027', 38, EN, gap=0)]),
@@ -500,9 +500,9 @@ P['0106v'] = dict(
   S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 54, gap=34), T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 52, bold=True, gap=36),
      T('Your chart\'s Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.', 30, EN, gap=0)], tag='내게는 어느 쪽일까요'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
-     T('마른 흙에 조용히 스미는\n비 같은 소리예요.', 52, gap=24), T('첫 곡은 『Drizzle』이에요.', 44, gap=30),
+     T('마른 흙에 조용히 스미는\n비 같은 소리예요.', 52, gap=24), T('오늘 고른 곡은 『Soft Shower』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yin Water.\nThe first track is Drizzle.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yin Water.\nToday\'s track is Soft Shower.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 6일', 50, GOLD, gap=34), T('닮은 것,\n식혀 주는 것', 118, bold=True, gap=50), T('Two ways to keep company with 2027', 40, EN, gap=0)]),
@@ -515,10 +515,10 @@ P['0106v'] = dict(
        items_yt=[T('내게는\n어느 쪽일까요?', 96, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
                  T('Which side suits you?\nMore in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
-       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('첫 곡 『Drizzle』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\nDrizzle · Listen through the link in bio.', 36, EN, gap=0)],
-       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('첫 곡 『Drizzle』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\nDrizzle · Music: related video below', 36, EN, gap=0)]),
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('『Soft Shower』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\nSoft Shower · Listen through the link in bio.', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('『Soft Shower』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\nSoft Shower · Music: related video below', 36, EN, gap=0)]),
  ],
  caption="""닮은 것, 식혀 주는 것.
 
@@ -530,7 +530,7 @@ P['0106v'] = dict(
 
 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요.
 
-마른 흙에 조용히 스미는 비 같은 소리, 『다섯 가지 고요｜계수(癸水)』. 첫 곡은 『Drizzle』이에요. 프로필 링크에서 들을 수 있어요.
+마른 흙에 조용히 스미는 비 같은 소리, 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 『Soft Shower』예요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 What echoes 2027, and what sits beside its heat.
@@ -543,19 +543,19 @@ Over January and February we'll look at each side in turn. Echoing the year: La 
 
 You can see how much Fire and Water your chart holds in our free app. Which side suits you better depends on your whole chart. The app is linked in our bio.
 
-Music like rain soaking quietly into dry earth: Five Kinds of Quiet · 癸水 Yin Water (Gyesu). The first track is Drizzle. Listen through the link in bio.
+Music like rain soaking quietly into dry earth: Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Today\'s track is Soft Shower. Listen through the link in bio.
 
 #고요 #정미년 #2027년 #사주 #오행 #오행음악 #saju #fiveelements""",
  reel_caption="""닮은 것, 식혀 주는 것.
 
 2027년은 등불이 마른 흙을 데우는 해예요. 그래서 함께할 것을 두 갈래로 나눴어요. 닮은 것은 등불·들판·흙, 식혀 주는 것은 물·쇠·바위. 이 시리즈에서 이어서 볼 그림·곳·소리와 어느 쪽이 내게 어울리는지에 대한 이야기는 피드 게시물에 있어요.
 
-지금 흐르는 음악은 『다섯 가지 고요｜계수(癸水)』의 첫 곡 『Drizzle』, 프로필 링크에서 들을 수 있어요.
+지금 흐르는 음악은 『다섯 가지 고요｜계수(癸水)』의 『Soft Shower』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
 2027 is a lamp warming dry earth, so we split what to keep close into two groups. What echoes it: lamp, fields, earth. What sits beside its heat: water, metal, stone. Our feed post lists the paintings, places and music coming up, and more on which side suits you.
 
-The music is Drizzle from Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Listen through the link in bio.
+The music is Soft Shower from Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Listen through the link in bio.
 
 #고요 #정미년 #사주 #오행 #오행음악""",
 )
@@ -651,7 +651,7 @@ The music is Warm Soil from Five Kinds of Quiet · Earth. Listen through the lin
 )
 
 P['0110'] = dict(
- music='을목', audio='shorts/그림편/audio/을목_Morning Tendril_60s.m4a',
+ music='을목', audio='shorts/그림편/audio/을목_Soft Climb_60s.m4a',
  slides=[
   S([T('1월 10일 · 고요 이야기', 44, GOLD, gap=30), T('넣어 두는\n흙', 116, bold=True, gap=36),
      T('늦여름 흙이 품고 있는 것', 44, gap=30), T('The earth that keeps', 38, EN, gap=0)]),
@@ -677,9 +677,9 @@ P['0110'] = dict(
      T('을목 편 첫 곡 『Morning Tendril』은\n아침의 덩굴손이라는 뜻이에요.', 44, gap=34),
      T('The tree the earth keeps is 乙木 Yin Wood (Eulmok),\nwhich bends and climbs like a vine. Our Yin Wood\nalbum opens with Morning Tendril, named for\na vine\'s curling shoot.', 30, EN, gap=0)], tag='왜 을목 편'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('을목 편', 96, bold=True, gap=34),
-     T('흙에 기대어 천천히 감아 오르는\n덩굴 같은 소리예요.', 50, gap=24), T('첫 곡은 『Morning Tendril』이에요.', 44, gap=30),
+     T('흙에 기대어 천천히 감아 오르는\n덩굴 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Soft Climb』이에요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yin Wood.\nThe first track is Morning Tendril.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yin Wood.\nToday\'s track is Soft Climb.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 10일', 50, GOLD, gap=34), T('넣어 두는\n흙', 130, bold=True, gap=50), T('The earth that keeps', 42, EN, gap=0)]),
@@ -691,10 +691,10 @@ P['0110'] = dict(
        items_yt=[T('왜 나무의\n창고일까요?', 96, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
                  T('Why a storehouse of Wood?\nMore in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
-       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('첫 곡 『Morning Tendril』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\nMorning Tendril · Listen through the link in bio.', 34, EN, gap=0)],
-       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('첫 곡 『Morning Tendril』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\nMorning Tendril · Music: related video below', 34, EN, gap=0)]),
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('『Soft Climb』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\nSoft Climb · Listen through the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('『Soft Climb』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\nSoft Climb · Music: related video below', 34, EN, gap=0)]),
  ],
  caption="""넣어 두는 흙.
 
@@ -706,7 +706,7 @@ P['0110'] = dict(
 
 미토는 나무를 품어 두는 흙이에요. 옹기나 토분에 작은 식물 하나를 곁에 두어도 좋아요. 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 곁에 둘 것은 1월 31일에 더 이어 갈게요.
 
-흙이 품어 두는 나무는 덩굴처럼 휘어 자라는 을목이에요. 흙에 기대어 천천히 감아 오르는 덩굴 같은 소리, 『다섯 가지 고요｜을목(乙木)』의 첫 곡 『Morning Tendril』(아침의 덩굴손)이에요. 프로필 링크에서 들을 수 있어요.
+흙이 품어 두는 나무는 덩굴처럼 휘어 자라는 을목이에요. 흙에 기대어 천천히 감아 오르는 덩굴 같은 소리, 『다섯 가지 고요｜을목(乙木)』에서 오늘 고른 곡은 『Soft Climb』이에요. 첫 곡 『Morning Tendril』은 아침의 덩굴손이라는 뜻이에요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 The earth that keeps.
@@ -719,19 +719,19 @@ The coming year is the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth. See
 
 Afternoon Earth holds a tree. A small plant in an onggi crock or a terracotta pot is a nice thing to keep nearby. You can see how much Fire and Water your chart holds in our free app; which side suits you depends on your whole chart. We'll say more about things to keep close on January 31.
 
-The tree the earth keeps is 乙木 Yin Wood (Eulmok), which bends and climbs like a vine. Music like a vine slowly winding up, leaning on the earth: Morning Tendril, the first track of Five Kinds of Quiet · Yin Wood. Listen through the link in bio.
+The tree the earth keeps is 乙木 Yin Wood (Eulmok), which bends and climbs like a vine. Music like a vine slowly winding up, leaning on the earth: Five Kinds of Quiet · Yin Wood. Today's track is Soft Climb; the album opens with Morning Tendril. Listen through the link in bio.
 
 #고요 #정미년 #미토 #을목 #사주 #오행 #오행음악 #saju #fiveelements""",
  reel_caption="""넣어 두는 흙.
 
 미(未)는 늦여름의 마른 흙이고, 그 안에 덩굴 같은 나무(을목)가 들어 있다고 봐요. 옛 책이 왜 미를 나무의 창고로 보는지, 다가오는 정미년을 어떻게 읽는지는 피드 게시물에 있어요.
 
-지금 흐르는 음악은 『다섯 가지 고요｜을목(乙木)』의 첫 곡 『Morning Tendril』, 프로필 링크에서 들을 수 있어요.
+지금 흐르는 음악은 『다섯 가지 고요｜을목(乙木)』의 『Soft Climb』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
 未 Afternoon Earth (Mito) is dry, late-summer earth, and old Saju texts see a vine-like tree inside it. Our feed post explains why it is called the storehouse of Wood, and what that means for the coming year.
 
-The music is Morning Tendril from Five Kinds of Quiet · 乙木 Yin Wood (Eulmok). Listen through the link in bio.
+The music is Soft Climb from Five Kinds of Quiet · 乙木 Yin Wood (Eulmok). Listen through the link in bio.
 
 #고요 #정미년 #을목 #사주 #오행음악""",
 )
@@ -794,7 +794,7 @@ Music like wide, slow water: Five Kinds of Quiet · 壬水 Yang Water (Imsu). To
 )
 
 P['0113'] = dict(
- music='경금', audio='shorts/그림편/audio/경금_Stone Bridge_60s.m4a',
+ music='경금', audio='shorts/그림편/audio/경금_River Stone_60s.m4a',
  slides=[
   S([T('1월 13일 · 고요 이야기', 44, GOLD, gap=30), T('바위의 소리,\n비의 소리', 104, bold=True, gap=36),
      T('뜨거운 해 곁의 서늘한 두 갈래', 44, gap=30), T('The sound of stone, the sound of rain', 36, EN, gap=0)]),
@@ -816,16 +816,16 @@ P['0113'] = dict(
      T('잎 끝에 맺혔다가\n천천히 떨어지는 물방울 같은 소리예요.', 42, GOLD, gap=34),
      T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu): from Fine Mist\nto Wet Leaves to Morning Dew, like drops that gather\non a leaf tip and slowly fall.', 28, EN, gap=0)], tag='비 쪽'),
   S([T('더 서늘한 쪽으로', 50, gap=30),
-     T('금 편', 70, bold=True, gap=8), T('차갑고 또렷하게 떨어지는\n피아노 독주예요.', 46, gap=30),
+     T('금 편', 70, bold=True, gap=8), T('경금 편처럼 피아노 독주,\n차갑고 또렷하게 떨어지는 소리예요.', 44, gap=30),
      T('수 편', 70, bold=True, gap=8), T('물이 천천히 번지는\n앰비언트 피아노예요.', 46, gap=34),
      T('Cooler still: the Metal album is solo piano, clear and cold,\nand the Water album is ambient piano\nthat spreads slowly, like water.', 28, EN, gap=0)], tag='오행 편도 있어요'),
   S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 52, gap=30), T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 50, bold=True, gap=30),
      T('1월 21일에는 비에 젖어 검게 빛나는\n인왕산 바위 그림으로 이어 갈게요.', 38, GOLD, gap=34),
      T('Your chart\'s Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.\nOn Jan 21: Inwangsan\'s rocks, dark and wet after rain.', 28, EN, gap=0)], tag='내 사주에서는'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('경금 편', 96, bold=True, gap=34),
-     T('비에 젖어 서늘한\n바위 같은 소리예요.', 52, gap=24), T('오늘 고른 곡은 『Stone Bridge』예요.', 42, gap=30),
+     T('비에 젖어 서늘한 바위 같은\n피아노 독주예요.', 50, gap=24), T('오늘 고른 곡은 『River Stone』이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yang Metal: like rain-cooled stone.\nToday\'s track is Stone Bridge.\nListen through the link in bio.', 30, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yang Metal:\nsolo piano, like rain-cooled stone.\nToday\'s track is River Stone.\nListen through the link in bio.', 30, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 13일', 50, GOLD, gap=34), T('바위의 소리,\n비의 소리', 112, bold=True, gap=50), T('The sound of stone,\nthe sound of rain', 40, EN, gap=0)]),
@@ -838,10 +838,10 @@ P['0113'] = dict(
        items_yt=[T('돌다리, 강돌…\n물은 어디에?', 96, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
                  T('Stone Bridge, River Stone… where is the water?\nMore in our Posts tab', 36, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
-       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('경금 편', 100, bold=True, gap=36), T('『Stone Bridge』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Metal\nStone Bridge · Listen through the link in bio.', 36, EN, gap=0)],
-       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('경금 편', 100, bold=True, gap=36), T('『Stone Bridge』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Metal\nStone Bridge · Music: related video below', 36, EN, gap=0)]),
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('경금 편', 100, bold=True, gap=36), T('『River Stone』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Metal\nRiver Stone · Listen through the link in bio.', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('경금 편', 100, bold=True, gap=36), T('『River Stone』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Metal\nRiver Stone · Music: related video below', 36, EN, gap=0)]),
  ],
  caption="""바위의 소리, 비의 소리.
 
@@ -855,7 +855,7 @@ P['0113'] = dict(
 
 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요. 1월 21일에는 비에 젖어 검게 빛나는 인왕산 바위 그림으로 이어 갈게요.
 
-지금 흐르는 음악은 『다섯 가지 고요｜경금(庚金)』의 『Stone Bridge』예요. 프로필 링크에서 들을 수 있어요.
+지금 흐르는 음악은 『다섯 가지 고요｜경금(庚金)』의 『River Stone』이에요. 금 쪽 편은 경금, 신금, 금 모두 피아노 독주예요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 The sound of stone, the sound of rain.
@@ -870,19 +870,19 @@ Cooler still: the Metal album is solo piano, clear and cold, and the Water album
 
 You can see how much Fire and Water your chart holds in our free app. Which side suits you depends on your whole chart. The app is linked in our bio. On January 21, we'll turn to a painting of Inwangsan's rocks, dark and wet after rain.
 
-The music playing is Stone Bridge from Five Kinds of Quiet · Yang Metal. Listen through the link in bio.
+The music playing is River Stone from Five Kinds of Quiet · Yang Metal. Listen through the link in bio.
 
 #고요 #정미년 #오행음악 #경금 #계수 #피아노 #사주 #saju #fiveelements""",
  reel_caption="""바위의 소리, 비의 소리.
 
 병오년의 열기가 늦여름 흙에 남는 정미년(입춘 2월 4일부터). 그 곁에 둘 소리는 바위 쪽의 경금(庚金) 편과 비 쪽의 계수(癸水) 편이에요. 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 곡 이름 속 돌과 물, 더 서늘한 오행 편은 피드 게시물에 있어요.
 
-지금 흐르는 음악은 『다섯 가지 고요｜경금(庚金)』의 『Stone Bridge』, 프로필 링크에서 들을 수 있어요.
+지금 흐르는 음악은 『다섯 가지 고요｜경금(庚金)』의 『River Stone』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
 The coming year, from February 4, keeps last year's heat in late-summer earth. Beside it: 庚金 Yang Metal (Gyeonggeum) for stone, and 癸水 Yin Water (Gyesu) for rain. You can see how much Fire and Water your chart holds in our free app; which side suits you depends on your whole chart. More on the track names and the cooler Metal and Water albums in our feed post.
 
-The music is Stone Bridge from Five Kinds of Quiet · Yang Metal. Listen through the link in bio.
+The music is River Stone from Five Kinds of Quiet · Yang Metal. Listen through the link in bio.
 
 #고요 #정미년 #오행음악 #경금 #saju""",
 )
