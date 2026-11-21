@@ -1,0 +1,212 @@
+{
+ "image": "art/밀레_이삭줍는여인들.jpg",
+ "audio_parts": [
+  {
+   "file": "shorts/음원/기토_Afternoon Allotment_60s.m4a",
+   "start": 0.3,
+   "dur": 54.5
+  }
+ ],
+ "scenes": [
+  {
+   "sec": 3.5,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "box": [
+    40,
+    640,
+    1040,
+    1388
+   ],
+   "y": 150,
+   "label": "고요의 그림 읽기 #3",
+   "title": [
+    "남은 이삭"
+   ],
+   "title_size": 170,
+   "sub": "장 프랑수아 밀레, 1857",
+   "credit": "오르세 미술관 · 퍼블릭 도메인(위키미디어 공용)",
+   "credit_y": 1420,
+   "logo": true,
+   "en": "The Gleaners\nJean-François Millet",
+   "en_size": 34
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.12,
+    0.28,
+    0.5,
+    0.88
+   ],
+   "view_to": [
+    0.5,
+    0.28,
+    0.88,
+    0.88
+   ],
+   "y": 1240,
+   "lines": [
+    "추수가 끝난 들판,",
+    "세 여인이 허리를 굽혀요"
+   ],
+   "small": "떨어진 이삭을 하나씩 줍고 있어요",
+   "en": "After the harvest, three women bend\nto pick up the ears of wheat left behind"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.13,
+    0.18,
+    0.33,
+    0.48
+   ],
+   "view_to": [
+    0.25,
+    0.18,
+    0.45,
+    0.48
+   ],
+   "y": 1240,
+   "lines": [
+    "뒤쪽엔 높이 쌓은 낟가리와",
+    "가득 실은 수레"
+   ],
+   "small": "거둔 것이 넘치는 뒤쪽, 남은 것을 줍는 앞쪽",
+   "en": "Behind them, tall stacks and a full cart"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.78,
+    0.18,
+    0.96,
+    0.44
+   ],
+   "view_to": [
+    0.8,
+    0.2,
+    0.94,
+    0.42
+   ],
+   "y": 1240,
+   "lines": [
+    "오른쪽 멀리 말 탄 사람은",
+    "수확을 감독하던 관리인으로 봐요"
+   ],
+   "small": "오르세 미술관은 그렇게 설명해요",
+   "en": "Far right, on horseback:\nprobably the estate overseer"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "view_to": [
+    0.05,
+    0.05,
+    0.95,
+    0.95
+   ],
+   "dim": 0.35,
+   "y": 1240,
+   "lines": [
+    "이삭 줍는 여인을",
+    "10년 동안 그리고 또 그렸어요"
+   ],
+   "small": "그 끝에 1857년 살롱에 낸 그림이에요",
+   "en": "Ten years on the same theme,\nshown at the Salon of 1857"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.3,
+    0.36,
+    0.62,
+    0.86
+   ],
+   "view_to": [
+    0.32,
+    0.38,
+    0.6,
+    0.84
+   ],
+   "y": 1240,
+   "lines": [
+    "다 거둔 뒤에도",
+    "흙이 품고 있는 것"
+   ],
+   "small": "1월 10일 「넣어 두는 흙」이 그림 속 들판에 있어요",
+   "en": "What the earth still holds after the harvest\n(our Jan 10 post)"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.2,
+    0.1,
+    0.8,
+    0.9
+   ],
+   "view_to": [
+    0.15,
+    0.05,
+    0.85,
+    0.95
+   ],
+   "y": 1240,
+   "lines": [
+    "지금 흐르는 곡이",
+    [
+     [
+      "기토(己土)",
+      "토"
+     ],
+     [
+      " 편의",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "small": "『Afternoon Allotment』(기토 편), 오후의 텃밭 같은 소리",
+   "en": "Afternoon Allotment · 己土 Yin Earth (Gito)\nLike a garden plot in the afternoon"
+  },
+  {
+   "sec": 7.5,
+   "y": 600,
+   "label": "이 그림 옆에 둘 소리",
+   "title": [
+    "고요",
+    [
+     [
+      "기토(己土)",
+      "토"
+     ],
+     [
+      " 편",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "title_size": 150,
+   "sub": "프로필 링크에서",
+   "small": "고요의 읽기와 화가의 사주는\n오늘 피드 게시물에",
+   "logo": true,
+   "en": "Beside it: Five Kinds of Quiet · Yin Earth\nListen through the link in bio\nMore in today's feed post"
+  }
+ ]
+}

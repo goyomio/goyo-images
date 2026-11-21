@@ -887,6 +887,70 @@ The music is River Stone from Five Kinds of Quiet · Yang Metal. Listen through 
 #고요 #정미년 #오행음악 #경금 #saju""",
 )
 
+ML = 'art/밀레_이삭줍는여인들.jpg'
+P['0114'] = dict(
+ music='기토',
+ slides=[
+  S([T('고요의 그림 읽기 #3', 40, GOLD, gap=10), T('남은 이삭', 84, bold=True, gap=14),
+     T('장 프랑수아 밀레, 〈이삭 줍는 여인들〉\n1857 · 오르세 미술관 · 퍼블릭 도메인(위키미디어 공용)', 26, [150, 145, 135], gap=10),
+     T('The Gleaners · Jean-François Millet', 28, EN, gap=0)], card={'file': ML, 'h': 520}),
+  S([T('추수가 끝난 들판,\n세 여인이 허리를 굽혀\n남은 이삭을 줍고 있어요.', 60, bold=True, gap=34),
+     T('뒤쪽에는 높이 쌓은 낟가리와\n가득 실은 수레가 있어요.', 46, gap=34),
+     T('After the harvest, three women bend to pick up\nthe ears of wheat left behind.\nBehind them: tall stacks and a full cart.', 30, EN, gap=0)], tag='그림'),
+  S([T('오른쪽 멀리\n말을 탄 사람은', 58, bold=True, gap=24),
+     T('수확과 그 규칙을 지켜보던\n관리인으로 봐요.', 50, gap=24), T('오르세 미술관 설명이에요.', 38, [150, 145, 135], gap=30),
+     T('거둔 것이 넘치는 뒤쪽과\n남은 것을 줍는 앞쪽이\n한 화면에 있어요.', 46, GOLD, gap=34),
+     T('The rider on the far right is probably the estate overseer,\nmaking sure the gleaners keep to the rules (Musée d\'Orsay).\nPlenty behind, what\'s left in front, in one frame.', 28, EN, gap=0)], tag='줍는 사람, 거두는 사람'),
+  S([T('추수 뒤 밭에 떨어진 이삭은', 48, gap=20),
+     T('가난한 이들이\n주워 갈 수 있게 남겨 두던\n오래된 관습이었어요.', 60, bold=True, gap=34),
+     T('By old custom, whatever the harvest left\nin the field was for the poor to gather.', 30, EN, gap=0)], tag='이삭을 줍는다는 것'),
+  S([T('밀레는 이 주제를\n10년 동안 그리고 또 그렸어요.', 54, bold=True, gap=26),
+     T('1854년 세로 그림, 1855년 판화를 거쳐\n1857년 살롱에 이 그림을 냈어요.', 42, gap=26),
+     T('가난을 과장하지 않고,\n품위 있는 모습으로 그렸다는 평이에요.', 42, gap=26),
+     T('1890년 기증으로 국가 소장이 되었어요.', 36, [150, 145, 135], gap=30),
+     T('Ten years on one theme: a vertical painting\nin 1854, an etching in 1855, then this canvas at the\nSalon of 1857. Given to the French state in 1890.', 28, EN, gap=0)], tag='10년의 그림'),
+  S([T('보이는 것', 40, GOLD, True, 6), T('거둔 뒤에도 남은 것을 품은 밭 → 흙, 그중 밭', 42, gap=24),
+     T('그리는 방식', 40, GOLD, True, 6), T('땅빛으로 낮고 넓게 깐 화면 → 흙', 42, gap=24),
+     T('화가의 사주', 40, GOLD, True, 6), T('1814년 10월 4일생, 일간 기토(밭의 흙)', 42, gap=12),
+     T('태어난 시각은 알려지지 않아,\n해·달·날 세 기둥으로만 봐요.', 36, [150, 145, 135], gap=24),
+     T('그림도 화가도 밭의 흙이에요. 제 해석이에요.', 38, gap=28),
+     T('Seen: a field after harvest. Painted: earth tones, low and broad.\nWe read it as 己土 Yin Earth (Gito), field earth. Millet, born\nOct 4, 1814, has Yin Earth as his day stem too.', 26, EN, gap=0)], tag='고요의 읽기 · 토(土)'),
+  S([T('다 거둔 뒤에도\n흙이 아직 품고 있는 것을\n하나씩 손에 쥐는 그림.', 56, bold=True, gap=30),
+     T('1월 10일 「넣어 두는 흙」이\n그림 속 들판에 있어요.', 46, gap=34),
+     T('A painting of gathering, one by one, what the earth\nstill holds after the harvest: our Jan 10 post,\n\'The earth that keeps,\' found in a painting.', 28, EN, gap=0)], tag='정미년과 이어서'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('기토 편', 96, bold=True, gap=34),
+     T('갈아 둔 밭 같은\n재즈 로파이예요.', 52, gap=24), T('오늘 밤 9시 릴스에 흐르는 곡은\n『Afternoon Allotment』예요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yin Earth, jazz lo-fi.\nTonight\'s reel: Afternoon Allotment.\nListen through the link in bio.', 30, EN, gap=0)], tag='이 그림 옆에 둘 소리'),
+ ],
+ caption="""고요의 그림 읽기 #3 · 장 프랑수아 밀레 〈이삭 줍는 여인들〉
+
+추수가 끝난 들판, 세 여인이 허리를 굽혀 남은 이삭을 줍고 있어요. 뒤쪽에는 높이 쌓은 낟가리와 가득 실은 수레가 있고, 오른쪽 멀리 말 탄 사람은 수확과 그 규칙을 지켜보던 관리인으로 봐요(오르세 미술관 설명). 거둔 것이 넘치는 뒤쪽과 남은 것을 줍는 앞쪽이 한 화면에 있어요.
+
+추수 뒤 밭에 떨어진 이삭은 가난한 이들이 주워 갈 수 있게 남겨 두던 오래된 관습이었어요. 밀레는 이 주제를 10년 동안 그리고 또 그렸어요. 1854년 세로 그림, 1855년 판화를 거쳐 1857년 살롱에 이 그림을 냈고, 가난을 과장하지 않고 품위 있는 모습으로 그렸다는 평을 받아요. 1890년 기증으로 국가 소장이 되었어요.
+
+고요의 읽기로는 토(土), 그중 밭의 흙 기토예요. 밀레는 1814년 10월 4일생, 일간도 기토예요. 태어난 시각은 알려지지 않아 해·달·날 세 기둥으로만 봤어요. 그림도 화가도 밭의 흙이에요. 제 해석이에요. 다 거둔 뒤에도 흙이 아직 품고 있는 것을 하나씩 손에 쥐는 그림이라, 1월 10일 「넣어 두는 흙」이 그림 속 들판에 있어요.
+
+이 그림 옆에는 갈아 둔 밭 같은 재즈 로파이, 『다섯 가지 고요｜기토(己土)』. 오늘 밤 9시 릴스에는 『Afternoon Allotment』가 흘러요. 프로필 링크에서 들을 수 있어요.
+
+그림: 오르세 미술관, 1857, 퍼블릭 도메인(위키미디어 공용 이미지)
+
+· English ·
+Goyo Reads a Painting #3 · Jean-François Millet, The Gleaners
+
+After the harvest, three women bend to pick up the ears of wheat left behind. Behind them stand tall stacks and a full cart, and the rider on the far right is probably the estate overseer, making sure the gleaners keep to the rules (Musée d'Orsay). Plenty behind, what's left in front, in one frame.
+
+By old custom, whatever the harvest left in the field was for the poor to gather. Millet worked on this theme for ten years: a vertical painting in 1854, an etching in 1855, then this canvas at the Salon of 1857, now seen as showing the women with dignity rather than misery. It was given to the French state in 1890 and hung in the Louvre until 1986.
+
+We read it as Earth, and within Earth, the field: 己土 Yin Earth (Gito). Millet, born on October 4, 1814, has Yin Earth as his day stem too; his birth hour is unknown, so we read only the year, month and day. Painting and painter are both field earth. This is our own reading. Its women gather, one by one, what the earth still holds after the harvest: our January 10 post, 'The earth that keeps,' found in a painting.
+
+Beside it: Five Kinds of Quiet · Yin Earth, jazz lo-fi like a tilled field. Tonight's 9 p.m. reel plays Afternoon Allotment. Listen through the link in bio.
+
+Image: Musée d'Orsay, 1857, public domain (Wikimedia Commons)
+
+#고요 #고요의그림읽기 #밀레 #이삭줍는여인들 #Millet #정미년 #오행 #명화 #fiveelements""",
+)
+
 def build(key):
     p = P[key]; out = os.path.join(os.path.dirname(os.path.abspath(__file__)), key); os.makedirs(out, exist_ok=True)
     json.dump({'music': p['music'], 'slides': p['slides']}, open(f'{out}/slides.json', 'w'), ensure_ascii=False, indent=1)
@@ -897,7 +961,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil

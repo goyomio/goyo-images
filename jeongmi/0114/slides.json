@@ -1,0 +1,466 @@
+{
+ "music": "기토",
+ "slides": [
+  {
+   "items": [
+    [
+     "고요의 그림 읽기 #3",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     10
+    ],
+    [
+     "남은 이삭",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     14
+    ],
+    [
+     "장 프랑수아 밀레, 〈이삭 줍는 여인들〉\n1857 · 오르세 미술관 · 퍼블릭 도메인(위키미디어 공용)",
+     26,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     10
+    ],
+    [
+     "The Gleaners · Jean-François Millet",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "card": {
+    "file": "art/밀레_이삭줍는여인들.jpg",
+    "h": 520
+   }
+  },
+  {
+   "items": [
+    [
+     "추수가 끝난 들판,\n세 여인이 허리를 굽혀\n남은 이삭을 줍고 있어요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "뒤쪽에는 높이 쌓은 낟가리와\n가득 실은 수레가 있어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "After the harvest, three women bend to pick up\nthe ears of wheat left behind.\nBehind them: tall stacks and a full cart.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "그림"
+  },
+  {
+   "items": [
+    [
+     "오른쪽 멀리\n말을 탄 사람은",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "수확과 그 규칙을 지켜보던\n관리인으로 봐요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오르세 미술관 설명이에요.",
+     38,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "거둔 것이 넘치는 뒤쪽과\n남은 것을 줍는 앞쪽이\n한 화면에 있어요.",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "The rider on the far right is probably the estate overseer,\nmaking sure the gleaners keep to the rules (Musée d'Orsay).\nPlenty behind, what's left in front, in one frame.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "줍는 사람, 거두는 사람"
+  },
+  {
+   "items": [
+    [
+     "추수 뒤 밭에 떨어진 이삭은",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "가난한 이들이\n주워 갈 수 있게 남겨 두던\n오래된 관습이었어요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "By old custom, whatever the harvest left\nin the field was for the poor to gather.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이삭을 줍는다는 것"
+  },
+  {
+   "items": [
+    [
+     "밀레는 이 주제를\n10년 동안 그리고 또 그렸어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "1854년 세로 그림, 1855년 판화를 거쳐\n1857년 살롱에 이 그림을 냈어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "가난을 과장하지 않고,\n품위 있는 모습으로 그렸다는 평이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "1890년 기증으로 국가 소장이 되었어요.",
+     36,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "Ten years on one theme: a vertical painting\nin 1854, an etching in 1855, then this canvas at the\nSalon of 1857. Given to the French state in 1890.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "10년의 그림"
+  },
+  {
+   "items": [
+    [
+     "보이는 것",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "거둔 뒤에도 남은 것을 품은 밭 → 흙, 그중 밭",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "그리는 방식",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "땅빛으로 낮고 넓게 깐 화면 → 흙",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "화가의 사주",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "1814년 10월 4일생, 일간 기토(밭의 흙)",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     12
+    ],
+    [
+     "태어난 시각은 알려지지 않아,\n해·달·날 세 기둥으로만 봐요.",
+     36,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     24
+    ],
+    [
+     "그림도 화가도 밭의 흙이에요. 제 해석이에요.",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "Seen: a field after harvest. Painted: earth tones, low and broad.\nWe read it as 己土 Yin Earth (Gito), field earth. Millet, born\nOct 4, 1814, has Yin Earth as his day stem too.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "고요의 읽기 · 토(土)"
+  },
+  {
+   "items": [
+    [
+     "다 거둔 뒤에도\n흙이 아직 품고 있는 것을\n하나씩 손에 쥐는 그림.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "1월 10일 「넣어 두는 흙」이\n그림 속 들판에 있어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "A painting of gathering, one by one, what the earth\nstill holds after the harvest: our Jan 10 post,\n'The earth that keeps,' found in a painting.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "정미년과 이어서"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "기토 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "갈아 둔 밭 같은\n재즈 로파이예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 밤 9시 릴스에 흐르는 곡은\n『Afternoon Allotment』예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yin Earth, jazz lo-fi.\nTonight's reel: Afternoon Allotment.\nListen through the link in bio.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이 그림 옆에 둘 소리"
+  }
+ ]
+}
