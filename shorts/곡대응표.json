@@ -133,5 +133,10 @@
   "편": "을목",
   "곡": "Morning Tendril",
   "근거": "원곡: goyo-keys/audio/catalog.json 을목 01 0:00 Morning Tendril (곡 시작부터 60초)"
+ },
+ "shorts/그림편/audio/경금_Stone Bridge_60s.m4a": {
+  "편": "경금",
+  "곡": "Stone Bridge",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 02 4:28 Stone Bridge (곡 시작부터 60초)"
  }
 }

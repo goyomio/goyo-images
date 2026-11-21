@@ -1,0 +1,336 @@
+{
+ "audio": "shorts/그림편/audio/경금_Stone Bridge_60s.m4a",
+ "scenes": [
+  {
+   "sec": 4.5,
+   "instant": true,
+   "items": [
+    [
+     "1월 13일",
+     50,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "바위의 소리,\n비의 소리",
+     112,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     50
+    ],
+    [
+     "The sound of stone,\nthe sound of rain",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "step": 1.0,
+   "items": [
+    [
+     "등불이 데운\n마른 흙 곁에",
+     92,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "입춘(2월 4일)부터",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     50
+    ],
+    [
+     "Beside the heat of warm, dry earth, from Feb 4",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "step": 1.0,
+   "items": [
+    [
+     "바위의 소리",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "경금 편",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "비의 소리",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "계수 편",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     50
+    ],
+    [
+     "Stone: 庚金 Yang Metal (Gyeonggeum)\nRain: 癸水 Yin Water (Gyesu)",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items_ig": [
+    [
+     "곡 이름에 숨은\n바위와 물은?",
+     92,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "자세한 이야기는\n@goyo_mio 피드 게시물에서",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "Stone and water hidden in the track names?\nMore in our feed post",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "곡 이름에 숨은\n바위와 물은?",
+     92,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "자세한 이야기는\n채널 게시물에서",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "Stone and water hidden in the track names?\nMore in our Posts tab",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.5,
+   "tag": "지금 흐르는 소리",
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "경금 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Stone Bridge』",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 프로필 링크에서",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yang Metal\nStone Bridge · Listen through the link in bio.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "경금 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Stone Bridge』",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 아래 관련 영상",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yang Metal\nStone Bridge · Music: related video below",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}
