@@ -31,9 +31,9 @@ date_en = f"{MON_EN[int(m.group(2)) - 1]} {int(m.group(3))}" if m else ''
 date_ko = cfg['label'].split('·')[0].strip()
 stem = re.search(r'(갑목|을목|병화|정화|무토|기토|경금|신금|임수|계수)', cfg['music']['title_html']).group(1)
 HZ = re.search(r'\((.{2})\)', cfg['music']['title_html']); HZ = HZ.group(1) if HZ else ''
-STEM_EN = {'갑목': 'Yang Wood (Gapmok)', '을목': 'Yin Wood (Eulmok)', '병화': 'Yang Fire (Byeonghwa)', '정화': 'Yin Fire (Jeonghwa)',
-           '무토': 'Yang Earth (Muto)', '기토': 'Yin Earth (Gito)', '경금': 'Yang Metal (Gyeonggeum)', '신금': 'Yin Metal (Singeum)',
-           '임수': 'Yang Water (Imsu)', '계수': 'Yin Water (Gyesu)'}
+STEM_EN = {'갑목': '甲木 Yang Wood', '을목': '乙木 Yin Wood', '병화': '丙火 Yang Fire', '정화': '丁火 Yin Fire',
+           '무토': '戊土 Yang Earth', '기토': '己土 Yin Earth', '경금': '庚金 Yang Metal', '신금': '辛金 Yin Metal',
+           '임수': '壬水 Yang Water', '계수': '癸水 Yin Water'}
 
 # 카드
 CH = 570; CW = int(CH * 0.58); GAP = 24; X0 = (W - 3 * CW - 2 * GAP) // 2; CY = 570

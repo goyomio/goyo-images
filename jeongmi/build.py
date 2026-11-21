@@ -18,7 +18,7 @@ P['0101'] = dict(
  slides=[
   S([T('1월 1일 · 새해 첫날', 44, GOLD, gap=30), T('큰 해 다음엔\n작은 등불', 104, bold=True, gap=36),
      T('2027년, 정미(丁未)', 48, gap=14), T('사주의 해는 입춘(2월 4일)에 바뀌어요.', 38, gap=30),
-     T('After the big sun, a small lamp', 38, EN, gap=4), T("In Saju, the year turns at Ipchun: Feb 4, 10:46 a.m.", 32, EN, gap=0)]),
+     T('After the big sun, a small lamp', 38, EN, gap=4), T("In Saju, the year turns at the start of spring (立春): Feb 4.", 32, EN, gap=0)]),
   S([T('크게 타오르던 불이\n작은 등불이 되어\n흙에 내려앉는 해예요.', 70, bold=True, gap=40),
      T('A year when a blazing fire becomes a small lamp and settles into the earth.', 34, EN, gap=0)], tag='2027년을 한 문장으로'),
   S([T('2026년 병화는\n하늘의 해예요.', 58, gap=30), T('2027년 정화는\n가까운 곳을 오래 비추는 등불이에요.', 58, bold=True, gap=30),
@@ -28,7 +28,7 @@ P['0101'] = dict(
      T('불이 꺼지는 해라기보다\n불이 무르익는 해로 읽어요.', 44, gap=36),
      T('2025 early, 2026 high, 2027 late summer: summer ripens fully in 2027.', 34, EN, gap=0)], tag='세 해의 여름'),
   S([T('미(未)는 늦여름의 마른 흙,\n나무를 품어 두는\n창고 같은 흙이에요.', 54, gap=34), T('그동안 키운 것을\n조용히 넣어 두는 해예요.', 62, bold=True, gap=36),
-     T('Mi (未) is dry late-summer earth that stores what has grown. A year to keep what you raised.', 34, EN, gap=0)], tag='넣어 두는 흙'),
+     T('未 is dry late-summer earth that stores what has grown. A year to keep what you raised.', 34, EN, gap=0)], tag='넣어 두는 흙'),
   S([
      *IL('갑목', '생각을 말과 손으로 꺼내, 눈에 보이는\n성과로 바꿔 가는 해로 읽을 수 있어요.', 20),
      *IL('을목', '좋아하는 것을 즐기다 보면,\n그것이 움직이는 기회로 이어질 수 있어요.', 20),
@@ -44,7 +44,7 @@ P['0101'] = dict(
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
      T('2027년의 글자 그대로,\n가까운 곳을 오래 비추는\n등불 같은 소리예요.', 50, gap=24), T('첫 곡은 『Lamplit Keys』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yin Fire (Jeonghwa). The first track is Lamplit Keys. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · 丁火 Yin Fire. The first track is Lamplit Keys. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 1일', 50, GOLD, gap=34), T('큰 해 다음엔\n작은 등불', 124, bold=True, gap=50), T('After the big sun, a small lamp', 42, EN, gap=0)]),
@@ -59,9 +59,9 @@ P['0101'] = dict(
                  T('What does 2027 mean for your day master?\nFull reading in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('정화 편', 100, bold=True, gap=36), T('첫 곡 『Lamplit Keys』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yin Fire (Jeonghwa): Lamplit Keys\nMusic: link in bio', 36, EN, gap=0)],
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丁火 Yin Fire: Lamplit Keys\nMusic: link in bio', 36, EN, gap=0)],
        items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('정화 편', 100, bold=True, gap=36), T('첫 곡 『Lamplit Keys』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yin Fire (Jeonghwa): Lamplit Keys\nMusic: related video below', 36, EN, gap=0)]),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丁火 Yin Fire: Lamplit Keys\nMusic: related video below', 36, EN, gap=0)]),
  ],
  caption="""큰 해 다음엔, 작은 등불.
 
@@ -76,13 +76,13 @@ P['0101'] = dict(
 · English ·
 After the big sun, a small lamp.
 
-2027 is the Jeongmi (丁未) year: a year when a blazing fire becomes a small lamp and settles into the earth. If 2026 was Byeong (丙), the sun in the sky, then 2027 is Jeong (丁), a lamp that keeps lighting what is close. Early summer in 2025, high summer in 2026, late summer in 2027: the three summer years ripen fully in 2027. Mi (未) is late-summer earth, a storehouse that holds Wood, so we read 2027 as a year to quietly keep what you have raised.
+2027 is the 丁未 year: a year when a blazing fire becomes a small lamp and settles into the earth. If 2026 was 丙, the sun in the sky, then 2027 is 丁, a lamp that keeps lighting what is close. Early summer in 2025, high summer in 2026, late summer in 2027: the three summer years ripen fully in 2027. 未 is late-summer earth, a storehouse that holds Wood, so we read 2027 as a year to quietly keep what you have raised.
 
-In Saju, the year turns at Ipchun. In 2027, Ipchun falls on February 4 at 10:46 a.m. Korea Standard Time.
+In Saju, the year turns at the start of spring (立春). In 2027, it falls on February 4 at 10:46 a.m. Korea Standard Time.
 
 A one-line reading for each day master is on slides 6 and 7. Find your day master in our free app through the link in bio.
 
-Music true to the year's character, 丁: Five Kinds of Quiet · Yin Fire (Jeonghwa). The first track is Lamplit Keys. Listen through the link in bio.
+Music true to the year's character, 丁: Five Kinds of Quiet · 丁火 Yin Fire. The first track is Lamplit Keys. Listen through the link in bio.
 
 #고요 #정미년 #2027년 #새해 #사주 #오행 #일간 #오행음악 #saju #fiveelements""",
  reel_caption="""큰 해 다음엔, 작은 등불.
@@ -92,9 +92,9 @@ Music true to the year's character, 丁: Five Kinds of Quiet · Yin Fire (Jeongh
 내 일간으로 읽은 2027년은 피드 게시물에 있어요. 지금 흐르는 음악은 『다섯 가지 고요｜정화(丁火)』의 첫 곡 『Lamplit Keys』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-After the big sun, a small lamp. 2027, the Jeongmi (丁未) year, is when a blazing fire becomes a small lamp and settles into the earth. If 2026 was the sun in the sky, 2027 is a lamp that keeps lighting what is close. In Saju, the year turns at Ipchun (February 4, 10:46 a.m. Korea Standard Time).
+After the big sun, a small lamp. 2027, the 丁未 year, is when a blazing fire becomes a small lamp and settles into the earth. If 2026 was the sun in the sky, 2027 is a lamp that keeps lighting what is close. In Saju, the year turns at the start of spring (立春), February 4, 10:46 a.m. Korea Standard Time.
 
-A reading for each day master is in our feed post. The music is Lamplit Keys from Five Kinds of Quiet · Yin Fire (Jeonghwa). Listen through the link in bio.
+A reading for each day master is in our feed post. The music is Lamplit Keys from Five Kinds of Quiet · 丁火 Yin Fire. Listen through the link in bio.
 
 #고요 #정미년 #2027년 #새해 #사주 #오행음악 #saju""",
 )
@@ -110,13 +110,13 @@ P['0104'] = dict(
   S([T('소한부터는\n한겨울의 언 흙이 시작돼요.', 62, bold=True, gap=36), T('언 흙에는\n등불 같은 따뜻한 불이\n어울린다고 봐요.', 52, gap=36),
      T('Minor Cold brings the frozen earth of deep winter. A warm, lamp-like fire suits it.', 34, EN, gap=0)], tag='한겨울의 언 흙'),
   S([T('해는 아직 병오년이에요.\n사주의 해는 입춘(2월 4일)에 바뀌어요.', 46, gap=34), T('소한 뒤, 입춘 전에 태어나면\n병오년 축월생이에요.', 60, bold=True, gap=36),
-     T('The year is still 丙午. Born after Minor Cold and before Ipchun? Then your month is 丑 in the 丙午 year.', 34, EN, gap=0)], tag='해는 아직 그대로'),
+     T('The year is still 丙午. Born after Minor Cold, before the start of spring (立春)? Then your month is 丑 in the 丙午 year.', 34, EN, gap=0)], tag='해는 아직 그대로'),
   S([T('월 계미 · 화 갑신 · 수 을유\n목 병술 · 금 정해 · 토 무자\n일 기축', 54, gap=34), T('날마다 앞 글자가\n물 → 나무 → 불 → 흙 순서로 흘러요.', 46, gap=30),
      T('화요일 밤 11시 10분부터 축월이에요.', 40, GOLD, gap=30),
      T('This week\'s day pillars: 癸未 → 甲申 → 乙酉 → 丙戌 → 丁亥 → 戊子 → 己丑. Minor Cold starts Tuesday night.', 32, EN, gap=0)], tag='이번 주 일진'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
      T('언 흙 곁에 켜 두는\n작은 등불 같은 소리예요.', 52, gap=30), T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yin Fire (Jeonghwa): a small lamp beside frozen earth. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · 丁火 Yin Fire: a small lamp beside frozen earth. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  caption="""내일 밤, 소한이에요.
 
@@ -133,11 +133,11 @@ Minor Cold arrives tomorrow night.
 
 At 11:10 p.m. on January 5 (Korea Standard Time), Minor Cold (小寒) begins and the Saju month turns from 子 to 丑. From here comes the frozen earth of deep winter, and a warm, lamp-like fire suits it.
 
-The year is still Byeong-o (丙午). In Saju, the year turns at Ipchun on February 4, so anyone born after Minor Cold and before Ipchun has a 丑 month in the 丙午 year.
+The year is still 丙午. In Saju, the year turns at the start of spring (立春) on February 4, so anyone born after Minor Cold and before then has a 丑 month in the 丙午 year.
 
 This week's day pillars: 癸未 → 甲申 → 乙酉 → 丙戌 → 丁亥 → 戊子 → 己丑. The first characters flow Water → Wood → Fire → Earth.
 
-A small lamp beside frozen earth: Five Kinds of Quiet · Yin Fire (Jeonghwa). Listen through the link in bio.
+A small lamp beside frozen earth: Five Kinds of Quiet · 丁火 Yin Fire. Listen through the link in bio.
 
 #고요 #이번주기운 #소한 #절기 #일진 #사주 #오행 #saju #fiveelements""",
 )
@@ -156,11 +156,11 @@ P['0103'] = dict(
   S([T('2027년 정미는\n여름의 마무리예요.', 64, bold=True, gap=34), T('불이 꺼지는 해라기보다\n불이 다 익는 해로 읽어요.', 50, gap=36),
      T('2027 closes the summer. Read it as a year when the fire ripens, not one when it goes out.', 34, EN, gap=0)], tag='늦여름'),
   S([T('1월인 지금은 아직 병오년,\n한여름의 끝자락이에요.', 54, gap=30), T('늦여름은\n입춘(2월 4일)부터.', 64, bold=True, gap=36),
-     T('January is still 丙午, the tail of high summer. Late summer starts at Ipchun, Feb 4.', 34, EN, gap=0)], tag='지금은 어느 여름일까요'),
+     T('January is still 丙午, the tail of high summer. The late-summer year (丁未) begins Feb 4, at the start of spring (立春).', 34, EN, gap=0)], tag='지금은 어느 여름일까요'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('병화 편', 96, bold=True, gap=34),
      T('한여름의 끝자락,\n한낮의 해 같은 소리예요.', 52, gap=24), T('첫 곡은 『Noon Avenue』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yang Fire (Byeonghwa). The first track is Noon Avenue. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · 丙火 Yang Fire. The first track is Noon Avenue. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 3일', 50, GOLD, gap=34), T('여름이\n세 해 동안\n이어졌어요', 120, bold=True, gap=50), T('Summer has lasted three years', 42, EN, gap=0)]),
@@ -174,9 +174,9 @@ P['0103'] = dict(
                  T('Which summer are we in now?\nFull reading in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('첫 곡 『Noon Avenue』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Fire (Byeonghwa): Noon Avenue\nMusic: link in bio', 36, EN, gap=0)],
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire: Noon Avenue\nMusic: link in bio', 36, EN, gap=0)],
        items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('첫 곡 『Noon Avenue』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Fire (Byeonghwa): Noon Avenue\nMusic: related video below', 36, EN, gap=0)]),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire: Noon Avenue\nMusic: related video below', 36, EN, gap=0)]),
  ],
  caption="""여름이 세 해 동안 이어졌어요.
 
@@ -191,9 +191,9 @@ Summer has lasted three years.
 
 2025 (乙巳) was early summer, 2026 (丙午) high summer, and 2027 (丁未) is late summer. 巳, 午 and 未 are the three summer characters, so the three years together make one summer season. 2026 was the hottest point, where 丙 (the sun) met 午 (high summer). 2027 closes the summer. Read it as a year when the fire ripens, not one when it goes out.
 
-Right now, in January, it is still the 丙午 year, the tail end of high summer. In Saju, the year turns at Ipchun on February 4.
+Right now, in January, it is still the 丙午 year, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4.
 
-For the tail of high summer: Five Kinds of Quiet · Yang Fire (Byeonghwa). The first track is Noon Avenue. Listen through the link in bio.
+For the tail of high summer: Five Kinds of Quiet · 丙火 Yang Fire. The first track is Noon Avenue. Listen through the link in bio.
 
 #고요 #고요이야기 #정미년 #병오년 #사주 #오행 #오행음악 #saju #fiveelements""",
  reel_caption="""여름이 세 해 동안 이어졌어요.
@@ -205,7 +205,7 @@ For the tail of high summer: Five Kinds of Quiet · Yang Fire (Byeonghwa). The f
 · English ·
 Summer has lasted three years: early summer in 2025, high summer in 2026, and late summer in 2027. 2027 closes the summer, a year when the fire ripens. Which summer are we in now, in January? See our feed post.
 
-The music is Noon Avenue from Five Kinds of Quiet · Yang Fire (Byeonghwa). Listen through the link in bio.
+The music is Noon Avenue from Five Kinds of Quiet · 丙火 Yang Fire. Listen through the link in bio.
 
 #고요 #정미년 #병오년 #사주 #오행음악 #saju""",
 )
