@@ -128,5 +128,10 @@
   "편": "토",
   "곡": "Warm Soil",
   "근거": "원곡: goyo-keys/audio/catalog.json 토1 01 0:00 Warm Soil (유튜브 VxV9ePEWoj4 설명란 00:00, 곡 시작부터 60초)"
+ },
+ "shorts/그림편/audio/을목_Morning Tendril_60s.m4a": {
+  "편": "을목",
+  "곡": "Morning Tendril",
+  "근거": "원곡: goyo-keys/audio/catalog.json 을목 01 0:00 Morning Tendril (곡 시작부터 60초)"
  }
 }

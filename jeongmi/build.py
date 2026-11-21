@@ -624,6 +624,92 @@ The music is Warm Soil from Five Kinds of Quiet · Earth. Listen through the lin
 #고요 #정미년 #오행음악 #로파이 #saju""",
 )
 
+P['0110'] = dict(
+ music='을목', audio='shorts/그림편/audio/을목_Morning Tendril_60s.m4a',
+ slides=[
+  S([T('1월 10일 · 고요 이야기', 44, GOLD, gap=30), T('넣어 두는\n흙', 116, bold=True, gap=36),
+     T('늦여름 흙이 품고 있는 것', 44, gap=30), T('The earth that keeps', 38, EN, gap=0)]),
+  S([T('미(未)는\n늦여름의 흙이에요.', 64, bold=True, gap=30),
+     T('해마다 7월 초 소서부터\n8월 초 입추 전까지가 미의 달이에요.', 44, gap=26),
+     T('아직 뜨겁고 마른 흙이에요.', 46, gap=34),
+     T('未 Afternoon Earth (Mito) is late-summer earth.\nIts month runs from early July to early August,\nwhen the ground is still hot and dry.', 30, EN, gap=0)], tag='늦여름의 흙'),
+  S([T('옛 책은 미(未) 안에', 46, gap=24), T('불씨(정화),\n덩굴 같은 나무(을목),\n흙(기토)이', 58, bold=True, gap=24),
+     T('함께 들어 있다고 봐요.', 46, gap=26), T('未 · 丁 乙 己', 40, GOLD, gap=26),
+     T('불이 데운 흙이\n나무를 품고 있는 모양이에요.', 44, gap=34),
+     T('Old Saju texts see three things inside Mito: an ember,\na vine-like tree, and earth. Fire-warmed earth\nholding a tree.', 30, EN, gap=0)], tag='흙 속에 든 것'),
+  S([T('봄에 자란 나무의 기운이\n늦여름 흙으로 돌아와\n쌓이는 자리.', 56, bold=True, gap=30),
+     T('그래서 옛 책은\n미(未)를 나무의 창고로 봐요.', 48, gap=34),
+     T('Spring\'s growth returns to the late-summer earth\nand is stored there, so old texts call Mito\nthe storehouse of Wood.', 30, EN, gap=0)], tag='나무의 창고'),
+  S([T('다가오는 정미년은', 46, gap=24), T('새로 여는 해보다\n그동안 키운 것을\n조용히 넣어 두는\n해로 읽어요.', 58, bold=True, gap=30),
+     T('사주로는 2월 4일 입춘부터 정미년이에요.', 38, GOLD, gap=34),
+     T('So the coming 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth reads as a year to keep what you\nraised. In Saju, it begins on Feb 4.', 30, EN, gap=0)], tag='넣어 두는 해'),
+  S([T('미토는\n나무를 품어 두는 흙이에요.', 56, bold=True, gap=30),
+     T('옹기나 토분에\n작은 식물 하나를\n곁에 두어도 좋아요.', 50, gap=30),
+     T('곁에 둘 것은 1월 31일에 더 이어 갈게요.', 38, GOLD, gap=34),
+     T('Mito is earth that holds a tree. A small plant in\na clay or earthenware pot sits well beside you.\nMore on things to keep close on Jan 31.', 30, EN, gap=0)], tag='곁에 두기'),
+  S([T('흙이 품어 두는 나무는\n덩굴처럼 휘어 자라는\n을목이에요.', 56, bold=True, gap=30),
+     T('을목 편 첫 곡 『Morning Tendril』은\n아침의 덩굴손이라는 뜻이에요.', 44, gap=34),
+     T('The tree the earth keeps is 乙木 Yin Wood (Eulmok),\nwhich bends and climbs like a vine. Its first track,\nMorning Tendril, is named for a vine\'s reaching tip.', 30, EN, gap=0)], tag='왜 을목 편'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('을목 편', 96, bold=True, gap=34),
+     T('흙에 기대어 천천히 감아 오르는\n덩굴 같은 소리예요.', 50, gap=24), T('첫 곡은 『Morning Tendril』이에요.', 44, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yin Wood.\nThe first track is Morning Tendril.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 10일', 50, GOLD, gap=34), T('넣어 두는\n흙', 130, bold=True, gap=50), T('The earth that keeps', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('미(未)는', 70, gap=16), T('늦여름의\n마른 흙', 100, bold=True, gap=50), T('Mito: dry, late-summer earth', 40, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('그 흙 안에', 70, gap=16), T('덩굴 같은\n나무가 들어 있어요', 88, bold=True, gap=50), T('Inside it: a vine-like tree', 40, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('왜 나무의\n창고일까요?', 96, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
+                 T('Why a storehouse of Wood?\nMore in our feed post', 40, EN, gap=0)],
+       items_yt=[T('왜 나무의\n창고일까요?', 96, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
+                 T('Why a storehouse of Wood?\nMore in our Posts tab', 40, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('첫 곡 『Morning Tendril』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\nMorning Tendril · Listen through the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('첫 곡 『Morning Tendril』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\nMorning Tendril · Music: related video below', 34, EN, gap=0)]),
+ ],
+ caption="""넣어 두는 흙.
+
+미(未)는 늦여름의 흙이에요. 해마다 7월 초 소서부터 8월 초 입추 전까지가 미의 달이고, 아직 뜨겁고 마른 흙이에요.
+
+옛 책은 미 안에 불씨(정화), 덩굴 같은 나무(을목), 흙(기토)이 함께 들어 있다고 봐요. 불이 데운 흙이 나무를 품고 있는 모양이에요. 봄에 자란 나무의 기운이 늦여름 흙으로 돌아와 쌓이는 자리라서, 옛 책은 미를 나무의 창고로 봐요.
+
+그래서 다가오는 정미년은 새로 여는 해보다 그동안 키운 것을 조용히 넣어 두는 해로 읽어요. 사주로는 2월 4일 입춘부터 정미년이에요.
+
+미토는 나무를 품어 두는 흙이에요. 옹기나 토분에 작은 식물 하나를 곁에 두어도 좋아요. 곁에 둘 것은 1월 31일에 더 이어 갈게요.
+
+흙이 품어 두는 나무는 덩굴처럼 휘어 자라는 을목이에요. 흙에 기대어 천천히 감아 오르는 덩굴 같은 소리, 『다섯 가지 고요｜을목(乙木)』의 첫 곡 『Morning Tendril』(아침의 덩굴손)이에요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+The earth that keeps.
+
+未 Afternoon Earth (Mito) is late-summer earth. Its month runs from early July to early August, when the ground is still hot and dry.
+
+Old Saju texts see three things inside it: an ember, a vine-like tree, and earth. It is fire-warmed earth holding a tree. Spring's growth returns to the late-summer earth and is stored there, so old texts call Mito the storehouse of Wood.
+
+So the coming 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth reads less as a year to open new things and more as a year to quietly keep what you have raised. In Saju, it begins on February 4.
+
+Mito is earth that holds a tree. A small plant in a clay or earthenware pot sits well beside you. We'll say more about things to keep close on January 31.
+
+The tree the earth keeps is 乙木 Yin Wood (Eulmok), which bends and climbs like a vine. Music like a vine slowly winding up, leaning on the earth: Morning Tendril, the first track of Five Kinds of Quiet · Yin Wood. Listen through the link in bio.
+
+#고요 #정미년 #미토 #을목 #사주 #오행 #오행음악 #saju #fiveelements""",
+ reel_caption="""넣어 두는 흙.
+
+미(未)는 늦여름의 마른 흙이고, 그 안에 덩굴 같은 나무(을목)가 들어 있다고 봐요. 옛 책이 왜 미를 나무의 창고로 보는지, 다가오는 정미년을 어떻게 읽는지는 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜을목(乙木)』의 첫 곡 『Morning Tendril』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+未 Afternoon Earth (Mito) is dry, late-summer earth, and old Saju texts see a vine-like tree inside it. Why it is called the storehouse of Wood, and what that means for the coming year, is in our feed post.
+
+The music is Morning Tendril from Five Kinds of Quiet · 乙木 Yin Wood (Eulmok). Listen through the link in bio.
+
+#고요 #정미년 #을목 #사주 #오행음악""",
+)
+
 def build(key):
     p = P[key]; out = os.path.join(os.path.dirname(os.path.abspath(__file__)), key); os.makedirs(out, exist_ok=True)
     json.dump({'music': p['music'], 'slides': p['slides']}, open(f'{out}/slides.json', 'w'), ensure_ascii=False, indent=1)
@@ -634,7 +720,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil

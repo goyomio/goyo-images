@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-01-10/01.jpg",
+  "posts/2027-01-10/02.jpg",
+  "posts/2027-01-10/03.jpg",
+  "posts/2027-01-10/04.jpg",
+  "posts/2027-01-10/05.jpg",
+  "posts/2027-01-10/06.jpg",
+  "posts/2027-01-10/07.jpg",
+  "posts/2027-01-10/08.jpg"
+ ],
+ "caption": "넣어 두는 흙.\n\n미(未)는 늦여름의 흙이에요. 해마다 7월 초 소서부터 8월 초 입추 전까지가 미의 달이고, 아직 뜨겁고 마른 흙이에요.\n\n옛 책은 미 안에 불씨(정화), 덩굴 같은 나무(을목), 흙(기토)이 함께 들어 있다고 봐요. 불이 데운 흙이 나무를 품고 있는 모양이에요. 봄에 자란 나무의 기운이 늦여름 흙으로 돌아와 쌓이는 자리라서, 옛 책은 미를 나무의 창고로 봐요.\n\n그래서 다가오는 정미년은 새로 여는 해보다 그동안 키운 것을 조용히 넣어 두는 해로 읽어요. 사주로는 2월 4일 입춘부터 정미년이에요.\n\n미토는 나무를 품어 두는 흙이에요. 옹기나 토분에 작은 식물 하나를 곁에 두어도 좋아요. 곁에 둘 것은 1월 31일에 더 이어 갈게요.\n\n흙이 품어 두는 나무는 덩굴처럼 휘어 자라는 을목이에요. 흙에 기대어 천천히 감아 오르는 덩굴 같은 소리, 『다섯 가지 고요｜을목(乙木)』의 첫 곡 『Morning Tendril』(아침의 덩굴손)이에요. 프로필 링크에서 들을 수 있어요.\n\n· English ·\nThe earth that keeps.\n\n未 Afternoon Earth (Mito) is late-summer earth. Its month runs from early July to early August, when the ground is still hot and dry.\n\nOld Saju texts see three things inside it: an ember, a vine-like tree, and earth. It is fire-warmed earth holding a tree. Spring's growth returns to the late-summer earth and is stored there, so old texts call Mito the storehouse of Wood.\n\nSo the coming 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth reads less as a year to open new things and more as a year to quietly keep what you have raised. In Saju, it begins on February 4.\n\nMito is earth that holds a tree. A small plant in a clay or earthenware pot sits well beside you. We'll say more about things to keep close on January 31.\n\nThe tree the earth keeps is 乙木 Yin Wood (Eulmok), which bends and climbs like a vine. Music like a vine slowly winding up, leaning on the earth: Morning Tendril, the first track of Five Kinds of Quiet · Yin Wood. Listen through the link in bio.\n\n#고요 #정미년 #미토 #을목 #사주 #오행 #오행음악 #saju #fiveelements",
+ "note": "정미년 시리즈 0110 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}
