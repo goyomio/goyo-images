@@ -37,6 +37,19 @@ def layers(scene):
             X.block(ld, [('k', t, sz, col, bold, 0)], top=y); outs.append(L); y += h
         assert y <= BOT + 5, ('글이 아래로 넘침', y)
         return base, outs
+    if scene.get('art'):
+        # 선 그림(투명 PNG)을 글 위에 둠 — 11/22 유튜브 창 추가
+        a = scene['art']; g = Image.open(os.path.join(X.ROOT, a['file'])).convert('RGBA'); ah = a.get('h', g.height)
+        if g.height != ah: g = g.resize((int(g.width * ah / g.height), ah), Image.LANCZOS)
+        A = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        ay = top0 + (BOT - top0 - ah - 30 - sum(hs)) // 2
+        A.alpha_composite(g, ((W - g.width) // 2, ay)); A.info['wipe'] = ((W - g.width) // 2, g.width); outs.append(A)
+        y = ay + ah + 30
+        for (t, sz, col, bold, gap), h in zip(scene['items'], hs):
+            L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ld = ImageDraw.Draw(L)
+            X.block(ld, [('k', t, sz, col, bold, 0)], top=y); outs.append(L); y += h
+        assert y <= BOT + 5, ('글이 아래로 넘침', y)
+        return base, outs
     if scene.get('pillars'):
         P = Image.new('RGBA', (W, H), (0, 0, 0, 0)); pd = ImageDraw.Draw(P)
         ph = 56 + 2 * 132 + 20 + 40
@@ -56,6 +69,21 @@ def layers(scene):
 def ease(t): return max(0.0, min(1.0, t))
 
 
+_STARS = None
+def star_layer(t, fx):
+    """옅은 별가루가 천천히 위로 흐름(밤 주제). fx = {'stars': 개수}"""
+    global _STARS
+    import random
+    if _STARS is None:
+        r = random.Random(7); _STARS = [(r.uniform(60, W - 60), r.uniform(0, H), r.uniform(1.2, 3.0), r.uniform(6, 16), r.uniform(0, 6.28)) for _ in range(fx['stars'])]
+    import math
+    L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
+    for x, y, rad, sp, ph in _STARS:
+        yy = (y - sp * t) % H; al = int(40 + 50 * (0.5 + 0.5 * math.sin(t * 0.9 + ph)))
+        d.ellipse([x - rad, yy - rad, x + rad, yy + rad], fill=(220, 205, 170, al))
+    return L
+
+
 def render(cfg, which, out):
     # 장면마다 플랫폼별 글 묶음(items_ig / items_yt)이 있으면 그것을 씀. end가 없으면 끝 장면 없음(11/21 새 순서).
     scenes = [dict(s, items=s.get('items_' + which, s.get('items'))) for s in cfg['scenes']]
@@ -69,24 +97,34 @@ def render(cfg, which, out):
                            '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-t', str(total), out],
                           stdin=subprocess.PIPE)
     black = Image.new('RGB', (W, H), X.BG)
+    fx = cfg.get('fx', {}); t_all = 0.0
     for si, s in enumerate(scenes):
         base, ls = layers(s); n = int(s['sec'] * FPS)
         last = None
         for k in range(n):
             t = k / FPS
             fr = base.copy()
+            if fx.get('stars'):
+                fr.alpha_composite(star_layer(t_all + t, fx))
             for i, L in enumerate(ls):
                 a = 1.0 if s.get('instant') else ease((t - 0.3 - i * s.get('step', 0.7)) / 0.6)  # instant: 0초부터 다 보이게(인스타 첫 화면)
-                if a > 0:
-                    if a < 1:
-                        L2 = L.copy(); L2.putalpha(L.getchannel('A').point(lambda v, a=a: int(v * a)))
-                        fr.alpha_composite(L2)
-                    else:
-                        fr.alpha_composite(L)
+                if a <= 0: continue
+                if 'wipe' in L.info and fx.get('wipe') and not s.get('instant'):
+                    # 그림: 왼쪽부터 그려지듯(1.2초)
+                    x0, gw = L.info['wipe']; p = ease((t - 0.2 - i * s.get('step', 0.7)) / 1.2)
+                    M = Image.new('L', (W, H), 0); ImageDraw.Draw(M).rectangle([0, 0, x0 + int(gw * p), H], fill=255)
+                    L2 = L.copy(); L2.putalpha(Image.composite(L.getchannel('A'), M, M)); fr.alpha_composite(L2); continue
+                dy = int((1 - a) * 28) if fx.get('rise') and not s.get('instant') else 0
+                if a < 1:
+                    L2 = L.copy(); L2.putalpha(L.getchannel('A').point(lambda v, a=a: int(v * a)))
+                    fr.alpha_composite(L2, (0, dy)) if dy else fr.alpha_composite(L2)
+                else:
+                    fr.alpha_composite(L)
             fr = fr.convert('RGB')
             fade = ease((s['sec'] - t) / 0.4) if si < len(scenes) - 1 else 1.0
             if fade < 1: fr = Image.blend(black, fr, fade)
             ff.stdin.write(fr.tobytes()); last = fr
+        t_all += s['sec']
         if si == len(scenes) - 1: last.save(out + '.last.jpg', quality=90)
     ff.stdin.close(); ff.wait()
     print('ok', out, total)
