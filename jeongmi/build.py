@@ -710,6 +710,60 @@ The music is Morning Tendril from Five Kinds of Quiet · 乙木 Yin Wood (Eulmok
 #고요 #정미년 #을목 #사주 #오행음악""",
 )
 
+P['0111'] = dict(
+ music='임수',
+ slides=[
+  S([T('1월 11일 · 고요 이야기', 44, GOLD, gap=30), T('하늘의\n물', 120, bold=True, gap=36),
+     T('두 해가 함께 받은 옛 이름', 44, gap=30), T('Water from the sky', 38, EN, gap=0)]),
+  S([T('옛사람들은\n예순 개의 해 이름을\n둘씩 묶어', 58, bold=True, gap=26),
+     T('서른 가지 이름을 하나씩 붙였어요.\n쇠, 나무, 물, 불, 흙의 모습을\n빌린 이름이에요.', 42, gap=34),
+     T('Old Saju tradition paired the sixty year-names\ntwo by two and gave each pair a name drawn\nfrom metal, wood, water, fire or earth.', 30, EN, gap=0)], tag='해 이름에 붙은 또 하나의 이름'),
+  S([T('병오(2026)와 정미(2027)는\n한 쌍이에요.', 56, bold=True, gap=30),
+     T('둘이 함께 받은 이름은', 46, gap=20), T('천하수, 하늘의 물', 64, bold=True, gap=26),
+     T('丙午 · 丁未  天河水', 40, GOLD, gap=34),
+     T('2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire,\nand 2027, the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth, share one name:\nCheonhasu, water from the sky.', 28, EN, gap=0)], tag='2026과 2027'),
+  S([T('하늘의 물은', 50, gap=20), T('은하수처럼 하늘에 흐르는 물,\n땅으로 내리는 비와 이슬로\n풀이해 왔어요.', 54, bold=True, gap=34),
+     T('Water from the sky has long been read as the river\nof stars, and as the rain and dew that fall to earth.', 30, EN, gap=0)], tag='하늘의 물이란'),
+  S([T('해와 한여름, 등불과 늦여름.\n가장 뜨거운 두 해에\n물의 이름이 붙어 있어요.', 54, bold=True, gap=30),
+     T('다만 두 해의 글자는 불과 흙이라,\n물의 해라는 뜻은 아니에요.\n옛 이름 하나로만 봐요.', 44, gap=34),
+     T('The two hottest years carry a water name. Their\ncharacters are still fire and earth, so it is not a\nyear of water. We keep it as an old name only.', 30, EN, gap=0)], tag='불의 해에 붙은 물의 이름'),
+  S([T('하늘의 물을\n그림으로 본다면', 60, bold=True, gap=30),
+     T('다리 위로 갑자기 쏟아지는 비,\n히로시게의 「오하시 다리의 소나기」예요.', 44, gap=26),
+     T('2월 4일 그림 읽기에서 이어 갈게요.', 42, GOLD, gap=34),
+     T('In a painting: Hiroshige\'s Sudden Shower over\nthe Ohashi Bridge. More in our Feb 4 painting post.', 30, EN, gap=0)], tag='그림으로 본다면'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
+     T('넓게 고여 천천히 흐르는\n큰 물 같은 소리예요.', 52, gap=24), T('오늘은 『Morning Haze』를 골랐어요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 壬水 Yang Water (Imsu).\nToday\'s pick: Morning Haze.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+ ],
+ caption="""하늘의 물.
+
+옛사람들은 예순 개의 해 이름을 둘씩 묶어 서른 가지 이름을 하나씩 붙였어요. 쇠, 나무, 물, 불, 흙의 모습을 빌린 이름이에요.
+
+병오(2026)와 정미(2027)는 한 쌍이에요. 둘이 함께 받은 이름은 천하수(天河水), 하늘의 물이에요. 은하수처럼 하늘에 흐르는 물, 땅으로 내리는 비와 이슬로 풀이해 왔어요.
+
+해와 한여름, 등불과 늦여름. 가장 뜨거운 두 해에 물의 이름이 붙어 있어요. 다만 두 해의 글자는 불과 흙이라, 물의 해라는 뜻은 아니에요. 옛 이름 하나로만 봐요. 사주로는 2월 4일 입춘부터 정미년이에요.
+
+하늘의 물을 그림으로 본다면, 다리 위로 갑자기 쏟아지는 비를 그린 히로시게의 「오하시 다리의 소나기」예요. 2월 4일 그림 읽기에서 이어 갈게요.
+
+넓게 고여 천천히 흐르는 큰 물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 오늘은 『Morning Haze』를 골랐어요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Water from the sky.
+
+Old Saju tradition paired the sixty year-names two by two and gave each pair a name drawn from metal, wood, water, fire or earth.
+
+2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, and 2027, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, are one such pair. Their shared name is Cheonhasu (天河水), water from the sky, long read as the river of stars and as the rain and dew that fall to earth.
+
+The two hottest years carry a water name. Their characters are still fire and earth, so this is not a year of water; we keep it as an old name only. In Saju, the 丁未 year begins on February 4.
+
+In a painting, water from the sky is Hiroshige's Sudden Shower over the Ohashi Bridge. More in our February 4 painting post.
+
+Music like wide, slow water: Five Kinds of Quiet · 壬水 Yang Water (Imsu). Today's pick is Morning Haze. Listen through the link in bio.
+
+#고요 #정미년 #병오년 #천하수 #하늘의물 #사주 #오행음악 #saju #fiveelements""",
+)
+
 def build(key):
     p = P[key]; out = os.path.join(os.path.dirname(os.path.abspath(__file__)), key); os.makedirs(out, exist_ok=True)
     json.dump({'music': p['music'], 'slides': p['slides']}, open(f'{out}/slides.json', 'w'), ensure_ascii=False, indent=1)
@@ -720,7 +774,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil
