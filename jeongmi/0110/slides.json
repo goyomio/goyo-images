@@ -74,7 +74,7 @@
      26
     ],
     [
-     "아직 뜨겁고 마른 흙이에요.",
+     "한여름 열기가 남아\n아직 뜨겁고 말라 있어요.",
      46,
      [
       236,
@@ -156,7 +156,7 @@
      34
     ],
     [
-     "Old Saju texts see three things inside Mito: an ember,\na vine-like tree, and earth. Fire-warmed earth\nholding a tree.",
+     "Old Saju texts see three things inside Afternoon Earth:\nan ember, a vine-like tree, and earth.\nFire-warmed earth holding a tree.",
      30,
      [
       214,
@@ -194,7 +194,7 @@
      34
     ],
     [
-     "Spring's growth returns to the late-summer earth\nand is stored there, so old texts call Mito\nthe storehouse of Wood.",
+     "Spring's growth returns to the late-summer earth\nand is stored there, so old texts call\nAfternoon Earth the storehouse of Wood.",
      30,
      [
       214,
@@ -210,7 +210,7 @@
   {
    "items": [
     [
-     "다가오는 정미년은",
+     "흙의 모양으로 보면\n다가오는 정미년은",
      46,
      [
       236,
@@ -221,8 +221,8 @@
      24
     ],
     [
-     "새로 여는 해보다\n그동안 키운 것을\n조용히 넣어 두는\n해로 읽어요.",
-     58,
+     "새로 여는 해보다\n그동안 키운 것을\n조용히 넣어 두는\n해로 읽을 수 있어요.",
+     56,
      [
       236,
       233,
@@ -232,18 +232,18 @@
      30
     ],
     [
-     "사주로는 2월 4일 입춘부터 정미년이에요.",
-     38,
+     "한 해가 내게 어떻게 닿는지는 사주마다 달라요.\n사주로는 2월 4일 입춘부터 정미년이에요.",
+     36,
      [
       200,
       180,
       140
      ],
      false,
-     34
+     30
     ],
     [
-     "So the coming 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth reads as a year to keep what you\nraised. In Saju, it begins on Feb 4.",
+     "The coming year is the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth. We read it as a year to quietly keep\nwhat you've grown. How it touches you depends\non your own Saju. It begins on Feb 4.",
      30,
      [
       214,
@@ -292,7 +292,7 @@
      34
     ],
     [
-     "Mito is earth that holds a tree. A small plant in\na clay or earthenware pot sits well beside you.\nMore on things to keep close on Jan 31.",
+     "Afternoon Earth holds a tree. A small plant in an onggi\ncrock or a terracotta pot is a nice thing to keep nearby.\nMore on things to keep close on Jan 31.",
      30,
      [
       214,
@@ -330,7 +330,7 @@
      34
     ],
     [
-     "The tree the earth keeps is 乙木 Yin Wood (Eulmok),\nwhich bends and climbs like a vine. Its first track,\nMorning Tendril, is named for a vine's reaching tip.",
+     "The tree the earth keeps is 乙木 Yin Wood (Eulmok),\nwhich bends and climbs like a vine. Our Yin Wood\nalbum opens with Morning Tendril, named for\na vine's curling shoot.",
      30,
      [
       214,

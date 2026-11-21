@@ -631,25 +631,25 @@ P['0110'] = dict(
      T('늦여름 흙이 품고 있는 것', 44, gap=30), T('The earth that keeps', 38, EN, gap=0)]),
   S([T('미(未)는\n늦여름의 흙이에요.', 64, bold=True, gap=30),
      T('해마다 7월 초 소서부터\n8월 초 입추 전까지가 미의 달이에요.', 44, gap=26),
-     T('아직 뜨겁고 마른 흙이에요.', 46, gap=34),
+     T('한여름 열기가 남아\n아직 뜨겁고 말라 있어요.', 46, gap=34),
      T('未 Afternoon Earth (Mito) is late-summer earth.\nIts month runs from early July to early August,\nwhen the ground is still hot and dry.', 30, EN, gap=0)], tag='늦여름의 흙'),
   S([T('옛 책은 미(未) 안에', 46, gap=24), T('불씨(정화),\n덩굴 같은 나무(을목),\n흙(기토)이', 58, bold=True, gap=24),
      T('함께 들어 있다고 봐요.', 46, gap=26), T('未 · 丁 乙 己', 40, GOLD, gap=26),
      T('불이 데운 흙이\n나무를 품고 있는 모양이에요.', 44, gap=34),
-     T('Old Saju texts see three things inside Mito: an ember,\na vine-like tree, and earth. Fire-warmed earth\nholding a tree.', 30, EN, gap=0)], tag='흙 속에 든 것'),
+     T('Old Saju texts see three things inside Afternoon Earth:\nan ember, a vine-like tree, and earth.\nFire-warmed earth holding a tree.', 30, EN, gap=0)], tag='흙 속에 든 것'),
   S([T('봄에 자란 나무의 기운이\n늦여름 흙으로 돌아와\n쌓이는 자리.', 56, bold=True, gap=30),
      T('그래서 옛 책은\n미(未)를 나무의 창고로 봐요.', 48, gap=34),
-     T('Spring\'s growth returns to the late-summer earth\nand is stored there, so old texts call Mito\nthe storehouse of Wood.', 30, EN, gap=0)], tag='나무의 창고'),
-  S([T('다가오는 정미년은', 46, gap=24), T('새로 여는 해보다\n그동안 키운 것을\n조용히 넣어 두는\n해로 읽어요.', 58, bold=True, gap=30),
-     T('사주로는 2월 4일 입춘부터 정미년이에요.', 38, GOLD, gap=34),
-     T('So the coming 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth reads as a year to keep what you\nraised. In Saju, it begins on Feb 4.', 30, EN, gap=0)], tag='넣어 두는 해'),
+     T('Spring\'s growth returns to the late-summer earth\nand is stored there, so old texts call\nAfternoon Earth the storehouse of Wood.', 30, EN, gap=0)], tag='나무의 창고'),
+  S([T('흙의 모양으로 보면\n다가오는 정미년은', 46, gap=24), T('새로 여는 해보다\n그동안 키운 것을\n조용히 넣어 두는\n해로 읽을 수 있어요.', 56, bold=True, gap=30),
+     T('한 해가 내게 어떻게 닿는지는 사주마다 달라요.\n사주로는 2월 4일 입춘부터 정미년이에요.', 36, GOLD, gap=30),
+     T('The coming year is the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth. We read it as a year to quietly keep\nwhat you\'ve grown. How it touches you depends\non your own Saju. It begins on Feb 4.', 30, EN, gap=0)], tag='넣어 두는 해'),
   S([T('미토는\n나무를 품어 두는 흙이에요.', 56, bold=True, gap=30),
      T('옹기나 토분에\n작은 식물 하나를\n곁에 두어도 좋아요.', 50, gap=30),
      T('곁에 둘 것은 1월 31일에 더 이어 갈게요.', 38, GOLD, gap=34),
-     T('Mito is earth that holds a tree. A small plant in\na clay or earthenware pot sits well beside you.\nMore on things to keep close on Jan 31.', 30, EN, gap=0)], tag='곁에 두기'),
+     T('Afternoon Earth holds a tree. A small plant in an onggi\ncrock or a terracotta pot is a nice thing to keep nearby.\nMore on things to keep close on Jan 31.', 30, EN, gap=0)], tag='곁에 두기'),
   S([T('흙이 품어 두는 나무는\n덩굴처럼 휘어 자라는\n을목이에요.', 56, bold=True, gap=30),
      T('을목 편 첫 곡 『Morning Tendril』은\n아침의 덩굴손이라는 뜻이에요.', 44, gap=34),
-     T('The tree the earth keeps is 乙木 Yin Wood (Eulmok),\nwhich bends and climbs like a vine. Its first track,\nMorning Tendril, is named for a vine\'s reaching tip.', 30, EN, gap=0)], tag='왜 을목 편'),
+     T('The tree the earth keeps is 乙木 Yin Wood (Eulmok),\nwhich bends and climbs like a vine. Our Yin Wood\nalbum opens with Morning Tendril, named for\na vine\'s curling shoot.', 30, EN, gap=0)], tag='왜 을목 편'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('을목 편', 96, bold=True, gap=34),
      T('흙에 기대어 천천히 감아 오르는\n덩굴 같은 소리예요.', 50, gap=24), T('첫 곡은 『Morning Tendril』이에요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -657,8 +657,8 @@ P['0110'] = dict(
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 10일', 50, GOLD, gap=34), T('넣어 두는\n흙', 130, bold=True, gap=50), T('The earth that keeps', 42, EN, gap=0)]),
-  dict(sec=6.0, step=1.0, items=[T('미(未)는', 70, gap=16), T('늦여름의\n마른 흙', 100, bold=True, gap=50), T('Mito: dry, late-summer earth', 40, EN, gap=0)]),
-  dict(sec=6.5, step=1.0, items=[T('그 흙 안에', 70, gap=16), T('덩굴 같은\n나무가 들어 있어요', 88, bold=True, gap=50), T('Inside it: a vine-like tree', 40, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('미(未)는', 70, gap=16), T('늦여름의\n마른 흙', 100, bold=True, gap=50), T('未 Afternoon Earth (Mito):\ndry, late-summer earth', 38, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('그 흙 안에', 70, gap=16), T('덩굴 같은 나무가\n들어 있다고 봐요', 88, bold=True, gap=50), T('Inside it: a vine-like tree', 40, EN, gap=0)]),
   dict(sec=5.5, step=0.9,
        items_ig=[T('왜 나무의\n창고일까요?', 96, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
                  T('Why a storehouse of Wood?\nMore in our feed post', 40, EN, gap=0)],
@@ -672,13 +672,13 @@ P['0110'] = dict(
  ],
  caption="""넣어 두는 흙.
 
-미(未)는 늦여름의 흙이에요. 해마다 7월 초 소서부터 8월 초 입추 전까지가 미의 달이고, 아직 뜨겁고 마른 흙이에요.
+미(未)는 늦여름의 흙이에요. 해마다 7월 초 소서부터 8월 초 입추 전까지가 미의 달이고, 한여름 열기가 남아 아직 뜨겁고 말라 있어요.
 
 옛 책은 미 안에 불씨(정화), 덩굴 같은 나무(을목), 흙(기토)이 함께 들어 있다고 봐요. 불이 데운 흙이 나무를 품고 있는 모양이에요. 봄에 자란 나무의 기운이 늦여름 흙으로 돌아와 쌓이는 자리라서, 옛 책은 미를 나무의 창고로 봐요.
 
-그래서 다가오는 정미년은 새로 여는 해보다 그동안 키운 것을 조용히 넣어 두는 해로 읽어요. 사주로는 2월 4일 입춘부터 정미년이에요.
+흙의 모양으로 보면, 다가오는 정미년은 새로 여는 해보다 그동안 키운 것을 조용히 넣어 두는 해로 읽을 수 있어요. 한 해가 내게 어떻게 닿는지는 사주마다 달라요. 사주로는 2월 4일 입춘부터 정미년이에요.
 
-미토는 나무를 품어 두는 흙이에요. 옹기나 토분에 작은 식물 하나를 곁에 두어도 좋아요. 곁에 둘 것은 1월 31일에 더 이어 갈게요.
+미토는 나무를 품어 두는 흙이에요. 옹기나 토분에 작은 식물 하나를 곁에 두어도 좋아요. 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 곁에 둘 것은 1월 31일에 더 이어 갈게요.
 
 흙이 품어 두는 나무는 덩굴처럼 휘어 자라는 을목이에요. 흙에 기대어 천천히 감아 오르는 덩굴 같은 소리, 『다섯 가지 고요｜을목(乙木)』의 첫 곡 『Morning Tendril』(아침의 덩굴손)이에요. 프로필 링크에서 들을 수 있어요.
 
@@ -687,11 +687,11 @@ The earth that keeps.
 
 未 Afternoon Earth (Mito) is late-summer earth. Its month runs from early July to early August, when the ground is still hot and dry.
 
-Old Saju texts see three things inside it: an ember, a vine-like tree, and earth. It is fire-warmed earth holding a tree. Spring's growth returns to the late-summer earth and is stored there, so old texts call Mito the storehouse of Wood.
+Old Saju texts see three things inside it: an ember, a vine-like tree, and earth. It is fire-warmed earth holding a tree. Spring's growth returns to the late-summer earth and is stored there, so old texts call Afternoon Earth the storehouse of Wood.
 
-So the coming 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth reads less as a year to open new things and more as a year to quietly keep what you have raised. In Saju, it begins on February 4.
+The coming year is the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth. Seen through its earth, we read it less as a year to open new things and more as one to quietly keep what you have grown. How a year touches you depends on your own Saju. It begins on February 4.
 
-Mito is earth that holds a tree. A small plant in a clay or earthenware pot sits well beside you. We'll say more about things to keep close on January 31.
+Afternoon Earth holds a tree. A small plant in an onggi crock or a terracotta pot is a nice thing to keep nearby. You can see how much Fire and Water your chart holds in our free app; which side suits you depends on your whole chart. We'll say more about things to keep close on January 31.
 
 The tree the earth keeps is 乙木 Yin Wood (Eulmok), which bends and climbs like a vine. Music like a vine slowly winding up, leaning on the earth: Morning Tendril, the first track of Five Kinds of Quiet · Yin Wood. Listen through the link in bio.
 
@@ -703,7 +703,7 @@ The tree the earth keeps is 乙木 Yin Wood (Eulmok), which bends and climbs lik
 지금 흐르는 음악은 『다섯 가지 고요｜을목(乙木)』의 첫 곡 『Morning Tendril』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-未 Afternoon Earth (Mito) is dry, late-summer earth, and old Saju texts see a vine-like tree inside it. Why it is called the storehouse of Wood, and what that means for the coming year, is in our feed post.
+未 Afternoon Earth (Mito) is dry, late-summer earth, and old Saju texts see a vine-like tree inside it. Our feed post explains why it is called the storehouse of Wood, and what that means for the coming year.
 
 The music is Morning Tendril from Five Kinds of Quiet · 乙木 Yin Wood (Eulmok). Listen through the link in bio.
 
@@ -716,21 +716,21 @@ P['0111'] = dict(
   S([T('1월 11일 · 고요 이야기', 44, GOLD, gap=30), T('하늘의\n물', 120, bold=True, gap=36),
      T('두 해가 함께 받은 옛 이름', 44, gap=30), T('Water from the sky', 38, EN, gap=0)]),
   S([T('옛사람들은\n예순 개의 해 이름을\n둘씩 묶어', 58, bold=True, gap=26),
-     T('서른 가지 이름을 하나씩 붙였어요.\n쇠, 나무, 물, 불, 흙의 모습을\n빌린 이름이에요.', 42, gap=34),
-     T('Old Saju tradition paired the sixty year-names\ntwo by two and gave each pair a name drawn\nfrom metal, wood, water, fire or earth.', 30, EN, gap=0)], tag='해 이름에 붙은 또 하나의 이름'),
+     T('한 쌍마다 이름을 하나씩 붙였어요.\n모두 서른 가지, 쇠·나무·물·불·흙의\n모습을 빌린 이름이에요.', 42, gap=34),
+     T('Long ago, the sixty year-names were paired two by two,\nand each pair was given a name drawn from\nmetal, wood, water, fire or earth.', 30, EN, gap=0)], tag='해 이름에 붙은 또 하나의 이름'),
   S([T('병오(2026)와 정미(2027)는\n한 쌍이에요.', 56, bold=True, gap=30),
      T('둘이 함께 받은 이름은', 46, gap=20), T('천하수, 하늘의 물', 64, bold=True, gap=26),
      T('丙午 · 丁未  天河水', 40, GOLD, gap=34),
-     T('2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire,\nand 2027, the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth, share one name:\nCheonhasu, water from the sky.', 28, EN, gap=0)], tag='2026과 2027'),
-  S([T('하늘의 물은', 50, gap=20), T('은하수처럼 하늘에 흐르는 물,\n땅으로 내리는 비와 이슬로\n풀이해 왔어요.', 54, bold=True, gap=34),
-     T('Water from the sky has long been read as the river\nof stars, and as the rain and dew that fall to earth.', 30, EN, gap=0)], tag='하늘의 물이란'),
-  S([T('해와 한여름, 등불과 늦여름.\n가장 뜨거운 두 해에\n물의 이름이 붙어 있어요.', 54, bold=True, gap=30),
-     T('다만 두 해의 글자는 불과 흙이라,\n물의 해라는 뜻은 아니에요.\n옛 이름 하나로만 봐요.', 44, gap=34),
-     T('The two hottest years carry a water name. Their\ncharacters are still fire and earth, so it is not a\nyear of water. We keep it as an old name only.', 30, EN, gap=0)], tag='불의 해에 붙은 물의 이름'),
+     T('2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire,\nand 2027, the 丁未 year (Jeongmi)\n· Yin Fire · Afternoon Earth,\nshare one name: Cheonhasu, water from the sky.', 28, EN, gap=0)], tag='2026과 2027'),
+  S([T('옛사람들은 하늘의 물을', 46, gap=20), T('은하수처럼 하늘에 흐르는 물,\n땅으로 내리는 비와 이슬로\n풀이했어요.', 54, bold=True, gap=34),
+     T('Water from the sky was read as the Milky Way,\nand as the rain and dew that fall to earth.', 30, EN, gap=0)], tag='하늘의 물이란'),
+  S([T('해와 한여름, 등불과 늦여름.\n가장 뜨거운 여름의 두 해에\n물의 이름이 붙어 있어요.', 54, bold=True, gap=30),
+     T('다만 두 해의 글자는 모두 불과 흙이라,\n물의 해라는 뜻은 아니에요.\n옛 이름 하나로만 봐요.', 44, gap=34),
+     T('Two years of high and late summer carry a water name.\nTheir characters are still fire and earth, so this is\nnot a year of water. We keep it as an old name only.', 30, EN, gap=0)], tag='불의 해에 붙은 물의 이름'),
   S([T('하늘의 물을\n그림으로 본다면', 60, bold=True, gap=30),
      T('다리 위로 갑자기 쏟아지는 비,\n히로시게의 「오하시 다리의 소나기」예요.', 44, gap=26),
      T('2월 4일 그림 읽기에서 이어 갈게요.', 42, GOLD, gap=34),
-     T('In a painting: Hiroshige\'s Sudden Shower over\nthe Ohashi Bridge. More in our Feb 4 painting post.', 30, EN, gap=0)], tag='그림으로 본다면'),
+     T('In a painting: Hiroshige\'s Sudden Shower over\nShin-Ōhashi Bridge and Atake (1857).\nMore in our Feb 4 painting post.', 30, EN, gap=0)], tag='그림으로 본다면'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
      T('넓게 고여 천천히 흐르는\n큰 물 같은 소리예요.', 52, gap=24), T('오늘은 『Morning Haze』를 골랐어요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -738,11 +738,11 @@ P['0111'] = dict(
  ],
  caption="""하늘의 물.
 
-옛사람들은 예순 개의 해 이름을 둘씩 묶어 서른 가지 이름을 하나씩 붙였어요. 쇠, 나무, 물, 불, 흙의 모습을 빌린 이름이에요.
+옛사람들은 예순 개의 해 이름을 둘씩 묶고, 한 쌍마다 이름을 하나씩 붙였어요. 모두 서른 가지, 쇠·나무·물·불·흙의 모습을 빌린 이름이에요.
 
-병오(2026)와 정미(2027)는 한 쌍이에요. 둘이 함께 받은 이름은 천하수(天河水), 하늘의 물이에요. 은하수처럼 하늘에 흐르는 물, 땅으로 내리는 비와 이슬로 풀이해 왔어요.
+병오(2026)와 정미(2027)는 한 쌍이에요. 둘이 함께 받은 이름은 천하수(天河水), 하늘의 물이에요. 은하수처럼 하늘에 흐르는 물, 땅으로 내리는 비와 이슬로 풀이하기도 해요.
 
-해와 한여름, 등불과 늦여름. 가장 뜨거운 두 해에 물의 이름이 붙어 있어요. 다만 두 해의 글자는 불과 흙이라, 물의 해라는 뜻은 아니에요. 옛 이름 하나로만 봐요. 사주로는 2월 4일 입춘부터 정미년이에요.
+해와 한여름, 등불과 늦여름. 가장 뜨거운 여름의 두 해에 물의 이름이 붙어 있어요. 다만 두 해의 글자는 모두 불과 흙이라, 물의 해라는 뜻은 아니에요. 옛 이름 하나로만 봐요. 사주로는 2월 4일 입춘부터 정미년이에요.
 
 하늘의 물을 그림으로 본다면, 다리 위로 갑자기 쏟아지는 비를 그린 히로시게의 「오하시 다리의 소나기」예요. 2월 4일 그림 읽기에서 이어 갈게요.
 
@@ -751,13 +751,13 @@ P['0111'] = dict(
 · English ·
 Water from the sky.
 
-Old Saju tradition paired the sixty year-names two by two and gave each pair a name drawn from metal, wood, water, fire or earth.
+Long ago, the sixty year-names were paired two by two, and each pair was given a name drawn from metal, wood, water, fire or earth.
 
-2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, and 2027, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, are one such pair. Their shared name is Cheonhasu (天河水), water from the sky, long read as the river of stars and as the rain and dew that fall to earth.
+2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, and 2027, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, are one such pair. Their shared name is 天河水 Water from the Sky (Cheonhasu), read as the Milky Way and as the rain and dew that fall to earth.
 
-The two hottest years carry a water name. Their characters are still fire and earth, so this is not a year of water; we keep it as an old name only. In Saju, the 丁未 year begins on February 4.
+Two years of high and late summer carry a water name. Their characters are still fire and earth, so this is not a year of water; we keep it as an old name only. In Saju, the 丁未 year begins on February 4.
 
-In a painting, water from the sky is Hiroshige's Sudden Shower over the Ohashi Bridge. More in our February 4 painting post.
+Seen in a painting, water from the sky looks like Hiroshige's Sudden Shower over Shin-Ōhashi Bridge and Atake (1857). More in our February 4 painting post.
 
 Music like wide, slow water: Five Kinds of Quiet · 壬水 Yang Water (Imsu). Today's pick is Morning Haze. Listen through the link in bio.
 
