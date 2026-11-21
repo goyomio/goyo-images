@@ -19,9 +19,9 @@ for v in ('ig', 'yt'):
 stem = re.search(r'(갑목|을목|병화|정화|무토|기토|경금|신금|임수|계수)', cfg['music']['title_html']).group(1)
 hz = re.search(r'\((.{2})\)', cfg['music']['title_html'])
 hz = f'({hz.group(1)})' if hz else ''
-STEM_EN = {'갑목': '甲木 Yang Wood', '을목': '乙木 Yin Wood', '병화': '丙火 Yang Fire', '정화': '丁火 Yin Fire',
-           '무토': '戊土 Yang Earth', '기토': '己土 Yin Earth', '경금': '庚金 Yang Metal', '신금': '辛金 Yin Metal',
-           '임수': '壬水 Yang Water', '계수': '癸水 Yin Water'}
+STEM_EN = {'갑목': '甲木 Yang Wood (Gapmok)', '을목': '乙木 Yin Wood (Eulmok)', '병화': '丙火 Yang Fire (Byeonghwa)', '정화': '丁火 Yin Fire (Jeonghwa)',
+           '무토': '戊土 Yang Earth (Muto)', '기토': '己土 Yin Earth (Gito)', '경금': '庚金 Yang Metal (Gyeonggeum)', '신금': '辛金 Yin Metal (Singeum)',
+           '임수': '壬水 Yang Water (Imsu)', '계수': '癸水 Yin Water (Gyesu)'}
 MON = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 y, m, d = map(int, date.split('-'))
 

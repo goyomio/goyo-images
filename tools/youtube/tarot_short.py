@@ -22,9 +22,9 @@ MUSIC = {'갑목': 'g3Eeu8QVaJY', '을목': 'jtYiLzQkUJs', '병화': 'oIt-DzA96B
          '기토': '8hLmKk8ag08', '경금': 'VzDuEs2i5es', '신금': '6p_X4z3terE', '임수': 'm_t33eB1bkc', '계수': 'wzt4ETUmOto'}
 STEM_EN = {'갑목': '甲木', '을목': '乙木', '병화': '丙火', '정화': '丁火', '무토': '戊土',
            '기토': '己土', '경금': '庚金', '신금': '辛金', '임수': '壬水', '계수': '癸水'}
-STEM_FULL_EN = {'갑목': '甲木 Yang Wood', '을목': '乙木 Yin Wood', '병화': '丙火 Yang Fire', '정화': '丁火 Yin Fire',
-                '무토': '戊土 Yang Earth', '기토': '己土 Yin Earth', '경금': '庚金 Yang Metal', '신금': '辛金 Yin Metal',
-                '임수': '壬水 Yang Water', '계수': '癸水 Yin Water'}
+STEM_FULL_EN = {'갑목': '甲木 Yang Wood (Gapmok)', '을목': '乙木 Yin Wood (Eulmok)', '병화': '丙火 Yang Fire (Byeonghwa)', '정화': '丁火 Yin Fire (Jeonghwa)',
+                '무토': '戊土 Yang Earth (Muto)', '기토': '己土 Yin Earth (Gito)', '경금': '庚金 Yang Metal (Gyeonggeum)', '신금': '辛金 Yin Metal (Singeum)',
+                '임수': '壬水 Yang Water (Imsu)', '계수': '癸水 Yin Water (Gyesu)'}
 MAJ_EN = ['The Fool', 'The Magician', 'The High Priestess', 'The Empress', 'The Emperor', 'The Hierophant', 'The Lovers',
           'The Chariot', 'Strength', 'The Hermit', 'Wheel of Fortune', 'Justice', 'The Hanged Man', 'Death', 'Temperance',
           'The Devil', 'The Tower', 'The Star', 'The Moon', 'The Sun', 'Judgement', 'The World']
