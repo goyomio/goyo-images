@@ -1,0 +1,257 @@
+{
+ "audio": "shorts/정미년/audio/을목_LeaningTowardLight_60s.m4a",
+ "scenes": [
+  {
+   "sec": 3.8,
+   "instant": true,
+   "items": [
+    [
+     "을목 일간의 정미년,\n한 줄로 읽으면",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     46
+    ],
+    [
+     "The coming 丁未 year (Jeongmi),\nYin Fire · Afternoon Earth,\nfor a 乙木 Yin Wood (Eulmok)\nDay Master",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     36
+    ],
+    [
+     "사주의 해는 입춘,\n2월 4일 오전 10시 46분에 바뀌어요.",
+     38,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     8
+    ],
+    [
+     "The Saju year turns at the start of spring (立春),\nFeb 4, 10:46 a.m. KST.",
+     32,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 3.0,
+   "items": [
+    [
+     "휘었다가도\n다시 일어서는 풀",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "을목(乙木)",
+     130,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     40
+    ],
+    [
+     "Grass that bends and rises again:\nYin Wood",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 1.0,
+   "items": [
+    [
+     "좋아하는 것을\n즐기다 보면,\n그것이\n움직이는 기회로\n이어지는 해로\n읽을 수 있어요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     46
+    ],
+    [
+     "One way to read it:\na year when what you enjoy\ncan open up opportunities\nthat get things moving.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 1.0,
+   "items": [
+    [
+     "정미년의 불은\n풀이 피워 내는 꽃처럼\n좋아하는 마음을 드러내고,",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "흙은 그 풀이 뿌리내린 땅처럼\n그 마음을 움직이는 기회로\n이어 준다고 봐요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "This year's Yin Fire is the bloom:\nwhat you love, out in the open.\nIts Afternoon Earth is the ground\nwhere that love takes root\nand turns into opportunity.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.0,
+   "tag": "이 영상의 소리",
+   "step": 0.9,
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "을목(乙木)\n『Leaning\nToward Light』",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     28
+    ],
+    [
+     "Five Kinds of Quiet · Yin Wood\n“Leaning Toward Light”\nFind your Day Master:\nfree app & music, link in bio",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "을목(乙木)\n『Leaning\nToward Light』",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 일간은\n채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     28
+    ],
+    [
+     "Five Kinds of Quiet · Yin Wood\n“Leaning Toward Light”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

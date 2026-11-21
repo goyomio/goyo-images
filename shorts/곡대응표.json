@@ -138,5 +138,10 @@
   "편": "경금",
   "곡": "Stone Bridge",
   "근거": "원곡: goyo-keys/audio/catalog.json 경금 02 4:28 Stone Bridge (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/을목_LeaningTowardLight_60s.m4a": {
+  "편": "을목",
+  "곡": "Leaning Toward Light",
+  "근거": "원곡: goyo-keys/audio/catalog.json 을목 05 11:35 Leaning Toward Light (곡 시작부터 60초)"
  }
 }
