@@ -1,0 +1,291 @@
+{
+ "audio": "shorts/정미년/audio/기토_KitchenGarden_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/일간_기토_밭흙.png",
+    "h": 260
+   },
+   "items": [
+    [
+     "밭흙 같은 기토 일간,\n옛 책은 뭐라고 했을까요?",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "A 己土 Yin Earth (Gito) Day Master:\nwhat did the old book say?",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 4.5,
+   "art": {
+    "file": "shorts/정미년/art/일간_기토_밭흙.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "씨앗을 품는 부드러운 밭흙,\n기토(己土)",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Yin Earth: soft field soil that holds seeds",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items": [
+    [
+     "옛 책 『적천수』의 한 구절",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "中正蓄藏",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "가운데 바르게 서서, 쌓아 품는다",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "From Di Tian Sui (滴天髓), an old Saju classic:\n“Centered and upright, it stores and holds.”",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_기토_가운데품음.png",
+    "h": 280
+   },
+   "tag": "中正蓄藏",
+   "items": [
+    [
+     "옛 책 『적천수』는 기토를\n한가운데서 바르게 서서\n쌓아 두고 품는 흙이라고\n봤어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "The book calls Yin Earth centered and upright, storing and holding within.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_기토_정미.png",
+    "h": 280
+   },
+   "items": [
+    [
+     "정미년의 정(丁)은 기토를\n낳는 불,\n미(未) 속에도 기토가 들어\n있어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, Yin Fire feeds Yin Earth, and Yin Earth sits inside 未 Afternoon Earth (Mito) too.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "step": 0.9,
+   "items": [
+    [
+     "그래서 정미년은",
+     44,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "혼자 깊이 파고드는 공부와\n직관이 살아나는 해로\n읽을 수 있어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "사주의 해는 입춘(2027년 2월 4일 오전 10시 46분)에 바뀌어요.",
+     30,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "One way to read it: a year when deep, solitary study and intuition come alive.\nIn Saju, the year turns at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "tag": "이 영상의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 기토(己土)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Kitchen Garden』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간은 채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Earth\n“Kitchen Garden”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/일간_기토_밭흙.png",
+    "h": 200
+   }
+  }
+ ]
+}

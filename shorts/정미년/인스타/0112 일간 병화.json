@@ -1,0 +1,291 @@
+{
+ "audio": "shorts/정미년/audio/병화_RooftopGlow_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/일간_병화_해.png",
+    "h": 260
+   },
+   "items": [
+    [
+     "해 같은 병화 일간,\n흙을 만나면 달라진다고요?",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "A 丙火 Yang Fire (Byeonghwa) Day Master:\nwhat changes when the sun meets earth?",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 4.5,
+   "art": {
+    "file": "shorts/정미년/art/일간_병화_해.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "하늘에서 사방을 비추는 해,\n병화(丙火)",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Yang Fire: the sun, lighting everything",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items": [
+    [
+     "옛 책 『적천수』의 한 구절",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "土眾成慈",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "흙이 많으면 자애로워진다",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "From Di Tian Sui (滴天髓), an old Saju classic:\n“Much earth makes it kind.”",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_병화_흙많으면.png",
+    "h": 280
+   },
+   "tag": "土眾成慈",
+   "items": [
+    [
+     "옛 책 『적천수』는 세찬\n병화도 흙을 많이 만나면\n그 빛을 나누는 자애로움이\n된다고 봤어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "The book says even fierce Yang Fire turns kind amid much earth: its light becomes something to share.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_병화_정미.png",
+    "h": 280
+   },
+   "items": [
+    [
+     "정미년엔 흙, 미(未)가\n와요.\n병화에게 흙은 내 빛을 밖으로\n드러내는 자리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth brings 未 Afternoon Earth (Mito). For Yang Fire, earth is where its light shows outward.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "step": 0.9,
+   "items": [
+    [
+     "그래서 정미년은",
+     44,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "곁의 사람과 몫을 나눌 일이\n늘고,\n내 재주를 드러낼 기회도\n생길 수 있어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "사주의 해는 입춘(2027년 2월 4일 오전 10시 46분)에 바뀌어요.",
+     30,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "One way to read it: more to share with those around you, and new chances to show what you can do.\nIn Saju, the year turns at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "tag": "이 영상의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 병화(丙火)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Rooftop Glow』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yang Fire\n“Rooftop Glow”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/일간_병화_해.png",
+    "h": 200
+   }
+  }
+ ]
+}

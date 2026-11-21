@@ -533,5 +533,40 @@
   "편": "기토",
   "곡": "Potting Shed",
   "근거": "원곡: goyo-keys/audio/catalog.json 기토 07 19:05 Potting Shed (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/병화_RooftopGlow_60s.m4a": {
+  "편": "병화",
+  "곡": "Rooftop Glow",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 24:23 Rooftop Glow (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/무토_QuietRidge_60s.m4a": {
+  "편": "무토",
+  "곡": "Quiet Ridge",
+  "근거": "원곡: goyo-keys/audio/catalog.json 무토 9:39 Quiet Ridge (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/기토_KitchenGarden_60s.m4a": {
+  "편": "기토",
+  "곡": "Kitchen Garden",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 12:52 Kitchen Garden (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/정화_WarmWax_60s.m4a": {
+  "편": "정화",
+  "곡": "Warm Wax",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 39:39 Warm Wax (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/경금_QuietQuarry_60s.m4a": {
+  "편": "경금",
+  "곡": "Quiet Quarry",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 8:57 Quiet Quarry (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/임수_MirrorWater_60s.m4a": {
+  "편": "임수",
+  "곡": "Mirror Water",
+  "근거": "원곡: 맥 고요음악/쇼츠/_릴스음원/임수/16 Mirror Water.m4a (60초 클립)"
+ },
+ "shorts/정미년/audio/계수_CloudWater_60s.m4a": {
+  "편": "계수",
+  "곡": "Cloud Water",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 17:37 Cloud Water (곡 시작부터 60초)"
  }
 }

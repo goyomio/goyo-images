@@ -1,0 +1,250 @@
+{
+ "key": "0126-1800",
+ "date": "2027-01-26",
+ "slot": "1800",
+ "name": "일간 경금",
+ "audio": {
+  "pyeon": "경금",
+  "title": "Quiet Quarry",
+  "file": "/home/claude/goyo-keys/audio/경금/03 Quiet Quarry.m4a",
+  "start_hms": "8:57",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 8:57 Quiet Quarry (곡 시작부터 60초)"
+ },
+ "music_ko": "경금(庚金)",
+ "music_en": "Yang Metal",
+ "end_tag": "이 영상의 소리",
+ "end_art": {
+  "file": "shorts/정미년/art/일간_경금_원석.png",
+  "h": 200
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/일간_경금_원석.png",
+    "h": 260
+   },
+   "items": [
+    [
+     "원석 같은 경금 일간,\n불을 만나면 어떻게 될까요?",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "A 庚金 Yang Metal (Gyeonggeum) Day Master:\nwhat happens when raw ore meets fire?",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 4.5,
+   "art": {
+    "file": "shorts/정미년/art/일간_경금_원석.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "캐낸 그대로의 단단한 원석,\n경금(庚金)",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Yang Metal: raw ore, hard and unpolished",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items": [
+    [
+     "옛 책 『적천수』의 한 구절",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "得火而銳",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "불을 얻으면 날이 선다",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "From Di Tian Sui (滴天髓), an old Saju classic:\n“Meeting fire, it grows keen.”",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_경금_불과날.png",
+    "h": 280
+   },
+   "tag": "得火而銳",
+   "items": [
+    [
+     "옛 책 『적천수』는 경금이\n불을 만나면 벼려져 날이\n선다고 봤어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "The book says Yang Metal grows keen when it meets fire.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_경금_정미.png",
+    "h": 280
+   },
+   "items": [
+    [
+     "정미년의 정(丁)은 경금을\n벼리는 불이에요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, Yin Fire is the flame that tempers Yang Metal.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "step": 0.9,
+   "items": [
+    [
+     "그래서 정미년은",
+     44,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "맡은 일을 단정하게\n정돈하고,\n배움으로 안을 채워 가는\n해로\n읽을 수 있어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "사주의 해는 입춘(2027년 2월 4일 오전 10시 46분)에 바뀌어요.",
+     30,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "One way to read it: a year to set your work in order and fill yourself through learning.\nIn Saju, the year turns at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ],
+ "caption": "원석 같은 경금 일간, 불을 만나면 어떻게 될까요?\n\n캐낸 그대로의 단단한 원석, 경금(庚金). 옛 명리 책 『적천수』에는 「得火而銳」, 불을 얻으면 날이 선다라는 구절이 있어요. 책은 경금이 불을 만나면 벼려져 날이 선다고 봤어요.\n\n정미년의 정(丁)은 경금을 벼리는 불이에요. 그래서 다가오는 정미년은 맡은 일을 단정하게 정돈하고, 배움으로 안을 채워 가는 해로 읽을 수 있어요. 어떻게 닿을지는 사주 전체를 봐야 해요.\n\n사주의 해는 입춘(2027년 2월 4일 오전 10시 46분)에 바뀌어요.\n\n이 영상의 소리는 다섯 가지 고요의 『Quiet Quarry』(경금 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nA 庚金 Yang Metal (Gyeonggeum) Day Master: what happens when raw ore meets fire? Yang Metal: raw ore, hard and unpolished. Di Tian Sui (滴天髓), an old Saju classic, says: 得火而銳, “Meeting fire, it grows keen.” The book says Yang Metal grows keen when it meets fire. In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, Yin Fire is the flame that tempers Yang Metal. One way to read it: a year to set your work in order and fill yourself through learning. How it lands depends on the whole chart. In Saju, the year turns at the start of spring (立春), Feb 4, 2027, 10:46 a.m. KST.\nMusic in this video: Five Kinds of Quiet · Yang Metal · “Quiet Quarry”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #경금 #정미년 #일간 #오행음악",
+ "note": "정미년 시리즈 · 일간 경금 · 적천수 「得火而銳」 · 명리·영어 에이전트 검토 반영(11/22)"
+}

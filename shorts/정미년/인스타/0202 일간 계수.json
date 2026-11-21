@@ -1,0 +1,291 @@
+{
+ "audio": "shorts/정미년/audio/계수_CloudWater_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/일간_계수_비.png",
+    "h": 260
+   },
+   "items": [
+    [
+     "비 같은 계수 일간,\n불과 흙의 해를 옛 책은 어떻게 봤을까요?",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "A 癸水 Yin Water (Gyesu) Day Master:\nhow did the old book see a year of fire and earth?",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 4.5,
+   "art": {
+    "file": "shorts/정미년/art/일간_계수_비.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "조용히 스미는 비와 이슬,\n계수(癸水)",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Yin Water: rain and dew that seep in quietly",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items": [
+    [
+     "옛 책 『적천수』의 한 구절",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "不愁火土",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "불과 흙을 걱정하지 않는다",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "From Di Tian Sui (滴天髓), an old Saju classic:\n“It does not worry over fire or earth.”",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_계수_흐름따라.png",
+    "h": 280
+   },
+   "tag": "不愁火土",
+   "items": [
+    [
+     "옛 책 『적천수』는 계수가\n워낙 여려\n맞서지 않고 흐름을 따르기에\n불과 흙을 걱정하지 않는다고\n봤어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "The book says Yin Water, so gentle it flows with rather than against, does not worry over fire or earth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/일간_계수_정미.png",
+    "h": 280
+   },
+   "items": [
+    [
+     "정미년은 불(丁)과 흙(未)의\n해예요.\n입춘까지 이틀 남았어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth is a year of fire and earth. Two days until Ipchun, the start of spring.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.0,
+   "step": 0.9,
+   "items": [
+    [
+     "그래서 정미년은",
+     44,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "바깥 기회는 넓어지지만,\n내 속도를 지키는 게 중요한\n해로\n읽을 수 있어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "사주의 해는 입춘(2027년 2월 4일 오전 10시 46분)에 바뀌어요.",
+     30,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "One way to read it: wider chances out there, and a year when keeping your own pace matters.\nIn Saju, the year turns at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "tag": "이 영상의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 계수(癸水)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Cloud Water』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Water\n“Cloud Water”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/일간_계수_비.png",
+    "h": 200
+   }
+  }
+ ]
+}
