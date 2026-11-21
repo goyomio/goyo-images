@@ -1,0 +1,314 @@
+{
+ "audio": "shorts/음원/갑목_First Light on Bark_60s.m4a",
+ "scenes": [
+  {
+   "sec": 4.5,
+   "instant": true,
+   "items": [
+    [
+     "설날",
+     50,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "나무\n네 가락",
+     120,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     50
+    ],
+    [
+     "Four sticks of wood",
+     42,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "step": 1.0,
+   "items": [
+    [
+     "윷가락 네 개를 던져",
+     62,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "엎어지고 젖혀진 대로\n말을 옮기는 놀이",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     44
+    ],
+    [
+     "Throw four sticks,\nmove by how they land",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.5,
+   "step": 1.0,
+   "items": [
+    [
+     "윷판은 스물아홉 밭",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "북두칠성이 도는 모습을\n본떴다고 해요",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     44
+    ],
+    [
+     "29 spots, said to trace the Big Dipper",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items_ig": [
+    [
+     "윷가락은\n어떤 나무로 깎을까요?",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 고요의 읽기는\n@goyo_mio 피드 게시물에서",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "What wood are yut sticks carved from?\nThe answer and our reading are in our feed post.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "윷가락은\n어떤 나무로 깎을까요?",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 고요의 읽기는\n채널 게시물에서",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "What wood are yut sticks carved from?\nThe answer and our reading are in our Posts tab.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.5,
+   "tag": "지금 흐르는 소리",
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "갑목 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『First Light on Bark』",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 프로필 링크에서",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 甲木 Yang Wood (Gapmok)\n· First Light on Bark · Listen at the link in bio.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "갑목 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『First Light on Bark』",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 아래 관련 영상",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 甲木 Yang Wood (Gapmok)\n· First Light on Bark · Music: related video below",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

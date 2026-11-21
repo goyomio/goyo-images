@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-02-07/01.jpg",
+  "posts/2027-02-07/02.jpg",
+  "posts/2027-02-07/03.jpg",
+  "posts/2027-02-07/04.jpg",
+  "posts/2027-02-07/05.jpg",
+  "posts/2027-02-07/06.jpg",
+  "posts/2027-02-07/07.jpg",
+  "posts/2027-02-07/08.jpg"
+ ],
+ "caption": "나무 네 가락, 설날 윷놀이 이야기예요.\n\n2027년 설날은 2월 7일 일요일이에요. 연휴는 2월 6일부터 8일까지, 9일 화요일은 대체공휴일이에요(우주항공청 2027년 월력요항). 설과 대보름은 2023년에 국가무형문화재(지금 이름은 국가무형유산)로 지정됐어요.\n\n윷놀이는 설날부터 정월 대보름까지 이어지던 놀이예요. 윷가락 네 개를 던져 엎어지고 젖혀진 모양대로 윷판 위의 말을 옮겨요. 2022년 국가무형문화재로 지정됐고, 한반도 어디서나 이어 온 놀이라 따로 보유자를 두지 않았어요.\n\n윷가락은 박달나무 같은 단단한 나무로 깎아요. 가운데는 굵고 양 끝은 조금 가늘게, 등은 둥글게 다듬어요. 길쭉한 가락윷(큰 것은 장작윷)도, 밤알처럼 작은 밤윷도 있어요. 스물아홉 밭의 윷판은 북두칠성이 북극성을 중심으로 도는 모습을 본떴다고 해요.\n\n고요의 읽기로 윷가락은 갑목(甲木), 곧게 자란 단단한 나무예요. 『적천수』는 정화(丁火)에게 적모(嫡母)가 있으면 가을도 겨울도 괜찮다고 했고, 원주(原注)는 갑목 하나를 얻으면 꺼지지 않는다고 풀어요. 등불 곁의 장작은 고요의 비유예요.\n\n정미년 첫 설날인 오늘은 정사(丁巳)일이에요. 사주의 해는 2월 4일 입춘에 이미 바뀌었고, 오늘은 음력 새해가 시작돼요. 등불 정(丁)이 다시 오는 날이라, 그 곁에 둘 나무 소리를 골랐어요.\n\n윷판 곁에는 곧게 선 나무 같은 『다섯 가지 고요｜갑목(甲木)』. 오늘 고른 곡은 나무껍질에 닿는 첫 햇살, 『First Light on Bark』예요. 프로필 링크에서 들을 수 있어요.\n\n참고: 우주항공청 「2027년 월력요항」, 국가유산청(윷놀이·명절 국가무형유산 지정), 한국민족문화대백과사전 「윷놀이」, 문화체육관광부 「윷놀이」, 『적천수』 정화 편 원주\n\n· English ·\nFour sticks of wood: yut on Seollal, the Lunar New Year.\n\nSeollal falls on Sunday, February 7, 2027. The holiday runs February 6 to 8, with Tuesday the 9th as a substitute holiday (Korea AeroSpace Administration, 2027 calendar). Seollal and the first full moon were designated National Intangible Heritage of Korea in 2023.\n\nYut was played from Seollal to the first full moon. You throw four sticks and move your pieces around the board by how many land face up. It was designated National Intangible Heritage in 2022, with no single holder, since it is played across the Korean Peninsula.\n\nYut sticks are carved from hard wood such as bakdal birch: thick in the middle, a little thinner at the ends, rounded on the back. There are long stick yut (larger ones are called log yut) and tiny chestnut yut. The board's 29 spots are said to trace the Big Dipper circling the North Star.\n\nOur reading: yut sticks are 甲木 Yang Wood (Gapmok), carved from hard wood that grew straight. The Saju classic Di Tian Sui says 丁火 Yin Fire (Jeonghwa) is fine through autumn and winter with its \"rightful mother,\" and its original notes say one Yang Wood keeps it from going out. Wood beside the lamp is our image.\n\nToday, the first Seollal of the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, is a 丁巳 (Jeongsa) day. The Saju year had already turned at the start of spring (立春) on February 4; today the lunar calendar year begins. On the day the lamp, 丁, returns, we chose a sound of wood to keep it company.\n\nBeside the yut board: Five Kinds of Quiet · Yang Wood, a sound like a tree standing tall. Today's track is First Light on Bark. Listen at the link in bio.\n\nSources: Korea AeroSpace Administration, Korea Heritage Service, Encyclopedia of Korean Culture, Ministry of Culture, Sports and Tourism, Di Tian Sui\n\n#고요 #설날 #윷놀이 #갑목 #정미년 #오행음악 #seollal #yutnori",
+ "note": "정미년 시리즈 0207 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}
