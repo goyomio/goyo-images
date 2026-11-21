@@ -117,7 +117,7 @@ def frame(t):
             ctext(ld, 650, '오늘 세 장의 풀이는', F(72, True), FG + (255,)); ctext(ld, 745, '인스타 @goyo_mio에서', F(72, True), FG + (255,))
             ctext(ld, 900, '무료 사주 앱', F(46), GOLD + (255,)); ctext(ld, 960, 'goyomio.com', EN(76), FG + (255,))
             ctext(ld, 1075, '오행음악은 고요 채널에서', F(44), SUB + (255,))
-            ctext(ld, 1140, '지금 흐르는 음악은 아래에서', F(48, True), GOLD + (255,))
+            ctext(ld, 1140, '지금 듣는 음악은 아래에서', F(48, True), GOLD + (255,))
             ctext(ld, 1240, "Today's reading: Instagram @goyo_mio", EN(38), SUB + (255,))
             ctext(ld, 1288, 'Free saju app: goyomio.com', EN(38), SUB + (255,))
             ctext(ld, 1336, 'Music: related video below', EN(38), SUB + (255,))
