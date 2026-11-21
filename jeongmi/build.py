@@ -12,15 +12,15 @@ def S(items, tag=None, **kw):
     d.update(kw); return d
 P = {}
 
-# ───────── 1/1 금 · 해석 본편 「큰 해 다음엔 작은 등불」 (정화)
+# ───────── 1/1 금 · 해석 본편 「큰 해 다음엔 가까운 등불」 (정화)
 P['0101'] = dict(
  music='정화', audio='shorts/그림편/audio/정화_Lamplit Keys_60s.m4a',
  slides=[
-  S([T('1월 1일 · 새해 첫날', 44, GOLD, gap=30), T('큰 해 다음엔\n작은 등불', 104, bold=True, gap=36),
+  S([T('1월 1일 · 새해 첫날', 44, GOLD, gap=30), T('큰 해 다음엔\n가까운 등불', 104, bold=True, gap=36),
      T('2027년, 정미(丁未)', 48, gap=14), T('사주의 해는 입춘(2월 4일)에 바뀌어요.', 38, gap=30),
-     T('After the big sun, a small lamp', 38, EN, gap=4), T("In Saju, the year turns at the start of spring (立春): Feb 4.", 32, EN, gap=0)]),
-  S([T('크게 타오르던 불이\n작은 등불이 되어\n흙에 내려앉는 해예요.', 70, bold=True, gap=40),
-     T('A year when a blazing fire becomes a small lamp and settles into the earth.', 34, EN, gap=0)], tag='2027년을 한 문장으로'),
+     T('After the big sun, a lamp close by', 38, EN, gap=4), T("In Saju, the year turns at\nthe start of spring (立春): Feb 4.", 32, EN, gap=0)]),
+  S([T('큰 불이\n등불이 되어\n흙에 내려앉는 해예요.', 76, bold=True, gap=40),
+     T('A great fire becomes a lamp\nand settles onto the earth.', 36, EN, gap=0)], tag='2027년을 한 문장으로'),
   S([T('2026년 병화는\n하늘의 해예요.', 58, gap=30), T('2027년 정화는\n가까운 곳을 오래 비추는 등불이에요.', 58, bold=True, gap=30),
      T('넓게 퍼지던 빛이\n가까운 자리를 오래 밝히는\n빛으로 옮겨 가요.', 44, gap=36),
      T('2026 was the sun in the sky. 2027 is a lamp that keeps lighting what is close.', 34, EN, gap=0)], tag='큰 불에서 등불로'),
@@ -47,9 +47,9 @@ P['0101'] = dict(
      T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa). The first track is Lamplit Keys. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
-  dict(sec=4.5, instant=True, items=[T('1월 1일', 50, GOLD, gap=34), T('큰 해 다음엔\n작은 등불', 124, bold=True, gap=50), T('After the big sun, a small lamp', 42, EN, gap=0)]),
-  dict(sec=6.5, tag='2027년을 한 문장으로', step=1.0, items=[T('크게 타오르던 불이\n작은 등불이 되어\n흙에 내려앉는 해예요.', 80, bold=True, gap=50),
-       T('A blazing fire becomes a small lamp\nand settles into the earth.', 40, EN, gap=0)]),
+  dict(sec=4.5, instant=True, items=[T('1월 1일', 50, GOLD, gap=34), T('큰 해 다음엔\n가까운 등불', 124, bold=True, gap=50), T('After the big sun, a lamp close by', 42, EN, gap=0)]),
+  dict(sec=6.5, tag='2027년을 한 문장으로', step=1.0, items=[T('큰 불이\n등불이 되어\n흙에 내려앉는 해예요.', 86, bold=True, gap=50),
+       T('A great fire becomes a lamp\nand settles onto the earth.', 40, EN, gap=0)]),
   dict(sec=6.0, step=1.0, items=[T('2026년은\n하늘의 해', 90, bold=True, gap=40), T('2027년은\n가까이 오래 비추는\n등불', 76, bold=True, gap=50),
        T('2026: the sun. 2027: a lamp.', 40, EN, gap=0)]),
   dict(sec=5.0, step=0.9,
@@ -63,9 +63,9 @@ P['0101'] = dict(
        items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('정화 편', 100, bold=True, gap=36), T('첫 곡 『Lamplit Keys』', 56, gap=26),
                  T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa): Lamplit Keys\nMusic: related video below', 36, EN, gap=0)]),
  ],
- caption="""큰 해 다음엔, 작은 등불.
+ caption="""큰 해 다음엔, 가까운 등불.
 
-2027년은 정미(丁未)년이에요. 크게 타오르던 불이 작은 등불이 되어 흙에 내려앉는 해예요. 2026년 병화가 하늘의 해였다면, 2027년 정화는 가까운 곳을 오래 비추는 등불이에요. 2025 을사, 2026 병오, 2027 정미로 이어진 초여름·한여름·늦여름이 정미년에 다 익어요. 미(未)는 나무를 품어 두는 늦여름의 흙이라, 그동안 키운 것을 조용히 넣어 두는 해로 읽어요.
+2027년은 정미(丁未)년이에요. 큰 불이 등불이 되어 흙에 내려앉는 해예요. 2026년 병화가 하늘의 해였다면, 2027년 정화는 가까운 곳을 오래 비추는 등불이에요. 2025 을사, 2026 병오, 2027 정미로 이어진 초여름·한여름·늦여름이 정미년에 다 익어요. 미(未)는 나무를 품어 두는 늦여름의 흙이라, 그동안 키운 것을 조용히 넣어 두는 해로 읽어요.
 
 사주의 해는 입춘에 바뀌어요. 2027년 입춘은 2월 4일 오전 10시 46분이에요.
 
@@ -74,9 +74,9 @@ P['0101'] = dict(
 2027년의 글자 그대로, 『다섯 가지 고요｜정화(丁火)』. 첫 곡은 『Lamplit Keys』예요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
-After the big sun, a small lamp.
+After the big sun, a lamp close by.
 
-2027 is the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth: a year when a blazing fire becomes a small lamp and settles into the earth. If 2026 was 丙火 Yang Fire (Byeonghwa), the sun in the sky, then 2027's Yin Fire is a lamp that keeps lighting what is close. Early summer in 2025, high summer in 2026, late summer in 2027: the three summer years ripen fully in 2027. Afternoon Earth is late-summer earth, a storehouse that holds Wood, so we read 2027 as a year to quietly keep what you have raised.
+2027 is the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth: a year when a great fire becomes a lamp and settles onto the earth. If 2026 was 丙火 Yang Fire (Byeonghwa), the sun in the sky, then 2027's Yin Fire is a lamp that keeps lighting what is close. Early summer in 2025, high summer in 2026, late summer in 2027: the three summer years ripen fully in 2027. Afternoon Earth is late-summer earth, a storehouse that holds Wood, so we read 2027 as a year to quietly keep what you have raised.
 
 In Saju, the year turns at the start of spring (立春). In 2027, it falls on February 4 at 10:46 a.m. Korea Standard Time.
 
@@ -85,14 +85,14 @@ A one-line reading for each day master is on slides 6 and 7. Find your day maste
 Music true to the year's own character: Five Kinds of Quiet · Yin Fire. The first track is Lamplit Keys. Listen through the link in bio.
 
 #고요 #정미년 #2027년 #새해 #사주 #오행 #일간 #오행음악 #saju #fiveelements""",
- reel_caption="""큰 해 다음엔, 작은 등불.
+ reel_caption="""큰 해 다음엔, 가까운 등불.
 
-크게 타오르던 불이 작은 등불이 되어 흙에 내려앉는 해, 2027년 정미년이에요. 2026년이 하늘의 해였다면 2027년은 가까운 곳을 오래 비추는 등불이에요. 사주의 해는 입춘(2월 4일 오전 10시 46분)에 바뀌어요.
+큰 불이 등불이 되어 흙에 내려앉는 해, 2027년 정미년이에요. 2026년이 하늘의 해였다면 2027년은 가까운 곳을 오래 비추는 등불이에요. 사주의 해는 입춘(2월 4일 오전 10시 46분)에 바뀌어요.
 
 내 일간으로 읽은 2027년은 피드 게시물에 있어요. 지금 흐르는 음악은 『다섯 가지 고요｜정화(丁火)』의 첫 곡 『Lamplit Keys』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-After the big sun, a small lamp. 2027, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, is when a blazing fire becomes a small lamp and settles into the earth. If 2026 was the sun in the sky, 2027 is a lamp that keeps lighting what is close. In Saju, the year turns at the start of spring (立春), February 4, 10:46 a.m. Korea Standard Time.
+After the big sun, a lamp close by. 2027, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, is when a great fire becomes a lamp and settles onto the earth. If 2026 was the sun in the sky, 2027 is a lamp that keeps lighting what is close. In Saju, the year turns at the start of spring (立春), February 4, 10:46 a.m. Korea Standard Time.
 
 A reading for each day master is in our feed post. The music is Lamplit Keys from Five Kinds of Quiet · Yin Fire. Listen through the link in bio.
 
@@ -115,8 +115,8 @@ P['0104'] = dict(
      T('화요일 밤 11시 10분부터 축월이에요.', 40, GOLD, gap=30),
      T('This week, the first characters run Water → Wood → Fire → Earth. Minor Cold starts Tuesday night.', 32, EN, gap=0)], tag='이번 주 일진'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
-     T('언 흙 곁에 켜 두는\n작은 등불 같은 소리예요.', 52, gap=30), T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa): a small lamp beside frozen earth. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('언 흙 곁에 켜 두는\n가까운 등불 같은 소리예요.', 52, gap=30), T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa): a lamp close by, beside frozen earth. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  caption="""내일 밤, 소한이에요.
 
@@ -126,7 +126,7 @@ P['0104'] = dict(
 
 이번 주 일진은 계미 → 갑신 → 을유 → 병술 → 정해 → 무자 → 기축. 날마다 앞 글자가 물 → 나무 → 불 → 흙 순서로 흘러요.
 
-언 흙 곁에 켜 두는 작은 등불 같은 소리, 『다섯 가지 고요｜정화(丁火)』. 프로필 링크에서 들을 수 있어요.
+언 흙 곁에 켜 두는 가까운 등불 같은 소리, 『다섯 가지 고요｜정화(丁火)』. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 Minor Cold arrives tomorrow night.
@@ -137,7 +137,7 @@ The year is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire. In Saju,
 
 This week, the first characters of the day pillars flow Water → Wood → Fire → Earth.
 
-A small lamp beside frozen earth: Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa). Listen through the link in bio.
+A lamp close by, beside frozen earth: Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa). Listen through the link in bio.
 
 #고요 #이번주기운 #소한 #절기 #일진 #사주 #오행 #saju #fiveelements""",
 )
