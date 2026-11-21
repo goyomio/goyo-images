@@ -448,5 +448,10 @@
   "편": "신금",
   "곡": "Fine Edge",
   "근거": "원곡: goyo-keys/audio/catalog.json 신금 09 35:52 Fine Edge (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/화1_FirstSpark_60s.m4a": {
+  "편": "화1",
+  "곡": "First Spark",
+  "근거": "원곡: goyo-keys/audio/catalog.json 화1 01 0:00 First Spark (곡 시작부터 60초)"
  }
 }

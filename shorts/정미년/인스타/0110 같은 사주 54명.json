@@ -1,0 +1,340 @@
+{
+ "audio": "shorts/정미년/audio/화1_FirstSpark_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "한 해 한국에서\n나와 사주가 똑같은 아기,\n몇 명쯤 태어날까요?",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "In one year in Korea, how many babies\nare born with exactly your Saju chart?",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/사주_54점.png",
+    "h": 300
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "사주는 태어난 해·달·날·시,\n네 기둥에 글자가 둘씩, 여덟 글자.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "날 기둥 윗글자가 「나」, 일간이에요.",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Saju is eight characters: two each for the year,\nmonth, day and hour of birth.\nThe top one of the day pillar is you, your Day Master.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/사주_여덟칸.png",
+    "h": 300
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "약 54명",
+     150,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "2024년 한국 출생아 23만 8,300명\n÷ 365일 ÷ 12시진",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "같은 해·달·날·시진에 태어나면\n여덟 글자가 같아요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "About 54: 238,300 births in Korea in 2024,\n÷ 365 days ÷ 12 two-hour blocks.\nSame year, month, day and hour block, same eight characters.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "그런데 같은 사주라도\n남녀에 따라 대운이\n반대로 흘러요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "대운이 시작되는 나이도\n절기까지 남은 날로 정해져서 사람마다 달라요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Yet with the same chart, the ten-year cycles\nrun in opposite directions for men and women,\nand start at a different age for each person.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/대운_순역.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "그 위에 부모, 태어난 곳, 시대가 더해져요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "같은 여덟 글자, 다른 삶.",
+     72,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     26
+    ],
+    [
+     "Then add parents, birthplace and the times you live in.\nSame eight characters, different lives.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/같은글자_다른길.png",
+    "h": 260
+   }
+  },
+  {
+   "sec": 5.5,
+   "items_ig": [
+    [
+     "내 일간은",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     8
+    ],
+    [
+     "프로필 링크의 무료 앱에서",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "오늘 밤의 소리",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     10
+    ],
+    [
+     "다섯 가지 고요 · 화(火)\n『First Spark』",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "Find your Day Master: free app, link in bio\nMusic: Five Kinds of Quiet · Fire “First Spark”",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "내 일간은",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     8
+    ],
+    [
+     "채널 상단 링크의 무료 앱에서",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "오늘 밤의 소리",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     10
+    ],
+    [
+     "다섯 가지 고요 · 화(火)\n『First Spark』",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "Find your Day Master: free app, link at the top of our channel\nMusic: Five Kinds of Quiet · Fire “First Spark”, related video below",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.6,
+   "art": {
+    "file": "shorts/정미년/art/불꽃_스파크.png",
+    "h": 200
+   }
+  }
+ ]
+}
