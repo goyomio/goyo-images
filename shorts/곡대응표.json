@@ -453,5 +453,10 @@
   "편": "화1",
   "곡": "First Spark",
   "근거": "원곡: goyo-keys/audio/catalog.json 화1 01 0:00 First Spark (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/화1_AfternoonHeat_60s.m4a": {
+  "편": "화1",
+  "곡": "Afternoon Heat",
+  "근거": "원곡: goyo-keys/audio/catalog.json 화1 06 14:43 Afternoon Heat (곡 시작부터 60초)"
  }
 }

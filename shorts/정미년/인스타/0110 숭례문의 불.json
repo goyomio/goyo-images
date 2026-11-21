@@ -1,0 +1,316 @@
+{
+ "audio": "shorts/정미년/audio/화1_AfternoonHeat_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/0110_성문.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "남대문의 진짜 이름, 숭례문(崇禮門).",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "왜 하필 「예(禮)」일까요?",
+     64,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     26
+    ],
+    [
+     "Namdaemun's real name is Sungnyemun, the Gate of Revering Courtesy (禮).\nWhy courtesy?",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "art": {
+    "file": "shorts/정미년/art/0110_오상.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "옛사람들은 다섯 기운에\n다섯 덕을 짝지었어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "나무는 어짊(仁), 불은 예(禮), 흙은 믿음(信),\n쇠는 의로움(義), 물은 지혜(智).",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "The old view paired the five elements with five virtues:\nWood with kindness, Fire with courtesy, Earth with trust,\nMetal with righteousness, Water with wisdom.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 6.5,
+   "art": {
+    "file": "shorts/정미년/art/0110_도성.png",
+    "h": 320
+   },
+   "items": [
+    [
+     "한양 도성의 문 이름이\n이 짝을 따라요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     22
+    ],
+    [
+     "동쪽 흥인지문(仁), 서쪽 돈의문(義),\n남쪽 숭례문(禮), 한가운데 보신각(信).",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Seoul's old city gates follow the pairing: Heunginjimun (仁) in the east,\nDonuimun (義) in the west, Sungnyemun (禮) in the south,\nand Bosingak (信) at the center.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 7.0,
+   "tag": "남쪽은 불의 자리",
+   "art": {
+    "file": "shorts/정미년/art/0110_관악산.png",
+    "h": 300
+   },
+   "items": [
+    [
+     "숭례문 현판은 다른 문과 달리\n세로로 걸려 있어요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     22
+    ],
+    [
+     "남쪽 관악산의 불기운을 막으려 했다는\n이야기가 전해져요(『지봉유설』).",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "South is the place of Fire. Unlike the other gates,\nSungnyemun's name board hangs vertically, said to hold back\nthe fire energy of Gwanaksan to the south (Jibong yuseol).",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 6.5,
+   "art": {
+    "file": "shorts/정미년/art/0110_남지.png",
+    "h": 280
+   },
+   "items": [
+    [
+     "문 앞에는 연못도 있었어요, 남지(南池).",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     22
+    ],
+    [
+     "불이 나면 쓸 물이면서, 관악산의 화기를 누르는\n뜻도 담았다고 해요. 1910년에 메워졌어요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "A pond, Namji, once lay before the gate: water for fires,\nand a symbol against the mountain's fire energy. It was filled in 1910.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "2027년은 불의 해, 정미년.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "불의 덕은 예(禮)라고 봤어요.\n사주의 해는 입춘(2월 4일)에 바뀌어요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "2027 is a Fire year: the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.\nFire's virtue, in the old view, is courtesy.\nIn Saju, the year turns at the start of spring (立春), Feb 4.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.8
+  },
+  {
+   "sec": 5.5,
+   "tag": "오늘 밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 화(火)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Afternoon Heat』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Fire\n“Afternoon Heat”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}
