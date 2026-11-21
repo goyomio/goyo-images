@@ -1620,7 +1620,7 @@ We sort things to keep nearby into two kinds: the matching kind and the cooling 
 Beside the pot: Five Kinds of Quiet · 己土 Yin Earth (Gito), lo-fi jazz like a tilled field. Today's track is Potting Shed. Listen at the link in bio.
 
 #고요 #곁에둘것 #정미년 #책상등 #토분 #반려식물 #오행 #오행음악 #fiveelements""",
- reel_caption="""책상 위의 두 글자, 작은 등 하나와 흙 화분 하나.
+ reel_caption="""작은 등 하나, 흙 화분 하나.
 
 정화는 가까운 자리를 밝히는 불, 미토는 나무를 품어 두는 흙이에요. 정미년의 두 글자에서 고른 소품이에요. 토분이 플라스틱 화분과 다른 점, 등 고르는 법, 내 사주에 더 어울리는 쪽을 보는 법은 피드 게시물에 있어요.
 
