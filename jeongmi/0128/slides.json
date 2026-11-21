@@ -1,0 +1,488 @@
+{
+ "music": "기토",
+ "slides": [
+  {
+   "items": [
+    [
+     "고요의 그림 읽기 #5",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     10
+    ],
+    [
+     "여름의 끝, 쌓아 둔 것",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     14
+    ],
+    [
+     "클로드 모네, 〈건초더미(여름의 끝)〉\n1890~91 · 시카고 미술관 · 퍼블릭 도메인(CC0, 시카고 미술관)",
+     26,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     10
+    ],
+    [
+     "Stacks of Wheat (End of Summer) · Claude Monet",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "card": {
+    "file": "art/모네_건초더미_여름의끝.jpg",
+    "h": 500
+   }
+  },
+  {
+   "items": [
+    [
+     "거둔 밀을 높이 쌓아 둔\n두 더미.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "낮게 기운 빛에\n그림자가 길게 늘어져요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "해 뜰 녘인지 해 질 녘인지는\n미술관도 둘 다 가능하다고 봐요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     22
+    ],
+    [
+     "모네의 농가 바로 바깥, 지베르니의 들판이에요.",
+     36,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Two domed stacks of harvested wheat cast long shadows\nin low light. The museum says it could be sunrise or\nsunset. They stood just outside Monet's farmhouse\nat Giverny.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "그림"
+  },
+  {
+   "items": [
+    [
+     "같은 더미를\n빛과 계절을 바꿔 가며\n그리고 또 그렸어요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "1891년 5월, 파리 뒤랑뤼엘 화랑의\n작은 방 하나에 15점을 함께 걸었고\n평도 판매도 좋았어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "이 연작을 세계에서 가장 많이\n가진 곳이 시카고 미술관이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Monet painted the same stacks again and again in\nchanging light. In May 1891 he hung fifteen together\nin one small room at Galerie Durand-Ruel in Paris, and\nthe show was a critical and financial success. Chicago\nholds the largest group of them in the world.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "연작"
+  },
+  {
+   "items": [
+    [
+     "원래 제목에\n「여름의 끝」이\n들어 있어요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "우리에게는 「건초더미」로 알려졌지만,\n미술관은 밀 더미라고 불러요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "Its title includes \"End of Summer.\" In Korea they're\nknown as \"haystacks,\" but the museum calls them\nstacks of wheat.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "제목"
+  },
+  {
+   "items": [
+    [
+     "보이는 것",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "거둔 것을 쌓아 두는 밭 → 흙, 그중 밭",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "그리는 방식",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "짧게 겹친 붓질, 땅빛과 낮게 기운 빛\n→ 흙과 불",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "화가의 사주",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "1840년 11월 14일, 일간은 정화(등불)예요.",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     10
+    ],
+    [
+     "태어난 시각은 알려지지 않아, 해·달·날 세 기둥으로만 봐요.",
+     30,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     18
+    ],
+    [
+     "등불의 사람이 낮게 기운 해를 그렸어요.\n제 해석이에요.",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "We read it as 己土 Yin Earth (Gito): a field where the\nharvest is stacked. Monet, born Nov 14, 1840, has\n丁火 Yin Fire (Jeonghwa), the lamp, as his day stem\n(birth hour unknown). A man of the lamp painted a low sun:\nour reading.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "고요의 읽기 · 토(土)"
+  },
+  {
+   "items": [
+    [
+     "1월 14일 밀레는\n거둔 뒤에도 남은 것을 품은 밭.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "오늘 모네는\n거둔 것을 쌓아 두는 밭.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "같은 기토, 다른 순간이에요.",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "In our Jan 14 post, Millet showed a field still holding\nwhat was left after harvest. Today, Monet shows a field where\nthe harvest is stacked. Same Yin Earth, another moment.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "밀레와 나란히"
+  },
+  {
+   "items": [
+    [
+     "늦여름 볕에 데워진 흙,\n미(未)와 가장 가까운 그림이에요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "미 안에는 기토와 정화가\n함께 들어 있다고 봐요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "오늘 1월 28일은 정미(丁未)일,\n다가올 해와 같은 이름의 날이에요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "2월 5일에는 이 들판,\n지베르니로 가 볼게요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Earth warmed by late-summer sun: the painting closest\nto 未 Afternoon Earth, which holds both Yin Earth and\nYin Fire. Today, Jan 28, is a 丁未 day, the same name as\nthe coming year. On Feb 5, we'll visit Giverny.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "정미년과 이어서"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "기토 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "갈아 둔 밭 같은\n재즈 로파이예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 밤 9시 릴스에 흐르는 곡은\n『Fallow Hour』, 쉬어 가는 밭의 시간이에요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yin Earth: lo-fi jazz like a tilled\nfield. Tonight's reel: Fallow Hour.\nListen at the link in bio.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이 그림 옆에 둘 소리"
+  }
+ ]
+}

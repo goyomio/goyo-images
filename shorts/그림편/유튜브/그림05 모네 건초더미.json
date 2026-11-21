@@ -1,0 +1,234 @@
+{
+ "image": "art/모네_건초더미_여름의끝.jpg",
+ "audio_parts": [
+  {
+   "file": "shorts/음원/기토_Fallow Hour_60s.m4a",
+   "start": 0.3,
+   "dur": 59.0
+  }
+ ],
+ "scenes": [
+  {
+   "sec": 3.5,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "box": [
+    40,
+    760,
+    1040,
+    1350
+   ],
+   "y": 150,
+   "label": "고요의 그림 읽기 #5",
+   "title": [
+    "여름의 끝"
+   ],
+   "title_size": 160,
+   "sub": "클로드 모네, 1890~91",
+   "credit": "시카고 미술관 · 퍼블릭 도메인(CC0)",
+   "credit_y": 1390,
+   "logo": true,
+   "en": "Stacks of Wheat (End of Summer)\nClaude Monet",
+   "en_size": 34
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.12,
+    0.25,
+    0.42,
+    0.9
+   ],
+   "view_to": [
+    0.14,
+    0.3,
+    0.38,
+    0.85
+   ],
+   "y": 1240,
+   "lines": [
+    "거둔 밀을",
+    "높이 쌓아 둔 더미"
+   ],
+   "small": "모네의 농가 바로 바깥, 지베르니",
+   "en": "Stacks of harvested wheat,\njust outside Monet's farmhouse"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.58,
+    0.2,
+    0.98,
+    0.95
+   ],
+   "view_to": [
+    0.6,
+    0.28,
+    0.96,
+    0.95
+   ],
+   "y": 1240,
+   "lines": [
+    "낮게 기운 빛,",
+    "길게 늘어진 그림자"
+   ],
+   "small": "해 뜰 녘일까요, 해 질 녘일까요",
+   "en": "Low light, long shadows:\nsunrise or sunset?"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.3,
+    0.0,
+    0.72,
+    0.55
+   ],
+   "view_to": [
+    0.34,
+    0.02,
+    0.68,
+    0.5
+   ],
+   "y": 1240,
+   "lines": [
+    "원래 제목에",
+    "「여름의 끝」"
+   ],
+   "small": "늦여름 햇볕에 데워진 흙",
+   "en": "The title says \"End of Summer\":\nearth warmed by late-summer sun"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "view_to": [
+    0.05,
+    0.05,
+    0.95,
+    0.95
+   ],
+   "dim": 0.35,
+   "y": 1240,
+   "lines": [
+    "같은 더미를 빛을 바꿔",
+    "그리고 또 그렸어요"
+   ],
+   "small": "1891년 5월, 작은 방 하나에 15점",
+   "en": "The same stacks in changing light,\nfifteen shown together in May 1891"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.0,
+    0.2,
+    0.36,
+    0.95
+   ],
+   "view_to": [
+    0.02,
+    0.22,
+    0.34,
+    0.92
+   ],
+   "y": 1240,
+   "lines": [
+    "모네의 일간은",
+    "무엇일까요?"
+   ],
+   "small": "1840년 11월에 태어난 화가\n답은 채널 게시물에서",
+   "en": "What is Monet's day stem? Born in\nNovember 1840. Answer in today's Posts tab"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.15,
+    0.35,
+    0.5,
+    0.95
+   ],
+   "view_to": [
+    0.17,
+    0.37,
+    0.48,
+    0.93
+   ],
+   "y": 1240,
+   "lines": [
+    "밀레는 남은 것을,",
+    "모네는 쌓아 둔 것을"
+   ],
+   "small": "1월 14일과 오늘, 같은 밭의 흙",
+   "en": "Jan 14 post, Millet: what was left.\nToday, Monet: the harvest stacked."
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.2,
+    0.1,
+    0.8,
+    0.95
+   ],
+   "view_to": [
+    0.15,
+    0.05,
+    0.85,
+    1.0
+   ],
+   "y": 1240,
+   "lines": [
+    "지금 흐르는 곡이",
+    [
+     [
+      "기토(己土)",
+      "토"
+     ],
+     [
+      " 편의",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "small": "『Fallow Hour』(기토 편)\n쉬어 가는 밭의 시간",
+   "en": "Fallow Hour · 己土 Yin Earth (Gito)\nThe hour a field rests"
+  },
+  {
+   "sec": 7.5,
+   "y": 600,
+   "label": "이 그림 옆에 둘 소리",
+   "title": [
+    "고요",
+    [
+     [
+      "기토(己土)",
+      "토"
+     ],
+     [
+      " 편",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "title_size": 150,
+   "sub": "아래 관련 영상에서",
+   "small": "고요의 읽기와 화가의 사주는\n채널 게시물에서",
+   "logo": true,
+   "en": "Beside it: Five Kinds of Quiet · Yin Earth\nMusic: related video below\nMore in our Posts tab"
+  }
+ ]
+}

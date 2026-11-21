@@ -1,0 +1,407 @@
+{
+ "music": "신금",
+ "slides": [
+  {
+   "items": [
+    [
+     "2월 3일 · 곁에 둘 것",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "물과 쇠,\n서늘한 세 가지",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "유리 물병 · 놋그릇 · 풍경",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Water and Metal: three cooling things",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "1월 31일에는 닮은 것,\n작은 등과 흙 화분을 골랐어요.\n오늘은 식혀 주는 것을 골랐어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "정미년은 등불이\n늦여름 마른 흙을 데우는 해.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "불과 흙이 많아 덥고 마른 때에는\n쇠와 물로 균형을 잡는다고 봐요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "On Jan 31: things that echo the year, a lamp and a clay pot.\nToday: the cooling kind. In the coming 丁未 year (Jeongmi) ·\nYin Fire · Afternoon Earth, a lamp warms dry earth. When Fire\nand Earth make things hot and dry, Saju looks to Metal and Water.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "식혀 주는 것"
+  },
+  {
+   "items": [
+    [
+     "마른 해에는\n물이 보이는 자리를 하나\n곁에 두어도 좋아요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "투명한 유리 물병이나\n작은 수반 하나.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "In a dry year, it's nice to keep one spot where you\ncan see water: a clear glass bottle or a small water bowl.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "유리 물병"
+  },
+  {
+   "items": [
+    [
+     "햇빛 드는 창가의 물은\n금방 초록빛 물때가 껴요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "사나흘마다 물을 갈고\n병을 헹궈 주세요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "물병이 햇빛을 모을 수 있으니\n커튼이나 종이 가까이는 피하세요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Water on a sunny windowsill turns green fast.\nChange it every few days and rinse the bottle.\nA water-filled bottle can focus sunlight, so keep it\naway from curtains and paper.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "물병 돌보기"
+  },
+  {
+   "items": [
+    [
+     "흙은 쇠를 낳는다고 봐요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "놋그릇이나 바람에 울리는\n작은 풍경이\n정미년의 흙과 어울려요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "놋그릇(유기)은 안성의 것이 이름나\n「안성맞춤」이라는 말이 생겼다고 해요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Saju says Earth gives rise to Metal. Brassware or a small\nwind bell that rings in the breeze suits the year's Earth.\nAnseong brassware was so prized that Anseongmatchum,\n\"made to order in Anseong,\" came to mean \"a perfect fit.\"",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "놋그릇"
+  },
+  {
+   "items": [
+    [
+     "풍경은 절 처마 끝에 달아\n바람에 울리는 작은 종이에요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "종 아래 물고기 모양 쇠판은\n물고기가 잘 때도 눈을 감지 않듯\n늘 깨어 있으라는 뜻이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "대부분 10cm 안팎이에요.\n한국민족문화대백과사전",
+     34,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "A punggyeong is a small bell hung from temple eaves\nand rung by the wind. The metal fish hanging below it means\n\"stay awake,\" since fish never close their eyes, even\nin sleep. Most are about 10 cm (Encyclopedia of Korean Culture).",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "풍경"
+  },
+  {
+   "items": [
+    [
+     "불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "내일 2월 4일 오전 10시 46분, 입춘이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "See how much Fire and Water your chart holds in our\nfree app (link in bio). Which kind suits you better\ndepends on your whole chart. Tomorrow, Feb 4 at\n10:46 a.m., is the start of spring (立春).",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "내 사주에서는"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "신금 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "작고 맑은 쇠 같은\n피아노 독주예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 고른 곡은 『Glass Bell』,\n유리로 된 작은 종이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 辛金 Yin Metal (Singeum):\nsolo piano, small and clear like fine metal.\nToday's track is Glass Bell. Listen at the link in bio.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "풍경 곁에 둘 소리"
+  }
+ ]
+}

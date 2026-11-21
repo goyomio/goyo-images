@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-02-03/01.jpg",
+  "posts/2027-02-03/02.jpg",
+  "posts/2027-02-03/03.jpg",
+  "posts/2027-02-03/04.jpg",
+  "posts/2027-02-03/05.jpg",
+  "posts/2027-02-03/06.jpg",
+  "posts/2027-02-03/07.jpg",
+  "posts/2027-02-03/08.jpg"
+ ],
+ "caption": "물과 쇠, 서늘한 세 가지. 유리 물병, 놋그릇, 풍경.\n\n1월 31일에는 닮은 것으로 작은 등과 흙 화분을 골랐어요. 오늘은 식혀 주는 것을 골랐어요. 정미년은 등불이 늦여름 마른 흙을 데우는 해예요. 불과 흙이 많아 덥고 마른 때에는 쇠와 물로 균형을 잡는다고 봐요.\n\n마른 해에는 물이 보이는 자리를 하나 곁에 두어도 좋아요. 투명한 유리 물병이나 작은 수반 하나면 돼요. 햇빛 드는 창가의 물은 금방 초록빛 물때가 끼니, 사나흘마다 물을 갈고 병을 헹궈 주세요. 물병이 햇빛을 모을 수 있으니 커튼이나 종이 가까이는 피하세요.\n\n흙은 쇠를 낳는다고 봐요. 놋그릇이나 바람에 울리는 작은 풍경이 정미년의 흙과 어울려요. 놋그릇(유기)은 안성의 것이 이름나 「안성맞춤」이라는 말이 생겼다고 해요. 풍경은 절 처마 끝에 달아 바람에 울리는 작은 종이에요. 종 아래 물고기 모양 쇠판은 물고기가 잘 때도 눈을 감지 않듯 늘 깨어 있으라는 뜻이고, 대부분 10cm 안팎이에요(한국민족문화대백과사전).\n\n불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요. 내일 2월 4일 오전 10시 46분은 입춘이에요.\n\n풍경 곁에는 작고 맑은 쇠 같은 피아노 독주, 『다섯 가지 고요｜신금(辛金)』. 오늘 고른 곡은 유리로 된 작은 종, 『Glass Bell』이에요. 프로필 링크에서 들을 수 있어요.\n\n· English ·\nWater and Metal: three cooling things. A glass bottle, brassware and a wind bell.\n\nOn January 31 we chose things that echo the year: a small lamp and a clay pot. Today, the cooling kind. In the coming 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, a lamp warms dry late-summer earth. When Fire and Earth make things hot and dry, Saju looks to Metal and Water for balance.\n\nIn a dry year, it's nice to keep one spot where you can see water: a clear glass bottle or a small water bowl. Water on a sunny windowsill turns green fast, so change it every few days and rinse the bottle. A water-filled bottle can focus sunlight, so keep it away from curtains and paper.\n\nSaju says Earth gives rise to Metal, so brassware or a small wind bell that rings in the breeze suits the year's Earth. Anseong brassware was so prized that Anseongmatchum, \"made to order in Anseong,\" came to mean \"a perfect fit.\" A punggyeong is a small bell hung from temple eaves and rung by the wind. The metal fish hanging below it means \"stay awake,\" since fish never close their eyes, even in sleep. Most are about 10 cm (Encyclopedia of Korean Culture).\n\nSee how much Fire and Water your chart holds in our free app (link in bio). Which kind suits you better depends on your whole chart. Tomorrow, February 4 at 10:46 a.m., is the start of spring (立春).\n\nBeside the bell: Five Kinds of Quiet · 辛金 Yin Metal (Singeum), solo piano, small and clear like fine metal. Today's track is Glass Bell. Listen at the link in bio.\n\n#고요 #곁에둘것 #정미년 #풍경 #놋그릇 #유기 #오행 #오행음악 #fiveelements",
+ "note": "정미년 시리즈 0203 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}

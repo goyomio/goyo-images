@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-02-01/01.jpg",
+  "posts/2027-02-01/02.jpg",
+  "posts/2027-02-01/03.jpg",
+  "posts/2027-02-01/04.jpg",
+  "posts/2027-02-01/05.jpg",
+  "posts/2027-02-01/06.jpg",
+  "posts/2027-02-01/07.jpg",
+  "posts/2027-02-01/08.jpg"
+ ],
+ "caption": "목요일, 입춘이에요.\n\n2월 4일 오전 10시 46분, 입춘(立春)이 들어요. 입춘은 스물네 절기의 첫째로, 해가 하늘길의 315도에 이르는 때예요. 이 순간 사주의 해와 달이 함께 바뀌어요. 병오년 신축월에서 정미년 임인월로요.\n\n입춘 순간의 여덟 글자를 한국 시각으로 직접 계산해 보면, 해 정미 · 달 임인 · 날 갑인 · 시 기사예요. 나무 셋, 불 둘, 흙 둘, 물 하나이고, 봄의 첫 달을 여는 인(寅)이 둘이에요.\n\n이날은 음력으로 아직 섣달이에요. 설날(2월 7일)보다 사흘 앞서 봄이 먼저 와요. 사주는 봄이 오는 날을, 설날은 달이 새로 시작되는 날을 따라요.\n\n옛 입춘 날에는 햇나물을 먹었어요. 다섯 가지 매운 나물로 차린 오신반, 어린 싹을 무친 세생채를 먹었다고 해요. 「입춘 추위는 꿔다 해도 한다」는 속담처럼, 입춘 무렵엔 꼭 한 번 추위가 와요.\n\n이번 주 일진은 신해 → 임자 → 계축 → 갑인 → 을묘 → 병진 → 정사. 날마다 앞 글자가 쇠 → 물 → 나무 → 불 순서로 흘러요. 입춘 날은 갑인일, 나무 두 글자로 봄을 열고, 설날 2월 7일은 정사일이에요.\n\n목요일 오전 10시 46분부터 정미년이에요. 첫 글자는 가까운 곳을 오래 비추는 등불, 정화예요. 입춘 무렵 태어나는 아기라면 시각에 따라 해가 갈려요(1월 25일 게시물).\n\n새해 첫 글자의 소리, 『다섯 가지 고요｜정화(丁火)』. 오늘 고른 곡은 창가에 켜 둔 작은 불빛, 『Window Candle』이에요. 프로필 링크에서 들을 수 있어요.\n\n절기 시각: 한국천문연구원 / 입춘 풍속: 한국민족문화대백과사전 외\n\n· English ·\nThe start of spring (立春) arrives Thursday.\n\nThe start of spring falls at 10:46 a.m. on February 4 (Korea Standard Time). It is the first of the twenty-four solar terms, when the sun reaches 315° on its yearly path. At that moment, the Saju year and month change together: from the 丙午 year (Byeong-o) · Yang Fire · Noon Fire to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, and from the 辛丑 month to the 壬寅 month.\n\nWe worked out the eight characters for that moment in Korea Standard Time: 丁未 year, 壬寅 month, 甲寅 day, 己巳 hour. That is three Wood, two Fire, two Earth and one Water, and 寅 Predawn Wood (Inmok), the branch that opens spring, appears twice.\n\nBy the lunar calendar, it is still the twelfth lunar month. Spring arrives three days before Lunar New Year (February 7). Saju follows the sun; Lunar New Year follows the moon.\n\nIn the old days, on the start of spring, people ate five pungent greens (osinban) and a salad of young shoots. A saying goes, \"The start of spring gets its cold snap, even if it has to borrow one.\" In other words, a cold snap always comes around the start of spring.\n\nThis week, the first characters of the day pillars run Metal → Water → Wood → Fire. Spring begins on a 甲寅 day, all Wood, and Lunar New Year is a 丁巳 day.\n\nFrom 10:46 a.m. Thursday, it is the 丁未 year. Its first character is 丁火 Yin Fire (Jeonghwa), a lamp that burns long and lights what is near. For babies born that day, the birth time decides which year they belong to (see our January 25 post).\n\nThe sound of the new year's first character: Five Kinds of Quiet · Yin Fire. Today's track is Window Candle. Listen at the link in bio.\n\nSolar term times: Korea Astronomy and Space Science Institute. Customs: Encyclopedia of Korean Culture and others.\n\n#고요 #이번주기운 #입춘 #절기 #일진 #정미년 #사주 #오행 #saju #fiveelements",
+ "note": "정미년 시리즈 0201 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}

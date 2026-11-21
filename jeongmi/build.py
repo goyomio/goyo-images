@@ -1643,20 +1643,20 @@ P['0201'] = dict(
   S([T('입춘은\n스물네 절기의 첫째예요.', 60, bold=True, gap=30),
      T('해가 하늘길의 315도에 이르는 때.', 44, gap=26),
      T('이 순간 사주의 해와 달이 함께 바뀌어요.\n병오년 신축월 → 정미년 임인월', 42, GOLD, gap=34),
-     T('The start of spring is the first of the twenty-four solar\nterms, when the sun reaches 315°. At that moment, the\nSaju year and month turn together: from 丙午 and 辛丑\nto the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nand a 壬寅 month.', 24, EN, gap=0)], tag='한 해의 문'),
+     T('The start of spring is the first of the twenty-four solar\nterms, when the sun reaches 315° along its yearly path.\nYear and month change together: 丙午 → 丁未, 辛丑 → 壬寅.', 26, EN, gap=0)], tag='한 해의 문'),
   S([T('입춘 순간의 여덟 글자', 44, gap=24),
      T('해 정미 · 달 임인\n날 갑인 · 시 기사', 66, bold=True, gap=30),
      T('나무 셋, 불 둘, 흙 둘, 물 하나.\n봄의 첫 달을 여는 인(寅)이 둘이에요.', 44, gap=26),
      T('한국 시각으로 직접 계산했어요.', 32, [150, 145, 135], gap=30),
-     T('The eight characters at the moment spring begins:\n丁未 year, 壬寅 month, 甲寅 day, 己巳 hour. Three Wood,\ntwo Fire, two Earth, one Water, and two 寅 Predawn Wood\n(Inmok), the branch that opens spring.', 24, EN, gap=0)], tag='입춘의 사주'),
+     T('The eight characters at the moment spring begins:\n丁未 year, 壬寅 month, 甲寅 day, 己巳 hour. Three Wood,\ntwo Fire, two Earth, one Water; 寅 Predawn Wood (Inmok),\nthe branch that opens spring, appears twice.', 24, EN, gap=0)], tag='입춘의 사주'),
   S([T('이날은 음력으로\n아직 섣달이에요.', 62, bold=True, gap=30),
      T('설날(2월 7일)보다\n사흘 앞서 봄이 먼저 와요.', 50, gap=28),
-     T('사주는 봄이 오는 날을,\n설날은 달이 새로 차오르는 날을 따라요.', 40, GOLD, gap=34),
+     T('사주는 봄이 오는 날을,\n설날은 달이 새로 시작되는 날을 따라요.', 40, GOLD, gap=34),
      T('By the lunar calendar, it is still the twelfth month:\nspring arrives three days before Lunar New Year (Feb 7).\nSaju follows the sun; Lunar New Year follows the moon.', 26, EN, gap=0)], tag='설날보다 먼저'),
   S([T('옛 입춘 날에는\n햇나물을 먹었어요.', 60, bold=True, gap=30),
-     T('궁중에서는 다섯 가지 매운 나물로\n오신반을, 민가에서는 어린 싹으로\n세생채를 무쳤다고 해요.', 40, gap=28),
-     T('「입춘 추위는 꿔다 해도 한다」\n봄이 와도 추위는 남는다는 속담이에요.', 40, GOLD, gap=34),
-     T('On the first day of spring, the royal court ate five\npungent greens (osinban), and households ate a salad\nof young shoots. A saying goes: "Even if you have to\nborrow it, the start of spring brings a cold snap."', 24, EN, gap=0)], tag='입춘의 옛 풍속'),
+     T('다섯 가지 매운 나물로 차린 오신반,\n어린 싹을 무친 세생채를\n먹었다고 해요.', 40, gap=28),
+     T('「입춘 추위는 꿔다 해도 한다」\n입춘 무렵엔 꼭 한 번 추위가 온다는 속담이에요.', 38, GOLD, gap=34),
+     T('In the old days, on the start of spring,\npeople ate five pungent greens (osinban)\nand a salad of young shoots. A saying goes: "The start of\nspring gets its cold snap, even if it has to borrow one."', 24, EN, gap=0)], tag='입춘의 옛 풍속'),
   S([T('월 신해 · 화 임자 · 수 계축\n목 갑인 · 금 을묘\n토 병진 · 일 정사', 52, gap=30),
      T('날마다 앞 글자가\n쇠 → 물 → 나무 → 불 순서로 흘러요.', 44, gap=26),
      T('입춘 날은 갑인일, 나무 두 글자로 봄을 열고\n설날 2월 7일은 정사일이에요.', 38, GOLD, gap=34),
@@ -1664,7 +1664,7 @@ P['0201'] = dict(
   S([T('목요일 오전 10시 46분부터\n정미년이에요.', 56, bold=True, gap=30),
      T('첫 글자는\n가까운 곳을 오래 비추는 등불, 정화.', 46, gap=28),
      T('입춘 무렵 태어나는 아기라면\n시각에 따라 해가 갈려요(1월 25일 게시물).', 38, GOLD, gap=34),
-     T('From 10:46 a.m. Thursday, it is the 丁未 year. Its first\ncharacter is 丁火 Yin Fire (Jeonghwa), a lamp that lights\nwhat is close for a long time. For births that day, the\nexact time decides the year (see our Jan 25 post).', 24, EN, gap=0)], tag='정미년의 첫 글자'),
+     T('From 10:46 a.m. Thursday, it is the 丁未 year. Its first\ncharacter is 丁火 Yin Fire (Jeonghwa), a lamp that burns\nlong and lights what is near. For babies born that day, the\nbirth time decides the year (see our Jan 25 post).', 24, EN, gap=0)], tag='정미년의 첫 글자'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
      T('가까운 곳을 오래 비추는\n등불 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Window Candle』,\n창가에 켜 둔 작은 불빛이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -1676,9 +1676,9 @@ P['0201'] = dict(
 
 입춘 순간의 여덟 글자를 한국 시각으로 직접 계산해 보면, 해 정미 · 달 임인 · 날 갑인 · 시 기사예요. 나무 셋, 불 둘, 흙 둘, 물 하나이고, 봄의 첫 달을 여는 인(寅)이 둘이에요.
 
-이날은 음력으로 아직 섣달이에요. 설날(2월 7일)보다 사흘 앞서 봄이 먼저 와요. 사주는 봄이 오는 날을, 설날은 달이 새로 차오르는 날을 따라요.
+이날은 음력으로 아직 섣달이에요. 설날(2월 7일)보다 사흘 앞서 봄이 먼저 와요. 사주는 봄이 오는 날을, 설날은 달이 새로 시작되는 날을 따라요.
 
-옛 입춘 날에는 햇나물을 먹었어요. 궁중에서는 다섯 가지 매운 나물로 오신반을, 민가에서는 어린 싹으로 세생채를 무쳤다고 해요. 「입춘 추위는 꿔다 해도 한다」는 속담처럼, 봄이 와도 추위는 남아요.
+옛 입춘 날에는 햇나물을 먹었어요. 다섯 가지 매운 나물로 차린 오신반, 어린 싹을 무친 세생채를 먹었다고 해요. 「입춘 추위는 꿔다 해도 한다」는 속담처럼, 입춘 무렵엔 꼭 한 번 추위가 와요.
 
 이번 주 일진은 신해 → 임자 → 계축 → 갑인 → 을묘 → 병진 → 정사. 날마다 앞 글자가 쇠 → 물 → 나무 → 불 순서로 흘러요. 입춘 날은 갑인일, 나무 두 글자로 봄을 열고, 설날 2월 7일은 정사일이에요.
 
@@ -1691,23 +1691,210 @@ P['0201'] = dict(
 · English ·
 The start of spring (立春) arrives Thursday.
 
-The start of spring begins at 10:46 a.m. on February 4 (Korea Standard Time). It is the first of the twenty-four solar terms, when the sun reaches 315° on its yearly path. At that moment, the Saju year and month turn together: from 丙午 and 辛丑 to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth and a 壬寅 month.
+The start of spring falls at 10:46 a.m. on February 4 (Korea Standard Time). It is the first of the twenty-four solar terms, when the sun reaches 315° on its yearly path. At that moment, the Saju year and month change together: from the 丙午 year (Byeong-o) · Yang Fire · Noon Fire to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, and from the 辛丑 month to the 壬寅 month.
 
-We worked out the eight characters for that moment in Korea time: 丁未 year, 壬寅 month, 甲寅 day, 己巳 hour. That is three Wood, two Fire, two Earth and one Water, with two 寅 Predawn Wood (Inmok), the branch that opens spring.
+We worked out the eight characters for that moment in Korea Standard Time: 丁未 year, 壬寅 month, 甲寅 day, 己巳 hour. That is three Wood, two Fire, two Earth and one Water, and 寅 Predawn Wood (Inmok), the branch that opens spring, appears twice.
 
-By the lunar calendar, it is still the twelfth month, so spring arrives three days before Lunar New Year (February 7). Saju follows the sun; Lunar New Year follows the moon.
+By the lunar calendar, it is still the twelfth lunar month. Spring arrives three days before Lunar New Year (February 7). Saju follows the sun; Lunar New Year follows the moon.
 
-On the first day of spring, the royal court ate five pungent greens (osinban), and households ate a salad of young shoots. As a saying goes, "Even if you have to borrow it, the start of spring brings a cold snap."
+In the old days, on the start of spring, people ate five pungent greens (osinban) and a salad of young shoots. A saying goes, "The start of spring gets its cold snap, even if it has to borrow one." In other words, a cold snap always comes around the start of spring.
 
 This week, the first characters of the day pillars run Metal → Water → Wood → Fire. Spring begins on a 甲寅 day, all Wood, and Lunar New Year is a 丁巳 day.
 
-From 10:46 a.m. Thursday, it is the 丁未 year. Its first character is 丁火 Yin Fire (Jeonghwa), a lamp that lights what is close for a long time. For births that day, the exact time decides the year (see our January 25 post).
+From 10:46 a.m. Thursday, it is the 丁未 year. Its first character is 丁火 Yin Fire (Jeonghwa), a lamp that burns long and lights what is near. For babies born that day, the birth time decides which year they belong to (see our January 25 post).
 
 The sound of the new year's first character: Five Kinds of Quiet · Yin Fire. Today's track is Window Candle. Listen at the link in bio.
 
 Solar term times: Korea Astronomy and Space Science Institute. Customs: Encyclopedia of Korean Culture and others.
 
 #고요 #이번주기운 #입춘 #절기 #일진 #정미년 #사주 #오행 #saju #fiveelements""",
+)
+
+# ───────── 2/3 수 · 곁에 둘 것: 유리 물병·놋그릇·풍경 (신금) — 원문 Ⅳ·Ⅸ 식혀 주는 소품, 결정 9·11·13
+P['0203'] = dict(
+ music='신금', audio='shorts/음원/신금_Glass Bell_60s.m4a',
+ slides=[
+  S([T('2월 3일 · 곁에 둘 것', 44, GOLD, gap=30), T('물과 쇠,\n서늘한 세 가지', 100, bold=True, gap=36),
+     T('유리 물병 · 놋그릇 · 풍경', 44, gap=30), T('Water and Metal: three cooling things', 36, EN, gap=0)]),
+  S([T('1월 31일에는 닮은 것,\n작은 등과 흙 화분을 골랐어요.\n오늘은 식혀 주는 것을 골랐어요.', 46, gap=30),
+     T('정미년은 등불이\n늦여름 마른 흙을 데우는 해.', 56, bold=True, gap=28),
+     T('불과 흙이 많아 덥고 마른 때에는\n쇠와 물로 균형을 잡는다고 봐요.', 42, GOLD, gap=34),
+     T('On Jan 31: things that echo the year, a lamp and a clay pot.\nToday: the cooling kind. In the coming 丁未 year (Jeongmi) ·\nYin Fire · Afternoon Earth, a lamp warms dry earth. When Fire\nand Earth make things hot and dry, Saju looks to Metal and Water.', 24, EN, gap=0)], tag='식혀 주는 것'),
+  S([T('마른 해에는\n물이 보이는 자리를 하나\n곁에 두어도 좋아요.', 60, bold=True, gap=30),
+     T('투명한 유리 물병이나\n작은 수반 하나.', 48, gap=34),
+     T('In a dry year, it\'s nice to keep one spot where you\ncan see water: a clear glass bottle or a small water bowl.', 26, EN, gap=0)], tag='유리 물병'),
+  S([T('햇빛 드는 창가의 물은\n금방 초록빛 물때가 껴요.', 56, bold=True, gap=30),
+     T('사나흘마다 물을 갈고\n병을 헹궈 주세요.', 48, gap=28),
+     T('물병이 햇빛을 모을 수 있으니\n커튼이나 종이 가까이는 피하세요.', 40, GOLD, gap=34),
+     T('Water on a sunny windowsill turns green fast.\nChange it every few days and rinse the bottle.\nA water-filled bottle can focus sunlight, so keep it\naway from curtains and paper.', 26, EN, gap=0)], tag='물병 돌보기'),
+  S([T('흙은 쇠를 낳는다고 봐요.', 58, bold=True, gap=24),
+     T('놋그릇이나 바람에 울리는\n작은 풍경이\n정미년의 흙과 어울려요.', 52, gap=30),
+     T('놋그릇(유기)은 안성의 것이 이름나\n「안성맞춤」이라는 말이 생겼다고 해요.', 40, GOLD, gap=34),
+     T('Saju says Earth gives rise to Metal. Brassware or a small\nwind bell that rings in the breeze suits the year\'s Earth.\nAnseong brassware was so prized that Anseongmatchum,\n"made to order in Anseong," came to mean "a perfect fit."', 24, EN, gap=0)], tag='놋그릇'),
+  S([T('풍경은 절 처마 끝에 달아\n바람에 울리는 작은 종이에요.', 52, bold=True, gap=28),
+     T('종 아래 물고기 모양 쇠판은\n물고기가 잘 때도 눈을 감지 않듯\n늘 깨어 있으라는 뜻이에요.', 44, gap=28),
+     T('대부분 10cm 안팎이에요.\n한국민족문화대백과사전', 34, [150, 145, 135], gap=30),
+     T('A punggyeong is a small bell hung from temple eaves\nand rung by the wind. The metal fish hanging below it means\n"stay awake," since fish never close their eyes, even\nin sleep. Most are about 10 cm (Encyclopedia of Korean Culture).', 24, EN, gap=0)], tag='풍경'),
+  S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 52, gap=28),
+     T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 50, bold=True, gap=28),
+     T('내일 2월 4일 오전 10시 46분, 입춘이에요.', 40, GOLD, gap=34),
+     T('See how much Fire and Water your chart holds in our\nfree app (link in bio). Which kind suits you better\ndepends on your whole chart. Tomorrow, Feb 4 at\n10:46 a.m., is the start of spring (立春).', 26, EN, gap=0)], tag='내 사주에서는'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('신금 편', 96, bold=True, gap=34),
+     T('작고 맑은 쇠 같은\n피아노 독주예요.', 52, gap=24), T('오늘 고른 곡은 『Glass Bell』,\n유리로 된 작은 종이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 辛金 Yin Metal (Singeum):\nsolo piano, small and clear like fine metal.\nToday\'s track is Glass Bell. Listen at the link in bio.', 28, EN, gap=0)], tag='풍경 곁에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('2월 3일', 50, GOLD, gap=34), T('물과 쇠,\n서늘한 세 가지', 108, bold=True, gap=50), T('Water and Metal: three cooling things', 40, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('유리 물병 하나', 88, bold=True, gap=36), T('마른 해에 물이 보이는 자리', 52, gap=44),
+       T('A glass bottle: a spot of\nvisible water in a dry year', 36, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('놋그릇, 풍경', 92, bold=True, gap=36), T('흙은 쇠를 낳는다고 봐요', 54, gap=44),
+       T('Brassware and a wind bell:\nEarth gives rise to Metal', 36, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('풍경에\n물고기는 왜\n달았을까요?', 92, bold=True, gap=34), T('답과 물병 돌보는 법은\n@goyo_mio 피드 게시물에서', 52, bold=True, gap=30),
+                 T('Why a fish on a wind bell?\nAnswer and tips in our feed post.', 36, EN, gap=0)],
+       items_yt=[T('풍경에\n물고기는 왜\n달았을까요?', 92, bold=True, gap=34), T('답과 물병 돌보는 법은\n채널 게시물에서', 52, bold=True, gap=30),
+                 T('Why a fish on a wind bell?\nAnswer and tips in our Posts tab.', 36, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('신금 편', 100, bold=True, gap=36), T('『Glass Bell』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 辛金 Yin Metal (Singeum)\n· Glass Bell · Listen at the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('신금 편', 100, bold=True, gap=36), T('『Glass Bell』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 辛金 Yin Metal (Singeum)\n· Glass Bell · Music: related video below', 34, EN, gap=0)]),
+ ],
+ caption="""물과 쇠, 서늘한 세 가지. 유리 물병, 놋그릇, 풍경.
+
+1월 31일에는 닮은 것으로 작은 등과 흙 화분을 골랐어요. 오늘은 식혀 주는 것을 골랐어요. 정미년은 등불이 늦여름 마른 흙을 데우는 해예요. 불과 흙이 많아 덥고 마른 때에는 쇠와 물로 균형을 잡는다고 봐요.
+
+마른 해에는 물이 보이는 자리를 하나 곁에 두어도 좋아요. 투명한 유리 물병이나 작은 수반 하나면 돼요. 햇빛 드는 창가의 물은 금방 초록빛 물때가 끼니, 사나흘마다 물을 갈고 병을 헹궈 주세요. 물병이 햇빛을 모을 수 있으니 커튼이나 종이 가까이는 피하세요.
+
+흙은 쇠를 낳는다고 봐요. 놋그릇이나 바람에 울리는 작은 풍경이 정미년의 흙과 어울려요. 놋그릇(유기)은 안성의 것이 이름나 「안성맞춤」이라는 말이 생겼다고 해요. 풍경은 절 처마 끝에 달아 바람에 울리는 작은 종이에요. 종 아래 물고기 모양 쇠판은 물고기가 잘 때도 눈을 감지 않듯 늘 깨어 있으라는 뜻이고, 대부분 10cm 안팎이에요(한국민족문화대백과사전).
+
+불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요. 내일 2월 4일 오전 10시 46분은 입춘이에요.
+
+풍경 곁에는 작고 맑은 쇠 같은 피아노 독주, 『다섯 가지 고요｜신금(辛金)』. 오늘 고른 곡은 유리로 된 작은 종, 『Glass Bell』이에요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Water and Metal: three cooling things. A glass bottle, brassware and a wind bell.
+
+On January 31 we chose things that echo the year: a small lamp and a clay pot. Today, the cooling kind. In the coming 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, a lamp warms dry late-summer earth. When Fire and Earth make things hot and dry, Saju looks to Metal and Water for balance.
+
+In a dry year, it's nice to keep one spot where you can see water: a clear glass bottle or a small water bowl. Water on a sunny windowsill turns green fast, so change it every few days and rinse the bottle. A water-filled bottle can focus sunlight, so keep it away from curtains and paper.
+
+Saju says Earth gives rise to Metal, so brassware or a small wind bell that rings in the breeze suits the year's Earth. Anseong brassware was so prized that Anseongmatchum, "made to order in Anseong," came to mean "a perfect fit." A punggyeong is a small bell hung from temple eaves and rung by the wind. The metal fish hanging below it means "stay awake," since fish never close their eyes, even in sleep. Most are about 10 cm (Encyclopedia of Korean Culture).
+
+See how much Fire and Water your chart holds in our free app (link in bio). Which kind suits you better depends on your whole chart. Tomorrow, February 4 at 10:46 a.m., is the start of spring (立春).
+
+Beside the bell: Five Kinds of Quiet · 辛金 Yin Metal (Singeum), solo piano, small and clear like fine metal. Today's track is Glass Bell. Listen at the link in bio.
+
+#고요 #곁에둘것 #정미년 #풍경 #놋그릇 #유기 #오행 #오행음악 #fiveelements""",
+ reel_caption="""유리 물병 하나, 놋그릇과 풍경.
+
+마른 해에는 물이 보이는 자리를 하나 곁에 두어도 좋아요. 흙은 쇠를 낳는다고 봐요. 놋그릇이나 바람에 울리는 작은 풍경이 정미년의 흙과 어울려요. 풍경에 물고기를 단 까닭, 물병 돌보는 법, 내 사주에 더 어울리는 쪽을 보는 법은 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜신금(辛金)』의 『Glass Bell』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+A glass bottle, brassware and a wind bell. In a dry year, it's nice to keep one spot where you can see water. Saju says Earth gives rise to Metal, so brassware or a small wind bell suits the coming year's Earth. Our feed post covers why the bell has a fish, how to keep the bottle clear, and which kind suits your chart.
+
+The music is Glass Bell from Five Kinds of Quiet · 辛金 Yin Metal (Singeum). Listen at the link in bio.
+
+#고요 #곁에둘것 #풍경 #놋그릇 #오행음악""",
+)
+
+# ───────── 2/5 금 · 여행: 프랑스 지베르니 (기토) — 원문 Ⅷ 해외 들판, 1/28 모네와 이어서
+P['0205'] = dict(
+ music='기토', audio='shorts/음원/기토_Bench by the Rows_60s.m4a',
+ slides=[
+  S([T('2월 5일 · 고요 여행', 44, GOLD, gap=30), T('그림 속\n들판으로', 108, bold=True, gap=36),
+     T('프랑스 지베르니, 모네의 마을', 44, gap=30), T('Into the fields of the painting: Giverny', 34, EN, gap=0)]),
+  S([T('1월 28일에 읽은\n〈건초더미(여름의 끝)〉의 더미는', 50, gap=24),
+     T('모네의 농가\n바로 바깥 들판에\n서 있었어요.', 64, bold=True, gap=30),
+     T('그 들판이 파리 서쪽,\n센강 가의 마을 지베르니예요.', 42, GOLD, gap=34),
+     T('The wheat stacks we read on Jan 28 stood just outside\nMonet\'s farmhouse, in Giverny, a village on the Seine\nwest of Paris.', 28, EN, gap=0)], tag='1월 28일의 그 들판'),
+  S([T('1883년 4월 29일,\n모네가 지베르니로 왔어요.', 58, bold=True, gap=28),
+     T('세 들어 살던 집을\n1890년에 사들였고,\n세상을 뜬 1926년까지 살았어요.', 46, gap=28),
+     T('건초더미를 그리기 시작한 해에\n그 집을 샀어요.', 42, GOLD, gap=34),
+     T('Monet moved to Giverny on April 29, 1883, bought the\nhouse he had rented in 1890, the same year he began the\nwheat stacks, and lived there until his death in 1926.', 26, EN, gap=0)], tag='모네의 집'),
+  S([T('모네의 집과 정원은\n겨울에는 문을 닫아요.', 58, bold=True, gap=28),
+     T('2026년에는 4월 1일부터\n11월 1일까지 날마다 열었어요.\n2027년 일정은 공식 누리집에서 확인하세요.', 42, gap=28),
+     T('가까운 지베르니 인상주의 미술관은\n2027년 3월 26일부터 7월 4일까지\n보나르·뷔야르 전시를 열어요.', 38, GOLD, gap=34),
+     T('Monet\'s house and gardens close in winter: in 2026 they\nopened daily from April 1 to November 1. Check the official\nsite for 2027. The nearby Musée des impressionnismes\nGiverny shows Bonnard and Vuillard, March 26 to July 4, 2027.', 24, EN, gap=0)], tag='가기 전에'),
+  S([T('파리 생라자르역에서\n베르농-지베르니역까지 기차로,', 52, bold=True, gap=26),
+     T('역에서 마을까지는\n6km 남짓, 셔틀이나 자전거로 가요.', 44, gap=28),
+     T('셔틀은 정원이 여는 철에 다녀요.', 38, GOLD, gap=34),
+     T('Take the train from Paris Saint-Lazare to Vernon-Giverny,\nthen about 6 km to the village by shuttle (in season)\nor by bike along the Seine.', 26, EN, gap=0)], tag='가는 길'),
+  S([T('정미년의 미(未)는\n늦여름의 흙이에요.', 58, bold=True, gap=28),
+     T('거둔 것을 쌓아 둔 밭을 그린 화가가\n집을 사고 정원을 가꾼 마을.', 46, gap=28),
+     T('그림으로 본 늦여름 들판의 빛을\n그 자리에서 보는 여행이에요.', 42, GOLD, gap=34),
+     T('未 Afternoon Earth (Mito) is late-summer earth. This is the\nvillage where a painter of stacked harvest bought his house\nand grew his garden: a trip to see that late-summer light\nwhere it was painted.', 24, EN, gap=0)], tag='정미년과 이어서'),
+  S([T('정미년 둘째 날,\n2월 5일은 을묘(乙卯)일이에요.', 52, bold=True, gap=28),
+     T('어제 입춘과 함께\n사주의 해가 바뀌었어요.', 46, gap=28),
+     T('곁의 정원에서 자라는 덩굴처럼,\n봄의 나무 두 글자가 이어지는 날이에요.', 40, GOLD, gap=34),
+     T('Feb 5, the second day of the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth, is a 乙卯 day: two Wood characters,\nlike a vine in a garden. The Saju year turned yesterday\nat the start of spring (立春).', 24, EN, gap=0)], tag='오늘'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('기토 편', 96, bold=True, gap=34),
+     T('갈아 둔 밭 같은\n재즈 로파이예요.', 52, gap=24), T('오늘 고른 곡은 『Bench by the Rows』,\n밭이랑 곁의 벤치예요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 己土 Yin Earth (Gito):\nlo-fi jazz like a tilled field.\nToday\'s track is Bench by the Rows. Listen at the link in bio.', 28, EN, gap=0)], tag='들판 곁에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('2월 5일', 50, GOLD, gap=34), T('그림 속\n들판으로', 116, bold=True, gap=50), T('Into the fields of the painting', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('프랑스 지베르니', 62, GOLD, gap=30), T('건초더미가 서 있던\n모네의 마을', 84, bold=True, gap=44),
+       T('Giverny, France:\nthe village of the wheat stacks', 36, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('늦여름 흙의 해에\n그림 속 들판으로', 84, bold=True, gap=40), T('정미년의 미(未)는 늦여름의 흙', 52, gap=44),
+       T('A trip into the painting\'s late-summer fields', 34, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('겨울에 가면\n정원은 열려 있을까요?', 84, bold=True, gap=34), T('답과 가는 길은\n@goyo_mio 피드 게시물에서', 54, bold=True, gap=30),
+                 T('Is the garden open in winter?\nAnswer and directions in our feed post.', 34, EN, gap=0)],
+       items_yt=[T('겨울에 가면\n정원은 열려 있을까요?', 84, bold=True, gap=34), T('답과 가는 길은\n채널 게시물에서', 54, bold=True, gap=30),
+                 T('Is the garden open in winter?\nAnswer and directions in our Posts tab.', 34, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('기토 편', 100, bold=True, gap=36), T('『Bench by the Rows』', 54, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 己土 Yin Earth (Gito)\n· Bench by the Rows · Listen at the link in bio.', 32, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('기토 편', 100, bold=True, gap=36), T('『Bench by the Rows』', 54, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 己土 Yin Earth (Gito)\n· Bench by the Rows · Music: related video below', 32, EN, gap=0)]),
+ ],
+ caption="""그림 속 들판으로, 프랑스 지베르니.
+
+1월 28일에 읽은 모네의 〈건초더미(여름의 끝)〉, 그 더미는 모네의 농가 바로 바깥 들판에 서 있었어요(시카고 미술관 설명). 그 들판이 파리 서쪽, 센강 가의 마을 지베르니예요.
+
+모네는 1883년 4월 29일 지베르니로 왔어요. 세 들어 살던 집을 1890년에 사들였고, 세상을 뜬 1926년까지 살았어요. 건초더미를 그리기 시작한 해에 그 집을 산 셈이에요.
+
+모네의 집과 정원은 겨울에는 문을 닫아요. 2026년에는 4월 1일부터 11월 1일까지 날마다 열었고, 2027년 일정은 공식 누리집에서 확인하세요. 가까운 지베르니 인상주의 미술관은 2027년 3월 26일부터 7월 4일까지 보나르·뷔야르 전시를 열어요. 파리 생라자르역에서 베르농-지베르니역까지 기차로 가고, 역에서 마을까지 6km 남짓은 셔틀이나 자전거로 가요. 셔틀은 정원이 여는 철에 다녀요.
+
+정미년의 미(未)는 늦여름의 흙이에요. 거둔 것을 쌓아 둔 밭을 그린 화가가 집을 사고 정원을 가꾼 마을이라, 그림으로 본 늦여름 들판의 빛을 그 자리에서 보는 여행이에요. 정미년 둘째 날인 오늘 2월 5일은 을묘(乙卯)일이에요. 어제 입춘과 함께 사주의 해가 바뀌었어요.
+
+들판 곁에는 갈아 둔 밭 같은 재즈 로파이, 『다섯 가지 고요｜기토(己土)』. 오늘 고른 곡은 밭이랑 곁의 벤치, 『Bench by the Rows』예요. 프로필 링크에서 들을 수 있어요.
+
+참고: 모네의 집과 정원 공식 누리집, 지베르니 인상주의 미술관
+
+· English ·
+Into the fields of the painting: Giverny, France.
+
+The wheat stacks in Monet's Stacks of Wheat (End of Summer), which we read on January 28, stood just outside his farmhouse (Art Institute of Chicago). Those fields are in Giverny, a village on the Seine west of Paris.
+
+Monet moved to Giverny on April 29, 1883. He bought the house he had rented in 1890, the same year he began the wheat stacks, and lived there until his death in 1926.
+
+Monet's house and gardens close in winter: in 2026 they opened daily from April 1 to November 1, so check the official site for 2027. The nearby Musée des impressionnismes Giverny shows Bonnard and Vuillard from March 26 to July 4, 2027. Take the train from Paris Saint-Lazare to Vernon-Giverny, then go about 6 km to the village by shuttle (in season) or by bike along the Seine.
+
+未 Afternoon Earth (Mito), in the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, is late-summer earth. This is the village where a painter of stacked harvest bought his house and grew his garden: a trip to see that late-summer light where it was painted. Today, February 5, the second day of the new Saju year, is a 乙卯 day. The year turned yesterday at the start of spring (立春).
+
+For the fields: Five Kinds of Quiet · 己土 Yin Earth (Gito), lo-fi jazz like a tilled field. Today's track is Bench by the Rows. Listen at the link in bio.
+
+Sources: Maison et jardins de Claude Monet, Musée des impressionnismes Giverny
+
+#고요 #고요여행 #지베르니 #모네 #프랑스여행 #정미년 #오행음악 #giverny #monet""",
+ reel_caption="""모네의 마을, 프랑스 지베르니.
+
+1월 28일에 읽은 〈건초더미(여름의 끝)〉의 더미가 서 있던 들판이에요. 정미년의 미(未)는 늦여름의 흙, 그림으로 본 늦여름 들판의 빛을 그 자리에서 보는 여행이에요. 겨울에 정원이 열려 있는지, 가는 길과 올해 볼 전시는 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜기토(己土)』의 『Bench by the Rows』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Monet's village: Giverny, France, the fields where the wheat stacks from our January 28 post once stood. In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, it is a trip to see late-summer light where it was painted. Whether the garden is open in winter, how to get there, and this year's show are in our feed post.
+
+The music is Bench by the Rows from Five Kinds of Quiet · 己土 Yin Earth (Gito). Listen at the link in bio.
+
+#고요 #지베르니 #모네 #오행음악""",
 )
 
 JS = 'art/정선_인왕제색도.jpg'
@@ -1848,6 +2035,76 @@ Image: Art Institute of Chicago, 1890-91, public domain (CC0, Art Institute of C
 #고요 #고요의그림읽기 #모네 #건초더미 #Monet #정미년 #오행 #명화 #fiveelements""",
 )
 
+HR = 'art/히로시게_오하시소나기.jpg'
+# ───────── 2/4 목(입춘) · 고요의 그림 읽기 #6 히로시게 〈오하시 다리의 소나기〉 (계수) — 원문 Ⅶ, 결정 4·14
+P['0204'] = dict(
+ music='계수',
+ slides=[
+  S([T('고요의 그림 읽기 #6', 40, GOLD, gap=10), T('하늘의 물', 80, bold=True, gap=14),
+     T('우타가와 히로시게, 〈오하시 다리와 아타케의 소나기〉\n1857 · 『명소 에도 백경』 · 퍼블릭 도메인(위키미디어 공용)', 26, [150, 145, 135], gap=10),
+     T('Sudden Shower over Shin-Ōhashi Bridge and Atake · Hiroshige', 26, EN, gap=0)], card={'file': HR, 'h': 620}),
+  S([T('다리 위로 갑자기\n저녁 소나기가 쏟아져요.', 62, bold=True, gap=30),
+     T('삿갓과 거적을 뒤집어쓴 사람들이\n종종걸음으로 다리를 건너고,\n강 위엔 뗏목 사공 하나.', 44, gap=28),
+     T('빗줄기는 검은 선 수백 개로 새겼어요.', 40, GOLD, gap=34),
+     T('A sudden evening shower over a bridge. People under hats\nand mats hurry across; a lone raftsman poles down the river.\nThe rain is cut as hundreds of fine black lines.', 26, EN, gap=0)], tag='그림'),
+  S([T('에도(지금의 도쿄)의\n이름난 곳을 그린\n『명소 에도 백경』의 한 장.', 56, bold=True, gap=30),
+     T('1857년, 히로시게가 세상을 뜨기\n한 해 전에 나온 목판화예요.', 44, gap=28),
+     T('강 건너 아타케는 막부의 배가\n머물던 데서 붙은 이름이에요.', 40, GOLD, gap=34),
+     T('One sheet from One Hundred Famous Views of Edo (today\'s\nTokyo), a woodblock print from 1857, the year before Hiroshige\ndied. Atake, across the river, was named for a shogunate\nship once moored there.', 24, EN, gap=0)], tag='명소 에도 백경'),
+  S([T('30년 뒤 파리에서\n반 고흐가 이 판화를\n유화로 따라 그렸어요.', 60, bold=True, gap=30),
+     T('1887년 〈빗속의 다리(히로시게를 따라)〉,\n지금 반 고흐 미술관에 있어요.', 42, gap=28),
+     T('고흐는 히로시게 판화를 마흔 점 넘게 가졌고\n이 판화도 그중 하나였다고 해요.', 38, GOLD, gap=34),
+     T('Thirty years later in Paris, Van Gogh copied this print in oil:\nBridge in the Rain (after Hiroshige), 1887, now in the Van\nGogh Museum. He owned more than 40 Hiroshige prints,\nthis one among them.', 24, EN, gap=0)], tag='반 고흐가 따라 그린 그림'),
+  S([T('보이는 것', 40, GOLD, True, 6), T('하늘에서 쏟아지는 비 → 물, 그중 빗물', 40, gap=24),
+     T('그리는 방식', 40, GOLD, True, 6), T('가늘고 곧은 선을 겹겹이 → 물', 40, gap=24),
+     T('화가의 사주', 40, GOLD, True, 6), T('히로시게는 태어난 날이 확실하지 않아\n사주는 보지 않아요.', 38, gap=24),
+     T('고요의 읽기로는 계수(癸水),\n하늘에서 내리는 작은 물이에요.', 40, gap=26),
+     T('Seen: rain pouring from the sky. Painted: fine straight lines,\nlayer on layer. We read it as 癸水 Yin Water (Gyesu), small\nwater falling from the sky. Hiroshige\'s birth date is uncertain,\nso we don\'t read his chart.', 24, EN, gap=0)], tag='고요의 읽기 · 수(水)'),
+  S([T('옛사람들은 정미년을\n하늘의 물, 천하수라고도\n불렀어요.', 60, bold=True, gap=30),
+     T('글자는 불과 흙이지만,\n옛 이름에는 하늘에서 내리는 물이 있어요.', 42, gap=28),
+     T('옛 이름이에요.\n이 이름으로 해나 사람을 판단하지는 않아요.', 36, [150, 145, 135], gap=30),
+     T('People of old also called the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth "Water from the Sky." Its characters are\nFire and Earth, but its old name holds rain. It is only an\nold name; we don\'t judge a year or a person by it.', 24, EN, gap=0)], tag='정미년과 이어서'),
+  S([T('오늘 2월 4일 오전 10시 46분,\n입춘과 함께 정미년이 시작됐어요.', 50, bold=True, gap=30),
+     T('정미년을 맞으며 읽은 그림들,', 44, gap=24),
+     T('라 투르의 등불, 밀레와 모네의 밭,\n정선의 바위, 히로시게의 비.', 40, GOLD, gap=34),
+     T('At 10:46 this morning, the start of spring (立春) opened the\n丁未 year. Paintings we read on the way to\nthe new year: La Tour\'s lamp, Millet\'s and Monet\'s fields,\nJeong Seon\'s rock, and Hiroshige\'s rain.', 24, EN, gap=0)], tag='입춘 날에'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
+     T('가는 비와 이슬 같은 소리예요.', 50, gap=24), T('오늘 밤 9시 릴스에 흐르는 곡은\n『Rain Circle』,\n빗방울이 그리는 동그라미예요.', 40, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yin Water: like fine rain and dew.\nTonight\'s reel: Rain Circle. Listen at the link in bio.', 28, EN, gap=0)], tag='이 그림 옆에 둘 소리'),
+ ],
+ caption="""고요의 그림 읽기 #6 · 우타가와 히로시게 〈오하시 다리와 아타케의 소나기〉
+
+다리 위로 갑자기 저녁 소나기가 쏟아져요. 삿갓과 거적을 뒤집어쓴 사람들이 종종걸음으로 다리를 건너고, 강 위엔 뗏목 사공 하나가 있어요. 빗줄기는 검은 선 수백 개로 새겼어요.
+
+에도(지금의 도쿄)의 이름난 곳을 그린 『명소 에도 백경』의 한 장으로, 1857년 히로시게가 세상을 뜨기 한 해 전에 나온 목판화예요. 강 건너 아타케는 막부의 배가 머물던 데서 붙은 이름이에요. 30년 뒤 파리에서 반 고흐가 이 판화를 유화로 따라 그렸어요. 1887년 〈빗속의 다리(히로시게를 따라)〉로, 지금 반 고흐 미술관에 있어요. 고흐는 히로시게 판화를 마흔 점 넘게 가졌고 이 판화도 그중 하나였다고 해요.
+
+고요의 읽기로는 수(水), 그중 하늘에서 내리는 작은 물, 계수(癸水)예요. 히로시게는 태어난 날이 확실하지 않아 사주는 보지 않았어요. 옛사람들은 정미년을 하늘의 물, 천하수라고도 불렀어요. 글자는 불과 흙이지만 옛 이름에는 하늘에서 내리는 물이 있어요. 옛 이름일 뿐이고, 이 이름으로 해나 사람을 판단하지는 않아요.
+
+오늘 2월 4일 오전 10시 46분, 입춘과 함께 정미년이 시작됐어요. 정미년을 맞으며 읽은 그림은 라 투르의 등불, 밀레와 모네의 밭, 정선의 바위, 그리고 오늘 히로시게의 비예요.
+
+이 그림 옆에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 밤 9시 릴스에는 빗방울이 그리는 동그라미, 『Rain Circle』이 흘러요. 프로필 링크에서 들을 수 있어요.
+
+그림: 1857, 퍼블릭 도메인(위키미디어 공용 이미지) / 반 고흐 모사: 반 고흐 미술관
+
+· English ·
+Goyo Reads a Painting #6 · Utagawa Hiroshige, Sudden Shower over Shin-Ōhashi Bridge and Atake
+
+A sudden evening shower pours over a bridge. People under hats and straw mats hurry across, and a lone raftsman poles down the river. The rain is cut as hundreds of fine black lines.
+
+It is one sheet from One Hundred Famous Views of Edo (today's Tokyo), a woodblock print from 1857, the year before Hiroshige died. Atake, across the river, was named for a shogunate ship once moored there. Thirty years later in Paris, Van Gogh copied this print in oil: Bridge in the Rain (after Hiroshige), 1887, now in the Van Gogh Museum. He owned more than 40 Hiroshige prints, this one among them.
+
+We read it as Water, and within Water, small water falling from the sky: 癸水 Yin Water (Gyesu). Hiroshige's birth date is uncertain, so we don't read his chart. People of old also called the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth "Water from the Sky." Its characters are Fire and Earth, but its old name holds rain. It is only an old name; we don't judge a year or a person by it.
+
+At 10:46 this morning, the start of spring (立春) opened the 丁未 year. The paintings we read on the way to the new year: La Tour's lamp, Millet's and Monet's fields, Jeong Seon's rock, and today, Hiroshige's rain.
+
+Beside it: Five Kinds of Quiet · Yin Water, like fine rain and dew. Tonight's 9 p.m. reel plays Rain Circle. Listen at the link in bio.
+
+Image: 1857, public domain (Wikimedia Commons). Van Gogh copy: Van Gogh Museum.
+
+#고요 #고요의그림읽기 #히로시게 #우키요에 #반고흐 #입춘 #정미년 #오행 #명화 #fiveelements""",
+)
+
 ML = 'art/밀레_이삭줍는여인들.jpg'
 P['0114'] = dict(
  music='기토',
@@ -1922,7 +2179,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27', '0128': '2027-01-28', '0129': '2027-01-29', '0131': '2027-01-31', '0201': '2027-02-01'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27', '0128': '2027-01-28', '0129': '2027-01-29', '0131': '2027-01-31', '0201': '2027-02-01', '0203': '2027-02-03', '0204': '2027-02-04', '0205': '2027-02-05'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil
