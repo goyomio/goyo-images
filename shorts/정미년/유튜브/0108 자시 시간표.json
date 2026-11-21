@@ -240,7 +240,7 @@
      26
     ],
     [
-     "시계가 이미 해에 맞춰져 있어서\n30분을 빼지 않아요.",
+     "시계가 이미 해에 거의 맞춰져 있어서\n30분을 빼지 않아요.",
      48,
      [
       200,
@@ -251,7 +251,7 @@
      22
     ],
     [
-     "(여름 서머타임은 따로 따져야 해요.)",
+     "(서머타임 기간은 따로 따져야 해요.)",
      34,
      [
       190,
@@ -262,7 +262,7 @@
      26
     ],
     [
-     "From March 21, 1954 to August 9, 1961,\nKorean clocks ran on 127.5°E, already matched to the sun:\nno 30-minute adjustment. (Summer time is separate.)",
+     "From March 21, 1954 to August 9, 1961,\nKorean clocks ran on 127.5°E, already close to the sun:\nno 30-minute adjustment. (Summer time is separate.)",
      26,
      [
       214,
