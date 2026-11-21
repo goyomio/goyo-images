@@ -1,0 +1,451 @@
+{
+ "music": "병화",
+ "slides": [
+  {
+   "items": [
+    [
+     "1월 15일 · 고요 여행",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "바다를\n바라보는 절",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "김제 심포항 · 망해사의 해넘이",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "A temple that looks out to sea",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "망해사(望海寺),\n이름 그대로\n바다를 바라보는 절이에요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     32
+    ],
+    [
+     "전북 김제 진봉면, 진봉산 자락의\n벼랑 위에서 서해를 내려다봐요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "만경강 하구 곁이에요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Manghaesa (望海寺) means \"the temple that looks out\nto sea.\" It sits on a cliff on Jinbongsan in Gimje,\nNorth Jeolla, near the mouth of the Mangyeong River.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이름"
+  },
+  {
+   "items": [
+    [
+     "김제·만경의 너른 들은\n지평선을 볼 수 있는\n드문 곳이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "그 들판이 끝나는 자리에서\n수평선이 시작돼요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "망해사에서는 서해와\n고군산군도가 내다보여요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "들판 이야기는 1월 24일에 이어 갈게요.",
+     36,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "The Gimje plains are one of the few places in Korea\nwhere the land meets the sky in a straight line.\nWhere the fields end, the sea begins. From the temple,\nyou can look out on the West Sea and the Gogunsan Islands.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "지평선 끝, 수평선의 시작"
+  },
+  {
+   "items": [
+    [
+     "세운 이야기는 두 가지가 전해요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "642년 부설 거사가 세웠다는 이야기,\n754년 통장 법사가 세웠다는 이야기.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "1624년에는 진묵 대사가\n절을 다시 일으켰다고 해요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "2024년에는 망해사 일원이\n국가 명승이 되었어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "한국민족문화대백과사전",
+     32,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "Two founding stories survive: one credits the lay\nBuddhist Buseol (642), the other the monk Tongjang (754).\nThe monk Jinmuk rebuilt it in 1624. In 2024 the grounds\nbecame a national Scenic Site (Encyclopedia of Korean Culture).",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "오래된 절"
+  },
+  {
+   "items": [
+    [
+     "절 아래 심포항은\n해넘이와 넓은 갯벌로\n알려진 포구예요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "1월 중순에는 오후 5시 40분 무렵\n서쪽 바다 쪽으로 해가 져요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "2024년 4월 화재로 일부 전각이 탔어요.\n관람 시간과 복구 상황을\n가기 전에 꼭 확인하세요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Below the temple, Simpo Port is known for its sunsets\nand wide tidal flats. In mid-January the sun sets around\n5:40 p.m. A fire in April 2024 burned some halls, so\ncheck opening hours and repairs before you go.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "해 지는 시각"
+  },
+  {
+   "items": [
+    [
+     "해는 병화(丙火),\n하늘의 큰 불이에요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "지금은 아직 병오년, 큰 불의 해.\n2월 4일 입춘부터 정미년이 와요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "들판이 끝나는 자리에서\n해가 낮게 내려앉는 모습을\n큰 불이 작은 불빛으로 옮겨 가는\n2027년의 모양으로 봐요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     20
+    ],
+    [
+     "제 해석이에요.",
+     34,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "The sun is 丙火 Yang Fire (Byeonghwa). To us, the sun\nsinking low where the fields end looks like 2027:\na big fire settling into a small light.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "사주로 보면"
+  },
+  {
+   "items": [
+    [
+     "정미년은 크게 타오르던 불이\n작은 등불이 되어\n흙에 내려앉는 해예요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     32
+    ],
+    [
+     "해넘이를 본 날,\n돌아오는 길의 작은 불빛까지\n천천히 보고 와도 좋아요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "In 2027, a blazing fire becomes a small lamp\nand settles into the earth. On the way back,\ntake your time and notice the small lights.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "정미년과 이어서"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "병화 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "하늘의 해 같은 소리예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 고른 곡은 『Amber Window』,\n해 질 녘 호박빛으로 물드는 창이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yang Fire, music like the sun.\nToday's track is Amber Window,\na window turning amber at sunset.\nListen through the link in bio.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "해 질 녘에 둘 소리"
+  }
+ ]
+}

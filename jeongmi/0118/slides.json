@@ -1,0 +1,429 @@
+{
+ "music": "계수",
+ "slides": [
+  {
+   "items": [
+    [
+     "1월 18일 · 이번 주 기운",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "수요일,\n대한",
+     112,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "大寒 · 1월 20일 오후 4시 30분",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Major Cold (大寒) arrives Wednesday",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "대한은\n스물네 절기의 마지막이에요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "해가 하늘길의 300도에 이르는 때,\n이름은 「큰 추위」예요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "다음 절기가 입춘이에요.\n올해 입춘은 2월 4일 오전 10시 46분.",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Major Cold is the last of the twenty-four solar terms,\nwhen the sun reaches 300° on its yearly path.\nNext comes the start of spring (立春):\nFebruary 4 at 10:46 a.m. this year.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "마지막 절기"
+  },
+  {
+   "items": [
+    [
+     "보름 전 소한은\n사주의 달을 바꿨지만,",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "대한은\n달을 바꾸지 않아요.",
+     70,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "스물네 절기 가운데 달을 여는 건 열둘,\n대한은 달의 한가운데에 드는 쪽이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "축월(丑月)은 입춘까지 이어져요.",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Two weeks ago, Minor Cold started a new Saju month.\nMajor Cold doesn't, so the 丑 Deep Night Earth (Chukto)\nmonth runs until the start of spring.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "사주의 달은 그대로"
+  },
+  {
+   "items": [
+    [
+     "축(丑)은\n한겨울의 언 흙이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "그 흙 속에는\n기토(己土)와 함께\n계수(癸水)와 신금(辛金)이\n들어 있다고 봐요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "언 흙 속에 숨은 물.\n오늘 음악을 계수 편으로 고른 이유예요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Saju holds that inside this frozen earth lie\n己土 Yin Earth (Gito), 癸水 Yin Water (Gyesu),\nand 辛金 Yin Metal (Singeum). Water hidden in frozen\nearth: that is why today's music comes from Yin Water.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "언 흙 속의 물"
+  },
+  {
+   "items": [
+    [
+     "이름은 큰 추위지만,\n우리나라에서 가장 추운 때는\n1월 15일 무렵이라고 해요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "「대한 끝에 양춘이 있다」",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "큰 추위 끝에는\n따뜻한 봄이 온다는 옛말이에요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "The name means \"great cold,\" but in Korea the coldest\ndays usually come around January 15. An old saying:\n\"At the end of Major Cold comes warm spring.\"",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "큰 추위 끝에"
+  },
+  {
+   "items": [
+    [
+     "제주에서는\n대한 뒤 5일부터\n입춘 전 3일까지를\n「신구간」이라 불러요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "이사나 집수리를 이때 했어요.\n올해로 치면 1월 25일부터 2월 1일까지예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "입춘 전날은 「해넘이」라고도 불렀어요.\n그날 밤 콩을 뿌리며 새해를 맞는\n풍속도 일부 지방에 있었다고 해요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "On Jeju Island, the stretch from five days after\nMajor Cold until three days before the start of spring\nis Singugan, the time for moving house and repairs.\nThis year: January 25 to February 1.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "입춘을 기다리는 풍속"
+  },
+  {
+   "items": [
+    [
+     "월 정유 · 화 무술 · 수 기해\n목 경자 · 금 신축 · 토 임인\n일 계묘",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "날마다 앞 글자가\n불 → 흙 → 쇠 → 물 순서로 흘러요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "해는 아직 병오년, 달은 축월이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "This week, the first characters of the day pillars run\nFire → Earth → Metal → Water. We are still in\nthe 丙午 year (Byeong-o) · Yang Fire · Noon Fire,\nand the Deep Night Earth month.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이번 주 일진"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "계수 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "가는 비와 이슬 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 고른 곡은 『Cloud Water』,\n아직 내리지 않고 구름에 머문 물이에요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yin Water:\nsounds like fine rain and dew.\nToday's track is Cloud Water,\nwater still held in the clouds.\nListen at the link in bio.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "틀어 두기 좋은 소리"
+  }
+ ]
+}

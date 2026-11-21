@@ -895,6 +895,173 @@ The music is River Stone from Five Kinds of Quiet · Yang Metal. Listen through 
 #고요 #정미년 #오행음악 #경금 #saju""",
 )
 
+# ───────── 1/15 금 · 여행: 심포항·망해사 해넘이 (병화) — 원문 Ⅷ 바다
+P['0115'] = dict(
+ music='병화', audio='shorts/음원/병화_Amber Window_60s.m4a',
+ slides=[
+  S([T('1월 15일 · 고요 여행', 44, GOLD, gap=30), T('바다를\n바라보는 절', 104, bold=True, gap=36),
+     T('김제 심포항 · 망해사의 해넘이', 44, gap=30), T('A temple that looks out to sea', 36, EN, gap=0)]),
+  S([T('망해사(望海寺),\n이름 그대로\n바다를 바라보는 절이에요.', 62, bold=True, gap=32),
+     T('전북 김제 진봉면, 진봉산 자락의\n벼랑 위에서 서해를 내려다봐요.', 46, gap=26),
+     T('만경강 하구 곁이에요.', 42, GOLD, gap=34),
+     T('Manghaesa (望海寺) means "the temple that looks out\nto sea." It sits on a cliff on Jinbongsan in Gimje,\nNorth Jeolla, near the mouth of the Mangyeong River.', 28, EN, gap=0)], tag='이름'),
+  S([T('김제·만경의 너른 들은\n지평선을 볼 수 있는\n드문 곳이에요.', 58, bold=True, gap=30),
+     T('그 들판이 끝나는 자리에서\n수평선이 시작돼요.', 50, gap=28),
+     T('망해사에서는 서해와\n고군산군도가 내다보여요.', 42, gap=30),
+     T('들판 이야기는 1월 24일에 이어 갈게요.', 36, [150, 145, 135], gap=30),
+     T('The Gimje plains are one of the few places in Korea\nwhere the land meets the sky in a straight line.\nWhere the fields end, the sea begins. From the temple,\nyou can look out on the West Sea and the Gogunsan Islands.', 26, EN, gap=0)], tag='지평선 끝, 수평선의 시작'),
+  S([T('세운 이야기는 두 가지가 전해요.', 46, gap=26),
+     T('642년 부설 거사가 세웠다는 이야기,\n754년 통장 법사가 세웠다는 이야기.', 48, bold=True, gap=28),
+     T('1624년에는 진묵 대사가\n절을 다시 일으켰다고 해요.', 44, gap=28),
+     T('2024년에는 망해사 일원이\n국가 명승이 되었어요.', 50, bold=True, gap=24),
+     T('한국민족문화대백과사전', 32, [150, 145, 135], gap=30),
+     T('Two founding stories survive: one credits the lay\nBuddhist Buseol (642), the other the monk Tongjang (754).\nThe monk Jinmuk rebuilt it in 1624. In 2024 the grounds\nbecame a national Scenic Site (Encyclopedia of Korean Culture).', 26, EN, gap=0)], tag='오래된 절'),
+  S([T('절 아래 심포항은\n해넘이와 넓은 갯벌로\n알려진 포구예요.', 58, bold=True, gap=30),
+     T('1월 중순에는 오후 5시 40분 무렵\n서쪽 바다 쪽으로 해가 져요.', 46, gap=26),
+     T('2024년 4월 화재로 일부 전각이 탔어요.\n관람 시간과 복구 상황을\n가기 전에 꼭 확인하세요.', 40, GOLD, gap=34),
+     T('Below the temple, Simpo Port is known for its sunsets\nand wide tidal flats. In mid-January the sun sets around\n5:40 p.m. A fire in April 2024 burned some halls, so\ncheck opening hours and repairs before you go.', 26, EN, gap=0)], tag='해 지는 시각'),
+  S([T('해는 병화(丙火),\n하늘의 큰 불이에요.', 60, bold=True, gap=28),
+     T('지금은 아직 병오년, 큰 불의 해.\n2월 4일 입춘부터 정미년이 와요.', 44, gap=28),
+     T('들판이 끝나는 자리에서\n해가 낮게 내려앉는 모습을\n큰 불이 작은 불빛으로 옮겨 가는\n2027년의 모양으로 봐요.', 46, bold=True, gap=20),
+     T('제 해석이에요.', 34, [150, 145, 135], gap=30),
+     T('The sun is 丙火 Yang Fire (Byeonghwa). To us, the sun\nsinking low where the fields end looks like 2027:\na big fire settling into a small light.', 28, EN, gap=0)], tag='사주로 보면'),
+  S([T('정미년은 크게 타오르던 불이\n작은 등불이 되어\n흙에 내려앉는 해예요.', 54, bold=True, gap=32),
+     T('해넘이를 본 날,\n돌아오는 길의 작은 불빛까지\n천천히 보고 와도 좋아요.', 46, gap=34),
+     T('In 2027, a blazing fire becomes a small lamp\nand settles into the earth. On the way back,\ntake your time and notice the small lights.', 28, EN, gap=0)], tag='정미년과 이어서'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('병화 편', 96, bold=True, gap=34),
+     T('하늘의 해 같은 소리예요.', 52, gap=24), T('오늘 고른 곡은 『Amber Window』,\n해 질 녘 호박빛으로 물드는 창이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yang Fire, music like the sun.\nToday\'s track is Amber Window,\na window turning amber at sunset.\nListen through the link in bio.', 30, EN, gap=0)], tag='해 질 녘에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 15일', 50, GOLD, gap=34), T('바다를\n바라보는 절', 112, bold=True, gap=50), T('A temple that looks out to sea', 40, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('김제 망해사', 60, GOLD, gap=30), T('들판이 끝나는 자리에서\n바다가 시작돼요', 76, bold=True, gap=44),
+       T('Manghaesa, Gimje:\nwhere the plains end, the sea begins', 38, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('해는 병화(丙火),\n하늘의 큰 불', 86, bold=True, gap=40), T('그 해가 들판 끝에서\n낮게 내려앉아요', 62, gap=44),
+       T('The sun is 丙火 Yang Fire (Byeonghwa).\nHere it sinks low where the fields end.', 36, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('1월의 해는\n몇 시에 질까요?', 96, bold=True, gap=34), T('답과 가기 전 확인할 것은\n@goyo_mio 피드 게시물에서', 54, bold=True, gap=30),
+                 T('When does the January sun set?\nThe answer is in our feed post.', 38, EN, gap=0)],
+       items_yt=[T('1월의 해는\n몇 시에 질까요?', 96, bold=True, gap=34), T('답과 가기 전 확인할 것은\n채널 게시물에서', 54, bold=True, gap=30),
+                 T('When does the January sun set?\nThe answer is in our Posts tab.', 38, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('『Amber Window』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Fire\nAmber Window · Listen through the link in bio.', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('『Amber Window』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · Yang Fire\nAmber Window · Music: related video below', 36, EN, gap=0)]),
+ ],
+ caption="""바다를 바라보는 절, 김제 심포항·망해사의 해넘이.
+
+망해사(望海寺)는 이름 그대로 바다를 바라보는 절이에요. 전북 김제 진봉면, 만경강 하구 곁 진봉산 자락의 벼랑 위에서 서해를 내려다봐요. 김제·만경의 너른 들은 지평선을 볼 수 있는 드문 곳인데, 그 들판이 끝나는 자리에서 수평선이 시작돼요. 망해사에서는 서해와 고군산군도가 내다보여요. 들판 이야기는 1월 24일에 이어 갈게요.
+
+세운 이야기는 두 가지가 전해요. 642년 부설 거사가 세웠다는 이야기와 754년 통장 법사가 세웠다는 이야기예요. 1624년에는 진묵 대사가 절을 다시 일으켰다고 하고, 2024년에는 망해사 일원이 국가 명승이 되었어요(한국민족문화대백과사전).
+
+절 아래 심포항은 해넘이와 넓은 갯벌로 알려진 포구예요. 1월 중순에는 오후 5시 40분 무렵 서쪽 바다 쪽으로 해가 져요. 2024년 4월 화재로 일부 전각이 탔으니, 관람 시간과 복구 상황을 가기 전에 꼭 확인하세요.
+
+해는 병화(丙火), 하늘의 큰 불이에요. 지금은 아직 병오년, 큰 불의 해이고 2월 4일 입춘부터 정미년이 와요. 들판이 끝나는 자리에서 해가 낮게 내려앉는 모습을, 큰 불이 작은 불빛으로 옮겨 가는 2027년의 모양으로 봐요. 제 해석이에요. 정미년은 크게 타오르던 불이 작은 등불이 되어 흙에 내려앉는 해예요. 해넘이를 본 날, 돌아오는 길의 작은 불빛까지 천천히 보고 와도 좋아요.
+
+해 질 녘에는 하늘의 해 같은 『다섯 가지 고요｜병화(丙火)』. 오늘 고른 곡은 해 질 녘 호박빛으로 물드는 창, 『Amber Window』예요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+A temple that looks out to sea: sunset at Simpo Port and Manghaesa, Gimje.
+
+Manghaesa (望海寺) means "the temple that looks out to sea." It sits on a cliff on Jinbongsan in Gimje, North Jeolla, near the mouth of the Mangyeong River, looking out over the West Sea. The Gimje plains are one of the few places in Korea where the land meets the sky in a straight line, and where the fields end, the sea begins. From the temple, you can look out on the West Sea and the Gogunsan Islands. We'll come back to the fields on January 24.
+
+Two founding stories survive: one credits the lay Buddhist Buseol (642), the other the monk Tongjang (754). The monk Jinmuk rebuilt the temple in 1624, and in 2024 the temple grounds became a national Scenic Site (Encyclopedia of Korean Culture).
+
+Below the temple, Simpo Port is known for its sunsets and wide tidal flats. In mid-January the sun sets toward the western sea around 5:40 p.m. A fire in April 2024 burned some of the halls, so check opening hours and repairs before you go.
+
+The sun is 丙火 Yang Fire (Byeonghwa), the great fire in the sky. It is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, a year of big fire. The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春) on February 4. To us, the sun sinking low where the fields end looks like 2027: a big fire settling into a small light. This is our own reading. In 2027, a blazing fire becomes a small lamp and settles into the earth. On the way back from the sunset, take your time and notice the small lights.
+
+For sunset, try Five Kinds of Quiet · Yang Fire, music like the sun in the sky. Today's track is Amber Window, a window turning amber at sunset. Listen through the link in bio.
+
+#고요 #고요여행 #망해사 #심포항 #김제 #서해일몰 #정미년 #오행음악 #korea #sunset""",
+ reel_caption="""바다를 바라보는 절, 김제 망해사.
+
+지평선을 볼 수 있는 김제·만경의 들판이 끝나는 자리에서 바다가 시작돼요. 해는 병화(丙火), 하늘의 큰 불이에요. 그 해가 들판 끝에서 낮게 내려앉는 모습을, 큰 불이 작은 불빛으로 옮겨 가는 2027년의 모양으로 봐요(제 해석). 1월의 해가 몇 시에 지는지, 절의 오래된 이야기, 가기 전에 확인할 것은 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜병화(丙火)』의 『Amber Window』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Manghaesa in Gimje, the temple that looks out to sea. Where the Gimje plains end, the sea begins. The sun is 丙火 Yang Fire (Byeonghwa), the great fire in the sky. To us, the sun sinking low at the edge of the fields looks like 2027: a big fire settling into a small light (our own reading). What time the January sun sets, the temple's old stories, and what to check before you go are all in our feed post.
+
+The music is Amber Window from Five Kinds of Quiet · Yang Fire. Listen through the link in bio.
+
+#고요 #망해사 #김제 #서해일몰 #오행음악""",
+)
+
+# ───────── 1/18 월 · 이번 주 기운: 대한 (계수) — 원문 Ⅰ 절기
+P['0118'] = dict(
+ music='계수',
+ slides=[
+  S([T('1월 18일 · 이번 주 기운', 44, GOLD, gap=30), T('수요일,\n대한', 112, bold=True, gap=36),
+     T('大寒 · 1월 20일 오후 4시 30분', 44, gap=30), T('Major Cold (大寒) arrives Wednesday', 38, EN, gap=0)]),
+  S([T('대한은\n스물네 절기의 마지막이에요.', 60, bold=True, gap=30),
+     T('해가 하늘길의 300도에 이르는 때,\n이름은 「큰 추위」예요.', 46, gap=28),
+     T('다음 절기가 입춘이에요.\n올해 입춘은 2월 4일 오전 10시 46분.', 44, GOLD, gap=34),
+     T('Major Cold is the last of the twenty-four solar terms,\nwhen the sun reaches 300° on its yearly path.\nNext comes the start of spring (立春):\nFebruary 4 at 10:46 a.m. this year.', 28, EN, gap=0)], tag='마지막 절기'),
+  S([T('보름 전 소한은\n사주의 달을 바꿨지만,', 52, gap=24),
+     T('대한은\n달을 바꾸지 않아요.', 70, bold=True, gap=30),
+     T('스물네 절기 가운데 달을 여는 건 열둘,\n대한은 달의 한가운데에 드는 쪽이에요.', 42, gap=28),
+     T('축월(丑月)은 입춘까지 이어져요.', 46, GOLD, gap=34),
+     T('Two weeks ago, Minor Cold started a new Saju month.\nMajor Cold doesn\'t, so the 丑 Deep Night Earth (Chukto)\nmonth runs until the start of spring.', 28, EN, gap=0)], tag='사주의 달은 그대로'),
+  S([T('축(丑)은\n한겨울의 언 흙이에요.', 64, bold=True, gap=30),
+     T('그 흙 속에는\n기토(己土)와 함께\n계수(癸水)와 신금(辛金)이\n들어 있다고 봐요.', 48, gap=30),
+     T('언 흙 속에 숨은 물.\n오늘 음악을 계수 편으로 고른 이유예요.', 42, GOLD, gap=34),
+     T('Saju holds that inside this frozen earth lie\n己土 Yin Earth (Gito), 癸水 Yin Water (Gyesu),\nand 辛金 Yin Metal (Singeum). Water hidden in frozen\nearth: that is why today\'s music comes from Yin Water.', 26, EN, gap=0)], tag='언 흙 속의 물'),
+  S([T('이름은 큰 추위지만,\n우리나라에서 가장 추운 때는\n1월 15일 무렵이라고 해요.', 50, gap=30),
+     T('「대한 끝에 양춘이 있다」', 62, bold=True, gap=24),
+     T('큰 추위 끝에는\n따뜻한 봄이 온다는 옛말이에요.', 46, gap=34),
+     T('The name means "great cold," but in Korea the coldest\ndays usually come around January 15. An old saying:\n"At the end of Major Cold comes warm spring."', 28, EN, gap=0)], tag='큰 추위 끝에'),
+  S([T('제주에서는\n대한 뒤 5일부터\n입춘 전 3일까지를\n「신구간」이라 불러요.', 56, bold=True, gap=28),
+     T('이사나 집수리를 이때 했어요.\n올해로 치면 1월 25일부터 2월 1일까지예요.', 40, gap=28),
+     T('입춘 전날은 「해넘이」라고도 불렀어요.\n그날 밤 콩을 뿌리며 새해를 맞는\n풍속도 일부 지방에 있었다고 해요.', 38, GOLD, gap=34),
+     T('On Jeju Island, the stretch from five days after\nMajor Cold until three days before the start of spring\nis Singugan, the time for moving house and repairs.\nThis year: January 25 to February 1.', 26, EN, gap=0)], tag='입춘을 기다리는 풍속'),
+  S([T('월 정유 · 화 무술 · 수 기해\n목 경자 · 금 신축 · 토 임인\n일 계묘', 54, gap=34),
+     T('날마다 앞 글자가\n불 → 흙 → 쇠 → 물 순서로 흘러요.', 46, gap=28),
+     T('해는 아직 병오년, 달은 축월이에요.', 40, GOLD, gap=34),
+     T('This week, the first characters of the day pillars run\nFire → Earth → Metal → Water. We are still in\nthe 丙午 year (Byeong-o) · Yang Fire · Noon Fire,\nand the Deep Night Earth month.', 26, EN, gap=0)], tag='이번 주 일진'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
+     T('가는 비와 이슬 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Cloud Water』,\n아직 내리지 않고 구름에 머문 물이에요.', 40, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yin Water:\nsounds like fine rain and dew.\nToday\'s track is Cloud Water,\nwater still held in the clouds.\nListen at the link in bio.', 30, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+ ],
+ caption="""수요일, 대한이에요.
+
+1월 20일 오후 4시 30분, 대한(大寒)이 들어요. 대한은 스물네 절기의 마지막으로, 해가 하늘길의 300도에 이르는 때예요. 다음 절기가 입춘이고, 올해 입춘은 2월 4일 오전 10시 46분이에요.
+
+보름 전 소한은 사주의 달을 바꿨지만, 대한은 달을 바꾸지 않아요. 스물네 절기 가운데 달을 여는 건 열둘이고, 대한은 달의 한가운데에 드는 쪽이에요. 그래서 축월(丑月)은 입춘까지 이어져요.
+
+축(丑)은 한겨울의 언 흙이에요. 그 흙 속에는 기토(己土)와 함께 계수(癸水)와 신금(辛金)이 들어 있다고 봐요. 언 흙 속에 숨은 물, 오늘 음악을 계수 편으로 고른 이유예요.
+
+이름은 큰 추위지만, 우리나라에서 가장 추운 때는 1월 15일 무렵이라고 해요. 「대한 끝에 양춘이 있다」, 큰 추위 끝에는 따뜻한 봄이 온다는 옛말이에요. 제주에서는 대한 뒤 5일부터 입춘 전 3일까지를 「신구간」이라 부르며 이사나 집수리를 이때 했어요. 올해로 치면 1월 25일부터 2월 1일까지예요. 입춘 전날은 「해넘이」라고도 불렀고, 그날 밤 콩을 뿌리며 새해를 맞는 풍속도 일부 지방에 있었다고 해요.
+
+이번 주 일진은 정유 → 무술 → 기해 → 경자 → 신축 → 임인 → 계묘. 날마다 앞 글자가 불 → 흙 → 쇠 → 물 순서로 흘러요. 해는 아직 병오년, 달은 축월이에요.
+
+언 흙 속에 숨은 물 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 아직 내리지 않고 구름에 머문 물, 『Cloud Water』예요. 프로필 링크에서 들을 수 있어요.
+
+절기 시각: 한국천문연구원 / 가장 추운 때·신구간: 한국민족문화대백과사전
+
+· English ·
+Major Cold (大寒) arrives Wednesday.
+
+Major Cold begins at 4:30 p.m. on January 20 (Korea Standard Time). It is the last of the twenty-four solar terms, when the sun reaches 300° on its yearly path. Next comes the start of spring (立春), at 10:46 a.m. on February 4 this year.
+
+Two weeks ago, Minor Cold started a new Saju month. Major Cold doesn't. Only twelve of the twenty-four solar terms start a month, and Major Cold falls in the middle of one, so the 丑 Deep Night Earth (Chukto) month runs until the start of spring.
+
+Deep Night Earth is the frozen earth of deep winter. Saju holds that inside it lie 己土 Yin Earth (Gito), 癸水 Yin Water (Gyesu), and 辛金 Yin Metal (Singeum). Water hidden in frozen earth: that is why today's music comes from Yin Water.
+
+Its name means "great cold," but in Korea the coldest days usually come around January 15. As an old saying goes, "At the end of Major Cold comes warm spring." On Jeju Island, the stretch from five days after Major Cold until three days before the start of spring is called Singugan, the traditional time for moving house and repairs. This year, that is January 25 to February 1. The day before the start of spring was also called Haeneomi ("the year's sunset"), and in some regions people scattered beans that night to welcome the new year, which in Saju begins at the start of spring.
+
+This week, the first characters of the day pillars run Fire → Earth → Metal → Water. We are still in the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, and the Deep Night Earth month.
+
+Five Kinds of Quiet · Yin Water is like water hidden in frozen earth. Today's track is Cloud Water, water still held in the clouds. Listen at the link in bio.
+
+Solar term times: Korea Astronomy and Space Science Institute. Coldest days and Singugan: Encyclopedia of Korean Culture.
+
+#고요 #이번주기운 #대한 #절기 #일진 #사주 #오행 #saju #fiveelements""",
+)
+
 ML = 'art/밀레_이삭줍는여인들.jpg'
 P['0114'] = dict(
  music='기토',
@@ -969,7 +1136,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil

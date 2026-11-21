@@ -463,5 +463,75 @@
   "편": "금1",
   "곡": "First Frost",
   "근거": "원곡: goyo-keys/audio/catalog.json 금1 03 6:08 First Frost (곡 시작부터 60초)"
+ },
+ "shorts/음원/병화_Amber Window_60s.m4a": {
+  "편": "병화",
+  "곡": "Amber Window",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 20 1:05:43 Amber Window (곡 시작부터 60초)"
+ },
+ "shorts/음원/병화_Sun on the Pages_60s.m4a": {
+  "편": "병화",
+  "곡": "Sun on the Pages",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 11 34:31 Sun on the Pages (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Boulder Field_60s.m4a": {
+  "편": "경금",
+  "곡": "Boulder Field",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 13 53:42 Boulder Field (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Rain on Moss_60s.m4a": {
+  "편": "계수",
+  "곡": "Rain on Moss",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 15 34:57 Rain on Moss (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Rain Circle_60s.m4a": {
+  "편": "계수",
+  "곡": "Rain Circle",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 18 41:35 Rain Circle (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Ripple_60s.m4a": {
+  "편": "계수",
+  "곡": "Ripple",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 20 46:26 Ripple (곡 시작부터 60초)"
+ },
+ "shorts/음원/기토_Bench by the Rows_60s.m4a": {
+  "편": "기토",
+  "곡": "Bench by the Rows",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 14 41:44 Bench by the Rows (곡 시작부터 60초)"
+ },
+ "shorts/음원/기토_Fallow Hour_60s.m4a": {
+  "편": "기토",
+  "곡": "Fallow Hour",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 16 48:03 Fallow Hour (곡 시작부터 60초)"
+ },
+ "shorts/음원/을목_Rising Again_60s.m4a": {
+  "편": "을목",
+  "곡": "Rising Again",
+  "근거": "원곡: goyo-keys/audio/catalog.json 을목 15 38:07 Rising Again (곡 시작부터 60초)"
+ },
+ "shorts/음원/정화_Window Candle_60s.m4a": {
+  "편": "정화",
+  "곡": "Window Candle",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 11 43:35 Window Candle (곡 시작부터 60초)"
+ },
+ "shorts/음원/신금_Glass Bell_60s.m4a": {
+  "편": "신금",
+  "곡": "Glass Bell",
+  "근거": "원곡: goyo-keys/audio/catalog.json 신금 11 44:39 Glass Bell (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Cloud Water_60s.m4a": {
+  "편": "계수",
+  "곡": "Cloud Water",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 08 17:37 Cloud Water (곡 시작부터 60초)"
+ },
+ "shorts/음원/토1_Field After Rain_60s.m4a": {
+  "편": "토1",
+  "곡": "Field After Rain",
+  "근거": "원곡: goyo-keys/audio/catalog.json 토1 06 13:09 Field After Rain (곡 시작부터 60초)"
+ },
+ "shorts/음원/기토_Potting Shed_60s.m4a": {
+  "편": "기토",
+  "곡": "Potting Shed",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 07 19:05 Potting Shed (곡 시작부터 60초)"
  }
 }

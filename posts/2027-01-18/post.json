@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-01-18/01.jpg",
+  "posts/2027-01-18/02.jpg",
+  "posts/2027-01-18/03.jpg",
+  "posts/2027-01-18/04.jpg",
+  "posts/2027-01-18/05.jpg",
+  "posts/2027-01-18/06.jpg",
+  "posts/2027-01-18/07.jpg",
+  "posts/2027-01-18/08.jpg"
+ ],
+ "caption": "수요일, 대한이에요.\n\n1월 20일 오후 4시 30분, 대한(大寒)이 들어요. 대한은 스물네 절기의 마지막으로, 해가 하늘길의 300도에 이르는 때예요. 다음 절기가 입춘이고, 올해 입춘은 2월 4일 오전 10시 46분이에요.\n\n보름 전 소한은 사주의 달을 바꿨지만, 대한은 달을 바꾸지 않아요. 스물네 절기 가운데 달을 여는 건 열둘이고, 대한은 달의 한가운데에 드는 쪽이에요. 그래서 축월(丑月)은 입춘까지 이어져요.\n\n축(丑)은 한겨울의 언 흙이에요. 그 흙 속에는 기토(己土)와 함께 계수(癸水)와 신금(辛金)이 들어 있다고 봐요. 언 흙 속에 숨은 물, 오늘 음악을 계수 편으로 고른 이유예요.\n\n이름은 큰 추위지만, 우리나라에서 가장 추운 때는 1월 15일 무렵이라고 해요. 「대한 끝에 양춘이 있다」, 큰 추위 끝에는 따뜻한 봄이 온다는 옛말이에요. 제주에서는 대한 뒤 5일부터 입춘 전 3일까지를 「신구간」이라 부르며 이사나 집수리를 이때 했어요. 올해로 치면 1월 25일부터 2월 1일까지예요. 입춘 전날은 「해넘이」라고도 불렀고, 그날 밤 콩을 뿌리며 새해를 맞는 풍속도 일부 지방에 있었다고 해요.\n\n이번 주 일진은 정유 → 무술 → 기해 → 경자 → 신축 → 임인 → 계묘. 날마다 앞 글자가 불 → 흙 → 쇠 → 물 순서로 흘러요. 해는 아직 병오년, 달은 축월이에요.\n\n언 흙 속에 숨은 물 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 아직 내리지 않고 구름에 머문 물, 『Cloud Water』예요. 프로필 링크에서 들을 수 있어요.\n\n절기 시각: 한국천문연구원 / 가장 추운 때·신구간: 한국민족문화대백과사전\n\n· English ·\nMajor Cold (大寒) arrives Wednesday.\n\nMajor Cold begins at 4:30 p.m. on January 20 (Korea Standard Time). It is the last of the twenty-four solar terms, when the sun reaches 300° on its yearly path. Next comes the start of spring (立春), at 10:46 a.m. on February 4 this year.\n\nTwo weeks ago, Minor Cold started a new Saju month. Major Cold doesn't. Only twelve of the twenty-four solar terms start a month, and Major Cold falls in the middle of one, so the 丑 Deep Night Earth (Chukto) month runs until the start of spring.\n\nDeep Night Earth is the frozen earth of deep winter. Saju holds that inside it lie 己土 Yin Earth (Gito), 癸水 Yin Water (Gyesu), and 辛金 Yin Metal (Singeum). Water hidden in frozen earth: that is why today's music comes from Yin Water.\n\nIts name means \"great cold,\" but in Korea the coldest days usually come around January 15. As an old saying goes, \"At the end of Major Cold comes warm spring.\" On Jeju Island, the stretch from five days after Major Cold until three days before the start of spring is called Singugan, the traditional time for moving house and repairs. This year, that is January 25 to February 1. The day before the start of spring was also called Haeneomi (\"the year's sunset\"), and in some regions people scattered beans that night to welcome the new year, which in Saju begins at the start of spring.\n\nThis week, the first characters of the day pillars run Fire → Earth → Metal → Water. We are still in the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, and the Deep Night Earth month.\n\nFive Kinds of Quiet · Yin Water is like water hidden in frozen earth. Today's track is Cloud Water, water still held in the clouds. Listen at the link in bio.\n\nSolar term times: Korea Astronomy and Space Science Institute. Coldest days and Singugan: Encyclopedia of Korean Culture.\n\n#고요 #이번주기운 #대한 #절기 #일진 #사주 #오행 #saju #fiveelements",
+ "note": "정미년 시리즈 0118 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}
