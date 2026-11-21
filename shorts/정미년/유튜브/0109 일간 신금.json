@@ -1,0 +1,401 @@
+{
+ "audio": "shorts/정미년/audio/신금_FineEdge_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "신금 일간,\n여름생이세요? 겨울생이세요?",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "*태어난 달은 절기 기준이에요",
+     34,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     26
+    ],
+    [
+     "A 辛金 Yin Metal (Singeum) Day Master:\nborn in summer, or in winter?",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "instant": true,
+   "art": {
+    "file": "shorts/정미년/art/신금_해_눈.png",
+    "h": 260
+   }
+  },
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "부드럽고 맑게 빛나는 금,\n신금(辛金)",
+     68,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Yin Metal: cut stone, soft and clear",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/신금_깎은돌.png",
+    "h": 300
+   }
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "옛 책 『적천수』는\n신금을 두고 이렇게 말해요",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "熱則喜母\n寒則喜丁",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     36
+    ],
+    [
+     "The old Saju classic Di Tian Sui (滴天髓) says of Yin Metal:\nin heat, it welcomes its mother; in cold, it welcomes 丁.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "여름에 태어났다면,\n열을 누그러뜨리는 흙(기토)을\n반긴다고 봐요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     22
+    ],
+    [
+     "책이 말한 「어머니」예요.",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Born in summer, it welcomes the earth that tempers the heat,\nits “mother”: 己土 Yin Earth (Gito).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "熱則喜母",
+   "art": {
+    "file": "shorts/정미년/art/신금_해와흙.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 5.0,
+   "items": [
+    [
+     "겨울에 태어났다면,\n추위를 녹이는 등불(정화)을\n반긴다고 했어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "Born in winter, it welcomes a lamp against the cold:\n丁火 Yin Fire (Jeonghwa).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "寒則喜丁",
+   "art": {
+    "file": "shorts/정미년/art/신금_눈과등불.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "정미년엔 글자로\n그 둘이 다 들어 있어요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     20
+    ],
+    [
+     "정화(丁), 그리고 미(未) 속의 기토(己).",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     20
+    ],
+    [
+     "*어떻게 닿을지는 사주 전체를 봐야 해요",
+     34,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth holds both:\nYin Fire, and the Yin Earth inside 未 Afternoon Earth (Mito).\nHow it lands depends on the whole chart.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/신금_등불과흙.png",
+    "h": 260
+   }
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "다만 신금에게 정화는\n반가우면서도 조금 버거운 불이에요.",
+     48,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     30
+    ],
+    [
+     "조금 버거운 일이 오히려\n나를 단단하게 다듬는 해가\n될 수 있어요.",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "사주의 해는 입춘(2027년 2월 4일 오전 10시 46분)에 바뀌어요.",
+     30,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     24
+    ],
+    [
+     "For Yin Metal, Yin Fire is welcome, but a little heavy too.\nOne way to read it: a year when a bit of strain\ncould shape you into something sturdier.\nIn Saju, the year turns at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.0,
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "신금(辛金)\n『Fine Edge』",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Metal\n“Fine Edge”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "신금(辛金)\n『Fine Edge』",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "내 일간은 채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Metal\n“Fine Edge”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.6,
+   "art": {
+    "file": "shorts/정미년/art/신금_깎은돌.png",
+    "h": 220
+   }
+  }
+ ]
+}
