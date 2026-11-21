@@ -722,15 +722,18 @@ P['0111'] = dict(
      T('둘이 함께 받은 이름은', 46, gap=20), T('천하수, 하늘의 물', 64, bold=True, gap=26),
      T('丙午 · 丁未  天河水', 40, GOLD, gap=34),
      T('2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire,\nand 2027, the 丁未 year (Jeongmi)\n· Yin Fire · Afternoon Earth,\nshare one name: Cheonhasu, water from the sky.', 28, EN, gap=0)], tag='2026과 2027'),
-  S([T('옛사람들은 하늘의 물을', 46, gap=20), T('은하수처럼 하늘에 흐르는 물,\n땅으로 내리는 비와 이슬로\n풀이했어요.', 54, bold=True, gap=34),
-     T('Water from the sky was read as the Milky Way,\nand as the rain and dew that fall to earth.', 30, EN, gap=0)], tag='하늘의 물이란'),
-  S([T('해와 한여름, 등불과 늦여름.\n가장 뜨거운 여름의 두 해에\n물의 이름이 붙어 있어요.', 54, bold=True, gap=30),
-     T('다만 두 해의 글자는 모두 불과 흙이라,\n물의 해라는 뜻은 아니에요.\n옛 이름 하나로만 봐요.', 44, gap=34),
-     T('Two years of high and late summer carry a water name.\nTheir characters are still fire and earth, so this is\nnot a year of water. We keep it as an old name only.', 30, EN, gap=0)], tag='불의 해에 붙은 물의 이름'),
-  S([T('하늘의 물을\n그림으로 본다면', 60, bold=True, gap=30),
+  S([T('하늘의 물은\n더위가 만든 비예요.', 60, bold=True, gap=30),
+     T('한여름 달궈진 땅에서\n더운 공기가 올라가 구름이 되고,\n그 구름이 소나기로 쏟아져요.', 46, gap=26),
+     T('미(未)의 달, 7월 초~8월 초는\n장마와 소나기가 몰리는 때이기도 해요.', 40, GOLD, gap=34),
+     T('Water from the sky is rain made by heat. Air rising\nfrom sun-baked ground forms clouds that break into\nsudden showers. The month of 未 Afternoon Earth (Mito),\nearly July to early August, is also monsoon season.', 28, EN, gap=0)], tag='하늘의 물이란'),
+  S([T('가장 뜨거운 여름의 두 해에\n물의 이름이 붙은 건,', 50, gap=22),
+     T('열이 끝까지 차오르면\n비로 내려오기 때문이라고\n읽을 수 있어요.', 58, bold=True, gap=30),
+     T('그래도 두 해의 글자는 모두 불과 흙이라,\n물의 해라는 뜻은 아니에요.\n옛 이름 하나로만 봐요.', 40, gap=34),
+     T('Two years of high and late summer carry a water name,\nperhaps because heat, once it peaks, comes down as rain.\nTheir characters are still fire and earth, so this is not\na year of water. We keep it as an old name only.', 28, EN, gap=0)], tag='불의 해에 붙은 물의 이름'),
+  S([T('더위 끝의 소나기를\n그림으로 본다면', 58, bold=True, gap=30),
      T('다리 위로 갑자기 쏟아지는 비,\n히로시게의 「오하시 다리의 소나기」예요.', 44, gap=26),
      T('2월 4일 그림 읽기에서 이어 갈게요.', 42, GOLD, gap=34),
-     T('In a painting: Hiroshige\'s Sudden Shower over\nShin-Ōhashi Bridge and Atake (1857).\nMore in our Feb 4 painting post.', 30, EN, gap=0)], tag='그림으로 본다면'),
+     T('Such a shower in a painting: Hiroshige\'s\nSudden Shower over Shin-Ōhashi Bridge and Atake (1857).\nMore in our Feb 4 painting post.', 30, EN, gap=0)], tag='그림으로 본다면'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
      T('넓게 고여 천천히 흐르는\n큰 물 같은 소리예요.', 52, gap=24), T('오늘은 『Morning Haze』를 골랐어요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -740,11 +743,11 @@ P['0111'] = dict(
 
 옛사람들은 예순 개의 해 이름을 둘씩 묶고, 한 쌍마다 이름을 하나씩 붙였어요. 모두 서른 가지, 쇠·나무·물·불·흙의 모습을 빌린 이름이에요.
 
-병오(2026)와 정미(2027)는 한 쌍이에요. 둘이 함께 받은 이름은 천하수(天河水), 하늘의 물이에요. 은하수처럼 하늘에 흐르는 물, 땅으로 내리는 비와 이슬로 풀이하기도 해요.
+병오(2026)와 정미(2027)는 한 쌍이에요. 둘이 함께 받은 이름은 천하수(天河水), 하늘의 물이에요.
 
-해와 한여름, 등불과 늦여름. 가장 뜨거운 여름의 두 해에 물의 이름이 붙어 있어요. 다만 두 해의 글자는 모두 불과 흙이라, 물의 해라는 뜻은 아니에요. 옛 이름 하나로만 봐요. 사주로는 2월 4일 입춘부터 정미년이에요.
+하늘의 물은 더위가 만든 비예요. 한여름 달궈진 땅에서 더운 공기가 올라가 구름이 되고, 그 구름이 소나기로 쏟아져요. 미(未)의 달인 7월 초부터 8월 초까지는 장마와 소나기가 몰리는 때이기도 해요. 가장 뜨거운 여름의 두 해에 물의 이름이 붙은 건, 열이 끝까지 차오르면 비로 내려오기 때문이라고 읽을 수 있어요. 그래도 두 해의 글자는 모두 불과 흙이라, 물의 해라는 뜻은 아니에요. 옛 이름 하나로만 봐요. 사주로는 2월 4일 입춘부터 정미년이에요.
 
-하늘의 물을 그림으로 본다면, 다리 위로 갑자기 쏟아지는 비를 그린 히로시게의 「오하시 다리의 소나기」예요. 2월 4일 그림 읽기에서 이어 갈게요.
+더위 끝의 소나기를 그림으로 본다면, 다리 위로 갑자기 쏟아지는 비를 그린 히로시게의 「오하시 다리의 소나기」예요. 2월 4일 그림 읽기에서 이어 갈게요.
 
 넓게 고여 천천히 흐르는 큰 물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 오늘은 『Morning Haze』를 골랐어요. 프로필 링크에서 들을 수 있어요.
 
@@ -753,11 +756,11 @@ Water from the sky.
 
 Long ago, the sixty year-names were paired two by two, and each pair was given a name drawn from metal, wood, water, fire or earth.
 
-2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, and 2027, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, are one such pair. Their shared name is 天河水 Water from the Sky (Cheonhasu), read as the Milky Way and as the rain and dew that fall to earth.
+2026, the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, and 2027, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, are one such pair. Their shared name is 天河水 Water from the Sky (Cheonhasu).
 
-Two years of high and late summer carry a water name. Their characters are still fire and earth, so this is not a year of water; we keep it as an old name only. In Saju, the 丁未 year begins on February 4.
+Water from the sky is rain made by heat. Air rising from sun-baked ground forms clouds that break into sudden showers, and the month of 未 Afternoon Earth (Mito), early July to early August, is also monsoon season. Two years of high and late summer may carry a water name because heat, once it peaks, comes down as rain. Their characters are still fire and earth, so this is not a year of water; we keep it as an old name only. In Saju, the 丁未 year begins on February 4.
 
-Seen in a painting, water from the sky looks like Hiroshige's Sudden Shower over Shin-Ōhashi Bridge and Atake (1857). More in our February 4 painting post.
+Seen in a painting, a summer shower like that looks like Hiroshige's Sudden Shower over Shin-Ōhashi Bridge and Atake (1857). More in our February 4 painting post.
 
 Music like wide, slow water: Five Kinds of Quiet · 壬水 Yang Water (Imsu). Today's pick is Morning Haze. Listen through the link in bio.
 

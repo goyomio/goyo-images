@@ -150,7 +150,18 @@
   {
    "items": [
     [
-     "옛사람들은 하늘의 물을",
+     "하늘의 물은\n더위가 만든 비예요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "한여름 달궈진 땅에서\n더운 공기가 올라가 구름이 되고,\n그 구름이 소나기로 쏟아져요.",
      46,
      [
       236,
@@ -158,22 +169,22 @@
       226
      ],
      false,
-     20
+     26
     ],
     [
-     "은하수처럼 하늘에 흐르는 물,\n땅으로 내리는 비와 이슬로\n풀이했어요.",
-     54,
+     "미(未)의 달, 7월 초~8월 초는\n장마와 소나기가 몰리는 때이기도 해요.",
+     40,
      [
-      236,
-      233,
-      226
+      200,
+      180,
+      140
      ],
-     true,
+     false,
      34
     ],
     [
-     "Water from the sky was read as the Milky Way,\nand as the rain and dew that fall to earth.",
-     30,
+     "Water from the sky is rain made by heat. Air rising\nfrom sun-baked ground forms clouds that break into\nsudden showers. The month of 未 Afternoon Earth (Mito),\nearly July to early August, is also monsoon season.",
+     28,
      [
       214,
       210,
@@ -188,8 +199,19 @@
   {
    "items": [
     [
-     "해와 한여름, 등불과 늦여름.\n가장 뜨거운 여름의 두 해에\n물의 이름이 붙어 있어요.",
-     54,
+     "가장 뜨거운 여름의 두 해에\n물의 이름이 붙은 건,",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     22
+    ],
+    [
+     "열이 끝까지 차오르면\n비로 내려오기 때문이라고\n읽을 수 있어요.",
+     58,
      [
       236,
       233,
@@ -199,8 +221,8 @@
      30
     ],
     [
-     "다만 두 해의 글자는 모두 불과 흙이라,\n물의 해라는 뜻은 아니에요.\n옛 이름 하나로만 봐요.",
-     44,
+     "그래도 두 해의 글자는 모두 불과 흙이라,\n물의 해라는 뜻은 아니에요.\n옛 이름 하나로만 봐요.",
+     40,
      [
       236,
       233,
@@ -210,8 +232,8 @@
      34
     ],
     [
-     "Two years of high and late summer carry a water name.\nTheir characters are still fire and earth, so this is\nnot a year of water. We keep it as an old name only.",
-     30,
+     "Two years of high and late summer carry a water name,\nperhaps because heat, once it peaks, comes down as rain.\nTheir characters are still fire and earth, so this is not\na year of water. We keep it as an old name only.",
+     28,
      [
       214,
       210,
@@ -226,8 +248,8 @@
   {
    "items": [
     [
-     "하늘의 물을\n그림으로 본다면",
-     60,
+     "더위 끝의 소나기를\n그림으로 본다면",
+     58,
      [
       236,
       233,
@@ -259,7 +281,7 @@
      34
     ],
     [
-     "In a painting: Hiroshige's Sudden Shower over\nShin-Ōhashi Bridge and Atake (1857).\nMore in our Feb 4 painting post.",
+     "Such a shower in a painting: Hiroshige's\nSudden Shower over Shin-Ōhashi Bridge and Atake (1857).\nMore in our Feb 4 painting post.",
      30,
      [
       214,
