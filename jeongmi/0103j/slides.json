@@ -63,8 +63,8 @@
      34
     ],
     [
-     "해마다 10월 초~중순에 열려요.\n2026년은 10월 3일부터 18일까지였어요.",
-     42,
+     "해마다 10월 초~중순, 진주성과 남강 일대.\n입장은 무료, 낮 1시부터 밤 11시까지예요.",
+     40,
      [
       236,
       233,
@@ -74,8 +74,8 @@
      26
     ],
     [
-     "2027년 날짜는 아직 발표 전이에요.",
-     36,
+     "2026년은 10월 3일~18일.\n2027년 날짜는 아직 발표 전이에요.",
+     34,
      [
       150,
       145,
@@ -85,7 +85,7 @@
      30
     ],
     [
-     "Every fall, lamps float on the Namgang River. It's held in early to mid-October.",
+     "Every fall, lamps float on the Namgang River, early to mid-October. Entry is free, 1 to 11 p.m.",
      32,
      [
       214,
@@ -101,30 +101,41 @@
   {
    "items": [
     [
-     "임진왜란 진주성 전투 때",
+     "1592년 10월",
      50,
      [
-      236,
-      233,
-      226
+      200,
+      180,
+      140
      ],
      false,
      20
     ],
     [
-     "남강에 등을 띄워\n강을 건너려는 적을 막고,\n성 밖 가족에게\n안부를 전했다고 해요.",
-     58,
+     "김시민 장군과 군사 약 3,800명이\n왜군 약 2만 명을 막아 낸\n진주성 전투예요.",
+     54,
      [
       236,
       233,
       226
      ],
      true,
-     36
+     32
     ],
     [
-     "It began with a 1590s battle at Jinju Fortress: river lamps held back the enemy and carried word home.",
-     32,
+     "캄캄한 밤 남강에 등을 띄워\n강을 건너려는 적을 살피고 막았고,\n성 밖 가족에게 안부도 전했다고 해요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "October 1592: about 3,800 defenders under Kim Si-min\nheld Jinju Fortress against some 20,000 invaders.\nRiver lamps exposed crossings and carried word home.",
+     30,
      [
       214,
       210,
@@ -134,13 +145,160 @@
      0
     ]
    ],
-   "tag": "왜 강에 등을 띄웠을까요"
+   "tag": "시작은 진주대첩"
   },
   {
    "items": [
     [
-     "2027년의 글자는\n가까운 곳을 오래 비추는 등불.",
+     "이듬해 1593년",
+     50,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     20
+    ],
+    [
+     "다시 쳐들어온 대군에\n성이 무너지고, 민관군\n7만여 명이 목숨을 잃었어요.",
      54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     32
+    ],
+    [
+     "그 뒤로 강에 띄우는 등에는\n그때 스러진 이들을\n기리는 뜻이 이어져 왔어요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "In 1593 the fortress fell, and some 70,000\nsoldiers and townspeople died.\nThe lamps have since also honored them.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "등불에 담긴 또 하나의 뜻"
+  },
+  {
+   "items": [
+    [
+     "축제 기간에는\n진주성이 무료로 열려요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "성 안 남강 절벽 위 촉석루는\n우리나라 3대 누각으로 꼽혀요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "물에 띄운 다리(부교)로 강을 걸어서 건너고,\n소망등을 달 수 있어요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "During the festival, Jinju Fortress is free to enter. Chokseongnu Pavilion sits on its cliff above the river. You can cross on floating bridges and hang a wish lamp.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "갈 때 알아 둘 것"
+  },
+  {
+   "items": [
+    [
+     "축제가 아닐 때도\n유등을 볼 수 있어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "소망진산 유등테마공원은\n늘 열려 있고 무료예요.\n밤이면 유등에 불이 켜져요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "바로 옆 남강유등전시관은 월요일에 쉬고,\n겨울(12~2월)엔 저녁 6시까지 열어요.",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "Off-season, Somangjinsan Lantern Park is open all year, free, and lit at night. The lantern museum next door closes Mondays and at 6 p.m. in winter.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "겨울에 간다면"
+  },
+  {
+   "items": [
+    [
+     "2027년의 글자는\n가까운 곳을 오래 비추는 등불(정화).",
+     46,
      [
       236,
       233,
@@ -150,19 +308,30 @@
      30
     ],
     [
-     "그 등불이\n넓은 강물 위에\n떠 있는 곳이에요.",
-     60,
+     "옛 책은 등불(정화)과\n넓은 강물(임수)을\n서로 끌어당기는 짝으로 묶어요.",
+     56,
      [
       236,
       233,
       226
      ],
      true,
-     36
+     30
     ],
     [
-     "In 2027, the year's character is a lamp. Here, the lamps float on a wide river.",
-     34,
+     "그 짝이 한 장면에 담긴 곳이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "In 2027, the year's character is a lamp: 丁火 Yin Fire (Jeonghwa). Old Saju texts pair it with 壬水 Yang Water (Imsu), a wide river. Here, the pair shares one scene.",
+     30,
      [
       214,
       210,
@@ -232,7 +401,7 @@
      30
     ],
     [
-     "Five Kinds of Quiet · 壬水 Yang Water (Imsu).\nThe first track is Wide Water. Music: link in bio",
+     "Five Kinds of Quiet · Yang Water.\nThe first track is Wide Water.\nListen through the link in bio.",
      32,
      [
       214,

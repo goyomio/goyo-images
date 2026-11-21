@@ -344,17 +344,31 @@ P['0103j'] = dict(
  slides=[
   S([T('1월 3일 · 정미년에 갈 만한 곳', 44, GOLD, gap=30), T('강물 위의\n등불', 116, bold=True, gap=36),
      T('경남 진주 남강유등축제', 48, gap=30), T('Lamps on the river · Jinju, Korea', 38, EN, gap=0)]),
-  S([T('가을이면\n진주 남강 위에\n등이 떠요.', 66, bold=True, gap=34), T('해마다 10월 초~중순에 열려요.\n2026년은 10월 3일부터 18일까지였어요.', 42, gap=26),
-     T('2027년 날짜는 아직 발표 전이에요.', 36, [150, 145, 135], gap=30),
-     T('Every fall, lamps float on the Namgang River. It\'s held in early to mid-October.', 32, EN, gap=0)], tag='강물 위에 등을 띄우는 축제'),
-  S([T('임진왜란 진주성 전투 때', 50, gap=20), T('남강에 등을 띄워\n강을 건너려는 적을 막고,\n성 밖 가족에게\n안부를 전했다고 해요.', 58, bold=True, gap=36),
-     T('It began with a 1590s battle at Jinju Fortress: river lamps held back the enemy and carried word home.', 32, EN, gap=0)], tag='왜 강에 등을 띄웠을까요'),
-  S([T('2027년의 글자는\n가까운 곳을 오래 비추는 등불.', 54, gap=30), T('그 등불이\n넓은 강물 위에\n떠 있는 곳이에요.', 60, bold=True, gap=36),
-     T('In 2027, the year\'s character is a lamp. Here, the lamps float on a wide river.', 34, EN, gap=0)], tag='등불과 강물이 한 장면에'),
+  S([T('가을이면\n진주 남강 위에\n등이 떠요.', 66, bold=True, gap=34), T('해마다 10월 초~중순, 진주성과 남강 일대.\n입장은 무료, 낮 1시부터 밤 11시까지예요.', 40, gap=26),
+     T('2026년은 10월 3일~18일.\n2027년 날짜는 아직 발표 전이에요.', 34, [150, 145, 135], gap=30),
+     T('Every fall, lamps float on the Namgang River, early to mid-October. Entry is free, 1 to 11 p.m.', 32, EN, gap=0)], tag='강물 위에 등을 띄우는 축제'),
+  S([T('1592년 10월', 50, GOLD, gap=20), T('김시민 장군과 군사 약 3,800명이\n왜군 약 2만 명을 막아 낸\n진주성 전투예요.', 54, bold=True, gap=32),
+     T('캄캄한 밤 남강에 등을 띄워\n강을 건너려는 적을 살피고 막았고,\n성 밖 가족에게 안부도 전했다고 해요.', 42, gap=34),
+     T('October 1592: about 3,800 defenders under Kim Si-min\nheld Jinju Fortress against some 20,000 invaders.\nRiver lamps exposed crossings and carried word home.', 30, EN, gap=0)], tag='시작은 진주대첩'),
+  S([T('이듬해 1593년', 50, GOLD, gap=20), T('다시 쳐들어온 대군에\n성이 무너지고, 민관군\n7만여 명이 목숨을 잃었어요.', 54, bold=True, gap=32),
+     T('그 뒤로 강에 띄우는 등에는\n그때 스러진 이들을\n기리는 뜻이 이어져 왔어요.', 44, gap=34),
+     T('In 1593 the fortress fell, and some 70,000\nsoldiers and townspeople died.\nThe lamps have since also honored them.', 30, EN, gap=0)], tag='등불에 담긴 또 하나의 뜻'),
+  S([T('축제 기간에는\n진주성이 무료로 열려요.', 58, bold=True, gap=30),
+     T('성 안 남강 절벽 위 촉석루는\n우리나라 3대 누각으로 꼽혀요.', 44, gap=24),
+     T('물에 띄운 다리(부교)로 강을 걸어서 건너고,\n소망등을 달 수 있어요.', 40, gap=34),
+     T('During the festival, Jinju Fortress is free to enter. Chokseongnu Pavilion sits on its cliff above the river. You can cross on floating bridges and hang a wish lamp.', 30, EN, gap=0)], tag='갈 때 알아 둘 것'),
+  S([T('축제가 아닐 때도\n유등을 볼 수 있어요.', 58, bold=True, gap=30),
+     T('소망진산 유등테마공원은\n늘 열려 있고 무료예요.\n밤이면 유등에 불이 켜져요.', 44, gap=24),
+     T('바로 옆 남강유등전시관은 월요일에 쉬고,\n겨울(12~2월)엔 저녁 6시까지 열어요.', 38, gap=34),
+     T('Off-season, Somangjinsan Lantern Park is open all year, free, and lit at night. The lantern museum next door closes Mondays and at 6 p.m. in winter.', 30, EN, gap=0)], tag='겨울에 간다면'),
+  S([T('2027년의 글자는\n가까운 곳을 오래 비추는 등불(정화).', 46, gap=30),
+     T('옛 책은 등불(정화)과\n넓은 강물(임수)을\n서로 끌어당기는 짝으로 묶어요.', 56, bold=True, gap=30),
+     T('그 짝이 한 장면에 담긴 곳이에요.', 44, gap=34),
+     T('In 2027, the year\'s character is a lamp: 丁火 Yin Fire (Jeonghwa). Old Saju texts pair it with 壬水 Yang Water (Imsu), a wide river. Here, the pair shares one scene.', 30, EN, gap=0)], tag='등불과 강물이 한 장면에'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
      T('등불을 싣고 흐르는\n넓은 강물 같은 소리예요.', 52, gap=24), T('첫 곡은 『Wide Water』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · 壬水 Yang Water (Imsu).\nThe first track is Wide Water. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yang Water.\nThe first track is Wide Water.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 3일 · 갈 만한 곳', 50, GOLD, gap=34), T('강물 위의\n등불', 130, bold=True, gap=50), T('Lamps on the river', 42, EN, gap=0)]),
@@ -362,46 +376,54 @@ P['0103j'] = dict(
   dict(sec=6.5, step=1.0, items=[T('임진왜란 때\n강을 건너려는 적을 막고', 78, bold=True, gap=30), T('성 밖 가족에게\n안부를 전한 등불', 78, bold=True, gap=50),
        T('Lamps that held back the enemy\nand carried word home', 40, EN, gap=0)]),
   dict(sec=5.0, step=0.9,
-       items_ig=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('풀이는 @goyo_mio\n피드 게시물에서', 60, bold=True, gap=30),
-                 T('Why does it suit 2027?\nFull reading on our profile', 40, EN, gap=0)],
-       items_yt=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('풀이는\n채널 게시물에서', 60, bold=True, gap=30),
-                 T('Why does it suit 2027?\nFull reading in our Posts tab', 40, EN, gap=0)]),
+       items_ig=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
+                 T('Why does it suit 2027?\nMore in our feed post', 40, EN, gap=0)],
+       items_yt=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
+                 T('Why does it suit 2027?\nMore in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('첫 곡 『Wide Water』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu): Wide Water.\nMusic: link in bio', 36, EN, gap=0)],
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu)\nWide Water · Listen through the link in bio.', 36, EN, gap=0)],
        items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('임수 편', 100, bold=True, gap=36), T('첫 곡 『Wide Water』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu): Wide Water.\nMusic: related video below', 36, EN, gap=0)]),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 壬水 Yang Water (Imsu)\nWide Water · Music: related video below', 36, EN, gap=0)]),
  ],
  caption="""강물 위의 등불, 진주 남강유등축제예요.
 
-가을이면 경남 진주 남강 위에 수많은 등이 떠요. 해마다 10월 초~중순에 열리고, 2026년은 10월 3일부터 18일까지였어요. 2027년 날짜는 아직 발표 전이라 가기 전에 진주시 공지를 확인해 주세요.
+가을이면 경남 진주 남강 위에 수많은 등이 떠요. 해마다 10월 초~중순 진주성과 남강 일대에서 열리고, 입장은 무료예요. 2026년은 10월 3일부터 18일까지, 낮 1시부터 밤 11시까지였어요. 2027년 날짜는 아직 발표 전이라 가기 전에 진주시 공지를 확인해 주세요.
 
-임진왜란 진주성 전투 때 남강에 등을 띄워 강을 건너려는 적을 막고, 성 밖 가족에게 안부를 전했다고 해요. 축제는 그 이야기에서 시작됐어요.
+시작은 1592년 10월 진주성 전투예요. 김시민 장군과 군사 약 3,800명이 왜군 약 2만 명을 막아 냈고, 캄캄한 밤 남강에 등을 띄워 강을 건너려는 적을 살피고 막았어요. 성 밖 가족에게 안부를 전하는 데도 썼다고 해요.
 
-2027년의 글자는 가까운 곳을 오래 비추는 등불이에요. 그 등불이 넓은 강물 위에 떠 있는 곳이라, 정미년에 한 번 가 볼 만한 곳으로 골랐어요.
+이듬해 1593년에는 다시 쳐들어온 대군에 성이 무너지고, 민관군 7만여 명이 목숨을 잃었어요. 그 뒤로 강에 띄우는 등에는 그때 스러진 이들을 기리는 뜻이 이어져 왔어요.
+
+축제 기간에는 진주성이 무료로 열려요. 성 안 남강 절벽 위 촉석루는 우리나라 3대 누각으로 꼽히고, 물에 띄운 다리(부교)로 강을 걸어서 건너거나 소망등을 달 수 있어요. 축제가 아닐 때도 소망진산 유등테마공원은 늘 열려 있고 무료라, 밤이면 유등에 불이 켜져요. 바로 옆 남강유등전시관은 월요일에 쉬고 겨울(12~2월)엔 저녁 6시까지 열어요.
+
+2027년의 글자는 가까운 곳을 오래 비추는 등불, 정화(丁火)예요. 옛 책은 등불(정화)과 넓은 강물(임수)을 서로 끌어당기는 짝으로 묶어요. 그 짝이 한 장면에 담긴 곳이라, 정미년에 한 번 가 볼 만한 곳으로 골랐어요.
 
 등불을 싣고 흐르는 강물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 첫 곡은 『Wide Water』예요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 Lamps on the river: the Jinju Namgang Yudeung Festival.
 
-Every fall, countless lamps float on the Namgang River in Jinju, Korea. The festival runs in early to mid-October; in 2026 it ran October 3 to 18. The 2027 dates are not out yet, so check the city's notice before you go.
+Every fall, countless lamps float on the Namgang River in Jinju, Korea. The festival runs in early to mid-October around Jinju Fortress and the river, and entry is free. In 2026 it ran October 3 to 18, 1 to 11 p.m. The 2027 dates are not out yet, so check the city's notice before you go.
 
-The custom goes back to the 1590s and a battle at Jinju Fortress: lamps floated on the river held back the enemy and carried word to families outside the walls.
+It began in October 1592, when about 3,800 defenders under Kim Si-min held Jinju Fortress against some 20,000 invaders. Lamps floated on the dark river exposed enemy crossings and held them back, and carried word to families outside the walls.
 
-In 2027, the year's character is a lamp: a light that stays close. Here, those lamps float on a wide river, so we picked it as a place to visit this year.
+The next year, 1593, a larger army returned. The fortress fell, and some 70,000 soldiers and townspeople died. Since then, the river lamps have also honored them.
 
-Music like a wide river carrying lamps: Five Kinds of Quiet · 壬水 Yang Water (Imsu). The first track is Wide Water. Listen through the link in bio.
+During the festival, the fortress is free to enter. Chokseongnu, the pavilion on its cliff above the river, is counted among Korea's three great pavilions. You can cross the river on floating bridges and hang a wish lamp. Off-season, Somangjinsan Lantern Park is open all year, free, and lit at night; the lantern museum next door closes Mondays and at 6 p.m. in winter.
 
-#고요 #정미년 #진주남강유등축제 #진주 #유등 #국내여행 #오행음악 #fiveelements""",
+In 2027, the year's character is a lamp: 丁火 Yin Fire (Jeonghwa). Old Saju texts pair it with 壬水 Yang Water (Imsu), a wide river. Here the pair shares one scene, so we picked it as a place to visit this year.
+
+Music like a wide river carrying lamps: Five Kinds of Quiet · Yang Water. The first track is Wide Water. Listen through the link in bio.
+
+#고요 #정미년 #진주남강유등축제 #진주 #유등 #진주성 #촉석루 #국내여행 #오행음악 #fiveelements""",
  reel_caption="""강물 위의 등불, 진주 남강유등축제예요.
 
-가을이면 진주 남강에 등이 떠요. 임진왜란 진주성 전투 때 강을 건너려는 적을 막고 성 밖 가족에게 안부를 전한 등불에서 시작된 축제예요. 2027년에 어울리는 이유는 피드 게시물에 있어요.
+가을이면 진주 남강에 등이 떠요. 임진왜란 진주성 전투 때 강을 건너려는 적을 막고 성 밖 가족에게 안부를 전한 등불에서 시작된 축제예요. 2027년에 어울리는 이유와 갈 때 알아 둘 것은 피드 게시물에 있어요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜임수(壬水)』의 첫 곡 『Wide Water』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with a battle in the 1590s, when river lamps held back the enemy and carried word to families. Our feed post explains why it suits 2027.
+Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with a battle in the 1590s, when river lamps held back the enemy and carried word to families. Why it suits 2027, and tips for visiting, are in our feed post.
 
 The music is Wide Water from Five Kinds of Quiet · 壬水 Yang Water (Imsu). Listen through the link in bio.
 
