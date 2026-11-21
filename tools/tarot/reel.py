@@ -114,12 +114,12 @@ def frame(t):
         if ck <= 0: return im
         L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ld = ImageDraw.Draw(L)
         if VARIANT == 'yt':
-            ctext(ld, 680, '오늘 세 장의 풀이는', F(72, True), FG + (255,)); ctext(ld, 775, '설명란 인스타 링크에서', F(72, True), FG + (255,))
-            ctext(ld, 920, '지금 듣는 음악은 아래에서', F(52, True), GOLD + (255,))
-            ctext(ld, 1010, '무료 사주 앱 goyomio.com', F(42), SUB + (255,))
-            ctext(ld, 1120, "Today's reading: Instagram link in the description", EN(38), SUB + (255,))
-            ctext(ld, 1168, 'The music you hear is linked below', EN(38), SUB + (255,))
-            ctext(ld, 1216, 'Free saju app: goyomio.com', EN(38), SUB + (255,))
+            ctext(ld, 680, '내 오행과 오행음악은', F(72, True), FG + (255,)); ctext(ld, 775, '@goyo_mio 채널에서', F(72, True), FG + (255,))
+            ctext(ld, 920, '무료 사주 앱 goyomio.com', F(52, True), GOLD + (255,))
+            ctext(ld, 1010, '오늘 세 장의 풀이는 인스타 @goyo_mio', F(42), SUB + (255,))
+            ctext(ld, 1120, 'Your element and its music: @goyo_mio channel', EN(38), SUB + (255,))
+            ctext(ld, 1168, 'Free saju app: goyomio.com', EN(38), SUB + (255,))
+            ctext(ld, 1216, "Today's reading: Instagram @goyo_mio", EN(38), SUB + (255,))
         else:
             ctext(ld, 720, '오늘 세 장의 풀이는', F(72, True), FG + (255,)); ctext(ld, 815, '피드 게시물에서', F(72, True), FG + (255,))
             ctext(ld, 975, '앱과 음악은 프로필 링크에서', F(44), SUB + (255,))
