@@ -733,7 +733,7 @@ P['0111'] = dict(
   S([T('더위 끝의 소나기를\n그림으로 본다면', 58, bold=True, gap=30),
      T('다리 위로 갑자기 쏟아지는 비,\n히로시게의 「오하시 다리의 소나기」예요.', 44, gap=26),
      T('2월 4일 그림 읽기에서 이어 갈게요.', 42, GOLD, gap=34),
-     T('Such a shower in a painting: Hiroshige\'s\nSudden Shower over Shin-Ōhashi Bridge and Atake (1857).\nMore in our Feb 4 painting post.', 30, EN, gap=0)], tag='그림으로 본다면'),
+     T('Such a shower in a painting: Hiroshige\'s\nSudden Shower over Shin-Ōhashi Bridge and Atake.\nMore in our Feb 4 painting post.', 30, EN, gap=0)], tag='그림으로 본다면'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
      T('넓게 고여 천천히 흐르는\n큰 물 같은 소리예요.', 52, gap=24), T('오늘은 『Morning Haze』를 골랐어요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
