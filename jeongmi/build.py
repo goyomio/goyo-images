@@ -167,7 +167,7 @@ P['0103'] = dict(
      T('2027 closes the summer. We read it as a year when the fire ripens, not one when it goes out.', 34, EN, gap=0)], tag='늦여름'),
   S([T('1월인 지금은 아직 병오년,\n한여름의 끝자락이에요.', 54, gap=30), T('늦여름은\n입춘(2월 4일)부터.', 64, bold=True, gap=26),
      T('오늘 오후 4시 반쯤은\n겨울의 마지막 절기, 대한(大寒)이에요.', 38, GOLD, gap=30),
-     T('January is still the 丙午 year (Byeong-o), the tail end of\nhigh summer. The 丁未 year (Jeongmi) · Yin Fire · Afternoon\nEarth begins Feb 4, at the start of spring (立春).\nToday brings Daehan (大寒), winter\'s last solar term.', 28, EN, gap=0)], tag='지금은 어느 여름일까요'),
+     T('January is still the 丙午 year (Byeong-o), the tail end of\nhigh summer. The 丁未 year (Jeongmi) · Yin Fire · Afternoon\nEarth begins Feb 4, at the start of spring (立春).\nToday brings Major Cold (大寒), winter\'s last solar term.', 28, EN, gap=0)], tag='지금은 어느 여름일까요'),
   S([T('여름 세 글자의 달', 46, gap=26),
      T('사(巳) · 5월 초 입하부터\n오(午) · 6월 초 망종부터\n미(未) · 7월 초 소서부터\n8월 초 입추 전까지', 54, bold=True, gap=30),
      T('세 해를 이어 보면\n이 석 달이 해마다 하나씩 온 셈이에요.', 44, gap=34),
@@ -219,7 +219,7 @@ The months of the three summer characters: Midmorning Fire from early May, Noon 
 
 These three summer years come round every 12 years; last time was 2013 to 2015. With fire in the top character too, the pair of the 丙午 year (Byeong-o) · Yang Fire · Noon Fire and the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth returns only every 60 years, last in 1966 and 1967.
 
-Right now, in January, it is still the Yang Fire · Noon Fire year, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4. Today brings Daehan (大寒), the last solar term of winter.
+Right now, in January, it is still the Yang Fire · Noon Fire year, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4. Today brings Major Cold (大寒), the last solar term of winter.
 
 For the tail end of high summer, music like the midday sun: Five Kinds of Quiet · Yang Fire. Today\'s track is Sunlit Crosswalk. Listen through the link in bio.
 
@@ -623,7 +623,7 @@ P['0108'] = dict(
 · English ·
 The sound of a lamp, the sound of warm earth.
 
-The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at Ipchun (立春), the start of spring, on February 4. It is a lamp warming the dry earth of late summer, so we picked two kinds of music that echo it.
+The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春), on February 4. It is a lamp warming the dry earth of late summer, so we picked two kinds of music that echo it.
 
 The sound of a lamp: Lamplit Keys, the first track of Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa). Rather than spreading wide like the sun, it lights what's close for a long time, just like Yin Fire, the year's first character.
 
@@ -860,7 +860,7 @@ P['0113'] = dict(
 · English ·
 The sound of stone, the sound of rain.
 
-For now it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, a year of big fire. From Ipchun (立春), the start of spring, on February 4, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth keeps that heat in late-summer soil. So we picked cooler music to set beside it, from the stone side and the rain side.
+For now it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, a year of big fire. From the start of spring (立春) on February 4, the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth keeps that heat in late-summer soil. So we picked cooler music to set beside it, from the stone side and the rain side.
 
 On the stone side: Stone Bridge, the second track of Five Kinds of Quiet · 庚金 Yang Metal (Gyeonggeum). Old Saju texts say earth gives rise to metal, and this album sounds like rock that takes in the earth's heat and lets it go. On it, water runs beside the stone: Stone Bridge, River Stone, Slate Rain. The granite in its first track, Granite Light, is Inwangsan's rock too.
 
