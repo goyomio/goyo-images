@@ -4,7 +4,7 @@
   {
    "file": "shorts/음원/기토_Afternoon Allotment_60s.m4a",
    "start": 0.3,
-   "dur": 54.5
+   "dur": 59.0
   }
  ],
  "scenes": [
@@ -103,7 +103,7 @@
    "en": "Far right, on horseback:\nprobably the estate overseer"
   },
   {
-   "sec": 7.5,
+   "sec": 6.5,
    "view": [
     0,
     0,
@@ -126,7 +126,7 @@
    "en": "Ten years on the same theme,\nshown at the Salon of 1857"
   },
   {
-   "sec": 7.5,
+   "sec": 6.5,
    "view": [
     0.3,
     0.36,
@@ -146,6 +146,28 @@
    ],
    "small": "1월 10일 「넣어 두는 흙」이\n그림 속 들판에 있어요",
    "en": "What the earth still holds after the harvest\n(our Jan 10 post)"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.62,
+    0.26,
+    0.86,
+    0.8
+   ],
+   "view_to": [
+    0.64,
+    0.28,
+    0.84,
+    0.78
+   ],
+   "y": 1240,
+   "lines": [
+    "밀레의 일간도",
+    "밭의 흙, 기토예요"
+   ],
+   "small": "가을, 거둬들이는 달에 태어났어요",
+   "en": "Millet's day stem is 己土 Yin Earth (Gito) too,\nborn in autumn, the month of gathering"
   },
   {
    "sec": 7.5,
@@ -180,7 +202,7 @@
     ]
    ],
    "small": "『Afternoon Allotment』(기토 편)\n오후의 텃밭 같은 소리",
-   "en": "Afternoon Allotment · 己土 Yin Earth (Gito)\nLike a garden plot in the afternoon"
+   "en": "Afternoon Allotment · Yin Earth\nLike a garden plot in the afternoon"
   },
   {
    "sec": 7.5,

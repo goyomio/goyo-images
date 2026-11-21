@@ -919,10 +919,10 @@ P['0114'] = dict(
      T('Ten years on one theme: a vertical painting\nin 1854, an etching in 1855, then this canvas at the\nSalon of 1857. Given to the French state in 1890.', 28, EN, gap=0)], tag='10년의 그림'),
   S([T('보이는 것', 40, GOLD, True, 6), T('거둔 뒤에도 남은 것을 품은 밭 → 흙, 그중 밭', 42, gap=24),
      T('그리는 방식', 40, GOLD, True, 6), T('땅빛으로 낮고 넓게 깐 화면 → 흙', 42, gap=24),
-     T('화가의 사주', 40, GOLD, True, 6), T('1814년 10월 4일생, 일간 기토(밭의 흙)', 42, gap=12),
-     T('태어난 시각은 알려지지 않아,\n해·달·날 세 기둥으로만 봐요.', 36, [150, 145, 135], gap=24),
-     T('그림도 화가도 밭의 흙이에요. 제 해석이에요.', 38, gap=28),
-     T('Seen: a field after harvest. Painted: earth tones, low and broad.\nWe read it as 己土 Yin Earth (Gito), field earth. Millet, born\nOct 4, 1814, has Yin Earth as his day stem too.', 26, EN, gap=0)], tag='고요의 읽기 · 토(土)'),
+     T('화가의 사주', 40, GOLD, True, 6), T('1814년 10월 4일, 가을 거둬들이는 달에 태어났어요.\n일간은 기토(밭의 흙)예요.', 36, gap=10),
+     T('태어난 시각은 알려지지 않아, 해·달·날 세 기둥으로만 봐요.', 30, [150, 145, 135], gap=18),
+     T('거둬들이는 달에 태어난 밭의 사람이\n거둔 뒤의 밭을 그렸어요. 제 해석이에요.', 38, gap=26),
+     T('Seen: a field after harvest. Painted: earth tones, low and broad.\nWe read it as 己土 Yin Earth (Gito). Millet, born Oct 4, 1814,\nin autumn\'s month of gathering, also has Yin Earth.', 26, EN, gap=0)], tag='고요의 읽기 · 토(土)'),
   S([T('다 거둔 뒤에도\n흙이 아직 품고 있는 것을\n하나씩 손에 쥐는 그림.', 56, bold=True, gap=30),
      T('1월 10일 「넣어 두는 흙」이\n그림 속 들판에 있어요.', 46, gap=34),
      T('A painting of gathering, one by one, what the earth\nstill holds after the harvest: our Jan 10 post,\n\'The earth that keeps,\' found in a painting.', 28, EN, gap=0)], tag='정미년과 이어서'),
@@ -937,7 +937,7 @@ P['0114'] = dict(
 
 추수 뒤 밭에 떨어진 이삭은 가난한 이들이 주워 갈 수 있게 남겨 두던 오래된 관습이었어요. 밀레는 이 주제를 10년 동안 그리고 또 그렸어요. 1854년 세로 그림, 1855년 판화를 거쳐 1857년 살롱에 이 그림을 냈고, 가난을 과장하지 않고 품위 있는 모습으로 그렸다는 평을 받아요. 1890년 기증으로 국가 소장이 되었어요.
 
-고요의 읽기로는 토(土), 그중 밭의 흙 기토예요. 밀레는 1814년 10월 4일생, 일간도 기토예요. 태어난 시각은 알려지지 않아 해·달·날 세 기둥으로만 봤어요. 그림도 화가도 밭의 흙이에요. 제 해석이에요. 다 거둔 뒤에도 흙이 아직 품고 있는 것을 하나씩 손에 쥐는 그림이라, 1월 10일 「넣어 두는 흙」이 그림 속 들판에 있어요.
+고요의 읽기로는 토(土), 그중 밭의 흙 기토예요. 밀레는 1814년 10월 4일, 가을 한가운데 거둬들이는 달에 태어났고 일간도 기토예요. 태어난 시각은 알려지지 않아 해·달·날 세 기둥으로만 봤어요. 거둬들이는 달에 태어난 밭의 사람이 거둔 뒤의 밭을 그린 셈이에요. 제 해석이에요. 다 거둔 뒤에도 흙이 아직 품고 있는 것을 하나씩 손에 쥐는 그림이라, 1월 10일 「넣어 두는 흙」이 그림 속 들판에 있어요.
 
 이 그림 옆에는 갈아 둔 밭 같은 재즈 로파이, 『다섯 가지 고요｜기토(己土)』. 오늘 밤 9시 릴스에는 『Afternoon Allotment』가 흘러요. 프로필 링크에서 들을 수 있어요.
 
@@ -950,7 +950,7 @@ After the harvest, three women bend to pick up the ears of wheat left behind. Be
 
 By old custom, whatever the harvest left in the field was for the poor to gather. Millet worked on this theme for ten years: a vertical painting in 1854, an etching in 1855, then this canvas at the Salon of 1857, now seen as showing the women with dignity rather than misery. It was given to the French state in 1890 and hung in the Louvre until 1986.
 
-We read it as Earth, and within Earth, the field: 己土 Yin Earth (Gito). Millet, born on October 4, 1814, has Yin Earth as his day stem too; his birth hour is unknown, so we read only the year, month and day. Painting and painter are both field earth. This is our own reading. Its women gather, one by one, what the earth still holds after the harvest: our January 10 post, 'The earth that keeps,' found in a painting.
+We read it as Earth, and within Earth, the field: 己土 Yin Earth (Gito). Millet, born on October 4, 1814, in the autumn month of gathering, has Yin Earth as his day stem too; his birth hour is unknown, so we read only the year, month and day. A man of the field, born in the month of gathering, painted a field after harvest. This is our own reading. Its women gather, one by one, what the earth still holds after the harvest: our January 10 post, 'The earth that keeps,' found in a painting.
 
 Beside it: Five Kinds of Quiet · Yin Earth, jazz lo-fi like a tilled field. Tonight's 9 p.m. reel plays Afternoon Allotment. Listen through the link in bio.
 
