@@ -41,6 +41,20 @@ def en_name(c):
     return n + (' (reversed)' if c.get('rev') else '')
 
 
+
+def ig_post_url(date):
+    """그날 06:00 타로 캐러셀 주소(posts/<날짜>-tarot/result.json). 못 찾으면 프로필 주소."""
+    for name in (f'posts/{date}-tarot2/result.json', f'posts/{date}-tarot/result.json'):   # 다시 올린 판(tarot2)이 있으면 그쪽 우선
+        try:
+            txt = open(name, encoding='utf-8').read()
+        except OSError:
+            continue
+        m = re.search(r'https://www\.instagram\.com/p/[A-Za-z0-9_-]+/?', txt)
+        if m:
+            return m.group(0).rstrip('/') + '/'
+    return 'https://www.instagram.com/goyo_mio'
+
+
 def build(date, folder):
     t = json.load(open(f'{folder}/tarot.json', encoding='utf-8'))
     y, m, d = map(int, date.split('-'))
@@ -48,11 +62,12 @@ def build(date, folder):
     hz = re.search(r'\((.{2})\)', t['music']['title_html'])
     hz = f'({hz.group(1)})' if hz else ''
     cards = t['cards']
+    ig = ig_post_url(date)
     ko_names = '·'.join(c['ko'] for c in cards)
     title = f"{m}월 {d}일 오늘의 타로｜{ko_names}｜Daily Tarot"
     desc = (f"{m}월 {d}일, 고요가 뽑은 오늘의 타로 세 장이에요.\n\n"
             + '\n'.join(f"{p} · {c['title']}" for p, c in zip(t['positions'], cards))
-            + "\n\n세 장의 풀이는 인스타 @goyo_mio 오늘의 타로 게시물에 있어요.\n▶ https://www.instagram.com/goyo_mio\n\n"
+            + f"\n\n세 장의 풀이는 인스타 @goyo_mio 오늘의 타로 게시물에 있어요.\n▶ {ig}\n\n"
             f"지금 듣는 음악은 다섯 가지 고요 {stem}{hz} 편이에요.\n▶ https://youtu.be/{MUSIC[stem]}\n\n"
             "무료 사주 앱에서 내 오행을 찾고 그 오행의 음악을 들어 보세요.\n▶ https://goyomio.com\n\n"
             f"고요 오행음악 전체 듣기\n▶ {PLAYLIST_URL}\n\n"
@@ -62,7 +77,7 @@ def build(date, folder):
         en_title = f"Today's Tarot, {MON[m - 1]} {d}｜Three Cards from GOYO"
     en_desc = (f"Today's three tarot cards, drawn by GOYO for {MON[m - 1]} {d}.\n\n"
                + '\n'.join(f"{p} · {en_name(c)}" for p, c in zip(POS_EN, cards))
-               + "\n\nThe full reading is in today's tarot post on Instagram @goyo_mio.\n▶ https://www.instagram.com/goyo_mio\n\n"
+               + f"\n\nThe full reading is in today's tarot post on Instagram @goyo_mio.\n▶ {ig}\n\n"
                f"The music in this video is Five Kinds of Quiet · {STEM_FULL_EN[stem]}.\n▶ https://youtu.be/{MUSIC[stem]}\n\n"
                "Find your element in our free saju (BaZi) app and listen to its music.\n▶ https://goyomio.com\n\n"
                f"All GOYO five-element music\n▶ {PLAYLIST_URL}\n\n"
