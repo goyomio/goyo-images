@@ -123,5 +123,10 @@
   "편": "임수",
   "곡": "Wide Water",
   "근거": "원곡: goyo-keys/audio/catalog.json 임수 01 0:00 Wide Water (곡 시작부터 60초)"
+ },
+ "shorts/그림편/audio/토_Warm Soil_60s.m4a": {
+  "편": "토",
+  "곡": "Warm Soil",
+  "근거": "원곡: goyo-keys/audio/catalog.json 토1 01 0:00 Warm Soil (유튜브 VxV9ePEWoj4 설명란 00:00, 곡 시작부터 60초)"
  }
 }

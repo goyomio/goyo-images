@@ -534,6 +534,96 @@ The music is Drizzle from Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Liste
 #고요 #정미년 #사주 #오행 #오행음악""",
 )
 
+P['0108'] = dict(
+ music='토', audio='shorts/그림편/audio/토_Warm Soil_60s.m4a',
+ slides=[
+  S([T('1월 8일 · 고요 이야기', 44, GOLD, gap=30), T('정미년과\n닮은 소리', 112, bold=True, gap=36),
+     T('등불의 소리, 데워진 흙의 소리', 44, gap=30), T('Music that echoes the coming year', 38, EN, gap=0)]),
+  S([T('입춘(2월 4일)부터 시작되는\n정미년은', 46, gap=28), T('등불이 늦여름의\n마른 흙을 데우는\n해예요.', 64, bold=True, gap=32),
+     T('그 모양을 그대로 닮은 소리를\n두 갈래로 골랐어요.', 46, gap=34),
+     T('The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nbegins Feb 4: a lamp warming the dry earth\nof late summer. Here is music that echoes it.', 30, EN, gap=0)], tag='다가오는 해의 모양'),
+  S([T('정화 편', 96, bold=True, gap=20), T('첫 곡 『Lamplit Keys』', 50, gap=34),
+     T('해처럼 넓게 퍼지기보다\n가까운 곳을 오래 비추는\n등불의 소리예요.', 50, gap=30), T('정미년의 첫 글자, 정화 그대로예요.', 42, GOLD, gap=34),
+     T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa),\nfirst track Lamplit Keys: the sound of a lamp\nthat lights what is near, for a long time.', 30, EN, gap=0)], tag='닮은 소리 하나 · 등불'),
+  S([T('토 편', 96, bold=True, gap=20), T('첫 곡 『Warm Soil』', 50, gap=34),
+     T('늦여름 햇볕에 데워진 마른 흙.\n느리고 담백하게 쌓이는\n로파이 리듬이 그 흙과 닮았어요.', 50, gap=34),
+     T('Five Kinds of Quiet · Earth, first track Warm Soil.\nSlow, plain lo-fi beats that pile up\nlike sun-warmed earth in late summer.', 30, EN, gap=0)], tag='닮은 소리 둘 · 데워진 흙'),
+  S([T('토 편의 곡 이름에는\n흙과 불이 함께 있어요.', 56, bold=True, gap=34),
+     T('『Warm Soil』 따뜻한 흙', 46, gap=18), T('『Hearth Light』 화로 불빛', 46, gap=18), T('『Quiet Harvest』 조용한 수확', 46, gap=34),
+     T('데워진 흙, 거둔 것을 품는 흙.\n정미년의 흙 모양 그대로예요.', 44, GOLD, gap=34),
+     T('Track names on the Earth album hold earth and fire\ntogether: Warm Soil, Hearth Light, Quiet Harvest.', 30, EN, gap=0)], tag='곡 이름에 담긴 것'),
+  S([T('로파이(lo-fi)는\n일부러 거칠고 따뜻한 질감을\n남겨 둔 소리예요.', 52, bold=True, gap=30),
+     T('앞에 또렷이 나서기보다\n뒤에서 천천히 쌓여서,\n틀어 두고 일하거나 쉬기 좋아요.', 44, gap=30),
+     T('흙 쪽에는 무토 편(집중할 때)과\n기토 편(쉬어 갈 때)도 있어요.', 42, GOLD, gap=34),
+     T('Lo-fi keeps a rough, warm texture on purpose and stays\nin the background. The Earth side also has 戊土 Yang Earth\n(Muto) for focus and 己土 Yin Earth (Gito) for rest.', 28, EN, gap=0)], tag='로파이는 어떤 소리'),
+  S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 52, gap=30), T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 50, bold=True, gap=30),
+     T('1월 13일에는\n식혀 주는 소리를 이어서 볼게요.', 42, GOLD, gap=34),
+     T('Your chart\'s Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.\nOn Jan 13: music that sits beside the heat.', 30, EN, gap=0)], tag='내게는 어느 쪽일까요'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('토 편', 96, bold=True, gap=34),
+     T('늦여름 햇볕에 데워진\n흙 같은 소리예요.', 52, gap=24), T('첫 곡은 『Warm Soil』이에요.', 44, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Earth.\nThe first track is Warm Soil.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 8일', 50, GOLD, gap=34), T('정미년과\n닮은 소리', 124, bold=True, gap=50), T('Music that echoes the coming year', 40, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('등불이\n마른 흙을 데우는 해', 88, bold=True, gap=40), T('입춘(2월 4일)부터', 56, gap=50), T('A lamp warming dry earth, from Feb 4', 40, EN, gap=0)]),
+  dict(sec=7.0, step=1.0, items=[T('등불의 소리', 76, bold=True, gap=10), T('정화 편', 60, gap=40), T('데워진 흙의 소리', 76, bold=True, gap=10), T('토 편', 60, gap=50),
+       T('The sound of a lamp: Yin Fire.\nThe sound of warm earth: Earth.', 38, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('곡 이름에 숨은\n흙과 불은?', 92, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
+                 T('Earth and fire hidden in the track names?\nMore in our feed post', 40, EN, gap=0)],
+       items_yt=[T('곡 이름에 숨은\n흙과 불은?', 92, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
+                 T('Earth and fire hidden in the track names?\nMore in our Posts tab', 40, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('토 편', 100, bold=True, gap=36), T('첫 곡 『Warm Soil』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · Earth\nWarm Soil · Listen through the link in bio.', 36, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('토 편', 100, bold=True, gap=36), T('첫 곡 『Warm Soil』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · Earth\nWarm Soil · Music: related video below', 36, EN, gap=0)]),
+ ],
+ caption="""정미년과 닮은 소리.
+
+입춘(2월 4일)부터 시작되는 정미년은 등불이 늦여름의 마른 흙을 데우는 해예요. 그 모양을 그대로 닮은 소리를 두 갈래로 골랐어요.
+
+하나는 등불의 소리, 『다섯 가지 고요｜정화(丁火)』의 첫 곡 『Lamplit Keys』예요. 해처럼 넓게 퍼지기보다 가까운 곳을 오래 비추는 등불의 소리라서, 정미년의 첫 글자 정화 그대로예요.
+
+다른 하나는 데워진 흙의 소리, 『다섯 가지 고요｜토(土)』예요. 늦여름 햇볕에 데워진 마른 흙처럼, 느리고 담백하게 쌓이는 로파이 리듬으로 만들었어요. 토 편의 곡 이름에는 흙과 불이 함께 있어요. 첫 곡 『Warm Soil』(따뜻한 흙), 『Hearth Light』(화로 불빛), 『Quiet Harvest』(조용한 수확). 데워진 흙, 거둔 것을 품는 흙이라 정미년의 흙 모양 그대로예요.
+
+로파이(lo-fi)는 일부러 거칠고 따뜻한 질감을 남겨 둔 소리예요. 앞에 또렷이 나서기보다 뒤에서 천천히 쌓여서 틀어 두고 일하거나 쉬기 좋아요. 흙 쪽에는 집중할 때 듣는 무토(戊土) 편과 쉬어 갈 때 듣는 기토(己土) 편도 있어요.
+
+불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요. 1월 13일에는 식혀 주는 소리를 이어서 볼게요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜토(土)』의 첫 곡 『Warm Soil』이에요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Music that echoes the coming year.
+
+The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春), February 4. It is a lamp warming the dry earth of late summer, so we picked music that echoes that shape, in two kinds.
+
+The sound of a lamp: Lamplit Keys, the first track of Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa). Rather than spreading wide like the sun, it lights what is near, for a long time, just like the first character of the year.
+
+The sound of warm earth: Five Kinds of Quiet · Earth, slow and plain lo-fi that piles up like sun-warmed earth in late summer. Its track names hold earth and fire together: Warm Soil, Hearth Light, Quiet Harvest.
+
+Lo-fi keeps a rough, warm texture on purpose and stays in the background, so it works well for focus or rest. The Earth side also has 戊土 Yang Earth (Muto) for focus and 己土 Yin Earth (Gito) for rest.
+
+You can see how much Fire and Water your chart holds in our free app. Which side suits you depends on your whole chart. The app is linked in our bio. On January 13 we'll look at music that sits beside the heat.
+
+The music playing is Warm Soil, the first track of Five Kinds of Quiet · Earth. Listen through the link in bio.
+
+#고요 #정미년 #오행음악 #로파이 #토 #정화 #사주 #saju #fiveelements #lofi""",
+ reel_caption="""정미년과 닮은 소리.
+
+등불이 마른 흙을 데우는 정미년(입춘 2월 4일부터). 닮은 소리는 등불의 소리인 정화(丁火) 편과 데워진 흙의 소리인 토(土) 편이에요. 곡 이름에 숨은 흙과 불, 로파이가 어떤 소리인지는 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜토(土)』의 첫 곡 『Warm Soil』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Music that echoes the coming year, a lamp warming dry earth (from February 4): 丁火 Yin Fire (Jeonghwa) for the lamp, Earth for the warm soil. More on the track names and lo-fi in our feed post.
+
+The music is Warm Soil from Five Kinds of Quiet · Earth. Listen through the link in bio.
+
+#고요 #정미년 #오행음악 #로파이 #saju""",
+)
+
 def build(key):
     p = P[key]; out = os.path.join(os.path.dirname(os.path.abspath(__file__)), key); os.makedirs(out, exist_ok=True)
     json.dump({'music': p['music'], 'slides': p['slides']}, open(f'{out}/slides.json', 'w'), ensure_ascii=False, indent=1)
@@ -544,7 +634,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil

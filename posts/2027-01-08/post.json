@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-01-08/01.jpg",
+  "posts/2027-01-08/02.jpg",
+  "posts/2027-01-08/03.jpg",
+  "posts/2027-01-08/04.jpg",
+  "posts/2027-01-08/05.jpg",
+  "posts/2027-01-08/06.jpg",
+  "posts/2027-01-08/07.jpg",
+  "posts/2027-01-08/08.jpg"
+ ],
+ "caption": "정미년과 닮은 소리.\n\n입춘(2월 4일)부터 시작되는 정미년은 등불이 늦여름의 마른 흙을 데우는 해예요. 그 모양을 그대로 닮은 소리를 두 갈래로 골랐어요.\n\n하나는 등불의 소리, 『다섯 가지 고요｜정화(丁火)』의 첫 곡 『Lamplit Keys』예요. 해처럼 넓게 퍼지기보다 가까운 곳을 오래 비추는 등불의 소리라서, 정미년의 첫 글자 정화 그대로예요.\n\n다른 하나는 데워진 흙의 소리, 『다섯 가지 고요｜토(土)』예요. 늦여름 햇볕에 데워진 마른 흙처럼, 느리고 담백하게 쌓이는 로파이 리듬으로 만들었어요. 토 편의 곡 이름에는 흙과 불이 함께 있어요. 첫 곡 『Warm Soil』(따뜻한 흙), 『Hearth Light』(화로 불빛), 『Quiet Harvest』(조용한 수확). 데워진 흙, 거둔 것을 품는 흙이라 정미년의 흙 모양 그대로예요.\n\n로파이(lo-fi)는 일부러 거칠고 따뜻한 질감을 남겨 둔 소리예요. 앞에 또렷이 나서기보다 뒤에서 천천히 쌓여서 틀어 두고 일하거나 쉬기 좋아요. 흙 쪽에는 집중할 때 듣는 무토(戊土) 편과 쉬어 갈 때 듣는 기토(己土) 편도 있어요.\n\n불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요. 1월 13일에는 식혀 주는 소리를 이어서 볼게요.\n\n지금 흐르는 음악은 『다섯 가지 고요｜토(土)』의 첫 곡 『Warm Soil』이에요. 프로필 링크에서 들을 수 있어요.\n\n· English ·\nMusic that echoes the coming year.\n\nThe 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春), February 4. It is a lamp warming the dry earth of late summer, so we picked music that echoes that shape, in two kinds.\n\nThe sound of a lamp: Lamplit Keys, the first track of Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa). Rather than spreading wide like the sun, it lights what is near, for a long time, just like the first character of the year.\n\nThe sound of warm earth: Five Kinds of Quiet · Earth, slow and plain lo-fi that piles up like sun-warmed earth in late summer. Its track names hold earth and fire together: Warm Soil, Hearth Light, Quiet Harvest.\n\nLo-fi keeps a rough, warm texture on purpose and stays in the background, so it works well for focus or rest. The Earth side also has 戊土 Yang Earth (Muto) for focus and 己土 Yin Earth (Gito) for rest.\n\nYou can see how much Fire and Water your chart holds in our free app. Which side suits you depends on your whole chart. The app is linked in our bio. On January 13 we'll look at music that sits beside the heat.\n\nThe music playing is Warm Soil, the first track of Five Kinds of Quiet · Earth. Listen through the link in bio.\n\n#고요 #정미년 #오행음악 #로파이 #토 #정화 #사주 #saju #fiveelements #lofi",
+ "note": "정미년 시리즈 0108 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}
