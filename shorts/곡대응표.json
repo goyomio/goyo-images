@@ -98,5 +98,25 @@
   "편": "정화",
   "곡": "Quiet Ember",
   "근거": "맥 쇼츠/_릴스음원/catalog.json 정화 3번 start 9:15"
+ },
+ "shorts/그림편/audio/정화_Lamplit Keys_60s.m4a": {
+  "편": "정화",
+  "곡": "Lamplit Keys",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 01 0:00 Lamplit Keys (곡 시작부터 60초)"
+ },
+ "shorts/그림편/audio/정화_Lantern Room_60s.m4a": {
+  "편": "정화",
+  "곡": "Lantern Room",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 05 18:03 Lantern Room (곡 시작부터 60초)"
+ },
+ "shorts/그림편/audio/정화_Soft Wick_60s.m4a": {
+  "편": "정화",
+  "곡": "Soft Wick",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 06 22:14 Soft Wick (곡 시작부터 60초)"
+ },
+ "shorts/그림편/audio/병화_Noon Avenue_60s.m4a": {
+  "편": "병화",
+  "곡": "Noon Avenue",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 01 0:00 Noon Avenue (곡 시작부터 60초)"
  }
 }

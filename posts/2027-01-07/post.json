@@ -1,0 +1,16 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-01-07/01.jpg",
+  "posts/2027-01-07/02.jpg",
+  "posts/2027-01-07/03.jpg",
+  "posts/2027-01-07/04.jpg",
+  "posts/2027-01-07/05.jpg",
+  "posts/2027-01-07/06.jpg",
+  "posts/2027-01-07/07.jpg"
+ ],
+ "caption": "고요의 그림 읽기 #2 · 조르주 드 라 투르 〈연기 나는 불꽃 앞의 막달라 마리아〉\n\n어두운 방, 등불 하나가 얼굴과 손만 비춰요. 무릎 위에는 해골, 곁에는 쌓인 책과 채찍, 그리고 그녀가 바라보는 불꽃이 있어요. 라 투르는 1652년 세상을 떠난 뒤 이름이 잊혔다가, 1915년 독일 미술사학자 헤르만 포스가 다시 찾아냈어요. 이 그림도 한때는 르냉의 그림으로 전해졌어요.\n\n고요의 읽기로는 화(火), 그중 등불 정화예요. 넓게 퍼지는 해가 아니라 가까운 것을 오래 비추는 빛이라, 2027년의 빛을 그림 한 장으로 보면 이래요. 화가는 세례 기록만 남아 있어 생일을 확인하지 못해 사주는 보지 않았어요. 제 해석이에요.\n\n이 그림 옆에는 『다섯 가지 고요｜정화(丁火)』. 오늘 밤 9시 릴스에는 『Soft Wick』이 흘러요. 프로필 링크에서 들을 수 있어요.\n\n그림: LACMA(로스앤젤레스 카운티 미술관), 1635~37년경, 퍼블릭 도메인\n\n· English ·\nGoyo Reads a Painting #2 · Georges de La Tour, The Magdalen with the Smoking Flame\n\nIn a dark room, one lamp lights only her face and hands. A skull rests on her lap, with books, a scourge, and the flame she watches. After his death in 1652, La Tour was forgotten until the German art historian Hermann Voss rediscovered him in 1915. This painting, too, was once attributed to Le Nain.\n\nWe read it as Fire, and within Fire, the lamp: 丁火 Yin Fire (Jeonghwa). Not the wide sun, but a light that stays close. This is 2027 in a single painting. Only his baptism record survives, so we did not read his Saju. This is our own reading.\n\nBeside it: Five Kinds of Quiet · Yin Fire. Tonight's 9 p.m. reel plays Soft Wick. Listen through the link in bio.\n\nImage: LACMA (Los Angeles County Museum of Art), c. 1635 to 1637, public domain\n\n#고요 #고요의그림읽기 #라투르 #GeorgesdeLaTour #막달라마리아 #정미년 #오행 #명화 #fiveelements",
+ "note": "정미년 시리즈 0107 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}

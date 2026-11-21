@@ -38,11 +38,15 @@ def ctext(d, y, s, f, fill, a=1.0):
         x += d.textlength(t, font=f)
 
 
-def logo(d, y, a=1.0):
-    f = ImageFont.truetype(CG, 54); sp = 22
-    ws = [d.textlength(c, font=f) for c in 'GOYO']; x = (W - sum(ws) - sp * 3) / 2
-    for c, w in zip('GOYO', ws):
-        d.text((x, y), c, font=f, fill=DIM + (int(255 * a),)); x += w + sp
+def logo(d, y, a=1.0, im=None):
+    """GOYO 워드마크: tools/assets/goyo_letters 글자 그림만 씀(글꼴로 치지 않음, 미오 님 11/21 규칙)."""
+    gh = 46
+    gl = [Image.open(os.path.join(ROOT, 'tools', 'assets', 'goyo_letters', f'{i}_{c}.png')).convert('RGBA') for i, c in enumerate('GOYO')]
+    gl = [g.resize((max(1, int(g.width * gh / g.height)), gh), Image.LANCZOS) for g in gl]
+    k = 0.62 * a
+    gl = [Image.merge('RGBA', (*g.split()[:3], g.split()[3].point(lambda v: int(v * k)))) for g in gl]
+    sp = 22; x = int((W - sum(g.width for g in gl) - sp * 3) / 2)
+    for g in gl: im.alpha_composite(g, (x, int(y) + 8)); x += g.width + sp
 
 
 def view_crop(img, v):
@@ -95,7 +99,7 @@ def frame(img, sc, t, first):
     if sc.get('credit'):
         ctext(d, sc.get('credit_y', 1700), sc['credit'], F(28), DIM, a)
     if sc.get('logo'):
-        logo(d, 1760, a)
+        logo(d, 1760, a, lay)
     fr = Image.alpha_composite(fr, lay)
     return fr.convert('RGB')
 
