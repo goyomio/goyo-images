@@ -18,9 +18,9 @@
    ],
    "box": [
     40,
-    640,
+    720,
     1040,
-    1388
+    1468
    ],
    "y": 150,
    "label": "고요의 그림 읽기 #3",
@@ -30,7 +30,7 @@
    "title_size": 170,
    "sub": "장 프랑수아 밀레, 1857",
    "credit": "오르세 미술관 · 퍼블릭 도메인(위키미디어 공용)",
-   "credit_y": 1420,
+   "credit_y": 1500,
    "logo": true,
    "en": "The Gleaners\nJean-François Millet",
    "en_size": 34
@@ -73,7 +73,7 @@
    ],
    "y": 1240,
    "lines": [
-    "뒤쪽엔 높이 쌓은 낟가리와",
+    "뒤쪽엔 높이 쌓은 곡식 더미와",
     "가득 실은 수레"
    ],
    "small": "거둔 것이 넘치는 뒤쪽, 남은 것을 줍는 앞쪽",
@@ -96,7 +96,8 @@
    "y": 1240,
    "lines": [
     "오른쪽 멀리 말 탄 사람은",
-    "수확을 감독하던 관리인으로 봐요"
+    "수확을 감독하던",
+    "관리인으로 봐요"
    ],
    "small": "오르세 미술관은 그렇게 설명해요",
    "en": "Far right, on horseback:\nprobably the estate overseer"
@@ -143,7 +144,7 @@
     "다 거둔 뒤에도",
     "흙이 품고 있는 것"
    ],
-   "small": "1월 10일 「넣어 두는 흙」이 그림 속 들판에 있어요",
+   "small": "1월 10일 「넣어 두는 흙」이\n그림 속 들판에 있어요",
    "en": "What the earth still holds after the harvest\n(our Jan 10 post)"
   },
   {
@@ -178,7 +179,7 @@
      ]
     ]
    ],
-   "small": "『Afternoon Allotment』(기토 편), 오후의 텃밭 같은 소리",
+   "small": "『Afternoon Allotment』(기토 편)\n오후의 텃밭 같은 소리",
    "en": "Afternoon Allotment · 己土 Yin Earth (Gito)\nLike a garden plot in the afternoon"
   },
   {
