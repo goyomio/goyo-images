@@ -564,9 +564,9 @@
   "곡": "Mirror Water",
   "근거": "원곡: 맥 고요음악/쇼츠/_릴스음원/임수/16 Mirror Water.m4a (60초 클립)"
  },
- "shorts/정미년/audio/계수_CloudWater_60s.m4a": {
+ "shorts/정미년/audio/계수_RainGarden_60s.m4a": {
   "편": "계수",
-  "곡": "Cloud Water",
-  "근거": "원곡: goyo-keys/audio/catalog.json 계수 17:37 Cloud Water (곡 시작부터 60초)"
+  "곡": "Rain Garden",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 19:58 Rain Garden (곡 시작부터 60초)"
  }
 }

@@ -10,7 +10,7 @@ META={
 '정화':dict(date='2027-01-23',hj='丁火',en='Yin Fire',ro='Jeonghwa',pyeon='정화',title='Warm Wax',file='/home/claude/goyo-keys/audio/정화/10 Warm Wax.m4a',hms='39:39',mk='정화(丁火)',gl='With its mother near, it lasts through autumn and winter.'),
 '경금':dict(date='2027-01-26',hj='庚金',en='Yang Metal',ro='Gyeonggeum',pyeon='경금',title='Quiet Quarry',file='/home/claude/goyo-keys/audio/경금/03 Quiet Quarry.m4a',hms='8:57',mk='경금(庚金)',gl='Meeting fire, it grows keen.'),
 '임수':dict(date='2027-01-30',hj='壬水',en='Yang Water',ro='Imsu',pyeon='임수',title='Mirror Water',file='/mnt/user-data/uploads/Desktop/고요음악/쇼츠/_릴스음원/임수/16 Mirror Water.m4a',hms='',mk='임수(壬水)',gl='Transformed, it has feeling.'),
-'계수':dict(date='2027-02-02',hj='癸水',en='Yin Water',ro='Gyesu',pyeon='계수',title='Cloud Water',file='/home/claude/goyo-keys/audio/계수/08 Cloud Water.m4a',hms='17:37',mk='계수(癸水)',gl='It does not worry over fire or earth.'),
+'계수':dict(date='2027-02-02',hj='癸水',en='Yin Water',ro='Gyesu',pyeon='계수',title='Rain Garden',file='/home/claude/goyo-keys/audio/계수/09 Rain Garden.m4a',hms='19:58',mk='계수(癸水)',gl='It does not worry over fire or earth.'),
 }
 def flat(s): return s.replace('\n',' ')
 def wrap(t,n):
