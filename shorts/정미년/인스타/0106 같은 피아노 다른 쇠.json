@@ -1,0 +1,325 @@
+{
+ "audio": "shorts/정미년/audio/금_ColdRidge_CrystalWindow_31s.m4a",
+ "audio_parts": [
+  {
+   "file": "shorts/정미년/audio/경금_ColdRidge_60s.m4a",
+   "start": 0,
+   "dur": 14
+  },
+  {
+   "file": "shorts/정미년/audio/신금_CrystalWindow_60s.m4a",
+   "start": 0,
+   "dur": 15.5
+  }
+ ],
+ "scenes": [
+  {
+   "sec": 2.5,
+   "items": [
+    [
+     "같은 피아노 한 대로,\n쇠 두 가지를 쳤어요",
+     92,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "One piano,\ntwo kinds of metal",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "instant": true
+  },
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "원석, 캐낸 그대로의 단단한 쇠",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "경금(庚金)",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     40
+    ],
+    [
+     "庚金 Yang Metal (Gyeonggeum):\nraw ore",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "지금 흐르는 소리"
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "낮고 묵직하게,\n한 걸음씩 또렷이",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Low and solid,\none clear step at a time",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "경금 『Cold Ridge』"
+  },
+  {
+   "sec": 2.5,
+   "items": [
+    [
+     "이제 바뀌어요 →",
+     96,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "Now listen as it changes",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "instant": true
+  },
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "깎은 돌, 갈고 다듬어 빛나는 쇠",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "신금(辛金)",
+     110,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     40
+    ],
+    [
+     "辛金 Yin Metal (Singeum):\ncut stone",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "지금 흐르는 소리"
+  },
+  {
+   "sec": 4.0,
+   "items": [
+    [
+     "한 옥타브 가까이 높게,\n맑고 가볍게",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "Nearly an octave higher,\nclear and light",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "신금 『Crystal Window』"
+  },
+  {
+   "sec": 6.0,
+   "items_ig": [
+    [
+     "오늘 게시물의 『식혀 주는 것』,\n쇠에도 두 가지가 있어요",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "다섯 가지 고요",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "경금 『Cold Ridge』\n신금 『Crystal Window』",
+     56,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Among this year's cooling things,\nmetal comes in two kinds.\nFive Kinds of Quiet · Yang Metal “Cold Ridge”\n· Yin Metal “Crystal Window”\nMusic: link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "오늘 게시물의 『식혀 주는 것』,\n쇠에도 두 가지가 있어요",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "다섯 가지 고요",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "경금 『Cold Ridge』\n신금 『Crystal Window』",
+     56,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     30
+    ],
+    [
+     "음악은 아래 관련 영상",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Among this year's cooling things,\nmetal comes in two kinds.\nFive Kinds of Quiet · Yang Metal “Cold Ridge”\n· Yin Metal “Crystal Window”\nMusic: related video below",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.6
+  }
+ ]
+}

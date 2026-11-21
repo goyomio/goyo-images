@@ -168,5 +168,15 @@
   "편": "병화",
   "곡": "Sunlit Crosswalk",
   "근거": "원곡: goyo-keys/audio/catalog.json 병화 04 9:54 Sunlit Crosswalk (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/경금_ColdRidge_60s.m4a": {
+  "편": "경금",
+  "곡": "Cold Ridge",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 08 31:19 Cold Ridge (곡 시작부터 60초)"
+ },
+ "shorts/정미년/audio/신금_CrystalWindow_60s.m4a": {
+  "편": "신금",
+  "곡": "Crystal Window",
+  "근거": "원곡: goyo-keys/audio/catalog.json 신금 07 26:55 Crystal Window (곡 시작부터 60초)"
  }
 }
