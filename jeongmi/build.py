@@ -165,12 +165,22 @@ P['0103'] = dict(
      T('In 2026, 丙火 Yang Fire (Byeonghwa), the sun, meets Noon Fire: the hottest point.', 34, EN, gap=0)], tag='한여름'),
   S([T('2027년 정미는\n여름의 마무리예요.', 64, bold=True, gap=34), T('불이 꺼지는 해라기보다\n불이 다 익는 해로 읽어요.', 50, gap=36),
      T('2027 closes the summer. We read it as a year when the fire ripens, not one when it goes out.', 34, EN, gap=0)], tag='늦여름'),
-  S([T('1월인 지금은 아직 병오년,\n한여름의 끝자락이에요.', 54, gap=30), T('늦여름은\n입춘(2월 4일)부터.', 64, bold=True, gap=36),
-     T('January is still the 丙午 year (Byeong-o), the tail end of high summer. The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins Feb 4, at the start of spring (立春).', 32, EN, gap=0)], tag='지금은 어느 여름일까요'),
+  S([T('1월인 지금은 아직 병오년,\n한여름의 끝자락이에요.', 54, gap=30), T('늦여름은\n입춘(2월 4일)부터.', 64, bold=True, gap=26),
+     T('오늘 오후 4시 반쯤은\n겨울의 마지막 절기, 대한(大寒)이에요.', 38, GOLD, gap=30),
+     T('January is still the 丙午 year (Byeong-o), the tail end of\nhigh summer. The 丁未 year (Jeongmi) · Yin Fire · Afternoon\nEarth begins Feb 4, at the start of spring (立春).\nToday brings Daehan (大寒), winter\'s last solar term.', 28, EN, gap=0)], tag='지금은 어느 여름일까요'),
+  S([T('여름 세 글자의 달', 46, gap=26),
+     T('사(巳) · 5월 초 입하부터\n오(午) · 6월 초 망종부터\n미(未) · 7월 초 소서부터\n8월 초 입추 전까지', 54, bold=True, gap=30),
+     T('세 해를 이어 보면\n이 석 달이 해마다 하나씩 온 셈이에요.', 44, gap=34),
+     T('Midmorning Fire from early May,\nNoon Fire from early June,\nAfternoon Earth from early July to early August.\nOne month for each of the three years.', 28, EN, gap=0)], tag='여름 석 달'),
+  S([T('사·오·미 세 해는\n12년마다 돌아와요.', 58, bold=True, gap=20),
+     T('지난번은 2013~2015년(계사·갑오·을미).', 42, gap=34),
+     T('하늘 글자까지 불이 겹친\n병오·정미는 60년마다.', 58, bold=True, gap=20),
+     T('지난번은 1966·1967년이었어요.', 42, gap=34),
+     T('These summer years return every 12 years\n(last: 2013 to 2015). With fire on top too,\nthe 丙午 and 丁未 pair returns every 60 years:\nlast in 1966 and 1967.', 28, EN, gap=0)], tag='12년마다, 60년마다'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('병화 편', 96, bold=True, gap=34),
      T('한여름의 끝자락에 듣는,\n한낮의 해 같은 소리예요.', 52, gap=24), T('첫 곡은 『Noon Avenue』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yang Fire. The first track is Noon Avenue. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yang Fire.\nThe first track is Noon Avenue.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 20일', 50, GOLD, gap=34), T('여름이\n세 해 동안\n이어졌어요', 120, bold=True, gap=50), T('Summer has lasted three years', 42, EN, gap=0)]),
@@ -178,21 +188,25 @@ P['0103'] = dict(
        T('Early, high, and late summer', 40, EN, gap=0)]),
   dict(sec=6.0, step=1.0, items=[T('2027년은\n여름의 마무리', 96, bold=True, gap=40), T('불이 다 익는 해', 72, gap=50), T('2027: the fire ripens', 40, EN, gap=0)]),
   dict(sec=5.0, step=0.9,
-       items_ig=[T('1월인 지금은\n어느 여름일까요?', 92, bold=True, gap=34), T('풀이는 @goyo_mio\n피드 게시물에서', 60, bold=True, gap=30),
-                 T('Which summer are we in now?\nFull reading on our profile', 40, EN, gap=0)],
-       items_yt=[T('1월인 지금은\n어느 여름일까요?', 92, bold=True, gap=34), T('풀이는\n채널 게시물에서', 60, bold=True, gap=30),
-                 T('Which summer are we in now?\nFull reading in our Posts tab', 40, EN, gap=0)]),
+       items_ig=[T('1월인 지금은\n어느 여름일까요?', 92, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
+                 T('Which summer are we in now?\nMore in our feed post', 40, EN, gap=0)],
+       items_yt=[T('1월인 지금은\n어느 여름일까요?', 92, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
+                 T('Which summer are we in now?\nMore in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('첫 곡 『Noon Avenue』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa): Noon Avenue\nMusic: link in bio', 36, EN, gap=0)],
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa)\nNoon Avenue · Listen through the link in bio.', 34, EN, gap=0)],
        items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('병화 편', 100, bold=True, gap=36), T('첫 곡 『Noon Avenue』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa): Noon Avenue\nMusic: related video below', 36, EN, gap=0)]),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa)\nNoon Avenue · Music: related video below', 34, EN, gap=0)]),
  ],
  caption="""여름이 세 해 동안 이어졌어요.
 
 2025 을사는 초여름, 2026 병오는 한여름, 2027 정미는 늦여름이에요. 사(巳)·오(午)·미(未)가 여름의 세 글자라서, 세 해를 이어 보면 여름 한 철이 돼요. 2026년 병오는 해(丙)와 한여름(午)이 겹친 가장 뜨거운 자리고, 2027년 정미는 여름의 마무리예요. 불이 꺼지는 해라기보다 불이 다 익는 해로 읽어요.
 
-1월인 지금은 아직 병오년, 한여름의 끝자락이에요. 사주의 해는 입춘(2월 4일)에 바뀌거든요.
+여름 세 글자의 달은 사(巳)가 5월 초 입하부터, 오(午)가 6월 초 망종부터, 미(未)가 7월 초 소서부터 8월 초 입추 전까지예요. 세 해를 이어 보면 이 석 달이 해마다 하나씩 온 셈이에요.
+
+사·오·미 세 해는 12년마다 돌아와요. 지난번은 2013~2015년(계사·갑오·을미)이었어요. 하늘 글자까지 불이 겹친 병오·정미는 60년마다 돌아오고, 지난번은 1966·1967년이었어요.
+
+1월인 지금은 아직 병오년, 한여름의 끝자락이에요. 사주의 해는 입춘(2월 4일)에 바뀌거든요. 오늘 오후 4시 반쯤은 겨울의 마지막 절기, 대한(大寒)이에요.
 
 한여름의 끝자락에는 한낮의 해 같은 『다섯 가지 고요｜병화(丙火)』. 첫 곡은 『Noon Avenue』예요. 프로필 링크에서 들을 수 있어요.
 
@@ -201,19 +215,23 @@ Summer has lasted three years.
 
 2025 was early summer, 2026 is high summer, and 2027 is late summer. The three summer characters are 巳 Midmorning Fire (Sahwa), 午 Noon Fire (Ohwa) and 未 Afternoon Earth (Mito), so the three years together make one summer season. 2026 is the hottest point, where 丙火 Yang Fire (Byeonghwa), the sun, met Noon Fire. 2027 closes the summer. We read it as a year when the fire ripens, not one when it goes out.
 
-Right now, in January, it is still the 丙午 year (Byeong-o) · Yang Fire · Noon Fire, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4.
+The months of the three summer characters: Midmorning Fire from early May, Noon Fire from early June, and Afternoon Earth from early July until early August. Across the three years, one of those months came each year.
+
+These three summer years come round every 12 years; last time was 2013 to 2015. With fire in the top character too, the pair of the 丙午 year (Byeong-o) · Yang Fire · Noon Fire and the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth returns only every 60 years, last in 1966 and 1967.
+
+Right now, in January, it is still the Yang Fire · Noon Fire year, the tail end of high summer. In Saju, the year turns at the start of spring (立春) on February 4. Today brings Daehan (大寒), the last solar term of winter.
 
 For the tail end of high summer, music like the midday sun: Five Kinds of Quiet · Yang Fire. The first track is Noon Avenue. Listen through the link in bio.
 
 #고요 #고요이야기 #정미년 #병오년 #사주 #오행 #오행음악 #saju #fiveelements""",
  reel_caption="""여름이 세 해 동안 이어졌어요.
 
-2025 을사는 초여름, 2026 병오는 한여름, 2027 정미는 늦여름. 2027년은 여름의 마무리, 불이 다 익는 해로 읽어요. 1월인 지금이 어느 여름인지는 피드 게시물에 있어요.
+2025 을사는 초여름, 2026 병오는 한여름, 2027 정미는 늦여름. 2027년은 여름의 마무리, 불이 다 익는 해로 읽어요. 1월인 지금이 어느 여름인지, 이 세 해가 몇 년마다 돌아오는지는 피드 게시물에 있어요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜병화(丙火)』의 첫 곡 『Noon Avenue』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-Summer has lasted three years: early summer in 2025, high summer in 2026, and late summer in 2027. 2027 closes the summer, a year when the fire ripens. Which summer are we in now, in January? See our feed post.
+Summer has lasted three years: early summer in 2025, high summer in 2026, and late summer in 2027. 2027 closes the summer, a year when the fire ripens. Which summer are we in now, and how often do these years return? See our feed post.
 
 The music is Noon Avenue from Five Kinds of Quiet · 丙火 Yang Fire (Byeonghwa). Listen through the link in bio.
 
@@ -309,13 +327,17 @@ P['0107'] = dict(
      T('The Magdalen with the Smoking Flame · Georges de La Tour', 28, EN, gap=0)], card={'file': LT, 'h': 600}),
   S([T('어두운 방,\n등불 하나가\n얼굴과 손만 비춰요.', 66, bold=True, gap=36),
      T('그녀는 불꽃을 바라보고 있어요.\n등불 위로 연기 한 줄기가 올라가요.', 46, gap=36),
-     T('In a dark room, one lamp lights only her face and hands.', 34, EN, gap=0)], tag='그림'),
+     T('In a dark room, one lamp\nlights only her face and hands.', 34, EN, gap=0)], tag='그림'),
   S([T('무릎 위 해골,\n쌓인 책과 채찍,\n그리고 바라보는 불꽃.', 60, bold=True, gap=34),
      T('해골과 책의 매끈한 표면, 치마와 피부가\n빛을 저마다 다르게 받도록 그렸어요.', 40, gap=34),
      T('A skull on her lap, books, a scourge, and the flame she watches.', 34, EN, gap=0)], tag='그림 속 물건'),
   S([T('라 투르는 1652년 세상을 떠난 뒤\n이름이 잊혔어요.', 54, gap=30), T('1915년, 독일 미술사학자\n헤르만 포스가 다시 찾아냈어요.', 58, bold=True, gap=30),
      T('이 그림도 한때는\n르냉 형제의 그림으로 전해졌어요.', 46, gap=36),
      T('Forgotten after his death in 1652, La Tour was rediscovered in 1915 by Hermann Voss.', 34, EN, gap=0)], tag='잊혔다가 다시 찾은 화가'),
+  S([T('라 투르는\n등불 앞의 막달라 마리아를\n적어도 네 번 그렸어요.', 58, bold=True, gap=30),
+     T('워싱턴 국립미술관 · LACMA\n메트로폴리탄 미술관 · 루브르', 42, GOLD, gap=28),
+     T('거울에 촛불이 비치는 그림도 있고,\n이 그림처럼 거울 없이\n해골과 등불만 남긴 그림도 있어요.', 42, gap=34),
+     T('La Tour painted the Magdalene before a flame\nat least four times: Washington, LACMA,\nthe Met and the Louvre. Some show a mirror;\nthis one keeps only the skull and the lamp.', 28, EN, gap=0)], tag='같은 등불을 다시 그린 화가'),
   S([T('보이는 것', 40, GOLD, True, 6), T('어둠 속 불꽃 하나 → 불, 그중 등불', 44, gap=26),
      T('그리는 방식', 40, GOLD, True, 6), T('빛만 남기고 어둠에 묻음 → 불의 빛', 44, gap=26),
      T('화가의 사주', 40, GOLD, True, 6), T('세례 기록만 남아 있어\n생일을 확인하지 못해 보지 않았어요.', 40, gap=30),
@@ -333,6 +355,8 @@ P['0107'] = dict(
 
 어두운 방, 등불 하나가 얼굴과 손만 비춰요. 무릎 위에는 해골, 곁에는 쌓인 책과 채찍, 그리고 그녀가 바라보는 불꽃이 있어요. 라 투르는 1652년 세상을 떠난 뒤 이름이 잊혔다가, 1915년 독일 미술사학자 헤르만 포스가 다시 찾아냈어요. 이 그림도 한때는 르냉 형제의 그림으로 전해졌어요.
 
+라 투르는 등불 앞의 막달라 마리아를 적어도 네 번 그렸어요. 워싱턴 국립미술관, LACMA, 메트로폴리탄 미술관, 루브르에 한 점씩 있어요. 거울에 촛불이 비치는 그림도 있고, 이 그림처럼 거울 없이 해골과 등불만 남긴 그림도 있어요. 같은 등불을 몇 번이고 다시 그린 화가예요.
+
 고요의 읽기로는 화(火), 그중 등불 정화예요. 넓게 퍼지는 해가 아니라 가까운 것을 오래 비추는 빛이라, 2027년의 빛을 그림 한 장으로 보면 이래요. 화가는 세례 기록만 남아 있어 생일을 확인하지 못해 사주는 보지 않았어요. 제 해석이에요.
 
 이 그림 옆에는 『다섯 가지 고요｜정화(丁火)』. 오늘 밤 9시 릴스에는 『Soft Wick』이 흘러요. 프로필 링크에서 들을 수 있어요.
@@ -343,6 +367,8 @@ P['0107'] = dict(
 Goyo Reads a Painting #2 · Georges de La Tour, The Magdalen with the Smoking Flame
 
 In a dark room, one lamp lights only her face and hands. A skull rests on her lap, with books, a scourge, and the flame she watches. After his death in 1652, La Tour was forgotten until the German art historian Hermann Voss rediscovered him in 1915. This painting, too, was once attributed to the Le Nain brothers.
+
+La Tour painted the Magdalene before a flame at least four times; the versions hang in the National Gallery of Art in Washington, LACMA, the Metropolitan Museum and the Louvre. Some show a candle reflected in a mirror; this one keeps only the skull and the lamp. He was a painter who returned to the same lamp again and again.
 
 We read it as Fire, and within Fire, the lamp: 丁火 Yin Fire (Jeonghwa). Not the wide sun, but a light that stays close. This is 2027 in a single painting. Only his baptism record survives, so his birth date is unknown and we did not read his Saju. This is our own reading.
 

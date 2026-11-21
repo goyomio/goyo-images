@@ -78,7 +78,7 @@
      36
     ],
     [
-     "In a dark room, one lamp lights only her face and hands.",
+     "In a dark room, one lamp\nlights only her face and hands.",
      34,
      [
       214,
@@ -177,6 +177,55 @@
     ]
    ],
    "tag": "잊혔다가 다시 찾은 화가"
+  },
+  {
+   "items": [
+    [
+     "라 투르는\n등불 앞의 막달라 마리아를\n적어도 네 번 그렸어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "워싱턴 국립미술관 · LACMA\n메트로폴리탄 미술관 · 루브르",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     28
+    ],
+    [
+     "거울에 촛불이 비치는 그림도 있고,\n이 그림처럼 거울 없이\n해골과 등불만 남긴 그림도 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "La Tour painted the Magdalene before a flame\nat least four times: Washington, LACMA,\nthe Met and the Louvre. Some show a mirror;\nthis one keeps only the skull and the lamp.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "같은 등불을 다시 그린 화가"
   },
   {
    "items": [

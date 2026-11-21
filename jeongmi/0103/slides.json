@@ -174,11 +174,22 @@
       226
      ],
      true,
-     36
+     26
     ],
     [
-     "January is still the 丙午 year (Byeong-o), the tail end of high summer. The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins Feb 4, at the start of spring (立春).",
-     32,
+     "오늘 오후 4시 반쯤은\n겨울의 마지막 절기, 대한(大寒)이에요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "January is still the 丙午 year (Byeong-o), the tail end of\nhigh summer. The 丁未 year (Jeongmi) · Yin Fire · Afternoon\nEarth begins Feb 4, at the start of spring (立春).\nToday brings Daehan (大寒), winter's last solar term.",
+     28,
      [
       214,
       210,
@@ -189,6 +200,115 @@
     ]
    ],
    "tag": "지금은 어느 여름일까요"
+  },
+  {
+   "items": [
+    [
+     "여름 세 글자의 달",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "사(巳) · 5월 초 입하부터\n오(午) · 6월 초 망종부터\n미(未) · 7월 초 소서부터\n8월 초 입추 전까지",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "세 해를 이어 보면\n이 석 달이 해마다 하나씩 온 셈이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "Midmorning Fire from early May,\nNoon Fire from early June,\nAfternoon Earth from early July to early August.\nOne month for each of the three years.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "여름 석 달"
+  },
+  {
+   "items": [
+    [
+     "사·오·미 세 해는\n12년마다 돌아와요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     20
+    ],
+    [
+     "지난번은 2013~2015년(계사·갑오·을미).",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "하늘 글자까지 불이 겹친\n병오·정미는 60년마다.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     20
+    ],
+    [
+     "지난번은 1966·1967년이었어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "These summer years return every 12 years\n(last: 2013 to 2015). With fire on top too,\nthe 丙午 and 丁未 pair returns every 60 years:\nlast in 1966 and 1967.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "12년마다, 60년마다"
   },
   {
    "items": [
@@ -248,7 +368,7 @@
      30
     ],
     [
-     "Five Kinds of Quiet · Yang Fire. The first track is Noon Avenue. Music: link in bio",
+     "Five Kinds of Quiet · Yang Fire.\nThe first track is Noon Avenue.\nListen through the link in bio.",
      32,
      [
       214,
