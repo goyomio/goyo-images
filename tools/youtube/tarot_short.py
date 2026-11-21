@@ -65,9 +65,10 @@ def build(date, folder):
     ig = ig_post_url(date)
     ko_names = '·'.join(c['ko'] for c in cards)
     title = f"{m}월 {d}일 오늘의 타로｜{ko_names}｜Daily Tarot"
-    desc = (f"{m}월 {d}일, 고요가 뽑은 오늘의 타로 세 장이에요.\n\n"
+    desc = (f"{m}월 {d}일, 고요가 뽑은 오늘의 타로 세 장이에요.\n"
+            f"세 장의 풀이는 인스타 @goyo_mio 오늘의 타로 게시물에 있어요.\n▶ {ig}\n\n"
             + '\n'.join(f"{p} · {c['title']}" for p, c in zip(t['positions'], cards))
-            + f"\n\n세 장의 풀이는 인스타 @goyo_mio 오늘의 타로 게시물에 있어요.\n▶ {ig}\n\n"
+            + "\n\n"
             f"지금 듣는 음악은 다섯 가지 고요 {stem}{hz} 편이에요.\n▶ https://youtu.be/{MUSIC[stem]}\n\n"
             "무료 사주 앱에서 내 오행을 찾고 그 오행의 음악을 들어 보세요.\n▶ https://goyomio.com\n\n"
             f"고요 오행음악 전체 듣기\n▶ {PLAYLIST_URL}\n\n"
@@ -75,9 +76,10 @@ def build(date, folder):
     en_title = f"Today's Tarot, {MON[m - 1]} {d}｜" + ' · '.join(en_name(c).replace(' (reversed)', '') for c in cards)
     if len(en_title) > 95:
         en_title = f"Today's Tarot, {MON[m - 1]} {d}｜Three Cards from GOYO"
-    en_desc = (f"Today's three tarot cards, drawn by GOYO for {MON[m - 1]} {d}.\n\n"
+    en_desc = (f"Today's three tarot cards, drawn by GOYO for {MON[m - 1]} {d}.\n"
+               f"The full reading is in today's tarot post on Instagram @goyo_mio.\n▶ {ig}\n\n"
                + '\n'.join(f"{p} · {en_name(c)}" for p, c in zip(POS_EN, cards))
-               + f"\n\nThe full reading is in today's tarot post on Instagram @goyo_mio.\n▶ {ig}\n\n"
+               + "\n\n"
                f"The music in this video is Five Kinds of Quiet · {STEM_FULL_EN[stem]}.\n▶ https://youtu.be/{MUSIC[stem]}\n\n"
                "Find your element in our free saju (BaZi) app and listen to its music.\n▶ https://goyomio.com\n\n"
                f"All GOYO five-element music\n▶ {PLAYLIST_URL}\n\n"
