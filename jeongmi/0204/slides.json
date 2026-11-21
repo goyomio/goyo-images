@@ -1,0 +1,466 @@
+{
+ "music": "계수",
+ "slides": [
+  {
+   "items": [
+    [
+     "고요의 그림 읽기 #6",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     10
+    ],
+    [
+     "하늘의 물",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     14
+    ],
+    [
+     "우타가와 히로시게, 〈오하시 다리와 아타케의 소나기〉\n1857 · 『명소 에도 백경』 · 퍼블릭 도메인(위키미디어 공용)",
+     26,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     10
+    ],
+    [
+     "Sudden Shower over Shin-Ōhashi Bridge and Atake · Hiroshige",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "card": {
+    "file": "art/히로시게_오하시소나기.jpg",
+    "h": 620
+   }
+  },
+  {
+   "items": [
+    [
+     "다리 위로 갑자기\n저녁 소나기가 쏟아져요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "삿갓과 도롱이 차림, 우산 든 사람들이\n종종걸음으로 다리를 건너고,\n강 위엔 뗏목 사공 하나.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "빗줄기는 검은 선 수백 개로 새겼어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "A sudden evening shower over a bridge. People in straw hats\nand capes hurry across; a lone raftsman poles down the river.\nThe rain is cut in hundreds of fine black lines.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "그림"
+  },
+  {
+   "items": [
+    [
+     "에도(지금의 도쿄)의\n이름난 곳을 그린\n『명소 에도 백경』의 한 장.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "1857년, 히로시게가 세상을 뜨기\n한 해 전에 나온 목판화예요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "강 건너 아타케는 막부의 배가\n머물던 데서 붙은 이름이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "One sheet from One Hundred Famous Views of Edo (today's\nTokyo), a woodblock print from 1857, the year before Hiroshige\ndied. Atake, across the river, was named for a shogunate\nship once moored there.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "명소 에도 백경"
+  },
+  {
+   "items": [
+    [
+     "30년 뒤 파리에서\n반 고흐가 이 판화를\n유화로 따라 그렸어요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "1887년 〈빗속의 다리(히로시게를 따라)〉,\n지금 반 고흐 미술관에 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "고흐가 모은 일본 판화 가운데 히로시게 작품만\n일흔 점이 넘고, 이 판화도 그중 하나였다고 해요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Thirty years later in Paris, Van Gogh copied this print in oil:\nBridge in the Rain (after Hiroshige), 1887, now in the Van\nGogh Museum. His collection held more than 70 Hiroshige\nprints, this one among them.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "반 고흐가 따라 그린 그림"
+  },
+  {
+   "items": [
+    [
+     "보이는 것",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "하늘에서 쏟아지는 비 → 물, 그중 빗물",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "그리는 방식",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "가늘고 곧은 선을 겹겹이 → 물",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "화가의 사주",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "히로시게는 태어난 날이 확실하지 않아\n사주는 보지 않아요.",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "고요의 읽기로는 계수(癸水),\n하늘에서 내리는 작은 물이에요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "Seen: rain pouring from the sky. Painted: fine straight lines,\nlayer on layer. We read it as 癸水 Yin Water (Gyesu), small\nwater falling from the sky. Hiroshige's birth date is uncertain,\nso we don't read his chart.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "고요의 읽기 · 수(水)"
+  },
+  {
+   "items": [
+    [
+     "옛사람들은 정미년을\n하늘의 물, 천하수라고도\n불렀어요.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "글자는 불과 흙이지만,\n옛 이름에는 하늘에서 내리는 물이 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "옛 이름이에요.\n이 이름으로 해나 사람을 판단하지는 않아요.",
+     36,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "People of old also called the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth \"Water from the Sky.\" Its characters are\nFire and Earth, but its old name holds rain. It is only an\nold name; we don't judge a year or a person by it.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "정미년과 이어서"
+  },
+  {
+   "items": [
+    [
+     "오늘 2월 4일 오전 10시 46분,\n입춘과 함께 정미년이 시작됐어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "정미년을 맞으며 읽은 그림들,",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "라 투르의 등불, 밀레와 모네의 밭,\n정선의 바위, 히로시게의 비.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "At 10:46 this morning, the start of spring (立春) opened the\n丁未 year. Paintings we read on the way to\nthe new year: La Tour's lamp, Millet's and Monet's fields,\nJeong Seon's rock, and Hiroshige's rain.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "입춘 날에"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "계수 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "가는 비와 이슬 같은 소리예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 밤 9시 릴스에 흐르는 곡은\n『Rain Circle』,\n빗방울이 그리는 동그라미예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yin Water: like fine rain and dew.\nTonight's 9 p.m. reel: Rain Circle. Listen at the link in bio.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이 그림 옆에 둘 소리"
+  }
+ ]
+}

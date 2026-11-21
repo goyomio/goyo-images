@@ -1,0 +1,418 @@
+{
+ "music": "기토",
+ "slides": [
+  {
+   "items": [
+    [
+     "2월 5일 · 고요 여행",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "그림 속\n들판으로",
+     108,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "프랑스 지베르니, 모네의 마을",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Into the fields of the painting: Giverny",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "1월 28일에 읽은\n〈건초더미(여름의 끝)〉의 더미는",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "모네의 농가\n바로 바깥 들판에\n서 있었어요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "그 들판이 파리 북서쪽,\n센강 가의 마을 지베르니예요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "The wheat stacks we read on Jan 28 stood just outside\nMonet's farmhouse, in Giverny, a village on the Seine\nnorthwest of Paris.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "1월 28일의 그 들판"
+  },
+  {
+   "items": [
+    [
+     "1883년 4월 29일,\n모네가 지베르니로 왔어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "세 들어 살던 집을\n1890년에 사들였고,\n세상을 뜬 1926년까지 살았어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "건초더미를 그리기 시작한 해에\n그 집을 샀어요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Monet moved to Giverny on April 29, 1883, in 1890 bought\nthe house he had been renting, the same year he began the\nwheat stacks, and lived there until his death in 1926.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "모네의 집"
+  },
+  {
+   "items": [
+    [
+     "모네의 집과 정원은\n겨울에는 문을 닫아요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "2026년에는 4월 1일부터\n11월 1일까지 날마다 열었어요.\n2027년 일정은 공식 누리집에서 확인하세요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "가까운 지베르니 인상주의 미술관은\n2027년 3월 26일부터 7월 4일까지\n보나르·뷔야르 전시를 열어요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Monet's house and gardens close in winter: in 2026 they\nopened daily from April 1 to November 1. Check the official\nsite for 2027. The nearby Musée des impressionnismes\nGiverny hosts a Bonnard and Vuillard exhibition, March 26 to July 4, 2027.",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "가기 전에"
+  },
+  {
+   "items": [
+    [
+     "파리 생라자르역에서\n베르농-지베르니역까지 기차로,",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "역에서 마을까지는\n6km 남짓, 셔틀이나 자전거로 가요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "셔틀은 정원이 여는 철에 다녀요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Take the train from Paris Saint-Lazare to Vernon-Giverny,\nthen about 6 km to the village by shuttle (in season)\nor by bike along the Seine.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "가는 길"
+  },
+  {
+   "items": [
+    [
+     "정미년의 미(未)는\n늦여름의 흙이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "지베르니는 건초더미를 그린 화가가\n집을 사고 정원을 가꾼 마을이에요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "늦여름에 가면, 그림으로 본\n들판의 빛을 그 자리에서 볼 수 있어요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth,\n未 Afternoon Earth (Mito) is late-summer earth. This is the\nvillage where the painter of the wheat stacks bought his house\nand tended his garden. Go in late summer to see that light\nwhere it was painted.",
+     22,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "정미년과 이어서"
+  },
+  {
+   "items": [
+    [
+     "정미년 둘째 날,\n2월 5일은 을묘(乙卯)일이에요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "어제 입춘과 함께\n사주의 해가 바뀌었어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "모네의 정원에 자라는 덩굴처럼,\n봄의 나무 두 글자가 이어지는 날이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Feb 5, the second day of the 丁未 year, is a 乙卯 day:\ntwo spring Wood characters in a row, like a vine\nin Monet's garden. The Saju year turned yesterday\nat the start of spring (立春).",
+     24,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "오늘"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "기토 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "갈아 둔 밭 같은\n재즈 로파이예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 고른 곡은 『Bench by the Rows』,\n밭이랑 곁의 벤치예요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 己土 Yin Earth (Gito):\nlo-fi jazz like a tilled field.\nToday's track is Bench by the Rows. Listen at the link in bio.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "들판 곁에 둘 소리"
+  }
+ ]
+}

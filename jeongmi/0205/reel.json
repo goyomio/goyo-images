@@ -1,0 +1,314 @@
+{
+ "audio": "shorts/음원/기토_Bench by the Rows_60s.m4a",
+ "scenes": [
+  {
+   "sec": 4.5,
+   "instant": true,
+   "items": [
+    [
+     "2월 5일",
+     50,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "그림 속\n들판으로",
+     116,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     50
+    ],
+    [
+     "Into the fields of the painting",
+     42,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "step": 1.0,
+   "items": [
+    [
+     "프랑스 지베르니",
+     62,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "건초더미가 서 있던\n모네의 마을",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     44
+    ],
+    [
+     "Giverny, France:\nthe village of the wheat stacks",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.5,
+   "step": 1.0,
+   "items": [
+    [
+     "늦여름 흙의 해,\n그림 속 들판으로",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "정미년의 미(未)는 늦여름의 흙",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     44
+    ],
+    [
+     "A trip into the painting's late-summer fields",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items_ig": [
+    [
+     "겨울에 가면\n정원은 열려 있을까요?",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 가는 길은\n@goyo_mio 피드 게시물에서",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "Is the garden open in winter?\nThe answer and directions\nare in our feed post.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "겨울에 가면\n정원은 열려 있을까요?",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 가는 길은\n채널 게시물에서",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "Is the garden open in winter?\nThe answer and directions\nare in our Posts tab.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.5,
+   "tag": "지금 흐르는 소리",
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "기토 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Bench by the Rows』",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 프로필 링크에서",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 己土 Yin Earth (Gito)\n· Bench by the Rows · Listen at the link in bio.",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "기토 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Bench by the Rows』",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 아래 관련 영상",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 己土 Yin Earth (Gito)\n· Bench by the Rows · Music: related video below",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

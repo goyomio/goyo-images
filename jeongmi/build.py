@@ -1809,28 +1809,28 @@ P['0205'] = dict(
      T('프랑스 지베르니, 모네의 마을', 44, gap=30), T('Into the fields of the painting: Giverny', 34, EN, gap=0)]),
   S([T('1월 28일에 읽은\n〈건초더미(여름의 끝)〉의 더미는', 50, gap=24),
      T('모네의 농가\n바로 바깥 들판에\n서 있었어요.', 64, bold=True, gap=30),
-     T('그 들판이 파리 서쪽,\n센강 가의 마을 지베르니예요.', 42, GOLD, gap=34),
-     T('The wheat stacks we read on Jan 28 stood just outside\nMonet\'s farmhouse, in Giverny, a village on the Seine\nwest of Paris.', 28, EN, gap=0)], tag='1월 28일의 그 들판'),
+     T('그 들판이 파리 북서쪽,\n센강 가의 마을 지베르니예요.', 42, GOLD, gap=34),
+     T('The wheat stacks we read on Jan 28 stood just outside\nMonet\'s farmhouse, in Giverny, a village on the Seine\nnorthwest of Paris.', 28, EN, gap=0)], tag='1월 28일의 그 들판'),
   S([T('1883년 4월 29일,\n모네가 지베르니로 왔어요.', 58, bold=True, gap=28),
      T('세 들어 살던 집을\n1890년에 사들였고,\n세상을 뜬 1926년까지 살았어요.', 46, gap=28),
      T('건초더미를 그리기 시작한 해에\n그 집을 샀어요.', 42, GOLD, gap=34),
-     T('Monet moved to Giverny on April 29, 1883, bought the\nhouse he had rented in 1890, the same year he began the\nwheat stacks, and lived there until his death in 1926.', 26, EN, gap=0)], tag='모네의 집'),
+     T('Monet moved to Giverny on April 29, 1883, in 1890 bought\nthe house he had been renting, the same year he began the\nwheat stacks, and lived there until his death in 1926.', 26, EN, gap=0)], tag='모네의 집'),
   S([T('모네의 집과 정원은\n겨울에는 문을 닫아요.', 58, bold=True, gap=28),
      T('2026년에는 4월 1일부터\n11월 1일까지 날마다 열었어요.\n2027년 일정은 공식 누리집에서 확인하세요.', 42, gap=28),
      T('가까운 지베르니 인상주의 미술관은\n2027년 3월 26일부터 7월 4일까지\n보나르·뷔야르 전시를 열어요.', 38, GOLD, gap=34),
-     T('Monet\'s house and gardens close in winter: in 2026 they\nopened daily from April 1 to November 1. Check the official\nsite for 2027. The nearby Musée des impressionnismes\nGiverny shows Bonnard and Vuillard, March 26 to July 4, 2027.', 24, EN, gap=0)], tag='가기 전에'),
+     T('Monet\'s house and gardens close in winter: in 2026 they\nopened daily from April 1 to November 1. Check the official\nsite for 2027. The nearby Musée des impressionnismes\nGiverny hosts a Bonnard and Vuillard exhibition, March 26 to July 4, 2027.', 24, EN, gap=0)], tag='가기 전에'),
   S([T('파리 생라자르역에서\n베르농-지베르니역까지 기차로,', 52, bold=True, gap=26),
      T('역에서 마을까지는\n6km 남짓, 셔틀이나 자전거로 가요.', 44, gap=28),
      T('셔틀은 정원이 여는 철에 다녀요.', 38, GOLD, gap=34),
      T('Take the train from Paris Saint-Lazare to Vernon-Giverny,\nthen about 6 km to the village by shuttle (in season)\nor by bike along the Seine.', 26, EN, gap=0)], tag='가는 길'),
   S([T('정미년의 미(未)는\n늦여름의 흙이에요.', 58, bold=True, gap=28),
-     T('거둔 것을 쌓아 둔 밭을 그린 화가가\n집을 사고 정원을 가꾼 마을.', 46, gap=28),
-     T('그림으로 본 늦여름 들판의 빛을\n그 자리에서 보는 여행이에요.', 42, GOLD, gap=34),
-     T('未 Afternoon Earth (Mito) is late-summer earth. This is the\nvillage where a painter of stacked harvest bought his house\nand grew his garden: a trip to see that late-summer light\nwhere it was painted.', 24, EN, gap=0)], tag='정미년과 이어서'),
+     T('지베르니는 건초더미를 그린 화가가\n집을 사고 정원을 가꾼 마을이에요.', 46, gap=28),
+     T('늦여름에 가면, 그림으로 본\n들판의 빛을 그 자리에서 볼 수 있어요.', 42, GOLD, gap=34),
+     T('In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth,\n未 Afternoon Earth (Mito) is late-summer earth. This is the\nvillage where the painter of the wheat stacks bought his house\nand tended his garden. Go in late summer to see that light\nwhere it was painted.', 22, EN, gap=0)], tag='정미년과 이어서'),
   S([T('정미년 둘째 날,\n2월 5일은 을묘(乙卯)일이에요.', 52, bold=True, gap=28),
      T('어제 입춘과 함께\n사주의 해가 바뀌었어요.', 46, gap=28),
-     T('곁의 정원에서 자라는 덩굴처럼,\n봄의 나무 두 글자가 이어지는 날이에요.', 40, GOLD, gap=34),
-     T('Feb 5, the second day of the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth, is a 乙卯 day: two Wood characters,\nlike a vine in a garden. The Saju year turned yesterday\nat the start of spring (立春).', 24, EN, gap=0)], tag='오늘'),
+     T('모네의 정원에 자라는 덩굴처럼,\n봄의 나무 두 글자가 이어지는 날이에요.', 40, GOLD, gap=34),
+     T('Feb 5, the second day of the 丁未 year, is a 乙卯 day:\ntwo spring Wood characters in a row, like a vine\nin Monet\'s garden. The Saju year turned yesterday\nat the start of spring (立春).', 24, EN, gap=0)], tag='오늘'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('기토 편', 96, bold=True, gap=34),
      T('갈아 둔 밭 같은\n재즈 로파이예요.', 52, gap=24), T('오늘 고른 곡은 『Bench by the Rows』,\n밭이랑 곁의 벤치예요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -1840,13 +1840,13 @@ P['0205'] = dict(
   dict(sec=4.5, instant=True, items=[T('2월 5일', 50, GOLD, gap=34), T('그림 속\n들판으로', 116, bold=True, gap=50), T('Into the fields of the painting', 42, EN, gap=0)]),
   dict(sec=6.0, step=1.0, items=[T('프랑스 지베르니', 62, GOLD, gap=30), T('건초더미가 서 있던\n모네의 마을', 84, bold=True, gap=44),
        T('Giverny, France:\nthe village of the wheat stacks', 36, EN, gap=0)]),
-  dict(sec=6.5, step=1.0, items=[T('늦여름 흙의 해에\n그림 속 들판으로', 84, bold=True, gap=40), T('정미년의 미(未)는 늦여름의 흙', 52, gap=44),
+  dict(sec=6.5, step=1.0, items=[T('늦여름 흙의 해,\n그림 속 들판으로', 84, bold=True, gap=40), T('정미년의 미(未)는 늦여름의 흙', 52, gap=44),
        T('A trip into the painting\'s late-summer fields', 34, EN, gap=0)]),
   dict(sec=5.5, step=0.9,
        items_ig=[T('겨울에 가면\n정원은 열려 있을까요?', 84, bold=True, gap=34), T('답과 가는 길은\n@goyo_mio 피드 게시물에서', 54, bold=True, gap=30),
-                 T('Is the garden open in winter?\nAnswer and directions in our feed post.', 34, EN, gap=0)],
+                 T('Is the garden open in winter?\nThe answer and directions\nare in our feed post.', 34, EN, gap=0)],
        items_yt=[T('겨울에 가면\n정원은 열려 있을까요?', 84, bold=True, gap=34), T('답과 가는 길은\n채널 게시물에서', 54, bold=True, gap=30),
-                 T('Is the garden open in winter?\nAnswer and directions in our Posts tab.', 34, EN, gap=0)]),
+                 T('Is the garden open in winter?\nThe answer and directions\nare in our Posts tab.', 34, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('기토 편', 100, bold=True, gap=36), T('『Bench by the Rows』', 54, gap=26),
                  T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 己土 Yin Earth (Gito)\n· Bench by the Rows · Listen at the link in bio.', 32, EN, gap=0)],
@@ -1855,13 +1855,13 @@ P['0205'] = dict(
  ],
  caption="""그림 속 들판으로, 프랑스 지베르니.
 
-1월 28일에 읽은 모네의 〈건초더미(여름의 끝)〉, 그 더미는 모네의 농가 바로 바깥 들판에 서 있었어요(시카고 미술관 설명). 그 들판이 파리 서쪽, 센강 가의 마을 지베르니예요.
+1월 28일에 읽은 모네의 〈건초더미(여름의 끝)〉, 그 더미는 모네의 농가 바로 바깥 들판에 서 있었어요(시카고 미술관 설명). 그 들판이 파리 북서쪽, 센강 가의 마을 지베르니예요.
 
 모네는 1883년 4월 29일 지베르니로 왔어요. 세 들어 살던 집을 1890년에 사들였고, 세상을 뜬 1926년까지 살았어요. 건초더미를 그리기 시작한 해에 그 집을 산 셈이에요.
 
 모네의 집과 정원은 겨울에는 문을 닫아요. 2026년에는 4월 1일부터 11월 1일까지 날마다 열었고, 2027년 일정은 공식 누리집에서 확인하세요. 가까운 지베르니 인상주의 미술관은 2027년 3월 26일부터 7월 4일까지 보나르·뷔야르 전시를 열어요. 파리 생라자르역에서 베르농-지베르니역까지 기차로 가고, 역에서 마을까지 6km 남짓은 셔틀이나 자전거로 가요. 셔틀은 정원이 여는 철에 다녀요.
 
-정미년의 미(未)는 늦여름의 흙이에요. 거둔 것을 쌓아 둔 밭을 그린 화가가 집을 사고 정원을 가꾼 마을이라, 그림으로 본 늦여름 들판의 빛을 그 자리에서 보는 여행이에요. 정미년 둘째 날인 오늘 2월 5일은 을묘(乙卯)일이에요. 어제 입춘과 함께 사주의 해가 바뀌었어요.
+정미년의 미(未)는 늦여름의 흙이에요. 지베르니는 건초더미를 그린 화가가 집을 사고 정원을 가꾼 마을이에요. 늦여름에 가면 그림으로 본 들판의 빛을 그 자리에서 볼 수 있어요. 정미년 둘째 날인 오늘 2월 5일은 을묘(乙卯)일이에요. 어제 입춘과 함께 사주의 해가 바뀌었어요.
 
 들판 곁에는 갈아 둔 밭 같은 재즈 로파이, 『다섯 가지 고요｜기토(己土)』. 오늘 고른 곡은 밭이랑 곁의 벤치, 『Bench by the Rows』예요. 프로필 링크에서 들을 수 있어요.
 
@@ -1870,31 +1870,131 @@ P['0205'] = dict(
 · English ·
 Into the fields of the painting: Giverny, France.
 
-The wheat stacks in Monet's Stacks of Wheat (End of Summer), which we read on January 28, stood just outside his farmhouse (Art Institute of Chicago). Those fields are in Giverny, a village on the Seine west of Paris.
+The stacks in Monet's Stacks of Wheat (End of Summer), which we read on January 28, stood just outside his farmhouse (Art Institute of Chicago). Those fields are in Giverny, a village on the Seine northwest of Paris.
 
-Monet moved to Giverny on April 29, 1883. He bought the house he had rented in 1890, the same year he began the wheat stacks, and lived there until his death in 1926.
+Monet moved to Giverny on April 29, 1883. In 1890 he bought the house he had been renting, the same year he began the wheat stacks, and lived there until his death in 1926.
 
-Monet's house and gardens close in winter: in 2026 they opened daily from April 1 to November 1, so check the official site for 2027. The nearby Musée des impressionnismes Giverny shows Bonnard and Vuillard from March 26 to July 4, 2027. Take the train from Paris Saint-Lazare to Vernon-Giverny, then go about 6 km to the village by shuttle (in season) or by bike along the Seine.
+Monet's house and gardens close in winter: in 2026 they opened daily from April 1 to November 1. Check the official site for 2027 dates. The nearby Musée des impressionnismes Giverny hosts a Bonnard and Vuillard exhibition from March 26 to July 4, 2027. Take the train from Paris Saint-Lazare to Vernon-Giverny, then go about 6 km to the village by shuttle (in season) or by bike along the Seine.
 
-未 Afternoon Earth (Mito), in the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, is late-summer earth. This is the village where a painter of stacked harvest bought his house and grew his garden: a trip to see that late-summer light where it was painted. Today, February 5, the second day of the new Saju year, is a 乙卯 day. The year turned yesterday at the start of spring (立春).
+In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, 未 Afternoon Earth (Mito) is late-summer earth. This is the village where the painter of the wheat stacks bought his house and tended his garden. Go in late summer to see that light where it was painted. Today, February 5, the second day of the 丁未 year, is a 乙卯 day. The year turned yesterday at the start of spring (立春).
 
-For the fields: Five Kinds of Quiet · 己土 Yin Earth (Gito), lo-fi jazz like a tilled field. Today's track is Bench by the Rows. Listen at the link in bio.
+To go with the fields: Five Kinds of Quiet · 己土 Yin Earth (Gito), lo-fi jazz like a tilled field. Today's track is Bench by the Rows. Listen at the link in bio.
 
 Sources: Maison et jardins de Claude Monet, Musée des impressionnismes Giverny
 
 #고요 #고요여행 #지베르니 #모네 #프랑스여행 #정미년 #오행음악 #giverny #monet""",
  reel_caption="""모네의 마을, 프랑스 지베르니.
 
-1월 28일에 읽은 〈건초더미(여름의 끝)〉의 더미가 서 있던 들판이에요. 정미년의 미(未)는 늦여름의 흙, 그림으로 본 늦여름 들판의 빛을 그 자리에서 보는 여행이에요. 겨울에 정원이 열려 있는지, 가는 길과 올해 볼 전시는 피드 게시물에 있어요.
+1월 28일에 읽은 〈건초더미(여름의 끝)〉의 더미가 서 있던 들판이에요. 정미년의 미(未)는 늦여름의 흙이에요. 늦여름에 가면 그림으로 본 들판의 빛을 그 자리에서 볼 수 있어요. 겨울에 정원이 열려 있는지, 가는 길과 올해 볼 전시는 피드 게시물에 있어요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜기토(己土)』의 『Bench by the Rows』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-Monet's village: Giverny, France, the fields where the wheat stacks from our January 28 post once stood. In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, it is a trip to see late-summer light where it was painted. Whether the garden is open in winter, how to get there, and this year's show are in our feed post.
+Monet's village: Giverny, France. These are the fields where the wheat stacks from our January 28 post once stood. In the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, 未 Afternoon Earth (Mito) is late-summer earth. Go in late summer to see that light where it was painted. Our feed post covers whether the garden is open in winter, how to get there, and this year's exhibition.
 
 The music is Bench by the Rows from Five Kinds of Quiet · 己土 Yin Earth (Gito). Listen at the link in bio.
 
 #고요 #지베르니 #모네 #오행음악""",
+)
+
+# ───────── 2/7 일 · 설날 (갑목) — 윷가락, 단단한 나무 네 가락
+P['0207'] = dict(
+ music='갑목', audio='shorts/음원/갑목_First Light on Bark_60s.m4a',
+ slides=[
+  S([T('2월 7일 · 설날', 44, GOLD, gap=30), T('나무\n네 가락', 116, bold=True, gap=36),
+     T('설날 윷놀이, 윷가락 이야기', 44, gap=30), T('Four sticks of wood: yut on Seollal, the Lunar New Year', 32, EN, gap=0)]),
+  S([T('2027년 설날은\n2월 7일 일요일이에요.', 60, bold=True, gap=28),
+     T('연휴는 2월 6일부터 8일까지,\n9일 화요일은 대체공휴일이에요.', 44, gap=28),
+     T('설과 대보름은 2023년\n국가무형문화재로 지정됐어요.\n(지금 이름은 국가무형유산)', 40, GOLD, gap=34),
+     T('Seollal, the Lunar New Year, falls on Sunday, Feb 7, 2027.\nThe holiday runs Feb 6 to 8, with Tuesday the 9th as a\nsubstitute holiday. Seollal and the first full moon were\ndesignated National Intangible Heritage of Korea in 2023.', 24, EN, gap=0)], tag='올해 설날'),
+  S([T('설날부터 정월 대보름까지\n이어지던 놀이, 윷놀이.', 58, bold=True, gap=28),
+     T('윷가락 네 개를 던져\n엎어지고 젖혀진 모양대로\n윷판 위의 말을 옮겨요.', 46, gap=28),
+     T('2022년 국가무형문화재로 지정됐어요.\n한반도 어디서나 이어 온 놀이라\n따로 보유자를 두지 않았어요.', 38, GOLD, gap=34),
+     T('Yut was played from Seollal to the first full moon. You\nthrow four sticks and move your pieces by how many land\nface up. It was designated National Intangible Heritage in\n2022, with no single holder, since it is played across\nthe Korean Peninsula.', 24, EN, gap=0)], tag='윷놀이'),
+  S([T('윷가락은\n박달나무 같은\n단단한 나무로 깎아요.', 62, bold=True, gap=30),
+     T('가운데는 굵고 양 끝은 조금 가늘게,\n등은 둥글게 다듬어요.', 44, gap=28),
+     T('길쭉한 가락윷(큰 것은 장작윷),\n밤알처럼 작은 밤윷도 있어요.', 40, GOLD, gap=34),
+     T('Yut sticks are carved from hard wood such as bakdal birch:\nthick in the middle, a little thinner at the ends, rounded\non the back. There are long stick yut (larger ones are\ncalled log yut) and tiny chestnut yut.', 24, EN, gap=0)], tag='윷가락'),
+  S([T('윷판은 스물아홉 밭.', 60, bold=True, gap=28),
+     T('북두칠성이 북극성을 중심으로\n도는 모습을 본떴다고 해요.', 46, gap=28),
+     T('나무 네 가락을 던져\n하늘의 판 위를 도는 놀이예요.', 42, GOLD, gap=34),
+     T('A yut board has 29 spots, said to trace the Big Dipper\ncircling the North Star. A game of four sticks, thrown\nto circle a board drawn from the sky.', 26, EN, gap=0)], tag='윷판'),
+  S([T('고요의 읽기로\n윷가락은 갑목(甲木)이에요.', 56, bold=True, gap=28),
+     T('곧게 자란 단단한 나무를\n깎아 만든 것이니까요.', 46, gap=28),
+     T('『적천수』는 정화(丁火)에게 적모(嫡母)가 있으면\n가을도 겨울도 괜찮다고 했고, 원주(原注)는\n갑목 하나를 얻으면 꺼지지 않는다고 풀어요.\n등불 곁의 장작은 고요의 비유예요.', 34, GOLD, gap=34),
+     T('Our reading: yut sticks are 甲木 Yang Wood (Gapmok), carved\nfrom hard wood that grew straight. The Saju classic Di Tian Sui\nsays 丁火 Yin Fire (Jeonghwa) is fine through autumn and winter\nwith its "rightful mother," and its original notes say one Yang\nWood keeps it from going out. Wood beside the lamp is our image.', 22, EN, gap=0)], tag='고요의 읽기 · 목(木)'),
+  S([T('정미년 첫 설날,\n2월 7일은 정사(丁巳)일이에요.', 52, bold=True, gap=28),
+     T('사주의 해는 2월 4일 입춘에\n이미 바뀌었고,\n오늘은 음력 새해가 시작돼요.', 44, gap=28),
+     T('등불 정(丁)이 다시 오는 날,\n그 곁에 둘 나무 소리를 골랐어요.', 40, GOLD, gap=34),
+     T('The first Seollal of the 丁未 year (Jeongmi) · Yin Fire ·\nAfternoon Earth falls on a 丁巳 (Jeongsa) day. The Saju year turned\nat the start of spring (立春) on Feb 4; today the lunar\ncalendar year begins. On the day the lamp, 丁, returns,\nwe chose a sound of wood to keep it company.', 22, EN, gap=0)], tag='오늘'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('갑목 편', 96, bold=True, gap=34),
+     T('곧게 선 나무 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『First Light on Bark』,\n나무껍질에 닿는 첫 햇살이에요.', 40, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 甲木 Yang Wood (Gapmok):\na sound like a tree standing tall. Today\'s track is\nFirst Light on Bark. Listen at the link in bio.', 28, EN, gap=0)], tag='윷판 곁에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('설날', 50, GOLD, gap=34), T('나무\n네 가락', 120, bold=True, gap=50), T('Four sticks of wood', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('윷가락 네 개를 던져', 62, GOLD, gap=30), T('엎어지고 젖혀진 대로\n말을 옮기는 놀이', 84, bold=True, gap=44),
+       T('Throw four sticks,\nmove by how they land', 36, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('윷판은 스물아홉 밭', 84, bold=True, gap=40), T('북두칠성이 도는 모습을\n본떴다고 해요', 52, gap=44),
+       T('29 spots, said to trace the Big Dipper', 34, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('윷가락은\n어떤 나무로 깎을까요?', 84, bold=True, gap=34), T('답과 고요의 읽기는\n@goyo_mio 피드 게시물에서', 54, bold=True, gap=30),
+                 T('What wood are yut sticks carved from?\nThe answer and our reading are in our feed post.', 34, EN, gap=0)],
+       items_yt=[T('윷가락은\n어떤 나무로 깎을까요?', 84, bold=True, gap=34), T('답과 고요의 읽기는\n채널 게시물에서', 54, bold=True, gap=30),
+                 T('What wood are yut sticks carved from?\nThe answer and our reading are in our Posts tab.', 34, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('갑목 편', 100, bold=True, gap=36), T('『First Light on Bark』', 52, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 甲木 Yang Wood (Gapmok)\n· First Light on Bark · Listen at the link in bio.', 32, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('갑목 편', 100, bold=True, gap=36), T('『First Light on Bark』', 52, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 甲木 Yang Wood (Gapmok)\n· First Light on Bark · Music: related video below', 32, EN, gap=0)]),
+ ],
+ caption="""나무 네 가락, 설날 윷놀이 이야기예요.
+
+2027년 설날은 2월 7일 일요일이에요. 연휴는 2월 6일부터 8일까지, 9일 화요일은 대체공휴일이에요(우주항공청 2027년 월력요항). 설과 대보름은 2023년에 국가무형문화재(지금 이름은 국가무형유산)로 지정됐어요.
+
+윷놀이는 설날부터 정월 대보름까지 이어지던 놀이예요. 윷가락 네 개를 던져 엎어지고 젖혀진 모양대로 윷판 위의 말을 옮겨요. 2022년 국가무형문화재로 지정됐고, 한반도 어디서나 이어 온 놀이라 따로 보유자를 두지 않았어요.
+
+윷가락은 박달나무 같은 단단한 나무로 깎아요. 가운데는 굵고 양 끝은 조금 가늘게, 등은 둥글게 다듬어요. 길쭉한 가락윷(큰 것은 장작윷)도, 밤알처럼 작은 밤윷도 있어요. 스물아홉 밭의 윷판은 북두칠성이 북극성을 중심으로 도는 모습을 본떴다고 해요.
+
+고요의 읽기로 윷가락은 갑목(甲木), 곧게 자란 단단한 나무예요. 『적천수』는 정화(丁火)에게 적모(嫡母)가 있으면 가을도 겨울도 괜찮다고 했고, 원주(原注)는 갑목 하나를 얻으면 꺼지지 않는다고 풀어요. 등불 곁의 장작은 고요의 비유예요.
+
+정미년 첫 설날인 오늘은 정사(丁巳)일이에요. 사주의 해는 2월 4일 입춘에 이미 바뀌었고, 오늘은 음력 새해가 시작돼요. 등불 정(丁)이 다시 오는 날이라, 그 곁에 둘 나무 소리를 골랐어요.
+
+윷판 곁에는 곧게 선 나무 같은 『다섯 가지 고요｜갑목(甲木)』. 오늘 고른 곡은 나무껍질에 닿는 첫 햇살, 『First Light on Bark』예요. 프로필 링크에서 들을 수 있어요.
+
+참고: 우주항공청 「2027년 월력요항」, 국가유산청(윷놀이·명절 국가무형유산 지정), 한국민족문화대백과사전 「윷놀이」, 문화체육관광부 「윷놀이」, 『적천수』 정화 편 원주
+
+· English ·
+Four sticks of wood: yut on Seollal, the Lunar New Year.
+
+Seollal falls on Sunday, February 7, 2027. The holiday runs February 6 to 8, with Tuesday the 9th as a substitute holiday (Korea AeroSpace Administration, 2027 calendar). Seollal and the first full moon were designated National Intangible Heritage of Korea in 2023.
+
+Yut was played from Seollal to the first full moon. You throw four sticks and move your pieces around the board by how many land face up. It was designated National Intangible Heritage in 2022, with no single holder, since it is played across the Korean Peninsula.
+
+Yut sticks are carved from hard wood such as bakdal birch: thick in the middle, a little thinner at the ends, rounded on the back. There are long stick yut (larger ones are called log yut) and tiny chestnut yut. The board's 29 spots are said to trace the Big Dipper circling the North Star.
+
+Our reading: yut sticks are 甲木 Yang Wood (Gapmok), carved from hard wood that grew straight. The Saju classic Di Tian Sui says 丁火 Yin Fire (Jeonghwa) is fine through autumn and winter with its "rightful mother," and its original notes say one Yang Wood keeps it from going out. Wood beside the lamp is our image.
+
+Today, the first Seollal of the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, is a 丁巳 (Jeongsa) day. The Saju year had already turned at the start of spring (立春) on February 4; today the lunar calendar year begins. On the day the lamp, 丁, returns, we chose a sound of wood to keep it company.
+
+Beside the yut board: Five Kinds of Quiet · Yang Wood, a sound like a tree standing tall. Today's track is First Light on Bark. Listen at the link in bio.
+
+Sources: Korea AeroSpace Administration, Korea Heritage Service, Encyclopedia of Korean Culture, Ministry of Culture, Sports and Tourism, Di Tian Sui
+
+#고요 #설날 #윷놀이 #갑목 #정미년 #오행음악 #seollal #yutnori""",
+ reel_caption="""설날에 던지는 나무 네 가락, 윷.
+
+설날부터 정월 대보름까지 이어지던 윷놀이, 윷판은 북두칠성이 도는 모습을 본떴다고 해요. 윷가락은 어떤 나무로 깎는지, 고요는 그 나무를 어떻게 읽는지 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜갑목(甲木)』의 『First Light on Bark』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Four sticks of wood thrown on Seollal, the Lunar New Year: yut. The game was played from Seollal to the first full moon, and its board is said to trace the Big Dipper. What wood the sticks are carved from, and how we read it, are in our feed post.
+
+Now playing: First Light on Bark from Five Kinds of Quiet · 甲木 Yang Wood (Gapmok). Listen at the link in bio.
+
+#고요 #설날 #윷놀이 #오행음악""",
 )
 
 JS = 'art/정선_인왕제색도.jpg'
@@ -2044,17 +2144,17 @@ P['0204'] = dict(
      T('우타가와 히로시게, 〈오하시 다리와 아타케의 소나기〉\n1857 · 『명소 에도 백경』 · 퍼블릭 도메인(위키미디어 공용)', 26, [150, 145, 135], gap=10),
      T('Sudden Shower over Shin-Ōhashi Bridge and Atake · Hiroshige', 26, EN, gap=0)], card={'file': HR, 'h': 620}),
   S([T('다리 위로 갑자기\n저녁 소나기가 쏟아져요.', 62, bold=True, gap=30),
-     T('삿갓과 거적을 뒤집어쓴 사람들이\n종종걸음으로 다리를 건너고,\n강 위엔 뗏목 사공 하나.', 44, gap=28),
+     T('삿갓과 도롱이 차림, 우산 든 사람들이\n종종걸음으로 다리를 건너고,\n강 위엔 뗏목 사공 하나.', 44, gap=28),
      T('빗줄기는 검은 선 수백 개로 새겼어요.', 40, GOLD, gap=34),
-     T('A sudden evening shower over a bridge. People under hats\nand mats hurry across; a lone raftsman poles down the river.\nThe rain is cut as hundreds of fine black lines.', 26, EN, gap=0)], tag='그림'),
+     T('A sudden evening shower over a bridge. People in straw hats\nand capes hurry across; a lone raftsman poles down the river.\nThe rain is cut in hundreds of fine black lines.', 26, EN, gap=0)], tag='그림'),
   S([T('에도(지금의 도쿄)의\n이름난 곳을 그린\n『명소 에도 백경』의 한 장.', 56, bold=True, gap=30),
      T('1857년, 히로시게가 세상을 뜨기\n한 해 전에 나온 목판화예요.', 44, gap=28),
      T('강 건너 아타케는 막부의 배가\n머물던 데서 붙은 이름이에요.', 40, GOLD, gap=34),
      T('One sheet from One Hundred Famous Views of Edo (today\'s\nTokyo), a woodblock print from 1857, the year before Hiroshige\ndied. Atake, across the river, was named for a shogunate\nship once moored there.', 24, EN, gap=0)], tag='명소 에도 백경'),
   S([T('30년 뒤 파리에서\n반 고흐가 이 판화를\n유화로 따라 그렸어요.', 60, bold=True, gap=30),
      T('1887년 〈빗속의 다리(히로시게를 따라)〉,\n지금 반 고흐 미술관에 있어요.', 42, gap=28),
-     T('고흐는 히로시게 판화를 마흔 점 넘게 가졌고\n이 판화도 그중 하나였다고 해요.', 38, GOLD, gap=34),
-     T('Thirty years later in Paris, Van Gogh copied this print in oil:\nBridge in the Rain (after Hiroshige), 1887, now in the Van\nGogh Museum. He owned more than 40 Hiroshige prints,\nthis one among them.', 24, EN, gap=0)], tag='반 고흐가 따라 그린 그림'),
+     T('고흐가 모은 일본 판화 가운데 히로시게 작품만\n일흔 점이 넘고, 이 판화도 그중 하나였다고 해요.', 38, GOLD, gap=34),
+     T('Thirty years later in Paris, Van Gogh copied this print in oil:\nBridge in the Rain (after Hiroshige), 1887, now in the Van\nGogh Museum. His collection held more than 70 Hiroshige\nprints, this one among them.', 24, EN, gap=0)], tag='반 고흐가 따라 그린 그림'),
   S([T('보이는 것', 40, GOLD, True, 6), T('하늘에서 쏟아지는 비 → 물, 그중 빗물', 40, gap=24),
      T('그리는 방식', 40, GOLD, True, 6), T('가늘고 곧은 선을 겹겹이 → 물', 40, gap=24),
      T('화가의 사주', 40, GOLD, True, 6), T('히로시게는 태어난 날이 확실하지 않아\n사주는 보지 않아요.', 38, gap=24),
@@ -2071,13 +2171,13 @@ P['0204'] = dict(
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
      T('가는 비와 이슬 같은 소리예요.', 50, gap=24), T('오늘 밤 9시 릴스에 흐르는 곡은\n『Rain Circle』,\n빗방울이 그리는 동그라미예요.', 40, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yin Water: like fine rain and dew.\nTonight\'s reel: Rain Circle. Listen at the link in bio.', 28, EN, gap=0)], tag='이 그림 옆에 둘 소리'),
+     T('Five Kinds of Quiet · Yin Water: like fine rain and dew.\nTonight\'s 9 p.m. reel: Rain Circle. Listen at the link in bio.', 28, EN, gap=0)], tag='이 그림 옆에 둘 소리'),
  ],
  caption="""고요의 그림 읽기 #6 · 우타가와 히로시게 〈오하시 다리와 아타케의 소나기〉
 
-다리 위로 갑자기 저녁 소나기가 쏟아져요. 삿갓과 거적을 뒤집어쓴 사람들이 종종걸음으로 다리를 건너고, 강 위엔 뗏목 사공 하나가 있어요. 빗줄기는 검은 선 수백 개로 새겼어요.
+다리 위로 갑자기 저녁 소나기가 쏟아져요. 삿갓과 도롱이 차림, 우산 든 사람들이 종종걸음으로 다리를 건너고, 강 위엔 뗏목 사공 하나가 있어요. 빗줄기는 검은 선 수백 개로 새겼어요.
 
-에도(지금의 도쿄)의 이름난 곳을 그린 『명소 에도 백경』의 한 장으로, 1857년 히로시게가 세상을 뜨기 한 해 전에 나온 목판화예요. 강 건너 아타케는 막부의 배가 머물던 데서 붙은 이름이에요. 30년 뒤 파리에서 반 고흐가 이 판화를 유화로 따라 그렸어요. 1887년 〈빗속의 다리(히로시게를 따라)〉로, 지금 반 고흐 미술관에 있어요. 고흐는 히로시게 판화를 마흔 점 넘게 가졌고 이 판화도 그중 하나였다고 해요.
+에도(지금의 도쿄)의 이름난 곳을 그린 『명소 에도 백경』의 한 장으로, 1857년 히로시게가 세상을 뜨기 한 해 전에 나온 목판화예요. 강 건너 아타케는 막부의 배가 머물던 데서 붙은 이름이에요. 30년 뒤 파리에서 반 고흐가 이 판화를 유화로 따라 그렸어요. 1887년 〈빗속의 다리(히로시게를 따라)〉로, 지금 반 고흐 미술관에 있어요. 고흐가 모은 일본 판화 가운데 히로시게 작품만 일흔 점이 넘고, 이 판화도 그중 하나였다고 해요.
 
 고요의 읽기로는 수(水), 그중 하늘에서 내리는 작은 물, 계수(癸水)예요. 히로시게는 태어난 날이 확실하지 않아 사주는 보지 않았어요. 옛사람들은 정미년을 하늘의 물, 천하수라고도 불렀어요. 글자는 불과 흙이지만 옛 이름에는 하늘에서 내리는 물이 있어요. 옛 이름일 뿐이고, 이 이름으로 해나 사람을 판단하지는 않아요.
 
@@ -2085,22 +2185,22 @@ P['0204'] = dict(
 
 이 그림 옆에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 밤 9시 릴스에는 빗방울이 그리는 동그라미, 『Rain Circle』이 흘러요. 프로필 링크에서 들을 수 있어요.
 
-그림: 1857, 퍼블릭 도메인(위키미디어 공용 이미지) / 반 고흐 모사: 반 고흐 미술관
+그림: 1857, 퍼블릭 도메인(위키미디어 공용 이미지)
 
 · English ·
 Goyo Reads a Painting #6 · Utagawa Hiroshige, Sudden Shower over Shin-Ōhashi Bridge and Atake
 
-A sudden evening shower pours over a bridge. People under hats and straw mats hurry across, and a lone raftsman poles down the river. The rain is cut as hundreds of fine black lines.
+A sudden evening shower pours over a bridge. People in straw hats and capes, some with umbrellas, hurry across, and a lone raftsman poles down the river. The rain is cut in hundreds of fine black lines.
 
-It is one sheet from One Hundred Famous Views of Edo (today's Tokyo), a woodblock print from 1857, the year before Hiroshige died. Atake, across the river, was named for a shogunate ship once moored there. Thirty years later in Paris, Van Gogh copied this print in oil: Bridge in the Rain (after Hiroshige), 1887, now in the Van Gogh Museum. He owned more than 40 Hiroshige prints, this one among them.
+It is one sheet from One Hundred Famous Views of Edo (today's Tokyo), a woodblock print from 1857, the year before Hiroshige died. Atake, across the river, was named for a shogunate ship once moored there. Thirty years later in Paris, Van Gogh copied this print in oil: Bridge in the Rain (after Hiroshige), 1887, now in the Van Gogh Museum. His collection held more than 70 Hiroshige prints, this one among them.
 
 We read it as Water, and within Water, small water falling from the sky: 癸水 Yin Water (Gyesu). Hiroshige's birth date is uncertain, so we don't read his chart. People of old also called the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth "Water from the Sky." Its characters are Fire and Earth, but its old name holds rain. It is only an old name; we don't judge a year or a person by it.
 
 At 10:46 this morning, the start of spring (立春) opened the 丁未 year. The paintings we read on the way to the new year: La Tour's lamp, Millet's and Monet's fields, Jeong Seon's rock, and today, Hiroshige's rain.
 
-Beside it: Five Kinds of Quiet · Yin Water, like fine rain and dew. Tonight's 9 p.m. reel plays Rain Circle. Listen at the link in bio.
+Paired with this painting: Five Kinds of Quiet · Yin Water, like fine rain and dew. Tonight's 9 p.m. reel plays Rain Circle. Listen at the link in bio.
 
-Image: 1857, public domain (Wikimedia Commons). Van Gogh copy: Van Gogh Museum.
+Image: 1857, public domain (Wikimedia Commons).
 
 #고요 #고요의그림읽기 #히로시게 #우키요에 #반고흐 #입춘 #정미년 #오행 #명화 #fiveelements""",
 )
@@ -2179,7 +2279,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27', '0128': '2027-01-28', '0129': '2027-01-29', '0131': '2027-01-31', '0201': '2027-02-01', '0203': '2027-02-03', '0204': '2027-02-04', '0205': '2027-02-05'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27', '0128': '2027-01-28', '0129': '2027-01-29', '0131': '2027-01-31', '0201': '2027-02-01', '0203': '2027-02-03', '0204': '2027-02-04', '0205': '2027-02-05', '0207': '2027-02-07'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil

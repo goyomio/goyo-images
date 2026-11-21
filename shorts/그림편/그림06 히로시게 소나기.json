@@ -1,0 +1,234 @@
+{
+ "image": "art/히로시게_오하시소나기.jpg",
+ "audio_parts": [
+  {
+   "file": "shorts/음원/계수_Rain Circle_60s.m4a",
+   "start": 0.3,
+   "dur": 59.0
+  }
+ ],
+ "scenes": [
+  {
+   "sec": 3.5,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "box": [
+    240,
+    560,
+    840,
+    1500
+   ],
+   "y": 120,
+   "label": "고요의 그림 읽기 #6",
+   "title": [
+    "하늘의 물"
+   ],
+   "title_size": 150,
+   "sub": "우타가와 히로시게, 1857",
+   "credit": "퍼블릭 도메인(위키미디어 공용)",
+   "credit_y": 1530,
+   "logo": true,
+   "en": "Sudden Shower over Shin-Ōhashi\nBridge and Atake · Hiroshige",
+   "en_size": 32
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.05,
+    0.05,
+    0.95,
+    0.55
+   ],
+   "view_to": [
+    0.15,
+    0.1,
+    0.85,
+    0.5
+   ],
+   "y": 1240,
+   "lines": [
+    "다리 위로 갑자기",
+    "저녁 소나기"
+   ],
+   "small": "빗줄기는 검은 선 수백 개",
+   "en": "A sudden evening shower,\nrain cut in fine black lines"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.1,
+    0.55,
+    0.75,
+    0.85
+   ],
+   "view_to": [
+    0.15,
+    0.58,
+    0.72,
+    0.82
+   ],
+   "y": 1240,
+   "lines": [
+    "삿갓 쓴 사람들이",
+    "종종걸음으로 건너요"
+   ],
+   "small": "강 위엔 뗏목 사공 하나",
+   "en": "People hurry across under straw hats;\na lone raftsman on the river"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.0,
+    0.4,
+    0.6,
+    0.65
+   ],
+   "view_to": [
+    0.03,
+    0.42,
+    0.5,
+    0.6
+   ],
+   "y": 1240,
+   "lines": [
+    "『명소 에도 백경』",
+    "1857년의 목판화"
+   ],
+   "small": "히로시게가 세상을 뜨기 한 해 전",
+   "en": "One Hundred Famous Views of Edo,\n1857, the year before he died"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "view_to": [
+    0.05,
+    0.05,
+    0.95,
+    0.95
+   ],
+   "dim": 0.35,
+   "y": 1240,
+   "lines": [
+    "30년 뒤 반 고흐가",
+    "유화로 따라 그렸어요"
+   ],
+   "small": "〈빗속의 다리(히로시게를 따라)〉, 1887",
+   "en": "Thirty years later, Van Gogh\ncopied it in oil (1887)"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.1,
+    0.0,
+    0.9,
+    0.4
+   ],
+   "view_to": [
+    0.15,
+    0.02,
+    0.85,
+    0.35
+   ],
+   "y": 1240,
+   "lines": [
+    "옛사람들은 정미년을",
+    "무엇이라 불렀을까요?"
+   ],
+   "small": "답은 오늘 피드 게시물에",
+   "en": "What did people of old\ncall the 丁未 year?\nAnswer in today's feed post"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.0,
+    0.65,
+    0.7,
+    1.0
+   ],
+   "view_to": [
+    0.03,
+    0.67,
+    0.67,
+    0.98
+   ],
+   "y": 1240,
+   "lines": [
+    "오늘 입춘,",
+    "정미년이 시작됐어요"
+   ],
+   "small": "2월 4일 오전 10시 46분",
+   "en": "Today, the start of spring (立春)\nopened the 丁未 year (Jeongmi)\n· Yin Fire · Afternoon Earth"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.1,
+    0.1,
+    0.9,
+    0.9
+   ],
+   "view_to": [
+    0.05,
+    0.05,
+    0.95,
+    0.95
+   ],
+   "y": 1240,
+   "lines": [
+    "지금 흐르는 곡이",
+    [
+     [
+      "계수(癸水)",
+      "수"
+     ],
+     [
+      " 편의",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "small": "『Rain Circle』(계수 편)\n빗방울이 그리는 동그라미",
+   "en": "Rain Circle · 癸水 Yin Water (Gyesu)\nCircles drawn by raindrops"
+  },
+  {
+   "sec": 7.5,
+   "y": 600,
+   "label": "이 그림 옆에 둘 소리",
+   "title": [
+    "고요",
+    [
+     [
+      "계수(癸水)",
+      "수"
+     ],
+     [
+      " 편",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "title_size": 150,
+   "sub": "프로필 링크에서",
+   "small": "고요의 읽기와 정미년의 옛 이름은\n오늘 피드 게시물에",
+   "logo": true,
+   "en": "Paired with: Five Kinds of Quiet · Yin Water\nListen at the link in bio\nMore in today's feed post"
+  }
+ ]
+}
