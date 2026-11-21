@@ -2,18 +2,18 @@
  "theme": "moon",
  "audio_parts": [
   {
-   "file": "shorts/무음편/무토 무음편.mp4",
-   "start": 0.3,
+   "file": "shorts/음원/무토_Steady Ground_60s.m4a",
+   "start": 0.5,
    "dur": 9.5
   },
   {
-   "file": "shorts/무음편/기토 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/기토_Seedbed_60s.m4a",
+   "start": 0.5,
    "dur": 10.0
   },
   {
-   "file": "shorts/무음편/갑목 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/갑목_Old Forest Path_60s.m4a",
+   "start": 0.5,
    "dur": 14.5
   }
  ],

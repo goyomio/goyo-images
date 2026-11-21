@@ -2,13 +2,13 @@
  "theme": "road",
  "audio_parts": [
   {
-   "file": "shorts/무음편/경금 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/경금_Weathered Edge_60s.m4a",
+   "start": 0.5,
    "dur": 18.0
   },
   {
-   "file": "shorts/무음편/임수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/임수_Deep Channel_60s.m4a",
+   "start": 0.5,
    "dur": 18.0
   }
  ],

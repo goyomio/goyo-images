@@ -2,13 +2,13 @@
  "theme": "lamp",
  "audio_parts": [
   {
-   "file": "shorts/무음편/병화 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/병화_High Sun Stroll_60s.m4a",
+   "start": 0.5,
    "dur": 16.0
   },
   {
-   "file": "shorts/무음편/을목 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/을목_Green Spiral_60s.m4a",
+   "start": 0.5,
    "dur": 15.0
   }
  ],

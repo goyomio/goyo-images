@@ -243,25 +243,29 @@ P['0106'] = dict(
  music='정화', audio='shorts/그림편/audio/정화_Lantern Room_60s.m4a',
  slides=[
   S([T('1월 17일 · 고요 이야기', 44, GOLD, gap=30), T('빛에도\n두 가지가\n있어요', 110, bold=True, gap=36),
-     T('넓게 비추는 빛, 가까이 오래 비추는 빛', 42, gap=30), T('Two kinds of light', 38, EN, gap=0)]),
-  S([T('병화는 하늘의 해.', 70, bold=True, gap=30), T('사방을 고루,\n멀리까지 비추는 빛이에요.', 54, gap=36),
-     T('丙火 Yang Fire (Byeonghwa) is the sun in the sky,\nlighting everything, far and wide.', 34, EN, gap=0)], tag='넓게 비추는 빛'),
-  S([T('정화는 등불.', 70, bold=True, gap=30), T('가까운 자리를\n오래 밝히는 빛이에요.', 54, gap=36),
-     T('丁火 Yin Fire (Jeonghwa) is a lamp\nthat lights what is near, for a long time.', 34, EN, gap=0)], tag='가까이 오래 비추는 빛'),
-  S([T('해는 멀리서 모두를 비추고,\n등불은 가까이에서\n한 사람의 얼굴과 손을 비춰요.', 54, gap=36),
-     T('The sun lights everyone from afar.\nA lamp lights one person\'s\nface and hands, up close.', 34, EN, gap=0)], tag='같은 불, 다른 빛'),
+     T('옛 책 『적천수』가 나눈 두 불', 42, gap=30), T('Two kinds of light, in a Saju classic', 36, EN, gap=0)]),
+  S([T('병화는 해,\n정화는 등불.', 70, bold=True, gap=30), T('해는 넓게 멀리,\n등불은 가까이 오래 비춰요.', 52, gap=36),
+     T('丙火 Yang Fire (Byeonghwa) is the sun;\n丁火 Yin Fire (Jeonghwa) is a lamp. One lights\nfar and wide; the other, close at hand and longer.', 30, EN, gap=0)], tag='적천수의 두 불'),
   S([T('옛 명리 책 『적천수』는 병화를 두고', 42, gap=26), T('세차고 사나워서\n서리와 눈도\n업신여긴다고 했어요.', 62, bold=True, gap=30),
      T('丙火猛烈 欺霜侮雪', 40, GOLD, gap=26), T('겨울 추위에도\n기세가 꺾이지 않는 불이라는 뜻이에요.', 44, gap=34),
-     T('Di Tian Sui (滴天髓), a classic Saju text, on Yang Fire:\n"Fierce and blazing, it scorns frost and snow."', 32, EN, gap=0)], tag='옛 책이 본 해'),
+     T('滴天髓 Di Tian Sui (Jeokcheonsu), a Saju classic,\non Yang Fire: "Fierce and blazing,\nit scorns frost and snow."', 32, EN, gap=0)], tag='옛 책이 본 해'),
+  S([T('이어서 병화는', 42, gap=24), T('단단한 쇠(경금)는\n달구어 다듬지만,\n보석 같은 쇠(신금)를 만나면\n오히려 기세가 누그러진다고 해요.', 56, bold=True, gap=28),
+     T('能煅庚金 逢辛反怯', 40, GOLD, gap=34),
+     T('"It can forge hard metal, yet shrinks before fine metal."\nThe sun tempers 庚金 Yang Metal (Gyeonggeum)\nbut loses its fierceness before 辛金 Yin Metal (Singeum).', 28, EN, gap=0)], tag='해가 만나는 쇠'),
   S([T('같은 책은 정화를 두고', 42, gap=26), T('부드럽고 치우치지 않으며\n속은 환하게 밝다고 했어요.', 56, bold=True, gap=24),
      T('세져도 사납게 타지 않고,\n약해져도 다하지 않는다고요.', 52, bold=True, gap=26),
      T('丁火柔中 內性昭融 … 旺而不烈 衰而不窮', 34, GOLD, gap=26), T('등불이 오래 비추는 빛인 까닭이 여기 있어요.', 40, gap=34),
      T('On Yin Fire: "Gentle and centered, bright within.\nStrong, it does not rage; weak, it does not run out."', 32, EN, gap=0)], tag='옛 책이 본 등불'),
-  S([T('2026년의 빛은 해,\n2027년의 빛은 등불이에요.', 58, bold=True, gap=30), T('넓게 퍼지는 빛이 입춘부터\n가까운 자리를 오래 밝히는\n빛으로 옮겨 가요.', 46, gap=30),
-     T('사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.', 38, gap=30), T('1월 7일 그림 읽기의 라 투르도\n등불 하나를 그렸어요.', 42, GOLD, gap=30),
-     T('In 2026 the light is the sun; in 2027, a lamp.\nLa Tour, from our Jan 7 post, painted one.', 32, EN, gap=0)], tag='해에서 등불로'),
+  S([T('그 사이에는 이런 구절도 있어요.', 42, gap=26),
+     T('덩굴 같은 나무(을목)를\n감싸 지키면 효성스럽고,\n큰 강물(임수)과 짝을 이루면\n충직하다고 했어요.', 48, bold=True, gap=28),
+     T('抱乙而孝 合壬而忠', 40, GOLD, gap=26),
+     T('1월 3일 진주 편에서 말한\n등불과 강물의 짝이 바로 이 구절이에요.', 40, gap=34),
+     T('"Sheltering 乙木 Yin Wood (Eulmok), it is filial;\npaired with 壬水 Yang Water (Imsu), it is loyal."\nThe pairing behind the lamp and river of our Jan 3 post.', 28, EN, gap=0)], tag='등불이 만나는 나무와 물'),
+  S([T('입춘(2월 4일)부터\n2027년의 빛은 등불이에요.', 58, bold=True, gap=30),
+     T('사주에서는 입춘에 한 해가 바뀌어요.', 38, gap=30), T('1월 7일 그림 읽기의 라 투르도\n등불 하나를 그렸어요.', 42, GOLD, gap=30),
+     T('From Feb 4, 2027\'s light is a lamp.\nLa Tour, in our Jan 7 post, painted just such a lamp.', 30, EN, gap=0)], tag='해에서 등불로'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
-     T('가까운 자리를 오래 밝히는\n등불 같은 소리예요.', 52, gap=24), T('지금 고른 곡은 『Lantern Room』이에요.', 42, gap=30),
+     T('등불을 켠 방 같은 소리예요.', 52, gap=24), T('지금 고른 곡은 『Lantern Room』이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
      T('Five Kinds of Quiet · Yin Fire. Track: Lantern Room.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
@@ -283,24 +287,28 @@ P['0106'] = dict(
  ],
  caption="""빛에도 두 가지가 있어요.
 
-병화는 하늘의 해예요. 사방을 고루, 멀리까지 비추는 빛이에요. 정화는 등불이에요. 가까운 자리를 오래 밝히는 빛이에요. 해는 멀리서 모두를 비추고, 등불은 가까이에서 한 사람의 얼굴과 손을 비춰요. 옛 명리 책 『적천수』는 병화를 두고 「세차고 사나워서 서리와 눈도 업신여긴다(丙火猛烈 欺霜侮雪)」고 했어요. 겨울 추위에도 기세가 꺾이지 않는 불이라는 뜻이에요. 같은 책은 정화를 두고 「부드럽고 치우치지 않으며 속은 환하게 밝다(丁火柔中 內性昭融)」, 「세져도 사납게 타지 않고 약해져도 다하지 않는다(旺而不烈 衰而不窮)」고 했어요. 등불이 오래 비추는 빛인 까닭이 여기 있어요. 1월 3일 진주 편에서 말한 등불(정화)과 강물(임수)의 짝도 이 책의 같은 대목(合壬而忠)에 나와요.
+병화는 해, 정화는 등불이에요. 해는 넓게 멀리, 등불은 가까이 오래 비춰요. 옛 명리 책 『적천수』는 이 두 불을 이렇게 나눠 봤어요.
 
-2026년의 빛이 해라면, 2027년의 빛은 등불이에요. 넓게 퍼지는 빛이 입춘부터 가까운 자리를 오래 밝히는 빛으로 옮겨 가요. 사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.
+병화를 두고는 「세차고 사나워서 서리와 눈도 업신여긴다(丙火猛烈 欺霜侮雪)」고 했어요. 겨울 추위에도 기세가 꺾이지 않는 불이에요. 이어서 「단단한 쇠(경금)는 달구어 다듬지만, 보석 같은 쇠(신금)를 만나면 오히려 기세가 누그러진다(能煅庚金 逢辛反怯)」고 해요.
 
-1월 7일 고요의 그림 읽기에서 본 조르주 드 라 투르의 그림도 등불 하나를 그렸어요.
+정화를 두고는 「부드럽고 치우치지 않으며 속은 환하게 밝다(丁火柔中 內性昭融)」, 「세져도 사납게 타지 않고 약해져도 다하지 않는다(旺而不烈 衰而不窮)」고 했어요. 등불이 오래 비추는 빛인 까닭이 여기 있어요. 그 사이에는 「덩굴 같은 나무(을목)를 감싸 지키면 효성스럽고, 큰 강물(임수)과 짝을 이루면 충직하다(抱乙而孝 合壬而忠)」는 구절도 있어요. 1월 3일 진주 편에서 말한 등불과 강물의 짝이 바로 이 구절이에요.
 
-가까운 자리를 오래 밝히는 『다섯 가지 고요｜정화(丁火)』, 지금 고른 곡은 『Lantern Room』이에요. 프로필 링크에서 들을 수 있어요.
+입춘(2월 4일)부터 시작되는 2027년의 빛은 등불이에요. 1월 7일 그림 읽기의 라 투르도 등불 하나를 그렸어요.
+
+등불을 켠 방 같은 『다섯 가지 고요｜정화(丁火)』, 지금 고른 곡은 『Lantern Room』이에요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 There are two kinds of light.
 
-丙火 Yang Fire (Byeonghwa) is the sun in the sky, lighting everything, far and wide. 丁火 Yin Fire (Jeonghwa) is a lamp that lights what is near, for a long time. The sun lights everyone from afar; a lamp lights one person's face and hands, up close. The old Saju classic Di Tian Sui (滴天髓) tells the two fires apart. Of Yang Fire: "fierce and blazing, it scorns frost and snow," a fire whose force holds even in winter. Of Yin Fire: "gentle and centered, bright within; strong, it does not rage; weak, it does not run out." That is why we call the lamp a lasting light. The lamp-and-river pair from our January 3 Jinju post, Yin Fire with 壬水 Yang Water (Imsu), comes from the same passage.
+丙火 Yang Fire (Byeonghwa) is the sun; 丁火 Yin Fire (Jeonghwa) is a lamp. One lights far and wide; the other, close at hand and for longer. The old Saju classic 滴天髓 Di Tian Sui (Jeokcheonsu) tells the two fires apart.
 
-If 2026's light is the sun, 2027's is a lamp. From the start of spring, the wide light turns to a close, steady one. In Saju, the year turns at the start of spring (立春), February 4.
+Of Yang Fire: "fierce and blazing, it scorns frost and snow," a fire whose force holds even in winter. It goes on: "it can forge hard metal, yet shrinks before fine metal," tempering 庚金 Yang Metal (Gyeonggeum) but losing its fierceness before 辛金 Yin Metal (Singeum).
 
-The Georges de La Tour painting in our January 7 post shows a single lamp.
+Of Yin Fire: "gentle and centered, bright within; strong, it does not rage; weak, it does not run out." That is why we call the lamp a lasting light. Between those lines: "sheltering 乙木 Yin Wood (Eulmok), it is filial; paired with 壬水 Yang Water (Imsu), it is loyal." This is the pairing behind the lamp and river in our January 3 Jinju post.
 
-From Five Kinds of Quiet · Yin Fire, today's track is Lantern Room. Listen through the link in bio.
+From February 4, the start of spring (立春) in Saju, 2027's light is a lamp. The Georges de La Tour painting in our January 7 post shows a single lamp.
+
+Today's track is Lantern Room, from Five Kinds of Quiet · Yin Fire: music like a lamplit room. Listen through the link in bio.
 
 #고요 #고요이야기 #정미년 #병화 #정화 #적천수 #사주 #오행음악 #saju #fiveelements""",
  reel_caption="""빛에도 두 가지가 있어요.

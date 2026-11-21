@@ -2,13 +2,13 @@
  "theme": "stars",
  "audio_parts": [
   {
-   "file": "shorts/무음편/경금 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/경금_Standing Stone_60s.m4a",
+   "start": 0.5,
    "dur": 15.0
   },
   {
-   "file": "shorts/무음편/정화 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/정화_Last Light Street_60s.m4a",
+   "start": 0.5,
    "dur": 15.0
   }
  ],

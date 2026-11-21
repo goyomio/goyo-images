@@ -2,8 +2,8 @@
  "image": "art/monet_waterlilies/wl_full.jpg",
  "audio_parts": [
   {
-   "file": "shorts/그림편/audio/계수_Drizzle_95s.m4a",
-   "start": 0.0,
+   "file": "shorts/음원/계수_Puddle Light_81s.m4a",
+   "start": 0.3,
    "dur": 78.5
   }
  ],
@@ -290,8 +290,8 @@
      ]
     ]
    ],
-   "small": "『Drizzle』(계수 편), 빛이 내려앉는 피아노",
-   "en": "\"Drizzle\" (Yin Water · Gyesu)\nPiano as light settles"
+   "small": "『Puddle Light』(계수 편), 고인 물에 비친 빛 같은 피아노",
+   "en": "\"Puddle Light\" (Yin Water · Gyesu)\nPiano like light on still water"
   },
   {
    "sec": 7.0,

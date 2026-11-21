@@ -2,13 +2,13 @@
  "theme": "moon",
  "audio_parts": [
   {
-   "file": "shorts/무음편/계수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/계수_Wet Leaves_60s.m4a",
+   "start": 0.5,
    "dur": 18.0
   },
   {
-   "file": "shorts/무음편/신금 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/신금_Crystal Window_60s.m4a",
+   "start": 0.5,
    "dur": 18.0
   }
  ],

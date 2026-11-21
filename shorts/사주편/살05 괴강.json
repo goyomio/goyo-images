@@ -2,18 +2,18 @@
  "theme": "stars",
  "audio_parts": [
   {
-   "file": "shorts/무음편/토 무음편.mp4",
-   "start": 0.3,
+   "file": "shorts/음원/토1_Hearth Light_60s.m4a",
+   "start": 0.5,
    "dur": 14.5
   },
   {
-   "file": "shorts/무음편/경금 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/경금_Cold Ridge_60s.m4a",
+   "start": 0.5,
    "dur": 10.0
   },
   {
-   "file": "shorts/무음편/임수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/임수_Still Lake_60s.m4a",
+   "start": 0.5,
    "dur": 10.0
   }
  ],
@@ -105,7 +105,7 @@
    "big_size": 100,
    "after": [
     "매듭을 짓는 저녁에",
-    "『Stone Bridge』(경금 편)"
+    "『Cold Ridge』(경금 편)"
    ],
    "en": "Starts with 庚? The Yang Metal (庚) track"
   },
@@ -119,7 +119,7 @@
    "big_size": 100,
    "after": [
     "멀리 내다보는 밤에",
-    "『Wide Water』(임수 편)"
+    "『Still Lake』(임수 편)"
    ],
    "en": "Starts with 壬? The Yang Water (壬) track"
   },

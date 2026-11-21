@@ -2,13 +2,13 @@
  "theme": "blossom",
  "audio_parts": [
   {
-   "file": "shorts/무음편/을목 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/을목_Window Trellis_60s.m4a",
+   "start": 0.5,
    "dur": 18.0
   },
   {
-   "file": "shorts/무음편/정화 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/정화_Hearth Song_60s.m4a",
+   "start": 0.5,
    "dur": 18.0
   }
  ],

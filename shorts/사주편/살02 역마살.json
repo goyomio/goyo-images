@@ -2,28 +2,28 @@
  "theme": "road",
  "audio_parts": [
   {
-   "file": "shorts/무음편/토 무음편.mp4",
-   "start": 0.3,
+   "file": "shorts/음원/토1_Clay Cup Morning_60s.m4a",
+   "start": 0.5,
    "dur": 14.5
   },
   {
-   "file": "shorts/무음편/갑목 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/갑목_Rooted_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/병화 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/병화_Open Window Light_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/경금 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/경금_Granite Light_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/임수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/임수_Cove_60s.m4a",
+   "start": 0.5,
    "dur": 9.5
   }
  ],
@@ -100,7 +100,7 @@
    "big_size": 100,
    "after": [
     "새 출발하는 아침 길에",
-    "『Morning Oak』(갑목 편)"
+    "『Rooted』(갑목 편)"
    ],
    "step": 0.25,
    "en": "If 申·子·辰: Early-spring Wood (寅)"
@@ -115,7 +115,7 @@
    "big_size": 100,
    "after": [
     "사람들 앞에 나서러 가는 길에",
-    "『Noon Avenue』(병화 편)"
+    "『Open Window Light』(병화 편)"
    ],
    "step": 0.25,
    "en": "If 亥·卯·未: Early-summer Fire (巳)"
@@ -130,7 +130,7 @@
    "big_size": 100,
    "after": [
     "일을 매듭지으러 가는 출장길에",
-    "『Stone Bridge』(경금 편)"
+    "『Granite Light』(경금 편)"
    ],
    "step": 0.25,
    "en": "If 寅·午·戌: Early-autumn Metal (申)"
@@ -145,7 +145,7 @@
    "big_size": 100,
    "after": [
     "멀리 떠나는 밤 비행기에서",
-    "『Wide Water』(임수 편)"
+    "『Cove』(임수 편)"
    ],
    "step": 0.25,
    "en": "If 巳·酉·丑: Early-winter Water (亥)"

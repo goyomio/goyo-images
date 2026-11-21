@@ -169,6 +169,266 @@
   "곡": "Sunlit Crosswalk",
   "근거": "원곡: goyo-keys/audio/catalog.json 병화 04 9:54 Sunlit Crosswalk (곡 시작부터 60초)"
  },
+ "shorts/음원/토1_Clay Cup Morning_60s.m4a": {
+  "편": "토",
+  "곡": "Clay Cup Morning",
+  "근거": "원곡: goyo-keys/audio/catalog.json 토1 02 2:51 Clay Cup Morning (곡 시작부터 60초)"
+ },
+ "shorts/음원/갑목_Rooted_60s.m4a": {
+  "편": "갑목",
+  "곡": "Rooted",
+  "근거": "원곡: goyo-keys/audio/catalog.json 갑목 02 2:39 Rooted (곡 시작부터 60초)"
+ },
+ "shorts/음원/병화_Open Window Light_60s.m4a": {
+  "편": "병화",
+  "곡": "Open Window Light",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 02 3:07 Open Window Light (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_Cove_60s.m4a": {
+  "편": "임수",
+  "곡": "Cove",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 04 8:04 Cove (곡 시작부터 60초)"
+ },
+ "shorts/음원/정화_Amber Hour_60s.m4a": {
+  "편": "정화",
+  "곡": "Amber Hour",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 02 4:06 Amber Hour (곡 시작부터 60초)"
+ },
+ "shorts/음원/갑목_Upright_60s.m4a": {
+  "편": "갑목",
+  "곡": "Upright",
+  "근거": "원곡: goyo-keys/audio/catalog.json 갑목 03 5:02 Upright (곡 시작부터 60초)"
+ },
+ "shorts/음원/병화_Midday Errand_60s.m4a": {
+  "편": "병화",
+  "곡": "Midday Errand",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 03 6:36 Midday Errand (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Cliff Morning_60s.m4a": {
+  "편": "경금",
+  "곡": "Cliff Morning",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 05 17:48 Cliff Morning (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_Far Shore_60s.m4a": {
+  "편": "임수",
+  "곡": "Far Shore",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 05 11:16 Far Shore (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Fine Mist_60s.m4a": {
+  "편": "계수",
+  "곡": "Fine Mist",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 02 2:25 Fine Mist (곡 시작부터 60초)"
+ },
+ "shorts/음원/무토_Steady Ground_60s.m4a": {
+  "편": "무토",
+  "곡": "Steady Ground",
+  "근거": "원곡: goyo-keys/audio/catalog.json 무토 02 2:34 Steady Ground (곡 시작부터 60초)"
+ },
+ "shorts/음원/기토_Seedbed_60s.m4a": {
+  "편": "기토",
+  "곡": "Seedbed",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 02 2:59 Seedbed (곡 시작부터 60초)"
+ },
+ "shorts/음원/갑목_Old Forest Path_60s.m4a": {
+  "편": "갑목",
+  "곡": "Old Forest Path",
+  "근거": "원곡: goyo-keys/audio/catalog.json 갑목 04 7:50 Old Forest Path (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Weathered Edge_60s.m4a": {
+  "편": "경금",
+  "곡": "Weathered Edge",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 06 22:16 Weathered Edge (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_Deep Channel_60s.m4a": {
+  "편": "임수",
+  "곡": "Deep Channel",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 06 14:02 Deep Channel (곡 시작부터 60초)"
+ },
+ "shorts/음원/화1_Warm Room_60s.m4a": {
+  "편": "화",
+  "곡": "Warm Room",
+  "근거": "원곡: goyo-keys/audio/catalog.json 화1 02 3:23 Warm Room (곡 시작부터 60초)"
+ },
+ "shorts/음원/갑목_Tall Cedar_60s.m4a": {
+  "편": "갑목",
+  "곡": "Tall Cedar",
+  "근거": "원곡: goyo-keys/audio/catalog.json 갑목 05 10:30 Tall Cedar (곡 시작부터 60초)"
+ },
+ "shorts/음원/병화_Bright Pavement_60s.m4a": {
+  "편": "병화",
+  "곡": "Bright Pavement",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 05 13:47 Bright Pavement (곡 시작부터 60초)"
+ },
+ "shorts/음원/무토_Clay Morning_60s.m4a": {
+  "편": "무토",
+  "곡": "Clay Morning",
+  "근거": "원곡: goyo-keys/audio/catalog.json 무토 03 5:24 Clay Morning (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Bedrock_60s.m4a": {
+  "편": "경금",
+  "곡": "Bedrock",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 07 26:51 Bedrock (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_River Mouth_60s.m4a": {
+  "편": "임수",
+  "곡": "River Mouth",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 07 16:58 River Mouth (곡 시작부터 60초)"
+ },
+ "shorts/음원/을목_Window Trellis_60s.m4a": {
+  "편": "을목",
+  "곡": "Window Trellis",
+  "근거": "원곡: goyo-keys/audio/catalog.json 을목 02 3:05 Window Trellis (곡 시작부터 60초)"
+ },
+ "shorts/음원/토1_Hearth Light_60s.m4a": {
+  "편": "토",
+  "곡": "Hearth Light",
+  "근거": "원곡: goyo-keys/audio/catalog.json 토1 03 5:14 Hearth Light (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Cold Ridge_60s.m4a": {
+  "편": "경금",
+  "곡": "Cold Ridge",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 08 31:19 Cold Ridge (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_Still Lake_60s.m4a": {
+  "편": "임수",
+  "곡": "Still Lake",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 08 19:30 Still Lake (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Wet Leaves_60s.m4a": {
+  "편": "계수",
+  "곡": "Wet Leaves",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 03 5:06 Wet Leaves (곡 시작부터 60초)"
+ },
+ "shorts/음원/갑목_First Light on Bark_60s.m4a": {
+  "편": "갑목",
+  "곡": "First Light on Bark",
+  "근거": "원곡: goyo-keys/audio/catalog.json 갑목 06 13:21 First Light on Bark (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Morning Dew_60s.m4a": {
+  "편": "계수",
+  "곡": "Morning Dew",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 04 7:47 Morning Dew (곡 시작부터 60초)"
+ },
+ "shorts/음원/정화_Low Glow_60s.m4a": {
+  "편": "정화",
+  "곡": "Low Glow",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 04 13:43 Low Glow (곡 시작부터 60초)"
+ },
+ "shorts/음원/을목_Sweet Pea Lane_60s.m4a": {
+  "편": "을목",
+  "곡": "Sweet Pea Lane",
+  "근거": "원곡: goyo-keys/audio/catalog.json 을목 03 5:33 Sweet Pea Lane (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_Long Tide_60s.m4a": {
+  "편": "임수",
+  "곡": "Long Tide",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 09 22:06 Long Tide (곡 시작부터 60초)"
+ },
+ "shorts/음원/기토_Soft Rows_60s.m4a": {
+  "편": "기토",
+  "곡": "Soft Rows",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 03 5:49 Soft Rows (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Standing Stone_60s.m4a": {
+  "편": "경금",
+  "곡": "Standing Stone",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 09 35:48 Standing Stone (곡 시작부터 60초)"
+ },
+ "shorts/음원/정화_Last Light Street_60s.m4a": {
+  "편": "정화",
+  "곡": "Last Light Street",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 07 26:24 Last Light Street (곡 시작부터 60초)"
+ },
+ "shorts/음원/병화_High Sun Stroll_60s.m4a": {
+  "편": "병화",
+  "곡": "High Sun Stroll",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 06 16:57 High Sun Stroll (곡 시작부터 60초)"
+ },
+ "shorts/음원/을목_Green Spiral_60s.m4a": {
+  "편": "을목",
+  "곡": "Green Spiral",
+  "근거": "원곡: goyo-keys/audio/catalog.json 을목 04 8:39 Green Spiral (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Window Rain_60s.m4a": {
+  "편": "계수",
+  "곡": "Window Rain",
+  "근거": "원곡: goyo-keys/audio/catalog.json 계수 07 15:10 Window Rain (곡 시작부터 60초)"
+ },
+ "shorts/음원/갑목_Heartwood_60s.m4a": {
+  "편": "갑목",
+  "곡": "Heartwood",
+  "근거": "원곡: goyo-keys/audio/catalog.json 갑목 07 16:02 Heartwood (곡 시작부터 60초)"
+ },
+ "shorts/음원/신금_Polished Light_60s.m4a": {
+  "편": "신금",
+  "곡": "Polished Light",
+  "근거": "원곡: goyo-keys/audio/catalog.json 신금 05 18:01 Polished Light (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_Grey Harbor_60s.m4a": {
+  "편": "임수",
+  "곡": "Grey Harbor",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 10 24:26 Grey Harbor (곡 시작부터 60초)"
+ },
+ "shorts/음원/정화_Small Flame_60s.m4a": {
+  "편": "정화",
+  "곡": "Small Flame",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 08 30:47 Small Flame (곡 시작부터 60초)"
+ },
+ "shorts/음원/갑목_Standing Still_60s.m4a": {
+  "편": "갑목",
+  "곡": "Standing Still",
+  "근거": "원곡: goyo-keys/audio/catalog.json 갑목 08 18:38 Standing Still (곡 시작부터 60초)"
+ },
+ "shorts/음원/병화_Summer Court_60s.m4a": {
+  "편": "병화",
+  "곡": "Summer Court",
+  "근거": "원곡: goyo-keys/audio/catalog.json 병화 07 20:34 Summer Court (곡 시작부터 60초)"
+ },
+ "shorts/음원/기토_Garden Gate_60s.m4a": {
+  "편": "기토",
+  "곡": "Garden Gate",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 04 9:39 Garden Gate (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Mountain Spine_60s.m4a": {
+  "편": "경금",
+  "곡": "Mountain Spine",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 10 40:16 Mountain Spine (곡 시작부터 60초)"
+ },
+ "shorts/음원/임수_Morning Haze_60s.m4a": {
+  "편": "임수",
+  "곡": "Morning Haze",
+  "근거": "원곡: goyo-keys/audio/catalog.json 임수 02 2:42 Morning Haze (곡 시작부터 60초)"
+ },
+ "shorts/음원/계수_Puddle Light_81s.m4a": {
+  "편": "계수",
+  "곡": "Puddle Light",
+  "근거": "원곡: 맥 고요음악/수/계수/계수 영상 최종.mp4 12:33 Puddle Light부터 81초 (유튜브 설명란 시각, catalog/goyo_tracks.json 계수 6번)"
+ },
+ "shorts/음원/기토_Afternoon Allotment_60s.m4a": {
+  "편": "기토",
+  "곡": "Afternoon Allotment",
+  "근거": "원곡: goyo-keys/audio/catalog.json 기토 09 25:30 Afternoon Allotment (곡 시작부터 60초)"
+ },
+ "shorts/음원/경금_Granite Light_60s.m4a": {
+  "편": "경금",
+  "곡": "Granite Light",
+  "근거": "원곡: goyo-keys/audio/catalog.json 경금 01 0:00 Granite Light (곡 시작부터 60초)"
+ },
+ "shorts/음원/신금_Dewcut_60s.m4a": {
+  "편": "신금",
+  "곡": "Dewcut",
+  "근거": "원곡: goyo-keys/audio/catalog.json 신금 06 22:30 Dewcut (곡 시작부터 60초)"
+ },
+ "shorts/음원/신금_Crystal Window_60s.m4a": {
+  "편": "신금",
+  "곡": "Crystal Window",
+  "근거": "원곡: goyo-keys/audio/catalog.json 신금 07 26:55 Crystal Window (곡 시작부터 60초)"
+ },
+ "shorts/음원/정화_Hearth Song_60s.m4a": {
+  "편": "정화",
+  "곡": "Hearth Song",
+  "근거": "원곡: goyo-keys/audio/catalog.json 정화 09 35:06 Hearth Song (곡 시작부터 60초)"
+ },
  "shorts/정미년/audio/경금_ColdRidge_60s.m4a": {
   "편": "경금",
   "곡": "Cold Ridge",

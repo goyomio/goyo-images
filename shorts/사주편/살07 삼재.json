@@ -2,13 +2,13 @@
  "theme": "moon",
  "audio_parts": [
   {
-   "file": "shorts/무음편/임수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/임수_Long Tide_60s.m4a",
+   "start": 0.5,
    "dur": 16.0
   },
   {
-   "file": "shorts/무음편/기토 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/기토_Soft Rows_60s.m4a",
+   "start": 0.5,
    "dur": 16.0
   }
  ],

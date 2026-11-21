@@ -2,33 +2,33 @@
  "theme": "stars",
  "audio_parts": [
   {
-   "file": "shorts/무음편/화 무음편.mp4",
-   "start": 0.3,
+   "file": "shorts/음원/화1_Warm Room_60s.m4a",
+   "start": 0.5,
    "dur": 9.5
   },
   {
-   "file": "shorts/무음편/갑목 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/갑목_Tall Cedar_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/병화 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/병화_Bright Pavement_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/무토 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/무토_Clay Morning_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/경금 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/경금_Bedrock_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/임수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/임수_River Mouth_60s.m4a",
+   "start": 0.5,
    "dur": 9.5
   }
  ],
@@ -95,7 +95,7 @@
    "big_size": 100,
    "after": [
     "내 힘으로 밀고 나가는 아침에",
-    "『Morning Oak』(갑목 편)"
+    "『Tall Cedar』(갑목 편)"
    ],
    "en": "Yang Wood (甲) day: Mid-spring Wood (卯)"
   },
@@ -109,7 +109,7 @@
    "big_size": 100,
    "after": [
     "사람들 앞에 서는 한낮에",
-    "『Noon Avenue』(병화 편)"
+    "『Bright Pavement』(병화 편)"
    ],
    "en": "Yang Fire (丙) day: Midsummer Fire (午)"
   },
@@ -137,7 +137,7 @@
    "big_size": 100,
    "after": [
     "매듭을 지어야 하는 저녁에",
-    "『Stone Bridge』(경금 편)"
+    "『Bedrock』(경금 편)"
    ],
    "en": "Yang Metal (庚) day: Mid-autumn Metal (酉)"
   },
@@ -151,7 +151,7 @@
    "big_size": 100,
    "after": [
     "생각이 넘치는 밤에",
-    "『Wide Water』(임수 편)"
+    "『River Mouth』(임수 편)"
    ],
    "en": "Yang Water (壬) day: Midwinter Water (子)"
   },

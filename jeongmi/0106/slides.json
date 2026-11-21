@@ -26,7 +26,7 @@
      36
     ],
     [
-     "넓게 비추는 빛, 가까이 오래 비추는 빛",
+     "옛 책 『적천수』가 나눈 두 불",
      42,
      [
       236,
@@ -37,8 +37,8 @@
      30
     ],
     [
-     "Two kinds of light",
-     38,
+     "Two kinds of light, in a Saju classic",
+     36,
      [
       214,
       210,
@@ -52,7 +52,7 @@
   {
    "items": [
     [
-     "병화는 하늘의 해.",
+     "병화는 해,\n정화는 등불.",
      70,
      [
       236,
@@ -63,8 +63,8 @@
      30
     ],
     [
-     "사방을 고루,\n멀리까지 비추는 빛이에요.",
-     54,
+     "해는 넓게 멀리,\n등불은 가까이 오래 비춰요.",
+     52,
      [
       236,
       233,
@@ -74,8 +74,8 @@
      36
     ],
     [
-     "丙火 Yang Fire (Byeonghwa) is the sun in the sky,\nlighting everything, far and wide.",
-     34,
+     "丙火 Yang Fire (Byeonghwa) is the sun;\n丁火 Yin Fire (Jeonghwa) is a lamp. One lights\nfar and wide; the other, close at hand and longer.",
+     30,
      [
       214,
       210,
@@ -85,72 +85,7 @@
      0
     ]
    ],
-   "tag": "넓게 비추는 빛"
-  },
-  {
-   "items": [
-    [
-     "정화는 등불.",
-     70,
-     [
-      236,
-      233,
-      226
-     ],
-     true,
-     30
-    ],
-    [
-     "가까운 자리를\n오래 밝히는 빛이에요.",
-     54,
-     [
-      236,
-      233,
-      226
-     ],
-     false,
-     36
-    ],
-    [
-     "丁火 Yin Fire (Jeonghwa) is a lamp\nthat lights what is near, for a long time.",
-     34,
-     [
-      214,
-      210,
-      202
-     ],
-     false,
-     0
-    ]
-   ],
-   "tag": "가까이 오래 비추는 빛"
-  },
-  {
-   "items": [
-    [
-     "해는 멀리서 모두를 비추고,\n등불은 가까이에서\n한 사람의 얼굴과 손을 비춰요.",
-     54,
-     [
-      236,
-      233,
-      226
-     ],
-     false,
-     36
-    ],
-    [
-     "The sun lights everyone from afar.\nA lamp lights one person's\nface and hands, up close.",
-     34,
-     [
-      214,
-      210,
-      202
-     ],
-     false,
-     0
-    ]
-   ],
-   "tag": "같은 불, 다른 빛"
+   "tag": "적천수의 두 불"
   },
   {
    "items": [
@@ -199,7 +134,7 @@
      34
     ],
     [
-     "Di Tian Sui (滴天髓), a classic Saju text, on Yang Fire:\n\"Fierce and blazing, it scorns frost and snow.\"",
+     "滴天髓 Di Tian Sui (Jeokcheonsu), a Saju classic,\non Yang Fire: \"Fierce and blazing,\nit scorns frost and snow.\"",
      32,
      [
       214,
@@ -211,6 +146,55 @@
     ]
    ],
    "tag": "옛 책이 본 해"
+  },
+  {
+   "items": [
+    [
+     "이어서 병화는",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "단단한 쇠(경금)는\n달구어 다듬지만,\n보석 같은 쇠(신금)를 만나면\n오히려 기세가 누그러진다고 해요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "能煅庚金 逢辛反怯",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "\"It can forge hard metal, yet shrinks before fine metal.\"\nThe sun tempers 庚金 Yang Metal (Gyeonggeum)\nbut loses its fierceness before 辛金 Yin Metal (Singeum).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "해가 만나는 쇠"
   },
   {
    "items": [
@@ -286,7 +270,67 @@
   {
    "items": [
     [
-     "2026년의 빛은 해,\n2027년의 빛은 등불이에요.",
+     "그 사이에는 이런 구절도 있어요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "덩굴 같은 나무(을목)를\n감싸 지키면 효성스럽고,\n큰 강물(임수)과 짝을 이루면\n충직하다고 했어요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     28
+    ],
+    [
+     "抱乙而孝 合壬而忠",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "1월 3일 진주 편에서 말한\n등불과 강물의 짝이 바로 이 구절이에요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "\"Sheltering 乙木 Yin Wood (Eulmok), it is filial;\npaired with 壬水 Yang Water (Imsu), it is loyal.\"\nThe pairing behind the lamp and river of our Jan 3 post.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "등불이 만나는 나무와 물"
+  },
+  {
+   "items": [
+    [
+     "입춘(2월 4일)부터\n2027년의 빛은 등불이에요.",
      58,
      [
       236,
@@ -297,18 +341,7 @@
      30
     ],
     [
-     "넓게 퍼지는 빛이 입춘부터\n가까운 자리를 오래 밝히는\n빛으로 옮겨 가요.",
-     46,
-     [
-      236,
-      233,
-      226
-     ],
-     false,
-     30
-    ],
-    [
-     "사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.",
+     "사주에서는 입춘에 한 해가 바뀌어요.",
      38,
      [
       236,
@@ -330,8 +363,8 @@
      30
     ],
     [
-     "In 2026 the light is the sun; in 2027, a lamp.\nLa Tour, from our Jan 7 post, painted one.",
-     32,
+     "From Feb 4, 2027's light is a lamp.\nLa Tour, in our Jan 7 post, painted just such a lamp.",
+     30,
      [
       214,
       210,
@@ -368,7 +401,7 @@
      34
     ],
     [
-     "가까운 자리를 오래 밝히는\n등불 같은 소리예요.",
+     "등불을 켠 방 같은 소리예요.",
      52,
      [
       236,

@@ -2,13 +2,13 @@
  "theme": "road",
  "audio_parts": [
   {
-   "file": "shorts/무음편/갑목 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/갑목_First Light on Bark_60s.m4a",
+   "start": 0.5,
    "dur": 15.0
   },
   {
-   "file": "shorts/무음편/계수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/계수_Morning Dew_60s.m4a",
+   "start": 0.5,
    "dur": 15.0
   }
  ],

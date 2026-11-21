@@ -2,33 +2,33 @@
  "theme": "blossom",
  "audio_parts": [
   {
-   "file": "shorts/무음편/정화 무음편.mp4",
-   "start": 0.3,
+   "file": "shorts/음원/정화_Small Flame_60s.m4a",
+   "start": 0.5,
    "dur": 4.5
   },
   {
-   "file": "shorts/무음편/갑목 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/갑목_Standing Still_60s.m4a",
+   "start": 0.5,
    "dur": 5.5
   },
   {
-   "file": "shorts/무음편/병화 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/병화_Summer Court_60s.m4a",
+   "start": 0.5,
    "dur": 5.5
   },
   {
-   "file": "shorts/무음편/기토 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/기토_Garden Gate_60s.m4a",
+   "start": 0.5,
    "dur": 5.5
   },
   {
-   "file": "shorts/무음편/경금 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/경금_Mountain Spine_60s.m4a",
+   "start": 0.5,
    "dur": 5.5
   },
   {
-   "file": "shorts/무음편/임수 무음편.mp4",
-   "start": 1.0,
+   "file": "shorts/음원/임수_Morning Haze_60s.m4a",
+   "start": 0.5,
    "dur": 5.0
   }
  ],
