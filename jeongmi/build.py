@@ -1331,46 +1331,46 @@ P['0127'] = dict(
   S([T('1월 27일 · 고요 여행', 44, GOLD, gap=30), T('보름밤,\n물과 하늘에\n띄우는 불', 96, bold=True, gap=36),
      T('태국 치앙마이 · 로이끄라통과 이펭', 42, gap=30), T('Lights on the water and in the sky', 36, EN, gap=0)]),
   S([T('「로이」는\n띄운다는 뜻이에요.', 64, bold=True, gap=30),
-     T('바나나 잎으로 엮은 작은 배,\n끄라통에 초와 향을 꽂아\n보름밤 강물에 띄워요.', 46, gap=28),
+     T('바나나 줄기와 잎으로 만든 작은 배,\n끄라통에 초와 향을 꽂아\n보름밤 강물에 띄워요.', 46, gap=28),
      T('치앙마이에서는 핑강 위로 흘러가요.', 42, GOLD, gap=34),
-     T('"Loy" means "to float." On the full-moon night, people\nfloat a krathong, a small banana-leaf boat with a candle\nand incense. In Chiang Mai, they drift down the Ping River.', 26, EN, gap=0)], tag='로이끄라통'),
+     T('"Loy" means "to float." On the full-moon night, people\nfloat a krathong, a small boat of banana trunk and leaves\nwith a candle and incense. In Chiang Mai, krathongs drift\ndown the Ping River.', 26, EN, gap=0)], tag='로이끄라통'),
   S([T('같은 무렵 치앙마이에서는\n하늘로 등을 올려요.', 56, bold=True, gap=30),
      T('란나 말로 「이」는 둘,\n「펭」은 보름이에요.', 50, gap=26),
      T('북부 란나 달력의\n둘째 달 보름밤이라는 뜻이에요.', 42, GOLD, gap=34),
-     T('Around the same night, Chiang Mai sends paper lanterns\ninto the sky. In the Lanna language, "yi" means two and\n"peng" means full moon: the full moon of the second\nmonth in the old northern Lanna calendar.', 26, EN, gap=0)], tag='이펭'),
+     T('Around the same night, Chiang Mai sends paper lanterns\n(khom loi) into the sky. In the Lanna language, "yi" means two and\n"peng" means full moon: the full moon of the second\nmonth in the old northern Lanna calendar.', 26, EN, gap=0)], tag='이펭'),
   S([T('태국 달력으로는 열두째 달 보름,\n란나 달력으로는 둘째 달 보름.', 46, gap=30),
      T('같은 밤을\n두 달력이\n다르게 불러요.', 66, bold=True, gap=30),
      T('1월 25일의 「새해는 세 번」처럼,\n달력마다 같은 날의 이름이 달라요.', 40, GOLD, gap=34),
-     T('The twelfth full moon in the Thai calendar is the second\nin the Lanna calendar: one night, two names. Like our\nJan 25 post on three new years, each calendar names\nthe same day its own way.', 26, EN, gap=0)], tag='두 달력, 한 보름밤'),
+     T('The twelfth full moon in the Thai calendar is the second\nin the Lanna calendar: one night, two names. As in our\nJan 25 post on three New Years, each calendar names\nthe same day its own way.', 26, EN, gap=0)], tag='두 달력, 한 보름밤'),
   S([T('2027년에는\n11월 14일 무렵이\n그 보름이에요.', 62, bold=True, gap=28),
-     T('여행사 공개 일정 기준이고,\n태국 공식 날짜는 그 전해에 발표돼요.', 42, gap=28),
+     T('여행사 공개 일정 기준이에요.\n확정 날짜는 가까워지면\n태국관광청 공지로 확인하세요.', 42, gap=28),
      T('하늘로 한꺼번에 등을 올리는 큰 행사는\n허가된 곳에서 표를 사야 하고,\n구시가 행사는 무료로 볼 수 있어요.', 38, GOLD, gap=34),
-     T('In 2027, the full moon falls around November 14\n(per travel operators; Thailand announces the official\ndate the year before). Mass lantern releases are ticketed\nat licensed venues; Old City events are free.', 26, EN, gap=0)], tag='2027년에는'),
+     T('In 2027, the full moon falls around November 14\n(per travel operators; check the Tourism Authority\nof Thailand closer to the date). Mass lantern releases are ticketed\nat licensed venues; Old City events are free.', 26, EN, gap=0)], tag='2027년에는'),
   S([T('정미년의 첫 글자는\n등불, 정화예요.', 60, bold=True, gap=28),
      T('그 열기 곁에 두는 서늘한 것은 물.', 46, gap=28),
-     T('작은 불빛을 물에 띄워 보내는 밤,\n물결 위에서 불빛이 흔들려요.', 46, bold=True, gap=26),
+     T('작은 불빛을 물에 띄워 보내는 밤,\n물 위에서 불빛이 흔들려요.', 46, bold=True, gap=26),
      T('제 해석이에요.', 34, [150, 145, 135], gap=30),
-     T('The first character of 2027 is a lamp: 丁火 Yin Fire\n(Jeonghwa). Beside its heat, something cool: water.\nTo us, this is a night of small lights sent off on the\nwater, trembling on the ripples.', 26, EN, gap=0)], tag='사주로 보면'),
-  S([T('1월 3일 진주 남강의 등은\n강을 따라 흘렀어요.', 50, gap=28),
+     T('The 丁未 year begins with a lamp: 丁火 Yin Fire\n(Jeonghwa). Beside its heat, something cool: Water.\nTo us, this is a night of small lights sent off on the\nwater, trembling as they go.', 26, EN, gap=0)], tag='사주로 보면'),
+  S([T('1월 3일에 소개한 진주 남강의 등은\n강을 따라 흘러요.', 46, gap=28),
      T('치앙마이의 보름밤에는\n물 위로도, 하늘로도\n불이 떠요.', 60, bold=True, gap=30),
      T('정미년에 갈 만한 곳,\n해외 한 곳을 고른다면 여기예요.', 42, GOLD, gap=34),
-     T('On Jan 3, Jinju\'s lamps drifted down the river.\nOn Chiang Mai\'s full-moon night, lights float on the\nwater and rise into the sky. If you pick one place\nabroad for 2027, this is ours.', 26, EN, gap=0)], tag='정미년과 이어서'),
+     T('In our Jan 3 post, Jinju\'s lanterns drifted down the\nNamgang River. On Chiang Mai\'s full-moon night, lights\nfloat on the water and rise into the sky. If we had to\npick one place abroad for 2027, this would be it.', 26, EN, gap=0)], tag='정미년과 이어서'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
-     T('가는 비와 이슬 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Ripple』,\n끄라통이 지나간 잔물결이에요.', 42, gap=30),
+     T('가는 비와 이슬 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Ripple』,\n끄라통이 지나간 자리의 작은 파문이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu):\nsounds like fine rain and dew.\nToday\'s track is Ripple. Listen at the link in bio.', 30, EN, gap=0)], tag='물결 곁에 둘 소리'),
+     T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu):\nsounds like fine rain and dew.\nToday\'s track is Ripple. Listen at the link in bio.', 30, EN, gap=0)], tag='물 곁에 둘 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 27일', 50, GOLD, gap=34), T('보름밤,\n물과 하늘에\n띄우는 불', 104, bold=True, gap=50), T('Lights on the water and in the sky', 40, EN, gap=0)]),
   dict(sec=6.0, step=1.0, items=[T('태국 치앙마이', 62, GOLD, gap=30), T('강물에는 끄라통,\n하늘에는 등', 86, bold=True, gap=44),
        T('Chiang Mai: krathongs on the river,\nlanterns in the sky', 36, EN, gap=0)]),
-  dict(sec=6.5, step=1.0, items=[T('등불 곁에\n두는 서늘한 물', 88, bold=True, gap=40), T('물결 위에서 흔들리는 작은 불빛', 52, gap=44),
-       T('Cool water beside a lamp:\nsmall lights trembling on the ripples', 36, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('등불 곁에\n두는 서늘한 물', 88, bold=True, gap=40), T('물 위에서 흔들리는 작은 불빛', 52, gap=44),
+       T('Cool Water beside a lamp:\nsmall lights trembling on the river', 36, EN, gap=0)]),
   dict(sec=5.5, step=0.9,
        items_ig=[T('「이펭」은\n무슨 뜻일까요?', 96, bold=True, gap=34), T('답과 2027년 날짜는\n@goyo_mio 피드 게시물에서', 54, bold=True, gap=30),
-                 T('What does "Yi Peng" mean?\nThe answer and 2027 dates are in our feed post.', 36, EN, gap=0)],
+                 T('What does "Yi Peng" mean?\nAnswer and 2027 dates: our feed post.', 36, EN, gap=0)],
        items_yt=[T('「이펭」은\n무슨 뜻일까요?', 96, bold=True, gap=34), T('답과 2027년 날짜는\n채널 게시물에서', 54, bold=True, gap=30),
-                 T('What does "Yi Peng" mean?\nThe answer and 2027 dates are in our Posts tab.', 36, EN, gap=0)]),
+                 T('What does "Yi Peng" mean?\nAnswer and 2027 dates: our Posts tab.', 36, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('계수 편', 100, bold=True, gap=36), T('『Ripple』', 56, gap=26),
                  T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 癸水 Yin Water (Gyesu)\n· Ripple · Listen at the link in bio.', 34, EN, gap=0)],
@@ -1379,42 +1379,167 @@ P['0127'] = dict(
  ],
  caption="""보름밤, 물과 하늘에 띄우는 불. 태국 치앙마이의 로이끄라통과 이펭.
 
-「로이」는 띄운다는 뜻이에요. 바나나 잎으로 엮은 작은 배, 끄라통에 초와 향을 꽂아 보름밤 강물에 띄워요. 치앙마이에서는 끄라통이 핑강 위로 흘러가요. 같은 무렵 치앙마이에서는 하늘로 등을 올리는 이펭도 열려요. 란나 말로 「이」는 둘, 「펭」은 보름이라, 북부 란나 달력의 둘째 달 보름밤이라는 뜻이에요.
+「로이」는 띄운다는 뜻이에요. 바나나 줄기와 잎으로 만든 작은 배, 끄라통에 초와 향을 꽂아 보름밤 강물에 띄워요. 치앙마이에서는 끄라통이 핑강 위로 흘러가요. 같은 무렵 치앙마이에서는 하늘로 등을 올리는 이펭도 열려요. 란나 말로 「이」는 둘, 「펭」은 보름이라, 북부 란나 달력의 둘째 달 보름밤이라는 뜻이에요.
 
 태국 달력으로는 열두째 달 보름이 란나 달력으로는 둘째 달 보름이에요. 같은 밤을 두 달력이 다르게 불러요. 1월 25일의 「새해는 세 번」처럼, 달력마다 같은 날의 이름이 달라요.
 
-2027년에는 11월 14일 무렵이 그 보름이에요. 여행사 공개 일정 기준이고, 태국 공식 날짜는 그 전해에 발표돼요. 하늘로 한꺼번에 등을 올리는 큰 행사는 허가된 곳에서 표를 사야 하고, 구시가 행사는 무료로 볼 수 있어요.
+2027년에는 11월 14일 무렵이 그 보름이에요. 여행사 공개 일정 기준이라, 확정 날짜는 가까워지면 태국관광청 공지로 확인하세요. 하늘로 한꺼번에 등을 올리는 큰 행사는 허가된 곳에서 표를 사야 하고, 구시가 행사는 무료로 볼 수 있어요.
 
-정미년의 첫 글자는 등불, 정화예요. 그 열기 곁에 두는 서늘한 것은 물이에요. 작은 불빛을 물에 띄워 보내는 밤, 물결 위에서 불빛이 흔들려요. 제 해석이에요. 1월 3일 진주 남강의 등은 강을 따라 흘렀고, 치앙마이의 보름밤에는 물 위로도 하늘로도 불이 떠요. 정미년에 갈 만한 곳, 해외 한 곳을 고른다면 여기예요.
+정미년의 첫 글자는 등불, 정화예요. 그 열기 곁에 두는 서늘한 것은 물이에요. 작은 불빛을 물에 띄워 보내는 밤, 물 위에서 불빛이 흔들려요. 제 해석이에요. 1월 3일에 소개한 진주 남강의 등은 강을 따라 흐르고, 치앙마이의 보름밤에는 물 위로도 하늘로도 불이 떠요. 정미년에 갈 만한 곳, 해외 한 곳을 고른다면 여기예요.
 
-물결 곁에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 끄라통이 지나간 잔물결, 『Ripple』이에요. 프로필 링크에서 들을 수 있어요.
+물 곁에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 끄라통이 지나간 자리의 작은 파문, 『Ripple』이에요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
 Lights on the water and in the sky: Loy Krathong and Yi Peng in Chiang Mai, Thailand.
 
-"Loy" means "to float." On the full-moon night, people float a krathong, a small banana-leaf boat with a candle and incense, and in Chiang Mai they drift down the Ping River. Around the same night, Chiang Mai sends paper lanterns into the sky for Yi Peng. In the Lanna language, "yi" means two and "peng" means full moon: the full moon of the second month in the old northern Lanna calendar.
+"Loy" means "to float." On the full-moon night, people float a krathong, a small boat of banana trunk and leaves with a candle and incense, and in Chiang Mai, krathongs drift down the Ping River. Around the same night, Chiang Mai sends paper lanterns (khom loi) into the sky for Yi Peng. In the Lanna language, "yi" means two and "peng" means full moon: the full moon of the second month in the old northern Lanna calendar.
 
-The twelfth full moon in the Thai calendar is the second in the Lanna calendar: one night, two names. Like our January 25 post on three new years, each calendar names the same day its own way.
+The twelfth full moon in the Thai calendar is the second in the Lanna calendar: one night, two names. As in our January 25 post on three New Years, each calendar names the same day its own way.
 
-In 2027, that full moon falls around November 14, according to travel operators; Thailand announces the official date the year before. Mass lantern releases are ticketed at licensed venues, and Old City events are free.
+In 2027, that full moon falls around November 14, according to travel operators; check the Tourism Authority of Thailand closer to the date. Mass lantern releases are ticketed at licensed venues, and Old City events are free.
 
-The first character of 2027 is a lamp: 丁火 Yin Fire (Jeonghwa). Beside its heat, something cool: water. To us, this is a night of small lights sent off on the water, trembling on the ripples. This is our own reading. On January 3, Jinju's lamps drifted down the river; on Chiang Mai's full-moon night, lights float on the water and rise into the sky. If you pick one place abroad for 2027, this is ours.
+The 丁未 year begins with a lamp: 丁火 Yin Fire (Jeonghwa). Beside its heat, something cool: Water. To us, this is a night of small lights sent off on the water, trembling as they go. In our January 3 post, Jinju's lanterns drifted down the Namgang River; on Chiang Mai's full-moon night, lights float on the water and rise into the sky. If we had to pick one place abroad for 2027, this would be it.
 
-For the ripples: Five Kinds of Quiet · 癸水 Yin Water (Gyesu), music like fine rain and dew. Today's track is Ripple. Listen at the link in bio.
+To go with the water: Five Kinds of Quiet · 癸水 Yin Water (Gyesu), music like fine rain and dew. Today's track is Ripple. Listen at the link in bio.
 
-#고요 #고요여행 #치앙마이 #로이끄라통 #이펭 #태국여행 #정미년 #오행음악 #chiangmai #yipeng""",
+#고요 #고요여행 #치앙마이 #로이끄라통 #이펭 #태국여행 #정미년 #오행음악 #chiangmai #yipeng #loykrathong""",
  reel_caption="""보름밤, 물과 하늘에 띄우는 불. 태국 치앙마이.
 
-강물에는 끄라통, 하늘에는 등을 띄우는 보름밤이에요. 정미년의 첫 글자는 등불(정화), 그 곁에 두는 서늘한 것은 물이에요. 물결 위에서 흔들리는 작은 불빛으로 봐요(제 해석). 「이펭」이라는 이름의 뜻과 2027년 날짜, 가기 전에 알아 둘 것은 피드 게시물에 있어요.
+강물에는 끄라통, 하늘에는 등을 띄우는 보름밤이에요. 정미년의 첫 글자는 등불(정화), 그 곁에 두는 서늘한 것은 물이에요. 물 위에서 흔들리는 작은 불빛으로 봐요(제 해석). 「이펭」이라는 이름의 뜻과 2027년 날짜, 가기 전에 알아 둘 것은 피드 게시물에 있어요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜계수(癸水)』의 『Ripple』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-A full-moon night in Chiang Mai, Thailand: krathongs on the river, lanterns in the sky. The first character of 2027 is a lamp, 丁火 Yin Fire (Jeonghwa), and beside its heat we set something cool: water. To us, these are small lights trembling on the ripples. What "Yi Peng" means, the 2027 dates, and tips for your visit are in our feed post.
+A full-moon night in Chiang Mai, Thailand: krathongs on the river, lanterns in the sky. The 丁未 year begins with a lamp, 丁火 Yin Fire (Jeonghwa), and beside its heat we set something cool: Water. To us, these are small lights trembling on the river. What "Yi Peng" means, the 2027 dates, and tips for your visit are in our feed post.
 
 The music is Ripple from Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Listen at the link in bio.
 
 #고요 #치앙마이 #로이끄라통 #이펭 #오행음악""",
+)
+
+# ───────── 1/29 금 · 같은 해, 열 가지 얼굴 (을목) — 원문 Ⅴ 열 일간 + 결정 17 말투본, 1/1보다 「왜 그렇게 읽는지」를 더함
+def DUO(a, al, b, bl, gap=26):
+    return [T(a, 40, GOLD, True, 6), T(al, 38, gap=20), T(b, 40, GOLD, True, 6), T(bl, 38, gap=gap)]
+P['0129'] = dict(
+ music='을목', audio='shorts/음원/을목_Rising Again_60s.m4a',
+ slides=[
+  S([T('1월 29일 · 고요 이야기', 44, GOLD, gap=30), T('같은 해,\n열 가지 얼굴', 104, bold=True, gap=36),
+     T('내 일간에게 정미년은', 44, gap=30), T('One year, ten faces', 36, EN, gap=0)]),
+  S([T('정미년의 두 글자,\n정화(불)와 미토(흙)가\n내 일간에게 무엇이냐에 따라\n같은 해도 다르게 읽혀요.', 50, bold=True, gap=30),
+     T('나와 같은 것 · 내가 낳는 것\n내가 다스리는 것 · 나를 다스리는 것\n나를 낳는 것', 40, GOLD, gap=30),
+     T('내 일간은 태어난 날의 첫 글자예요.', 38, gap=30),
+     T('2027 holds two characters: Fire (a lamp) and Earth.\nWhat they are to your day stem (the first character of\nyour birth day) changes how the year reads: the same as\nyou, what you create, what you manage, what manages\nyou, or what nurtures you.', 24, EN, gap=0)], tag='읽는 방법'),
+  S([T('갑목 · 을목에게', 52, bold=True, gap=10), T('불은 내가 낳는 것(표현), 흙은 내가 다스리는 것(현실)', 34, GOLD, gap=28),
+     *DUO('갑목', '생각을 말과 손으로 꺼내,\n눈에 보이는 성과로 바꿔 가기 좋은 때예요.', '을목', '좋아하는 것을 즐기다 보면,\n그것이 움직이는 기회로 이어질 수 있어요.'),
+     T('For Wood day stems, Fire is what you create (expression)\nand Earth is what you manage (tangible results).', 26, EN, gap=0)], tag='나무 일간'),
+  S([T('병화 · 정화에게', 52, bold=True, gap=10), T('불은 나와 같은 것(동료), 흙은 내가 낳는 것(표현)', 34, GOLD, gap=28),
+     *DUO('병화', '곁의 사람과 몫을 나눌 일이 늘고,\n내 재주를 드러낼 기회도 생길 수 있어요.', '정화', '나와 닮은 불이 하나 더 켜지는 해여서,\n내 색을 또렷하게 표현하기 좋아요.'),
+     T('For Fire day stems, Fire is the same as you (peers)\nand Earth is what you create (expression).', 26, EN, gap=0)], tag='불 일간'),
+  S([T('무토 · 기토에게', 52, bold=True, gap=10), T('불은 나를 낳는 것(돌봄·배움), 흙은 나와 같은 것', 34, GOLD, gap=28),
+     *DUO('무토', '따뜻하게 돌봐 주는 손길이 닿고,\n내 힘도 단단해지는 흐름이에요.', '기토', '혼자 깊이 파고드는 공부와\n직관이 살아나는 해예요.'),
+     T('For Earth day stems, Fire is what nurtures you (care,\nlearning) and Earth is the same as you.', 26, EN, gap=0)], tag='흙 일간'),
+  S([T('경금 · 신금에게', 52, bold=True, gap=10), T('불은 나를 다스리는 것(책임), 흙은 나를 낳는 것(배움)', 34, GOLD, gap=28),
+     *DUO('경금', '맡은 일을 단정하게 정돈하고,\n배움으로 안을 채워 가는 시기예요.', '신금', '조금 버거운 일이 오히려\n나를 단단하게 다듬는 해가 될 수 있어요.'),
+     T('For Metal day stems, Fire is what manages you\n(responsibility) and Earth is what nurtures you (learning).', 26, EN, gap=0)], tag='쇠 일간'),
+  S([T('임수 · 계수에게', 52, bold=True, gap=10), T('불은 내가 다스리는 것(결과), 흙은 나를 다스리는 것(규칙)', 34, GOLD, gap=28),
+     *DUO('임수', '성실하게 들여 온 노력이\n손에 잡히는 모습으로 돌아오기 쉬운 흐름이에요.', '계수', '바깥 기회는 넓어지지만,\n내 속도를 지키는 게 중요한 해예요.'),
+     T('For Water day stems, Fire is what you manage (results)\nand Earth is what manages you (rules).', 26, EN, gap=0)], tag='물 일간'),
+  S([T('한 줄은 일간 하나로 본\n큰 흐름이에요.', 58, bold=True, gap=30),
+     T('같은 일간이라도 나머지 일곱 글자에 따라\n한 해가 닿는 모습은 사주마다 달라요.', 42, gap=30),
+     T('내 일간은 프로필 링크의\n무료 앱에서 찾을 수 있어요.', 44, GOLD, gap=34),
+     T('Each line is a broad reading from the day stem alone.\nThe other seven characters change how the year\nreaches you. Find your day stem in our free app\n(link in bio).', 26, EN, gap=0)], tag='내 사주에서는'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('을목 편', 96, bold=True, gap=34),
+     T('미(未)의 흙이 품고 있는\n덩굴 같은 나무, 을목.', 48, gap=24), T('오늘 고른 곡은 『Rising Again』,\n다시 일어서는 덩굴이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok): the vine\nheld inside 未 Afternoon Earth. Today\'s track is\nRising Again. Listen at the link in bio.', 28, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 29일', 50, GOLD, gap=34), T('같은 해,\n열 가지 얼굴', 112, bold=True, gap=50), T('One year, ten faces', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('정미년의 두 글자', 62, GOLD, gap=30), T('불과 흙', 110, bold=True, gap=44),
+       T('2027: Fire and Earth', 38, EN, gap=0)]),
+  dict(sec=6.5, step=1.0, items=[T('내 일간에게\n그 불은 무엇일까요?', 84, bold=True, gap=40), T('나와 같은 것, 내가 낳는 것,\n나를 다스리는 것…', 50, gap=44),
+       T('What is that Fire to your day stem?', 36, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('열 일간의\n한 줄과 그 까닭은', 92, bold=True, gap=34), T('@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
+                 T('All ten lines, and why:\nin our feed post.', 38, EN, gap=0)],
+       items_yt=[T('열 일간의\n한 줄과 그 까닭은', 92, bold=True, gap=34), T('채널 게시물에서', 56, bold=True, gap=30),
+                 T('All ten lines, and why:\nin our Posts tab.', 38, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('『Rising Again』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\n· Rising Again · Listen at the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('『Rising Again』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\n· Rising Again · Music: related video below', 34, EN, gap=0)]),
+ ],
+ caption="""같은 해, 열 가지 얼굴. 내 일간에게 정미년은?
+
+정미년의 두 글자, 정화(불)와 미토(흙)가 내 일간에게 무엇이냐에 따라 같은 해도 다르게 읽혀요. 관계는 다섯 가지예요. 나와 같은 것, 내가 낳는 것, 내가 다스리는 것, 나를 다스리는 것, 나를 낳는 것. 내 일간은 태어난 날의 첫 글자예요.
+
+갑목·을목에게 불은 내가 낳는 것(표현), 흙은 내가 다스리는 것(현실)이에요.
+갑목: 생각을 말과 손으로 꺼내, 눈에 보이는 성과로 바꿔 가기 좋은 때예요.
+을목: 좋아하는 것을 즐기다 보면, 그것이 움직이는 기회로 이어질 수 있어요.
+
+병화·정화에게 불은 나와 같은 것(동료), 흙은 내가 낳는 것(표현)이에요.
+병화: 곁의 사람과 몫을 나눌 일이 늘고, 내 재주를 드러낼 기회도 생길 수 있어요.
+정화: 나와 닮은 불이 하나 더 켜지는 해여서, 내 색을 또렷하게 표현하기 좋아요.
+
+무토·기토에게 불은 나를 낳는 것(돌봄·배움), 흙은 나와 같은 것이에요.
+무토: 따뜻하게 돌봐 주는 손길이 닿고, 내 힘도 단단해지는 흐름이에요.
+기토: 혼자 깊이 파고드는 공부와 직관이 살아나는 해예요.
+
+경금·신금에게 불은 나를 다스리는 것(책임), 흙은 나를 낳는 것(배움)이에요.
+경금: 맡은 일을 단정하게 정돈하고, 배움으로 안을 채워 가는 시기예요.
+신금: 조금 버거운 일이 오히려 나를 단단하게 다듬는 해가 될 수 있어요.
+
+임수·계수에게 불은 내가 다스리는 것(결과), 흙은 나를 다스리는 것(규칙)이에요.
+임수: 성실하게 들여 온 노력이 손에 잡히는 모습으로 돌아오기 쉬운 흐름이에요.
+계수: 바깥 기회는 넓어지지만, 내 속도를 지키는 게 중요한 해예요.
+
+한 줄은 일간 하나로 본 큰 흐름이에요. 같은 일간이라도 나머지 일곱 글자에 따라 한 해가 닿는 모습은 사주마다 달라요. 내 일간은 프로필 링크의 무료 앱에서 찾을 수 있어요.
+
+미(未)의 흙이 품고 있는 덩굴 같은 나무, 『다섯 가지 고요｜을목(乙木)』. 오늘 고른 곡은 다시 일어서는 덩굴, 『Rising Again』이에요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+One year, ten faces: what is 2027 to your day stem?
+
+The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth holds two characters: Fire (a lamp) and Earth. What they are to your day stem, the first character of your birth day, changes how the year reads. There are five relations: the same as you, what you create, what you manage, what manages you, and what nurtures you.
+
+For Wood day stems, Fire is what you create (expression) and Earth is what you manage (tangible results).
+甲木 Yang Wood (Gapmok): a good time to bring ideas out in words and work, and turn them into visible results.
+乙木 Yin Wood (Eulmok): enjoying what you love may lead to chances that get things moving.
+
+For Fire day stems, Fire is the same as you (peers) and Earth is what you create (expression).
+丙火 Yang Fire (Byeonghwa): more to share with people around you, and chances to show your skills.
+丁火 Yin Fire (Jeonghwa): a fire like yours lights up beside you, a good year to show your own colors clearly.
+
+For Earth day stems, Fire is what nurtures you (care, learning) and Earth is the same as you.
+戊土 Yang Earth (Muto): warm, caring support reaches you, and your own strength grows firmer.
+己土 Yin Earth (Gito): a year when deep, solo study and intuition come alive.
+
+For Metal day stems, Fire is what manages you (responsibility) and Earth is what nurtures you (learning).
+庚金 Yang Metal (Gyeonggeum): a time to put your work in good order and fill yourself up through learning.
+辛金 Yin Metal (Singeum): something a bit heavy may be what shapes you into something stronger.
+
+For Water day stems, Fire is what you manage (results) and Earth is what manages you (rules).
+壬水 Yang Water (Imsu): steady effort tends to come back in a form you can hold.
+癸水 Yin Water (Gyesu): outside chances widen, but keeping your own pace matters most.
+
+Each line is a broad reading from the day stem alone. The other seven characters change how the year reaches you, so it differs from chart to chart. Find your day stem in our free app (link in bio).
+
+For today: Five Kinds of Quiet · Yin Wood, the vine held inside Afternoon Earth. Today's track is Rising Again. Listen at the link in bio.
+
+#고요 #고요이야기 #일간 #정미년 #2027 #사주 #오행 #오행음악 #saju #fiveelements""",
+ reel_caption="""같은 해, 열 가지 얼굴.
+
+정미년의 두 글자는 불(정화)과 흙(미토)이에요. 그 불과 흙이 내 일간에게 나와 같은 것인지, 내가 낳는 것인지, 나를 다스리는 것인지에 따라 같은 해도 다르게 읽혀요. 열 일간의 한 줄과 그렇게 읽는 까닭은 피드 게시물에 있어요. 내 일간은 프로필 링크의 무료 앱에서 찾을 수 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜을목(乙木)』의 『Rising Again』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+One year, ten faces. The coming year holds Fire and Earth, and what they are to your day stem (the same as you, what you create, what manages you…) changes how it reads. All ten one-line readings, and why, are in our feed post. Find your day stem in our free app (link in bio).
+
+The music is Rising Again from Five Kinds of Quiet · 乙木 Yin Wood (Eulmok). Listen at the link in bio.
+
+#고요 #일간 #정미년 #사주 #오행음악""",
 )
 
 JS = 'art/정선_인왕제색도.jpg'
@@ -1481,6 +1606,78 @@ Beside it: Five Kinds of Quiet · Yang Metal, solo piano, like rock after rain. 
 Image: National Museum of Korea, 1751, public domain (Wikimedia Commons)
 
 #고요 #고요의그림읽기 #정선 #인왕제색도 #겸재정선 #국보 #정미년 #오행 #명화 #fiveelements""",
+)
+
+MN = 'art/모네_건초더미_여름의끝.jpg'
+# ───────── 1/28 목 · 고요의 그림 읽기 #5 모네 〈건초더미(여름의 끝)〉 (기토) — 원문 Ⅶ, 결정 2·3
+P['0128'] = dict(
+ music='기토',
+ slides=[
+  S([T('고요의 그림 읽기 #5', 40, GOLD, gap=10), T('여름의 끝, 쌓아 둔 것', 76, bold=True, gap=14),
+     T('클로드 모네, 〈건초더미(여름의 끝)〉\n1890~91 · 시카고 미술관 · 퍼블릭 도메인(CC0, 시카고 미술관)', 26, [150, 145, 135], gap=10),
+     T('Stacks of Wheat (End of Summer) · Claude Monet', 28, EN, gap=0)], card={'file': MN, 'h': 500}),
+  S([T('거둔 밀을 높이 쌓아 둔\n두 더미.', 62, bold=True, gap=30),
+     T('낮게 기운 빛에\n그림자가 길게 늘어져요.', 48, gap=26),
+     T('해 뜰 녘인지 해 질 녘인지는\n미술관도 둘 다 가능하다고 봐요.', 40, GOLD, gap=22),
+     T('모네의 농가 바로 바깥, 지베르니의 들판이에요.', 36, gap=30),
+     T('Two domed stacks of harvested wheat cast long shadows\nin low light. The museum says it could be sunrise or\nsunset. They stood just outside Monet\'s farmhouse\nat Giverny.', 26, EN, gap=0)], tag='그림'),
+  S([T('같은 더미를\n빛과 계절을 바꿔 가며\n그리고 또 그렸어요.', 60, bold=True, gap=30),
+     T('1891년 5월, 파리 뒤랑뤼엘 화랑의\n작은 방 하나에 15점을 함께 걸었고\n평도 판매도 좋았어요.', 42, gap=28),
+     T('이 연작을 세계에서 가장 많이\n가진 곳이 시카고 미술관이에요.', 40, GOLD, gap=34),
+     T('Monet painted the same stacks again and again in\nchanging light. In May 1891 he hung fifteen together\nin one small room at Galerie Durand-Ruel in Paris, and\nthe show was a critical and financial success. Chicago\nholds the largest group of them in the world.', 24, EN, gap=0)], tag='연작'),
+  S([T('원래 제목에\n「여름의 끝」이\n들어 있어요.', 64, bold=True, gap=30),
+     T('우리에게는 「건초더미」로 알려졌지만,\n미술관은 밀 더미라고 불러요.', 42, gap=34),
+     T('Its title includes "End of Summer." In Korea they\'re\nknown as "haystacks," but the museum calls them\nstacks of wheat.', 28, EN, gap=0)], tag='제목'),
+  S([T('보이는 것', 40, GOLD, True, 6), T('거둔 것을 쌓아 두는 밭 → 흙, 그중 밭', 40, gap=24),
+     T('그리는 방식', 40, GOLD, True, 6), T('짧게 겹친 붓질, 땅빛과 낮게 기운 빛\n→ 흙과 불', 40, gap=24),
+     T('화가의 사주', 40, GOLD, True, 6), T('1840년 11월 14일, 일간은 정화(등불)예요.', 38, gap=10),
+     T('태어난 시각은 알려지지 않아, 해·달·날 세 기둥으로만 봐요.', 30, [150, 145, 135], gap=18),
+     T('등불의 사람이 낮게 기운 해를 그렸어요.\n제 해석이에요.', 38, gap=26),
+     T('We read it as 己土 Yin Earth (Gito): a field where the\nharvest is stacked. Monet, born Nov 14, 1840, has\n丁火 Yin Fire (Jeonghwa), the lamp, as his day stem\n(birth hour unknown). A man of the lamp painted a low sun:\nour reading.', 24, EN, gap=0)], tag='고요의 읽기 · 토(土)'),
+  S([T('1월 14일 밀레는\n거둔 뒤에도 남은 것을 품은 밭.', 48, gap=26),
+     T('오늘 모네는\n거둔 것을 쌓아 두는 밭.', 60, bold=True, gap=28),
+     T('같은 기토, 다른 순간이에요.', 46, GOLD, gap=34),
+     T('In our Jan 14 post, Millet showed a field still holding\nwhat was left after harvest. Today, Monet shows a field where\nthe harvest is stacked. Same Yin Earth, another moment.', 26, EN, gap=0)], tag='밀레와 나란히'),
+  S([T('늦여름 볕에 데워진 흙,\n미(未)와 가장 가까운 그림이에요.', 52, bold=True, gap=24),
+     T('미 안에는 기토와 정화가\n함께 들어 있다고 봐요.', 42, gap=26),
+     T('오늘 1월 28일은 정미(丁未)일,\n다가올 해와 같은 이름의 날이에요.', 42, GOLD, gap=26),
+     T('2월 5일에는 이 들판,\n지베르니로 가 볼게요.', 42, gap=30),
+     T('Earth warmed by late-summer sun: the painting closest\nto 未 Afternoon Earth, which holds both Yin Earth and\nYin Fire. Today, Jan 28, is a 丁未 day, the same name as\nthe coming year. On Feb 5, we\'ll visit Giverny.', 24, EN, gap=0)], tag='정미년과 이어서'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('기토 편', 96, bold=True, gap=34),
+     T('갈아 둔 밭 같은\n재즈 로파이예요.', 52, gap=24), T('오늘 밤 9시 릴스에 흐르는 곡은\n『Fallow Hour』, 쉬어 가는 밭의 시간이에요.', 40, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yin Earth: lo-fi jazz like a tilled\nfield. Tonight\'s reel: Fallow Hour.\nListen at the link in bio.', 30, EN, gap=0)], tag='이 그림 옆에 둘 소리'),
+ ],
+ caption="""고요의 그림 읽기 #5 · 클로드 모네 〈건초더미(여름의 끝)〉
+
+거둔 밀을 높이 쌓아 둔 두 더미, 낮게 기운 빛에 그림자가 길게 늘어져요. 해 뜰 녘인지 해 질 녘인지는 미술관도 둘 다 가능하다고 봐요. 더미는 모네의 농가 바로 바깥, 지베르니의 들판에 서 있었어요.
+
+모네는 같은 더미를 빛과 계절을 바꿔 가며 그리고 또 그렸어요. 1891년 5월, 파리 뒤랑뤼엘 화랑의 작은 방 하나에 15점을 함께 걸었고 평도 판매도 좋았어요. 이 연작을 세계에서 가장 많이 가진 곳이 시카고 미술관이에요. 원래 제목에 「여름의 끝」이 들어 있고, 우리에게는 「건초더미」로 알려졌지만 미술관은 밀 더미라고 불러요.
+
+고요의 읽기로는 토(土), 그중 거둔 것을 쌓아 두는 밭, 기토예요. 모네는 1840년 11월 14일에 태어났고 일간은 정화, 등불이에요. 태어난 시각은 알려지지 않아 해·달·날 세 기둥으로만 봤어요. 등불의 사람이 낮게 기운 해를 그린 셈이에요. 제 해석이에요. 1월 14일 밀레가 거둔 뒤에도 남은 것을 품은 밭이었다면, 모네는 거둔 것을 쌓아 두는 밭이에요. 같은 기토, 다른 순간이에요.
+
+늦여름 볕에 데워진 흙, 미(未)와 가장 가까운 그림이에요. 미 안에는 기토와 정화가 함께 들어 있다고 봐요. 오늘 1월 28일은 정미(丁未)일, 다가올 해와 같은 이름의 날이에요. 2월 5일에는 이 들판, 지베르니로 가 볼게요.
+
+이 그림 옆에는 갈아 둔 밭 같은 재즈 로파이, 『다섯 가지 고요｜기토(己土)』. 오늘 밤 9시 릴스에는 쉬어 가는 밭의 시간, 『Fallow Hour』가 흘러요. 프로필 링크에서 들을 수 있어요.
+
+그림: 시카고 미술관, 1890~91, 퍼블릭 도메인(CC0, 시카고 미술관 공개 이미지)
+
+· English ·
+Goyo Reads a Painting #5 · Claude Monet, Stacks of Wheat (End of Summer)
+
+Two domed stacks of harvested wheat cast long shadows in low light; the museum says it could be sunrise or sunset. The stacks stood just outside Monet's farmhouse at Giverny.
+
+Monet painted the same stacks again and again in changing light and seasons. In May 1891 he hung fifteen together in one small room at Galerie Durand-Ruel in Paris, and the show was a critical and financial success. The Art Institute of Chicago holds the largest group of them in the world. The title includes "End of Summer," and though they are often called haystacks, the Art Institute calls them stacks of wheat.
+
+We read it as Earth, and within Earth, a field where the harvest is stacked: 己土 Yin Earth (Gito). Monet, born on November 14, 1840, has 丁火 Yin Fire (Jeonghwa), the lamp, as his day stem; his birth hour is unknown, so we read only the year, month and day pillars. A man of the lamp painted a low sun. This is our own reading. In our January 14 post, Millet showed a field still holding what was left after harvest; Monet shows a field where the harvest is stacked. Same Yin Earth, another moment.
+
+Earth warmed by late-summer sun: this is the painting closest to 未 Afternoon Earth, which holds both Yin Earth and Yin Fire inside it. Today, January 28, is a 丁未 day, with the same name as the coming year. On February 5, we'll visit these fields at Giverny.
+
+Beside it: Five Kinds of Quiet · Yin Earth, lo-fi jazz like a tilled field. Tonight's 9 p.m. reel plays Fallow Hour. Listen at the link in bio.
+
+Image: Art Institute of Chicago, 1890-91, public domain (CC0, Art Institute of Chicago)
+
+#고요 #고요의그림읽기 #모네 #건초더미 #Monet #정미년 #오행 #명화 #fiveelements""",
 )
 
 ML = 'art/밀레_이삭줍는여인들.jpg'
@@ -1557,7 +1754,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27', '0128': '2027-01-28', '0129': '2027-01-29'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil

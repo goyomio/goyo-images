@@ -1,0 +1,314 @@
+{
+ "audio": "shorts/음원/토1_Field After Rain_60s.m4a",
+ "scenes": [
+  {
+   "sec": 4.5,
+   "instant": true,
+   "items": [
+    [
+     "1월 24일",
+     50,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "하늘과 땅이\n만나는 선",
+     112,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     50
+    ],
+    [
+     "Where the land meets the sky",
+     42,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.0,
+   "step": 1.0,
+   "items": [
+    [
+     "전북 김제",
+     62,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "지평선이 보이는\n너른 들",
+     88,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     44
+    ],
+    [
+     "Gimje: wide fields\nwhere land meets sky",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.5,
+   "step": 1.0,
+   "items": [
+    [
+     "여름의 마지막 흙이\n그동안 키운 것을\n품어 두는 해",
+     78,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "늦여름 들판에서 거두는 흙",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     44
+    ],
+    [
+     "2027: the last Earth of summer,\nholding all it has grown",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 0.9,
+   "items_ig": [
+    [
+     "이 들판 곁,\n1700년 가까이 된\n둑의 이름은?",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 가기 전 알아 둘 것은\n@goyo_mio 피드 게시물에서",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "A nearly 1,700-year-old dike by these fields:\nits name and story are in our feed post.",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "이 들판 곁,\n1700년 가까이 된\n둑의 이름은?",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "답과 가기 전 알아 둘 것은\n채널 게시물에서",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "A nearly 1,700-year-old dike by these fields:\nits name and story are in our Posts tab.",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 7.5,
+   "tag": "지금 흐르는 소리",
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "토 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Field After Rain』",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 프로필 링크에서",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Earth\n· Field After Rain · Listen at the link in bio.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "토 편",
+     100,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "『Field After Rain』",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "음악은 아래 관련 영상",
+     48,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Earth\n· Field After Rain · Music: related video below",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

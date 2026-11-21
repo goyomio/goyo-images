@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-01-24/01.jpg",
+  "posts/2027-01-24/02.jpg",
+  "posts/2027-01-24/03.jpg",
+  "posts/2027-01-24/04.jpg",
+  "posts/2027-01-24/05.jpg",
+  "posts/2027-01-24/06.jpg",
+  "posts/2027-01-24/07.jpg",
+  "posts/2027-01-24/08.jpg"
+ ],
+ "caption": "하늘과 땅이 만나는 선, 전북 김제의 지평선 들판과 벽골제.\n\n산이 많은 우리 땅에서 김제·만경의 너른 들은 드물게 지평선이 보이는 곳이에요. 이 들을 사투리로 「징게맹갱 외에밋들」, 김제 만경의 너른 들이라고도 해요.\n\n들판 한쪽에는 1700년 가까이 된 둑, 벽골제(碧骨堤)가 있어요. 『삼국사기』에 330년에 처음 쌓았다는 기록이 있고, 우리나라에서 가장 오래된 저수지로 알려져 있어요. 지금은 3km쯤 되는 둑이 남아 있어요(한국민족문화대백과사전). 둑을 쌓던 사람들이 짚신에 묻은 흙을 털어 작은 산이 생겼다는 「신털미산」 이야기도 전하고, 옛 이름 벽골을 볏골, 벼의 고을로 풀기도 해요.\n\n여름의 마지막 흙이 그동안 키운 것을 조용히 품어 두는 해. 2027 정미년을 이렇게 읽어요. 늦여름 들판에서 거두는 흙이에요. 1월 10일에 흙의 속을 봤다면, 오늘은 그 흙이 펼쳐진 모습이에요. 흙으로 쌓은 둑이 물을 모아 들판을 키웠으니, 흙이 물을 붙들어 두고 물이 마른 흙을 적셔 온 1700년 가까운 시간이에요. 제 해석이에요.\n\n지평선축제는 해마다 가을 초입 벽골제 일대에서 열려요. 2026년은 10월 1~5일이었고, 2027년 일정은 아직 발표 전이에요. 1월의 들판은 비어 있으니, 누렇게 익는 들판은 가을에 보세요. 1월 15일의 망해사 해넘이와 하루 코스로 묶어도 좋아요.\n\n들판 곁에는 느리고 담백하게 쌓이는 로파이, 『다섯 가지 고요｜토(土)』. 오늘 고른 곡은 비 갠 뒤의 들판, 『Field After Rain』이에요. 프로필 링크에서 들을 수 있어요.\n\n· English ·\nWhere the land meets the sky: the Gimje plains and Byeokgolje, North Jeolla.\n\nIn a land of mountains, the Gimje and Mangyeong plains are one of the rare places where land meets sky in a straight line. Locals call them \"Jingge Maenggaeng Oeemitdeul,\" the wide fields of Gimje and Mangyeong.\n\nOn one side of the fields stands a nearly 1,700-year-old dike, Byeokgolje (碧骨堤). The Samguk Sagi (History of the Three Kingdoms) records it as first built in 330, and it is known as Korea's oldest reservoir. About 3 km of the dike remains (Encyclopedia of Korean Culture). A local tale says the workers shook so much dirt from their straw sandals that it piled into a small hill, and some read the old name Byeokgol as \"rice village.\"\n\nWe read 2027 as the last Earth of summer, quietly holding all it has grown: the Earth of late-summer fields at harvest. On January 10 we looked inside that Earth; today we see it spread wide. A dike of earth held water, and the water fed the fields. That's our reading: nearly 1,700 years of Earth holding Water, and Water soaking dry Earth.\n\nThe Gimje Horizon Festival is held near Byeokgolje every early autumn: October 1 to 5 in 2026, with 2027 dates not yet announced. The fields are bare in January, so come back in autumn to see them golden. For a winter day trip, pair it with the Manghaesa Temple sunset from our January 15 post.\n\nMusic for the fields: Five Kinds of Quiet · Earth, slow, unfussy lo-fi. Today's track is Field After Rain. Listen at the link in bio.\n\n#고요 #고요여행 #김제 #지평선 #벽골제 #김제평야 #정미년 #오행음악 #korea",
+ "note": "정미년 시리즈 0124 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}

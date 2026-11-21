@@ -1,0 +1,234 @@
+{
+ "image": "art/정선_인왕제색도.jpg",
+ "audio_parts": [
+  {
+   "file": "shorts/음원/경금_Boulder Field_60s.m4a",
+   "start": 0.3,
+   "dur": 59.0
+  }
+ ],
+ "scenes": [
+  {
+   "sec": 3.5,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "box": [
+    40,
+    760,
+    1040,
+    1340
+   ],
+   "y": 150,
+   "label": "고요의 그림 읽기 #4",
+   "title": [
+    "비 갠 뒤의 바위"
+   ],
+   "title_size": 150,
+   "sub": "정선, 1751",
+   "credit": "국립중앙박물관 · 퍼블릭 도메인(위키미디어 공용)",
+   "credit_y": 1380,
+   "logo": true,
+   "en": "After Rain at Mt. Inwang\nJeong Seon",
+   "en_size": 34
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.24,
+    0.0,
+    0.58,
+    1.0
+   ],
+   "view_to": [
+    0.3,
+    0.0,
+    0.56,
+    0.8
+   ],
+   "y": 1240,
+   "lines": [
+    "여름비가 그친 뒤",
+    "검게 젖은 인왕산 바위"
+   ],
+   "small": "1751년 윤5월 하순, 일흔여섯의 정선",
+   "en": "Mt. Inwang after the summer rain,\nits rocks dark and wet"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.0,
+    0.3,
+    0.34,
+    1.0
+   ],
+   "view_to": [
+    0.05,
+    0.35,
+    0.33,
+    0.95
+   ],
+   "y": 1240,
+   "lines": [
+    "바위는 먹을 쌓아 무겁게,",
+    "안개는 엷게 남겼어요"
+   ],
+   "small": "먹의 검정과 안개의 흰빛",
+   "en": "Layered ink for the rock,\npale paper for the mist"
+  },
+  {
+   "sec": 7.0,
+   "view": [
+    0.62,
+    0.35,
+    0.98,
+    1.0
+   ],
+   "view_to": [
+    0.64,
+    0.45,
+    0.94,
+    1.0
+   ],
+   "y": 1240,
+   "lines": [
+    "산은 올려다보고,",
+    "숲과 집은 내려다봤어요"
+   ],
+   "small": "두 시선이 한 화면에",
+   "en": "We look up at the mountain\nand down on the trees and house"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.8,
+    0.0,
+    1.0,
+    0.4
+   ],
+   "view_to": [
+    0.83,
+    0.03,
+    0.99,
+    0.33
+   ],
+   "y": 1240,
+   "lines": [
+    "오른쪽 위 글씨,",
+    "「인왕의 비 갠 빛, 신미년」"
+   ],
+   "small": "1751년은 신미(辛未)년, 미(未)의 해\n곧 오는 2027 정미년도 미(未)의 해",
+   "en": "Top right: \"Inwang, clearing after rain…\nSinmi (辛未) year.\" 1751 and 2027 are both\n未 (Afternoon Earth) years"
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "view_to": [
+    0.05,
+    0.05,
+    0.95,
+    0.95
+   ],
+   "dim": 0.35,
+   "y": 1240,
+   "lines": [
+    "산은 흙으로도 볼 수 있지만",
+    "고요는 젖은 바위를 봐요"
+   ],
+   "small": "흙의 열을 받아 흘려보내는 바위와 비",
+   "en": "You could read the mountain as Earth.\nWe look at the wet rock."
+  },
+  {
+   "sec": 6.5,
+   "view": [
+    0.42,
+    0.0,
+    0.7,
+    0.75
+   ],
+   "view_to": [
+    0.44,
+    0.02,
+    0.68,
+    0.7
+   ],
+   "y": 1240,
+   "lines": [
+    "정선의 일간은",
+    "무엇일까요?"
+   ],
+   "small": "1676년 정월에 태어난 화가\n답은 채널 게시물에서",
+   "en": "What is Jeong Seon's day stem?\nHe was born in early 1676"
+  },
+  {
+   "sec": 7.5,
+   "view": [
+    0.2,
+    0.05,
+    0.8,
+    0.95
+   ],
+   "view_to": [
+    0.15,
+    0.0,
+    0.85,
+    1.0
+   ],
+   "y": 1240,
+   "lines": [
+    "지금 흐르는 곡이",
+    [
+     [
+      "경금(庚金)",
+      "금"
+     ],
+     [
+      " 편의",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "small": "『Boulder Field』(경금 편)\n바위 들판 같은 피아노 독주",
+   "en": "Boulder Field · 庚金 Yang Metal (Gyeonggeum)\nSolo piano, like a field of boulders"
+  },
+  {
+   "sec": 7.5,
+   "y": 600,
+   "label": "이 그림 옆에 둘 소리",
+   "title": [
+    "고요",
+    [
+     [
+      "경금(庚金)",
+      "금"
+     ],
+     [
+      " 편",
+      [
+       246,
+       243,
+       236
+      ]
+     ]
+    ]
+   ],
+   "title_size": 150,
+   "sub": "아래 관련 영상에서",
+   "small": "고요의 읽기와 화가의 사주는\n채널 게시물에서",
+   "logo": true,
+   "en": "Beside it: Five Kinds of Quiet · Yang Metal\nMusic: related video below\nMore in our Posts tab"
+  }
+ ]
+}

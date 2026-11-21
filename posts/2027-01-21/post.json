@@ -1,0 +1,17 @@
+{
+ "type": "carousel",
+ "via": "api",
+ "approved": false,
+ "files": [
+  "posts/2027-01-21/01.jpg",
+  "posts/2027-01-21/02.jpg",
+  "posts/2027-01-21/03.jpg",
+  "posts/2027-01-21/04.jpg",
+  "posts/2027-01-21/05.jpg",
+  "posts/2027-01-21/06.jpg",
+  "posts/2027-01-21/07.jpg",
+  "posts/2027-01-21/08.jpg"
+ ],
+ "caption": "고요의 그림 읽기 #4 · 정선 〈인왕제색도〉\n\n여름비가 그친 뒤의 인왕산이에요. 1751년 윤5월 하순, 양력으로는 7월 중순 무렵에 일흔여섯의 정선이 지금의 효자동 쪽에서 보고 그렸어요. 바위는 먹을 겹겹이 쌓아 검고 무겁게, 안개는 엷게 남겨 두었어요. 산은 올려다보고, 아래 숲과 집은 내려다본 시선이 한 화면에 함께 있어요.\n\n오른쪽 위에는 「인왕의 비 갠 빛, 신미년 윤달 하순」이라고 적혀 있어요. 1751년은 신미(辛未)년, 미(未)의 해예요. 곧 오는 2027 정미년도 미(未)의 해, 늦여름 흙의 해예요. 그림은 1984년 국보가 되었고, 지금은 국립중앙박물관에 있어요. 세로 79.2cm, 가로 138.2cm, 종이에 먹으로만 그렸어요(한국민족문화대백과사전).\n\n고요의 읽기로는 금(金), 그중 비에 젖어 검게 빛나는 화강암 바위, 경금이에요. 산 전체는 큰 흙으로 볼 수도 있지만, 고요는 비에 젖은 바위에 눈을 둬요. 정선의 일간은 병화예요. 뜨거운 해 곁에 두는 서늘한 것, 흙의 열을 받아 흘려보내는 바위와 비가 그림 속에 함께 있어요. 오늘 1월 21일은 경자(庚子)일이라 앞 글자가 경금이에요. 내일은 그림 속 그 산, 인왕산과 수성동 계곡으로 가 볼게요.\n\n이 그림 옆에는 비에 젖은 바위 같은 피아노 독주, 『다섯 가지 고요｜경금(庚金)』. 오늘 밤 9시 릴스에는 바위 들판, 『Boulder Field』가 흘러요. 프로필 링크에서 들을 수 있어요.\n\n그림: 국립중앙박물관, 1751, 퍼블릭 도메인(위키미디어 공용 이미지)\n\n· English ·\nGoyo Reads a Painting #4 · Jeong Seon, After Rain at Mt. Inwang\n\nThis is Mt. Inwang after the summer rain. Jeong Seon painted it in 1751, late in the leap fifth month (mid-July by today's calendar), aged 75, looking from what is now Hyoja-dong in Seoul. He layered ink to make the rocks dark and heavy and left the mist pale. We look up at the mountain and down on the trees and house, all in one picture.\n\nAt the top right he wrote, \"Inwang, clearing after rain, late in the leap month of the Sinmi (辛未) year.\" 1751 was a 未 (Afternoon Earth) year, and so is the coming 2027. The painting was named a National Treasure in 1984 and is now in the National Museum of Korea. Ink on paper, 79.2 × 138.2 cm (Encyclopedia of Korean Culture).\n\nWe read it as Metal, and within Metal, rock: 庚金 Yang Metal (Gyeonggeum), the granite dark and wet after rain. You could read the whole mountain as Earth, but we keep our eyes on the wet rock. Jeong Seon's day stem is 丙火 Yang Fire (Byeonghwa). Beside a hot sun, the painting holds something cool: rock and rain that take in Earth's heat and let it go. Today, January 21, is a 庚子 day, led by Yang Metal. Tomorrow we'll visit the mountain itself, Mt. Inwang and Suseong-dong Valley.\n\nBeside it: Five Kinds of Quiet · Yang Metal, solo piano, like rock after rain. Tonight's 9 p.m. reel plays Boulder Field. Listen at the link in bio.\n\nImage: National Museum of Korea, 1751, public domain (Wikimedia Commons)\n\n#고요 #고요의그림읽기 #정선 #인왕제색도 #겸재정선 #국보 #정미년 #오행 #명화 #fiveelements",
+ "note": "정미년 시리즈 0121 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+}

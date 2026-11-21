@@ -1,0 +1,477 @@
+{
+ "music": "경금",
+ "slides": [
+  {
+   "items": [
+    [
+     "고요의 그림 읽기 #4",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     10
+    ],
+    [
+     "비 갠 뒤의 바위",
+     84,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     14
+    ],
+    [
+     "정선, 〈인왕제색도〉\n1751 · 국립중앙박물관 · 퍼블릭 도메인(위키미디어 공용)",
+     26,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     10
+    ],
+    [
+     "After Rain at Mt. Inwang · Jeong Seon",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "card": {
+    "file": "art/정선_인왕제색도.jpg",
+    "h": 500
+   }
+  },
+  {
+   "items": [
+    [
+     "여름비가 그친 뒤의\n인왕산이에요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "1751년 윤5월 하순,\n일흔여섯의 정선이\n지금의 효자동 쪽에서 보고 그렸어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "양력으로는 7월 중순 무렵이에요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Mt. Inwang after summer rain. Jeong Seon, aged 75,\npainted it in 1751 from today's Hyoja-dong, Seoul\n(mid-July by our calendar).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "그림"
+  },
+  {
+   "items": [
+    [
+     "바위는 먹을 겹겹이 쌓아\n검고 무겁게,",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     20
+    ],
+    [
+     "안개는 엷게 남겨 두었어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "산은 올려다보고,\n아래 숲과 집은 내려다본 시선이\n한 화면에 함께 있어요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "He layered ink to make the rocks dark and heavy,\nand left the mist pale. We look up at the mountain\nand down on the trees and house, all in one picture.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "먹의 검정, 안개의 흰빛"
+  },
+  {
+   "items": [
+    [
+     "오른쪽 위에\n「인왕의 비 갠 빛,\n신미년 윤달 하순」이라고\n적혀 있어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "1751년은 신미(辛未)년,\n미(未)의 해예요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "곧 오는 2027 정미년도\n미(未)의 해, 늦여름 흙의 해예요.",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Top right: \"Inwang, clearing after rain, late in the\nleap month of the Sinmi (辛未) year.\" 1751 was a\n未 (Afternoon Earth) year, and so is the coming 2027.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "그림에 적힌 해"
+  },
+  {
+   "items": [
+    [
+     "1984년 국보가 되었고,\n지금은 국립중앙박물관에 있어요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "세로 79.2cm, 가로 138.2cm,\n종이에 먹으로만 그렸어요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "한국민족문화대백과사전",
+     32,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "Named a National Treasure in 1984, it is now in the\nNational Museum of Korea. Ink on paper, 79.2 × 138.2 cm\n(Encyclopedia of Korean Culture).",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "국보"
+  },
+  {
+   "items": [
+    [
+     "보이는 것",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "비에 젖어 검게 빛나는 화강암 바위\n→ 쇠, 그중 바위",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "그리는 방식",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "먹을 쌓은 무거운 검정, 엷은 안개 → 쇠와 물",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "화가의 사주",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     6
+    ],
+    [
+     "정선의 일간은 병화예요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "산 전체는 큰 흙으로 볼 수도 있지만,\n고요는 비에 젖은 바위에 눈을 둬요.",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "Seen: granite, dark and wet after rain. Painted: heavy\nlayered ink and pale mist. We read it as 庚金 Yang Metal\n(Gyeonggeum), the rock. Jeong Seon's day stem is\n丙火 Yang Fire (Byeonghwa).",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "고요의 읽기 · 금(金)"
+  },
+  {
+   "items": [
+    [
+     "뜨거운 해 곁에 두는\n서늘한 것.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "흙의 열을 받아 흘려보내는\n바위와 비가 그림 속에 함께 있어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "오늘 1월 21일은 경자(庚子)일,\n앞 글자가 경금이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     22
+    ],
+    [
+     "내일은 그림 속 그 산,\n인왕산과 수성동 계곡으로 가 볼게요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Something cool beside a hot sun: rock and rain that take\nin Earth's heat and let it go. Today is a 庚子 day, led by\nYang Metal. Tomorrow: Mt. Inwang and Suseong-dong Valley.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "정미년과 이어서"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "경금 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "비에 젖은 바위 같은\n피아노 독주예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 밤 9시 릴스에 흐르는 곡은\n『Boulder Field』, 바위 들판이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Yang Metal: solo piano,\nlike rock after rain. Tonight's reel: Boulder Field.\nListen at the link in bio.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "이 그림 옆에 둘 소리"
+  }
+ ]
+}

@@ -1,0 +1,418 @@
+{
+ "music": "토",
+ "slides": [
+  {
+   "items": [
+    [
+     "1월 24일 · 고요 여행",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "하늘과 땅이\n만나는 선",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "전북 김제 · 지평선 들판과 벽골제",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Where the land meets the sky",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "산이 많은 우리 땅에서\n드물게 지평선이 보이는\n김제·만경의 너른 들.",
+     60,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "이 들을 사투리로\n「징게맹갱 외에밋들」이라고도 해요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "김제 만경의 너른 들이라는 뜻이에요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "In a land of mountains, the Gimje and Mangyeong plains\nshow a rare straight horizon. Locals call them\n\"Jingge Maenggaeng Oeemitdeul,\" the wide fields\nof Gimje and Mangyeong.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "너른 들"
+  },
+  {
+   "items": [
+    [
+     "들판 한쪽에\n1700년 가까이 된 둑이 있어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "벽골제(碧骨堤).\n『삼국사기』에 330년에\n처음 쌓았다는 기록이 있어요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "우리나라에서 가장 오래된\n저수지로 알려져 있고,\n지금은 3km쯤 되는 둑이 남아 있어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Byeokgolje, an ancient reservoir dike. The Samguk Sagi\n(History of the Three Kingdoms) records it as first built\nin 330. It is known as Korea's oldest reservoir.\nAbout 3 km of the dike remains.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "1700년 가까이 된 둑"
+  },
+  {
+   "items": [
+    [
+     "둑을 쌓던 사람들이\n짚신에 묻은 흙을 털어\n작은 산이 생겼다는",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "「신털미산」 이야기가\n전해요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "옛 이름 벽골(碧骨)을\n볏골, 벼의 고을로 풀기도 해요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "A local tale says the workers shook so much dirt from\ntheir straw sandals that it piled into a small hill.\nSome read the old name Byeokgol as \"rice village.\"",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "전해 오는 이야기"
+  },
+  {
+   "items": [
+    [
+     "여름의 마지막 흙이\n그동안 키운 것을\n조용히 품어 두는 해.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "2027 정미년을 이렇게 읽어요.\n늦여름 들판에서 거두는 흙이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "1월 10일에 흙의 속을 봤다면,\n오늘은 그 흙이 펼쳐진 모습이에요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "We read 2027 as the last Earth of summer, quietly\nholding all it has grown: the Earth of late-summer\nfields at harvest. On Jan 10 we looked inside that\nEarth; today we see it spread wide.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "늦여름 들판에서 거두는 흙"
+  },
+  {
+   "items": [
+    [
+     "흙으로 쌓은 둑이\n물을 모아\n들판을 키웠어요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "흙이 물을 붙들어 두고,\n물이 마른 흙을 적셔 온\n1700년 가까운 시간이에요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "제 해석이에요.",
+     34,
+     [
+      150,
+      145,
+      135
+     ],
+     false,
+     30
+    ],
+    [
+     "A dike of earth held water, and the water fed the\nfields. To us, it is nearly 1,700 years of Earth holding\nWater, and Water soaking dry Earth.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "사주로 보면"
+  },
+  {
+   "items": [
+    [
+     "지평선축제는 해마다 가을 초입\n벽골제 일대에서 열려요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "2026년은 10월 1~5일이었고,\n2027년 일정은 아직 발표 전이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "1월의 들판은 비어 있어요.\n누렇게 익는 들판은 가을에 보세요.\n1월 15일의 망해사 해넘이와\n하루 코스로 묶어도 좋아요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "The Gimje Horizon Festival is held near Byeokgolje every\nearly autumn (Oct 1 to 5 in 2026; 2027 dates not yet out).\nThe fields are bare in January. Visiting in winter?\nPair it with the Manghaesa sunset.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "가기 전에"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "토 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "느리고 담백하게 쌓이는\n로파이예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 고른 곡은 『Field After Rain』,\n비 갠 뒤의 들판이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · Earth: slow, unfussy lo-fi.\nToday's track is Field After Rain.\nListen at the link in bio.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "들판 곁에 둘 소리"
+  }
+ ]
+}
