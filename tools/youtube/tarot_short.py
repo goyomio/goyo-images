@@ -22,6 +22,9 @@ MUSIC = {'갑목': 'g3Eeu8QVaJY', '을목': 'jtYiLzQkUJs', '병화': 'oIt-DzA96B
          '기토': '8hLmKk8ag08', '경금': 'VzDuEs2i5es', '신금': '6p_X4z3terE', '임수': 'm_t33eB1bkc', '계수': 'wzt4ETUmOto'}
 STEM_EN = {'갑목': 'Gapmok', '을목': 'Eulmok', '병화': 'Byeonghwa', '정화': 'Jeonghwa', '무토': 'Muto',
            '기토': 'Gito', '경금': 'Gyeonggeum', '신금': 'Singeum', '임수': 'Imsu', '계수': 'Gyesu'}
+STEM_FULL_EN = {'갑목': 'Yang Wood (Gapmok)', '을목': 'Yin Wood (Eulmok)', '병화': 'Yang Fire (Byeonghwa)', '정화': 'Yin Fire (Jeonghwa)',
+                '무토': 'Yang Earth (Muto)', '기토': 'Yin Earth (Gito)', '경금': 'Yang Metal (Gyeonggeum)', '신금': 'Yin Metal (Singeum)',
+                '임수': 'Yang Water (Imsu)', '계수': 'Yin Water (Gyesu)'}
 MAJ_EN = ['The Fool', 'The Magician', 'The High Priestess', 'The Empress', 'The Emperor', 'The Hierophant', 'The Lovers',
           'The Chariot', 'Strength', 'The Hermit', 'Wheel of Fortune', 'Justice', 'The Hanged Man', 'Death', 'Temperance',
           'The Devil', 'The Tower', 'The Star', 'The Moon', 'The Sun', 'Judgement', 'The World']
@@ -47,10 +50,9 @@ def build(date, folder):
     cards = t['cards']
     ko_names = '·'.join(c['ko'] for c in cards)
     title = f"{m}월 {d}일 오늘의 타로｜{ko_names}｜Daily Tarot"
-    line = ' '.join(t.get('reel_line', []))
     desc = (f"{m}월 {d}일, 고요가 뽑은 오늘의 타로 세 장이에요.\n\n"
             + '\n'.join(f"{p} · {c['title']}" for p, c in zip(t['positions'], cards))
-            + f"\n\n{line}\n\n"
+            + "\n\n세 장의 풀이는 인스타 @goyo_mio 오늘의 타로 게시물에 있어요.\n▶ https://www.instagram.com/goyo_mio\n\n"
             f"지금 듣는 음악은 다섯 가지 고요 {stem}{hz} 편이에요.\n▶ https://youtu.be/{MUSIC[stem]}\n\n"
             "무료 사주 앱에서 내 오행을 찾고 그 오행의 음악을 들어 보세요.\n▶ https://goyomio.com\n\n"
             f"고요 오행음악 전체 듣기\n▶ {PLAYLIST_URL}\n\n"
@@ -58,11 +60,10 @@ def build(date, folder):
     en_title = f"Today's Tarot, {MON[m - 1]} {d}｜" + ' · '.join(en_name(c).replace(' (reversed)', '') for c in cards)
     if len(en_title) > 95:
         en_title = f"Today's Tarot, {MON[m - 1]} {d}｜Three Cards from GOYO"
-    en_line = ' '.join(t.get('reel_line_en', []))
     en_desc = (f"Today's three tarot cards, drawn by GOYO for {MON[m - 1]} {d}.\n\n"
                + '\n'.join(f"{p} · {en_name(c)}" for p, c in zip(POS_EN, cards))
-               + f"\n\n{en_line}\n\n"
-               f"The music in this video is from \"다섯 가지 고요\" (Five Kinds of Quiet) · {STEM_EN[stem]}.\n▶ https://youtu.be/{MUSIC[stem]}\n\n"
+               + "\n\nThe full reading is in today's tarot post on Instagram @goyo_mio.\n▶ https://www.instagram.com/goyo_mio\n\n"
+               f"The music in this video is Five Kinds of Quiet · {STEM_FULL_EN[stem]}.\n▶ https://youtu.be/{MUSIC[stem]}\n\n"
                "Find your element in our free saju (BaZi) app and listen to its music.\n▶ https://goyomio.com\n\n"
                f"All GOYO five-element music\n▶ {PLAYLIST_URL}\n\n"
                "#dailytarot #tarot #GOYO")
