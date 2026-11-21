@@ -1,7 +1,7 @@
 {
  "type": "carousel",
  "via": "api",
- "approved": false,
+ "approved": true,
  "files": [
   "posts/2027-01-06/01.jpg",
   "posts/2027-01-06/02.jpg",
