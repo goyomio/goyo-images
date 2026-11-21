@@ -1,0 +1,418 @@
+{
+ "music": "기토",
+ "slides": [
+  {
+   "items": [
+    [
+     "1월 31일 · 곁에 둘 것",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "책상 위의\n두 글자",
+     108,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     36
+    ],
+    [
+     "작은 등 하나, 흙 화분 하나",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "Two characters on your desk",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "items": [
+    [
+     "정미(丁未)의 두 글자를\n곁에 둔다면,",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "정화는 등불,\n미토는 늦여름의 흙이에요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "그 두 글자에서 고른 소품 두 가지예요.\n2월 3일에는 식혀 주는 소품으로 이어 갈게요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\npairs a lamp with late-summer earth. Here are two\nthings that echo them. On Feb 3: the cooling kind.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "닮은 소품"
+  },
+  {
+   "items": [
+    [
+     "정화는 방 전체가 아니라\n가까운 자리를 밝히는 불이에요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "책상 위 작은 등이\n곧 올 정미년과 어울려요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "丁火 Yin Fire (Jeonghwa) lights what is close,\nnot the whole room. A small desk lamp suits the coming year.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "작은 등"
+  },
+  {
+   "items": [
+    [
+     "따뜻한 전구색 빛,\n손이 닿는 거리.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "촛불보다 전기 등을 권해요.\n불 걱정이 한결 덜해요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "방 불을 끄고 등 하나만 켜면\n밝은 자리가 손 둘레로 좁아져요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Warm-white light, within arm's reach. Choose an electric\nlamp over a candle; it is less of a fire worry.\nTurn off the room light, and the bright spot shrinks\nto the space around your hands.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "등 고르기"
+  },
+  {
+   "items": [
+    [
+     "미토는\n나무를 품어 두는 흙이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "옹기나 토분에\n작은 식물 하나를 곁에 두어도 좋아요.",
+     46,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "1월 10일 「넣어 두는 흙」에서\n이어지는 이야기예요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "未 Afternoon Earth (Mito) is soil that holds a tree.\nA small plant in an onggi crock or a terracotta pot\nis a nice thing to keep nearby (more in our Jan 10 post).",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "흙 화분"
+  },
+  {
+   "items": [
+    [
+     "토분은 구운 흙이라\n물기가 벽으로도 빠져나가요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "플라스틱 화분보다\n흙이 빨리 말라요.",
+     48,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "겉흙이 말랐을 때 물을 주고,\n받침에 고인 물은 비워 주세요.",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "Terracotta is fired clay, so water escapes through\nthe walls too, and the soil dries faster than in plastic.\nWater when the top of the soil is dry; empty the saucer.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "토분 돌보기"
+  },
+  {
+   "items": [
+    [
+     "불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "곁에 둘 것은 닮은 것과 식혀 주는 것,\n두 갈래로 나눴어요.",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     28
+    ],
+    [
+     "앱은 프로필 링크에 있어요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     34
+    ],
+    [
+     "See how much Fire and Water your chart holds in our\nfree app (link in bio). Which suits you better depends\non your whole chart. We sort these things into two\nkinds: the matching kind and the cooling kind.",
+     26,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "내 사주에서는"
+  },
+  {
+   "items": [
+    [
+     "다섯 가지 고요",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "기토 편",
+     96,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "갈아 둔 밭 같은\n재즈 로파이예요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     24
+    ],
+    [
+     "오늘 고른 곡은 『Potting Shed』,\n화분을 두는 작은 헛간이에요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서",
+     46,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     30
+    ],
+    [
+     "Five Kinds of Quiet · 己土 Yin Earth (Gito):\nlo-fi jazz like a tilled field.\nToday's track is Potting Shed. Listen at the link in bio.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "화분 곁에 둘 소리"
+  }
+ ]
+}

@@ -1426,24 +1426,24 @@ P['0129'] = dict(
   S([T('1월 29일 · 고요 이야기', 44, GOLD, gap=30), T('같은 해,\n열 가지 얼굴', 104, bold=True, gap=36),
      T('내 일간에게 정미년은', 44, gap=30), T('One year, ten faces', 36, EN, gap=0)]),
   S([T('정미년의 두 글자,\n정화(불)와 미토(흙)가\n내 일간에게 무엇이냐에 따라\n같은 해도 다르게 읽혀요.', 50, bold=True, gap=30),
-     T('나와 같은 것 · 내가 낳는 것\n내가 다스리는 것 · 나를 다스리는 것\n나를 낳는 것', 40, GOLD, gap=30),
-     T('내 일간은 태어난 날의 첫 글자예요.', 38, gap=30),
-     T('2027 holds two characters: Fire (a lamp) and Earth.\nWhat they are to your day stem (the first character of\nyour birth day) changes how the year reads: the same as\nyou, what you create, what you manage, what manages\nyou, or what nurtures you.', 24, EN, gap=0)], tag='읽는 방법'),
-  S([T('갑목 · 을목에게', 52, bold=True, gap=10), T('불은 내가 낳는 것(표현), 흙은 내가 다스리는 것(현실)', 34, GOLD, gap=28),
+     T('나와 같은 것 · 내가 낳는 것 ·\n내가 다스리는 것 · 나를 다스리는 것 ·\n나를 낳는 것', 40, GOLD, gap=30),
+     T('내 일간은 태어난 날의 첫 글자예요.\n정미년은 2월 4일 입춘부터예요.', 38, gap=30),
+     T('The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth starts\nFeb 4. Its two characters are Fire (lamplight) and Earth.\nHow they relate to your day stem (the first character of\nyour day pillar) changes how the year reads.', 24, EN, gap=0)], tag='읽는 방법'),
+  S([T('갑목 · 을목에게', 52, bold=True, gap=10), T('불은 내가 낳는 것(표현), 흙은 내가 다스리는 것(결과)', 34, GOLD, gap=28),
      *DUO('갑목', '생각을 말과 손으로 꺼내,\n눈에 보이는 성과로 바꿔 가기 좋은 때예요.', '을목', '좋아하는 것을 즐기다 보면,\n그것이 움직이는 기회로 이어질 수 있어요.'),
-     T('For Wood day stems, Fire is what you create (expression)\nand Earth is what you manage (tangible results).', 26, EN, gap=0)], tag='나무 일간'),
+     T('For Wood day stems, Fire is what you create (expression)\nand Earth is what you manage (results).', 26, EN, gap=0)], tag='나무 일간'),
   S([T('병화 · 정화에게', 52, bold=True, gap=10), T('불은 나와 같은 것(동료), 흙은 내가 낳는 것(표현)', 34, GOLD, gap=28),
      *DUO('병화', '곁의 사람과 몫을 나눌 일이 늘고,\n내 재주를 드러낼 기회도 생길 수 있어요.', '정화', '나와 닮은 불이 하나 더 켜지는 해여서,\n내 색을 또렷하게 표현하기 좋아요.'),
      T('For Fire day stems, Fire is the same as you (peers)\nand Earth is what you create (expression).', 26, EN, gap=0)], tag='불 일간'),
-  S([T('무토 · 기토에게', 52, bold=True, gap=10), T('불은 나를 낳는 것(돌봄·배움), 흙은 나와 같은 것', 34, GOLD, gap=28),
+  S([T('무토 · 기토에게', 52, bold=True, gap=10), T('불은 나를 낳는 것(돌봄·배움), 흙은 나와 같은 것(동료)', 34, GOLD, gap=28),
      *DUO('무토', '따뜻하게 돌봐 주는 손길이 닿고,\n내 힘도 단단해지는 흐름이에요.', '기토', '혼자 깊이 파고드는 공부와\n직관이 살아나는 해예요.'),
-     T('For Earth day stems, Fire is what nurtures you (care,\nlearning) and Earth is the same as you.', 26, EN, gap=0)], tag='흙 일간'),
-  S([T('경금 · 신금에게', 52, bold=True, gap=10), T('불은 나를 다스리는 것(책임), 흙은 나를 낳는 것(배움)', 34, GOLD, gap=28),
+     T('For Earth day stems, Fire is what nurtures you (care,\nlearning) and Earth is the same as you (peers).', 26, EN, gap=0)], tag='흙 일간'),
+  S([T('경금 · 신금에게', 52, bold=True, gap=10), T('불은 나를 다스리는 것(책임),\n흙은 나를 낳는 것(돌봄·배움)', 34, GOLD, gap=28),
      *DUO('경금', '맡은 일을 단정하게 정돈하고,\n배움으로 안을 채워 가는 시기예요.', '신금', '조금 버거운 일이 오히려\n나를 단단하게 다듬는 해가 될 수 있어요.'),
-     T('For Metal day stems, Fire is what manages you\n(responsibility) and Earth is what nurtures you (learning).', 26, EN, gap=0)], tag='쇠 일간'),
-  S([T('임수 · 계수에게', 52, bold=True, gap=10), T('불은 내가 다스리는 것(결과), 흙은 나를 다스리는 것(규칙)', 34, GOLD, gap=28),
+     T('For Metal day stems, Fire is what manages you\n(responsibility) and Earth is what nurtures you (care, learning).', 26, EN, gap=0)], tag='쇠 일간'),
+  S([T('임수 · 계수에게', 52, bold=True, gap=10), T('불은 내가 다스리는 것(결과),\n흙은 나를 다스리는 것(책임)', 34, GOLD, gap=28),
      *DUO('임수', '성실하게 들여 온 노력이\n손에 잡히는 모습으로 돌아오기 쉬운 흐름이에요.', '계수', '바깥 기회는 넓어지지만,\n내 속도를 지키는 게 중요한 해예요.'),
-     T('For Water day stems, Fire is what you manage (results)\nand Earth is what manages you (rules).', 26, EN, gap=0)], tag='물 일간'),
+     T('For Water day stems, Fire is what you manage (results)\nand Earth is what manages you (responsibility).', 26, EN, gap=0)], tag='물 일간'),
   S([T('한 줄은 일간 하나로 본\n큰 흐름이에요.', 58, bold=True, gap=30),
      T('같은 일간이라도 나머지 일곱 글자에 따라\n한 해가 닿는 모습은 사주마다 달라요.', 42, gap=30),
      T('내 일간은 프로필 링크의\n무료 앱에서 찾을 수 있어요.', 44, GOLD, gap=34),
@@ -1456,14 +1456,14 @@ P['0129'] = dict(
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 29일', 50, GOLD, gap=34), T('같은 해,\n열 가지 얼굴', 112, bold=True, gap=50), T('One year, ten faces', 42, EN, gap=0)]),
   dict(sec=6.0, step=1.0, items=[T('정미년의 두 글자', 62, GOLD, gap=30), T('불과 흙', 110, bold=True, gap=44),
-       T('2027: Fire and Earth', 38, EN, gap=0)]),
+       T('丁未 (Jeongmi) · Yin Fire · Afternoon Earth', 36, EN, gap=0)]),
   dict(sec=6.5, step=1.0, items=[T('내 일간에게\n그 불은 무엇일까요?', 84, bold=True, gap=40), T('나와 같은 것, 내가 낳는 것,\n나를 다스리는 것…', 50, gap=44),
        T('What is that Fire to your day stem?', 36, EN, gap=0)]),
   dict(sec=5.5, step=0.9,
        items_ig=[T('열 일간의\n한 줄과 그 까닭은', 92, bold=True, gap=34), T('@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
-                 T('All ten lines, and why:\nin our feed post.', 38, EN, gap=0)],
+                 T('All ten readings, and why,\nare in our feed post.', 38, EN, gap=0)],
        items_yt=[T('열 일간의\n한 줄과 그 까닭은', 92, bold=True, gap=34), T('채널 게시물에서', 56, bold=True, gap=30),
-                 T('All ten lines, and why:\nin our Posts tab.', 38, EN, gap=0)]),
+                 T('All ten readings, and why,\nare in our Posts tab.', 38, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('을목 편', 100, bold=True, gap=36), T('『Rising Again』', 56, gap=26),
                  T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 乙木 Yin Wood (Eulmok)\n· Rising Again · Listen at the link in bio.', 34, EN, gap=0)],
@@ -1472,9 +1472,9 @@ P['0129'] = dict(
  ],
  caption="""같은 해, 열 가지 얼굴. 내 일간에게 정미년은?
 
-정미년의 두 글자, 정화(불)와 미토(흙)가 내 일간에게 무엇이냐에 따라 같은 해도 다르게 읽혀요. 관계는 다섯 가지예요. 나와 같은 것, 내가 낳는 것, 내가 다스리는 것, 나를 다스리는 것, 나를 낳는 것. 내 일간은 태어난 날의 첫 글자예요.
+2월 4일 입춘부터 오는 정미년의 두 글자, 정화(불)와 미토(흙)가 내 일간에게 무엇이냐에 따라 같은 해도 다르게 읽혀요. 관계는 다섯 가지예요. 나와 같은 것, 내가 낳는 것, 내가 다스리는 것, 나를 다스리는 것, 나를 낳는 것. 내 일간은 태어난 날의 첫 글자예요.
 
-갑목·을목에게 불은 내가 낳는 것(표현), 흙은 내가 다스리는 것(현실)이에요.
+갑목·을목에게 불은 내가 낳는 것(표현), 흙은 내가 다스리는 것(결과)이에요.
 갑목: 생각을 말과 손으로 꺼내, 눈에 보이는 성과로 바꿔 가기 좋은 때예요.
 을목: 좋아하는 것을 즐기다 보면, 그것이 움직이는 기회로 이어질 수 있어요.
 
@@ -1482,15 +1482,15 @@ P['0129'] = dict(
 병화: 곁의 사람과 몫을 나눌 일이 늘고, 내 재주를 드러낼 기회도 생길 수 있어요.
 정화: 나와 닮은 불이 하나 더 켜지는 해여서, 내 색을 또렷하게 표현하기 좋아요.
 
-무토·기토에게 불은 나를 낳는 것(돌봄·배움), 흙은 나와 같은 것이에요.
+무토·기토에게 불은 나를 낳는 것(돌봄·배움), 흙은 나와 같은 것(동료)이에요.
 무토: 따뜻하게 돌봐 주는 손길이 닿고, 내 힘도 단단해지는 흐름이에요.
 기토: 혼자 깊이 파고드는 공부와 직관이 살아나는 해예요.
 
-경금·신금에게 불은 나를 다스리는 것(책임), 흙은 나를 낳는 것(배움)이에요.
+경금·신금에게 불은 나를 다스리는 것(책임), 흙은 나를 낳는 것(돌봄·배움)이에요.
 경금: 맡은 일을 단정하게 정돈하고, 배움으로 안을 채워 가는 시기예요.
 신금: 조금 버거운 일이 오히려 나를 단단하게 다듬는 해가 될 수 있어요.
 
-임수·계수에게 불은 내가 다스리는 것(결과), 흙은 나를 다스리는 것(규칙)이에요.
+임수·계수에게 불은 내가 다스리는 것(결과), 흙은 나를 다스리는 것(책임)이에요.
 임수: 성실하게 들여 온 노력이 손에 잡히는 모습으로 돌아오기 쉬운 흐름이에요.
 계수: 바깥 기회는 넓어지지만, 내 속도를 지키는 게 중요한 해예요.
 
@@ -1499,33 +1499,33 @@ P['0129'] = dict(
 미(未)의 흙이 품고 있는 덩굴 같은 나무, 『다섯 가지 고요｜을목(乙木)』. 오늘 고른 곡은 다시 일어서는 덩굴, 『Rising Again』이에요. 프로필 링크에서 들을 수 있어요.
 
 · English ·
-One year, ten faces: what is 2027 to your day stem?
+One year, ten faces: what does the coming year mean for your day stem?
 
-The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth holds two characters: Fire (a lamp) and Earth. What they are to your day stem, the first character of your birth day, changes how the year reads. There are five relations: the same as you, what you create, what you manage, what manages you, and what nurtures you.
+The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春) on February 4. Its two characters are Fire (lamplight) and Earth. How they relate to your day stem, the first character of your day pillar (the day you were born), changes how the year reads. There are five relations: the same as you, what you create, what you manage, what manages you, and what nurtures you.
 
-For Wood day stems, Fire is what you create (expression) and Earth is what you manage (tangible results).
-甲木 Yang Wood (Gapmok): a good time to bring ideas out in words and work, and turn them into visible results.
-乙木 Yin Wood (Eulmok): enjoying what you love may lead to chances that get things moving.
+For Wood day stems, Fire is what you create (expression) and Earth is what you manage (results).
+甲木 Yang Wood (Gapmok): This is a good time to put ideas into words and action, and turn them into visible results.
+乙木 Yin Wood (Eulmok): Enjoying what you love may lead to chances that get things moving.
 
 For Fire day stems, Fire is the same as you (peers) and Earth is what you create (expression).
-丙火 Yang Fire (Byeonghwa): more to share with people around you, and chances to show your skills.
-丁火 Yin Fire (Jeonghwa): a fire like yours lights up beside you, a good year to show your own colors clearly.
+丙火 Yang Fire (Byeonghwa): You may have more to share with people around you, and more chances to show your skills.
+丁火 Yin Fire (Jeonghwa): Another fire like yours lights up beside you, so it may be a good year to express your own style clearly.
 
-For Earth day stems, Fire is what nurtures you (care, learning) and Earth is the same as you.
-戊土 Yang Earth (Muto): warm, caring support reaches you, and your own strength grows firmer.
-己土 Yin Earth (Gito): a year when deep, solo study and intuition come alive.
+For Earth day stems, Fire is what nurtures you (care, learning) and Earth is the same as you (peers).
+戊土 Yang Earth (Muto): Warm, caring support may reach you, and your own strength tends to grow steadier.
+己土 Yin Earth (Gito): This may be a year when deep solo study and intuition come alive.
 
-For Metal day stems, Fire is what manages you (responsibility) and Earth is what nurtures you (learning).
-庚金 Yang Metal (Gyeonggeum): a time to put your work in good order and fill yourself up through learning.
-辛金 Yin Metal (Singeum): something a bit heavy may be what shapes you into something stronger.
+For Metal day stems, Fire is what manages you (responsibility) and Earth is what nurtures you (care, learning).
+庚金 Yang Metal (Gyeonggeum): This is a time to put your work in good order and build yourself up through learning.
+辛金 Yin Metal (Singeum): A slightly heavy load may be just what shapes you into someone stronger.
 
-For Water day stems, Fire is what you manage (results) and Earth is what manages you (rules).
-壬水 Yang Water (Imsu): steady effort tends to come back in a form you can hold.
-癸水 Yin Water (Gyesu): outside chances widen, but keeping your own pace matters most.
+For Water day stems, Fire is what you manage (results) and Earth is what manages you (responsibility).
+壬水 Yang Water (Imsu): Steady effort tends to come back in a form you can hold.
+癸水 Yin Water (Gyesu): Outside opportunities may open up, but keeping your own pace matters most.
 
-Each line is a broad reading from the day stem alone. The other seven characters change how the year reaches you, so it differs from chart to chart. Find your day stem in our free app (link in bio).
+Each line is a broad reading from the day stem alone. The other seven characters change how the year reaches you, so the year plays out differently in each chart. Find your day stem in our free app (link in bio).
 
-For today: Five Kinds of Quiet · Yin Wood, the vine held inside Afternoon Earth. Today's track is Rising Again. Listen at the link in bio.
+Music: Five Kinds of Quiet · Yin Wood, the vine held inside Afternoon Earth. Today's track is Rising Again. Listen at the link in bio.
 
 #고요 #고요이야기 #일간 #정미년 #2027 #사주 #오행 #오행음악 #saju #fiveelements""",
  reel_caption="""같은 해, 열 가지 얼굴.
@@ -1535,11 +1535,179 @@ For today: Five Kinds of Quiet · Yin Wood, the vine held inside Afternoon Earth
 지금 흐르는 음악은 『다섯 가지 고요｜을목(乙木)』의 『Rising Again』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-One year, ten faces. The coming year holds Fire and Earth, and what they are to your day stem (the same as you, what you create, what manages you…) changes how it reads. All ten one-line readings, and why, are in our feed post. Find your day stem in our free app (link in bio).
+One year, ten faces. The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth is coming, and how its Fire and Earth relate to your day stem (the same as you, what you create, what manages you…) changes how it reads. All ten one-line readings, and why, are in our feed post. Find your day stem in our free app (link in bio).
 
 The music is Rising Again from Five Kinds of Quiet · 乙木 Yin Wood (Eulmok). Listen at the link in bio.
 
 #고요 #일간 #정미년 #사주 #오행음악""",
+)
+
+# ───────── 1/31 일 · 곁에 둘 것: 작은 등·흙 화분 (기토) — 원문 Ⅸ 닮은 소품, 결정 9·13
+P['0131'] = dict(
+ music='기토', audio='shorts/음원/기토_Potting Shed_60s.m4a',
+ slides=[
+  S([T('1월 31일 · 곁에 둘 것', 44, GOLD, gap=30), T('책상 위의\n두 글자', 108, bold=True, gap=36),
+     T('작은 등 하나, 흙 화분 하나', 44, gap=30), T('Two characters on your desk', 36, EN, gap=0)]),
+  S([T('정미(丁未)의 두 글자를\n곁에 둔다면,', 58, bold=True, gap=30),
+     T('정화는 등불,\n미토는 늦여름의 흙이에요.', 50, gap=28),
+     T('그 두 글자에서 고른 소품 두 가지예요.\n2월 3일에는 식혀 주는 소품으로 이어 갈게요.', 40, GOLD, gap=34),
+     T('The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\npairs a lamp with late-summer earth. Here are two\nthings that echo them. On Feb 3: the cooling kind.', 28, EN, gap=0)], tag='닮은 소품'),
+  S([T('정화는 방 전체가 아니라\n가까운 자리를 밝히는 불이에요.', 54, bold=True, gap=30),
+     T('책상 위 작은 등이\n곧 올 정미년과 어울려요.', 54, gap=34),
+     T('丁火 Yin Fire (Jeonghwa) lights what is close,\nnot the whole room. A small desk lamp suits the coming year.', 28, EN, gap=0)], tag='작은 등'),
+  S([T('따뜻한 전구색 빛,\n손이 닿는 거리.', 64, bold=True, gap=30),
+     T('촛불보다 전기 등을 권해요.\n불 걱정이 한결 덜해요.', 46, gap=28),
+     T('방 불을 끄고 등 하나만 켜면\n밝은 자리가 손 둘레로 좁아져요.', 40, GOLD, gap=34),
+     T('Warm-white light, within arm\'s reach. Choose an electric\nlamp over a candle; it is less of a fire worry.\nTurn off the room light, and the bright spot shrinks\nto the space around your hands.', 26, EN, gap=0)], tag='등 고르기'),
+  S([T('미토는\n나무를 품어 두는 흙이에요.', 58, bold=True, gap=30),
+     T('옹기나 토분에\n작은 식물 하나를 곁에 두어도 좋아요.', 46, gap=28),
+     T('1월 10일 「넣어 두는 흙」에서\n이어지는 이야기예요.', 40, GOLD, gap=34),
+     T('未 Afternoon Earth (Mito) is soil that holds a tree.\nA small plant in an onggi crock or a terracotta pot\nis a nice thing to keep nearby (more in our Jan 10 post).', 26, EN, gap=0)], tag='흙 화분'),
+  S([T('토분은 구운 흙이라\n물기가 벽으로도 빠져나가요.', 56, bold=True, gap=30),
+     T('플라스틱 화분보다\n흙이 빨리 말라요.', 48, gap=26),
+     T('겉흙이 말랐을 때 물을 주고,\n받침에 고인 물은 비워 주세요.', 42, GOLD, gap=34),
+     T('Terracotta is fired clay, so water escapes through\nthe walls too, and the soil dries faster than in plastic.\nWater when the top of the soil is dry; empty the saucer.', 26, EN, gap=0)], tag='토분 돌보기'),
+  S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 52, gap=30),
+     T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 52, bold=True, gap=24),
+     T('곁에 둘 것은 닮은 것과 식혀 주는 것,\n두 갈래로 나눴어요.', 40, gap=28),
+     T('앱은 프로필 링크에 있어요.', 40, GOLD, gap=34),
+     T('See how much Fire and Water your chart holds in our\nfree app (link in bio). Which suits you better depends\non your whole chart. We sort these things into two\nkinds: the matching kind and the cooling kind.', 26, EN, gap=0)], tag='내 사주에서는'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('기토 편', 96, bold=True, gap=34),
+     T('갈아 둔 밭 같은\n재즈 로파이예요.', 52, gap=24), T('오늘 고른 곡은 『Potting Shed』,\n화분을 두는 작은 헛간이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · 己土 Yin Earth (Gito):\nlo-fi jazz like a tilled field.\nToday\'s track is Potting Shed. Listen at the link in bio.', 28, EN, gap=0)], tag='화분 곁에 둘 소리'),
+ ],
+ reel=[
+  dict(sec=4.5, instant=True, items=[T('1월 31일', 50, GOLD, gap=34), T('책상 위의\n두 글자', 116, bold=True, gap=50), T('Two characters on your desk', 42, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('작은 등 하나', 92, bold=True, gap=36), T('가까운 자리를 밝히는 불, 정화', 52, gap=44),
+       T('A small lamp: 丁火 Yin Fire (Jeonghwa),\nlighting what is close', 34, EN, gap=0)]),
+  dict(sec=6.0, step=1.0, items=[T('흙 화분 하나', 92, bold=True, gap=36), T('나무를 품어 두는 흙, 미토', 52, gap=44),
+       T('A clay pot: 未 Afternoon Earth (Mito),\nholding a tree', 34, EN, gap=0)]),
+  dict(sec=5.5, step=0.9,
+       items_ig=[T('토분이\n플라스틱 화분과\n다른 점은?', 88, bold=True, gap=34), T('답과 등 고르는 법은\n@goyo_mio 피드 게시물에서', 52, bold=True, gap=30),
+                 T('How is terracotta different from plastic?\nAnswer and lamp tips in our feed post.', 34, EN, gap=0)],
+       items_yt=[T('토분이\n플라스틱 화분과\n다른 점은?', 88, bold=True, gap=34), T('답과 등 고르는 법은\n채널 게시물에서', 52, bold=True, gap=30),
+                 T('How is terracotta different from plastic?\nAnswer and lamp tips in our Posts tab.', 34, EN, gap=0)]),
+  dict(sec=7.5, tag='지금 흐르는 소리',
+       items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('기토 편', 100, bold=True, gap=36), T('『Potting Shed』', 56, gap=26),
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 己土 Yin Earth (Gito)\n· Potting Shed · Listen at the link in bio.', 34, EN, gap=0)],
+       items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('기토 편', 100, bold=True, gap=36), T('『Potting Shed』', 56, gap=26),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 己土 Yin Earth (Gito)\n· Potting Shed · Music: related video below', 34, EN, gap=0)]),
+ ],
+ caption="""책상 위의 두 글자, 작은 등 하나와 흙 화분 하나.
+
+정미(丁未)의 두 글자를 곁에 둔다면, 정화는 등불이고 미토는 늦여름의 흙이에요. 그 두 글자에서 소품 두 가지를 골랐어요. 2월 3일에는 식혀 주는 소품으로 이어 갈게요.
+
+정화는 방 전체가 아니라 가까운 자리를 밝히는 불이에요. 책상 위 작은 등이 곧 올 정미년과 어울려요. 촛불보다 전기 등을 권해요. 불 걱정이 한결 덜하고, 따뜻한 전구색 빛을 손이 닿는 거리에 두면 좋아요. 방 불을 끄고 등 하나만 켜면 밝은 자리가 손 둘레로 좁아져요.
+
+미토는 나무를 품어 두는 흙이에요. 옹기나 토분에 작은 식물 하나를 곁에 두어도 좋아요. 1월 10일 「넣어 두는 흙」에서 이어지는 이야기예요. 토분은 구운 흙이라 물기가 벽으로도 빠져나가서, 플라스틱 화분보다 흙이 빨리 말라요. 겉흙이 말랐을 때 물을 주고, 받침에 고인 물은 비워 주세요.
+
+곁에 둘 것은 닮은 것과 식혀 주는 것, 두 갈래로 나눴어요. 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요.
+
+화분 곁에는 갈아 둔 밭 같은 재즈 로파이, 『다섯 가지 고요｜기토(己土)』. 오늘 고른 곡은 화분을 두는 작은 헛간, 『Potting Shed』예요. 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Two characters on your desk: one small lamp, one clay pot.
+
+The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth pairs a lamp with late-summer earth. Here are two things that echo them. On February 3, we'll turn to the cooling kind.
+
+丁火 Yin Fire (Jeonghwa) lights what is close, not the whole room, so a small desk lamp suits the coming year. Choose an electric lamp over a candle; it is less of a fire worry. Keep warm-white light within arm's reach. Turn off the room light, and the bright spot shrinks to the space around your hands.
+
+Afternoon Earth is soil that holds a tree. A small plant in an onggi crock or a terracotta pot is a nice thing to keep nearby. This picks up from our January 10 post. Terracotta is fired clay, so water escapes through the walls too, and the soil dries faster than in plastic. Water when the top of the soil is dry, and empty the saucer.
+
+We sort things to keep nearby into two kinds: the matching kind and the cooling kind. See how much Fire and Water your chart holds in our free app (link in bio). Which suits you better depends on your whole chart.
+
+Beside the pot: Five Kinds of Quiet · 己土 Yin Earth (Gito), lo-fi jazz like a tilled field. Today's track is Potting Shed. Listen at the link in bio.
+
+#고요 #곁에둘것 #정미년 #책상등 #토분 #반려식물 #오행 #오행음악 #fiveelements""",
+ reel_caption="""책상 위의 두 글자, 작은 등 하나와 흙 화분 하나.
+
+정화는 가까운 자리를 밝히는 불, 미토는 나무를 품어 두는 흙이에요. 정미년의 두 글자에서 고른 소품이에요. 토분이 플라스틱 화분과 다른 점, 등 고르는 법, 내 사주에 더 어울리는 쪽을 보는 법은 피드 게시물에 있어요.
+
+지금 흐르는 음악은 『다섯 가지 고요｜기토(己土)』의 『Potting Shed』, 프로필 링크에서 들을 수 있어요.
+
+· English ·
+Two characters on your desk: a small lamp for 丁火 Yin Fire (Jeonghwa), which lights what is close, and a clay pot for 未 Afternoon Earth (Mito), which holds a tree. How terracotta differs from plastic, how to pick a lamp, and how to tell which one suits your chart are in our feed post.
+
+The music is Potting Shed from Five Kinds of Quiet · 己土 Yin Earth (Gito). Listen at the link in bio.
+
+#고요 #곁에둘것 #책상등 #토분 #오행음악""",
+)
+
+# ───────── 2/1 월 · 이번 주 기운: 입춘 (정화) — 원문 Ⅰ. 입춘첩(1/31 유튜브 창)·토왕용사(2/3)·입춘 당일(2/4 13:00)과 겹치지 않게
+P['0201'] = dict(
+ music='정화',
+ slides=[
+  S([T('2월 1일 · 이번 주 기운', 44, GOLD, gap=30), T('목요일,\n입춘', 112, bold=True, gap=36),
+     T('立春 · 2월 4일 오전 10시 46분', 44, gap=30), T('The start of spring (立春) arrives Thursday', 36, EN, gap=0)]),
+  S([T('입춘은\n스물네 절기의 첫째예요.', 60, bold=True, gap=30),
+     T('해가 하늘길의 315도에 이르는 때.', 44, gap=26),
+     T('이 순간 사주의 해와 달이 함께 바뀌어요.\n병오년 신축월 → 정미년 임인월', 42, GOLD, gap=34),
+     T('The start of spring is the first of the twenty-four solar\nterms, when the sun reaches 315°. At that moment, the\nSaju year and month turn together: from 丙午 and 辛丑\nto the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nand a 壬寅 month.', 24, EN, gap=0)], tag='한 해의 문'),
+  S([T('입춘 순간의 여덟 글자', 44, gap=24),
+     T('해 정미 · 달 임인\n날 갑인 · 시 기사', 66, bold=True, gap=30),
+     T('나무 셋, 불 둘, 흙 둘, 물 하나.\n봄의 첫 달을 여는 인(寅)이 둘이에요.', 44, gap=26),
+     T('한국 시각으로 직접 계산했어요.', 32, [150, 145, 135], gap=30),
+     T('The eight characters at the moment spring begins:\n丁未 year, 壬寅 month, 甲寅 day, 己巳 hour. Three Wood,\ntwo Fire, two Earth, one Water, and two 寅 Predawn Wood\n(Inmok), the branch that opens spring.', 24, EN, gap=0)], tag='입춘의 사주'),
+  S([T('이날은 음력으로\n아직 섣달이에요.', 62, bold=True, gap=30),
+     T('설날(2월 7일)보다\n사흘 앞서 봄이 먼저 와요.', 50, gap=28),
+     T('사주는 봄이 오는 날을,\n설날은 달이 새로 차오르는 날을 따라요.', 40, GOLD, gap=34),
+     T('By the lunar calendar, it is still the twelfth month:\nspring arrives three days before Lunar New Year (Feb 7).\nSaju follows the sun; Lunar New Year follows the moon.', 26, EN, gap=0)], tag='설날보다 먼저'),
+  S([T('옛 입춘 날에는\n햇나물을 먹었어요.', 60, bold=True, gap=30),
+     T('궁중에서는 다섯 가지 매운 나물로\n오신반을, 민가에서는 어린 싹으로\n세생채를 무쳤다고 해요.', 40, gap=28),
+     T('「입춘 추위는 꿔다 해도 한다」\n봄이 와도 추위는 남는다는 속담이에요.', 40, GOLD, gap=34),
+     T('On the first day of spring, the royal court ate five\npungent greens (osinban), and households ate a salad\nof young shoots. A saying goes: "Even if you have to\nborrow it, the start of spring brings a cold snap."', 24, EN, gap=0)], tag='입춘의 옛 풍속'),
+  S([T('월 신해 · 화 임자 · 수 계축\n목 갑인 · 금 을묘\n토 병진 · 일 정사', 52, gap=30),
+     T('날마다 앞 글자가\n쇠 → 물 → 나무 → 불 순서로 흘러요.', 44, gap=26),
+     T('입춘 날은 갑인일, 나무 두 글자로 봄을 열고\n설날 2월 7일은 정사일이에요.', 38, GOLD, gap=34),
+     T('This week, the first characters of the day pillars run\nMetal → Water → Wood → Fire. Spring begins on a 甲寅 day,\nall Wood, and Lunar New Year (Feb 7) is a 丁巳 day.', 24, EN, gap=0)], tag='이번 주 일진'),
+  S([T('목요일 오전 10시 46분부터\n정미년이에요.', 56, bold=True, gap=30),
+     T('첫 글자는\n가까운 곳을 오래 비추는 등불, 정화.', 46, gap=28),
+     T('입춘 무렵 태어나는 아기라면\n시각에 따라 해가 갈려요(1월 25일 게시물).', 38, GOLD, gap=34),
+     T('From 10:46 a.m. Thursday, it is the 丁未 year. Its first\ncharacter is 丁火 Yin Fire (Jeonghwa), a lamp that lights\nwhat is close for a long time. For births that day, the\nexact time decides the year (see our Jan 25 post).', 24, EN, gap=0)], tag='정미년의 첫 글자'),
+  S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
+     T('가까운 곳을 오래 비추는\n등불 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Window Candle』,\n창가에 켜 둔 작은 불빛이에요.', 42, gap=30),
+     T('음악은 프로필 링크에서', 46, GOLD, gap=30),
+     T('Five Kinds of Quiet · Yin Fire: music like a lamp close by.\nToday\'s track is Window Candle.\nListen at the link in bio.', 28, EN, gap=0)], tag='새해 첫 글자의 소리'),
+ ],
+ caption="""목요일, 입춘이에요.
+
+2월 4일 오전 10시 46분, 입춘(立春)이 들어요. 입춘은 스물네 절기의 첫째로, 해가 하늘길의 315도에 이르는 때예요. 이 순간 사주의 해와 달이 함께 바뀌어요. 병오년 신축월에서 정미년 임인월로요.
+
+입춘 순간의 여덟 글자를 한국 시각으로 직접 계산해 보면, 해 정미 · 달 임인 · 날 갑인 · 시 기사예요. 나무 셋, 불 둘, 흙 둘, 물 하나이고, 봄의 첫 달을 여는 인(寅)이 둘이에요.
+
+이날은 음력으로 아직 섣달이에요. 설날(2월 7일)보다 사흘 앞서 봄이 먼저 와요. 사주는 봄이 오는 날을, 설날은 달이 새로 차오르는 날을 따라요.
+
+옛 입춘 날에는 햇나물을 먹었어요. 궁중에서는 다섯 가지 매운 나물로 오신반을, 민가에서는 어린 싹으로 세생채를 무쳤다고 해요. 「입춘 추위는 꿔다 해도 한다」는 속담처럼, 봄이 와도 추위는 남아요.
+
+이번 주 일진은 신해 → 임자 → 계축 → 갑인 → 을묘 → 병진 → 정사. 날마다 앞 글자가 쇠 → 물 → 나무 → 불 순서로 흘러요. 입춘 날은 갑인일, 나무 두 글자로 봄을 열고, 설날 2월 7일은 정사일이에요.
+
+목요일 오전 10시 46분부터 정미년이에요. 첫 글자는 가까운 곳을 오래 비추는 등불, 정화예요. 입춘 무렵 태어나는 아기라면 시각에 따라 해가 갈려요(1월 25일 게시물).
+
+새해 첫 글자의 소리, 『다섯 가지 고요｜정화(丁火)』. 오늘 고른 곡은 창가에 켜 둔 작은 불빛, 『Window Candle』이에요. 프로필 링크에서 들을 수 있어요.
+
+절기 시각: 한국천문연구원 / 입춘 풍속: 한국민족문화대백과사전 외
+
+· English ·
+The start of spring (立春) arrives Thursday.
+
+The start of spring begins at 10:46 a.m. on February 4 (Korea Standard Time). It is the first of the twenty-four solar terms, when the sun reaches 315° on its yearly path. At that moment, the Saju year and month turn together: from 丙午 and 辛丑 to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth and a 壬寅 month.
+
+We worked out the eight characters for that moment in Korea time: 丁未 year, 壬寅 month, 甲寅 day, 己巳 hour. That is three Wood, two Fire, two Earth and one Water, with two 寅 Predawn Wood (Inmok), the branch that opens spring.
+
+By the lunar calendar, it is still the twelfth month, so spring arrives three days before Lunar New Year (February 7). Saju follows the sun; Lunar New Year follows the moon.
+
+On the first day of spring, the royal court ate five pungent greens (osinban), and households ate a salad of young shoots. As a saying goes, "Even if you have to borrow it, the start of spring brings a cold snap."
+
+This week, the first characters of the day pillars run Metal → Water → Wood → Fire. Spring begins on a 甲寅 day, all Wood, and Lunar New Year is a 丁巳 day.
+
+From 10:46 a.m. Thursday, it is the 丁未 year. Its first character is 丁火 Yin Fire (Jeonghwa), a lamp that lights what is close for a long time. For births that day, the exact time decides the year (see our January 25 post).
+
+The sound of the new year's first character: Five Kinds of Quiet · Yin Fire. Today's track is Window Candle. Listen at the link in bio.
+
+Solar term times: Korea Astronomy and Space Science Institute. Customs: Encyclopedia of Korean Culture and others.
+
+#고요 #이번주기운 #입춘 #절기 #일진 #정미년 #사주 #오행 #saju #fiveelements""",
 )
 
 JS = 'art/정선_인왕제색도.jpg'
@@ -1754,7 +1922,7 @@ def build(key):
     if p.get('reel_caption'): open(f'{out}/reel_caption.txt', 'w').write(p['reel_caption'])
     print('built', key)
 
-DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27', '0128': '2027-01-28', '0129': '2027-01-29'}
+DATES = {'0101': '2027-01-01', '0103': '2027-01-20', '0104': '2027-01-04', '0106': '2027-01-17', '0107': '2027-01-07', '0103j': '2027-01-03', '0106v': '2027-01-06', '0108': '2027-01-08', '0110': '2027-01-10', '0111': '2027-01-11', '0113': '2027-01-13', '0114': '2027-01-14', '0115': '2027-01-15', '0118': '2027-01-18', '0121': '2027-01-21', '0122': '2027-01-22', '0124': '2027-01-24', '0125': '2027-01-25', '0127': '2027-01-27', '0128': '2027-01-28', '0129': '2027-01-29', '0131': '2027-01-31', '0201': '2027-02-01'}
 def pack(key):
     """렌더된 캐러셀·릴스를 posts/날짜(18:00), posts/날짜-1820(18:20)에 넣음. 모두 approved:false."""
     import shutil
