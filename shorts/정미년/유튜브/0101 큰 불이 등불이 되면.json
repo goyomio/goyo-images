@@ -1,0 +1,252 @@
+{
+ "audio": "shorts/정미년/audio/정화_LamplitKeys_60s.m4a",
+ "scenes": [
+  {
+   "sec": 3.6,
+   "instant": true,
+   "items": [
+    [
+     "큰 불이\n등불이 되면",
+     124,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     50
+    ],
+    [
+     "When a great fire\nbecomes a lamp",
+     44,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.0,
+   "step": 1.0,
+   "items": [
+    [
+     "한여름 해처럼\n넓게 타던 불이",
+     80,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "손 닿는 자리를\n오래 비추는\n가까운 불빛이 돼요.",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     44
+    ],
+    [
+     "A fire that blazed wide\nlike the midsummer sun\nbecomes a lasting light\nwithin arm's reach.",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 6.5,
+   "step": 1.0,
+   "items": [
+    [
+     "다가오는 정미년을\n이렇게 읽을 수 있어요.",
+     64,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "큰 불이 등불이 되어\n흙에 내려앉는 해.",
+     84,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     40
+    ],
+    [
+     "Here's one way to read the coming 丁未 year:\na great fire becomes a lamp\nand settles onto the earth.",
+     38,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     40
+    ],
+    [
+     "사주의 해는 입춘(2월 4일\n오전 10시 46분)에 바뀌어요.",
+     38,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     8
+    ],
+    [
+     "The Saju year turns at the start of spring (立春),\nFeb 4, 10:46 a.m. KST.",
+     32,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "tag": "이 영상의 소리",
+   "step": 0.9,
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "정화(丁火)\n『Lamplit Keys』",
+     90,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "큰 해가 아니라,\n가까운 곳을 오래 비추는\n등불의 소리예요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 프로필 링크에서\n내 사주의 오행은\n프로필 링크의 무료 앱에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · 丁火 · “Lamplit Keys”\nNot the great sun, but a lamp\nthat glows long on what's near.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "정화(丁火)\n『Lamplit Keys』",
+     90,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "큰 해가 아니라,\n가까운 곳을 오래 비추는\n등불의 소리예요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "음악은 아래 관련 영상\n내 사주의 오행은\n채널 상단 링크의 무료 앱에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · 丁火 · “Lamplit Keys”\nNot the great sun, but a lamp\nthat glows long on what's near.",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}

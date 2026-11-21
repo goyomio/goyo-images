@@ -83,5 +83,15 @@
   "편": "계수",
   "곡": "Drizzle",
   "근거": "shorts/무음편/무음편 업로드 문구.txt:283"
+ },
+ "shorts/정미년/audio/갑목_MorningOak_60s.m4a": {
+  "편": "갑목",
+  "곡": "Morning Oak",
+  "근거": "맥 쇼츠/_릴스음원/갑목_첫곡_60s.m4a = 갑목 영상 최종.mp4 0:00부터(상관 1.0, 11/21 유튜브 창 대조) · 곡제목 대장 갑목 1번"
+ },
+ "shorts/정미년/audio/정화_LamplitKeys_60s.m4a": {
+  "편": "정화",
+  "곡": "Lamplit Keys",
+  "근거": "맥 쇼츠/_릴스음원/catalog.json 정화 1번 start 0"
  }
 }

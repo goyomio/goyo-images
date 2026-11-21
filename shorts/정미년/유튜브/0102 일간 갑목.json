@@ -1,0 +1,257 @@
+{
+ "audio": "shorts/정미년/audio/갑목_MorningOak_60s.m4a",
+ "scenes": [
+  {
+   "sec": 3.8,
+   "instant": true,
+   "items": [
+    [
+     "갑목 일간의 정미년,\n한 줄로 읽으면",
+     104,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     46
+    ],
+    [
+     "The coming 丁未 year\nfor a 甲木 Day Master",
+     44,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     36
+    ],
+    [
+     "사주의 해는 입춘(2월 4일\n오전 10시 46분)에 바뀌어요.",
+     38,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     8
+    ],
+    [
+     "The Saju year turns at the start of spring (立春),\nFeb 4, 10:46 a.m. KST.",
+     32,
+     [
+      190,
+      186,
+      178
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 3.0,
+   "items": [
+    [
+     "곧게 위로 뻗는 큰 나무",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "갑목(甲木)",
+     130,
+     [
+      200,
+      180,
+      140
+     ],
+     true,
+     40
+    ],
+    [
+     "A tall tree reaching upright, 甲木",
+     40,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 1.0,
+   "items": [
+    [
+     "생각을\n말과 손으로 꺼내,\n눈에 보이는 성과로\n바꿔 가는 해로\n읽을 수 있어요.",
+     76,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     46
+    ],
+    [
+     "One way to read it:\na year to put your ideas\ninto words and action,\nand turn them into results\nyou can see.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.5,
+   "step": 1.0,
+   "items": [
+    [
+     "정미년의 불은\n나무의 생각을\n밖으로 꺼내고,",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     30
+    ],
+    [
+     "흙은 그것을 다듬어\n손에 잡히는 모습으로\n남긴다고 봐요.",
+     66,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     40
+    ],
+    [
+     "In Saju, the fire of 丁未\ndraws the tree's ideas out,\nand its earth shapes them\ninto a form you can hold.",
+     36,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  },
+  {
+   "sec": 5.0,
+   "tag": "이 영상의 소리",
+   "step": 0.9,
+   "items_ig": [
+    [
+     "다섯 가지 고요",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "갑목(甲木)\n『Morning Oak』",
+     90,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 일간은\n프로필 링크의 무료 앱에서\n음악은 프로필 링크에서",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     28
+    ],
+    [
+     "Five Kinds of Quiet · 甲木 · “Morning Oak”\nFind your Day Master:\nfree app & music, link in bio",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "items_yt": [
+    [
+     "다섯 가지 고요",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "갑목(甲木)\n『Morning Oak』",
+     90,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     40
+    ],
+    [
+     "내 일간은\n채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     44,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     28
+    ],
+    [
+     "Five Kinds of Quiet · 甲木 · “Morning Oak”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     34,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ]
+  }
+ ]
+}
