@@ -221,15 +221,21 @@ P['0106'] = dict(
   S([T('정화는 등불.', 70, bold=True, gap=30), T('가까운 자리를\n오래 밝히는 빛이에요.', 54, gap=36),
      T('丁火 Yin Fire (Jeonghwa) is a lamp\nthat lights what is near, for a long time.', 34, EN, gap=0)], tag='가까이 오래 비추는 빛'),
   S([T('해는 멀리서 모두를 비추고,\n등불은 가까이에서\n한 사람의 얼굴과 손을 비춰요.', 54, gap=36),
-     T('옛 명리 책 『적천수』도\n병화는 세차고, 정화는 부드럽다고\n두 불을 나눠 봐요.', 44, gap=36),
-     T('The sun lights everyone from afar. A lamp lights one person\'s face and hands, up close.', 34, EN, gap=0)], tag='같은 불, 다른 빛'),
+     T('The sun lights everyone from afar.\nA lamp lights one person\'s\nface and hands, up close.', 34, EN, gap=0)], tag='같은 불, 다른 빛'),
+  S([T('옛 명리 책 『적천수』는 해를 두고', 42, gap=26), T('세차고 사나워서\n서리와 눈도\n업신여긴다고 했어요.', 62, bold=True, gap=30),
+     T('丙火猛烈 欺霜侮雪', 40, GOLD, gap=26), T('겨울 추위에도 꺾이지 않고\n멀리까지 뻗는 빛이라는 뜻이에요.', 44, gap=34),
+     T('Di Tian Sui (滴天髓), a Saju classic, on Yang Fire:\n"Fierce and blazing, it scorns frost and snow."', 32, EN, gap=0)], tag='옛 책이 본 해'),
+  S([T('같은 책은 등불을 두고', 42, gap=26), T('겉은 부드럽고\n속은 환하게 밝다고 했어요.', 58, bold=True, gap=24),
+     T('세져도 사납게 타지 않고,\n약해져도 다하지 않는다고요.', 52, bold=True, gap=26),
+     T('丁火柔中 內性昭融 · 旺而不烈 衰而不窮', 34, GOLD, gap=26), T('가까이 오래 비추는 빛이 여기서 나와요.', 42, gap=34),
+     T('On Yin Fire: "Gentle outside, bright within.\nStrong, it does not rage; weak, it does not run out."', 32, EN, gap=0)], tag='옛 책이 본 등불'),
   S([T('2026년의 빛은 해,\n2027년의 빛은 등불이에요.', 58, bold=True, gap=30), T('넓게 퍼지는 빛이 입춘부터\n가까운 자리를 오래 밝히는\n빛으로 옮겨 가요.', 46, gap=30),
      T('사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.', 38, gap=30), T('1월 7일 그림 읽기의 라 투르도\n등불 하나를 그렸어요.', 42, GOLD, gap=30),
      T('In 2026 the light is the sun; in 2027, a lamp.\nLa Tour painted one in our Jan 7 post.', 32, EN, gap=0)], tag='해에서 등불로'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
      T('가까운 자리를 오래 밝히는\n등불 같은 소리예요.', 52, gap=24), T('지금 고른 곡은 『Lantern Room』이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
-     T('Five Kinds of Quiet · Yin Fire. Track: Lantern Room. Music: link in bio', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
+     T('Five Kinds of Quiet · Yin Fire. Track: Lantern Room.\nListen through the link in bio.', 32, EN, gap=0)], tag='틀어 두기 좋은 소리'),
  ],
  reel=[
   dict(sec=4.5, instant=True, items=[T('1월 17일', 50, GOLD, gap=34), T('빛에도\n두 가지가\n있어요', 124, bold=True, gap=50), T('Two kinds of light', 42, EN, gap=0)]),
@@ -237,19 +243,19 @@ P['0106'] = dict(
        T('The sun: far and wide. A lamp: close and lasting.', 40, EN, gap=0)]),
   dict(sec=5.5, step=1.0, items=[T('2027년의 빛은', 76, gap=20), T('등불', 150, bold=True, gap=50), T('In 2027, the light is a lamp.', 40, EN, gap=0)]),
   dict(sec=5.0, step=0.9,
-       items_ig=[T('옛 책은 두 불을\n어떻게 나눴을까요?', 92, bold=True, gap=34), T('풀이는 @goyo_mio\n피드 게시물에서', 60, bold=True, gap=30),
-                 T('How did old texts tell the two fires apart?\nFull reading on our profile', 40, EN, gap=0)],
-       items_yt=[T('옛 책은 두 불을\n어떻게 나눴을까요?', 92, bold=True, gap=34), T('풀이는\n채널 게시물에서', 60, bold=True, gap=30),
-                 T('How did old texts tell the two fires apart?\nFull reading in our Posts tab', 40, EN, gap=0)]),
+       items_ig=[T('옛 책은 두 불을\n어떻게 나눴을까요?', 92, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
+                 T('How did old texts tell the two fires apart?\nMore in our feed post', 40, EN, gap=0)],
+       items_yt=[T('옛 책은 두 불을\n어떻게 나눴을까요?', 92, bold=True, gap=34), T('자세한 이야기는\n채널 게시물에서', 56, bold=True, gap=30),
+                 T('How did old texts tell the two fires apart?\nMore in our Posts tab', 40, EN, gap=0)]),
   dict(sec=7.5, tag='지금 흐르는 소리',
        items_ig=[T('다섯 가지 고요', 60, bold=True, gap=10), T('정화 편', 100, bold=True, gap=36), T('『Lantern Room』', 56, gap=26),
-                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa): Lantern Room.\nMusic: link in bio', 36, EN, gap=0)],
+                 T('음악은 프로필 링크에서', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa)\nLantern Room · Listen through the link in bio.', 36, EN, gap=0)],
        items_yt=[T('다섯 가지 고요', 60, bold=True, gap=10), T('정화 편', 100, bold=True, gap=36), T('『Lantern Room』', 56, gap=26),
-                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa): Lantern Room.\nMusic: related video below', 36, EN, gap=0)]),
+                 T('음악은 아래 관련 영상', 48, GOLD, gap=30), T('Five Kinds of Quiet · 丁火 Yin Fire (Jeonghwa)\nLantern Room · Music: related video below', 36, EN, gap=0)]),
  ],
  caption="""빛에도 두 가지가 있어요.
 
-병화는 하늘의 해예요. 사방을 고루, 멀리까지 비추는 빛이에요. 정화는 등불이에요. 가까운 자리를 오래 밝히는 빛이에요. 해는 멀리서 모두를 비추고, 등불은 가까이에서 한 사람의 얼굴과 손을 비춰요. 옛 명리 책 『적천수』도 병화는 세차고 정화는 부드럽다고 두 불을 나눠 봐요.
+병화는 하늘의 해예요. 사방을 고루, 멀리까지 비추는 빛이에요. 정화는 등불이에요. 가까운 자리를 오래 밝히는 빛이에요. 해는 멀리서 모두를 비추고, 등불은 가까이에서 한 사람의 얼굴과 손을 비춰요. 옛 명리 책 『적천수』는 해를 두고 「세차고 사나워서 서리와 눈도 업신여긴다(丙火猛烈 欺霜侮雪)」고 했어요. 겨울 추위에도 꺾이지 않고 멀리까지 뻗는 빛이에요. 같은 책은 등불을 두고 「겉은 부드럽고 속은 환하게 밝다(丁火柔中 內性昭融)」, 「세져도 사납게 타지 않고 약해져도 다하지 않는다(旺而不烈 衰而不窮)」고 했어요. 가까이 오래 비추는 빛이 여기서 나와요. 1월 3일 진주 편에서 말한 등불(정화)과 강물(임수)의 짝도 이 책의 같은 대목에 나와요(合壬).
 
 2026년의 빛이 해라면, 2027년의 빛은 등불이에요. 넓게 퍼지는 빛이 입춘부터 가까운 자리를 오래 밝히는 빛으로 옮겨 가요. 사주에서는 입춘(2월 4일)에 한 해가 바뀌어요.
 
@@ -260,7 +266,7 @@ P['0106'] = dict(
 · English ·
 There are two kinds of light.
 
-丙火 Yang Fire (Byeonghwa) is the sun in the sky, lighting everything, far and wide. 丁火 Yin Fire (Jeonghwa) is a lamp that lights what is near, for a long time. The sun lights everyone from afar; a lamp lights one person's face and hands, up close. The old Saju classic Di Tian Sui (滴天髓) also tells the two fires apart: Yang Fire is fierce, Yin Fire is gentle.
+丙火 Yang Fire (Byeonghwa) is the sun in the sky, lighting everything, far and wide. 丁火 Yin Fire (Jeonghwa) is a lamp that lights what is near, for a long time. The sun lights everyone from afar; a lamp lights one person's face and hands, up close. The old Saju classic Di Tian Sui (滴天髓) tells the two fires apart. Of Yang Fire: "fierce and blazing, it scorns frost and snow," a light that reaches far even in winter. Of Yin Fire: "gentle outside, bright within; strong, it does not rage; weak, it does not run out." That is where the close, lasting light comes from. The pairing of the lamp with a wide river, 壬水 Yang Water (Imsu), from our January 3 Jinju post, appears in the same passage.
 
 If 2026's light is the sun, 2027's is a lamp. From the start of spring, the wide light turns to a close, steady one. In Saju, the year turns at the start of spring (立春), February 4.
 
@@ -271,7 +277,7 @@ Five Kinds of Quiet · Yin Fire, with the track Lantern Room. Listen through the
 #고요 #고요이야기 #정미년 #병화 #정화 #적천수 #사주 #오행음악 #saju #fiveelements""",
  reel_caption="""빛에도 두 가지가 있어요.
 
-해(병화)는 넓게 멀리, 등불(정화)은 가까이 오래 비춰요. 2027년의 빛은 등불이에요. 옛 명리 책이 두 불을 어떻게 나눴는지는 피드 게시물에 있어요.
+해(병화)는 넓게 멀리, 등불(정화)은 가까이 오래 비춰요. 2027년의 빛은 등불이에요. 옛 명리 책 『적천수』가 두 불을 어떻게 나눴는지는 피드 게시물에 있어요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜정화(丁火)』의 『Lantern Room』, 프로필 링크에서 들을 수 있어요.
 
@@ -344,27 +350,27 @@ P['0103j'] = dict(
  slides=[
   S([T('1월 3일 · 정미년에 갈 만한 곳', 44, GOLD, gap=30), T('강물 위의\n등불', 116, bold=True, gap=36),
      T('경남 진주 남강유등축제', 48, gap=30), T('Lamps on the river · Jinju, Korea', 38, EN, gap=0)]),
-  S([T('가을이면\n진주 남강 위에\n등이 떠요.', 66, bold=True, gap=34), T('해마다 10월 초~중순, 진주성과 남강 일대.\n입장은 무료, 낮 1시부터 밤 11시까지예요.', 40, gap=26),
-     T('2026년은 10월 3일~18일.\n2027년 날짜는 아직 발표 전이에요.', 34, [150, 145, 135], gap=30),
-     T('Every fall, lamps float on the Namgang River, early to mid-October. Entry is free, 1 to 11 p.m.', 32, EN, gap=0)], tag='강물 위에 등을 띄우는 축제'),
-  S([T('1592년 10월', 50, GOLD, gap=20), T('김시민 장군과 군사 약 3,800명이\n왜군 약 2만 명을 막아 낸\n진주성 전투예요.', 54, bold=True, gap=32),
+  S([T('가을이면\n진주 남강 위에\n등이 떠요.', 66, bold=True, gap=34), T('해마다 10월 초~중순, 진주성과 남강 일대.\n입장은 무료예요.', 40, gap=26),
+     T('2026년은 10월 3일~18일, 낮 1시~밤 11시.\n2027년 일정은 아직 발표 전이에요.', 34, [150, 145, 135], gap=30),
+     T('Every year in early to mid-October,\nlamps float on the Namgang River.\nEntry is free. In 2026: Oct 3–18, 1 to 11 p.m.', 32, EN, gap=0)], tag='강물 위에 등을 띄우는 축제'),
+  S([T('임진왜란, 1592년 10월', 50, GOLD, gap=20), T('김시민 장군과 군사 약 3,800명이\n왜군 약 2만 명을 막아 낸\n진주성 전투예요.', 54, bold=True, gap=32),
      T('캄캄한 밤 남강에 등을 띄워\n강을 건너려는 적을 살피고 막았고,\n성 밖 가족에게 안부도 전했다고 해요.', 42, gap=34),
-     T('October 1592: about 3,800 defenders under Kim Si-min\nheld Jinju Fortress against some 20,000 invaders.\nRiver lamps exposed crossings and carried word home.', 30, EN, gap=0)], tag='시작은 진주대첩'),
+     T('October 1592: about 3,800 defenders under Kim Si-min\nheld Jinju Fortress against some 20,000 invaders.\nRiver lamps showed crossings and carried news out.', 30, EN, gap=0)], tag='시작은 진주대첩'),
   S([T('이듬해 1593년', 50, GOLD, gap=20), T('다시 쳐들어온 대군에\n성이 무너지고, 민관군\n7만여 명이 목숨을 잃었어요.', 54, bold=True, gap=32),
      T('그 뒤로 강에 띄우는 등에는\n그때 스러진 이들을\n기리는 뜻이 이어져 왔어요.', 44, gap=34),
-     T('In 1593 the fortress fell, and some 70,000\nsoldiers and townspeople died.\nThe lamps have since also honored them.', 30, EN, gap=0)], tag='등불에 담긴 또 하나의 뜻'),
+     T('In 1593 the fortress fell, and some 70,000\nsoldiers and townspeople died.\nSince then, the lamps have also honored the dead.', 30, EN, gap=0)], tag='등불에 담긴 또 하나의 뜻'),
   S([T('축제 기간에는\n진주성이 무료로 열려요.', 58, bold=True, gap=30),
      T('성 안 남강 절벽 위 촉석루는\n우리나라 3대 누각으로 꼽혀요.', 44, gap=24),
-     T('물에 띄운 다리(부교)로 강을 걸어서 건너고,\n소망등을 달 수 있어요.', 40, gap=34),
-     T('During the festival, Jinju Fortress is free to enter. Chokseongnu Pavilion sits on its cliff above the river. You can cross on floating bridges and hang a wish lamp.', 30, EN, gap=0)], tag='갈 때 알아 둘 것'),
+     T('물에 띄운 다리(부교)로 강을 걸어서 건너고,\n소망등을 달 수 있어요(둘 다 유료).', 40, gap=34),
+     T('During the festival, Jinju Fortress is free to enter. Chokseongnu Pavilion stands on a cliff above the river.\nCross on floating bridges, hang a wish lamp (both paid).', 30, EN, gap=0)], tag='갈 때 알아 둘 것'),
   S([T('축제가 아닐 때도\n유등을 볼 수 있어요.', 58, bold=True, gap=30),
      T('소망진산 유등테마공원은\n늘 열려 있고 무료예요.\n밤이면 유등에 불이 켜져요.', 44, gap=24),
      T('바로 옆 남강유등전시관은 월요일에 쉬고,\n겨울(12~2월)엔 저녁 6시까지 열어요.', 38, gap=34),
-     T('Off-season, Somangjinsan Lantern Park is open all year, free, and lit at night. The lantern museum next door closes Mondays and at 6 p.m. in winter.', 30, EN, gap=0)], tag='겨울에 간다면'),
-  S([T('2027년의 글자는\n가까운 곳을 오래 비추는 등불(정화).', 46, gap=30),
+     T('Outside the festival, Somangjinsan Lantern Park\nis open year-round, free, and lit at night.\nThe lantern museum next door is closed Mondays\nand closes at 6 p.m. from December to February.', 30, EN, gap=0)], tag='겨울에 간다면'),
+  S([T('다가오는 정미년의 첫 글자는\n가까운 곳을 오래 비추는 등불(정화).', 46, gap=30),
      T('옛 책은 등불(정화)과\n넓은 강물(임수)을\n서로 끌어당기는 짝으로 묶어요.', 56, bold=True, gap=30),
      T('그 짝이 한 장면에 담긴 곳이에요.', 44, gap=34),
-     T('In 2027, the year\'s character is a lamp: 丁火 Yin Fire (Jeonghwa). Old Saju texts pair it with 壬水 Yang Water (Imsu), a wide river. Here, the pair shares one scene.', 30, EN, gap=0)], tag='등불과 강물이 한 장면에'),
+     T('The first character of the coming Saju year\n(from Feb 4, 2027) is a lamp: 丁火 Yin Fire (Jeonghwa).\nOld Saju texts pair it with 壬水 Yang Water (Imsu),\na wide river. Here, the two share one scene.', 28, EN, gap=0)], tag='등불과 강물이 한 장면에'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('임수 편', 96, bold=True, gap=34),
      T('등불을 싣고 흐르는\n넓은 강물 같은 소리예요.', 52, gap=24), T('첫 곡은 『Wide Water』예요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -374,7 +380,7 @@ P['0103j'] = dict(
   dict(sec=4.5, instant=True, items=[T('1월 3일 · 갈 만한 곳', 50, GOLD, gap=34), T('강물 위의\n등불', 130, bold=True, gap=50), T('Lamps on the river', 42, EN, gap=0)]),
   dict(sec=6.0, step=1.0, items=[T('가을, 진주 남강에\n등이 떠요', 92, bold=True, gap=40), T('해마다 10월 초~중순', 60, gap=50), T('Jinju, every October', 40, EN, gap=0)]),
   dict(sec=6.5, step=1.0, items=[T('임진왜란 때\n강을 건너려는 적을 막고', 78, bold=True, gap=30), T('성 밖 가족에게\n안부를 전한 등불', 78, bold=True, gap=50),
-       T('Lamps that held back the enemy\nand carried word home', 40, EN, gap=0)]),
+       T('Lamps that helped hold back the enemy\nand carried word home', 40, EN, gap=0)]),
   dict(sec=5.0, step=0.9,
        items_ig=[T('왜 2027년에\n어울리는 곳일까요?', 92, bold=True, gap=34), T('자세한 이야기는\n@goyo_mio 피드 게시물에서', 56, bold=True, gap=30),
                  T('Why does it suit 2027?\nMore in our feed post', 40, EN, gap=0)],
@@ -388,15 +394,15 @@ P['0103j'] = dict(
  ],
  caption="""강물 위의 등불, 진주 남강유등축제예요.
 
-가을이면 경남 진주 남강 위에 수많은 등이 떠요. 해마다 10월 초~중순 진주성과 남강 일대에서 열리고, 입장은 무료예요. 2026년은 10월 3일부터 18일까지, 낮 1시부터 밤 11시까지였어요. 2027년 날짜는 아직 발표 전이라 가기 전에 진주시 공지를 확인해 주세요.
+가을이면 경남 진주 남강 위에 수많은 등이 떠요. 해마다 10월 초~중순 진주성과 남강 일대에서 열리고, 입장은 무료예요. 2026년은 10월 3일부터 18일까지, 낮 1시부터 밤 11시까지였어요(유등 점등은 저녁부터). 2027년 날짜는 아직 발표 전이라 가기 전에 진주시 공지를 확인해 주세요.
 
-시작은 1592년 10월 진주성 전투예요. 김시민 장군과 군사 약 3,800명이 왜군 약 2만 명을 막아 냈고, 캄캄한 밤 남강에 등을 띄워 강을 건너려는 적을 살피고 막았어요. 성 밖 가족에게 안부를 전하는 데도 썼다고 해요.
+시작은 1592년 10월 진주성 전투예요. 김시민 장군과 군사 약 3,800명이 왜군 약 2만 명을 막아 냈고, 캄캄한 밤 남강에 등을 띄워 강을 건너려는 적을 살피고 막았고, 성 밖 가족에게 안부도 전했다고 해요.
 
 이듬해 1593년에는 다시 쳐들어온 대군에 성이 무너지고, 민관군 7만여 명이 목숨을 잃었어요. 그 뒤로 강에 띄우는 등에는 그때 스러진 이들을 기리는 뜻이 이어져 왔어요.
 
-축제 기간에는 진주성이 무료로 열려요. 성 안 남강 절벽 위 촉석루는 우리나라 3대 누각으로 꼽히고, 물에 띄운 다리(부교)로 강을 걸어서 건너거나 소망등을 달 수 있어요. 축제가 아닐 때도 소망진산 유등테마공원은 늘 열려 있고 무료라, 밤이면 유등에 불이 켜져요. 바로 옆 남강유등전시관은 월요일에 쉬고 겨울(12~2월)엔 저녁 6시까지 열어요.
+축제 기간에는 진주성이 무료로 열려요. 성 안 남강 절벽 위 촉석루는 우리나라 3대 누각으로 꼽히고, 물에 띄운 다리(부교)로 강을 걸어서 건너거나 소망등을 달 수 있어요(둘 다 유료). 축제가 아닐 때도 소망진산 유등테마공원은 늘 열려 있고 무료예요. 밤이면 유등에 불이 켜져요. 바로 옆 남강유등전시관은 월요일에 쉬고 겨울(12~2월)엔 저녁 6시까지 열어요.
 
-2027년의 글자는 가까운 곳을 오래 비추는 등불, 정화(丁火)예요. 옛 책은 등불(정화)과 넓은 강물(임수)을 서로 끌어당기는 짝으로 묶어요. 그 짝이 한 장면에 담긴 곳이라, 정미년에 한 번 가 볼 만한 곳으로 골랐어요.
+다가오는 정미년(2027년 2월 4일 입춘부터)의 첫 글자는 가까운 곳을 오래 비추는 등불, 정화(丁火)예요. 옛 책은 등불(정화)과 넓은 강물(임수)을 서로 끌어당기는 짝으로 묶어요. 그 짝이 한 장면에 담긴 곳이라, 정미년에 한 번 가 볼 만한 곳으로 골랐어요.
 
 등불을 싣고 흐르는 강물 같은 소리, 『다섯 가지 고요｜임수(壬水)』. 첫 곡은 『Wide Water』예요. 프로필 링크에서 들을 수 있어요.
 
@@ -405,13 +411,13 @@ Lamps on the river: the Jinju Namgang Yudeung Festival.
 
 Every fall, countless lamps float on the Namgang River in Jinju, Korea. The festival runs in early to mid-October around Jinju Fortress and the river, and entry is free. In 2026 it ran October 3 to 18, 1 to 11 p.m. The 2027 dates are not out yet, so check the city's notice before you go.
 
-It began in October 1592, when about 3,800 defenders under Kim Si-min held Jinju Fortress against some 20,000 invaders. Lamps floated on the dark river exposed enemy crossings and held them back, and carried word to families outside the walls.
+It began in October 1592, when about 3,800 defenders under Kim Si-min held Jinju Fortress against some 20,000 invaders. Lamps set afloat on the dark river, it is said, revealed enemy troops trying to cross, helped hold them back, and carried word to families outside the walls.
 
-The next year, 1593, a larger army returned. The fortress fell, and some 70,000 soldiers and townspeople died. Since then, the river lamps have also honored them.
+The next year, 1593, a larger army returned. The fortress fell, and some 70,000 soldiers and townspeople died. Since then, the river lamps have also honored the dead.
 
-During the festival, the fortress is free to enter. Chokseongnu, the pavilion on its cliff above the river, is counted among Korea's three great pavilions. You can cross the river on floating bridges and hang a wish lamp. Off-season, Somangjinsan Lantern Park is open all year, free, and lit at night; the lantern museum next door closes Mondays and at 6 p.m. in winter.
+During the festival, the fortress is free to enter. Chokseongnu, the pavilion on a cliff above the river, is counted among Korea's three great pavilions. You can cross the river on floating bridges and hang a wish lamp (both paid). Outside the festival, Somangjinsan Lantern Park is open year-round, free, and lit at night; the lantern museum next door is closed on Mondays and closes at 6 p.m. from December to February.
 
-In 2027, the year's character is a lamp: 丁火 Yin Fire (Jeonghwa). Old Saju texts pair it with 壬水 Yang Water (Imsu), a wide river. Here the pair shares one scene, so we picked it as a place to visit this year.
+The first character of the coming Saju year (from February 4, 2027) is a lamp: 丁火 Yin Fire (Jeonghwa). Old Saju texts pair it with 壬水 Yang Water (Imsu), a wide river. Here the two share one scene, so we picked it as a place to visit in 2027.
 
 Music like a wide river carrying lamps: Five Kinds of Quiet · Yang Water. The first track is Wide Water. Listen through the link in bio.
 
@@ -423,7 +429,7 @@ Music like a wide river carrying lamps: Five Kinds of Quiet · Yang Water. The f
 지금 흐르는 음악은 『다섯 가지 고요｜임수(壬水)』의 첫 곡 『Wide Water』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with a battle in the 1590s, when river lamps held back the enemy and carried word to families. Why it suits 2027, and tips for visiting, are in our feed post.
+Lamps on the river: every fall in Jinju, Korea, lamps float on the Namgang River. The festival began with the 1592 Battle of Jinju, during the Imjin War, when river lamps held back the enemy and carried word to families. Why it suits 2027, and tips for visiting, are in our feed post.
 
 The music is Wide Water from Five Kinds of Quiet · 壬水 Yang Water (Imsu). Listen through the link in bio.
 
@@ -444,8 +450,19 @@ P['0106v'] = dict(
      T('What sits beside its heat: water, and metal and stone that take in the earth\'s warmth and let it go.', 32, EN, gap=0)], tag='식혀 주는 것'),
   S([T('불은 흙을 낳고,\n흙은 쇠를 낳아요.', 62, bold=True, gap=34), T('그래서 옛 책은\n불과 흙이 많아 덥고 마른 때에\n쇠와 물을 함께 봐요.', 46, gap=36),
      T('Fire feeds Earth, and Earth feeds Metal. In hot, dry times, old texts look to Metal and Water too.', 32, EN, gap=0)], tag='명리로 보면'),
+  S([T('1~2월 고요에서 이어서 볼', 42, gap=10), T('닮은 것', 72, bold=True, gap=30),
+     T('그림 · 등불 하나를 그린 라 투르,\n늦여름 건초더미를 그린 모네,\n이삭 줍는 들판을 그린 밀레', 40, gap=20),
+     T('곳 · 지평선이 보이는 김제 들녘', 40, gap=20), T('곁에 둘 것 · 책상 위 작은 등, 흙 화분 하나', 40, gap=20),
+     T('소리 · 정화 편, 토 편', 40, gap=34),
+     T('Coming up, echoing the year: La Tour, Monet, Millet,\nthe fields of Gimje, a desk lamp, a clay pot,\nand Yin Fire and Earth music.', 30, EN, gap=0)], tag='시리즈 안내'),
+  S([T('1~2월 고요에서 이어서 볼', 40, gap=8), T('식혀 주는 것', 68, bold=True, gap=26),
+     T('그림 · 비 갠 인왕산 바위를 그린 정선,\n다리 위 소나기를 그린 히로시게', 38, gap=16),
+     T('곳 · 서울 인왕산과 수성동 계곡', 38, gap=16), T('곁에 둘 것 · 유리 물병, 놋그릇, 작은 풍경', 38, gap=16),
+     T('소리 · 계수 편, 경금 편, 금 편, 수 편', 38, gap=20),
+     T('둘이 한 장면에 있는 곳은\n1월 3일의 진주 남강유등이에요.', 38, GOLD, gap=24),
+     T('Coming up, beside its heat: Jeong Seon, Hiroshige,\nInwangsan and its valley, a glass carafe,\nbrassware, a wind chime, and Water and Metal music.\nBoth meet in Jinju.', 30, EN, gap=0)], tag='시리즈 안내'),
   S([T('불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.', 54, gap=34), T('어느 쪽이 더 어울리는지는\n사주 전체를 봐야 알 수 있어요.', 52, bold=True, gap=36),
-     T('How much Fire and Water your chart holds: see our free app.\nWhich side suits you depends on your whole chart.', 30, EN, gap=0)], tag='내게는 어느 쪽일까요'),
+     T('Your chart\'s Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.', 30, EN, gap=0)], tag='내게는 어느 쪽일까요'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('계수 편', 96, bold=True, gap=34),
      T('마른 흙에 조용히 스미는\n비 같은 소리예요.', 52, gap=24), T('첫 곡은 『Drizzle』이에요.', 44, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
@@ -473,6 +490,8 @@ P['0106v'] = dict(
 
 닮은 것은 2027년의 모양을 그대로 담은 것이에요. 등불, 늦여름 들판, 거둔 것을 품는 흙. 식혀 주는 것은 그 열기 곁에 둘 서늘한 것이에요. 물, 그리고 흙의 열을 받아 흘려보내는 쇠와 바위. 불은 흙을 낳고 흙은 쇠를 낳아서, 옛 책은 불과 흙이 많아 덥고 마른 때에 쇠와 물을 함께 봐요.
 
+1~2월 고요에서는 두 갈래를 하나씩 이어서 볼 거예요. 닮은 것으로는 등불 하나를 그린 라 투르, 늦여름 건초더미를 그린 모네, 이삭 줍는 들판을 그린 밀레의 그림, 지평선이 보이는 김제 들녘, 책상 위 작은 등과 흙 화분 하나, 정화 편과 토 편의 소리가 있어요. 식혀 주는 것으로는 비 갠 인왕산 바위를 그린 정선과 다리 위 소나기를 그린 히로시게의 그림, 서울 인왕산과 수성동 계곡, 유리 물병과 놋그릇과 작은 풍경, 계수·경금·금·수 편의 소리가 있어요. 둘이 한 장면에 있는 곳은 1월 3일에 소개한 진주 남강유등이에요.
+
 불과 물이 내 사주에 얼마나 있는지는 무료 앱에서 볼 수 있어요. 어느 쪽이 더 어울리는지는 사주 전체를 봐야 알 수 있어요. 앱은 프로필 링크에 있어요.
 
 마른 흙에 조용히 스미는 비 같은 소리, 『다섯 가지 고요｜계수(癸水)』. 첫 곡은 『Drizzle』이에요. 프로필 링크에서 들을 수 있어요.
@@ -484,6 +503,8 @@ What echoes 2027, and what sits beside its heat.
 
 What echoes the year: a lamp, late-summer fields, earth that holds the harvest. What sits beside its heat: water, and metal and stone that take in the earth's warmth and let it go. Fire feeds Earth and Earth feeds Metal, so in hot, dry times the old texts look to Metal and Water too.
 
+Over January and February we'll look at each side in turn. Echoing the year: La Tour's lamp, Monet's haystacks, Millet's gleaners, the open fields of Gimje, a small desk lamp and a clay pot, and Yin Fire and Earth music. Beside its heat: Jeong Seon's rain-washed rocks on Inwangsan, Hiroshige's sudden shower, Inwangsan and its valley, a glass carafe, brassware and a wind chime, and Water and Metal music. Both meet at the Jinju lantern festival from our January 3 post.
+
 You can see how much Fire and Water your chart holds in our free app. Which side suits you better depends on your whole chart. The app is linked in our bio.
 
 Music like rain soaking quietly into dry earth: Five Kinds of Quiet · 癸水 Yin Water (Gyesu). The first track is Drizzle. Listen through the link in bio.
@@ -491,12 +512,12 @@ Music like rain soaking quietly into dry earth: Five Kinds of Quiet · 癸水 Yi
 #고요 #정미년 #2027년 #사주 #오행 #오행음악 #saju #fiveelements""",
  reel_caption="""닮은 것, 식혀 주는 것.
 
-2027년은 등불이 마른 흙을 데우는 해예요. 그래서 함께할 것을 두 갈래로 나눴어요. 닮은 것은 등불·들판·흙, 식혀 주는 것은 물·쇠·바위. 어느 쪽이 내게 어울리는지에 대한 이야기는 피드 게시물에 있어요.
+2027년은 등불이 마른 흙을 데우는 해예요. 그래서 함께할 것을 두 갈래로 나눴어요. 닮은 것은 등불·들판·흙, 식혀 주는 것은 물·쇠·바위. 이 시리즈에서 이어서 볼 그림·곳·소리와 어느 쪽이 내게 어울리는지에 대한 이야기는 피드 게시물에 있어요.
 
 지금 흐르는 음악은 『다섯 가지 고요｜계수(癸水)』의 첫 곡 『Drizzle』, 프로필 링크에서 들을 수 있어요.
 
 · English ·
-2027 is a lamp warming dry earth, so we split what to keep close into two groups. What echoes it: lamp, fields, earth. What sits beside its heat: water, metal, stone. More on which side suits you in our feed post.
+2027 is a lamp warming dry earth, so we split what to keep close into two groups. What echoes it: lamp, fields, earth. What sits beside its heat: water, metal, stone. Our feed post lists the paintings, places and music coming up, and more on which side suits you.
 
 The music is Drizzle from Five Kinds of Quiet · 癸水 Yin Water (Gyesu). Listen through the link in bio.
 

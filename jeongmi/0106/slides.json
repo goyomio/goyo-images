@@ -139,18 +139,7 @@
      36
     ],
     [
-     "옛 명리 책 『적천수』도\n병화는 세차고, 정화는 부드럽다고\n두 불을 나눠 봐요.",
-     44,
-     [
-      236,
-      233,
-      226
-     ],
-     false,
-     36
-    ],
-    [
-     "The sun lights everyone from afar. A lamp lights one person's face and hands, up close.",
+     "The sun lights everyone from afar.\nA lamp lights one person's\nface and hands, up close.",
      34,
      [
       214,
@@ -162,6 +151,137 @@
     ]
    ],
    "tag": "같은 불, 다른 빛"
+  },
+  {
+   "items": [
+    [
+     "옛 명리 책 『적천수』는 해를 두고",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "세차고 사나워서\n서리와 눈도\n업신여긴다고 했어요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "丙火猛烈 欺霜侮雪",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "겨울 추위에도 꺾이지 않고\n멀리까지 뻗는 빛이라는 뜻이에요.",
+     44,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "Di Tian Sui (滴天髓), a Saju classic, on Yang Fire:\n\"Fierce and blazing, it scorns frost and snow.\"",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "옛 책이 본 해"
+  },
+  {
+   "items": [
+    [
+     "같은 책은 등불을 두고",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     26
+    ],
+    [
+     "겉은 부드럽고\n속은 환하게 밝다고 했어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "세져도 사납게 타지 않고,\n약해져도 다하지 않는다고요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "丁火柔中 內性昭融 · 旺而不烈 衰而不窮",
+     34,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "가까이 오래 비추는 빛이 여기서 나와요.",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "On Yin Fire: \"Gentle outside, bright within.\nStrong, it does not rage; weak, it does not run out.\"",
+     32,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "옛 책이 본 등불"
   },
   {
    "items": [
@@ -281,7 +401,7 @@
      30
     ],
     [
-     "Five Kinds of Quiet · Yin Fire. Track: Lantern Room. Music: link in bio",
+     "Five Kinds of Quiet · Yin Fire. Track: Lantern Room.\nListen through the link in bio.",
      32,
      [
       214,

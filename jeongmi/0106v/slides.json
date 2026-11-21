@@ -215,6 +215,181 @@
   {
    "items": [
     [
+     "1~2월 고요에서 이어서 볼",
+     42,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     10
+    ],
+    [
+     "닮은 것",
+     72,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     30
+    ],
+    [
+     "그림 · 등불 하나를 그린 라 투르,\n늦여름 건초더미를 그린 모네,\n이삭 줍는 들판을 그린 밀레",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "곳 · 지평선이 보이는 김제 들녘",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "곁에 둘 것 · 책상 위 작은 등, 흙 화분 하나",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "소리 · 정화 편, 토 편",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     34
+    ],
+    [
+     "Coming up, echoing the year: La Tour, Monet, Millet,\nthe fields of Gimje, a desk lamp, a clay pot,\nand Yin Fire and Earth music.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "시리즈 안내"
+  },
+  {
+   "items": [
+    [
+     "1~2월 고요에서 이어서 볼",
+     40,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     8
+    ],
+    [
+     "식혀 주는 것",
+     68,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     26
+    ],
+    [
+     "그림 · 비 갠 인왕산 바위를 그린 정선,\n다리 위 소나기를 그린 히로시게",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "곳 · 서울 인왕산과 수성동 계곡",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "곁에 둘 것 · 유리 물병, 놋그릇, 작은 풍경",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     16
+    ],
+    [
+     "소리 · 계수 편, 경금 편, 금 편, 수 편",
+     38,
+     [
+      236,
+      233,
+      226
+     ],
+     false,
+     20
+    ],
+    [
+     "둘이 한 장면에 있는 곳은\n1월 3일의 진주 남강유등이에요.",
+     38,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Coming up, beside its heat: Jeong Seon, Hiroshige,\nInwangsan and its valley, a glass carafe,\nbrassware, a wind chime, and Water and Metal music.\nBoth meet in Jinju.",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "tag": "시리즈 안내"
+  },
+  {
+   "items": [
+    [
      "불과 물이 내 사주에\n얼마나 있는지는\n무료 앱에서 볼 수 있어요.",
      54,
      [
@@ -237,7 +412,7 @@
      36
     ],
     [
-     "How much Fire and Water your chart holds: see our free app.\nWhich side suits you depends on your whole chart.",
+     "Your chart's Fire and Water: see our free app.\nWhich side suits you depends on your whole chart.",
      30,
      [
       214,
