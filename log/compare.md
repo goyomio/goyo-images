@@ -17,3 +17,4 @@
 | 2026-11-22 타로 | api | 성공 | 06:00:47 | 약 45초 | 없음 | 2207051 오류 응답이었으나 실제 게시됨, https://www.instagram.com/p/DgBJZuGlPEG/ |
 | 2026-11-22 10시 타로 릴스 | api | 성공 | 10:00:34 | 39초 | 없음 | https://www.instagram.com/reel/DgBkzHfkcSc/ |
 | 2026-11-22 13시 | api | 성공 | 13:00:35 | 39초 | 없음 | 소설 절기 캐러셀 5장. 2207051 "행동이 차단되었습니다" 오류 반환됐지만 실제 게시됨, result.json 수동 수정 |
+| 2026-11-22 15시 | api | 성공 | 15:00:40 | 45초 | 없음 | 무음편 쇼츠 갑목, https://www.instagram.com/reel/DgCHI00CNuL/ |
