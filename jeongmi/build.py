@@ -1638,8 +1638,8 @@ The music is Potting Shed from Five Kinds of Quiet · 己土 Yin Earth (Gito). L
 P['0201'] = dict(
  music='정화',
  slides=[
-  S([T('2월 1일 · 이번 주 기운', 44, GOLD, gap=30), T('목요일,\n입춘', 112, bold=True, gap=36),
-     T('立春 · 2월 4일 오전 10시 46분', 44, gap=30), T('The start of spring (立春) arrives Thursday', 36, EN, gap=0)]),
+  S([T('2월 1일 · 이번 주 기운', 44, GOLD, gap=30), T('입춘까지\n사흘', 112, bold=True, gap=36),
+     T('立春 · 2월 4일(목) 오전 10시 46분', 44, gap=30), T('Three days to the start of spring (立春)', 36, EN, gap=0)]),
   S([T('입춘은\n스물네 절기의 첫째예요.', 60, bold=True, gap=30),
      T('해가 하늘길의 315도에 이르는 때.', 44, gap=26),
      T('이 순간 사주의 해와 달이 함께 바뀌어요.\n병오년 신축월 → 정미년 임인월', 42, GOLD, gap=34),
@@ -1661,16 +1661,16 @@ P['0201'] = dict(
      T('날마다 앞 글자가\n쇠 → 물 → 나무 → 불 순서로 흘러요.', 44, gap=26),
      T('입춘 날은 갑인일, 나무 두 글자로 봄을 열고\n설날 2월 7일은 정사일이에요.', 38, GOLD, gap=34),
      T('This week, the first characters of the day pillars run\nMetal → Water → Wood → Fire. Spring begins on a 甲寅 day,\nall Wood, and Lunar New Year (Feb 7) is a 丁巳 day.', 24, EN, gap=0)], tag='이번 주 일진'),
-  S([T('목요일 오전 10시 46분부터\n정미년이에요.', 56, bold=True, gap=30),
+  S([T('사흘 뒤,\n사주의 해가 바뀌어요.', 56, bold=True, gap=30),
      T('첫 글자는\n가까운 곳을 오래 비추는 등불, 정화.', 46, gap=28),
      T('입춘 무렵 태어나는 아기라면\n시각에 따라 해가 갈려요(1월 25일 게시물).', 38, GOLD, gap=34),
-     T('From 10:46 a.m. Thursday, it is the 丁未 year. Its first\ncharacter is 丁火 Yin Fire (Jeonghwa), a lamp that burns\nlong and lights what is near. For babies born that day, the\nbirth time decides the year (see our Jan 25 post).', 24, EN, gap=0)], tag='정미년의 첫 글자'),
+     T('In three days, at 10:46 a.m. Thursday, the Saju year\nturns to the 丁未 year. Its first character is 丁火 Yin Fire\n(Jeonghwa), a lamp that burns long and lights what is near.\nFor babies born that day, the birth time decides the year\n(see our Jan 25 post).', 24, EN, gap=0)], tag='정미년의 첫 글자'),
   S([T('다섯 가지 고요', 56, bold=True, gap=10), T('정화 편', 96, bold=True, gap=34),
      T('가까운 곳을 오래 비추는\n등불 같은 소리예요.', 50, gap=24), T('오늘 고른 곡은 『Window Candle』,\n창가에 켜 둔 작은 불빛이에요.', 42, gap=30),
      T('음악은 프로필 링크에서', 46, GOLD, gap=30),
      T('Five Kinds of Quiet · Yin Fire: music like a lamp close by.\nToday\'s track is Window Candle.\nListen at the link in bio.', 28, EN, gap=0)], tag='새해 첫 글자의 소리'),
  ],
- caption="""목요일, 입춘이에요.
+ caption="""입춘까지 사흘 남았어요.
 
 2월 4일 오전 10시 46분, 입춘(立春)이 들어요. 입춘은 스물네 절기의 첫째로, 해가 하늘길의 315도에 이르는 때예요. 이 순간 사주의 해와 달이 함께 바뀌어요. 병오년 신축월에서 정미년 임인월로요.
 
@@ -1682,14 +1682,14 @@ P['0201'] = dict(
 
 이번 주 일진은 신해 → 임자 → 계축 → 갑인 → 을묘 → 병진 → 정사. 날마다 앞 글자가 쇠 → 물 → 나무 → 불 순서로 흘러요. 입춘 날은 갑인일, 나무 두 글자로 봄을 열고, 설날 2월 7일은 정사일이에요.
 
-목요일 오전 10시 46분부터 정미년이에요. 첫 글자는 가까운 곳을 오래 비추는 등불, 정화예요. 입춘 무렵 태어나는 아기라면 시각에 따라 해가 갈려요(1월 25일 게시물).
+사흘 뒤 목요일 오전 10시 46분, 사주의 해가 정미년으로 바뀌어요. 첫 글자는 가까운 곳을 오래 비추는 등불, 정화예요. 입춘 무렵 태어나는 아기라면 시각에 따라 해가 갈려요(1월 25일 게시물).
 
 새해 첫 글자의 소리, 『다섯 가지 고요｜정화(丁火)』. 오늘 고른 곡은 창가에 켜 둔 작은 불빛, 『Window Candle』이에요. 프로필 링크에서 들을 수 있어요.
 
 절기 시각: 한국천문연구원 / 입춘 풍속: 한국민족문화대백과사전 외
 
 · English ·
-The start of spring (立春) arrives Thursday.
+Three days to the start of spring (立春).
 
 The start of spring falls at 10:46 a.m. on February 4 (Korea Standard Time). It is the first of the twenty-four solar terms, when the sun reaches 315° on its yearly path. At that moment, the Saju year and month change together: from the 丙午 year (Byeong-o) · Yang Fire · Noon Fire to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth, and from the 辛丑 month to the 壬寅 month.
 
@@ -1701,7 +1701,7 @@ In the old days, on the start of spring, people ate five pungent greens (osinban
 
 This week, the first characters of the day pillars run Metal → Water → Wood → Fire. Spring begins on a 甲寅 day, all Wood, and Lunar New Year is a 丁巳 day.
 
-From 10:46 a.m. Thursday, it is the 丁未 year. Its first character is 丁火 Yin Fire (Jeonghwa), a lamp that burns long and lights what is near. For babies born that day, the birth time decides which year they belong to (see our January 25 post).
+In three days, at 10:46 a.m. Thursday, the Saju year turns to the 丁未 year. Its first character is 丁火 Yin Fire (Jeonghwa), a lamp that burns long and lights what is near. For babies born that day, the birth time decides which year they belong to (see our January 25 post).
 
 The sound of the new year's first character: Five Kinds of Quiet · Yin Fire. Today's track is Window Candle. Listen at the link in bio.
 
