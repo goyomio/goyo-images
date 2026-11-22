@@ -20,3 +20,4 @@
 | 2026-11-22 15시 | api | 성공 | 15:00:40 | 45초 | 없음 | 무음편 쇼츠 갑목, https://www.instagram.com/reel/DgCHI00CNuL/ |
 | 2026-11-22 18시 | api | 성공 | 18:00:45 | 45초 | 없음 | 예시 사주 풀이 #1 캐러셀 9장. 2207051 오류 반환됐지만 실제 게시됨, result.json 수동 수정, https://www.instagram.com/p/DgCby9IDqSC/ |
 | 2026-11-22 18:20 | api | 성공 | 18:20:43 | 47초 | 없음 | 예시 사주 풀이 #1 릴스(reel_ig_v3), https://www.instagram.com/reel/DgCeBbpD-_u/ |
+| 2026-11-23 타로 | api | 성공 | 06:00:41 | 41초 | 없음 | 2207051 오류 반환됐지만 실제 게시됨, result.json 수동 수정, https://www.instagram.com/p/DgDuL3_l0-e/ |
