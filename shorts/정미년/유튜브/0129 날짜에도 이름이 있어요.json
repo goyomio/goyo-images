@@ -116,7 +116,7 @@
    "sec": 6.0,
    "items": [
     [
-     "그리고 내 일간은,\n내가 태어난 날 이름의\n윗글자예요.",
+     "60일마다 돌아오니\n한 해에 같은 날 이름을\n여섯 번쯤 만나요.",
      58,
      [
       236,
@@ -127,7 +127,18 @@
      24
     ],
     [
-     "And your Day Master is the top character\nof the name of the day you were born.",
+     "오늘 1월 29일은 무신(戊申)일이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Since names return every sixty days,\neach comes round about six times a year.\nToday, January 29, is a 戊申 (Musin) day.",
      28,
      [
       214,
@@ -139,7 +150,7 @@
     ]
    ],
    "art": {
-    "file": "shorts/정미년/art/0129_네기둥.png",
+    "file": "shorts/정미년/art/0129_60갑자.png",
     "h": 280
    }
   },
@@ -158,7 +169,7 @@
      24
     ],
     [
-     "그날 입춘의 일진은 갑인(甲寅)이에요.",
+     "입춘 날의 일진은 갑인(甲寅)이에요.",
      40,
      [
       200,
@@ -169,7 +180,7 @@
      24
     ],
     [
-     "The next 丁未 day is March 29.\nThe 丁未 year begins at the start of spring (立春), February 4.",
+     "The next 丁未 day is March 29.\nThe 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春), February 4.",
      28,
      [
       214,

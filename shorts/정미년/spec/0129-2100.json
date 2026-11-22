@@ -126,7 +126,7 @@
    "sec": 6.0,
    "items": [
     [
-     "그리고 내 일간은,\n내가 태어난 날 이름의\n윗글자예요.",
+     "60일마다 돌아오니\n한 해에 같은 날 이름을\n여섯 번쯤 만나요.",
      58,
      [
       236,
@@ -137,7 +137,18 @@
      24
     ],
     [
-     "And your Day Master is the top character\nof the name of the day you were born.",
+     "오늘 1월 29일은 무신(戊申)일이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "Since names return every sixty days,\neach comes round about six times a year.\nToday, January 29, is a 戊申 (Musin) day.",
      28,
      [
       214,
@@ -149,7 +160,7 @@
     ]
    ],
    "art": {
-    "file": "shorts/정미년/art/0129_네기둥.png",
+    "file": "shorts/정미년/art/0129_60갑자.png",
     "h": 280
    }
   },
@@ -168,7 +179,7 @@
      24
     ],
     [
-     "그날 입춘의 일진은 갑인(甲寅)이에요.",
+     "입춘 날의 일진은 갑인(甲寅)이에요.",
      40,
      [
       200,
@@ -179,7 +190,7 @@
      24
     ],
     [
-     "The next 丁未 day is March 29.\nThe 丁未 year begins at the start of spring (立春), February 4.",
+     "The next 丁未 day is March 29.\nThe 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春), February 4.",
      28,
      [
       214,
@@ -193,7 +204,7 @@
    "step": 0.9
   }
  ],
- "caption": "어제 1월 28일은 정미(丁未)일이었어요.\n\n날마다 60갑자 이름이 하나씩 붙어요. 60일이 지나면 같은 이름이 돌아와요. 이 날짜 셈은 『춘추』의 기록부터 2,700년 넘게 끊기지 않고 이어져 왔다고 봐요. 그 책의 일식 기록과 날짜가 들어맞거든요.\n\n그리고 내 일간은 내가 태어난 날 이름의 윗글자예요.\n\n다음 정미일은 3월 29일이에요. 정미년은 입춘(2월 4일 오전 10시 46분)에 시작되고, 그날의 일진은 갑인(甲寅)이에요.\n\n이 영상의 소리는 다섯 가지 고요의 『Pale Ring』(금1 편)이에요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nYesterday, January 28, was a 丁未 (Jeongmi) day. Every day carries one of sixty names, and after sixty days the same name comes back. This day count is thought to have run unbroken for more than 2,700 years, since the Spring and Autumn Annals, whose eclipse records match the count. And your Day Master is the top character of the name of the day you were born. The next 丁未 day is March 29. The 丁未 year begins at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST, on a 甲寅 (Gabin) day.\nMusic in this video: Five Kinds of Quiet · Metal · “Pale Ring”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #일진 #60갑자 #정미년 #오행음악",
+ "caption": "어제 1월 28일은 정미(丁未)일이었어요.\n\n날마다 60갑자 이름이 하나씩 붙어요. 60일이 지나면 같은 이름이 돌아와요. 이 날짜 셈은 『춘추』의 기록부터 2,700년 넘게 끊기지 않고 이어져 왔다고 봐요. 그 책의 일식 기록과 날짜가 들어맞거든요.\n\n60일마다 돌아오니 한 해에 같은 날 이름을 여섯 번쯤 만나요. 오늘 1월 29일은 무신(戊申)일이에요.\n\n다음 정미일은 3월 29일이에요. 정미년은 입춘(2월 4일 오전 10시 46분)에 시작되고, 그날의 일진은 갑인(甲寅)이에요.\n\n이 영상의 소리는 다섯 가지 고요의 『Pale Ring』(금1 편)이에요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nYesterday, January 28, was a 丁未 (Jeongmi) day. Every day carries one of sixty names, and after sixty days the same name comes back. This day count is thought to have run unbroken for more than 2,700 years, since the Spring and Autumn Annals, whose eclipse records match the count. Since names return every sixty days, each comes round about six times a year. Today, January 29, is a 戊申 (Musin) day. The next 丁未 day is March 29. The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST, on a 甲寅 (Gabin) day.\nMusic in this video: Five Kinds of Quiet · Metal · “Pale Ring”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #일진 #60갑자 #정미년 #오행음악",
  "key": "0129-2100",
  "note": "정미년 시리즈 · 날짜에도 이름이 있어요"
 }

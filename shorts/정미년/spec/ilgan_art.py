@@ -38,8 +38,8 @@ p=Pic(W,H); p.flame(120,140,1.3); p.text(120,185,'丁',40,HI,True); p.arrow(170,
 p.ground(330,560,150,EARTH,3); p.text(445,200,'己',44,EARTH,True); p.text(445,255,'未 속에도 己',26,FG); out['기토_yr']=p.save('일간_기토_정미')
 # 정화
 p=Pic(W,H); lamp(p,310,170); out['정화_sym']=p.save('일간_정화_등불')
-p=Pic(W,H); lamp(p,390,170); p.tree(190,290,200,WOOD,bare=True); p.text(190,300,'甲',30,WOOD,True)
-for x,y in [(80,60),(540,70),(500,260),(90,200)]: p.snow(x,y,14)
+p=Pic(W,H); p.waves(40,200,250,WATER,3); p.ground(220,330,250,EARTH,5); p.line([(230,250),(230,170),(320,170),(320,250)],EARTH,4); lamp(p,450,170); p.ground(380,520,250,EARTH,2)
+for x,y in [(80,60),(540,50),(300,60),(90,170)]: p.snow(x,y,14)
 out['정화_ex']=p.save('일간_정화_나무와겨울')
 p=Pic(W,H); lamp(p,200,170); p.text(200,250,'나',30,FG,True); lamp(p,420,170); p.text(420,250,'丁',36,HI,True); out['정화_yr']=p.save('일간_정화_두등불')
 # 경금

@@ -1,0 +1,234 @@
+{
+ "audio": "shorts/정미년/audio/정화_LittleLamp_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "오늘 오전 10시 46분부터 정미년.\n첫 글자 정화(丁火)는\n어떤 소리일까요?",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "From 10:46 this morning (KST): the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.\nWhat does 丁火 Yin Fire (Jeonghwa) sound like?",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_해와등불.png",
+    "h": 240
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "고요의 정화 편은 재즈예요.\n로즈와 우리처, 두 전자 피아노가\n따뜻한 화음을 길게 눌러 줘요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "GOYO’s Yin Fire album is jazz:\ntwo vintage electric pianos, Rhodes and Wurlitzer,\nholding long, warm chords.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_전자피아노.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "빠르기는 1분에 98~100박.\n고요의 불 가운데\n조금 느린 쪽이에요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "병화 편은 102~104박이에요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "The tempo is 98 to 100 beats per minute,\nthe slower side of GOYO’s Fire music.\nThe 丙火 Yang Fire (Byeonghwa) album runs 102 to 104.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_메트로놈.png",
+    "h": 280
+   },
+   "tag": "98–100"
+  },
+  {
+   "sec": 5.5,
+   "items": [
+    [
+     "선율은 긴 음으로 천천히 내려앉고,\n일렉 베이스가 둥글게 받쳐요.",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The melody settles in long notes,\nand a round electric bass holds it up.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_전자피아노.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 7.0,
+   "items": [
+    [
+     "병화가 사방을 비추는 해라면,\n정화는 가까이 오래 비추는 등불.\n그 차이를 빠르기와 음의 길이로 옮겼어요.",
+     50,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "If Yang Fire is the sun lighting everything,\nYin Fire is a lamp that lights what is near, and keeps burning.\nWe turned that difference into tempo and note length.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_해와등불.png",
+    "h": 280
+   },
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "정미년 첫날의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 정화(丁火)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Little Lamp』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간은 채널 상단 링크의 무료 앱에서\n음악은 아래 관련 영상",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Fire\n“Little Lamp”\nFind your Day Master: free app,\nlink at the top of our channel\nMusic: related video below",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0204_해와등불.png",
+    "h": 200
+   }
+  }
+ ]
+}

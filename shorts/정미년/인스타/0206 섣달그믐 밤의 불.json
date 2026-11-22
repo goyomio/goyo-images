@@ -1,0 +1,230 @@
+{
+ "audio": "shorts/정미년/audio/정화_GoldenHush_60s.m4a",
+ "fx": {
+  "stars": 60,
+  "wipe": true,
+  "rise": true
+ },
+ "scenes": [
+  {
+   "sec": 4.5,
+   "items": [
+    [
+     "오늘은 섣달그믐.\n옛날엔 오늘 밤 잠들면\n눈썹이 센다고 했대요.",
+     62,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Today is the last night of the lunar year.\nPeople used to say: fall asleep tonight,\nand your eyebrows turn white.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_눈썹.png",
+    "h": 220
+   },
+   "instant": true
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "그래서 밤새 잠들지 않고\n묵은해를 지켰어요.",
+     58,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "이걸 수세(守歲), 해지킴이라고 해요.",
+     40,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     24
+    ],
+    [
+     "So people stayed up all night\nto see the old year out.\nIt was called 守歲 (suse), keeping the year.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_불밝힌집.png",
+    "h": 280
+   },
+   "tag": "守歲"
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "방, 마루, 부엌, 곳간, 장독대까지\n집 안 곳곳에 불을 밝혀 두고\n새벽닭이 울 때까지 기다렸어요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Lamps were lit all through the house:\nrooms, hall, kitchen, storeroom, even the crock terrace,\nuntil the first rooster crowed.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_불밝힌집.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "그래도 잠든 아이 눈썹엔\n흰 가루를 발라 두고,\n아침에 「눈썹 셌다」며 놀리기도 했어요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Children who dozed off got white powder on their brows,\nand were teased in the morning that they had turned white.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_눈썹.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "정미년의 첫 글자도 불, 정화(丁火).\n불 밝힌 그믐밤을 지나\n내일은 설날이에요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The first character of the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nis a fire too: 丁火 Yin Fire (Jeonghwa).\nPast this lamp-lit night, tomorrow is Seollal.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "step": 0.9
+  },
+  {
+   "sec": 5.5,
+   "tag": "그믐밤의 소리",
+   "step": 0.6,
+   "items": [
+    [
+     "다섯 가지 고요 · 정화(丁火)",
+     54,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     10
+    ],
+    [
+     "『Golden Hush』",
+     74,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     34
+    ],
+    [
+     "내 일간 찾기와 음악은\n프로필 링크에서",
+     42,
+     [
+      200,
+      180,
+      140
+     ],
+     false,
+     26
+    ],
+    [
+     "Five Kinds of Quiet · Yin Fire\n“Golden Hush”\nFind your Day Master:\nfree app & music, link in bio",
+     30,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_불밝힌집.png",
+    "h": 200
+   }
+  }
+ ]
+}

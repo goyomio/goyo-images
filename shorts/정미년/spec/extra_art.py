@@ -107,3 +107,18 @@ for x in [240,290,340,380]: p.d.ellipse(p.p(x-20,160,x+20,182),outline=FG,width=
 A['0206_떡국']=p.save('0206_떡국')
 p=Pic(W,H); p.text(170,60,'세는 나이',30,DIM,True); p.text(170,110,'설에 다 같이 +1',24,DIM); p.arrow(280,110,350,110,GOLD,4); p.text(460,60,'만 나이',30,HI,True); p.text(460,110,'내 생일에 +1',24,FG); p.text(310,220,'2023. 6. 28.',40,FG,True); A['0206_나이']=p.save('0206_나이')
 json.dump(A,open('/tmp/extra_art.json','w'),ensure_ascii=False); print(len(A))
+# 11/22 고침분
+p=Pic(W,H); p.poly([(260,300),(360,300),(330,60),(290,60)],GOLD,3); p.line([(310,280),(350,100)],HI,4); p.circ(343,140,10,HI,2,fill=HI); p.text(470,150,'98–100',40,FG,True); p.text(470,200,'BPM',24,DIM); A['0204_메트로놈']=p.save('0204_메트로놈')
+p=Pic(W,H)
+for row,y in enumerate([70,190]):
+    p.rect(90,y,530,y+90,GOLD,3,10)
+    for i in range(12): p.line([(110+i*35,y+20),(110+i*35,y+80)],FG,2)
+p.text(310,295,'Rhodes · Wurlitzer',24,DIM); A['0204_전자피아노']=p.save('0204_전자피아노')
+p=Pic(W,H); p.sun(150,150,50); p.text(150,250,'丙 · 해',30,FG,True); p.rect(410,90,490,210,GOLD,3,10); p.flame(450,165,0.9); p.text(450,250,'丁 · 등불',30,HI,True); A['0204_해와등불']=p.save('0204_해와등불')
+p=Pic(W,H); p.poly([(120,300),(120,150),(310,50),(500,150),(500,300)],EARTH,4)
+for x,y in [(180,250),(260,250),(360,250),(440,250),(310,170)]: p.rect(x-18,y-20,x+18,y+20,GOLD,2,4); p.flame(x,y+8,0.4)
+for x,y in [(60,40),(560,60),(580,200),(40,180)]: p.circ(x,y,3,FG,1,fill=FG)
+A['0206_불밝힌집']=p.save('0206_불밝힌집')
+p=Pic(W,H); p.d.arc(p.p(170,120,290,200),200,340,fill=FG,width=8); p.d.arc(p.p(330,120,450,200),200,340,fill=FG,width=8)
+p.circ(230,190,20,FG,2); p.circ(390,190,20,FG,2); p.text(310,250,'흰 눈썹?',30,HI,True); A['0206_눈썹']=p.save('0206_눈썹')
+json.dump(A,open('/tmp/extra_art.json','w'),ensure_ascii=False); print(len(A))

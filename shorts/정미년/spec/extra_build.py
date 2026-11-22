@@ -112,20 +112,20 @@ P['0129-2100']=dict(date='2027-01-29',slot='2100',name='날짜에도 이름이 �
  scenes=[sc('어제 1월 28일은\n정미(丁未)일이었어요','Yesterday, January 28,\nwas a 丁未 (Jeongmi) day.','0129_달력',size=72,sec=4.0,instant=True,h=260),
   sc('날마다 60갑자 이름이\n하나씩 붙어요.\n60일이 지나면 같은 이름이 돌아와요.','Every day carries one of sixty names.\nAfter sixty days, the same name comes back.','0129_60',size=54,sec=6.0),
   sc('이 날짜 셈은 『춘추』의 기록부터\n2,700년 넘게\n끊기지 않고 이어져 왔다고 봐요.','This day count is thought to have run unbroken\nfor more than 2,700 years,\nsince the days of the Spring and Autumn Annals.','0129_60',sub='그 책의 일식 기록과 날짜가 들어맞거든요.',size=54,sec=6.5,tag='2,700년'),
-  sc('그리고 내 일간은,\n내가 태어난 날 이름의\n윗글자예요.','And your Day Master is the top character\nof the name of the day you were born.','0129_네기둥',sec=6.0),
-  sc('다음 정미일은 3월 29일.\n정미년은 입춘, 2월 4일에 시작돼요.','The next 丁未 day is March 29.\nThe 丁未 year begins at the start of spring (立春), February 4.',None,sub='그날 입춘의 일진은 갑인(甲寅)이에요.',size=56,sec=6.5,step=0.9)],
+  sc('60일마다 돌아오니\n한 해에 같은 날 이름을\n여섯 번쯤 만나요.','Since names return every sixty days,\neach comes round about six times a year.\nToday, January 29, is a 戊申 (Musin) day.','0129_60',sub='오늘 1월 29일은 무신(戊申)일이에요.',sec=6.0),
+  sc('다음 정미일은 3월 29일.\n정미년은 입춘, 2월 4일에 시작돼요.','The next 丁未 day is March 29.\nThe 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春), February 4.',None,sub='입춘 날의 일진은 갑인(甲寅)이에요.',size=56,sec=6.5,step=0.9)],
  caption='''어제 1월 28일은 정미(丁未)일이었어요.
 
 날마다 60갑자 이름이 하나씩 붙어요. 60일이 지나면 같은 이름이 돌아와요. 이 날짜 셈은 『춘추』의 기록부터 2,700년 넘게 끊기지 않고 이어져 왔다고 봐요. 그 책의 일식 기록과 날짜가 들어맞거든요.
 
-그리고 내 일간은 내가 태어난 날 이름의 윗글자예요.
+60일마다 돌아오니 한 해에 같은 날 이름을 여섯 번쯤 만나요. 오늘 1월 29일은 무신(戊申)일이에요.
 
 다음 정미일은 3월 29일이에요. 정미년은 입춘(2월 4일 오전 10시 46분)에 시작되고, 그날의 일진은 갑인(甲寅)이에요.
 
 이 영상의 소리는 다섯 가지 고요의 『Pale Ring』(금1 편)이에요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.
 
 · English ·
-Yesterday, January 28, was a 丁未 (Jeongmi) day. Every day carries one of sixty names, and after sixty days the same name comes back. This day count is thought to have run unbroken for more than 2,700 years, since the Spring and Autumn Annals, whose eclipse records match the count. And your Day Master is the top character of the name of the day you were born. The next 丁未 day is March 29. The 丁未 year begins at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST, on a 甲寅 (Gabin) day.
+Yesterday, January 28, was a 丁未 (Jeongmi) day. Every day carries one of sixty names, and after sixty days the same name comes back. This day count is thought to have run unbroken for more than 2,700 years, since the Spring and Autumn Annals, whose eclipse records match the count. Since names return every sixty days, each comes round about six times a year. Today, January 29, is a 戊申 (Musin) day. The next 丁未 day is March 29. The 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth begins at the start of spring (立春): Feb 4, 2027, 10:46 a.m. KST, on a 甲寅 (Gabin) day.
 Music in this video: Five Kinds of Quiet · Metal · “Pale Ring”. Find your Day Master with our free app, and the music: link in bio.
 
 #고요 #일진 #60갑자 #정미년 #오행음악''')
@@ -195,50 +195,52 @@ Tomorrow is the start of spring (立春). Today, earth’s eighteen days come to
 Music in this video: Five Kinds of Quiet · Yang Earth · “Earthen Path”. Find your Day Master with our free app, and the music: link in bio.
 
 #고요 #토왕용사 #입춘 #무토 #오행음악''')
-P['0204-1300']=dict(date='2027-02-04',slot='1300',name='입춘',
+P['0204-1300']=dict(date='2027-02-04',slot='1300',name='정미년 첫 글자의 소리',
  audio=dict(pyeon='정화',title='Little Lamp',file=U+'정화/16 Little Lamp.m4a',start_hms='',근거='원곡: 맥 고요음악/쇼츠/_릴스음원/정화/16 Little Lamp.m4a (60초 클립)'),
- music_ko='정화(丁火)',music_en='Yin Fire',end_tag='입춘의 소리',end_art='0204_황경',
- scenes=[sc('오늘 오전 10시 46분,\n봄이 섰어요','At 10:46 this morning,\nspring began.','0204_황경',size=76,sec=4.0,instant=True,h=260),
-  sc('해의 황경이 315도에 닿는 순간,\n그게 입춘(立春)이에요.','The moment the sun reaches 315 degrees\non the ecliptic: that is the start of spring (立春).','0204_황경',size=54,sec=5.5,tag='315°'),
-  sc('사주의 해도\n이 순간 바뀌었어요.\n오늘부터 정미년(丁未年).','The Saju year turned at that moment too.\nFrom today: the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.','0204_바뀜',sec=5.5),
-  sc('오늘 10시 46분 전에 태어나면 병오년생,\n그 뒤에 태어나면\n정미년생으로 봐요.','Born before 10:46 today: a 丙午 (Byeong-o) year birth.\nBorn after: a 丁未 year birth.','0204_바뀜',size=50,sec=6.0),
-  sc('입춘 날 일진은 갑인(甲寅).\n봄의 나무가 겹친 날이에요.','Today’s day name is 甲寅 (Gabin):\nspring wood on spring wood.',None,size=56,sec=5.0),
-  sc('정미년의 첫 글자는\n가까이 오래 비추는 등불, 정화.\n가까운 곳부터 밝히는 해로\n읽을 수 있어요.','The year opens with 丁火 Yin Fire (Jeonghwa):\na lamp that lights what is near, and keeps burning.\nOne way to read it: a year that lights up\nwhat’s near you first.',None,size=54,sec=7.0,step=0.9)],
- caption='''오늘 오전 10시 46분, 봄이 섰어요.
+ music_ko='정화(丁火)',music_en='Yin Fire',end_tag='정미년 첫날의 소리',end_art='0204_해와등불',
+ scenes=[sc('오늘 오전 10시 46분부터 정미년.\n첫 글자 정화(丁火)는\n어떤 소리일까요?','From 10:46 this morning (KST): the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.\nWhat does 丁火 Yin Fire (Jeonghwa) sound like?','0204_해와등불',size=62,sec=4.5,instant=True,h=240),
+  sc('고요의 정화 편은 재즈예요.\n로즈와 우리처, 두 전자 피아노가\n따뜻한 화음을 길게 눌러 줘요.','GOYO’s Yin Fire album is jazz:\ntwo vintage electric pianos, Rhodes and Wurlitzer,\nholding long, warm chords.','0204_전자피아노',size=54,sec=6.0),
+  sc('빠르기는 1분에 98~100박.\n고요의 불 가운데\n조금 느린 쪽이에요.','The tempo is 98 to 100 beats per minute,\nthe slower side of GOYO’s Fire music.\nThe 丙火 Yang Fire (Byeonghwa) album runs 102 to 104.','0204_메트로놈',sub='병화 편은 102~104박이에요.',sec=6.0,tag='98–100'),
+  sc('선율은 긴 음으로 천천히 내려앉고,\n일렉 베이스가 둥글게 받쳐요.','The melody settles in long notes,\nand a round electric bass holds it up.','0204_전자피아노',size=54,sec=5.5),
+  sc('병화가 사방을 비추는 해라면,\n정화는 가까이 오래 비추는 등불.\n그 차이를 빠르기와 음의 길이로 옮겼어요.','If Yang Fire is the sun lighting everything,\nYin Fire is a lamp that lights what is near, and keeps burning.\nWe turned that difference into tempo and note length.','0204_해와등불',size=50,sec=7.0,step=0.9)],
+ caption='''오늘 오전 10시 46분부터 정미년이에요. 첫 글자 정화(丁火)는 어떤 소리일까요?
 
-해의 황경이 315도에 닿는 순간, 그게 입춘(立春)이에요. 사주의 해도 이 순간 바뀌었어요. 오늘부터 정미년(丁未年)이에요. 오늘 10시 46분 전에 태어나면 병오년생, 그 뒤에 태어나면 정미년생으로 봐요.
+고요의 정화 편은 재즈예요. 로즈와 우리처, 두 전자 피아노가 따뜻한 화음을 길게 눌러 줘요. 빠르기는 1분에 98~100박으로, 고요의 불 가운데 조금 느린 쪽이에요. 병화 편은 102~104박이에요. 선율은 긴 음으로 천천히 내려앉고, 일렉 베이스가 둥글게 받쳐요.
 
-입춘 날 일진은 갑인(甲寅), 봄의 나무가 겹친 날이에요. 그리고 정미년의 첫 글자는 가까이 오래 비추는 등불, 정화(丁火)예요. 가까운 곳부터 밝히는 해로 읽을 수 있어요.
+병화가 사방을 비추는 해라면, 정화는 가까이 오래 비추는 등불이에요. 그 차이를 빠르기와 음의 길이로 옮겼어요.
+
+※ 오행을 공부해 온 제작자가 각 기운의 성질을 템포·선율·화음으로 옮겨 본 해석 시리즈예요.
 
 이 영상의 소리는 다섯 가지 고요의 『Little Lamp』(정화 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.
 
 · English ·
-At 10:46 this morning (KST), spring began. The moment the sun reaches 315 degrees on the ecliptic: that is the start of spring (立春). The Saju year turned at that moment too. From today: the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth. Born before 10:46 today, it’s a 丙午 (Byeong-o) year birth; born after, a 丁未 year birth. Today’s day name is 甲寅 (Gabin): spring wood on spring wood. And the year opens with 丁火 Yin Fire (Jeonghwa), a lamp that lights what is near, and keeps burning. One way to read it: a year that lights up what’s near you first.
+From 10:46 this morning (KST), it’s the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth. What does its first character, 丁火 Yin Fire (Jeonghwa), sound like? GOYO’s Yin Fire album is jazz: two vintage electric pianos, Rhodes and Wurlitzer, holding long, warm chords. The tempo is 98 to 100 beats per minute, the slower side of GOYO’s Fire music; the 丙火 Yang Fire (Byeonghwa) album runs 102 to 104. The melody settles in long notes, and a round electric bass holds it up. If Yang Fire is the sun lighting everything, Yin Fire is a lamp that lights what is near, and keeps burning. We turned that difference into tempo and note length.
 Music in this video: Five Kinds of Quiet · Yin Fire · “Little Lamp”. Find your Day Master with our free app, and the music: link in bio.
 
-#고요 #입춘 #정미년 #정화 #오행음악''')
-P['0206-1800']=dict(date='2027-02-06',slot='1800',name='내일 설날',
+#고요 #정미년 #정화 #재즈 #오행음악''')
+P['0206-1800']=dict(date='2027-02-06',slot='1800',name='섣달그믐 밤의 불',
  audio=dict(pyeon='정화',title='Golden Hush',file=U+'정화/17 Golden Hush.m4a',start_hms='',근거='원곡: 맥 고요음악/쇼츠/_릴스음원/정화/17 Golden Hush.m4a (60초 클립)'),
- music_ko='정화(丁火)',music_en='Yin Fire',end_tag='설 전날의 소리',end_art='0206_해와달',
- scenes=[sc('내일은 설날.\n그런데 사주의 새해는\n벌써 왔어요','Tomorrow is Seollal, the Lunar New Year.\nBut the Saju new year has already arrived.','0206_해와달',size=66,sec=4.5,instant=True,h=240),
-  sc('설날은 달(음력)의 새해,\n입춘은 해(절기)의 새해.','Seollal is the new year of the moon.\nThe start of spring (立春) is the new year of the sun.','0206_해와달',sec=5.5),
-  sc('올해는 입춘(2월 4일)이\n설(2월 7일)보다 사흘 먼저예요.','This year, the start of spring (Feb 4)\ncame three days before Seollal (Feb 7).','0206_나흘',sec=5.5),
-  sc('그래서 2월 4일 10시 46분부터\n오늘까지 태어난 아기는\n음력으론 아직 섣달생이어도\n사주로는 정미년생이에요.','So a baby born between 10:46 a.m. on Feb 4 and today\nis born in the last lunar month,\nbut in Saju belongs to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.','0206_나흘',size=50,sec=7.0,tag='사흘 차이'),
-  sc('내일 설날의 일진은 정사(丁巳).\n정미년 첫 설날이\n정화(丁火)의 날이에요.','Tomorrow’s day name is 丁巳 (Jeongsa):\nthe first Seollal of the 丁未 year falls on a\n丁火 Yin Fire (Jeonghwa) day.',None,size=56,sec=5.5),
-  sc('따뜻한 설 보내세요.','Have a warm Seollal.',None,sub='다섯 가지 고요',size=70,sec=4.0,step=0.9)],
- caption='''내일은 설날. 그런데 사주의 새해는 벌써 왔어요.
+ music_ko='정화(丁火)',music_en='Yin Fire',end_tag='그믐밤의 소리',end_art='0206_불밝힌집',
+ scenes=[sc('오늘은 섣달그믐.\n옛날엔 오늘 밤 잠들면\n눈썹이 센다고 했대요.','Today is the last night of the lunar year.\nPeople used to say: fall asleep tonight,\nand your eyebrows turn white.','0206_눈썹',size=62,sec=4.5,instant=True,h=220),
+  sc('그래서 밤새 잠들지 않고\n묵은해를 지켰어요.','So people stayed up all night\nto see the old year out.\nIt was called 守歲 (suse), keeping the year.','0206_불밝힌집',sub='이걸 수세(守歲), 해지킴이라고 해요.',sec=6.0,tag='守歲'),
+  sc('방, 마루, 부엌, 곳간, 장독대까지\n집 안 곳곳에 불을 밝혀 두고\n새벽닭이 울 때까지 기다렸어요.','Lamps were lit all through the house:\nrooms, hall, kitchen, storeroom, even the crock terrace,\nuntil the first rooster crowed.','0206_불밝힌집',size=52,sec=6.5),
+  sc('그래도 잠든 아이 눈썹엔\n흰 가루를 발라 두고,\n아침에 「눈썹 셌다」며 놀리기도 했어요.','Children who dozed off got white powder on their brows,\nand were teased in the morning that they had turned white.','0206_눈썹',size=52,sec=6.5),
+  sc('정미년의 첫 글자도 불, 정화(丁火).\n불 밝힌 그믐밤을 지나\n내일은 설날이에요.','The first character of the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nis a fire too: 丁火 Yin Fire (Jeonghwa).\nPast this lamp-lit night, tomorrow is Seollal.',None,size=56,sec=6.0,step=0.9)],
+ caption='''오늘은 섣달그믐. 옛날엔 오늘 밤 잠들면 눈썹이 센다고 했대요.
 
-설날은 달(음력)의 새해, 입춘은 해(절기)의 새해예요. 올해는 입춘(2월 4일)이 설(2월 7일)보다 사흘 먼저예요. 그래서 2월 4일 오전 10시 46분부터 오늘까지 태어난 아기는 음력으론 아직 섣달생이어도, 사주로는 정미년생이에요.
+그래서 밤새 잠들지 않고 묵은해를 지켰어요. 이걸 수세(守歲), 해지킴이라고 해요. 방, 마루, 부엌, 곳간, 장독대까지 집 안 곳곳에 불을 밝혀 두고 새벽닭이 울 때까지 기다렸어요. 그래도 잠든 아이 눈썹엔 흰 가루를 발라 두고, 아침에 「눈썹 셌다」며 놀리기도 했어요.
 
-내일 설날의 일진은 정사(丁巳). 정미년 첫 설날이 정화(丁火)의 날이에요. 따뜻한 설 보내세요.
+정미년의 첫 글자도 불, 정화(丁火)예요. 불 밝힌 그믐밤을 지나 내일은 설날이에요.
 
 이 영상의 소리는 다섯 가지 고요의 『Golden Hush』(정화 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.
 
+참고: 한국민족문화대백과사전 「수세」·「제석」
+
 · English ·
-Tomorrow is Seollal, the Lunar New Year. But the Saju new year has already arrived. Seollal is the new year of the moon; the start of spring (立春) is the new year of the sun. This year, the start of spring (Feb 4) came three days before Seollal (Feb 7). So a baby born between 10:46 a.m. KST on Feb 4 and today is born in the last lunar month, but in Saju belongs to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth. Tomorrow’s day name is 丁巳 (Jeongsa): the first Seollal of the 丁未 year falls on a 丁 Yin Fire day. Have a warm Seollal.
+Today is the last night of the lunar year. People used to say: fall asleep tonight, and your eyebrows turn white. So people stayed up all night to see the old year out. It was called 守歲 (suse), keeping the year. Lamps were lit all through the house: rooms, hall, kitchen, storeroom, even the crock terrace, until the first rooster crowed. Children who dozed off got white powder on their brows, and were teased in the morning that they had turned white. The first character of the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth is a fire too: 丁火 Yin Fire (Jeonghwa). Past this lamp-lit night, tomorrow is Seollal, the Lunar New Year.
 Music in this video: Five Kinds of Quiet · Yin Fire · “Golden Hush”. Find your Day Master with our free app, and the music: link in bio.
 
-#고요 #설날 #입춘 #정미년 #오행음악''')
+#고요 #섣달그믐 #수세 #설날 #오행음악''')
 P['0206-2100']=dict(date='2027-02-06',slot='2100',name='떡국 한 그릇, 한 살',
  audio=dict(pyeon='수1',title='Quiet Harbor',file=K+'수1/05 Quiet Harbor.m4a',start_hms=''),
  music_ko='수(水)',music_en='Water',end_tag='오늘 밤의 소리',end_art='0206_떡국',

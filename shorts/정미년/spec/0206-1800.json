@@ -1,7 +1,7 @@
 {
  "date": "2027-02-06",
  "slot": "1800",
- "name": "내일 설날",
+ "name": "섣달그믐 밤의 불",
  "audio": {
   "pyeon": "정화",
   "title": "Golden Hush",
@@ -11,9 +11,9 @@
  },
  "music_ko": "정화(丁火)",
  "music_en": "Yin Fire",
- "end_tag": "설 전날의 소리",
+ "end_tag": "그믐밤의 소리",
  "end_art": {
-  "file": "shorts/정미년/art/0206_해와달.png",
+  "file": "shorts/정미년/art/0206_불밝힌집.png",
   "h": 200
  },
  "scenes": [
@@ -21,8 +21,8 @@
    "sec": 4.5,
    "items": [
     [
-     "내일은 설날.\n그런데 사주의 새해는\n벌써 왔어요",
-     66,
+     "오늘은 섣달그믐.\n옛날엔 오늘 밤 잠들면\n눈썹이 센다고 했대요.",
+     62,
      [
       236,
       233,
@@ -32,7 +32,7 @@
      24
     ],
     [
-     "Tomorrow is Seollal, the Lunar New Year.\nBut the Saju new year has already arrived.",
+     "Today is the last night of the lunar year.\nPeople used to say: fall asleep tonight,\nand your eyebrows turn white.",
      28,
      [
       214,
@@ -44,16 +44,16 @@
     ]
    ],
    "art": {
-    "file": "shorts/정미년/art/0206_해와달.png",
-    "h": 240
+    "file": "shorts/정미년/art/0206_눈썹.png",
+    "h": 220
    },
    "instant": true
   },
   {
-   "sec": 5.5,
+   "sec": 6.0,
    "items": [
     [
-     "설날은 달(음력)의 새해,\n입춘은 해(절기)의 새해.",
+     "그래서 밤새 잠들지 않고\n묵은해를 지켰어요.",
      58,
      [
       236,
@@ -64,128 +64,7 @@
      24
     ],
     [
-     "Seollal is the new year of the moon.\nThe start of spring (立春) is the new year of the sun.",
-     28,
-     [
-      214,
-      210,
-      202
-     ],
-     false,
-     0
-    ]
-   ],
-   "art": {
-    "file": "shorts/정미년/art/0206_해와달.png",
-    "h": 280
-   }
-  },
-  {
-   "sec": 5.5,
-   "items": [
-    [
-     "올해는 입춘(2월 4일)이\n설(2월 7일)보다 사흘 먼저예요.",
-     58,
-     [
-      236,
-      233,
-      226
-     ],
-     true,
-     24
-    ],
-    [
-     "This year, the start of spring (Feb 4)\ncame three days before Seollal (Feb 7).",
-     28,
-     [
-      214,
-      210,
-      202
-     ],
-     false,
-     0
-    ]
-   ],
-   "art": {
-    "file": "shorts/정미년/art/0206_나흘.png",
-    "h": 280
-   }
-  },
-  {
-   "sec": 7.0,
-   "items": [
-    [
-     "그래서 2월 4일 10시 46분부터\n오늘까지 태어난 아기는\n음력으론 아직 섣달생이어도\n사주로는 정미년생이에요.",
-     50,
-     [
-      236,
-      233,
-      226
-     ],
-     true,
-     24
-    ],
-    [
-     "So a baby born between 10:46 a.m. on Feb 4 and today\nis born in the last lunar month,\nbut in Saju belongs to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth.",
-     28,
-     [
-      214,
-      210,
-      202
-     ],
-     false,
-     0
-    ]
-   ],
-   "art": {
-    "file": "shorts/정미년/art/0206_나흘.png",
-    "h": 280
-   },
-   "tag": "사흘 차이"
-  },
-  {
-   "sec": 5.5,
-   "items": [
-    [
-     "내일 설날의 일진은 정사(丁巳).\n정미년 첫 설날이\n정화(丁火)의 날이에요.",
-     56,
-     [
-      236,
-      233,
-      226
-     ],
-     true,
-     24
-    ],
-    [
-     "Tomorrow’s day name is 丁巳 (Jeongsa):\nthe first Seollal of the 丁未 year falls on a\n丁火 Yin Fire (Jeonghwa) day.",
-     28,
-     [
-      214,
-      210,
-      202
-     ],
-     false,
-     0
-    ]
-   ]
-  },
-  {
-   "sec": 4.0,
-   "items": [
-    [
-     "따뜻한 설 보내세요.",
-     70,
-     [
-      236,
-      233,
-      226
-     ],
-     true,
-     24
-    ],
-    [
-     "다섯 가지 고요",
+     "이걸 수세(守歲), 해지킴이라고 해요.",
      40,
      [
       200,
@@ -196,7 +75,101 @@
      24
     ],
     [
-     "Have a warm Seollal.",
+     "So people stayed up all night\nto see the old year out.\nIt was called 守歲 (suse), keeping the year.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_불밝힌집.png",
+    "h": 280
+   },
+   "tag": "守歲"
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "방, 마루, 부엌, 곳간, 장독대까지\n집 안 곳곳에 불을 밝혀 두고\n새벽닭이 울 때까지 기다렸어요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Lamps were lit all through the house:\nrooms, hall, kitchen, storeroom, even the crock terrace,\nuntil the first rooster crowed.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_불밝힌집.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.5,
+   "items": [
+    [
+     "그래도 잠든 아이 눈썹엔\n흰 가루를 발라 두고,\n아침에 「눈썹 셌다」며 놀리기도 했어요.",
+     52,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "Children who dozed off got white powder on their brows,\nand were teased in the morning that they had turned white.",
+     28,
+     [
+      214,
+      210,
+      202
+     ],
+     false,
+     0
+    ]
+   ],
+   "art": {
+    "file": "shorts/정미년/art/0206_눈썹.png",
+    "h": 280
+   }
+  },
+  {
+   "sec": 6.0,
+   "items": [
+    [
+     "정미년의 첫 글자도 불, 정화(丁火).\n불 밝힌 그믐밤을 지나\n내일은 설날이에요.",
+     56,
+     [
+      236,
+      233,
+      226
+     ],
+     true,
+     24
+    ],
+    [
+     "The first character of the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth\nis a fire too: 丁火 Yin Fire (Jeonghwa).\nPast this lamp-lit night, tomorrow is Seollal.",
      28,
      [
       214,
@@ -210,7 +183,7 @@
    "step": 0.9
   }
  ],
- "caption": "내일은 설날. 그런데 사주의 새해는 벌써 왔어요.\n\n설날은 달(음력)의 새해, 입춘은 해(절기)의 새해예요. 올해는 입춘(2월 4일)이 설(2월 7일)보다 사흘 먼저예요. 그래서 2월 4일 오전 10시 46분부터 오늘까지 태어난 아기는 음력으론 아직 섣달생이어도, 사주로는 정미년생이에요.\n\n내일 설날의 일진은 정사(丁巳). 정미년 첫 설날이 정화(丁火)의 날이에요. 따뜻한 설 보내세요.\n\n이 영상의 소리는 다섯 가지 고요의 『Golden Hush』(정화 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n· English ·\nTomorrow is Seollal, the Lunar New Year. But the Saju new year has already arrived. Seollal is the new year of the moon; the start of spring (立春) is the new year of the sun. This year, the start of spring (Feb 4) came three days before Seollal (Feb 7). So a baby born between 10:46 a.m. KST on Feb 4 and today is born in the last lunar month, but in Saju belongs to the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth. Tomorrow’s day name is 丁巳 (Jeongsa): the first Seollal of the 丁未 year falls on a 丁 Yin Fire day. Have a warm Seollal.\nMusic in this video: Five Kinds of Quiet · Yin Fire · “Golden Hush”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #설날 #입춘 #정미년 #오행음악",
+ "caption": "오늘은 섣달그믐. 옛날엔 오늘 밤 잠들면 눈썹이 센다고 했대요.\n\n그래서 밤새 잠들지 않고 묵은해를 지켰어요. 이걸 수세(守歲), 해지킴이라고 해요. 방, 마루, 부엌, 곳간, 장독대까지 집 안 곳곳에 불을 밝혀 두고 새벽닭이 울 때까지 기다렸어요. 그래도 잠든 아이 눈썹엔 흰 가루를 발라 두고, 아침에 「눈썹 셌다」며 놀리기도 했어요.\n\n정미년의 첫 글자도 불, 정화(丁火)예요. 불 밝힌 그믐밤을 지나 내일은 설날이에요.\n\n이 영상의 소리는 다섯 가지 고요의 『Golden Hush』(정화 편)예요. 내 일간을 찾는 무료 앱과 음악은 프로필 링크에서 볼 수 있어요.\n\n참고: 한국민족문화대백과사전 「수세」·「제석」\n\n· English ·\nToday is the last night of the lunar year. People used to say: fall asleep tonight, and your eyebrows turn white. So people stayed up all night to see the old year out. It was called 守歲 (suse), keeping the year. Lamps were lit all through the house: rooms, hall, kitchen, storeroom, even the crock terrace, until the first rooster crowed. Children who dozed off got white powder on their brows, and were teased in the morning that they had turned white. The first character of the 丁未 year (Jeongmi) · Yin Fire · Afternoon Earth is a fire too: 丁火 Yin Fire (Jeonghwa). Past this lamp-lit night, tomorrow is Seollal, the Lunar New Year.\nMusic in this video: Five Kinds of Quiet · Yin Fire · “Golden Hush”. Find your Day Master with our free app, and the music: link in bio.\n\n#고요 #섣달그믐 #수세 #설날 #오행음악",
  "key": "0206-1800",
- "note": "정미년 시리즈 · 내일 설날"
+ "note": "정미년 시리즈 · 섣달그믐 밤의 불"
 }
