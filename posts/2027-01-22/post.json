@@ -1,17 +1,17 @@
 {
- "type": "carousel",
- "via": "api",
- "approved": false,
- "files": [
-  "posts/2027-01-22/01.jpg",
-  "posts/2027-01-22/02.jpg",
-  "posts/2027-01-22/03.jpg",
-  "posts/2027-01-22/04.jpg",
-  "posts/2027-01-22/05.jpg",
-  "posts/2027-01-22/06.jpg",
-  "posts/2027-01-22/07.jpg",
-  "posts/2027-01-22/08.jpg"
- ],
- "caption": "그림 속 그 산으로, 서울 인왕산과 수성동 계곡.\n\n인왕산은 어제 본 〈인왕제색도〉의 바로 그 산이에요. 경복궁 서쪽, 서촌 뒤로 솟은 화강암 바위산이라, 눈이나 비가 그친 다음 날 가면 그림 속 젖은 바위를 직접 볼 수 있어요.\n\n산자락의 수성동(水聲洞)은 이름 그대로 물소리 골짜기예요. 조선 때부터 물소리로 이름난 계곡이고, 인왕산 아래 첫 계곡이에요. 길이는 190m 남짓, 청계천으로 이어지는 물줄기가 시작되는 곳이기도 해요. 정선은 이곳을 『장동팔경첩』의 「수성동」으로 그렸는데, 그림 속 돌다리 기린교가 지금도 제자리에 있어요. 한양 도성 안에서 유일하게 제자리에 원래 모습으로 남은 통돌 다리예요.\n\n1971년 계곡 양옆에 아파트 아홉 동이 들어섰어요. 2010년 서울시 기념물로 지정된 뒤 아파트를 헐고, 2012년 7월 계곡을 다시 열었어요. 물소리는 비가 넉넉히 온 뒤에야 제대로 들린다고 해요. 겨울에는 언 바위와 계곡을, 여름비 뒤에는 물소리를 보러 가 보세요. 서울 종로구 옥인동 185-3, 마을버스 종로09 종점이 계곡 앞이에요.\n\n어제의 바위는 경금, 오늘의 계곡물은 계수예요. 옛 책은 쇠가 물을 낳는다고 봐요. 바위 틈을 흐르는 물, 정미년의 열기를 식혀 주는 서늘한 물이에요. 제 해석이에요.\n\n계곡 곁에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 이끼 위에 내리는 비, 『Rain on Moss』예요. 프로필 링크에서 들을 수 있어요.\n\n참고: 서울시 미디어허브, 국가유산 디지털 백과(인왕산 수성동 계곡)\n\n· English ·\nInto the painting: Mt. Inwang and Suseong-dong Valley, Seoul.\n\nMt. Inwang is the mountain in yesterday's painting, After Rain at Mt. Inwang. It is a granite peak west of Gyeongbokgung Palace, rising behind the Seochon neighborhood. Go the day after rain or snow and you can see its rocks dark and wet, just as in the painting.\n\nOn its slope lies Suseong-dong (水聲洞), whose name means \"valley of the sound of water.\" It has been known for that sound since the Joseon era. It is the first valley below Mt. Inwang, about 190 m long, and it feeds the stream that becomes Cheonggyecheon. Jeong Seon painted it as \"Suseong-dong\" in an album of eight views, and its stone bridge, Girin-gyo, is still where he painted it: the only single-slab bridge inside the old city walls that survives in place, in its original form.\n\nIn 1971, nine apartment blocks rose on both sides of the valley. Named a Seoul monument in 2010, the valley reopened in July 2012 after the city tore them down. The water is said to be loudest after heavy rain. In winter, go for the frozen rocks; after summer rain, go back to listen. Address: 185-3 Okin-dong, Jongno-gu. Local bus Jongno 09 ends right at the valley.\n\nYesterday's rock was 庚金 Yang Metal (Gyeonggeum); today's valley water is 癸水 Yin Water (Gyesu). Old Saju texts say Metal gives rise to Water. To us, water running through rock is cool water for the coming hot Fire year. This is our own reading.\n\nFor the valley: Five Kinds of Quiet · Yin Water, music like fine rain and dew. Today's track is Rain on Moss. Listen at the link in bio.\n\nSources: Seoul Media Hub, Korea Heritage digital encyclopedia\n\n#고요 #고요여행 #인왕산 #수성동계곡 #서촌 #정선 #정미년 #오행음악 #seoul",
- "note": "정미년 시리즈 0122 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true"
+  "type": "carousel",
+  "via": "api",
+  "approved": true,
+  "files": [
+    "posts/2027-01-22/01.jpg",
+    "posts/2027-01-22/02.jpg",
+    "posts/2027-01-22/03.jpg",
+    "posts/2027-01-22/04.jpg",
+    "posts/2027-01-22/05.jpg",
+    "posts/2027-01-22/06.jpg",
+    "posts/2027-01-22/07.jpg",
+    "posts/2027-01-22/08.jpg"
+  ],
+  "caption": "그림 속 그 산으로, 서울 인왕산과 수성동 계곡.\n\n인왕산은 어제 본 〈인왕제색도〉의 바로 그 산이에요. 경복궁 서쪽, 서촌 뒤로 솟은 화강암 바위산이라, 눈이나 비가 그친 다음 날 가면 그림 속 젖은 바위를 직접 볼 수 있어요.\n\n산자락의 수성동(水聲洞)은 이름 그대로 물소리 골짜기예요. 조선 때부터 물소리로 이름난 계곡이고, 인왕산 아래 첫 계곡이에요. 길이는 190m 남짓, 청계천으로 이어지는 물줄기가 시작되는 곳이기도 해요. 정선은 이곳을 『장동팔경첩』의 「수성동」으로 그렸는데, 그림 속 돌다리 기린교가 지금도 제자리에 있어요. 한양 도성 안에서 유일하게 제자리에 원래 모습으로 남은 통돌 다리예요.\n\n1971년 계곡 양옆에 아파트 아홉 동이 들어섰어요. 2010년 서울시 기념물로 지정된 뒤 아파트를 헐고, 2012년 7월 계곡을 다시 열었어요. 물소리는 비가 넉넉히 온 뒤에야 제대로 들린다고 해요. 겨울에는 언 바위와 계곡을, 여름비 뒤에는 물소리를 보러 가 보세요. 서울 종로구 옥인동 185-3, 마을버스 종로09 종점이 계곡 앞이에요.\n\n어제의 바위는 경금, 오늘의 계곡물은 계수예요. 옛 책은 쇠가 물을 낳는다고 봐요. 바위 틈을 흐르는 물, 정미년의 열기를 식혀 주는 서늘한 물이에요. 제 해석이에요.\n\n계곡 곁에는 가는 비와 이슬 같은 『다섯 가지 고요｜계수(癸水)』. 오늘 고른 곡은 이끼 위에 내리는 비, 『Rain on Moss』예요. 프로필 링크에서 들을 수 있어요.\n\n참고: 서울시 미디어허브, 국가유산 디지털 백과(인왕산 수성동 계곡)\n\n· English ·\nInto the painting: Mt. Inwang and Suseong-dong Valley, Seoul.\n\nMt. Inwang is the mountain in yesterday's painting, After Rain at Mt. Inwang. It is a granite peak west of Gyeongbokgung Palace, rising behind the Seochon neighborhood. Go the day after rain or snow and you can see its rocks dark and wet, just as in the painting.\n\nOn its slope lies Suseong-dong (水聲洞), whose name means \"valley of the sound of water.\" It has been known for that sound since the Joseon era. It is the first valley below Mt. Inwang, about 190 m long, and it feeds the stream that becomes Cheonggyecheon. Jeong Seon painted it as \"Suseong-dong\" in an album of eight views, and its stone bridge, Girin-gyo, is still where he painted it: the only single-slab bridge inside the old city walls that survives in place, in its original form.\n\nIn 1971, nine apartment blocks rose on both sides of the valley. Named a Seoul monument in 2010, the valley reopened in July 2012 after the city tore them down. The water is said to be loudest after heavy rain. In winter, go for the frozen rocks; after summer rain, go back to listen. Address: 185-3 Okin-dong, Jongno-gu. Local bus Jongno 09 ends right at the valley.\n\nYesterday's rock was 庚金 Yang Metal (Gyeonggeum); today's valley water is 癸水 Yin Water (Gyesu). Old Saju texts say Metal gives rise to Water. To us, water running through rock is cool water for the coming hot Fire year. This is our own reading.\n\nFor the valley: Five Kinds of Quiet · Yin Water, music like fine rain and dew. Today's track is Rain on Moss. Listen at the link in bio.\n\nSources: Seoul Media Hub, Korea Heritage digital encyclopedia\n\n#고요 #고요여행 #인왕산 #수성동계곡 #서촌 #정선 #정미년 #오행음악 #seoul",
+  "note": "정미년 시리즈 0122 (인스타 창 11/21). 설정 jeongmi/build.py · 렌더 example_saju.py. 미오 님 확인 뒤 approved true | 11/22 18:46 미오 님 「다 승인」"
 }
