@@ -14,19 +14,24 @@ def call(path, data=None):
         req=urllib.request.Request(url, urllib.parse.urlencode(dict(data,access_token=T)).encode())
     try: return json.load(urllib.request.urlopen(req, timeout=180))
     except urllib.error.HTTPError as e: print('ERR', e.read().decode()); sys.exit(1)
+PACE=int(os.environ.get('GOYO_PACE','8'))  # 요청 사이 쉬는 초 (너무 빠르면 2207051·다운로드 시간 초과)
 def wait(cid, tries=60):
     for _ in range(tries):
         s=call(f'{cid}?fields=status_code,status')
         if s.get('status_code')=='FINISHED': return
         if s.get('status_code')=='ERROR': print('ERR status',s); sys.exit(1)
-        time.sleep(5)
+        time.sleep(10)
     print('ERR timeout',cid); sys.exit(1)
 def build(cfg):
     t=cfg['type']
     if t=='carousel':
-        kids=[call(f'{IG}/media',{'image_url':u,'is_carousel_item':'true'})['id'] for u in cfg['urls']]
-        for k in kids: wait(k)
+        # 천천히: 한 장씩 만들고 다 될 때까지 기다린 뒤 다음 장 (2026-11-23 미오 님 요청)
+        kids=[]
+        for u in cfg['urls']:
+            k=call(f'{IG}/media',{'image_url':u,'is_carousel_item':'true'})['id']
+            time.sleep(PACE); wait(k); kids.append(k); time.sleep(PACE)
         c=call(f'{IG}/media',{'media_type':'CAROUSEL','children':','.join(kids),'caption':cfg['caption']})
+        time.sleep(PACE)
     elif t=='story':
         c=call(f'{IG}/media',{'media_type':'STORIES','image_url':cfg['urls'][0]})
     elif t=='reel':
@@ -40,5 +45,7 @@ def build(cfg):
 if __name__=='__main__':
     cfg=json.load(open(sys.argv[1])); cid=build(cfg)
     if '--dry' in sys.argv: print(json.dumps({'dry_container':cid})); sys.exit(0)
+    time.sleep(PACE*2)  # 컨테이너 준비 뒤 게시 전 한숨 쉬기
     r=call(f'{IG}/media_publish',{'creation_id':cid})
+    time.sleep(PACE*2)  # 게시 직후 바로 조회하지 않기
     print(json.dumps(call(f"{r['id']}?fields=permalink,timestamp"),ensure_ascii=False))
