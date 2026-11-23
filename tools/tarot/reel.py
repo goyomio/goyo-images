@@ -42,6 +42,27 @@ for c in cfg['cards']:
     im = Image.open(os.path.join(root, 'deck_1909', c['file'])).convert('RGB')
     if c.get('rev'): im = im.rotate(180)
     faces.append(im.resize((CW, CH), Image.LANCZOS))
+
+# 2026-11-23 미오 님 결정: 11/21 유튜브 쇼츠가 악마 카드 그림으로 「과도한 노출」 삭제 → 이의신청 중.
+# 유튜브판(yt)에서만 노출 그림 카드는 그림 대신 글(번호·이름·사유)로 뒤집힌다. 인스타판(ig)은 그림 그대로.
+NUDE = {'m06', 'm15', 'm17', 'm19', 'm20', 'm21'}   # 연인·악마·별·태양·심판·세계
+ROMAN = ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII', 'XIX', 'XX', 'XXI']
+def make_text_face(c):
+    b = Image.new('RGB', (CW, CH), (24, 22, 30)); dr = ImageDraw.Draw(b)
+    dr.rectangle([6, 6, CW - 7, CH - 7], outline=GOLD, width=3); dr.rectangle([18, 18, CW - 19, CH - 19], outline=(120, 100, 64), width=1)
+    cx = CW // 2
+    ctext(dr, 38, ROMAN[int(c['id'][1:])], EN(96), GOLD, cx)
+    y = 168
+    for ln in wrap(dr, c['title'], F(40, True), CW - 40): ctext(dr, y, ln, F(40, True), FG, cx); y += 52
+    for ln in wrap(dr, card_en(c), EN(30), CW - 40): ctext(dr, y + 4, ln, EN(30), SUB, cx); y += 36
+    y += 20; dr.line([(cx - 60, y), (cx + 60, y)], fill=(120, 100, 64), width=1); y += 20
+    for ln in ['이 카드 그림은', '유튜브가 노출로 판단해', '지금 이의신청 중이에요.', '결과가 나올 때까지', '글로 보여 드려요.']:
+        ctext(dr, y, ln, F(26), SUB, cx); y += 34
+    y += 6
+    for ln in ['Image under YouTube review,', 'shown as text for now.']:
+        ctext(dr, y, ln, EN(24), SUB, cx); y += 26
+    assert y < CH - 24, y
+    return b
 def make_back():
     b = Image.new('RGB', (CW, CH), (24, 22, 30)); dr = ImageDraw.Draw(b)
     dr.rectangle([6, 6, CW - 7, CH - 7], outline=GOLD, width=3); dr.rectangle([18, 18, CW - 19, CH - 19], outline=(120, 100, 64), width=1)
@@ -71,6 +92,9 @@ def wrap(dr, t, f, maxw):
         l1, l2 = ' '.join(ws[:k]), ' '.join(ws[k:]); s = max(dr.textlength(l1, font=f), dr.textlength(l2, font=f))
         if best is None or s < best[0]: best = (s, [l1, l2])
     return best[1] if best else [t]
+
+if VARIANT == 'yt':
+    faces = [make_text_face(c) if c['id'] in NUDE else f for c, f in zip(cfg['cards'], faces)]
 
 def frame(t):
     im = Image.new('RGB', (W, H), BG); dr = ImageDraw.Draw(im)
