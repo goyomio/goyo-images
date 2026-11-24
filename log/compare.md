@@ -26,3 +26,4 @@
 | 2026-11-23 21시 | api | 성공 | 21:01:54 | 2분 10초 | 없음 | 을목 무음편 릴스 https://www.instagram.com/reel/DgFVPgMnNRP/ |
 | 2026-11-24 타로 | api | 성공 | 06:02 | 약 3분 | 아니요 | 2207051 오류 응답이었지만 실제 게시됨 |
 | 2026-11-24 10시 타로 릴스 | api | 성공 | 10:01 | 약 2분 | 없음 | https://www.instagram.com/reel/DgGuf0MEoOT/ |
+| 2026-11-24 15시 | api | 성공 | 15:01 | 79초 | 없음 | 병화 무음편 쇼츠 릴스 https://www.instagram.com/reel/DgHQvOwjvZ1/ |
