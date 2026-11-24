@@ -1,0 +1,10 @@
+{
+ "when": "2026-11-24T21:02:57.456094+00:00",
+ "via": "api",
+ "ok": true,
+ "out": "ERR {\"error\":{\"message\":\"Application request limit reached\",\"code\":4,\"type\":\"OAuthException\",\"error_subcode\":2207051,\"is_transient\":false,\"error_user_msg\":\"Instagram은 커뮤니티를 보호하기 위해 특정 활동을 제한합니다. 이 조치가 실수라고 생각하는 경우 저희에게 알려주세요.\",\"error_user_title\":\"행동이 차단되었습니다\",\"fbtrace_id\":\"Af-__PIi8boNkGdCcmzSoRv\"}}",
+ "id": "17994004350082521",
+ "permalink": "https://www.instagram.com/p/DgI3-z5F_VJ/",
+ "posted": "2026-11-24T21:02:54+0000",
+ "note": "스크립트는 2207051 오류를 돌려줬지만 목록 확인 결과 게시됨"
+}
