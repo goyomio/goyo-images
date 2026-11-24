@@ -1,0 +1,9 @@
+{
+ "type": "reel",
+ "via": "api",
+ "approved": true,
+ "video_file": "posts/2026-11-25-1000/reel.mp4",
+ "caption": "11월 25일, 오늘의 타로.\n\n오늘 고요를 찾으시는 분들을 위해 뽑은 세 장이에요. 세 장의 풀이는 오늘 피드 게시물 「오늘의 타로」에 적어 두었어요.\n\n고요는 매일 아침 타로 세 장을 뽑아 풀어드려요. 무료 사주 앱에서 내 오행을 찾고, 그 오행의 음악을 들을 수 있어요. 앱과 음악은 프로필 링크에서 열 수 있어요.\n\n이 영상에 깔린 소리는 다섯 가지 고요 기토(己土) 편이에요.\n\n· English ·\nToday's Tarot, November 25.\n\nThree cards drawn for everyone who finds GOYO today. The full reading is in today's feed post, \"Today's Tarot.\"\n\nEvery morning, GOYO draws three cards and reads them for you. Find your element in our free saju app and listen to its music. App and music: link in bio.\n\nThe music in this video is Five Kinds of Quiet · 己土 Yin Earth (Gito).\n\n#고요 #오늘의타로 #타로 #고요타로 #오행음악 #플레이리스트 #dailytarot #tarot",
+ "note": "11/25 오늘의 타로 릴스(10:00). 06:00 작업이 make_reel_post.py 로 자동 생성. 같은 폴더 short_yt.mp4 는 유튜브 쇼츠용(미오 님이 올림)",
+ "thumb_offset": 0
+}
