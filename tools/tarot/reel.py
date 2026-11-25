@@ -45,6 +45,7 @@ for c in cfg['cards']:
 
 # 2026-11-23 미오 님 결정: 11/21 유튜브 쇼츠가 악마 카드 그림으로 「과도한 노출」 삭제 → 이의신청 중.
 # 유튜브판(yt)에서만 노출 그림 카드는 그림 대신 글(번호·이름·사유)로 뒤집힌다. 인스타판(ig)은 그림 그대로.
+# 2026-11-26: 이의신청 인용 → 꺼 둠(NUDE_TEXT=False). 썸네일은 0초 장면(카드 뒷면)이라 그림이 들어가지 않음.
 NUDE = {'m06', 'm15', 'm17', 'm19', 'm20', 'm21'}   # 연인·악마·별·태양·심판·세계
 ROMAN = ['0', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'XVIII', 'XIX', 'XX', 'XXI']
 def make_text_face(c):
@@ -93,7 +94,8 @@ def wrap(dr, t, f, maxw):
         if best is None or s < best[0]: best = (s, [l1, l2])
     return best[1] if best else [t]
 
-if VARIANT == 'yt':
+NUDE_TEXT = False   # 11/26 이의신청 인용(콘텐츠 복구) → 권미오님 결정으로 그림으로 되돌림. 다시 필요하면 True.
+if VARIANT == 'yt' and NUDE_TEXT:
     faces = [make_text_face(c) if c['id'] in NUDE else f for c, f in zip(cfg['cards'], faces)]
 
 def frame(t):
