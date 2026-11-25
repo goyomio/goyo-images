@@ -3,16 +3,19 @@
 
   python3 tools/youtube/tarot_short.py YYYY-MM-DD [check|all] [폴더]
 
- - 입력: posts/<날짜>-1000/ (make_reel_post.py 가 만든 short_yt.mp4, reel_first.jpg, tarot.json)
- - 순서(반드시): ① 썸네일 없이 업로드(비공개+예약) → ② 영어 번역 넣기 → ③ 썸네일 넣기
-   (썸네일을 먼저 넣으면 번역 뒤에 썸네일이 빠지는 일이 있었음, 11/21)
+ - 입력: posts/<날짜>-1000/ (make_reel_post.py 가 만든 short_yt.mp4, tarot.json)
+ - 썸네일: short_yt.mp4 에서 카드 세 장이 모두 뒤집혀 이름까지 다 보이는 장면(THUMB_AT 초)을 잘라 short_thumb.jpg 로 만든다.
+   (2026-11-25 미오 님 결정: 카드 뒷면(reel_first.jpg)이 아니라 카드가 다 보이는 장면으로)
+ - 순서(반드시): ① 썸네일 없이 업로드(비공개+예약) → ② 영어 번역 넣기 → ③ 영상 처리가 끝날 때까지 기다린 뒤 다시 들어가 썸네일 넣기
+   (썸네일을 먼저 넣으면 번역 뒤에 썸네일이 빠지는 일이 있었음, 11/21.
+    API가 너무 빨라 처리 전에 넣으면 썸네일이 무시됨 → 처리 완료 확인 + THUMB_WAIT 초 더 쉰 뒤에 넣는다, 11/25 미오 님)
  - 공개: 그날 10:00 KST (인스타 릴스와 같은 시각). 이미 지났으면 지금부터 15분 뒤.
  - 언어: 기본 한국어 + 영어 번역 1개만 (미오 님 11/21: 타로는 한영만).
  - 재생목록 「쇼츠」, AI 사용 「예」, 아동용 아님, 카테고리 음악.
  - 결과: posts/<날짜>-1000/yt_result.json. 같은 제목이 이미 있으면 올리지 않는다(중복 방지).
  - 끝나면 호출한 작업이 log/youtube/ 와 yt_result.json 을 커밋·푸시한다.
 """
-import datetime, json, os, re, sys
+import datetime, json, os, re, subprocess, sys, time
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -34,6 +37,36 @@ RK_EN = ['Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine',
 POS_EN = ["Today's flow", 'What to keep', 'What to let go']
 MON = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 PLAYLIST_URL = 'https://www.youtube.com/playlist?list=PLRm375HI5ZcA'
+# tools/tarot/reel.py 기준: 세 번째 카드 이름까지 다 보이는 때 6.1초, 끝 장면으로 넘어가기 시작 7.5초(END)
+THUMB_AT = 7.0
+THUMB_WAIT = 90          # 처리 완료 확인 뒤 썸네일 넣기 전 추가로 쉬는 초
+
+
+def make_thumb(folder):
+    out = f'{folder}/short_thumb.jpg'
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(THUMB_AT), '-i', f'{folder}/short_yt.mp4',
+                    '-frames:v', '1', '-q:v', '3', out], check=True)
+    if not os.path.exists(out) or os.path.getsize(out) > 2_000_000:
+        sys.exit('멈춤: 썸네일(short_thumb.jpg)을 만들지 못했거나 2MB를 넘어요.')
+    return out
+
+
+def wait_processed(vid, limit=900):
+    """영상 처리(processingStatus)가 succeeded 가 될 때까지 기다린다. 한도 1/회."""
+    cloud.prepare(); g = cloud.load()
+    yt, _ = g.login('goyo')
+    t0 = time.time(); st = '?'
+    while time.time() - t0 < limit:
+        g.guard(1)
+        r = yt.videos().list(part='processingDetails,status', id=vid).execute(); g.spend(1)
+        it = (r.get('items') or [{}])[0]
+        st = it.get('processingDetails', {}).get('processingStatus', '?')
+        print('처리 상태:', st, int(time.time() - t0), '초')
+        if st in ('succeeded', 'failed', 'terminated'):
+            break
+        time.sleep(30)
+    cloud.finish()
+    return st
 
 
 def en_name(c):
@@ -102,6 +135,8 @@ def main():
     mode = sys.argv[2] if len(sys.argv) > 2 else 'check'
     folder = sys.argv[3] if len(sys.argv) > 3 else f'posts/{date}-1000'
     plan, loc = build(date, folder)
+    thumb = make_thumb(folder)
+    print('썸네일:', thumb, f'({THUMB_AT}초 장면)')
     pp, lp = f'/tmp/yt_tarot_plan_{date}.json', f'/tmp/yt_tarot_loc_{date}.json'
     json.dump(plan, open(pp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('제목:', plan[0]['title'], f"({len(plan[0]['title'])}자)")
@@ -122,12 +157,16 @@ def main():
     # ② 영어 번역
     json.dump({vid: loc}, open(lp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     cloud.run(['goyo', 'loc-apply', 'all', lp])
-    # ③ 썸네일
+    # ③ 처리 끝날 때까지 기다렸다가 다시 들어가 썸네일
+    st = wait_processed(vid)
+    if st != 'succeeded':
+        print('주의: 처리 상태가', st, '— 그래도 썸네일을 넣어 봄')
+    time.sleep(THUMB_WAIT)
     tp = f'/tmp/yt_tarot_thumb_{date}.json'
-    json.dump([{"id": vid, "thumb": f'{folder}/reel_first.jpg'}], open(tp, 'w', encoding='utf-8'))
+    json.dump([{"id": vid, "thumb": thumb}], open(tp, 'w', encoding='utf-8'))
     cloud.run(['goyo', 'thumb-set', 'all', tp])
     json.dump({"video_id": vid, "url": f"https://youtube.com/shorts/{vid}", "publishAt": plan[0]['publishAt'],
-               "title": plan[0]['title'], "languages": ["ko", "en"], "thumb": "reel_first.jpg",
+               "title": plan[0]['title'], "languages": ["ko", "en"], "thumb": "short_thumb.jpg", "thumb_at": THUMB_AT,
                "done": datetime.datetime.now().isoformat(timespec='seconds')},
               open(f'{folder}/yt_result.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('끝:', vid)
