@@ -33,3 +33,4 @@
 | 2026-11-25 10시 타로 릴스 | api | 성공 | 10:00:56 | 78초 | 없음 | https://www.instagram.com/reel/DgJTMiBBLS6/ |
 | 2026-11-25 13시 | api | 성공 | 13:02 | 약 3분 | 없음 | 캐러셀 6장, 영어 블록 자동 추가 |
 | 2026-11-25 15시 | api | 성공 | 15:00:58 | 76초 | 없음 | 무음편 쇼츠 정화 릴스, https://www.instagram.com/reel/DgJ1hklCJrr/ |
+| 2026-11-25 18시 | api | 성공 | 18:03:44 | 3분 56초 | 없음 | 예시 사주 풀이 #2 캐러셀 9장, https://www.instagram.com/p/DgKKekCjZwc/ |
