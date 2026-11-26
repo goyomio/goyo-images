@@ -212,3 +212,23 @@
 2026-11-26 18:36:52  성공 TxgQp6pk37M | 기존 번역 그대로 | 새 번역 들어감 | 한국어·예약 그대로 | 언어 13개 | 바다를 바라보는 절, 김제 망해사의 해넘이｜Mangha
 2026-11-26 18:36:53  끝: 1편 번역 넣음 | 오늘 한도 사용 552점 / 10,000
 2026-11-26 18:36:53  오늘 한도 사용 552점 / 10,000 (두 채널 합산)
+2026-11-27 06:05:52  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:05:54  [goyo] 쇼츠 올리기 계획 1편 | 재생목록 ['쇼츠', '수(水) 오행음악｜Water Element Music', '금(金) 오행음악｜Metal (Stone & Ore) Element Music', '토(土) 오행음악｜Earth Element Music', '화(火) 오행음악｜Fire Element Music', '목(木) 오행음악｜Wood Element Music', 'GOYO 오행음악']
+2026-11-27 06:05:56  올림 uVC3BFXTUSQ | 11월 27일 오늘의 타로｜별·완드 6·완드 3｜Daily Tarot
+2026-11-27 06:06:00  AI 표시 다시 넣음 uVC3BFXTUSQ | 응답 containsSyntheticMedia=True
+2026-11-27 06:06:04  확인 필요 uVC3BFXTUSQ | 제목 O · 설명 O · 태그 X · 카테고리 음악 O · 언어 한국어 O · 비공개+예약 O · 아동용 아님 O · 유료 프로모션 없음 O | AI 표시 「예」 넣음(API로는 다시 읽히지 않음 — 스튜디오에서 확인) | 예약 2026-11-27T01:00:00Z | 썸네일·재생목록 「쇼츠」 넣음
+2026-11-27 06:06:04  멈춤: 확인이 맞지 않아 여기서 멈췄어요.
+2026-11-27 06:06:25  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:06:32  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:06:35  태그 다시 넣음 uVC3BFXTUSQ | None
+2026-11-27 06:06:40  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:07:40  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:07:48  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:07:48  [goyo] 번역 넣기: 파일 yt_tarot_loc_2026-11-27.json · 영상 1편
+2026-11-27 06:07:50  성공 uVC3BFXTUSQ | 기존 번역 그대로 | 새 번역 들어감 | 한국어·예약 그대로 | 언어 2개 | 11월 27일 오늘의 타로｜별·완드 6·완드 3｜Dai
+2026-11-27 06:07:51  끝: 1편 번역 넣음 | 오늘 한도 사용 773점 / 10,000
+2026-11-27 06:07:51  오늘 한도 사용 773점 / 10,000 (두 채널 합산)
+2026-11-27 06:07:51  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:09:22  채널 확인: GOYO (UCmXTroWxrDKnjIshIu--qMQ)
+2026-11-27 06:09:24  성공 썸네일 uVC3BFXTUSQ | short_thumb.jpg
+2026-11-27 06:09:24  오늘 한도 사용 826점 / 10,000 (두 채널 합산)
