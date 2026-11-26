@@ -36,3 +36,4 @@
 | 2026-11-25 18시 | api | 성공 | 18:03:44 | 3분 56초 | 없음 | 예시 사주 풀이 #2 캐러셀 9장, https://www.instagram.com/p/DgKKekCjZwc/ |
 | 2026-11-25 18:20 | api | 성공 | 18:21:02 | 74초 | 없음 | 예시 사주 풀이 #2 릴스, https://www.instagram.com/reel/DgKMa6szcBE/ |
 | 2026-11-26 타로 | api | 성공 | 06:02:58 | 3분 14초 | 없음 | 완드 2 역·펜타클 8·완드 7 역, https://www.instagram.com/p/DgLcyahl27a/ |
+| 2026-11-26 10시 타로 릴스 | api | 성공 | 10:01 | 1분 45초 | 없음 | https://www.instagram.com/reel/DgL4CBYoQsh/ |
