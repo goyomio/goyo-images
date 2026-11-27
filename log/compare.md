@@ -43,3 +43,4 @@
 | 2026-11-27 10시 타로 릴스 | api | 성공 | 10:01:45 | 약 2분 | 없음 | https://www.instagram.com/reel/DgOc4iLJ8xr/ |
 | 2026-11-27 15시 | api | 성공 | 15:01:53 | 약 2분 10초 | 없음 | 기토 무음편 쇼츠 릴스 https://www.instagram.com/reel/DgO_OvYhROX/ |
 | 2026-11-27 | api | 성공 | 18:03 | 4분 13초 | 없음 | 예시 사주 풀이 #3 캐러셀 10장 https://www.instagram.com/p/DgPUFeljQoh/ |
+| 2026-11-27 18:20 | api | 성공 | 18:20:53 | 1분 15초 | 없음 | 예시 사주 풀이 #3 릴스 https://www.instagram.com/reel/DgPV_ixNt5I/ |
