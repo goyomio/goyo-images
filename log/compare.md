@@ -40,3 +40,4 @@
 | 2026-11-26 15시 | api | 성공 | 15:00:53 | 76초 | 없음 | 무음편 무토 릴스 https://www.instagram.com/reel/DgMaUAbB7am/ |
 | 2026-11-26 21시 | api | 성공 | 21:01:21 | 1분 32초 | 없음 | 문창·학당 귀인 릴스, 영어 블록 자동 추가(첫 시도 캡션 2,200자 초과로 영어 줄여 재시도) https://www.instagram.com/reel/DgNDjumBB2e/ |
 | 2026-11-27 타로 | api | 성공 | 06:03:05 | 약 3분 | 없음 | 별 / 완드 6 거꾸로 / 완드 3 https://www.instagram.com/p/DgOBl_gDOc9/ |
+| 2026-11-27 10시 타로 릴스 | api | 성공 | 10:01:45 | 약 2분 | 없음 | https://www.instagram.com/reel/DgOc4iLJ8xr/ |
