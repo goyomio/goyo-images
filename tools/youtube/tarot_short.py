@@ -4,8 +4,9 @@
   python3 tools/youtube/tarot_short.py YYYY-MM-DD [check|all] [폴더]
 
  - 입력: posts/<날짜>-1000/ (make_reel_post.py 가 만든 short_yt.mp4, tarot.json)
- - 썸네일: short_yt.mp4 에서 카드 세 장이 모두 뒤집혀 이름까지 다 보이는 장면(THUMB_AT 초)을 잘라 short_thumb.jpg 로 만든다.
-   (2026-11-25 미오 님 결정: 카드 뒷면(reel_first.jpg)이 아니라 카드가 다 보이는 장면으로)
+ - 썸네일: short_yt.mp4 에서 카드 세 장이 모두 뒷면이라 그림이 안 보이는 장면(THUMB_AT 초)을 잘라 short_thumb.jpg 로 만든다.
+   (2026-11-28 미오 님: 「썸네일은 반드시 세 장 다 그림이 안 보이는 화면」. 11/25에 「카드가 다 보이는 장면」으로 잘못 옮겨 적혀
+    11/26~28 쇼츠가 앞면 썸네일로 나갔음 → 11/28 세 편 썸네일 바꿔 넣음)
  - 순서(반드시): ① 썸네일 없이 업로드(비공개+예약) → ② 영어 번역 넣기 → ③ 영상 처리가 끝날 때까지 기다린 뒤 다시 들어가 썸네일 넣기
    (썸네일을 먼저 넣으면 번역 뒤에 썸네일이 빠지는 일이 있었음, 11/21.
     API가 너무 빨라 처리 전에 넣으면 썸네일이 무시됨 → 처리 완료 확인 + THUMB_WAIT 초 더 쉰 뒤에 넣는다, 11/25 미오 님)
@@ -37,8 +38,8 @@ RK_EN = ['Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine',
 POS_EN = ["Today's flow", 'What to keep', 'What to let go']
 MON = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 PLAYLIST_URL = 'https://www.youtube.com/playlist?list=PLRm375HI5ZcA'
-# tools/tarot/reel.py 기준: 세 번째 카드 이름까지 다 보이는 때 6.1초, 끝 장면으로 넘어가기 시작 7.5초(END)
-THUMB_AT = 7.0
+# tools/tarot/reel.py 기준: 첫 카드 뒤집기 시작 1.2초(T0) → 그 전은 세 장 모두 뒷면. 0.6초 = 제목·날짜 + 뒷면 세 장
+THUMB_AT = 0.6
 THUMB_WAIT = 90          # 처리 완료 확인 뒤 썸네일 넣기 전 추가로 쉬는 초
 
 
