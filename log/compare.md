@@ -48,3 +48,4 @@
 | 2026-11-28 10시 타로 릴스 | api | 성공 | 10:01 | 1분 48초 | 없음 | 병화(丙火) 음원 https://www.instagram.com/reel/DgRBowVP3tg/ |
 | 2026-11-28 15시 | api | 성공 | 15:00:59 | 1분 15초 | 없음 | 경금 무음편 쇼츠 릴스 https://www.instagram.com/reel/DgRj6X4ART6/ |
 | 2026-11-28 | api | 성공 | 18:00:47 | 1분 6초 | 없음 | 화 많은 사주(병오일) 릴스 https://www.instagram.com/reel/DgR4goNymyQ/ |
+| 2026-11-28 21시 | api | 성공 | 21:01:36 | 1분 36초 | 없음 | 화개·고신과숙 릴스(신살 5회). 영어 블록 자동 추가, 첫 시도는 캡션 2,263자 초과로 실패해 영어 줄여 재시도 https://www.instagram.com/reel/DgSNKVzIb1Q/ |
